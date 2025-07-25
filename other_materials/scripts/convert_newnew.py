@@ -426,7 +426,7 @@ if not os.path.exists(output_directory):
 
 if __name__ == "__main__":
     successful_conversion = 0
-    os.chdir(os.path.dirname(os.path.abspath(__file__)))
+    os.chdir(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", ".."))
     print(os.getcwd())
     
     # def_to_json(os.path.join(directory, "CS", "12C-32S__JnK.def"), os.path.join(output_directory, "CS", "12C-32S__JnK.def.json"))
