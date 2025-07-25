@@ -1,0 +1,87 @@
+EXOMOL.def                                                                      # ID
+(12C)(1H)3(37Cl)                                                                 # IsoFormula
+12C-1H3-37Cl                                                                    # Iso-slug
+OYT                                                                             # Isotopologue dataset name
+20180601                                                                        # Version number with format YYYYMMDD
+NEHMKBQYUWJMIP-HQMMCQRPSA-N                                                     # Inchi key of molecule
+5                                                                               # Number of atoms
+12                                                                              # Isotope number 1 
+C                                                                               # Element symbol 1 
+1                                                                               # Isotope number 2 
+H                                                                               # Element symbol 2 
+35                                                                              # Isotope number 3 
+Cl                                                                              # Element symbol 3 
+ 51.9893776   8.6330391e-26                                                     # Isotopologue mass (Da) and (kg)
+C3v                                                                             # Symmetry group
+3                                                                               # Number of irreducible representations
+1                                                                               # Irreducible representation ID
+A1                                                                              # Irreducible representation label
+16                                                                              # Nuclear spin degeneracy
+2                                                                               # Irreducible representation ID
+A2                                                                              # Irreducible representation label
+16                                                                              # Nuclear spin degeneracy
+3                                                                               # Irreducible representation ID
+E                                                                               # Irreducible representation label
+16                                                                              # Nuclear spin degeneracy
+ 1200.00                                                                        # Maximum temperature of linelist
+0                                                                               # No. of pressure broadeners available
+0                                                                               # Dipole availability (1=yes, 0=no)
+0                                                                               # No. of cross section files available
+0                                                                               # No. of k-coefficient files available
+0                                                                               # Lifetime availability (1=yes, 0=no)
+0                                                                               # Lande g-factor availability (1=yes, 0=no)
+10187780                                                                        # No. of states in .states file
+1                                                                               # No. of quanta cases
+stcs                                                                            # Quantum case label
+14                                                                              # No. of quanta defined
+totalSym                                                                        # Quantum label 1
+I3 %3d                                                                          # Format quantum label 1
+Gamma                                                                           # Description quantum label 1
+v1                                                                              # Quantum label 2
+I3 %3d                                                                          # Format quantum label 2
+v1 C--Cl stretch quantum number(3)                                              # Description quantum label 2
+v2                                                                              # Quantum label 3
+I3 %3d                                                                          # Format quantum label 3
+v2 C--H stretch quantum number(3)                                               # Description quantum label 3
+v3                                                                              # Quantum label 4
+I3 %3d                                                                          # Format quantum label 4
+v3 C--H stretch quantum number(3)                                               # Description quantum label 4
+v4                                                                              # Quantum label 5
+I3 %3d                                                                          # Format quantum label 5
+v4 C--H stretch quantum number(3)                                               # Description quantum label 5
+v5                                                                              # Quantum label 6
+I3 %3d                                                                          # Format quantum label 6
+v5 bend quantum number                                                          # Description quantum label 6
+v6                                                                              # Quantum label 7
+I3 %3d                                                                          # Format quantum label 7
+v6 bend quantum number                                                          # Description quantum label 7
+v7                                                                              # Quantum label 8
+I3 %3d                                                                          # Format quantum label 8
+v7 bend quantum number                                                          # Description quantum label 8
+v8                                                                              # Quantum label 9
+I3 %3d                                                                          # Format quantum label 9
+v8 bend quantum number                                                          # Description quantum label 9
+v9                                                                              # Quantum label 10
+I3 %3d                                                                          # Format quantum label 10
+v9 bend quantum number                                                          # Description quantum label 10
+VibSym                                                                          # Quantum label 11
+I3 %3d                                                                          # Format quantum label 11
+Gammav                                                                          # Description quantum label 11
+K                                                                               # Quantum label 12
+I3 %3d                                                                          # Format quantum label 12
+rot QN                                                                          # Description quantum label 12
+rotSym                                                                          # Quantum label 13
+I3 %3d                                                                          # Format quantum label 13
+GammaR                                                                          # Description quantum label 13
+Coeff                                                                           # Quantum label 14
+f4.2 %4f                                                                        # Format quantum label 14
+Coeff                                                                           # Description quantum label 14
+168039551516                                                                    # Total number of transitions
+64                                                                              # No. of transition files
+6400.0                                                                          # Maximum wavenumber (in cm-1)
+ 8000.00                                                                        # Higher energy with complete set of transitions (in cm-1)
+ 2000.00                                                                        # Maximum temperature of partition function
+1.00                                                                            # Step size of temperature
+0                                                                               # Cooling function availability (1=yes, 0=no)
+0.0750                                                                          # Default value of Lorentzian half-width for all lines (in cm-1/bar)
+0.530                                                                           # Default value of temperature exponent for all lines

@@ -1,0 +1,267 @@
+{
+    "isotopologue": {
+        "IsoFormula": "(1H)2(12C)(16O)",
+        "Iso-slug": "1H2-12C-16O",
+        "inchikey": "WSFSSNUMVMOOMR-UHFFFAOYSA-N",
+        "inchi": "1S/CH2O/c1-2/h1H2",
+        "mass_in_Da": 30.010565,
+        "point_group": "C2v"
+    },
+    "atoms": {
+        "number_of_atoms": 4,
+        "element": {
+            "H": 1,
+            "C": 12,
+            "O": 16
+        }
+    },
+    "irreducible_representations": {
+        "A1": 1,
+        "A2": 1,
+        "B1": 3,
+        "B2": 3
+    },
+    "dataset": {
+        "name": "AYTY",
+        "version": 20230430,
+        "doi": "10.5281/zenodo.5716868",
+        "max_temperature": 3000.0,
+        "n_L_default": 0.5,
+        "num_pressure_broadeners": 0,
+        "nxsec_files": 0,
+        "nkcoeff_files": 0,
+        "dipole_available": false,
+        "cooling_function_available": false,
+        "specific_heat_available": true,
+        "continuum": null,
+        "predis": null,
+        "states": {
+            "number_of_states": 10297025,
+            "max_energy": 8000.0,
+            "uncertainty_description": "Variational (Calculated) Energy (in cm-1)",
+            "uncertainties_available": true,
+            "lifetime_available": true,
+            "lande_g_available": false,
+            "num_quanta": 18,
+            "states_file_fields": [
+                {
+                    "name": "ID",
+                    "desc": "Unique integer identifier for the energy level",
+                    "ffmt": "I12",
+                    "cfmt": "%12d"
+                },
+                {
+                    "name": "E",
+                    "desc": "State energy in cm-1",
+                    "ffmt": "F12.6",
+                    "cfmt": "%12.6f"
+                },
+                {
+                    "name": "gtot",
+                    "desc": "Total energy level degeneracy",
+                    "ffmt": "I6",
+                    "cfmt": "%6d"
+                },
+                {
+                    "name": "J",
+                    "desc": "Total rotational quantum number, excluding nuclear spin",
+                    "ffmt": "I7",
+                    "cfmt": "%7d"
+                },
+                {
+                    "name": "unc",
+                    "desc": "Energy uncertainty in cm-1",
+                    "ffmt": "F12.6",
+                    "cfmt": "%12.6f"
+                },
+                {
+                    "name": "tau",
+                    "desc": "Lifetime in s",
+                    "ffmt": "ES12.4",
+                    "cfmt": "%12.4e"
+                },
+                {
+                    "name": "None:Gtot",
+                    "ffmt": "A3",
+                    "cfmt": "%3s",
+                    "desc": "[1/4] Total symmetry in C_2v_(M), Gamma = A_1_,A_2_,B_1_,B_2_"
+                },
+                {
+                    "name": "None:v1",
+                    "ffmt": "I2",
+                    "cfmt": "%2d",
+                    "desc": "v1 symmetric C-H normal mode QN"
+                },
+                {
+                    "name": "None:v2",
+                    "ffmt": "I2",
+                    "cfmt": "%2d",
+                    "desc": "v2 symmetric bend OCH normal mode QN"
+                },
+                {
+                    "name": "None:v3",
+                    "ffmt": "I2",
+                    "cfmt": "%2d",
+                    "desc": "v3 stretch  O-C normal mode QN"
+                },
+                {
+                    "name": "None:v4",
+                    "ffmt": "I2",
+                    "cfmt": "%2d",
+                    "desc": "v4 out-of-plane bend normal mode QN"
+                },
+                {
+                    "name": "None:v5",
+                    "ffmt": "I2",
+                    "cfmt": "%2d",
+                    "desc": "v5 asymmetric C-H normal mode QN"
+                },
+                {
+                    "name": "None:v6",
+                    "ffmt": "I2",
+                    "cfmt": "%2d",
+                    "desc": "v6 asymmetric bend OCH normal mode QN"
+                },
+                {
+                    "name": "None:Gvib",
+                    "ffmt": "A3",
+                    "cfmt": "%3s",
+                    "desc": "C_2v_(M) vi. symmetry Gamma(v) (local mode)"
+                },
+                {
+                    "name": "None:Ka",
+                    "ffmt": "I2",
+                    "cfmt": "%2d",
+                    "desc": "Rotational Ka quantum number"
+                },
+                {
+                    "name": "None:Kb",
+                    "ffmt": "I2",
+                    "cfmt": "%2d",
+                    "desc": "Rotational Kb quantum number"
+                },
+                {
+                    "name": "None:Grot",
+                    "ffmt": "A3",
+                    "cfmt": "%3s",
+                    "desc": "C_2v_(M) rot. symmetry Gamma(v) (local mode)"
+                },
+                {
+                    "name": "None:Coef",
+                    "ffmt": "F5.2",
+                    "cfmt": "%5.2f",
+                    "desc": "Square of the largest coefficient"
+                },
+                {
+                    "name": "None:n1",
+                    "ffmt": "I2",
+                    "cfmt": "%2d",
+                    "desc": "Local mode stretch vibrational quantum number"
+                },
+                {
+                    "name": "None:n2",
+                    "ffmt": "I2",
+                    "cfmt": "%2d",
+                    "desc": "Local mode stretch vibrational quantum number"
+                },
+                {
+                    "name": "None:n3",
+                    "ffmt": "I2",
+                    "cfmt": "%2d",
+                    "desc": "Local mode stretch vibrational quantum number"
+                },
+                {
+                    "name": "None:n4",
+                    "ffmt": "I2",
+                    "cfmt": "%2d",
+                    "desc": "Local mode bend vibrational quantum number"
+                },
+                {
+                    "name": "None:n5",
+                    "ffmt": "I2",
+                    "cfmt": "%2d",
+                    "desc": "Local mode bend vibrational quantum number"
+                },
+                {
+                    "name": "None:n6",
+                    "ffmt": "I2",
+                    "cfmt": "%2d",
+                    "desc": "Local mode out-of-plane bend vibrational quantum number"
+                },
+                {
+                    "name": "Auxiliary:SourceType",
+                    "ffmt": "A2",
+                    "cfmt": "%2s",
+                    "desc": "Ma=MARVEL,Ca=Calculated,EH=Effective Hamiltonian,IE=Isotopologue extrapolation"
+                },
+                {
+                    "name": "Auxiliary:Ecal",
+                    "ffmt": "F12.6",
+                    "cfmt": "%12.6f",
+                    "desc": "Calculated energy in cm-1"
+                }
+            ]
+        },
+        "transitions": {
+            "number_of_transitions": 12688112669,
+            "number_of_transition_files": 100,
+            "max_wavenumber": 10000.0
+        }
+    },
+    "partition_function": {
+        "max_partition_function_temperature": 3000.0,
+        "partition_function_step_size": 3.0
+    },
+    "broad": {
+        "default_Lorentzian_half-width": 0.1,
+        "default_temperature_exponent": 0.5,
+        "H2": {
+            "max_J": 9,
+            "Lorentzian_half_width": 0.137,
+            "temperature_exponent": 0.5,
+            "num_quantum_number_sets": 2,
+            "quantum_number_sets": [
+                {
+                    "code": "a3",
+                    "num_lines": 12,
+                    "num_quantum_numbers": 3,
+                    "quantum_numbers": [
+                        "J'",
+                        "K\"",
+                        "K'"
+                    ]
+                },
+                {
+                    "code": "a0",
+                    "num_lines": 10,
+                    "num_quantum_numbers": 0,
+                    "quantum_numbers": []
+                }
+            ]
+        },
+        "He": {
+            "max_J": 9,
+            "Lorentzian_half_width": 0.084,
+            "temperature_exponent": 0.5,
+            "num_quantum_number_sets": 2,
+            "quantum_number_sets": [
+                {
+                    "code": "a3",
+                    "num_lines": 12,
+                    "num_quantum_numbers": 3,
+                    "quantum_numbers": [
+                        "J'",
+                        "K\"",
+                        "K'"
+                    ]
+                },
+                {
+                    "code": "a0",
+                    "num_lines": 10,
+                    "num_quantum_numbers": 0,
+                    "quantum_numbers": []
+                }
+            ]
+        }
+    }
+}

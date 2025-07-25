@@ -1,0 +1,95 @@
+{
+    "isotopologue": {
+        "IsoFormula": "(4He)(1H)+",
+        "Iso-slug": "4He-1H_p",
+        "inchikey": "HSFAAVLNFOAYQX-UHFFFAOYSA-N",
+        "mass_in_Da": 5.010428,
+        "point_group": "Cs"
+    },
+    "atoms": {
+        "number_of_atoms": 2,
+        "element": {
+            "He": 4,
+            "H": 1
+        }
+    },
+    "irreducible_representations": {
+        "Sigma+": 2,
+        "Sigma-": 2
+    },
+    "dataset": {
+        "name": "ADJSAAM",
+        "version": 20200725,
+        "doi": "10.3847/1538-4357/ab1f65",
+        "max_temperature": 9000.0,
+        "n_L_default": 0.5,
+        "num_pressure_broadeners": 0,
+        "nxsec_files": 0,
+        "nkcoeff_files": 0,
+        "dipole_available": false,
+        "cooling_function_available": false,
+        "specific_heat_available": true,
+        "continuum": null,
+        "predis": null,
+        "states": {
+            "number_of_states": 183,
+            "max_energy": NaN,
+            "uncertainty_description": null,
+            "uncertainties_available": null,
+            "lifetime_available": false,
+            "lande_g_available": false,
+            "num_quanta": 2,
+            "states_file_fields": [
+                {
+                    "name": "ID",
+                    "desc": "Unique integer identifier for the energy level",
+                    "ffmt": "I12",
+                    "cfmt": "%12d"
+                },
+                {
+                    "name": "E",
+                    "desc": "State energy in cm-1",
+                    "ffmt": "F12.6",
+                    "cfmt": "%12.6f"
+                },
+                {
+                    "name": "gtot",
+                    "desc": "Total energy level degeneracy",
+                    "ffmt": "I6",
+                    "cfmt": "%6d"
+                },
+                {
+                    "name": "J",
+                    "desc": "Total rotational quantum number, excluding nuclear spin",
+                    "ffmt": "I7",
+                    "cfmt": "%7d"
+                },
+                {
+                    "name": "dcs:v",
+                    "ffmt": "I4",
+                    "cfmt": "%4d",
+                    "desc": "State vibrational quantum number"
+                },
+                {
+                    "name": "dcs:q/qs",
+                    "ffmt": "A2",
+                    "cfmt": "%2s",
+                    "desc": "bound/quasi-bound"
+                }
+            ]
+        },
+        "transitions": {
+            "number_of_transitions": 1431,
+            "number_of_transition_files": 1,
+            "max_wavenumber": 17691.04
+        }
+    },
+    "partition_function": {
+        "max_partition_function_temperature": 9000.0,
+        "partition_function_step_size": 1.0
+    },
+    "broad": {
+        "default_Lorentzian_half-width": 0.07,
+        "default_temperature_exponent": 0.5
+    }
+}

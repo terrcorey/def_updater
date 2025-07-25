@@ -1,0 +1,132 @@
+{
+    "isotopologue": {
+        "IsoFormula": "(27Al)(2H)",
+        "Iso-slug": "27Al-2H",
+        "inchikey": "SPRIOUNJHPCKPV-IEOVAKBOSA-N",
+        "inchi": "1S/Al.H/i;1+1",
+        "mass_in_Da": 28.9956404,
+        "point_group": "C"
+    },
+    "atoms": {
+        "number_of_atoms": 2,
+        "element": {
+            "Al": 27,
+            "H": 2
+        }
+    },
+    "irreducible_representations": {
+        "Sigma+": 18,
+        "Sigma-": 18
+    },
+    "dataset": {
+        "name": "AloHa",
+        "version": 20240307,
+        "doi": "10.1093/mnras/stad3802",
+        "max_temperature": 5000.0,
+        "n_L_default": 0.5,
+        "num_pressure_broadeners": 0,
+        "nxsec_files": 0,
+        "nkcoeff_files": 0,
+        "dipole_available": false,
+        "cooling_function_available": false,
+        "specific_heat_available": false,
+        "continuum": null,
+        "predis": null,
+        "states": {
+            "number_of_states": 50531,
+            "max_energy": 29382.888321,
+            "uncertainty_description": null,
+            "uncertainties_available": true,
+            "lifetime_available": false,
+            "lande_g_available": false,
+            "num_quanta": 7,
+            "states_file_fields": [
+                {
+                    "name": "ID",
+                    "desc": "Unique integer identifier for the energy level",
+                    "ffmt": "I12",
+                    "cfmt": "%12d"
+                },
+                {
+                    "name": "E",
+                    "desc": "State energy in cm-1",
+                    "ffmt": "F12.6",
+                    "cfmt": "%12.6f"
+                },
+                {
+                    "name": "gtot",
+                    "desc": "Total energy level degeneracy",
+                    "ffmt": "I6",
+                    "cfmt": "%6d"
+                },
+                {
+                    "name": "J",
+                    "desc": "Total rotational quantum number, excluding nuclear spin",
+                    "ffmt": "I7",
+                    "cfmt": "%7d"
+                },
+                {
+                    "name": "unc",
+                    "desc": "Energy uncertainty in cm-1",
+                    "ffmt": "F12.6",
+                    "cfmt": "%12.6f"
+                },
+                {
+                    "name": "None:+/-",
+                    "ffmt": "A1",
+                    "cfmt": "%1s",
+                    "desc": "Parity"
+                },
+                {
+                    "name": "None:e/f",
+                    "ffmt": "A1",
+                    "cfmt": "%1s",
+                    "desc": "Rotationless-parity"
+                },
+                {
+                    "name": "None:ElecState",
+                    "ffmt": "A12",
+                    "cfmt": "%12s",
+                    "desc": "Notation of the electronic state"
+                },
+                {
+                    "name": "None:v",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "State vibrational quantum number"
+                },
+                {
+                    "name": "None:Lambda",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "Projection of the electronic angular momentum"
+                },
+                {
+                    "name": "None:Sigma",
+                    "ffmt": "I5",
+                    "cfmt": "%5d",
+                    "desc": "Projection of the electronic spin"
+                },
+                {
+                    "name": "None:Omega",
+                    "ffmt": "I5",
+                    "cfmt": "%5d",
+                    "desc": "Omega = Lambda + Sigma, projection of the total angular momentum"
+                }
+            ]
+        },
+        "transitions": {
+            "number_of_transitions": 36363,
+            "number_of_transition_files": 1,
+            "max_wavenumber": 25062.541298
+        }
+    },
+    "partition_function": {
+        "max_partition_function_temperature": 5000.0,
+        "partition_function_step_size": 1.0
+    },
+    "broad": {
+        "default_Lorentzian_half-width": 0.07,
+        "default_temperature_exponent": 0.5
+    }
+}

@@ -1,0 +1,89 @@
+EXOMOL.def                                                                      # ID
+(32S)(16O)3                                                                     # IsoFormula
+32S-16O3                                                                        # Iso-slug
+UYT2                                                                            # Isotopologue dataset name
+20170107                                                                        # Version number with format YYYYMMDD
+LSNNMFCWUKXFEE-UHFFFAOYSA-N                                                     # Inchi key of molecule
+4                                                                               # Number of atoms
+32                                                                              # Isotope number 1
+S                                                                               # Element symbol 1
+16                                                                              # Isotope number 2
+O                                                                               # Element symbol 2
+79.956815 1.32771506e-25                                                        # Isotopologue mass (Da) and (kg)
+C3v                                                                             # Symmetry group
+3                                                                               # Number of irreducible representations
+A1                                                                              # Irreducible representation label 1
+1                                                                               # Nuclear spin degeneracy 1
+A2                                                                              # Irreducible representation label 2
+0                                                                               # Nuclear spin degeneracy 2
+E                                                                               # Irreducible representation label 3
+0                                                                               # Nuclear spin degeneracy 3
+800.00                                                                          # Maximum temperature of linelist
+0                                                                               # No. of pressure broadeners available
+0                                                                               # Dipole availability (1=yes, 0=no)
+0                                                                               # No. of cross section files available
+0                                                                               # No. of k-coefficient files available
+0                                                                               # Lifetime availability (1=yes, 0=no)
+0                                                                               # Lande g-factor availability (1=yes, 0=no)
+18530508                                                                        # No. of states in .states file
+1                                                                               # No. of quanta cases
+stcs                                                                            # Quantum case label
+16                                                                              # No. of quanta defined
+totalSym                                                                        # Quantum label 1
+I3 %3d                                                                          # Format quantum label 1
+Total symmetry in D3h(M): 1 = A′ , 4 = A′′                                   # Description quantum label 1
+K                                                                               # Quantum label 2
+I3 %3d                                                                          # Format quantum label 2
+Projection of J on to the z-axis                                                # Description quantum label 2
+rotSym                                                                          # Quantum label 3
+I3 %3d                                                                          # Format quantum label 3
+RotationalsymmetryinD3h(M):1=A′,2=A′,3=E′ ,4=A′′,5=A′′,6=E′′           # Description quantum label 3
+v1                                                                              # Quantum label 4
+I3 %3d                                                                          # Format quantum label 4
+Local mode vibrational quantum numbers                                          # Description quantum label 4
+v2                                                                              # Quantum label 5
+I3 %3d                                                                          # Format quantum label 5
+Local mode vibrational quantum numbers                                          # Description quantum label 5
+v3                                                                              # Quantum label 6
+I3 %3d                                                                          # Format quantum label 6
+Local mode vibrational quantum numbers                                          # Description quantum label 6
+v4                                                                              # Quantum label 7
+I3 %3d                                                                          # Format quantum label 7
+Local mode vibrational quantum numbers                                          # Description quantum label 7
+v5                                                                              # Quantum label 8
+I3 %3d                                                                          # Format quantum label 8
+Local mode vibrational quantum numbers                                          # Description quantum label 8
+v6                                                                              # Quantum label 9
+I3 %3d                                                                          # Format quantum label 9
+Local mode vibrational quantum numbers                                          # Description quantum label 9
+n1                                                                              # Quantum label 10
+I3 %3d                                                                          # Format quantum label 10
+Normal mode vibrational quantum numbers                                         # Description quantum label 10
+n2                                                                              # Quantum label 11
+I3 %3d                                                                          # Format quantum label 11
+Normal mode vibrational quantum numbers                                         # Description quantum label 11
+n3                                                                              # Quantum label 12
+I3 %3d                                                                          # Format quantum label 12
+Normal mode vibrational quantum numbers                                         # Description quantum label 12
+n4                                                                              # Quantum label 13
+I3 %3d                                                                          # Format quantum label 13
+Normal mode vibrational quantum numbers                                         # Description quantum label 13
+L3                                                                              # Quantum label 14
+I3 %3d                                                                          # Format quantum label 14
+L projections of the vibrational angular momenta                                # Description quantum label 14
+L4                                                                              # Quantum label 15
+I3 %3d                                                                          # Format quantum label 15
+L projections of the vibrational angular momenta                                # Description quantum label 15
+vibSym                                                                          # Quantum label 16
+I3 %3d                                                                          # Format quantum label 16
+VibrationalsymmetryinD3h(M):1=A′,2=A′,3=E′ ,4=A′′,5=A′′,6=E′′          # Description quantum label 16
+21413927818                                                                     # Total number of transitions
+500                                                                             # No. of transition files
+9999.92                                                                         # Maximum wavenumber (in cm-1)
+4000.00                                                                         # Higher energy with complete set of transitions (in cm-1)
+1000                                                                            # Maximum temperature of partition function
+1.0                                                                             # Step size of temperature
+0                                                                               # Cooling function availability (1=yes, 0=no)
+1                                                                               # Specific heat availability (1=yes, 0=no)
+0.0700                                                                          # Default value of Lorentzian half-width for all lines (in cm-1/bar)
+0.500                                                                           # Default value of temperature exponent for all lines

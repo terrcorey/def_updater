@@ -1,0 +1,243 @@
+{
+    "isotopologue": {
+        "IsoFormula": "(28Si)(1H)4",
+        "Iso-slug": "28Si-1H4",
+        "inchikey": "BLRPTPMANUNPDV-UHFFFAOYSA-N",
+        "inchi": "1S/H4Si/h1H4",
+        "mass_in_Da": 32.00822666,
+        "point_group": "Td"
+    },
+    "atoms": {
+        "number_of_atoms": 5,
+        "element": {
+            "Si": 28,
+            "H": 1
+        }
+    },
+    "irreducible_representations": {
+        "A1": 5,
+        "A2": 5,
+        "E": 2,
+        "T1": 3,
+        "T2": 3
+    },
+    "dataset": {
+        "name": "OY2T",
+        "version": 20170131,
+        "doi": "10.5281/zenodo.5716886",
+        "max_temperature": 1200.0,
+        "n_L_default": 0.4,
+        "num_pressure_broadeners": 0,
+        "nxsec_files": 0,
+        "nkcoeff_files": 0,
+        "dipole_available": false,
+        "cooling_function_available": false,
+        "specific_heat_available": true,
+        "continuum": null,
+        "predis": null,
+        "states": {
+            "number_of_states": 7086727,
+            "max_energy": 6000.0,
+            "uncertainty_description": null,
+            "uncertainties_available": null,
+            "lifetime_available": false,
+            "lande_g_available": false,
+            "num_quanta": 26,
+            "states_file_fields": [
+                {
+                    "name": "ID",
+                    "desc": "Unique integer identifier for the energy level",
+                    "ffmt": "I12",
+                    "cfmt": "%12d"
+                },
+                {
+                    "name": "E",
+                    "desc": "State energy in cm-1",
+                    "ffmt": "F12.6",
+                    "cfmt": "%12.6f"
+                },
+                {
+                    "name": "gtot",
+                    "desc": "Total energy level degeneracy",
+                    "ffmt": "I6",
+                    "cfmt": "%6d"
+                },
+                {
+                    "name": "J",
+                    "desc": "Total rotational quantum number, excluding nuclear spin",
+                    "ffmt": "I7",
+                    "cfmt": "%7d"
+                },
+                {
+                    "name": "sphcs:G",
+                    "ffmt": "I5",
+                    "cfmt": "%5d",
+                    "desc": "[1/5] Total symmetry in T_d_(M),Gamma=A_1,A_2,E,F_1_,F_2_"
+                },
+                {
+                    "name": "sphcs:n1",
+                    "ffmt": "I6",
+                    "cfmt": "%6d",
+                    "desc": "[0/10] A_1_-symmetry normal mode quantum number"
+                },
+                {
+                    "name": "sphcs:n2",
+                    "ffmt": "I4",
+                    "cfmt": "%4d",
+                    "desc": "[0/20] E-symmetry normal mode quantum number"
+                },
+                {
+                    "name": "sphcs:L2",
+                    "ffmt": "I4",
+                    "cfmt": "%4d",
+                    "desc": "[0/20] L_2_ vib. angular momentum quantum number"
+                },
+                {
+                    "name": "sphcs:n3",
+                    "ffmt": "I4",
+                    "cfmt": "%4d",
+                    "desc": "[0/10] F_1_-symmetry normal mode quantum number"
+                },
+                {
+                    "name": "sphcs:L3",
+                    "ffmt": "I4",
+                    "cfmt": "%4d",
+                    "desc": "[0/10] L_3_ vib. angular momentum quantum number"
+                },
+                {
+                    "name": "sphcs:M3",
+                    "ffmt": "I4",
+                    "cfmt": "%4d",
+                    "desc": "[0/10] M_3_ Multiplicity index quantum number"
+                },
+                {
+                    "name": "sphcs:n4",
+                    "ffmt": "I4",
+                    "cfmt": "%4d",
+                    "desc": "[0/20] F_2_-symmetry normal mode quantum number"
+                },
+                {
+                    "name": "sphcs:L4",
+                    "ffmt": "I4",
+                    "cfmt": "%4d",
+                    "desc": "[0/20] L_4_ vib. angular momentum quantum number"
+                },
+                {
+                    "name": "sphcs:M4",
+                    "ffmt": "I4",
+                    "cfmt": "%4d",
+                    "desc": "[0/20] M_4_ Multiplicity index quantum number"
+                },
+                {
+                    "name": "sphcs:Gv",
+                    "ffmt": "I4",
+                    "cfmt": "%4d",
+                    "desc": "[1/5] T_d_(M) vi. symmetry Gamma(v) (local mode)"
+                },
+                {
+                    "name": "sphcs:J",
+                    "ffmt": "I6",
+                    "cfmt": "%6d",
+                    "desc": "[0/39] Total angular momentum quantum number, the same as J at 34-40"
+                },
+                {
+                    "name": "sphcs:K",
+                    "ffmt": "I4",
+                    "cfmt": "%4d",
+                    "desc": "[0/39] Projection of J on axis of molec. symmetry"
+                },
+                {
+                    "name": "sphcs:Pr",
+                    "ffmt": "I4",
+                    "cfmt": "%4d",
+                    "desc": "[0/1] Rotational parity tau(rot)"
+                },
+                {
+                    "name": "sphcs:Gr",
+                    "ffmt": "I4",
+                    "cfmt": "%4d",
+                    "desc": "[1/5] T_d_(M) rot. symmetry Gamma(v) (local mode)"
+                },
+                {
+                    "name": "sphcs:N(Bl)",
+                    "ffmt": "I10",
+                    "cfmt": "%10d",
+                    "desc": "[1/97054] Reference number in the polyad"
+                },
+                {
+                    "name": "sphcs:C2",
+                    "ffmt": "F7.2",
+                    "cfmt": "%7.2f",
+                    "desc": "[0.0/1.0000] Square of the largest coefficient"
+                },
+                {
+                    "name": "sphcs:v1",
+                    "ffmt": "I4",
+                    "cfmt": "%4d",
+                    "desc": "v1 symmetric stretch quantum number(3)"
+                },
+                {
+                    "name": "sphcs:v2",
+                    "ffmt": "I4",
+                    "cfmt": "%4d",
+                    "desc": "v2 bend quantum number"
+                },
+                {
+                    "name": "sphcs:v3",
+                    "ffmt": "I4",
+                    "cfmt": "%4d",
+                    "desc": "v2 asymmetrics stretch quantum number"
+                },
+                {
+                    "name": "sphcs:v4",
+                    "ffmt": "I4",
+                    "cfmt": "%4d",
+                    "desc": "[0/10] Local mode vibrational quantum number"
+                },
+                {
+                    "name": "sphcs:v5",
+                    "ffmt": "I4",
+                    "cfmt": "%4d",
+                    "desc": "[0/20] Local mode vibrational quantum number"
+                },
+                {
+                    "name": "sphcs:v6",
+                    "ffmt": "I4",
+                    "cfmt": "%4d",
+                    "desc": "[0/20] Local mode vibrational quantum number"
+                },
+                {
+                    "name": "sphcs:v7",
+                    "ffmt": "I4",
+                    "cfmt": "%4d",
+                    "desc": "[0/20] Local mode vibrational quantum number"
+                },
+                {
+                    "name": "sphcs:v8",
+                    "ffmt": "I4",
+                    "cfmt": "%4d",
+                    "desc": "[0/20] Local mode vibrational quantum number"
+                },
+                {
+                    "name": "sphcs:v9",
+                    "ffmt": "I4",
+                    "cfmt": "%4d",
+                    "desc": "[0/20] Local mode vibrational quantum number"
+                }
+            ]
+        },
+        "transitions": {
+            "number_of_transitions": 62690449078,
+            "number_of_transition_files": 50,
+            "max_wavenumber": 8000.0
+        }
+    },
+    "partition_function": {
+        "max_partition_function_temperature": 2000.0,
+        "partition_function_step_size": 1.0
+    },
+    "broad": {
+        "default_Lorentzian_half-width": 0.0488,
+        "default_temperature_exponent": 0.4
+    }
+}

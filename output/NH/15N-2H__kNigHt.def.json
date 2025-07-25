@@ -1,0 +1,155 @@
+{
+    "isotopologue": {
+        "IsoFormula": "(15N)(2H)",
+        "Iso-slug": "15N-2H",
+        "inchikey": "PDCKRJPYJMCOFO-RMCWLEMVSA-N",
+        "mass_in_Da": 17.014211,
+        "point_group": "C"
+    },
+    "atoms": {
+        "number_of_atoms": 2,
+        "element": {
+            "N": 15,
+            "H": 2
+        }
+    },
+    "irreducible_representations": {
+        "Sigma+": 6,
+        "Sigma-": 6
+    },
+    "dataset": {
+        "name": "kNigHt",
+        "version": 20240301,
+        "doi": "10.1093/mnras/stae1340",
+        "max_temperature": 10000.0,
+        "n_L_default": 0.5,
+        "num_pressure_broadeners": 0,
+        "nxsec_files": 0,
+        "nkcoeff_files": 0,
+        "dipole_available": false,
+        "cooling_function_available": false,
+        "specific_heat_available": false,
+        "continuum": null,
+        "predis": null,
+        "states": {
+            "number_of_states": 7465,
+            "max_energy": 46295.527425,
+            "uncertainty_description": "Variational (Calculated) Energy (in cm-1)",
+            "uncertainties_available": true,
+            "lifetime_available": true,
+            "lande_g_available": true,
+            "num_quanta": 7,
+            "states_file_fields": [
+                {
+                    "name": "ID",
+                    "desc": "Unique integer identifier for the energy level",
+                    "ffmt": "I12",
+                    "cfmt": "%12d"
+                },
+                {
+                    "name": "E",
+                    "desc": "State energy in cm-1",
+                    "ffmt": "F12.6",
+                    "cfmt": "%12.6f"
+                },
+                {
+                    "name": "gtot",
+                    "desc": "Total energy level degeneracy",
+                    "ffmt": "I6",
+                    "cfmt": "%6d"
+                },
+                {
+                    "name": "J",
+                    "desc": "Total rotational quantum number, excluding nuclear spin",
+                    "ffmt": "I7",
+                    "cfmt": "%7d"
+                },
+                {
+                    "name": "unc",
+                    "desc": "Energy uncertainty in cm-1",
+                    "ffmt": "F12.6",
+                    "cfmt": "%12.6f"
+                },
+                {
+                    "name": "tau",
+                    "desc": "Lifetime in s",
+                    "ffmt": "ES12.4",
+                    "cfmt": "%12.4e"
+                },
+                {
+                    "name": "gfactor",
+                    "desc": "Lande g-factor",
+                    "ffmt": "F10.6",
+                    "cfmt": "%10.6f"
+                },
+                {
+                    "name": "dcs:+/-",
+                    "ffmt": "A1",
+                    "cfmt": "%1s",
+                    "desc": "Total parity"
+                },
+                {
+                    "name": "dcs:e/f",
+                    "ffmt": "A1",
+                    "cfmt": "%1s",
+                    "desc": "Rotationless parity"
+                },
+                {
+                    "name": "dcs:ElecState",
+                    "ffmt": "A12",
+                    "cfmt": "%12s",
+                    "desc": "Electronic states"
+                },
+                {
+                    "name": "dcs:v",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "State vibrational quantum number"
+                },
+                {
+                    "name": "dcs:Lambda",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "Electronic orbital angular momentum projection along internuclear axis"
+                },
+                {
+                    "name": "dcs:N",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "Rotational angular momentum"
+                },
+                {
+                    "name": "dcs:F",
+                    "ffmt": "I2",
+                    "cfmt": "%2d",
+                    "desc": "Fine structure counting number"
+                },
+                {
+                    "name": "Auxiliary:SourceType",
+                    "ffmt": "A2",
+                    "cfmt": "%2s",
+                    "desc": "Ma=MARVEL,Ca=Calculated,EH=Effective Hamiltonian,IE=Isotopologue extrapolation"
+                },
+                {
+                    "name": "Auxiliary:Ecal",
+                    "ffmt": "F12.6",
+                    "cfmt": "%12.6f",
+                    "desc": "Calculated energy in cm-1"
+                }
+            ]
+        },
+        "transitions": {
+            "number_of_transitions": 785940,
+            "number_of_transition_files": 1,
+            "max_wavenumber": 46205.312575
+        }
+    },
+    "partition_function": {
+        "max_partition_function_temperature": 10000.0,
+        "partition_function_step_size": 1.0
+    },
+    "broad": {
+        "default_Lorentzian_half-width": 0.07,
+        "default_temperature_exponent": 0.5
+    }
+}

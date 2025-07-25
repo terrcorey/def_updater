@@ -1,0 +1,138 @@
+{
+    "isotopologue": {
+        "IsoFormula": "(15N)(32S)",
+        "Iso-slug": "15N-32S",
+        "inchikey": "QXTCFDCJXWLNAP-UHFFFAOYSA-N",
+        "inchi": "1S/NS/c1-2",
+        "mass_in_Da": 46.97218007,
+        "point_group": "C"
+    },
+    "atoms": {
+        "number_of_atoms": 2,
+        "element": {
+            "N": 15,
+            "S": 32
+        }
+    },
+    "irreducible_representations": {
+        "Sigma+": 2,
+        "Sigma-": 2
+    },
+    "dataset": {
+        "name": "SNaSH",
+        "version": 20180101,
+        "doi": "10.5281/zenodo.5717021",
+        "max_temperature": 5000.0,
+        "n_L_default": 0.5,
+        "num_pressure_broadeners": 0,
+        "nxsec_files": 0,
+        "nkcoeff_files": 0,
+        "dipole_available": false,
+        "cooling_function_available": false,
+        "specific_heat_available": null,
+        "continuum": null,
+        "predis": null,
+        "states": {
+            "number_of_states": 33051,
+            "max_energy": 38443.08671,
+            "uncertainty_description": null,
+            "uncertainties_available": null,
+            "lifetime_available": true,
+            "lande_g_available": true,
+            "num_quanta": 7,
+            "states_file_fields": [
+                {
+                    "name": "ID",
+                    "desc": "Unique integer identifier for the energy level",
+                    "ffmt": "I12",
+                    "cfmt": "%12d"
+                },
+                {
+                    "name": "E",
+                    "desc": "State energy in cm-1",
+                    "ffmt": "F12.6",
+                    "cfmt": "%12.6f"
+                },
+                {
+                    "name": "gtot",
+                    "desc": "Total energy level degeneracy",
+                    "ffmt": "I6",
+                    "cfmt": "%6d"
+                },
+                {
+                    "name": "J",
+                    "desc": "Total rotational quantum number, excluding nuclear spin",
+                    "ffmt": "F7.1",
+                    "cfmt": "%7.1f"
+                },
+                {
+                    "name": "tau",
+                    "desc": "Lifetime in s",
+                    "ffmt": "ES12.4",
+                    "cfmt": "%12.4e"
+                },
+                {
+                    "name": "gfactor",
+                    "desc": "Lande g-factor",
+                    "ffmt": "F10.6",
+                    "cfmt": "%10.6f"
+                },
+                {
+                    "name": "None:+/-",
+                    "ffmt": "A1",
+                    "cfmt": "%1s",
+                    "desc": "Parity"
+                },
+                {
+                    "name": "None:e/f",
+                    "ffmt": "A1",
+                    "cfmt": "%1s",
+                    "desc": "Rotationless-parity"
+                },
+                {
+                    "name": "None:ElecState",
+                    "ffmt": "A4",
+                    "cfmt": "%4s",
+                    "desc": "Notation of the electronic state"
+                },
+                {
+                    "name": "None:v",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "State vibrational quantum number"
+                },
+                {
+                    "name": "None:Lambda",
+                    "ffmt": "I2",
+                    "cfmt": "%2d",
+                    "desc": "Projection of the electronic angular momentum"
+                },
+                {
+                    "name": "None:Sigma",
+                    "ffmt": "F7.5",
+                    "cfmt": "%5.1f",
+                    "desc": "Projection of the electronic spin"
+                },
+                {
+                    "name": "None:Omega",
+                    "ffmt": "F5.1",
+                    "cfmt": "%5.1f",
+                    "desc": "Omega = Lambda + Sigma, projection of the total angular momentum"
+                }
+            ]
+        },
+        "transitions": {
+            "number_of_transitions": 3479067,
+            "number_of_transition_files": 1,
+            "max_wavenumber": 38459.369011
+        }
+    },
+    "partition_function": {
+        "max_partition_function_temperature": 5000.0,
+        "partition_function_step_size": 1.0
+    },
+    "broad": {
+        "default_Lorentzian_half-width": 0.07,
+        "default_temperature_exponent": 0.5
+    }
+}

@@ -1,0 +1,53 @@
+EXOMOL.def                                                                      # ID
+(48Ti)(1H)                                                                      # IsoFormula
+48Ti-1H                                                                         # Iso-slug
+MoLLIST                                                                         # Isotopologue dataset name
+20160726                                                                        # Version number with format YYYYMMDD
+FUMHXHODRLFENL-UHFFFAOYSA-N                                                     # Inchi key of molecule
+2                                                                               # Number of atoms
+48                                                                              # Isotope number 1
+Ti                                                                              # Element symbol 1
+1                                                                               # Isotope number 2
+H                                                                               # Element symbol 2
+48.955771 8.12929690e-26                                                        # Isotopologue mass (Da) and (kg)
+C                                                                               # Symmetry group
+2                                                                               # Number of irreducible representations
+Sigma+                                                                          # Irreducible representation label 1
+2                                                                               # Nuclear spin degeneracy 1
+Sigma-                                                                          # Irreducible representation label 2
+2                                                                               # Nuclear spin degeneracy 2
+4800.00                                                                         # Maximum temperature of linelist
+0                                                                               # No. of pressure broadeners available
+0                                                                               # Dipole availability (1=yes, 0=no)
+0                                                                               # No. of cross section files available
+0                                                                               # No. of k-coefficient files available
+0                                                                               # Lifetime availability (1=yes, 0=no)
+0                                                                               # Lande g-factor availability (1=yes, 0=no)
+5788                                                                            # No. of states in .states file
+1                                                                               # No. of quanta cases
+hunda                                                                           # Quantum case label
+5                                                                               # No. of quanta defined
+v                                                                               # Quantum label 1
+I4 %4d                                                                          # Format quantum label 1
+State vibrational quantum number                                                # Description quantum label 1
+Omega                                                                           # Quantum label 2
+F4.1 %4.1f                                                                      # Format quantum label 2
+Omega = Lambda + Sigma, projection of the total angular momentum                # Description quantum label 2
+e/f                                                                             # Quantum label 3
+A4 %4s                                                                          # Format quantum label 3
+Rotationless-parity                                                             # Description quantum label 3
+par                                                                             # Quantum label 4
+A4 %4s                                                                          # Format quantum label 4
+Total parity: '+' or '-'                                                        # Description quantum label 4
+ElecState                                                                       # Quantum label 5
+A12 %12s                                                                        # Format quantum label 5
+electronic state                                                                # Description quantum label 5
+199072                                                                          # Total number of transitions
+1                                                                               # No. of transition files
+24000.00                                                                        # Maximum wavenumber (in cm-1)
+NaN                                                                             # Higher energy with complete set of transitions (in cm-1)
+4800.00                                                                         # Maximum temperature of partition function
+1.0                                                                             # Step size of temperature
+0                                                                               # Cooling function availability (1=yes, 0=no)
+0.0700                                                                          # Default value of Lorentzian half-width for all lines (in cm-1/bar)
+0.500                                                                           # Default value of temperature exponent for all lines

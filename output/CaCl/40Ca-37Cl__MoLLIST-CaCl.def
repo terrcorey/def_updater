@@ -1,0 +1,61 @@
+EXOMOL.def                                                                      # ID
+(40Ca)(37Cl)                                                                    # IsoFormula
+40Ca-37Cl                                                                       # Iso-slug
+MoLLIST-CaCl                                                                    # Isotopologue dataset name
+20240720                                                                        # Version number with format YYYYMMDD
+CFKSNBVAEBBMBR-HQMMCQRPSA-N                                                     # Inchi key of molecule
+2                                                                               # Number of atoms
+40                                                                              # Isotope number 1
+Ca                                                                              # Element symbol 1
+37                                                                              # Isotope number 2
+Cl                                                                              # Element symbol 2
+76.92849 1.277420711E-25                                                        # Isotopologue mass (Da) and (kg)
+C                                                                               # Symmetry group
+2                                                                               # Number of irreducible representations
+Sigma+                                                                          # Irreducible representation label 1
+6                                                                               # Nuclear spin degeneracy 1
+Sigma-                                                                          # Irreducible representation label 2
+6                                                                               # Nuclear spin degeneracy 2
+5000.00                                                                         # Maximum temperature of linelist
+0                                                                               # No. of pressure broadeners available
+0                                                                               # Dipole availability (1=yes, 0=no)
+0                                                                               # No. of cross section files available
+0                                                                               # No. of k-coefficient files available
+0                                                                               # Lifetime availability (1=yes, 0=no)
+0                                                                               # Lande g-factor availability (1=yes, 0=no)
+9090                                                                            # No. of states in .states file
+1                                                                               # No. of quanta cases
+dcs                                                                             # Quantum case label
+7                                                                               # No. of quanta defined
++/-                                                                             # Quantum label 1
+A1 %1s                                                                          # Format quantum label 1
+Total parity                                                                    # Description quantum label 1
+e/f                                                                             # Quantum label 2
+A1 %1s                                                                          # Format quantum label 2
+Rotationless parity                                                             # Description quantum label 2
+ElecState                                                                       # Quantum label 3
+A12 %12s                                                                        # Format quantum label 3
+Electronic states                                                               # Description quantum label 3
+v                                                                               # Quantum label 4
+I3 %3d                                                                          # Format quantum label 4
+State vibrational quantum number                                                # Description quantum label 4
+Omega                                                                           # Quantum label 5
+F5.1 %5.1f                                                                      # Format quantum label 5
+Projection of the total angular momentum Omega                                  # Description quantum label 5
+F                                                                               # Quantum label 6
+I2 %2d                                                                          # Format quantum label 6
+Fine structure counting number                                                  # Description quantum label 6
+N                                                                               # Quantum label 7
+I5 %5d                                                                          # Format quantum label 7
+Rotational angular momentum quantum number N                                    # Description quantum label 7
+41794                                                                           # Total number of transitions
+1                                                                               # No. of transition files
+17328.342660                                                                    # Maximum wavenumber (in cm-1)
+10717.376598                                                                    # Higher energy with complete set of transitions (in cm-1)
+5000.00                                                                         # Maximum temperature of partition function
+1.00                                                                            # Step size of temperature
+0                                                                               # Cooling function availability (1=yes, 0=no)
+0                                                                               # Specific heat availability (1=yes, 0=no)
+0.0700                                                                          # Default value of Lorentzian half-width for all lines (in cm-1/bar)
+0.500                                                                           # Default value of temperature exponent for all lines
+1                                                                               # Uncertainty availability (1=yes, 0=no)

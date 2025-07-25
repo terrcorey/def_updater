@@ -1,0 +1,168 @@
+{
+    "isotopologue": {
+        "IsoFormula": "(14N)2(16O)",
+        "Iso-slug": "14N2-16O",
+        "inchikey": "GQPLMRYTRLFLPF-UHFFFAOYSA-N",
+        "inchi": "1S/N2O/c1-2-3",
+        "mass_in_Da": 44.0010626,
+        "point_group": "CsM"
+    },
+    "atoms": {
+        "number_of_atoms": 3,
+        "element": {
+            "N": 14,
+            "O": 16
+        }
+    },
+    "irreducible_representations": {
+        "A'": 1,
+        "A\"": 1
+    },
+    "dataset": {
+        "name": "TYM",
+        "version": 20240527,
+        "doi": "10.1093/mnras/stae2201",
+        "max_temperature": 2000.0,
+        "n_L_default": 0.5,
+        "num_pressure_broadeners": 0,
+        "nxsec_files": 0,
+        "nkcoeff_files": 0,
+        "dipole_available": false,
+        "cooling_function_available": false,
+        "specific_heat_available": false,
+        "continuum": null,
+        "predis": null,
+        "states": {
+            "number_of_states": 1759068,
+            "max_energy": 20000.0,
+            "uncertainty_description": "Original TROVE calculated state energy (in cm-1)",
+            "uncertainties_available": true,
+            "lifetime_available": true,
+            "lande_g_available": false,
+            "num_quanta": 10,
+            "states_file_fields": [
+                {
+                    "name": "ID",
+                    "desc": "Unique integer identifier for the energy level",
+                    "ffmt": "I12",
+                    "cfmt": "%12d"
+                },
+                {
+                    "name": "E",
+                    "desc": "State energy in cm-1",
+                    "ffmt": "F12.6",
+                    "cfmt": "%12.6f"
+                },
+                {
+                    "name": "gtot",
+                    "desc": "Total energy level degeneracy",
+                    "ffmt": "I6",
+                    "cfmt": "%6d"
+                },
+                {
+                    "name": "J",
+                    "desc": "Total rotational quantum number, excluding nuclear spin",
+                    "ffmt": "I7",
+                    "cfmt": "%7d"
+                },
+                {
+                    "name": "unc",
+                    "desc": "Energy uncertainty in cm-1",
+                    "ffmt": "F12.6",
+                    "cfmt": "%12.6f"
+                },
+                {
+                    "name": "tau",
+                    "desc": "Lifetime in s",
+                    "ffmt": "ES12.4",
+                    "cfmt": "%12.4e"
+                },
+                {
+                    "name": "None:Gtot",
+                    "ffmt": "A3",
+                    "cfmt": "%3s",
+                    "desc": "Total symmetry index in Cs(M)"
+                },
+                {
+                    "name": "None:n1",
+                    "ffmt": "I2",
+                    "cfmt": "%2d",
+                    "desc": "Normal mode stretching N-N quantum number"
+                },
+                {
+                    "name": "None:n2lin",
+                    "ffmt": "I2",
+                    "cfmt": "%2d",
+                    "desc": "Normal mode bending quantum number"
+                },
+                {
+                    "name": "None:l2",
+                    "ffmt": "I2",
+                    "cfmt": "%2d",
+                    "desc": "Normal mode vibrational angular momentum quantum number"
+                },
+                {
+                    "name": "None:n3",
+                    "ffmt": "I2",
+                    "cfmt": "%2d",
+                    "desc": "Normal mode stretching N-O quantum number"
+                },
+                {
+                    "name": "None:P",
+                    "ffmt": "I2",
+                    "cfmt": "%2d",
+                    "desc": "Polyad number P = 2n1 + nlin + 4n3"
+                },
+                {
+                    "name": "None:N",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "Polyad counting number"
+                },
+                {
+                    "name": "None:v1",
+                    "ffmt": "I2",
+                    "cfmt": "%2d",
+                    "desc": "TROVE stretching vibrational quantum number"
+                },
+                {
+                    "name": "None:v2",
+                    "ffmt": "I2",
+                    "cfmt": "%2d",
+                    "desc": "TROVE stretching vibrational quantum number"
+                },
+                {
+                    "name": "None:v3",
+                    "ffmt": "I2",
+                    "cfmt": "%2d",
+                    "desc": "TROVE bending vibrational quantum number"
+                },
+                {
+                    "name": "Auxiliary:SourceType",
+                    "ffmt": "A2",
+                    "cfmt": "%2s",
+                    "desc": "Ma=MARVEL,Ca=Calculated,EH=Effective Hamiltonian,IE=Isotopologue extrapolation"
+                },
+                {
+                    "name": "Auxiliary:Ecal",
+                    "ffmt": "F12.6",
+                    "cfmt": "%12.6f",
+                    "desc": "Calculated energy in cm-1"
+                }
+            ]
+        },
+        "transitions": {
+            "number_of_transitions": 1360351722,
+            "number_of_transition_files": 21,
+            "max_wavenumber": 20000.0
+        }
+    },
+    "partition_function": {
+        "max_partition_function_temperature": 3000.0,
+        "partition_function_step_size": 1.0
+    },
+    "broad": {
+        "default_Lorentzian_half-width": 0.07,
+        "default_temperature_exponent": 0.5
+    }
+}

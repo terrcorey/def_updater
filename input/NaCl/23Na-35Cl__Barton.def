@@ -1,0 +1,44 @@
+EXOMOL.def                                                                      # ID
+(23Na)(35Cl)                                                                    # IsoFormula
+23Na-35Cl                                                                       # Iso-slug
+Barton                                                                          # Isotopologue dataset name
+20160726                                                                        # Version number with format YYYYMMDD
+FAPWRFPIFSIZLT-UHFFFAOYSA-M                                                     # Inchi key of molecule
+2                                                                               # Number of atoms
+23                                                                              # Isotope number 1
+Na                                                                              # Element symbol 1
+35                                                                              # Isotope number 2
+Cl                                                                              # Element symbol 2
+   57.958622 9.62425545e-26                                                     # Isotopologue mass (Da) and (kg)
+C                                                                               # Symmetry group
+2                                                                               # Number of irreducible representations
+1                                                                               # Irreducible representation ID
+Sigma+                                                                          # Irreducible representation label
+16                                                                               # Nuclear spin degeneracy
+2                                                                               # Irreducible representation ID
+Sigma-                                                                          # Irreducible representation label
+16                                                                               # Nuclear spin degeneracy
+ 3000.00                                                                        # Maximum temperature of linelist
+0                                                                               # No. of pressure broadeners available
+0                                                                               # Dipole availability (1=yes, 0=no)
+0                                                                               # No. of cross section files available
+0                                                                               # No. of k-coefficient files available
+1                                                                               # Lifetime availability (1=yes, 0=no)
+0                                                                               # Lande g-factor availability (1=yes, 0=no)
+48937                                                                           # No. of states in .states file
+1                                                                               # No. of quanta cases
+dcs                                                                             # Quantum case label
+1                                                                               # No. of quanta defined
+v                                                                               # Quantum label 1
+I4 %4d                                                                          # Format quantum label 1
+State vibrational quantum number                                                # Description quantum label 1
+702271                                                                          # Total number of transitions
+1                                                                               # No. of transition files
+ 2457.77                                                                        # Maximum wavenumber (in cm-1)
+20000.00                                                                        # Higher energy with complete set of transitions (in cm-1)
+ 3000.00                                                                        # Maximum temperature of partition function
+ 1.00                                                                           # Step size of temperature
+0                                                                               # Cooling function availability (1=yes, 0=no)
+1                                                                               # Specific heat availability (1=yes, 0=no)
+0.0700                                                                          # Default value of Lorentzian half-width for all lines (in cm-1/bar)
+0.500                                                                           # Default value of temperature exponent for all lines

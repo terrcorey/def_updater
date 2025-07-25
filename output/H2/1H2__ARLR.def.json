@@ -1,0 +1,89 @@
+{
+    "isotopologue": {
+        "IsoFormula": "(1H)2",
+        "Iso-slug": "1H2",
+        "inchikey": "UFHFLCQGNIYNRP-UHFFFAOYSA-N",
+        "inchi": "1S/H2/h1H\n1S/H2/h1H",
+        "mass_in_Da": 1.00782503224,
+        "point_group": "D_infh(EM)"
+    },
+    "atoms": {
+        "number_of_atoms": 2,
+        "element": {
+            "H": 1
+        }
+    },
+    "irreducible_representations": {
+        "Sigma_g+": 1,
+        "Sigma_u+": 1,
+        "Sigma_g-": 3
+    },
+    "dataset": {
+        "name": "ARLR",
+        "version": 20230905,
+        "doi": "10.1139/p94-112",
+        "max_temperature": 10000.0,
+        "n_L_default": null,
+        "num_pressure_broadeners": 0,
+        "nxsec_files": 0,
+        "nkcoeff_files": 0,
+        "dipole_available": false,
+        "cooling_function_available": false,
+        "specific_heat_available": false,
+        "continuum": null,
+        "predis": null,
+        "states": {
+            "number_of_states": 2051,
+            "max_energy": null,
+            "uncertainty_description": null,
+            "uncertainties_available": null,
+            "lifetime_available": false,
+            "lande_g_available": false,
+            "num_quanta": 1,
+            "states_file_fields": [
+                {
+                    "name": "ID",
+                    "desc": "Unique integer identifier for the energy level",
+                    "ffmt": "I12",
+                    "cfmt": "%12d"
+                },
+                {
+                    "name": "E",
+                    "desc": "State energy in cm-1",
+                    "ffmt": "F12.6",
+                    "cfmt": "%12.6f"
+                },
+                {
+                    "name": "gtot",
+                    "desc": "Total energy level degeneracy",
+                    "ffmt": "I6",
+                    "cfmt": "%6d"
+                },
+                {
+                    "name": "J",
+                    "desc": "Total rotational quantum number, excluding nuclear spin",
+                    "ffmt": "I7",
+                    "cfmt": "%7d"
+                },
+                {
+                    "name": "None:V",
+                    "ffmt": "I6",
+                    "cfmt": "%6d",
+                    "desc": "Vibrational quantum number"
+                }
+            ]
+        },
+        "transitions": {
+            "number_of_transitions": 32915,
+            "max_wavenumber": 118376.59
+        }
+    },
+    "partition_function": {
+        "max_partition_function_temperature": 10000.0,
+        "partition_function_step_size": 1.0
+    },
+    "broad": {
+        "default_Lorentzian_half-width": null,
+        "default_temperature_exponent": null
+    }
+}

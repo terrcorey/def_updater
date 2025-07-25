@@ -1,0 +1,183 @@
+{
+    "isotopologue": {
+        "IsoFormula": "(1H)(12C)(14N)",
+        "Iso-slug": "1H-12C-14N",
+        "inchikey": "LELOWRISYMNNSU-UHFFFAOYSA-N",
+        "inchi": "1S/CHN/c1-2/h1H",
+        "mass_in_Da": 27.010899,
+        "point_group": "C"
+    },
+    "atoms": {
+        "number_of_atoms": 3,
+        "element": {
+            "H": 1,
+            "C": 12,
+            "N": 14
+        }
+    },
+    "irreducible_representations": {
+        "Sigma+": 6,
+        "Sigma-": 6
+    },
+    "dataset": {
+        "name": "Harris",
+        "version": 20161205,
+        "doi": "10.5281/zenodo.5716828",
+        "max_temperature": 4000.0,
+        "n_L_default": 0.5,
+        "num_pressure_broadeners": 0,
+        "nxsec_files": 0,
+        "nkcoeff_files": 0,
+        "dipole_available": true,
+        "cooling_function_available": false,
+        "specific_heat_available": true,
+        "continuum": null,
+        "predis": null,
+        "states": {
+            "number_of_states": 168110,
+            "max_energy": NaN,
+            "uncertainty_description": null,
+            "uncertainties_available": null,
+            "lifetime_available": true,
+            "lande_g_available": false,
+            "num_quanta": 7,
+            "states_file_fields": [
+                {
+                    "name": "ID",
+                    "desc": "Unique integer identifier for the energy level",
+                    "ffmt": "I12",
+                    "cfmt": "%12d"
+                },
+                {
+                    "name": "E",
+                    "desc": "State energy in cm-1",
+                    "ffmt": "F12.6",
+                    "cfmt": "%12.6f"
+                },
+                {
+                    "name": "gtot",
+                    "desc": "Total energy level degeneracy",
+                    "ffmt": "I6",
+                    "cfmt": "%6d"
+                },
+                {
+                    "name": "J",
+                    "desc": "Total rotational quantum number, excluding nuclear spin",
+                    "ffmt": "I7",
+                    "cfmt": "%7d"
+                },
+                {
+                    "name": "tau",
+                    "desc": "Lifetime in s",
+                    "ffmt": "ES12.4",
+                    "cfmt": "%12.4e"
+                },
+                {
+                    "name": "ltcs:+/-",
+                    "ffmt": "A1",
+                    "cfmt": "%1s",
+                    "desc": "Parity"
+                },
+                {
+                    "name": "ltcs:kp",
+                    "ffmt": "A1",
+                    "cfmt": "%1s",
+                    "desc": "Kronig rotationless parity"
+                },
+                {
+                    "name": "ltcs:iso",
+                    "ffmt": "I1",
+                    "cfmt": "%1d",
+                    "desc": "iso=0 for HCN, iso=1 for HNC, where known"
+                },
+                {
+                    "name": "ltcs:v1",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "v1 vibrational quantum number"
+                },
+                {
+                    "name": "ltcs:v2",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "v2 vibrational quantum number"
+                },
+                {
+                    "name": "ltcs:l2",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "l2 vibrational angular momentum quantum number"
+                },
+                {
+                    "name": "ltcs:v3",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "v3 vibrational quantum number"
+                }
+            ]
+        },
+        "transitions": {
+            "number_of_transitions": 34418408,
+            "number_of_transition_files": 1,
+            "max_wavenumber": 17585.79
+        }
+    },
+    "partition_function": {
+        "max_partition_function_temperature": 4000.0,
+        "partition_function_step_size": 1.0
+    },
+    "broad": {
+        "default_Lorentzian_half-width": 0.084,
+        "default_temperature_exponent": 0.5,
+        "H2": {
+            "max_J": 9,
+            "Lorentzian_half_width": 0.118,
+            "temperature_exponent": 0.5,
+            "num_quantum_number_sets": 2,
+            "quantum_number_sets": [
+                {
+                    "code": "a4",
+                    "num_lines": 5,
+                    "num_quantum_numbers": 4,
+                    "quantum_numbers": [
+                        "v1\"",
+                        "v2\"",
+                        "l2\"",
+                        "v3\""
+                    ]
+                },
+                {
+                    "code": "a0",
+                    "num_lines": 10,
+                    "num_quantum_numbers": 0,
+                    "quantum_numbers": []
+                }
+            ]
+        },
+        "He": {
+            "max_J": 10,
+            "Lorentzian_half_width": 0.049,
+            "temperature_exponent": 0.75,
+            "num_quantum_number_sets": 2,
+            "quantum_number_sets": [
+                {
+                    "code": "a4",
+                    "num_lines": 6,
+                    "num_quantum_numbers": 4,
+                    "quantum_numbers": [
+                        "v1\"",
+                        "v2\"",
+                        "l2\"",
+                        "v3\""
+                    ]
+                },
+                {
+                    "code": "a0",
+                    "num_lines": 11,
+                    "num_quantum_numbers": 0,
+                    "quantum_numbers": []
+                }
+            ]
+        }
+    }
+}

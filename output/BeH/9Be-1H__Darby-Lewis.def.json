@@ -1,0 +1,144 @@
+{
+    "isotopologue": {
+        "IsoFormula": "(9Be)(1H)",
+        "Iso-slug": "9Be-1H",
+        "inchikey": "AYBCUKQQDUJLQN-UHFFFAOYSA-N",
+        "inchi": "1S/Be.H",
+        "mass_in_Da": 10.020007,
+        "point_group": "C"
+    },
+    "atoms": {
+        "number_of_atoms": 2,
+        "element": {
+            "Be": 9,
+            "H": 1
+        }
+    },
+    "irreducible_representations": {
+        "Sigma+": 8,
+        "Sigma-": 8
+    },
+    "dataset": {
+        "name": "Darby-Lewis",
+        "version": 20180212,
+        "doi": "10.5281/zenodo.5362917",
+        "max_temperature": 5000.0,
+        "n_L_default": 0.5,
+        "num_pressure_broadeners": 0,
+        "nxsec_files": 0,
+        "nkcoeff_files": 0,
+        "dipole_available": false,
+        "cooling_function_available": false,
+        "specific_heat_available": true,
+        "continuum": null,
+        "predis": null,
+        "states": {
+            "number_of_states": 14950,
+            "max_energy": 40000.0,
+            "uncertainty_description": "Variational (Calculated) Energy (in cm-1)",
+            "uncertainties_available": true,
+            "lifetime_available": false,
+            "lande_g_available": false,
+            "num_quanta": 7,
+            "states_file_fields": [
+                {
+                    "name": "ID",
+                    "desc": "Unique integer identifier for the energy level",
+                    "ffmt": "I12",
+                    "cfmt": "%12d"
+                },
+                {
+                    "name": "E",
+                    "desc": "State energy in cm-1",
+                    "ffmt": "F12.6",
+                    "cfmt": "%12.6f"
+                },
+                {
+                    "name": "gtot",
+                    "desc": "Total energy level degeneracy",
+                    "ffmt": "I6",
+                    "cfmt": "%6d"
+                },
+                {
+                    "name": "J",
+                    "desc": "Total rotational quantum number, excluding nuclear spin",
+                    "ffmt": "F7.1",
+                    "cfmt": "%7.1f"
+                },
+                {
+                    "name": "unc",
+                    "desc": "Energy uncertainty in cm-1",
+                    "ffmt": "F12.6",
+                    "cfmt": "%12.6f"
+                },
+                {
+                    "name": "dcs:+/-",
+                    "ffmt": "A1",
+                    "cfmt": "%1s",
+                    "desc": "Parity"
+                },
+                {
+                    "name": "dcs:e/f",
+                    "ffmt": "A1",
+                    "cfmt": "%1s",
+                    "desc": "Rotationless-parity"
+                },
+                {
+                    "name": "dcs:ElecState",
+                    "ffmt": "A12",
+                    "cfmt": "%12s",
+                    "desc": "Notation of the electronic state"
+                },
+                {
+                    "name": "dcs:v",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "State vibrational quantum number"
+                },
+                {
+                    "name": "dcs:Lambda",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "Projection of the electronic angular momentum"
+                },
+                {
+                    "name": "dcs:Sigma",
+                    "ffmt": "F5.1",
+                    "cfmt": "%5.1f",
+                    "desc": "Projection of the electronic spin"
+                },
+                {
+                    "name": "dcs:Omega",
+                    "ffmt": "F5.1",
+                    "cfmt": "%5.1f",
+                    "desc": "Omega = Lambda + Sigma, projection of the total angular momentum"
+                },
+                {
+                    "name": "Auxiliary:SourceType",
+                    "ffmt": "A2",
+                    "cfmt": "%2s",
+                    "desc": "Ma=MARVEL,Ca=Calculated,EH=Effective Hamiltonian,IE=Isotopologue extrapolation"
+                },
+                {
+                    "name": "Auxiliary:Ecal",
+                    "ffmt": "F12.6",
+                    "cfmt": "%12.6f",
+                    "desc": "Calculated energy in cm-1"
+                }
+            ]
+        },
+        "transitions": {
+            "number_of_transitions": 592308,
+            "number_of_transition_files": 1,
+            "max_wavenumber": 40000.0
+        }
+    },
+    "partition_function": {
+        "max_partition_function_temperature": 5000.0,
+        "partition_function_step_size": 1.0
+    },
+    "broad": {
+        "default_Lorentzian_half-width": 0.07,
+        "default_temperature_exponent": 0.5
+    }
+}

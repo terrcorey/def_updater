@@ -1,0 +1,152 @@
+{
+    "isotopologue": {
+        "IsoFormula": "cis-(31P)2(1H)2",
+        "Iso-slug": "cis-31P2-1H2",
+        "inchikey": "SWJAOBXRZSMKNS-UHFFFAOYSA-N",
+        "inchi": "1S/H2P2/c1-2/h1-2H",
+        "mass_in_Da": 63.9634,
+        "point_group": "C2v"
+    },
+    "atoms": {
+        "number_of_atoms": 4,
+        "element": {
+            "P": 31,
+            "H": 1
+        }
+    },
+    "irreducible_representations": {
+        "A1": 10,
+        "A2": 10,
+        "B1": 6,
+        "B2": 6
+    },
+    "dataset": {
+        "name": "OY-Cis",
+        "version": 20190401,
+        "doi": "10.5281/zenodo.5716888",
+        "max_temperature": 1000.0,
+        "n_L_default": 0.53,
+        "num_pressure_broadeners": 0,
+        "nxsec_files": 0,
+        "nkcoeff_files": 0,
+        "dipole_available": false,
+        "cooling_function_available": false,
+        "specific_heat_available": true,
+        "continuum": null,
+        "predis": null,
+        "states": {
+            "number_of_states": 6009302,
+            "max_energy": NaN,
+            "uncertainty_description": null,
+            "uncertainties_available": null,
+            "lifetime_available": false,
+            "lande_g_available": false,
+            "num_quanta": 11,
+            "states_file_fields": [
+                {
+                    "name": "ID",
+                    "desc": "Unique integer identifier for the energy level",
+                    "ffmt": "I12",
+                    "cfmt": "%12d"
+                },
+                {
+                    "name": "E",
+                    "desc": "State energy in cm-1",
+                    "ffmt": "F12.6",
+                    "cfmt": "%12.6f"
+                },
+                {
+                    "name": "gtot",
+                    "desc": "Total energy level degeneracy",
+                    "ffmt": "I6",
+                    "cfmt": "%6d"
+                },
+                {
+                    "name": "J",
+                    "desc": "Total rotational quantum number, excluding nuclear spin",
+                    "ffmt": "I7",
+                    "cfmt": "%7d"
+                },
+                {
+                    "name": "stcs:totalSym",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "Not given"
+                },
+                {
+                    "name": "stcs:K",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "Not given"
+                },
+                {
+                    "name": "stcs:rotSym",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "Not given"
+                },
+                {
+                    "name": "stcs:l",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "Not given"
+                },
+                {
+                    "name": "stcs:v1",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "v1 Symmetric PH stretching"
+                },
+                {
+                    "name": "stcs:v2",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "v2 Symmetric bending"
+                },
+                {
+                    "name": "stcs:v3",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "v3 PP stretching"
+                },
+                {
+                    "name": "stcs:v4",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "v4 Torsional motion"
+                },
+                {
+                    "name": "stcs:v5",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "v5 Asymmetric PH stretching"
+                },
+                {
+                    "name": "stcs:v6",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "v6 Asymmetric bending"
+                },
+                {
+                    "name": "stcs:vibSym",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "Vib symmetry"
+                }
+            ]
+        },
+        "transitions": {
+            "number_of_transitions": 11020092365,
+            "number_of_transition_files": 8,
+            "max_wavenumber": 8000.0
+        }
+    },
+    "partition_function": {
+        "max_partition_function_temperature": 1000.0,
+        "partition_function_step_size": 1.0
+    },
+    "broad": {
+        "default_Lorentzian_half-width": 0.075,
+        "default_temperature_exponent": 0.53
+    }
+}

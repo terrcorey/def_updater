@@ -1,0 +1,41 @@
+EXOMOL.def                                                                      # ID
+(6Li)(19F)                                                                      # IsoFormula
+6Li-19F                                                                         # Iso-slug
+Bernath                                                                         # Isotopologue dataset name
+20180706                                                                        # Version number with format YYYYMMDD
+xxxxxxxxxxxxxxxxxxxxxxxxxxx                                                     # Inchi key of molecule
+2                                                                               # Number of atoms
+6                                                                               # Isotope number 1
+Li                                                                              # Element symbol 1
+19                                                                              # Isotope number 2
+F                                                                               # Element symbol 2
+25.013526 4.15359318e-26                                                        # Isotopologue mass (Da) and (kg)
+C                                                                               # Symmetry group
+2                                                                               # Number of irreducible representations
+Sigma+                                                                          # Irreducible representation label 1
+1                                                                               # Nuclear spin degeneracy 1
+Sigma-                                                                          # Irreducible representation label 2
+1                                                                               # Nuclear spin degeneracy 2
+5000.00                                                                         # Maximum temperature of linelist
+0                                                                               # No. of pressure broadeners available
+0                                                                               # Dipole availability (1=yes, 0=no)
+0                                                                               # No. of cross section files available
+0                                                                               # No. of k-coefficient files available
+1                                                                               # Lifetime availability (1=yes, 0=no)
+0                                                                               # Lande g-factor availability (1=yes, 0=no)
+2423                                                                            # No. of states in .states file
+1                                                                               # No. of quanta cases
+dcs                                                                             # Quantum case label
+1                                                                               # No. of quanta defined
+v                                                                               # Quantum label 1
+I6 %6d                                                                          # Format quantum label 1
+State vibrational quantum number                                                # Description quantum label 1
+10621                                                                           # Total number of transitions
+1                                                                               # No. of transition files
+1919.191                                                                        # Maximum wavenumber (in cm-1)
+42811.797                                                                       # Higher energy with complete set of transitions (in cm-1)
+5000.00                                                                         # Maximum temperature of partition function
+1.00                                                                            # Step size of temperature
+0                                                                               # Cooling function availability (1=yes, 0=no)
+0.0700                                                                          # Default value of Lorentzian half-width for all lines (in cm-1/bar)
+0.500                                                                           # Default value of temperature exponent for all lines

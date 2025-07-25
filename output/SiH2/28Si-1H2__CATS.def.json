@@ -1,0 +1,152 @@
+{
+    "isotopologue": {
+        "IsoFormula": "(1H)2(28Si)",
+        "Iso-slug": "28Si-1H2",
+        "inchikey": "XMIJDTGORVPYLW-UHFFFAOYSA-N",
+        "inchi": "1S/H2Si/h1H2",
+        "mass_in_Da": 29.9925766,
+        "point_group": "C2v"
+    },
+    "atoms": {
+        "number_of_atoms": 3,
+        "element": {
+            "H": 1,
+            "Si": 28
+        }
+    },
+    "irreducible_representations": {
+        "A1": 1,
+        "A2": 1,
+        "B1": 3,
+        "B2": 3
+    },
+    "dataset": {
+        "name": "CATS",
+        "version": 20200201,
+        "doi": "10.5281/zenodo.5716836",
+        "max_temperature": 2000.0,
+        "n_L_default": 0.5,
+        "num_pressure_broadeners": 0,
+        "nxsec_files": 0,
+        "nkcoeff_files": 0,
+        "dipole_available": false,
+        "cooling_function_available": false,
+        "specific_heat_available": true,
+        "continuum": null,
+        "predis": null,
+        "states": {
+            "number_of_states": 593804,
+            "max_energy": 20000.0,
+            "uncertainty_description": null,
+            "uncertainties_available": null,
+            "lifetime_available": false,
+            "lande_g_available": false,
+            "num_quanta": 11,
+            "states_file_fields": [
+                {
+                    "name": "ID",
+                    "desc": "Unique integer identifier for the energy level",
+                    "ffmt": "I12",
+                    "cfmt": "%12d"
+                },
+                {
+                    "name": "E",
+                    "desc": "State energy in cm-1",
+                    "ffmt": "F12.6",
+                    "cfmt": "%12.6f"
+                },
+                {
+                    "name": "gtot",
+                    "desc": "Total energy level degeneracy",
+                    "ffmt": "I6",
+                    "cfmt": "%6d"
+                },
+                {
+                    "name": "J",
+                    "desc": "Total rotational quantum number, excluding nuclear spin",
+                    "ffmt": "I7",
+                    "cfmt": "%7d"
+                },
+                {
+                    "name": "nltcs:Gamma",
+                    "ffmt": "I2",
+                    "cfmt": "%2d",
+                    "desc": "Symmetry block number (1)"
+                },
+                {
+                    "name": "nltcs:v1",
+                    "ffmt": "I2",
+                    "cfmt": "%2d",
+                    "desc": "v1 symmetric stretch quantum number(3)"
+                },
+                {
+                    "name": "nltcs:v2",
+                    "ffmt": "I2",
+                    "cfmt": "%2d",
+                    "desc": "v2 bend quantum number"
+                },
+                {
+                    "name": "nltcs:v3",
+                    "ffmt": "I2",
+                    "cfmt": "%2d",
+                    "desc": "v2 asymmetrics stretch quantum number"
+                },
+                {
+                    "name": "nltcs:Gamma_vib",
+                    "ffmt": "A2",
+                    "cfmt": "%2s",
+                    "desc": "vibrational symmetry label"
+                },
+                {
+                    "name": "nltcs:Ka",
+                    "ffmt": "I2",
+                    "cfmt": "%2d",
+                    "desc": "Ka rotational quantum number"
+                },
+                {
+                    "name": "nltcs:Kc",
+                    "ffmt": "I2",
+                    "cfmt": "%2d",
+                    "desc": "Kc rotational quantum number"
+                },
+                {
+                    "name": "nltcs:Coef",
+                    "ffmt": "f8.4",
+                    "cfmt": "%8.4f",
+                    "desc": "C_i largest contribution coefficient"
+                },
+                {
+                    "name": "nltcs:n1",
+                    "ffmt": "I2",
+                    "cfmt": "%2d",
+                    "desc": "n1 TROVE stretch quantum number"
+                },
+                {
+                    "name": "nltcs:n2",
+                    "ffmt": "I2",
+                    "cfmt": "%2d",
+                    "desc": "n2 TROVE stretch quantum number"
+                },
+                {
+                    "name": "nltcs:n3",
+                    "ffmt": "I2",
+                    "cfmt": "%2d",
+                    "desc": "n3 bend quantum number"
+                }
+            ]
+        },
+        "transitions": {
+            "number_of_transitions": 311979852,
+            "number_of_transition_files": 10,
+            "max_wavenumber": 10000.0
+        }
+    },
+    "partition_function": {
+        "max_partition_function_temperature": 2000.0,
+        "partition_function_step_size": 1.0
+    },
+    "broad": {
+        "default_Lorentzian_half-width": 0.07,
+        "default_temperature_exponent": 0.5
+    }
+}

@@ -1,0 +1,121 @@
+EXOMOL.def                                                                      # ID
+(12C)2(1H)4                                                                     # IsoFormula
+12C2-1H4                                                                        # Iso-slug
+MaYTY                                                                           # Isotopologue dataset name
+20180514                                                                        # Version number with format YYYYMMDD
+VGGSQFUCUMXWEO-UHFFFAOYSA-N                                                     # Inchi key of molecule
+6                                                                               # Number of atoms
+12                                                                              # Isotope number 1
+C                                                                               # Element symbol 1
+1                                                                               # Isotope number 2
+H                                                                               # Element symbol 2
+   28.031300 4.65468146e-26                                                     # Isotopologue mass (Da) and (kg)
+D2h                                                                             # Symmetry group
+8                                                                               # Number of irreducible representations
+1                                                                               # Irreducible representation ID
+Ag                                                                              # Irreducible representation label
+7                                                                               # Nuclear spin degeneracy
+2                                                                               # Irreducible representation ID
+Au                                                                              # Irreducible representation label
+7                                                                               # Nuclear spin degeneracy
+3                                                                               # Irreducible representation ID
+B1g                                                                             # Irreducible representation label
+3                                                                               # Nuclear spin degeneracy
+4                                                                               # Irreducible representation ID
+B1u                                                                             # Irreducible representation label
+3                                                                               # Nuclear spin degeneracy
+5                                                                               # Irreducible representation ID
+B2g                                                                             # Irreducible representation label
+3                                                                               # Nuclear spin degeneracy
+6                                                                               # Irreducible representation ID
+B2u                                                                             # Irreducible representation label
+3                                                                               # Nuclear spin degeneracy
+7                                                                               # Irreducible representation ID
+B3g                                                                             # Irreducible representation label
+3                                                                               # Nuclear spin degeneracy
+8                                                                               # Irreducible representation ID
+B3u                                                                             # Irreducible representation label
+3                                                                               # Nuclear spin degeneracy
+700.00                                                                          # Maximum temperature of linelist
+0                                                                               # No. of pressure broadeners available
+1                                                                               # Dipole availability (1=yes, 0=no)
+0                                                                               # No. of cross section files available
+0                                                                               # No. of k-coefficient files available
+0                                                                               # Lifetime availability (1=yes, 0=no)
+0                                                                               # Lande g-factor availability (1=yes, 0=no)
+45446267                                                                        # No. of states in .states file
+1                                                                               # No. of quanta cases
+local                                                                           # Quantum case label
+20                                                                              # No. of quanta defined
+G                                                                               # Quantum label 1
+I7 %7d                                                                          # Format quantum label 1
+[1/1099] Total degeneracy                                                       # Description quantum label 1
+J                                                                               # Quantum label 2
+I8 %8d                                                                          # Format quantum label 2
+[1/8] Total angular momentum                                                    # Description quantum label 2
+G                                                                               # Quantum label 3
+I5 %5d                                                                          # Format quantum label 3
+[1/8] Total symmetry in D2h(M),Gamma=A_g,A_u,B_1g,B_1u,B_2g,B_2u,B_3g,B_3u      # Description quantum label 3
+n1                                                                              # Quantum label 4
+I6 %6d                                                                          # Format quantum label 4
+[0/3] TROVE quantum number C-C local model stretch                              # Description quantum label 4
+n2                                                                              # Quantum label 5
+I4 %4d                                                                          # Format quantum label 5
+[0/3] TROVE quantum number C-H local mode stretch                               # Description quantum label 5
+n3                                                                              # Quantum label 6
+I4 %4d                                                                          # Format quantum label 6
+[0/3] TROVE quantum number C-H local mode stretch                               # Description quantum label 6
+n4                                                                              # Quantum label 7
+I4 %4d                                                                          # Format quantum label 7
+[0/3] TROVE quantum number C-H local mode stretch                               # Description quantum label 7
+n5                                                                              # Quantum label 8
+I4 %4d                                                                          # Format quantum label 8
+[0/3] TROVE quantum number C-H local mode stretch                               # Description quantum label 8
+n6                                                                              # Quantum label 9
+I4 %4d                                                                          # Format quantum label 9
+[0/3] TROVE quantum number CCH local mode bend                                  # Description quantum label 9
+n7                                                                              # Quantum label 10
+I4 %4d                                                                          # Format quantum label 10
+[0/3] TROVE quantum number CCH local mode bend                                  # Description quantum label 10
+n8                                                                              # Quantum label 11
+I4 %4d                                                                          # Format quantum label 11
+[0/3] TROVE quantum number CCH local mode bend                                  # Description quantum label 11
+n9                                                                              # Quantum label 12
+I4 %4d                                                                          # Format quantum label 12
+[0/3] TROVE quantum number CCH local mode bend                                  # Description quantum label 12
+n10                                                                             # Quantum label 13
+I4 %4d                                                                          # Format quantum label 13
+[0/6] TROVE quantum number Beta1 local mode bend                                # Description quantum label 13
+n11                                                                             # Quantum label 14
+I4 %4d                                                                          # Format quantum label 14
+[0/6] TROVE quantum number Beta2 local mode bend                                # Description quantum label 14
+n12                                                                             # Quantum label 15
+I4 %4d                                                                          # Format quantum label 15
+[0/6] TROVE quantum number tau local mode torsion                               # Description quantum label 15
+Gv                                                                              # Quantum label 16
+I5 %5d                                                                          # Format quantum label 16
+[0/8] Vib component  symmetry in D2h(M)                                         # Description quantum label 16
+J                                                                               # Quantum label 17
+I7 %7d                                                                          # Format quantum label 17
+[1/78] Total angular momentum                                                   # Description quantum label 17
+K                                                                               # Quantum label 18
+I4 %4d                                                                          # Format quantum label 18
+[0/78] Projection of J on axis of molec. symmetry                               # Description quantum label 18
+Pr                                                                              # Quantum label 19
+I4 %4d                                                                          # Format quantum label 19
+[0/1] Rotational parity tau(rot)                                                # Description quantum label 19
+Gr                                                                              # Quantum label 20
+I4 %4d                                                                          # Format quantum label 20
+[1/8] D_2h(M) rot. symmetry Gamma(v) (local mode)                               # Description quantum label 20
+49841085051                                                                     # Total number of transitions
+71                                                                              # No. of transition files
+7100.00                                                                         # Maximum wavenumber (in cm-1)
+12000.0                                                                         # Higher energy with complete set of transitions (in cm-1)
+ 1500.00                                                                        # Maximum temperature of partition function
+ 1.00                                                                           # Step size of temperature
+0                                                                               # Cooling function availability (1=yes, 0=no)
+1                                                                               # Specific heat availability (1=yes, 0=no)
+0.110                                                                           # Default value of Lorentzian half-width for all lines (in cm-1/bar)
+0.6                                                                             # Default value of temperature exponent for all lines
+H2                                                                              # Label for a particular broadener
+

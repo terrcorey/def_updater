@@ -1,0 +1,216 @@
+{
+    "isotopologue": {
+        "IsoFormula": "(1H)2(16O)2",
+        "Iso-slug": "1H2-16O2",
+        "inchikey": "MHAJPDPJQMAIIY-UHFFFAOYSA-N",
+        "inchi": "1S/H2O2/c1-2/h1-2H\n1S/H2O2/c1-2/h1-2H",
+        "mass_in_Da": 34.005479,
+        "point_group": "D2h"
+    },
+    "atoms": {
+        "number_of_atoms": 4,
+        "element": {
+            "H": 1,
+            "O": 16
+        }
+    },
+    "irreducible_representations": {
+        "A_g_": 1,
+        "A_u_": 1,
+        "B_1g_": 3,
+        "B_1u_": 3,
+        "B_2g_": 0,
+        "B_2u_": 0,
+        "B_3g_": 0,
+        "B_3u": 0
+    },
+    "dataset": {
+        "name": "APTY",
+        "version": 20160726,
+        "doi": "10.5281/zenodo.5716870",
+        "max_temperature": 9000.0,
+        "n_L_default": 0.5,
+        "num_pressure_broadeners": 0,
+        "nxsec_files": 0,
+        "nkcoeff_files": 0,
+        "dipole_available": false,
+        "cooling_function_available": false,
+        "specific_heat_available": true,
+        "continuum": null,
+        "predis": null,
+        "states": {
+            "number_of_states": 7560352,
+            "max_energy": 8000.0,
+            "uncertainty_description": null,
+            "uncertainties_available": null,
+            "lifetime_available": true,
+            "lande_g_available": false,
+            "num_quanta": 20,
+            "states_file_fields": [
+                {
+                    "name": "ID",
+                    "desc": "Unique integer identifier for the energy level",
+                    "ffmt": "I12",
+                    "cfmt": "%12d"
+                },
+                {
+                    "name": "E",
+                    "desc": "State energy in cm-1",
+                    "ffmt": "F12.6",
+                    "cfmt": "%12.6f"
+                },
+                {
+                    "name": "gtot",
+                    "desc": "Total energy level degeneracy",
+                    "ffmt": "I6",
+                    "cfmt": "%6d"
+                },
+                {
+                    "name": "J",
+                    "desc": "Total rotational quantum number, excluding nuclear spin",
+                    "ffmt": "I7",
+                    "cfmt": "%7d"
+                },
+                {
+                    "name": "tau",
+                    "desc": "Lifetime in s",
+                    "ffmt": "ES12.4",
+                    "cfmt": "%12.4e"
+                },
+                {
+                    "name": "None:G",
+                    "ffmt": "I5",
+                    "cfmt": "%5d",
+                    "desc": "[1/8] Total symmetry"
+                },
+                {
+                    "name": "None:v1",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "[0/16] normal mode vibrational quantum number"
+                },
+                {
+                    "name": "None:v2",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "[0/8]  normal mode vibrational quantum number"
+                },
+                {
+                    "name": "None:v3",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "[0/8] normal mode vibrational quantum number"
+                },
+                {
+                    "name": "None:v4",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "[0/14] normal mode torsional excitation quantum number"
+                },
+                {
+                    "name": "None:v5",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "[0/14] normal mode vibrational quantum number"
+                },
+                {
+                    "name": "None:v6",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "[0/16] normal mode vibrational quantum number"
+                },
+                {
+                    "name": "None:tau",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "[1/4] normal mode torsional symmetry quantum number"
+                },
+                {
+                    "name": "None:Gv",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "[1/4] D_2h_(M) vi. symmetry Gamma(v) (local mode)"
+                },
+                {
+                    "name": "None:K",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "[0/85] Projection of J on axis of molec. symmetry"
+                },
+                {
+                    "name": "None:Pr",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "[0/1] Rotational parity tau(rot)"
+                },
+                {
+                    "name": "None:Gr",
+                    "ffmt": "I5",
+                    "cfmt": "%5d",
+                    "desc": "[1/4] D_2h_(M) rot. symmetry Gamma(v) (local mode)"
+                },
+                {
+                    "name": "None:N(Bl",
+                    "ffmt": "I8",
+                    "cfmt": "%8d",
+                    "desc": "[1/67238] Reference number in the polyad"
+                },
+                {
+                    "name": "None:C2",
+                    "ffmt": "F3.2",
+                    "cfmt": "%3.2f",
+                    "desc": "[0.0/1.00] Square of the largest coefficient"
+                },
+                {
+                    "name": "None:n1",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "[0/16] Local mode vibrational quantum number"
+                },
+                {
+                    "name": "None:n2",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "[0/8] Local mode vibrational quantum number"
+                },
+                {
+                    "name": "None:n3",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "[0/8] Local mode vibrational quantum number"
+                },
+                {
+                    "name": "None:n4",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "[0/14] Local mode vibrational quantum number"
+                },
+                {
+                    "name": "None:n5",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "[0/14] Local mode vibrational quantum number"
+                },
+                {
+                    "name": "None:n6",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "[0/16] Local mode vibrational quantum number"
+                }
+            ]
+        },
+        "transitions": {
+            "number_of_transitions": 20000000,
+            "number_of_transition_files": 60,
+            "max_wavenumber": 6000.0
+        }
+    },
+    "partition_function": {
+        "max_partition_function_temperature": 1500.0,
+        "partition_function_step_size": 1.0
+    },
+    "broad": {
+        "default_Lorentzian_half-width": 0.07,
+        "default_temperature_exponent": 0.5
+    }
+}
