@@ -20,7 +20,7 @@ def find_doi(ds_name):
 
 def def_to_json(def_file_path, json_file_path):
     fname = os.path.basename(def_file_path).replace(".def", ".states")
-    mol = def_file_path.split("\\")[-2]
+    mol = def_file_path.split("/")[-2]
     states_file_path = os.path.join(states_directory, mol, fname)
     J_cfmt, J_ffmt = check_J_format(states_file_path)
     json_dict = {
