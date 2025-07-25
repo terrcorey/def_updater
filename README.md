@@ -1,8 +1,7 @@
 # def_updater
-```
 For ExoMol database files. 
-This script updates the labels in definition files (.def) for various datasets based on a JSON
-file containing updated label information.
+This script updates the labels in definition files (.def) for various datasets based on a JSON file containing updated label information.
+
 
 <def_update_testing>/
 ├── update_def_labels.py        This script
