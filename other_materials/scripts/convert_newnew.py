@@ -10,7 +10,7 @@ from update_def_labels import error_log, check_J_format
 from tqdm import tqdm
 
 def find_doi(ds_name):
-    path = "c:/Users/terrc/Desktop/Exomol/def_update_testing/states_labels.json"
+    path = os.path.join(".", "states_labels.json")
     with open(path, "r") as f:
         states_labels = json.load(f)
         for entry in states_labels:
@@ -415,10 +415,10 @@ def def_to_json(def_file_path, json_file_path):
 
 
 # Specify the directory where the downloaded files are located
-directory = 'c:/Users/terrc/Desktop/Exomol/def_update_testing/output'
-states_directory = 'd:/ExoMol/database_files'
+directory = './output'
+states_directory = './input'
 # Specify the directory where the converted JSON files will be saved
-output_directory = 'c:/Users/terrc/Desktop/Exomol/def_update_testing/output'
+output_directory = './output'
 
 # Create the output directory if it doesn't exist
 if not os.path.exists(output_directory):
@@ -426,6 +426,8 @@ if not os.path.exists(output_directory):
 
 if __name__ == "__main__":
     successful_conversion = 0
+    os.chdir(os.path.dirname(os.path.abspath(__file__)))
+    print(os.getcwd())
     
     # def_to_json(os.path.join(directory, "CS", "12C-32S__JnK.def"), os.path.join(output_directory, "CS", "12C-32S__JnK.def.json"))
 

@@ -7,10 +7,13 @@ from datetime import datetime
 import inspect
 import pandas as pd
 import re
+import requests
+import bz2
+from io import BytesIO
 
 def check_J_format(states_file_path):
-    # Reads only the first 10 rows to check the J column format
-    df = pd.read_csv(states_file_path, sep=r"\s+", header=None, nrows=10)
+    # Reads only the first row to check the J column format
+    df = pd.read_csv(states_file_path, sep=r"\s+", header=None, nrows=1)
     # Assume J is in the 4th column (index 3)
     j_col = df.iloc[:, 3]
     # If any value is not integer, use float format
@@ -35,7 +38,7 @@ def load_standard_labels():
 
 def make_def_json():
     """Creates a JSON file with the standard labels structure."""
-    os.system("python ./other_materials/scripts/convert_newnew.py")
+    os.system("python3 ./other_materials/scripts/convert_newnew.py")
 
 # Error handling and logging
 def exit_script():
@@ -354,7 +357,33 @@ def def_dict_update(def_dict, labels_list):
             mol = re.sub(r'\((\d+)([A-Za-z]*)\)', r'(\2)', def_dict["IsoFormula"])
             mol = mol.replace("(", "").replace(")", "")
             fname = def_dict["Iso-slug"] + "__" + def_dict["Isotopologue dataset name"] + ".states"
-            states_file_path = f"d:/ExoMol/database_files/{mol}/{fname}"
+            
+            states_file_path = os.path.join(".\\input", mol, fname)
+            if not os.path.exists(states_file_path):
+                url = f"https://exomol.com/db/{mol}/{def_dict['Iso-slug']}/{def_dict['Isotopologue dataset name']}/{fname}.bz2"
+                response = requests.get(url)
+                if response.status_code == 200:
+                    # Decompress only until the first line is read
+                    decompressor = bz2.BZ2Decompressor()
+                    buffer = BytesIO(response.content)
+                    line = b""
+                    while True:
+                        chunk = buffer.read(1024)
+                        if not chunk:
+                            break
+                        data = decompressor.decompress(chunk)
+                        line += data
+                        if b"\n" in line:
+                            line = line.split(b"\n", 1)[0]
+                            break
+                    # Save the first line to the states file
+                    with open(states_file_path, "wb") as f:
+                        f.write(line + b"\n")
+                else:
+                    error_log(f"Dataset: {filename} || Failed to download states file from {url}", "Error")
+                    exit_script()
+ 
+
             J_cfmt, J_ffmt = check_J_format(states_file_path)
             fmt = " ".join([J_ffmt, J_cfmt])
             new_labels[i] = {
