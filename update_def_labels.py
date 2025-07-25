@@ -42,7 +42,7 @@ def make_def_json():
 
 # Error handling and logging
 def exit_script():
-    log_file_path = ".\\log.txt"
+    log_file_path = "./log.txt"
     with open(log_file_path, 'r') as log_file:
         log_content = log_file.readlines()
     w_counter = 0
@@ -63,7 +63,7 @@ def exit_script():
 
 def error_log(message, prefix="Error"):
     """Logs an error message to a file, including the full call stack line numbers (formatted for readability)."""
-    log_file_path = ".\\log.txt"
+    log_file_path = "./log.txt"
     os.makedirs(os.path.dirname(log_file_path), exist_ok=True)
     # Build call stack info, each frame on a new line, indented
     if prefix == "Log":
@@ -358,7 +358,7 @@ def def_dict_update(def_dict, labels_list):
             mol = mol.replace("(", "").replace(")", "")
             fname = def_dict["Iso-slug"] + "__" + def_dict["Isotopologue dataset name"] + ".states"
             
-            states_file_path = os.path.join(".\\input", mol, fname)
+            states_file_path = os.path.join("./input", mol, fname)
             if not os.path.exists(states_file_path):
                 url = f"https://exomol.com/db/{mol}/{def_dict['Iso-slug']}/{def_dict['Isotopologue dataset name']}/{fname}.bz2"
                 response = requests.get(url)
@@ -409,9 +409,9 @@ def def_dict_update(def_dict, labels_list):
 
 def update_def(def_file_path, def_dict):
     """Creates a new definition file with updated labels."""
-    os.makedirs(".\\output", exist_ok = True)
-    mol = def_file_path.split("\\")[-2]
-    output_dir = os.path.join(".\\output", mol)
+    os.makedirs("./output", exist_ok = True)
+    mol = def_file_path.split("/")[-2]
+    output_dir = os.path.join("./output", mol)
     os.makedirs(output_dir, exist_ok=True)
     output_file_path = os.path.join(output_dir, os.path.basename(def_file_path))
     
@@ -485,7 +485,7 @@ def main():
     skipped_files = []
     for def_file_path in tqdm(def_paths, desc="Processing definition files"):
         global filename
-        filename = def_file_path.split("\\")[-1]
+        filename = def_file_path.split("/")[-1]
         filename = filename.replace(".def", "")
         if labels_data is not None:
             match = next((item for item in labels_data if item.get('ds_name') == filename), None)
