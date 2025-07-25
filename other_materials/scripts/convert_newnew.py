@@ -415,10 +415,10 @@ def def_to_json(def_file_path, json_file_path):
 
 
 # Specify the directory where the downloaded files are located
-directory = './output'
-states_directory = './input'
+directory = '/output'
+states_directory = '/input'
 # Specify the directory where the converted JSON files will be saved
-output_directory = './output'
+output_directory = '/output'
 
 # Create the output directory if it doesn't exist
 if not os.path.exists(output_directory):
@@ -427,7 +427,6 @@ if not os.path.exists(output_directory):
 if __name__ == "__main__":
     successful_conversion = 0
     os.chdir(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", ".."))
-    print(os.getcwd())
     
     # def_to_json(os.path.join(directory, "CS", "12C-32S__JnK.def"), os.path.join(output_directory, "CS", "12C-32S__JnK.def.json"))
 
