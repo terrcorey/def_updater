@@ -527,6 +527,6 @@ if __name__ == "__main__":
         os.remove(log_file_path)
     download_states_first_line()
     main()
-    #make_def_json()
+    make_def_json()
     exit_script()
     
