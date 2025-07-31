@@ -38,7 +38,10 @@ def load_standard_labels():
 
 def make_def_json():
     """Creates a JSON file with the standard labels structure."""
-    os.system("python3 ./other_materials/scripts/convert_newnew.py")
+    try:
+        os.system("python3 ./other_materials/scripts/convert_newnew.py")
+    except Exception as e:
+        os.system("python ./other_materials/scripts/convert_newnew.py")
 
 # Error handling and logging
 def exit_script():
