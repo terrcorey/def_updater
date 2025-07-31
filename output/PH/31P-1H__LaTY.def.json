@@ -72,31 +72,31 @@
                     "cfmt": "%10.6f"
                 },
                 {
-                    "name": "None:+/-",
+                    "name": "hundb:+/-",
                     "ffmt": "A1",
                     "cfmt": "%1s",
                     "desc": "Parity"
                 },
                 {
-                    "name": "None:e/f",
+                    "name": "hundb:e/f",
                     "ffmt": "A1",
                     "cfmt": "%1s",
                     "desc": "Rotationless-parity"
                 },
                 {
-                    "name": "None:ElecState",
+                    "name": "hundb:ElecState",
                     "ffmt": "A3",
                     "cfmt": "%3s",
                     "desc": "Notation of the electronic state"
                 },
                 {
-                    "name": "None:v",
+                    "name": "hundb:v",
                     "ffmt": "I3",
                     "cfmt": "%3d",
                     "desc": "State vibrational quantum number"
                 },
                 {
-                    "name": "None:N",
+                    "name": "hundb:N",
                     "ffmt": "I3",
                     "cfmt": "%3d",
                     "desc": "Rotational quantum number"

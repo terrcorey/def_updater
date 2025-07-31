@@ -35,7 +35,6 @@ E"                                                                              
 2                                                                               # No. of quanta cases
 stcs                                                                            # Quantum case label
 TROVE                                                                           # Quantum case label
-None                                                                            # Quantum case label
 20                                                                              # No. of quanta defined
 +/-                                                                             # Quantum label 1
 A1 %1s                                                                          # Format quantum label 1
@@ -97,9 +96,9 @@ Local mode inversion quantum number                                             
 Gvib                                                                            # Quantum label 20
 A3 %3s                                                                          # Format quantum label 20
 D3h(M) vibrational symmetry (local mode)                                        # Description quantum label 20
-Ecal                                                                            # Auxiliary label 1
-F12.6 %12.6f                                                                    # Format auxiliary label 1
-Calculated energy in cm-1                                                       # Description auxiliary label 1
+Ecal                                                                            # Auxiliary title 1
+F12.6 %12.6f                                                                    # Format title 1
+Calculated energy in cm-1                                                       # Description title 1
 16941637250                                                                     # Total number of transitions
 200                                                                             # No. of transition files
 20000.00                                                                        # Maximum wavenumber (in cm-1)

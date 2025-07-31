@@ -72,43 +72,43 @@
                     "cfmt": "%12.6f"
                 },
                 {
-                    "name": "None:+/-",
+                    "name": "hunda:+/-",
                     "ffmt": "A1",
                     "cfmt": "%1s",
                     "desc": "Parity of states"
                 },
                 {
-                    "name": "None:e/f",
+                    "name": "hunda:e/f",
                     "ffmt": "A1",
                     "cfmt": "%1s",
                     "desc": "Rotationless parity"
                 },
                 {
-                    "name": "None:g/u",
+                    "name": "hunda:g/u",
                     "ffmt": "A1",
                     "cfmt": "%1s",
                     "desc": "Gerade/ungerade"
                 },
                 {
-                    "name": "None:ElecState",
+                    "name": "hunda:ElecState",
                     "ffmt": "A12",
                     "cfmt": " %12s",
                     "desc": ""
                 },
                 {
-                    "name": "None:v",
+                    "name": "hunda:v",
                     "ffmt": "I3",
                     "cfmt": "%3d",
                     "desc": "['Electronic states', 'State vibrational quantum number']"
                 },
                 {
-                    "name": "None:F",
+                    "name": "hunda:F",
                     "ffmt": "A2",
                     "cfmt": "%2s",
                     "desc": "F1/2/3 quantum number"
                 },
                 {
-                    "name": "None:N",
+                    "name": "hunda:N",
                     "ffmt": "I5",
                     "cfmt": "%5d",
                     "desc": "Total angular momentum exclusive of electron spin"

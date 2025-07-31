@@ -61,9 +61,9 @@ Ka rotational quantum number                                                    
 Kc                                                                              # Quantum label 10
 I2 %2d                                                                          # Format quantum label 10
 Kc rotational quantum number                                                    # Description quantum label 10
-Ecal                                                                            # Auxiliary label 1
-F12.6 %12.6f                                                                    # Format auxiliary label 1
-Calculated energy in cm-1                                                       # Description auxiliary label 1
+Ecal                                                                            # Auxiliary title 1
+F12.6 %12.6f                                                                    # Format title 1
+Calculated energy in cm-1                                                       # Description title 1
 510906363                                                                       # Total number of transitions
 30                                                                              # No. of transition files
 30000.0                                                                         # Maximum wavenumber (in cm-1)

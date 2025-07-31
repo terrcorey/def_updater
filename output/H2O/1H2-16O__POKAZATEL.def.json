@@ -108,18 +108,6 @@
                     "ffmt": "A3",
                     "cfmt": "%3s",
                     "desc": "Rovibrational symmetry label"
-                },
-                {
-                    "name": "Auxiliary:Ecal",
-                    "ffmt": "F12.6",
-                    "cfmt": "%12.6f",
-                    "desc": "Calculated energy in cm-1"
-                },
-                {
-                    "name": "Auxiliary:SourceType",
-                    "ffmt": "A2",
-                    "cfmt": "%2s",
-                    "desc": "Ma=MARVEL,Ca=Calculated,EH=Effective Hamiltonian,IE=Isotopologue extrapolation"
                 }
             ]
         },

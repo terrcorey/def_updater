@@ -75,130 +75,118 @@
                     "cfmt": "%12.6f"
                 },
                 {
-                    "name": "None:Gtot",
+                    "name": "TROVE:Gtot",
                     "ffmt": "A3",
                     "cfmt": "%3s",
                     "desc": "[1/4] Total symmetry in C_2v_(M), Gamma = A_1_,A_2_,B_1_,B_2_"
                 },
                 {
-                    "name": "None:v1",
+                    "name": "TROVE:v1",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "normal mode symmetric CH stretch quantum number"
                 },
                 {
-                    "name": "None:v2",
+                    "name": "TROVE:v2",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "normal mode bend HCS quantum number"
                 },
                 {
-                    "name": "None:v3",
+                    "name": "TROVE:v3",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "normal mode CS stretch quantum number"
                 },
                 {
-                    "name": "None:v4",
+                    "name": "TROVE:v4",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "normal mode pout-of-plane bend  quantum number"
                 },
                 {
-                    "name": "None:v5",
+                    "name": "TROVE:v5",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "normal mode asymm. stretch quantum number"
                 },
                 {
-                    "name": "None:v6",
+                    "name": "TROVE:v6",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "normal mode asymm HCS bend quantum number"
                 },
                 {
-                    "name": "None:Gvib",
+                    "name": "TROVE:Gvib",
                     "ffmt": "A3",
                     "cfmt": "%3s",
                     "desc": "Symmetry of vibrational contribution C_2v_(M) Gamma(v) (local mode)"
                 },
                 {
-                    "name": "None:J",
+                    "name": "TROVE:J",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "Total angular momentum quantum number, the same as J before"
                 },
                 {
-                    "name": "None:Ka",
+                    "name": "TROVE:Ka",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "Projection of J on axis of molec. symmetry"
                 },
                 {
-                    "name": "None:Kc",
+                    "name": "TROVE:Kc",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "Projection of J rotational quantum number Kc"
                 },
                 {
-                    "name": "None:ivib",
+                    "name": "TROVE:ivib",
                     "ffmt": "I4",
                     "cfmt": "%4d",
                     "desc": "TROVE vibrational state ID"
                 },
                 {
-                    "name": "None:Coef",
+                    "name": "TROVE:Coef",
                     "ffmt": "F5.2",
                     "cfmt": "%5.2f",
                     "desc": "Square of the largest coefficient"
                 },
                 {
-                    "name": "None:n1",
+                    "name": "TROVE:n1",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "Local mode vibrational quantum number"
                 },
                 {
-                    "name": "None:n2",
+                    "name": "TROVE:n2",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "Local mode vibrational quantum number"
                 },
                 {
-                    "name": "None:n3",
+                    "name": "TROVE:n3",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "Local mode vibrational quantum number"
                 },
                 {
-                    "name": "None:n4",
+                    "name": "TROVE:n4",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "Local mode vibrational quantum number"
                 },
                 {
-                    "name": "None:n5",
+                    "name": "TROVE:n5",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "Local mode vibrational quantum number"
                 },
                 {
-                    "name": "None:n6",
+                    "name": "TROVE:n6",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "Local mode vibrational quantum number"
-                },
-                {
-                    "name": "Auxiliary:SourceType",
-                    "ffmt": "A2",
-                    "cfmt": "%2s",
-                    "desc": "Ma=MARVEL,Ca=Calculated,EH=Effective Hamiltonian,IE=Isotopologue extrapolation"
-                },
-                {
-                    "name": "Auxiliary:Ecal",
-                    "ffmt": "F12.6",
-                    "cfmt": "%12.6f",
-                    "desc": "Calculated energy in cm-1"
                 }
             ]
         },

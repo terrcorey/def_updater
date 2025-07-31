@@ -33,7 +33,7 @@
         "states": {
             "number_of_states": 91067,
             "max_energy": 30000.0,
-            "uncertainty_description": null,
+            "uncertainty_description": "Calculated energy in cm-1",
             "uncertainties_available": null,
             "lifetime_available": true,
             "lande_g_available": true,
@@ -76,58 +76,46 @@
                     "cfmt": "%10.6f"
                 },
                 {
-                    "name": "None:+/-",
+                    "name": "hunda:+/-",
                     "ffmt": "A1",
                     "cfmt": "%1s",
                     "desc": "Parity"
                 },
                 {
-                    "name": "None:e/f",
+                    "name": "hunda:e/f",
                     "ffmt": "A1",
                     "cfmt": "%1s",
                     "desc": "Rotationless-parity"
                 },
                 {
-                    "name": "None:ElecState",
+                    "name": "hunda:ElecState",
                     "ffmt": "A12",
                     "cfmt": "%12s",
                     "desc": "Notation of the electronic state"
                 },
                 {
-                    "name": "None:v",
+                    "name": "hunda:v",
                     "ffmt": "I3",
                     "cfmt": "%3d",
                     "desc": "State vibrational quantum number"
                 },
                 {
-                    "name": "None:Lambda",
+                    "name": "hunda:Lambda",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "Projection of the electronic angular momentum"
                 },
                 {
-                    "name": "None:Sigma",
+                    "name": "hunda:Sigma",
                     "ffmt": "F5.1",
                     "cfmt": "%5.1f",
                     "desc": "Projection of the electronic spin"
                 },
                 {
-                    "name": "None:Omega",
+                    "name": "hunda:Omega",
                     "ffmt": "F5.1",
                     "cfmt": "%5.1f",
                     "desc": "Omega = Lambda + Sigma, projection of the total angular momentum"
-                },
-                {
-                    "name": "Auxiliary:SourceType",
-                    "ffmt": "A2",
-                    "cfmt": "%2s",
-                    "desc": "Ma=MARVEL,Ca=Calculated,EH=Effective Hamiltonian,IE=Isotopologue extrapolation"
-                },
-                {
-                    "name": "Auxiliary:Ecal",
-                    "ffmt": "F12.6",
-                    "cfmt": "%12.6f",
-                    "desc": "Calculated energy in cm-1"
                 }
             ]
         },

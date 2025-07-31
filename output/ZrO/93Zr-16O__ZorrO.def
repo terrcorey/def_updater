@@ -48,15 +48,12 @@ Projection of the electronic spin                                               
 Omega                                                                           # Quantum label 7
 I5 %5d                                                                          # Format quantum label 7
 Omega = Lambda + Sigma, projection of the total angular momentum                # Description quantum label 7
-SourceType                                                                      # Auxiliary label 1
-A2 %2s                                                                          # Format auxiliary label 1
-Ma=MARVEL,Ca=Calculated,EH=Effective Hamiltonian,IE=Isotopologue extrapolation  # Description auxiliary label 1
-Ecal                                                                            # Auxiliary label 2
-F12.6 %12.6f                                                                    # Format auxiliary label 2
-Calculated energy in cm-1                                                       # Description auxiliary label 2
-Source                                                                          # Auxiliary title 1
+SourceType                                                                      # Auxiliary title 1
 A2 %2s                                                                          # Format title 1
-'EH', 'Ma' is for MARVEL and 'Ca' is for calculated                             # Description title 1
+Ma=MARVEL,Ca=Calculated,EH=Effective Hamiltonian,IE=Isotopologue extrapolation  # Description title 1
+Ecal                                                                            # Auxiliary title 2
+F12.6 %12.6f                                                                    # Format title 2
+Calculated energy in cm-1                                                       # Description title 2
 47928979                                                                        # Total number of transitions
 1                                                                               # No. of transition files
 30000.00                                                                        # Maximum wavenumber (in cm-1)

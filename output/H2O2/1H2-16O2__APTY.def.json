@@ -78,121 +78,121 @@
                     "cfmt": "%12.4e"
                 },
                 {
-                    "name": "None:G",
+                    "name": "TROVE:G",
                     "ffmt": "I5",
                     "cfmt": "%5d",
                     "desc": "[1/8] Total symmetry"
                 },
                 {
-                    "name": "None:v1",
+                    "name": "TROVE:v1",
                     "ffmt": "I3",
                     "cfmt": "%3d",
                     "desc": "[0/16] normal mode vibrational quantum number"
                 },
                 {
-                    "name": "None:v2",
+                    "name": "TROVE:v2",
                     "ffmt": "I3",
                     "cfmt": "%3d",
                     "desc": "[0/8]  normal mode vibrational quantum number"
                 },
                 {
-                    "name": "None:v3",
+                    "name": "TROVE:v3",
                     "ffmt": "I3",
                     "cfmt": "%3d",
                     "desc": "[0/8] normal mode vibrational quantum number"
                 },
                 {
-                    "name": "None:v4",
+                    "name": "TROVE:v4",
                     "ffmt": "I3",
                     "cfmt": "%3d",
                     "desc": "[0/14] normal mode torsional excitation quantum number"
                 },
                 {
-                    "name": "None:v5",
+                    "name": "TROVE:v5",
                     "ffmt": "I3",
                     "cfmt": "%3d",
                     "desc": "[0/14] normal mode vibrational quantum number"
                 },
                 {
-                    "name": "None:v6",
+                    "name": "TROVE:v6",
                     "ffmt": "I3",
                     "cfmt": "%3d",
                     "desc": "[0/16] normal mode vibrational quantum number"
                 },
                 {
-                    "name": "None:tau",
+                    "name": "TROVE:tau",
                     "ffmt": "I3",
                     "cfmt": "%3d",
                     "desc": "[1/4] normal mode torsional symmetry quantum number"
                 },
                 {
-                    "name": "None:Gv",
+                    "name": "TROVE:Gv",
                     "ffmt": "I3",
                     "cfmt": "%3d",
                     "desc": "[1/4] D_2h_(M) vi. symmetry Gamma(v) (local mode)"
                 },
                 {
-                    "name": "None:K",
+                    "name": "TROVE:K",
                     "ffmt": "I3",
                     "cfmt": "%3d",
                     "desc": "[0/85] Projection of J on axis of molec. symmetry"
                 },
                 {
-                    "name": "None:Pr",
+                    "name": "TROVE:Pr",
                     "ffmt": "I3",
                     "cfmt": "%3d",
                     "desc": "[0/1] Rotational parity tau(rot)"
                 },
                 {
-                    "name": "None:Gr",
+                    "name": "TROVE:Gr",
                     "ffmt": "I5",
                     "cfmt": "%5d",
                     "desc": "[1/4] D_2h_(M) rot. symmetry Gamma(v) (local mode)"
                 },
                 {
-                    "name": "None:N(Bl",
+                    "name": "TROVE:N(Bl",
                     "ffmt": "I8",
                     "cfmt": "%8d",
                     "desc": "[1/67238] Reference number in the polyad"
                 },
                 {
-                    "name": "None:C2",
+                    "name": "TROVE:C2",
                     "ffmt": "F3.2",
                     "cfmt": "%3.2f",
                     "desc": "[0.0/1.00] Square of the largest coefficient"
                 },
                 {
-                    "name": "None:n1",
+                    "name": "TROVE:n1",
                     "ffmt": "I3",
                     "cfmt": "%3d",
                     "desc": "[0/16] Local mode vibrational quantum number"
                 },
                 {
-                    "name": "None:n2",
+                    "name": "TROVE:n2",
                     "ffmt": "I3",
                     "cfmt": "%3d",
                     "desc": "[0/8] Local mode vibrational quantum number"
                 },
                 {
-                    "name": "None:n3",
+                    "name": "TROVE:n3",
                     "ffmt": "I3",
                     "cfmt": "%3d",
                     "desc": "[0/8] Local mode vibrational quantum number"
                 },
                 {
-                    "name": "None:n4",
+                    "name": "TROVE:n4",
                     "ffmt": "I3",
                     "cfmt": "%3d",
                     "desc": "[0/14] Local mode vibrational quantum number"
                 },
                 {
-                    "name": "None:n5",
+                    "name": "TROVE:n5",
                     "ffmt": "I3",
                     "cfmt": "%3d",
                     "desc": "[0/14] Local mode vibrational quantum number"
                 },
                 {
-                    "name": "None:n6",
+                    "name": "TROVE:n6",
                     "ffmt": "I3",
                     "cfmt": "%3d",
                     "desc": "[0/16] Local mode vibrational quantum number"

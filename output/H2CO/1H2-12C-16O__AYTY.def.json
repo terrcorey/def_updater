@@ -81,124 +81,112 @@
                     "cfmt": "%12.4e"
                 },
                 {
-                    "name": "None:Gtot",
+                    "name": "TROVE:Gtot",
                     "ffmt": "A3",
                     "cfmt": "%3s",
                     "desc": "[1/4] Total symmetry in C_2v_(M), Gamma = A_1_,A_2_,B_1_,B_2_"
                 },
                 {
-                    "name": "None:v1",
+                    "name": "TROVE:v1",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "v1 symmetric C-H normal mode QN"
                 },
                 {
-                    "name": "None:v2",
+                    "name": "TROVE:v2",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "v2 symmetric bend OCH normal mode QN"
                 },
                 {
-                    "name": "None:v3",
+                    "name": "TROVE:v3",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "v3 stretch  O-C normal mode QN"
                 },
                 {
-                    "name": "None:v4",
+                    "name": "TROVE:v4",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "v4 out-of-plane bend normal mode QN"
                 },
                 {
-                    "name": "None:v5",
+                    "name": "TROVE:v5",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "v5 asymmetric C-H normal mode QN"
                 },
                 {
-                    "name": "None:v6",
+                    "name": "TROVE:v6",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "v6 asymmetric bend OCH normal mode QN"
                 },
                 {
-                    "name": "None:Gvib",
+                    "name": "TROVE:Gvib",
                     "ffmt": "A3",
                     "cfmt": "%3s",
                     "desc": "C_2v_(M) vi. symmetry Gamma(v) (local mode)"
                 },
                 {
-                    "name": "None:Ka",
+                    "name": "TROVE:Ka",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "Rotational Ka quantum number"
                 },
                 {
-                    "name": "None:Kb",
+                    "name": "TROVE:Kb",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "Rotational Kb quantum number"
                 },
                 {
-                    "name": "None:Grot",
+                    "name": "TROVE:Grot",
                     "ffmt": "A3",
                     "cfmt": "%3s",
                     "desc": "C_2v_(M) rot. symmetry Gamma(v) (local mode)"
                 },
                 {
-                    "name": "None:Coef",
+                    "name": "TROVE:Coef",
                     "ffmt": "F5.2",
                     "cfmt": "%5.2f",
                     "desc": "Square of the largest coefficient"
                 },
                 {
-                    "name": "None:n1",
+                    "name": "TROVE:n1",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "Local mode stretch vibrational quantum number"
                 },
                 {
-                    "name": "None:n2",
+                    "name": "TROVE:n2",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "Local mode stretch vibrational quantum number"
                 },
                 {
-                    "name": "None:n3",
+                    "name": "TROVE:n3",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "Local mode stretch vibrational quantum number"
                 },
                 {
-                    "name": "None:n4",
+                    "name": "TROVE:n4",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "Local mode bend vibrational quantum number"
                 },
                 {
-                    "name": "None:n5",
+                    "name": "TROVE:n5",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "Local mode bend vibrational quantum number"
                 },
                 {
-                    "name": "None:n6",
+                    "name": "TROVE:n6",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "Local mode out-of-plane bend vibrational quantum number"
-                },
-                {
-                    "name": "Auxiliary:SourceType",
-                    "ffmt": "A2",
-                    "cfmt": "%2s",
-                    "desc": "Ma=MARVEL,Ca=Calculated,EH=Effective Hamiltonian,IE=Isotopologue extrapolation"
-                },
-                {
-                    "name": "Auxiliary:Ecal",
-                    "ffmt": "F12.6",
-                    "cfmt": "%12.6f",
-                    "desc": "Calculated energy in cm-1"
                 }
             ]
         },

@@ -74,94 +74,82 @@
                     "cfmt": "%12.6f"
                 },
                 {
-                    "name": "None:Gtot",
+                    "name": "stcs:Gtot",
                     "ffmt": "A3",
                     "cfmt": "%3s",
                     "desc": "Total symmetry"
                 },
                 {
-                    "name": "None:n1",
+                    "name": "stcs:n1",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "n1 Symmetric CC stretching"
                 },
                 {
-                    "name": "None:n2",
+                    "name": "stcs:n2",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "n2 CH stretching"
                 },
                 {
-                    "name": "None:n3",
+                    "name": "stcs:n3",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "n3 CH stretching"
                 },
                 {
-                    "name": "None:n4",
+                    "name": "stcs:n4",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "n4 CHH bending"
                 },
                 {
-                    "name": "None:n5",
+                    "name": "stcs:n5",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "n5 CHH bending"
                 },
                 {
-                    "name": "None:n6",
+                    "name": "stcs:n6",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "n6 CHH bending"
                 },
                 {
-                    "name": "None:n7",
+                    "name": "stcs:n7",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "n7 CHH bending"
                 },
                 {
-                    "name": "None:Gvib",
+                    "name": "stcs:Gvib",
                     "ffmt": "A3",
                     "cfmt": "%3s",
                     "desc": "Vibrational symmetry"
                 },
                 {
-                    "name": "None:K",
+                    "name": "stcs:K",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "Projection of J on the axis of molecular rotational symmetry"
                 },
                 {
-                    "name": "None:e/f",
+                    "name": "stcs:e/f",
                     "ffmt": "A1",
                     "cfmt": "%1s",
                     "desc": "Rotational parity"
                 },
                 {
-                    "name": "None:Grot",
+                    "name": "stcs:Grot",
                     "ffmt": "A3",
                     "cfmt": "%3s",
                     "desc": "Rotational Symmetry"
                 },
                 {
-                    "name": "None:Coef",
+                    "name": "stcs:Coef",
                     "ffmt": "F5.2",
                     "cfmt": "%5.2f",
                     "desc": "Coefficient with the largest contribution to the (J = 0) contracted set"
-                },
-                {
-                    "name": "Auxiliary:SourceType",
-                    "ffmt": "A2",
-                    "cfmt": "%2s",
-                    "desc": "Ma=MARVEL,Ca=Calculated,EH=Effective Hamiltonian,IE=Isotopologue extrapolation"
-                },
-                {
-                    "name": "Auxiliary:Ecal",
-                    "ffmt": "F12.6",
-                    "cfmt": "%12.6f",
-                    "desc": "Calculated energy in cm-1"
                 }
             ]
         },

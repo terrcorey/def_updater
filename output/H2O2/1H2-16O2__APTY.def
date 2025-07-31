@@ -39,7 +39,6 @@ B_3u                                                                            
 2                                                                               # No. of quanta cases
 stcs                                                                            # Quantum case label
 TROVE                                                                           # Quantum case label
-None                                                                            # Quantum case label
 20                                                                              # No. of quanta defined
 G                                                                               # Quantum label 1
 I5 %5d                                                                          # Format quantum label 1

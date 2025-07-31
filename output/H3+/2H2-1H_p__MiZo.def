@@ -58,12 +58,6 @@ Rotational angular momentum quantum number                                      
 Kc                                                                              # Quantum label 9
 I2 %2d                                                                          # Format quantum label 9
 Rotational angular momentum quantum number                                      # Description quantum label 9
-SourceType                                                                      # Auxiliary label 1
-A2 %2s                                                                          # Format auxiliary label 1
-Ma=MARVEL,Ca=Calculated,EH=Effective Hamiltonian,IE=Isotopologue extrapolation  # Description auxiliary label 1
-Ecal                                                                            # Auxiliary label 2
-F12.6 %12.6f                                                                    # Format auxiliary label 2
-Calculated energy in cm-1                                                       # Description auxiliary label 2
 SourceType                                                                      # Auxiliary title 1
 A2 %2s                                                                          # Format title 1
 Indicates if the value is from MARVEL (Ma), DVR3D(Ca) or Hamilton (EH)          # Description title 1

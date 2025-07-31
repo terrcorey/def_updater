@@ -75,7 +75,7 @@ def load_standard_labels():
 def make_def_json():
     """Creates a JSON file with the standard labels structure."""
     path = os.path.join(os.getcwd(), "other_materials", "scripts", "convert_newnew.py")
-    os.system(f"python3 {path}")
+    os.system(f"python {path}")
 
 # Error handling and logging
 def exit_script():
@@ -164,21 +164,21 @@ def read_def_file(def_file_path):
             except ValueError as e:
                 error_log(f"Dataset: {filename} || Error processing quantum label '{key, def_dict[key]}': {e}")
                 continue
-        elif "Auxiliary label" in key:
+        elif "Auxiliary title" in key:
             assert key[-1].isdigit(), f"Key '{key}' does not end with a digit."
             try:
                 idx = int(key[-1])
                 label = {
-                    "Auxiliary label": def_dict[key],
-                    "Format auxiliary label": def_dict.get(f"Format auxiliary label {idx}", ""),
-                    "Description auxiliary label": def_dict.get(f"Description auxiliary label {idx}", "")
+                    "Auxiliary title": def_dict[key],
+                    "Format title": def_dict.get(f"Format title {idx}", ""),
+                    "Description title": def_dict.get(f"Description title {idx}", "")
                 }
                 auxiliary_labels.append(label)
                 def_dict.pop(key)
-                def_dict.pop(f"Format auxiliary label", None)
-                def_dict.pop(f"Description auxiliary label", None)
+                def_dict.pop(f"Format title {idx}", None)
+                def_dict.pop(f"Description title {idx}", None)
             except ValueError as e:
-                error_log(f"Dataset: {filename} || Error processing auxiliary label '{key, def_dict[key]}': {e}")
+                error_log(f"Dataset: {filename} || Error processing auxiliary title '{key, def_dict[key]}': {e}")
                 continue
 
     idx_list = def_dict["Irreducible representation ID"] 
@@ -270,6 +270,9 @@ def line_formatter(value, desc):
     """Formats a line for the new definition file."""
     value = str(value).strip()
     desc = str(desc).strip()
+    if value == "None" or value == "null" or value == None:
+        error_log(f"Dataset: {filename} || Value for '{desc}' is None or null.", "Warn")
+        return ""
     l = "EXOMOL.def                                                                      # ID"
     try:
         tot_chars = int(len(l.split("#")[0]))
@@ -358,16 +361,16 @@ def def_dict_update(def_dict, labels_list):
                 label = aux_label.split(":")[1]
                 if label == "SourceType":
                     dict = {
-                        "Auxiliary label": label,
-                        "Format auxiliary label": "A2 %2s",
-                        "Description auxiliary label": "Ma=MARVEL,Ca=Calculated,EH=Effective Hamiltonian,IE=Isotopologue extrapolation"
+                        "Auxiliary title": label,
+                        "Format title": "A2 %2s",
+                        "Description title": "Ma=MARVEL,Ca=Calculated,EH=Effective Hamiltonian,IE=Isotopologue extrapolation"
                     }
                     def_dict["Auxiliary labels"].append(dict)
                 elif label == "Ecal":
                     dict = {
-                        "Auxiliary label": label,
-                        "Format auxiliary label": "F12.6 %12.6f",
-                        "Description auxiliary label": "Calculated energy in cm-1"
+                        "Auxiliary title": label,
+                        "Format title": "F12.6 %12.6f",
+                        "Description title": "Calculated energy in cm-1"
                     }
                     def_dict["Auxiliary labels"].append(dict)
     new_labels = []
@@ -459,7 +462,18 @@ def update_def(def_file_path, def_dict):
                 elif desc == "Default value of temperature exponent for all lines":
                     output_file.write(broadener_formatter(def_dict.get("Broadening parameters", [])))
                     def_dict.pop("Broadening parameters", None)
+                elif desc == "Quantum case label":
+                    case_labels = def_dict.get("Quantum case label", [])
+                    if isinstance(case_labels, list):
+                        for case in case_labels:
+                            output_file.write(line_formatter(case, desc))
+                    else:
+                        output_file.write(line_formatter(case_labels, desc))
+                    def_dict.pop("Quantum case label", None)
 
+            from pprint import pprint
+            pprint(def_dict)
+                
             # Write any remaining entries in def_dict to the output file
             for desc, value in def_dict.items():
                 if isinstance(value, list):

@@ -34,7 +34,7 @@
         "states": {
             "number_of_states": 227134,
             "max_energy": 30000.0,
-            "uncertainty_description": "'EH', 'Ma' is for MARVEL and 'Ca' is for calculated",
+            "uncertainty_description": "Calculated energy in cm-1",
             "uncertainties_available": true,
             "lifetime_available": true,
             "lande_g_available": true,
@@ -123,18 +123,6 @@
                     "ffmt": "I5",
                     "cfmt": "%5d",
                     "desc": "Omega = Lambda + Sigma, projection of the total angular momentum"
-                },
-                {
-                    "name": "Auxiliary:SourceType",
-                    "ffmt": "A2",
-                    "cfmt": "%2s",
-                    "desc": "Ma=MARVEL,Ca=Calculated,EH=Effective Hamiltonian,IE=Isotopologue extrapolation"
-                },
-                {
-                    "name": "Auxiliary:Ecal",
-                    "ffmt": "F12.6",
-                    "cfmt": "%12.6f",
-                    "desc": "Calculated energy in cm-1"
                 }
             ]
         },

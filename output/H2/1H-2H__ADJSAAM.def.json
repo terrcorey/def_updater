@@ -71,9 +71,9 @@
                 },
                 {
                     "name": "dcs:q/qs",
-                    "ffmt": "$2s",
-                    "cfmt": "$2s",
-                    "desc": ""
+                    "ffmt": "A2",
+                    "cfmt": "%2s",
+                    "desc": "Bound/Quasi-bound"
                 }
             ]
         },

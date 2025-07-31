@@ -29,7 +29,6 @@ Sigma-                                                                          
 2                                                                               # No. of quanta cases
 ltcs                                                                            # Quantum case label
 TROVE                                                                           # Quantum case label
-None                                                                            # Quantum case label
 9                                                                               # No. of quanta defined
 Gtot                                                                            # Quantum label 1
 A3 %3s                                                                          # Format quantum label 1

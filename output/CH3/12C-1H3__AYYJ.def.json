@@ -70,121 +70,121 @@
                     "cfmt": "%7d"
                 },
                 {
-                    "name": "None:+/-",
+                    "name": "TROVE:+/-",
                     "ffmt": "A1",
                     "cfmt": "%1s",
                     "desc": "Parity"
                 },
                 {
-                    "name": "None:Gamma",
+                    "name": "TROVE:Gamma",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "Total symmetry index in D3h(M)"
                 },
                 {
-                    "name": "None:N(Block)",
+                    "name": "TROVE:N(Block)",
                     "ffmt": "I10",
                     "cfmt": "%10d",
                     "desc": "Reference number in the J-Gamma block"
                 },
                 {
-                    "name": "None:n1",
+                    "name": "TROVE:n1",
                     "ffmt": "I6",
                     "cfmt": "%6d",
                     "desc": "Symmetric stretch quantum number (normal mode)"
                 },
                 {
-                    "name": "None:n2",
+                    "name": "TROVE:n2",
                     "ffmt": "I3",
                     "cfmt": "%3d",
                     "desc": "Symmetric bend quantum number (normal mode)"
                 },
                 {
-                    "name": "None:n3",
+                    "name": "TROVE:n3",
                     "ffmt": "I3",
                     "cfmt": "%3d",
                     "desc": "Asymmetric stretch quantum number (normal mode)"
                 },
                 {
-                    "name": "None:n4",
+                    "name": "TROVE:n4",
                     "ffmt": "I4",
                     "cfmt": "%4d",
                     "desc": "Asymmetric bend quantum number (normal mode)"
                 },
                 {
-                    "name": "None:l3",
+                    "name": "TROVE:l3",
                     "ffmt": "I6",
                     "cfmt": "%6d",
                     "desc": "Asymmetric stretch angular momentum quantum no. (normal mode)"
                 },
                 {
-                    "name": "None:l4",
+                    "name": "TROVE:l4",
                     "ffmt": "I3",
                     "cfmt": "%3d",
                     "desc": "Asymmetric bend angular momentum quantum no. (normal mode)"
                 },
                 {
-                    "name": "None:tau(inv)",
+                    "name": "TROVE:tau(inv)",
                     "ffmt": "I4",
                     "cfmt": "%4d",
                     "desc": "Inversional parity (takes values 0,1)"
                 },
                 {
-                    "name": "None:J",
+                    "name": "TROVE:J",
                     "ffmt": "",
                     "cfmt": "",
                     "desc": "Total rotational angular momentum"
                 },
                 {
-                    "name": "None:K",
+                    "name": "TROVE:K",
                     "ffmt": "I3",
                     "cfmt": "%3d",
                     "desc": "Projection of J on axis of molecular symmetry"
                 },
                 {
-                    "name": "None:tau(rot)",
+                    "name": "TROVE:tau(rot)",
                     "ffmt": "I3",
                     "cfmt": "%3d",
                     "desc": "Rotational parity (takes values 0,1)"
                 },
                 {
-                    "name": "None:v1",
+                    "name": "TROVE:v1",
                     "ffmt": "I6",
                     "cfmt": "%6d",
                     "desc": "Local mode stretching quantum number (1)"
                 },
                 {
-                    "name": "None:v2",
+                    "name": "TROVE:v2",
                     "ffmt": "I3",
                     "cfmt": "%3d",
                     "desc": "Local mode stretching quantum number (2)"
                 },
                 {
-                    "name": "None:v3",
+                    "name": "TROVE:v3",
                     "ffmt": "I3",
                     "cfmt": "%3d",
                     "desc": "Local mode stretching quantum number (3)"
                 },
                 {
-                    "name": "None:v4",
+                    "name": "TROVE:v4",
                     "ffmt": "I3",
                     "cfmt": "%3d",
                     "desc": "Local mode bending quantum number (1)"
                 },
                 {
-                    "name": "None:v5",
+                    "name": "TROVE:v5",
                     "ffmt": "I3",
                     "cfmt": "%3d",
                     "desc": "Local mode bending quantum number  (2)"
                 },
                 {
-                    "name": "None:v6",
+                    "name": "TROVE:v6",
                     "ffmt": "I3",
                     "cfmt": "%3d",
                     "desc": "Local mode inversion quantum number"
                 },
                 {
-                    "name": "None:Gamma(vib)",
+                    "name": "TROVE:Gamma(vib)",
                     "ffmt": "I5",
                     "cfmt": "%5d",
                     "desc": "D3h(M) vibrational symmetry (local mode)"

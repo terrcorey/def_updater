@@ -73,55 +73,55 @@
                     "cfmt": "%12.6f"
                 },
                 {
-                    "name": "None:Gtot",
+                    "name": "TROVE:Gtot",
                     "ffmt": "A3",
                     "cfmt": "%3s",
                     "desc": "Symmetry"
                 },
                 {
-                    "name": "None:v1",
+                    "name": "TROVE:v1",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "v1 vibrational quantum number"
                 },
                 {
-                    "name": "None:v2lin",
+                    "name": "TROVE:v2lin",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "v2lin vibrational quantum number"
                 },
                 {
-                    "name": "None:L",
+                    "name": "TROVE:L",
                     "ffmt": "I3",
                     "cfmt": "%3d",
                     "desc": "L vibrational quantum number"
                 },
                 {
-                    "name": "None:v3",
+                    "name": "TROVE:v3",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "v3 vibrational quantum number"
                 },
                 {
-                    "name": "None:Coef",
+                    "name": "TROVE:Coef",
                     "ffmt": "F5.2",
                     "cfmt": "%5.2f",
                     "desc": "Conribution coefficient"
                 },
                 {
-                    "name": "None:n1",
+                    "name": "TROVE:n1",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "n1 vibrational quantum number (TROVE)"
                 },
                 {
-                    "name": "None:n2",
+                    "name": "TROVE:n2",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "n2 vibrational quantum number (TROVE)"
                 },
                 {
-                    "name": "None:n3",
+                    "name": "TROVE:n3",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "n3 vibrational quantum number (TROVE)"

@@ -29,7 +29,6 @@ Sigma_g-                                                                        
 1                                                                               # No. of quanta cases
 dcs                                                                             # Quantum case label
 hunda                                                                           # Quantum case label
-None                                                                            # Quantum case label
 7                                                                               # No. of quanta defined
 +/-                                                                             # Quantum label 1
 A1 %1s                                                                          # Format quantum label 1

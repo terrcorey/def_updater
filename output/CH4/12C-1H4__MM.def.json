@@ -38,7 +38,7 @@
         "states": {
             "number_of_states": 9155208,
             "max_energy": 18000.0,
-            "uncertainty_description": null,
+            "uncertainty_description": "Calculated energy in cm-1",
             "uncertainties_available": true,
             "lifetime_available": true,
             "lande_g_available": false,
@@ -81,160 +81,148 @@
                     "cfmt": "%12.4e"
                 },
                 {
-                    "name": "None:G",
+                    "name": "TROVE:G",
                     "ffmt": "I5",
                     "cfmt": "%5d",
                     "desc": "[1/5] Total symmetry in T_d_(M),Gamma=A_1,A_2,E,F_1_,F_2_"
                 },
                 {
-                    "name": "None:n1",
+                    "name": "TROVE:n1",
                     "ffmt": "I6",
                     "cfmt": "%6d",
                     "desc": "[0/10] A_1_-symmetry normal mode quantum number"
                 },
                 {
-                    "name": "None:n2",
+                    "name": "TROVE:n2",
                     "ffmt": "I4",
                     "cfmt": "%4d",
                     "desc": "[0/20] E-symmetry normal mode quantum number"
                 },
                 {
-                    "name": "None:L2",
+                    "name": "TROVE:L2",
                     "ffmt": "I4",
                     "cfmt": "%4d",
                     "desc": "[0/20] L_2_ vib. angular momentum quantum number"
                 },
                 {
-                    "name": "None:n3",
+                    "name": "TROVE:n3",
                     "ffmt": "I4",
                     "cfmt": "%4d",
                     "desc": "[0/10] F_1_-symmetry normal mode quantum number"
                 },
                 {
-                    "name": "None:L3",
+                    "name": "TROVE:L3",
                     "ffmt": "I4",
                     "cfmt": "%4d",
                     "desc": "[0/10] L_3_ vib. angular momentum quantum number"
                 },
                 {
-                    "name": "None:M3",
+                    "name": "TROVE:M3",
                     "ffmt": "I4",
                     "cfmt": "%4d",
                     "desc": "[0/10] M_3_ Multiplicity index quantum number"
                 },
                 {
-                    "name": "None:n4",
+                    "name": "TROVE:n4",
                     "ffmt": "I4",
                     "cfmt": "%4d",
                     "desc": "[0/20] F_2_-symmetry normal mode quantum number"
                 },
                 {
-                    "name": "None:L4",
+                    "name": "TROVE:L4",
                     "ffmt": "I4",
                     "cfmt": "%4d",
                     "desc": "[0/20] L_4_ vib. angular momentum quantum number"
                 },
                 {
-                    "name": "None:M4",
+                    "name": "TROVE:M4",
                     "ffmt": "I4",
                     "cfmt": "%4d",
                     "desc": "[0/20] M_4_ Multiplicity index quantum number"
                 },
                 {
-                    "name": "None:Gv",
+                    "name": "TROVE:Gv",
                     "ffmt": "I4",
                     "cfmt": "%4d",
                     "desc": "[1/5] T_d_(M) vi. symmetry Gamma(v) (local mode)"
                 },
                 {
-                    "name": "None:n",
+                    "name": "TROVE:n",
                     "ffmt": "I4",
                     "cfmt": "%4d",
                     "desc": "[0/39] Rotational index"
                 },
                 {
-                    "name": "None:Gr",
+                    "name": "TROVE:Gr",
                     "ffmt": "I4",
                     "cfmt": "%4d",
                     "desc": "[1/5] T_d_(M) rot. symmetry Gamma(v) (local mode)"
                 },
                 {
-                    "name": "None:i_vib",
+                    "name": "TROVE:i_vib",
                     "ffmt": "I10",
                     "cfmt": "%10d",
                     "desc": "[1/97054] Vibrational index"
                 },
                 {
-                    "name": "None:C2",
+                    "name": "TROVE:C2",
                     "ffmt": "F7.2",
                     "cfmt": "%7.2f",
                     "desc": "[0.0/1.0000]  largest coefficient"
                 },
                 {
-                    "name": "None:v1",
+                    "name": "TROVE:v1",
                     "ffmt": "I4",
                     "cfmt": "%4d",
                     "desc": "[0/10] Local mode vibrational quantum number"
                 },
                 {
-                    "name": "None:v2",
+                    "name": "TROVE:v2",
                     "ffmt": "I4",
                     "cfmt": "%4d",
                     "desc": "[0/20] Local mode vibrational quantum number"
                 },
                 {
-                    "name": "None:v3",
+                    "name": "TROVE:v3",
                     "ffmt": "I4",
                     "cfmt": "%4d",
                     "desc": "[0/20] Local mode vibrational quantum number"
                 },
                 {
-                    "name": "None:v4",
+                    "name": "TROVE:v4",
                     "ffmt": "I4",
                     "cfmt": "%4d",
                     "desc": "[0/20] Local mode vibrational quantum number"
                 },
                 {
-                    "name": "None:v5",
+                    "name": "TROVE:v5",
                     "ffmt": "I4",
                     "cfmt": "%4d",
                     "desc": "[0/20] Local mode vibrational quantum number"
                 },
                 {
-                    "name": "None:v6",
+                    "name": "TROVE:v6",
                     "ffmt": "I4",
                     "cfmt": "%4d",
                     "desc": "[0/20] Local mode vibrational quantum number"
                 },
                 {
-                    "name": "None:v7",
+                    "name": "TROVE:v7",
                     "ffmt": "I4",
                     "cfmt": "%4d",
                     "desc": "[0/20] Local mode vibrational quantum number"
                 },
                 {
-                    "name": "None:v8",
+                    "name": "TROVE:v8",
                     "ffmt": "I4",
                     "cfmt": "%4d",
                     "desc": "[0/20] Local mode vibrational quantum number"
                 },
                 {
-                    "name": "None:v9",
+                    "name": "TROVE:v9",
                     "ffmt": "I4",
                     "cfmt": "%4d",
                     "desc": "[0/20] Local mode vibrational quantum number"
-                },
-                {
-                    "name": "Auxiliary:SourceType",
-                    "ffmt": "A2",
-                    "cfmt": "%2s",
-                    "desc": "Ma=MARVEL,Ca=Calculated,EH=Effective Hamiltonian,IE=Isotopologue extrapolation"
-                },
-                {
-                    "name": "Auxiliary:Ecal",
-                    "ffmt": "F12.6",
-                    "cfmt": "%12.6f",
-                    "desc": "Calculated energy in cm-1"
                 }
             ]
         },

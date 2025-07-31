@@ -31,7 +31,6 @@ A2u                                                                             
 2                                                                               # No. of quanta cases
 TROVE                                                                           # Quantum case label
 stcs                                                                            # Quantum case label
-None                                                                            # Quantum case label
 14                                                                              # No. of quanta defined
 Gtot                                                                            # Quantum label 1
 A3 %3s                                                                          # Format quantum label 1
@@ -72,15 +71,12 @@ Rotational Symmetry                                                             
 Coef                                                                            # Quantum label 13
 F5.2 %5.2f                                                                      # Format quantum label 13
 Coefficient with the largest contribution to the (J = 0) contracted set         # Description quantum label 13
-SourceType                                                                      # Auxiliary label 1
-A2 %2s                                                                          # Format auxiliary label 1
-Ma=MARVEL,Ca=Calculated,EH=Effective Hamiltonian,IE=Isotopologue extrapolation  # Description auxiliary label 1
-Ecal                                                                            # Auxiliary label 2
-F12.6 %12.6f                                                                    # Format auxiliary label 2
-Calculated energy in cm-1                                                       # Description auxiliary label 2
-Source                                                                          # Auxiliary title 1
+SourceType                                                                      # Auxiliary title 1
 A2 %2s                                                                          # Format title 1
-Source of term value; M = MARVEL, Ca= Calculated with TROVE                     # Description title 1
+Ma=MARVEL,Ca=Calculated,EH=Effective Hamiltonian,IE=Isotopologue extrapolation  # Description title 1
+Ecal                                                                            # Auxiliary title 2
+F12.6 %12.6f                                                                    # Format title 2
+Calculated energy in cm-1                                                       # Description title 2
 Ecalc                                                                           # Auxiliary tite 2
 F12.6 %12.6f                                                                    # Format title 2
 Theoretical state energy                                                        # Description title 2

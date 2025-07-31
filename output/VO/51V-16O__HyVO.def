@@ -51,12 +51,6 @@ Projection of the electronic spin                                               
 Omega                                                                           # Quantum label 8
 F7.1 %7.1f                                                                      # Format quantum label 8
 Omega = Lambda + Sigma, projection of the total angular momentum                # Description quantum label 8
-SourceType                                                                      # Auxiliary label 1
-A2 %2s                                                                          # Format auxiliary label 1
-Ma=MARVEL,Ca=Calculated,EH=Effective Hamiltonian,IE=Isotopologue extrapolation  # Description auxiliary label 1
-Ecal                                                                            # Auxiliary label 2
-F12.6 %12.6f                                                                    # Format auxiliary label 2
-Calculated energy in cm-1                                                       # Description auxiliary label 2
 SourceType                                                                      # Auxiliary title 1
 A2 %2s                                                                          # Format title 1
 Indicates if the value is from MARVEL (Ma) or Calculated(Ca)                    # Description title 1

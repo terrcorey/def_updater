@@ -65,12 +65,6 @@ TROVE vibrational quantum numbers                                               
 n3                                                                              # Quantum label 12
 I2 %2d                                                                          # Format quantum label 12
 TROVE vibrational quantum numbers                                               # Description quantum label 12
-Ecal                                                                            # Auxiliary label 1
-F12.6 %12.6f                                                                    # Format auxiliary label 1
-Calculated energy in cm-1                                                       # Description auxiliary label 1
-SourceType                                                                      # Auxiliary label 2
-A2 %2s                                                                          # Format auxiliary label 2
-Ma=MARVEL,Ca=Calculated,EH=Effective Hamiltonian,IE=Isotopologue extrapolation  # Description auxiliary label 2
 Ecal                                                                            # Auxiliary title 1
 F12.6 %12.6f                                                                    # Format title 1
 Original TROVE calculated state energy (in cm-1)                                # Description title 1

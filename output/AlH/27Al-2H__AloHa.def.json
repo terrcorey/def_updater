@@ -72,43 +72,43 @@
                     "cfmt": "%12.6f"
                 },
                 {
-                    "name": "None:+/-",
+                    "name": "hunda:+/-",
                     "ffmt": "A1",
                     "cfmt": "%1s",
                     "desc": "Parity"
                 },
                 {
-                    "name": "None:e/f",
+                    "name": "hunda:e/f",
                     "ffmt": "A1",
                     "cfmt": "%1s",
                     "desc": "Rotationless-parity"
                 },
                 {
-                    "name": "None:ElecState",
+                    "name": "hunda:ElecState",
                     "ffmt": "A12",
                     "cfmt": "%12s",
                     "desc": "Notation of the electronic state"
                 },
                 {
-                    "name": "None:v",
+                    "name": "hunda:v",
                     "ffmt": "I3",
                     "cfmt": "%3d",
                     "desc": "State vibrational quantum number"
                 },
                 {
-                    "name": "None:Lambda",
+                    "name": "hunda:Lambda",
                     "ffmt": "I3",
                     "cfmt": "%3d",
                     "desc": "Projection of the electronic angular momentum"
                 },
                 {
-                    "name": "None:Sigma",
+                    "name": "hunda:Sigma",
                     "ffmt": "I5",
                     "cfmt": "%5d",
                     "desc": "Projection of the electronic spin"
                 },
                 {
-                    "name": "None:Omega",
+                    "name": "hunda:Omega",
                     "ffmt": "I5",
                     "cfmt": "%5d",
                     "desc": "Omega = Lambda + Sigma, projection of the total angular momentum"

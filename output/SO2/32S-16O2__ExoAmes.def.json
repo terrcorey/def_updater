@@ -37,7 +37,7 @@
         "states": {
             "number_of_states": 3270271,
             "max_energy": 8000.0,
-            "uncertainty_description": "MARVEL ('Ma') or the ExoAmes energy list ('Ca')",
+            "uncertainty_description": "State energy in cm-1 calculated with DUO",
             "uncertainties_available": true,
             "lifetime_available": true,
             "lande_g_available": false,
@@ -114,18 +114,6 @@
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "v2 asymmetrics stretch quantum number"
-                },
-                {
-                    "name": "Auxiliary:Ecal",
-                    "ffmt": "F12.6",
-                    "cfmt": "%12.6f",
-                    "desc": "Calculated energy in cm-1"
-                },
-                {
-                    "name": "Auxiliary:SourceType",
-                    "ffmt": "A2",
-                    "cfmt": "%2s",
-                    "desc": "Ma=MARVEL,Ca=Calculated,EH=Effective Hamiltonian,IE=Isotopologue extrapolation"
                 }
             ]
         },

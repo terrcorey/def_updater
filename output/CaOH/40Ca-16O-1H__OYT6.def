@@ -62,12 +62,6 @@ Projection of the total angular momentum                                        
 F_i                                                                             # Quantum label 11
 A2 %2s                                                                          # Format quantum label 11
 Spin components F1/F2                                                           # Description quantum label 11
-Ecal                                                                            # Auxiliary label 1
-F12.6 %12.6f                                                                    # Format auxiliary label 1
-Calculated energy in cm-1                                                       # Description auxiliary label 1
-SourceType                                                                      # Auxiliary label 2
-A2 %2s                                                                          # Format auxiliary label 2
-Ma=MARVEL,Ca=Calculated,EH=Effective Hamiltonian,IE=Isotopologue extrapolation  # Description auxiliary label 2
 Ecal                                                                            # Auxiliary title 1
 F12.6 %12.6f                                                                    # Format title 1
 Original EVEREST calculated state energy                                        # Description title 1

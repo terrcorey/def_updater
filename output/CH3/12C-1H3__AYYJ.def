@@ -35,7 +35,6 @@ E"                                                                              
 1                                                                               # No. of quanta cases
 stcs                                                                            # Quantum case label
 TROVE                                                                           # Quantum case label
-None                                                                            # Quantum case label
 20                                                                              # No. of quanta defined
 +/-                                                                             # Quantum label 1
 A1 %1s                                                                          # Format quantum label 1
