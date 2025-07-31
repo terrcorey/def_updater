@@ -32,7 +32,7 @@ dcs                                                                             
 v                                                                               # Quantum label 1
 I4 %4d                                                                          # Format quantum label 1
 q/qs                                                                            # Quantum label 2
-$2s                                                                             # Format quantum label 2
+A2 %2s                                                                          # Format quantum label 2
 State vibrational quantum number                                                # Description quantum label 1
 5939                                                                            # Total number of transitions
 0                                                                               # No. of transition files
