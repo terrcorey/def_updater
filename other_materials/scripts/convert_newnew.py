@@ -20,7 +20,7 @@ def find_doi(ds_name):
 
 def def_to_json(def_file_path, json_file_path):
     fname = os.path.basename(def_file_path).replace(".def", ".states")
-    mol = def_file_path.split("/")[-2]
+    mol = os.path.basename(os.path.dirname(def_file_path))
     states_file_path = os.path.join(states_directory, mol, fname)
     J_cfmt, J_ffmt = check_J_format(states_file_path)
     json_dict = {
@@ -182,7 +182,7 @@ def def_to_json(def_file_path, json_file_path):
                 json_dict["dataset"]["predis"] = bool(int(line.split('#')[0].strip()))
             elif '# Number of irreducible representations' in line:
                 num_irreps = int(line.split('#')[0].strip())
-                for _ in range(num_irreps):
+                for _ in range(num_irreps): 
                     irrep_label = next(line_iter).split('#')[0].strip()
                     gnuc = int(next(line_iter).split('#')[0].strip())
                     json_dict["irreducible_representations"][irrep_label] = gnuc
@@ -415,10 +415,10 @@ def def_to_json(def_file_path, json_file_path):
 
 
 # Specify the directory where the downloaded files are located
-directory = os.path.join(os.getcwd(), "input")
-states_directory = os.path.join(os.getcwd(), "input")
+directory = os.path.join(".", "output")
+states_directory = os.path.join(".", "input")
 # Specify the directory where the converted JSON files will be saved
-output_directory = os.path.join(os.getcwd(), "output")
+output_directory = os.path.join(".", "output")
 
 # Create the output directory if it doesn't exist
 if not os.path.exists(output_directory):

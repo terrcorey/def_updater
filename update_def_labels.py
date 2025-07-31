@@ -11,6 +11,39 @@ import requests
 import bz2
 from io import BytesIO
 
+def download_states_first_line():
+    states_dir = os.path.join(".", "input")
+    for mol in os.listdir(states_dir):
+        if os.path.isdir(os.path.join(states_dir, mol)):
+            for f in os.listdir(os.path.join(states_dir, mol)):
+                if f.endswith(".def"):
+                    states_file_path = os.path.join(states_dir, mol, f).replace(".def", ".states")
+                    if not os.path.exists(states_file_path):
+                        iso_slug, ds_name = f.split(".")[0].split("__")
+                        url = f"https://exomol.com/db/{mol}/{iso_slug}/{ds_name}/{f.replace('.def', '.states.bz2')}".replace("+", "_p")
+                        response = requests.get(url)
+                        if response.status_code == 200:
+                            # Decompress only until the first line is read
+                            decompressor = bz2.BZ2Decompressor()
+                            buffer = BytesIO(response.content)
+                            line = b""
+                            while True:
+                                chunk = buffer.read(1024)
+                                if not chunk:
+                                    break
+                                data = decompressor.decompress(chunk)
+                                line += data
+                                if b"\n" in line:
+                                    line = line.split(b"\n", 1)[0]
+                                    break
+                            # Save the first line to the states file
+                            with open(states_file_path, "wb") as f:
+                                f.write(line + b"\n")
+                        else:
+                            error_log(f"Dataset: {f.replace('.def', '')} || Failed to download states file from {url}", "Error")
+                            
+
+
 def check_J_format(states_file_path):
     # Reads only the first row to check the J column format
     df = pd.read_csv(states_file_path, sep=r"\s+", header=None, nrows=1)
@@ -362,32 +395,7 @@ def def_dict_update(def_dict, labels_list):
             mol = mol.replace("(", "").replace(")", "")
             fname = def_dict["Iso-slug"] + "__" + def_dict["Isotopologue dataset name"] + ".states"
 
-            states_file_path = os.path.join(os.getcwd(), "input", mol, fname)
-            if not os.path.exists(states_file_path):
-                url = f"https://exomol.com/db/{mol}/{def_dict['Iso-slug']}/{def_dict['Isotopologue dataset name']}/{fname}.bz2"
-                response = requests.get(url)
-                if response.status_code == 200:
-                    # Decompress only until the first line is read
-                    decompressor = bz2.BZ2Decompressor()
-                    buffer = BytesIO(response.content)
-                    line = b""
-                    while True:
-                        chunk = buffer.read(1024)
-                        if not chunk:
-                            break
-                        data = decompressor.decompress(chunk)
-                        line += data
-                        if b"\n" in line:
-                            line = line.split(b"\n", 1)[0]
-                            break
-                    # Save the first line to the states file
-                    with open(states_file_path, "wb") as f:
-                        f.write(line + b"\n")
-                else:
-                    error_log(f"Dataset: {filename} || Failed to download states file from {url}", "Error")
-                    exit_script()
- 
-
+            states_file_path = os.path.join(".", "input", mol, fname)
             J_cfmt, J_ffmt = check_J_format(states_file_path)
             fmt = " ".join([J_ffmt, J_cfmt])
             new_labels[i] = {
@@ -515,8 +523,9 @@ if __name__ == "__main__":
     correction_dict = load_correction_dict()
     standard_labels = load_standard_labels()
     log_file_path = os.path.join(os.path.dirname(__file__), "log.txt")
-    if log_file_path in os.listdir("."):
+    if os.path.exists(log_file_path):
         os.remove(log_file_path)
+    download_states_first_line()
     main()
     make_def_json()
     exit_script()
