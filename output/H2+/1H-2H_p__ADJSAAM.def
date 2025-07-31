@@ -30,7 +30,7 @@ dcs                                                                             
 v                                                                               # Quantum label 1
 I4 %4d                                                                          # Format quantum label 1
 State vibrational quantum number                                                # Description quantum label 1
-q/qs                                                                            # Quantum label 2
+b/qb                                                                            # Quantum label 2
 A2 %2s                                                                          # Format quantum label 2
 Bound/Quasi-bound                                                               # Description quantum label 2
 10285                                                                           # Total number of transitions

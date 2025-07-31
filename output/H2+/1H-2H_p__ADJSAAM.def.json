@@ -70,7 +70,7 @@
                     "desc": "State vibrational quantum number"
                 },
                 {
-                    "name": "dcs:q/qs",
+                    "name": "dcs:b/qb",
                     "ffmt": "A2",
                     "cfmt": "%2s",
                     "desc": "Bound/Quasi-bound"

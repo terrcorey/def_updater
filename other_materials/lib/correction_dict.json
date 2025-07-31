@@ -3,5 +3,6 @@
     "eS": "ElecState",
     "State": "ElecState",
     "F1/F2/F3": "F_i",
-    "Ja": "J"
+    "Ja": "J",
+    "q/qs": "b/qb"
 }
