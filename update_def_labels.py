@@ -23,29 +23,30 @@ def check_J_format(states_file_path):
 
 # json loaders
 def load_correction_dict():
-    with open("./other_materials/lib/correction_dict.json", "r") as f:
+    path = os.path.join(os.path.dirname(__file__), "other_materials", "lib", "correction_dict.json")
+    with open(path, "r") as f:
         return json.load(f)
     
 def load_labels_data():
-    with open("./states_labels.json", "r") as f:
+    path = os.path.join(os.path.dirname(__file__), "states_labels.json")
+    with open(path, "r") as f:
         labels_data = json.load(f)
     return labels_data
 
 def load_standard_labels():
-    with open("./other_materials/lib/standard_label_structure.json", "r") as f:
+    path = os.path.join(os.path.dirname(__file__), "other_materials", "lib", "standard_label_structure.json")
+    with open(path, "r") as f:
         standard_labels = json.load(f)
     return standard_labels
 
 def make_def_json():
     """Creates a JSON file with the standard labels structure."""
-    try:
-        os.system("python3 ./other_materials/scripts/convert_newnew.py")
-    except Exception as e:
-        os.system("python ./other_materials/scripts/convert_newnew.py")
+    path = os.path.join(os.getcwd(), "other_materials", "scripts", "convert_newnew.py")
+    os.system(f"python {path}")
 
 # Error handling and logging
 def exit_script():
-    log_file_path = "./log.txt"
+    log_file_path = os.path.join(os.path.dirname(__file__), "log.txt")
     with open(log_file_path, 'r') as log_file:
         log_content = log_file.readlines()
     w_counter = 0
@@ -66,7 +67,7 @@ def exit_script():
 
 def error_log(message, prefix="Error"):
     """Logs an error message to a file, including the full call stack line numbers (formatted for readability)."""
-    log_file_path = "./log.txt"
+    log_file_path = os.path.join(os.path.dirname(__file__), "log.txt")
     os.makedirs(os.path.dirname(log_file_path), exist_ok=True)
     # Build call stack info, each frame on a new line, indented
     if prefix == "Log":
@@ -361,7 +362,7 @@ def def_dict_update(def_dict, labels_list):
             mol = mol.replace("(", "").replace(")", "")
             fname = def_dict["Iso-slug"] + "__" + def_dict["Isotopologue dataset name"] + ".states"
 
-            states_file_path = os.path.join("./input", mol, fname)
+            states_file_path = os.path.join(os.path.dirname(__file__), "input", mol, fname)
             if not os.path.exists(states_file_path):
                 url = f"https://exomol.com/db/{mol}/{def_dict['Iso-slug']}/{def_dict['Isotopologue dataset name']}/{fname}.bz2"
                 response = requests.get(url)
@@ -412,9 +413,9 @@ def def_dict_update(def_dict, labels_list):
 
 def update_def(def_file_path, def_dict):
     """Creates a new definition file with updated labels."""
-    os.makedirs("./output", exist_ok = True)
+    os.makedirs(os.path.join(os.path.dirname(__file__), "output"), exist_ok=True)
     mol = def_file_path.split("/")[-2]
-    output_dir = os.path.join("./output", mol)
+    output_dir = os.path.join(os.path.dirname(__file__), "output", mol)
     os.makedirs(output_dir, exist_ok=True)
     output_file_path = os.path.join(output_dir, os.path.basename(def_file_path))
     
@@ -463,7 +464,7 @@ def main():
     global date
     date = datetime.now().strftime("%Y%m%dT%H%M%S")
     error_log("Script started.", "Log")
-    def_folder_path = "./input"
+    def_folder_path = os.path.join(os.path.dirname(__file__), "input")
     if not os.path.exists(def_folder_path):
         os.makedirs(def_folder_path)
         print("Input folder has been created. Please place your .def files in the 'input' folder.")
@@ -513,8 +514,9 @@ if __name__ == "__main__":
     os.chdir(os.path.dirname(os.path.abspath(__file__)))
     correction_dict = load_correction_dict()
     standard_labels = load_standard_labels()
-    if "log.txt" in os.listdir("."):
-        os.remove("./log.txt")
+    log_file_path = os.path.join(os.path.dirname(__file__), "log.txt")
+    if log_file_path in os.listdir("."):
+        os.remove(log_file_path)
     main()
     make_def_json()
     exit_script()
