@@ -422,7 +422,7 @@ def def_dict_update(def_dict, labels_list):
 def update_def(def_file_path, def_dict):
     """Creates a new definition file with updated labels."""
     os.makedirs(os.path.join(os.getcwd(), "output"), exist_ok=True)
-    mol = def_file_path.split("/")[-2]
+    mol = os.path.basename(os.path.dirname(def_file_path))
     output_dir = os.path.join(os.getcwd(), "output", mol)
     os.makedirs(output_dir, exist_ok=True)
     output_file_path = os.path.join(output_dir, os.path.basename(def_file_path))
@@ -497,7 +497,7 @@ def main():
     skipped_files = []
     for def_file_path in tqdm(def_paths, desc="Processing definition files"):
         global filename
-        filename = def_file_path.split("/")[-1]
+        filename = os.path.basename(def_file_path)
         filename = filename.replace(".def", "")
         if labels_data is not None:
             match = next((item for item in labels_data if item.get('ds_name') == filename), None)
@@ -527,6 +527,6 @@ if __name__ == "__main__":
         os.remove(log_file_path)
     download_states_first_line()
     main()
-    make_def_json()
+    #make_def_json()
     exit_script()
     

@@ -31,8 +31,8 @@ v                                                                               
 I4 %4d                                                                          # Format quantum label 1
 State vibrational quantum number                                                # Description quantum label 1
 q/qs                                                                            # Quantum label 2
-$2s                                                                             # Format quantum label 2
-                                                                                # Description quantum label 2
+A2 %2s                                                                          # Format quantum label 2
+Bound/Quasi-bound                                                               # Description quantum label 2
 10285                                                                           # Total number of transitions
 1                                                                               # No. of transition files
 15226.8                                                                         # Maximum wavenumber (in cm-1)
