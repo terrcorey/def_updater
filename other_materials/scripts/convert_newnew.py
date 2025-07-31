@@ -415,10 +415,10 @@ def def_to_json(def_file_path, json_file_path):
 
 
 # Specify the directory where the downloaded files are located
-directory = '/output'
-states_directory = '/input'
+directory = './output'
+states_directory = './input'
 # Specify the directory where the converted JSON files will be saved
-output_directory = '/output'
+output_directory = './output'
 
 # Create the output directory if it doesn't exist
 if not os.path.exists(output_directory):
