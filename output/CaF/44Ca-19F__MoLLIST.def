@@ -1,7 +1,7 @@
 EXOMOL.def                                                                      # ID
 (44Ca)(19F)                                                                     # IsoFormula
 44Ca-19F                                                                        # Iso-slug
-Bernath                                                                         # Isotopologue dataset name
+MoLLIST                                                                         # Isotopologue dataset name
 20180713                                                                        # Version number with format YYYYMMDD
 GLWLHVXSYOTACU-RNFDNDRNSA-M                                                     # Inchi key of molecule
 2                                                                               # Number of atoms

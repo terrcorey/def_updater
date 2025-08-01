@@ -35,7 +35,7 @@
         "predis": null,
         "states": {
             "number_of_states": 168110,
-            "max_energy": NaN,
+            "max_energy": null,
             "uncertainty_description": null,
             "uncertainties_available": null,
             "lifetime_available": true,

@@ -18,7 +18,7 @@
         "Sigma-": 2
     },
     "dataset": {
-        "name": "Bernath",
+        "name": "MoLLIST",
         "version": 20180713,
         "doi": "10.5281/zenodo.5716971",
         "max_temperature": 5000.0,

@@ -1,7 +1,7 @@
 {
     "isotopologue": {
         "IsoFormula": "(12C)(12O)",
-        "Iso-slug": "12C-12O",
+        "Iso-slug": "12C-16O",
         "inchikey": "UGFAIRIUMAVXCW-UHFFFAOYSA-N",
         "inchi": "1S/CO/c1-2",
         "mass_in_Da": 28.0101,
@@ -19,7 +19,7 @@
         "Sigma-": 2
     },
     "dataset": {
-        "name": "Li2007",
+        "name": "Li2015",
         "version": 20170101,
         "doi": "10.5281/zenodo.5716770",
         "max_temperature": 9000.0,
@@ -34,7 +34,7 @@
         "predis": null,
         "states": {
             "number_of_states": 6383,
-            "max_energy": NaN,
+            "max_energy": null,
             "uncertainty_description": null,
             "uncertainties_available": null,
             "lifetime_available": false,

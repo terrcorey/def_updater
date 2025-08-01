@@ -173,14 +173,14 @@
                 },
                 {
                     "name": "TROVE:n5",
-                    "ffmt": "",
-                    "cfmt": "",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
                     "desc": ""
                 },
                 {
                     "name": "TROVE:n6",
-                    "ffmt": "",
-                    "cfmt": "",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
                     "desc": ""
                 }
             ]

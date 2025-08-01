@@ -1,7 +1,7 @@
 {
     "isotopologue": {
         "IsoFormula": "(23Na)(19F)",
-        "Iso-slug": "23Li-19F",
+        "Iso-slug": "23Na-19F",
         "inchikey": "PUZPDOWCWNUUKD-UHFFFAOYSA-M",
         "inchi": "1S/FH.Na/h1H;/q;+1/p-1\n1S/FH.Na/h1H;/q;+1/p-1",
         "mass_in_Da": 41.988172,
@@ -19,7 +19,7 @@
         "Sigma-": 1
     },
     "dataset": {
-        "name": "Bernath",
+        "name": "MoLLIST",
         "version": 20180713,
         "doi": "10.5281/zenodo.5717027",
         "max_temperature": 5000.0,

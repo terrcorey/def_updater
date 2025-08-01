@@ -1,7 +1,7 @@
 EXOMOL.def                                                                      # ID
 (13C)(1H)                                                                       # IsoFormula
 13C-1H                                                                          # Iso-slug
-Yueqi                                                                           # Isotopologue dataset name
+MoLLIST                                                                         # Isotopologue dataset name
 20160726                                                                        # Version number with format YYYYMMDD
 VRLIPUYDFBXWCH-OUBTZVSYSA-N                                                     # Inchi key of molecule
 2                                                                               # Number of atoms

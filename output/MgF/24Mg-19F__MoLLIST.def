@@ -1,7 +1,7 @@
 EXOMOL.def                                                                      # ID
 (24Mg)(19F)                                                                     # IsoFormula
 24Mg-19F                                                                        # Iso-slug
-Bernath                                                                         # Isotopologue dataset name
+MoLLIST                                                                         # Isotopologue dataset name
 20180716                                                                        # Version number with format YYYYMMDD
 WSXHQDSJUJYQDO-UHFFFAOYSA-M                                                     # Inchi key of molecule
 2                                                                               # Number of atoms

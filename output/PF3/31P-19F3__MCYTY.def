@@ -66,7 +66,7 @@ Grot                                                                            
 A3 %3s                                                                          # Format quantum label 12
 Rotational symmetry                                                             # Description quantum label 12
 null                                                                            # Quantum label 13
-                                                                                # Format quantum label 13
+I9 %9d                                                                          # Format quantum label 13
                                                                                 # Description quantum label 13
 |Coef|2                                                                         # Quantum label 14
 F5.2 %5.2f                                                                      # Format quantum label 14

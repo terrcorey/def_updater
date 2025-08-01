@@ -1,6 +1,6 @@
 EXOMOL.def                                                                      # ID
 (28Si)(33S)                                                                     # IsoFormula
-33S-28Si                                                                        # Iso-slug
+28Si-33S                                                                        # Iso-slug
 UCTY                                                                            # Isotopologue dataset name
 20180601                                                                        # Version number with format YYYYMMDD
 DWFFKGPZNGKUPH-VQEHIDDOSA-N                                                     # Inchi key of molecule

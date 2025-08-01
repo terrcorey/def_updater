@@ -50,6 +50,70 @@ def check_J_format(states_file_path):
         return "%7.1f", "F7.1"
     return "%7d", "I7"
 
+def generate_formats(number_with_spaces):
+    """
+    Generates Fortran and C formats for a given number string with leading spaces,
+    including support for scientific notation.
+    
+    Args:
+        number_with_spaces (str): The number as a string, including leading spaces.
+    
+    Returns:
+        tuple: A tuple containing the Fortran format and C format strings.
+    """
+    number = number_with_spaces.strip()
+    leading_spaces = len(number_with_spaces) - len(number) - 1
+    
+    try:
+        # Check if the number is an integer
+        value = int(number)
+        val_len = len(str(value))
+        buff = val_len + leading_spaces
+        fortran_format = f"I{buff}"
+        c_format = f"%{buff}d"
+        return fortran_format, c_format
+    except ValueError:
+        try:
+            # Check if the number is a float
+            value = float(number)
+            val_len_int, val_len_frac = [len(x) for x in str(value).split(".")]
+            buff = val_len_int + leading_spaces
+            fortran_format = f"F{buff}.{val_len_frac}"
+            c_format = f"%{buff}.{val_len_frac}f"
+            return fortran_format, c_format
+        except ValueError:
+            try:
+                # Check if the number is in scientific notation
+                value = float(number)
+                val_len = len(number.replace("e", "").replace("+", "").replace("-", ""))
+                buff = val_len + leading_spaces
+                fortran_format = f"E{buff}.{val_len - 1}"
+                c_format = f"%{buff}.{val_len - 1}e"
+                return fortran_format, c_format
+            except ValueError:
+                # If the number is a string
+                val_len = len(number)
+                buff = val_len + leading_spaces
+                fortran_format = f"A{buff}"
+                c_format = f"%{buff}s"
+                return fortran_format, c_format
+
+def detect_format(states_file_path, idx):
+    """Detects the format of the quantum label based on the states file."""
+    with open(states_file_path, 'r') as f:
+        first_line = f.readline().rstrip('\n')
+    # Find all columns and their leading spaces
+    matches = list(re.finditer(r'( +)?(\S+)', first_line))
+    idx = idx + 4
+    if idx < len(matches):
+        match = matches[idx]
+        match_str = match.group(1) + match.group(2)
+        ffmt, cfmt = generate_formats(match_str)
+        return ffmt + " " + cfmt
+    else:
+        error_log(f"Dataset: {filename} || Quantum label index {idx} exceeds the number of columns in the states file.", "Critical")
+        return ""
+    
 # json loaders
 def load_correction_dict():
     path = os.path.join(os.getcwd(), "other_materials", "lib", "correction_dict.json")
@@ -71,7 +135,7 @@ def load_standard_labels():
 def make_def_json():
     """Creates a JSON file with the standard labels structure."""
     path = os.path.join(os.getcwd(), "other_materials", "scripts", "convert_newnew.py")
-    os.system(f"python3 {path}")
+    os.system(f"python {path}")
 
 # Error handling and logging
 def exit_script():
@@ -136,6 +200,11 @@ def read_def_file(def_file_path):
                 def_dict[desc] = [temp, value]
         else:
             def_dict[desc] = value
+    
+    filename = os.path.basename(def_file_path).replace(".def", "").split("__")
+    def_dict["Iso-slug"] = filename[0]
+    def_dict["Isotopologue dataset name"] = filename[1]
+
 
     quantum_labels = []
     auxiliary_labels = []
@@ -318,7 +387,7 @@ def broadener_formatter(broad_dict):
     return result
 
 # Update def_dict according to states_labels.json
-def def_dict_update(def_dict, labels_list):
+def def_dict_update(mol, def_dict, labels_list):
     """Updates the definition dictionary with new labels."""
     if labels_list[3] == "F":
         error_log(f"Dataset: {filename} || Fourth label should be F instead of J.", "Warn")
@@ -382,12 +451,9 @@ def def_dict_update(def_dict, labels_list):
         error_log(f"Dataset: {filename} || No quantum labels found in definition file.", "Critical")
         exit_script()
     for i, label in enumerate(new_labels):
+        fname = def_dict["Iso-slug"] + "__" + def_dict["Isotopologue dataset name"] + ".states"
+        states_file_path = os.path.join(".", "input", mol, fname)
         if label == "J":
-            mol = re.sub(r'\((\d+)([A-Za-z]*)\)', r'(\2)', def_dict["IsoFormula"])
-            mol = mol.replace("(", "").replace(")", "")
-            fname = def_dict["Iso-slug"] + "__" + def_dict["Isotopologue dataset name"] + ".states"
-
-            states_file_path = os.path.join(".", "input", mol, fname)
             J_cfmt, J_ffmt = check_J_format(states_file_path)
             fmt = " ".join([J_ffmt, J_cfmt])
             new_labels[i] = {
@@ -404,19 +470,16 @@ def def_dict_update(def_dict, labels_list):
             if dict["Quantum label"] == label:
                 new_labels[i] = dict
                 break
-    for label in new_labels:
-        if isinstance(label, str):
+        if isinstance(new_labels[i], str):
             dict = {
                 "Quantum label": label,
-                "Format quantum label": "",
+                "Format quantum label": detect_format(states_file_path, i),
                 "Description quantum label": ""
             }
-            new_labels[new_labels.index(label)] = dict
-            error_log(f"Dataset: {filename} || Quantum label '{label}' not found in old labels. Please input them manually.")
+            new_labels[i] = dict
+            error_log(f"Dataset: {filename} || Quantum label '{label}' not found in old labels. Please input the description manually.")
 
     def_dict["Quantum labels"] = new_labels
-    if def_dict.get("Iso-slug", None) == "cis-31P2-1H2":
-        print(new_labels)
 
 def update_def(def_file_path, def_dict):
     """Creates a new definition file with updated labels."""
@@ -516,7 +579,7 @@ def main():
             download_states_first_line(mol, f)
             def_dict = read_def_file(def_file_path)
             labels_list = match['labels']
-            def_dict_update(def_dict, labels_list)
+            def_dict_update(mol, def_dict, labels_list)
             update_def(def_file_path, def_dict)
         else:
             skipped_files.append(filename)

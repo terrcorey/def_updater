@@ -1,7 +1,7 @@
 EXOMOL.def                                                                      # ID
 (39K)(19F)                                                                      # IsoFormula
 39K-19F                                                                         # Iso-slug
-Bernath                                                                         # Isotopologue dataset name
+MoLLIST                                                                         # Isotopologue dataset name
 20180716                                                                        # Version number with format YYYYMMDD
 NROKBHXJSPEDAR-UHFFFAOYSA-M                                                     # Inchi key of molecule
 2                                                                               # Number of atoms

@@ -277,7 +277,7 @@ def def_to_json(def_file_path, json_file_path):
                 json_dict["broad"][broadener_label] = {}
             elif '# Higher energy with complete set of transitions (in cm-1)' in line:
                 max_energy = line.split('#')[0].strip()
-                if max_energy == 'NA' or max_energy == '':
+                if max_energy == 'NA' or max_energy == '' or max_energy == 'NaN':
                     json_dict["dataset"]["states"]["max_energy"] = None
                 else:
                     json_dict["dataset"]["states"]["max_energy"] = float(line.split('#')[0].strip())

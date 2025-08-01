@@ -18,7 +18,7 @@
         "Sigma-": 4
     },
     "dataset": {
-        "name": "Yueqi",
+        "name": "MoLLIST",
         "version": 20160726,
         "doi": "10.5281/zenodo.5716694",
         "max_temperature": 8000.0,

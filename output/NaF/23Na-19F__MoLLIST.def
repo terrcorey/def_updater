@@ -1,7 +1,7 @@
 EXOMOL.def                                                                      # ID
 (23Na)(19F)                                                                     # IsoFormula
-23Li-19F                                                                        # Iso-slug
-Bernath                                                                         # Isotopologue dataset name
+23Na-19F                                                                        # Iso-slug
+MoLLIST                                                                         # Isotopologue dataset name
 20180713                                                                        # Version number with format YYYYMMDD
 PUZPDOWCWNUUKD-UHFFFAOYSA-M                                                     # Inchi key of molecule
 2                                                                               # Number of atoms

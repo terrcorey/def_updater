@@ -88,10 +88,10 @@ n4                                                                              
 I4 %4d                                                                          # Format quantum label 17
 Asymmetric bend quantum number (normal mode)                                    # Description quantum label 17
 n5                                                                              # Quantum label 18
-                                                                                # Format quantum label 18
+I3 %3d                                                                          # Format quantum label 18
                                                                                 # Description quantum label 18
 n6                                                                              # Quantum label 19
-                                                                                # Format quantum label 19
+I3 %3d                                                                          # Format quantum label 19
                                                                                 # Description quantum label 19
 2058655166                                                                      # Total number of transitions
 10                                                                              # No. of transition files

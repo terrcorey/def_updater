@@ -36,7 +36,7 @@
         "predis": null,
         "states": {
             "number_of_states": 6009302,
-            "max_energy": NaN,
+            "max_energy": null,
             "uncertainty_description": null,
             "uncertainties_available": null,
             "lifetime_available": false,
@@ -141,8 +141,8 @@
                 },
                 {
                     "name": "stcs:null",
-                    "ffmt": "",
-                    "cfmt": "",
+                    "ffmt": "I9",
+                    "cfmt": "%9d",
                     "desc": ""
                 },
                 {
@@ -153,38 +153,38 @@
                 },
                 {
                     "name": "stcs:n1",
-                    "ffmt": "",
-                    "cfmt": "",
+                    "ffmt": "I6",
+                    "cfmt": "%6d",
                     "desc": ""
                 },
                 {
                     "name": "stcs:n2",
-                    "ffmt": "",
-                    "cfmt": "",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
                     "desc": ""
                 },
                 {
                     "name": "stcs:n3",
-                    "ffmt": "",
-                    "cfmt": "",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
                     "desc": ""
                 },
                 {
                     "name": "stcs:n4",
-                    "ffmt": "",
-                    "cfmt": "",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
                     "desc": ""
                 },
                 {
                     "name": "stcs:n5",
-                    "ffmt": "",
-                    "cfmt": "",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
                     "desc": ""
                 },
                 {
                     "name": "stcs:n6",
-                    "ffmt": "",
-                    "cfmt": "",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
                     "desc": ""
                 }
             ]

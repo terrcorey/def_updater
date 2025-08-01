@@ -68,28 +68,28 @@ Gvib                                                                            
 A3 %3s                                                                          # Format quantum label 12
 Vibrational symmetry                                                            # Description quantum label 12
 null                                                                            # Quantum label 13
-                                                                                # Format quantum label 13
+I9 %9d                                                                          # Format quantum label 13
                                                                                 # Description quantum label 13
 |Coef|2                                                                         # Quantum label 14
 F5.2 %5.2f                                                                      # Format quantum label 14
 Square modulus of the coefficient with the largest contribution                 # Description quantum label 14
 n1                                                                              # Quantum label 15
-                                                                                # Format quantum label 15
+I6 %6d                                                                          # Format quantum label 15
                                                                                 # Description quantum label 15
 n2                                                                              # Quantum label 16
-                                                                                # Format quantum label 16
+I3 %3d                                                                          # Format quantum label 16
                                                                                 # Description quantum label 16
 n3                                                                              # Quantum label 17
-                                                                                # Format quantum label 17
+I3 %3d                                                                          # Format quantum label 17
                                                                                 # Description quantum label 17
 n4                                                                              # Quantum label 18
-                                                                                # Format quantum label 18
+I3 %3d                                                                          # Format quantum label 18
                                                                                 # Description quantum label 18
 n5                                                                              # Quantum label 19
-                                                                                # Format quantum label 19
+I3 %3d                                                                          # Format quantum label 19
                                                                                 # Description quantum label 19
 n6                                                                              # Quantum label 20
-                                                                                # Format quantum label 20
+I3 %3d                                                                          # Format quantum label 20
                                                                                 # Description quantum label 20
 11020092365                                                                     # Total number of transitions
 8                                                                               # No. of transition files

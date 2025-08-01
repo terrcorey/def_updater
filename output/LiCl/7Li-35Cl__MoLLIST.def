@@ -1,7 +1,7 @@
 EXOMOL.def                                                                      # ID
 (7Li)(35Cl)                                                                     # IsoFormula
 7Li-35Cl                                                                        # Iso-slug
-Bernath                                                                         # Isotopologue dataset name
+MoLLIST                                                                         # Isotopologue dataset name
 20180709                                                                        # Version number with format YYYYMMDD
 KWGKDLIKAYFUFQ-UHFFFAOYSA-M                                                     # Inchi key of molecule
 2                                                                               # Number of atoms

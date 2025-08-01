@@ -1,6 +1,6 @@
 EXOMOL.def                                                                      # ID
 (33S)(1H)                                                                       # IsoFormula
-1H-33S                                                                          # Iso-slug
+33S-1H                                                                          # Iso-slug
 GYT                                                                             # Isotopologue dataset name
 20190801                                                                        # Version number with format YYYYMMDD
 PXQLVRUNWNTZOS-OUBTZVSYSA-N                                                     # Inchi key of molecule

@@ -32,7 +32,7 @@
         "predis": null,
         "states": {
             "number_of_states": 466,
-            "max_energy": NaN,
+            "max_energy": null,
             "uncertainty_description": null,
             "uncertainties_available": null,
             "lifetime_available": false,
@@ -71,8 +71,8 @@
                 },
                 {
                     "name": "dcs:q/qs",
-                    "ffmt": "",
-                    "cfmt": "",
+                    "ffmt": "A4",
+                    "cfmt": "%4s",
                     "desc": ""
                 }
             ]

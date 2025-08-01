@@ -140,8 +140,8 @@
                 },
                 {
                     "name": "local:null",
-                    "ffmt": "",
-                    "cfmt": "",
+                    "ffmt": "I9",
+                    "cfmt": "%9d",
                     "desc": ""
                 },
                 {

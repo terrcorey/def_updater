@@ -1,6 +1,6 @@
 EXOMOL.def                                                                      # ID
 (16O)(1H)+                                                                      # IsoFormula
-16O-1H+                                                                         # Iso-slug
+16O-1H_p                                                                        # Iso-slug
 MoLLIST                                                                         # Isotopologue dataset name
 20220713                                                                        # Version number with format YYYYMMDD
 xxxxxxxxxxxxxxxxxxxxxxxxxxx                                                     # Inchi key of molecule
