@@ -66,10 +66,10 @@
                     "cfmt": "%7d"
                 },
                 {
-                    "name": "TROVE:Gamma",
-                    "ffmt": "I2",
-                    "cfmt": "%2d",
-                    "desc": "Total symmetry index in C3v(M)"
+                    "name": "TROVE:Gtot",
+                    "ffmt": "A3",
+                    "cfmt": "%3s",
+                    "desc": "Total symmetry"
                 },
                 {
                     "name": "TROVE:v1",
@@ -109,33 +109,39 @@
                 },
                 {
                     "name": "TROVE:Gvib",
-                    "ffmt": "I4",
-                    "cfmt": "%4d",
-                    "desc": "Vibrational symmtery index in C3v(M)"
+                    "ffmt": "A3",
+                    "cfmt": "%3s",
+                    "desc": "Vibrational symmetry"
                 },
                 {
                     "name": "TROVE:J",
-                    "ffmt": "I6",
-                    "cfmt": "%6",
-                    "desc": "Total angular momentum quantum number"
+                    "ffmt": "I7",
+                    "cfmt": "%7d",
+                    "desc": "Total rotational quantum number"
                 },
                 {
                     "name": "TROVE:K",
                     "ffmt": "I3",
-                    "cfmt": "%d3",
+                    "cfmt": "%3d",
                     "desc": "Projection of J onto axis of molecular symmetry"
                 },
                 {
-                    "name": "TROVE:tau(rot)",
-                    "ffmt": "I3",
-                    "cfmt": "%d3",
+                    "name": "TROVE:rotpar",
+                    "ffmt": "I1",
+                    "cfmt": "%1d",
                     "desc": "Rotational parity"
                 },
                 {
                     "name": "TROVE:Grot",
-                    "ffmt": "I3",
-                    "cfmt": "%d3",
-                    "desc": "Rotational symmetry index in C3v(M)"
+                    "ffmt": "A3",
+                    "cfmt": "%3s",
+                    "desc": "Rotational symmetry"
+                },
+                {
+                    "name": "TROVE:|Coef|2",
+                    "ffmt": "F5.2",
+                    "cfmt": "%5.2f",
+                    "desc": "Square modulus of the coefficient with the largest contribution"
                 }
             ]
         },

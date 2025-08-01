@@ -32,7 +32,7 @@ TROVE                                                                           
 9                                                                               # No. of quanta defined
 Gtot                                                                            # Quantum label 1
 A3 %3s                                                                          # Format quantum label 1
-Symmetry                                                                        # Description quantum label 1
+Total symmetry                                                                  # Description quantum label 1
 v1                                                                              # Quantum label 2
 I2 %2d                                                                          # Format quantum label 2
 v1 vibrational quantum number                                                   # Description quantum label 2
@@ -47,7 +47,7 @@ I2 %2d                                                                          
 v3 vibrational quantum number                                                   # Description quantum label 5
 Coef                                                                            # Quantum label 6
 F5.2 %5.2f                                                                      # Format quantum label 6
-Conribution coefficient                                                         # Description quantum label 6
+Coefficient with the largest contribution                                       # Description quantum label 6
 n1                                                                              # Quantum label 7
 I2 %2d                                                                          # Format quantum label 7
 n1 vibrational quantum number (TROVE)                                           # Description quantum label 7

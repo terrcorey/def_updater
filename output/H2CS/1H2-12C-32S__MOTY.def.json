@@ -38,7 +38,7 @@
         "states": {
             "number_of_states": 52292454,
             "max_energy": 8000.0,
-            "uncertainty_description": "Original MOTY state term value",
+            "uncertainty_description": "Calculated energy in cm-1",
             "uncertainties_available": true,
             "lifetime_available": false,
             "lande_g_available": false,
@@ -78,7 +78,7 @@
                     "name": "TROVE:Gtot",
                     "ffmt": "A3",
                     "cfmt": "%3s",
-                    "desc": "[1/4] Total symmetry in C_2v_(M), Gamma = A_1_,A_2_,B_1_,B_2_"
+                    "desc": "Total symmetry"
                 },
                 {
                     "name": "TROVE:v1",
@@ -120,37 +120,37 @@
                     "name": "TROVE:Gvib",
                     "ffmt": "A3",
                     "cfmt": "%3s",
-                    "desc": "Symmetry of vibrational contribution C_2v_(M) Gamma(v) (local mode)"
+                    "desc": "Vibrational symmetry"
                 },
                 {
                     "name": "TROVE:J",
-                    "ffmt": "I2",
-                    "cfmt": "%2d",
-                    "desc": "Total angular momentum quantum number, the same as J before"
+                    "ffmt": "I7",
+                    "cfmt": "%7d",
+                    "desc": "Total rotational quantum number"
                 },
                 {
                     "name": "TROVE:Ka",
                     "ffmt": "I2",
                     "cfmt": "%2d",
-                    "desc": "Projection of J on axis of molec. symmetry"
+                    "desc": "Ka rotational quantum number"
                 },
                 {
                     "name": "TROVE:Kc",
                     "ffmt": "I2",
                     "cfmt": "%2d",
-                    "desc": "Projection of J rotational quantum number Kc"
+                    "desc": "Kc rotational quantum number"
                 },
                 {
                     "name": "TROVE:ivib",
-                    "ffmt": "I4",
-                    "cfmt": "%4d",
-                    "desc": "TROVE vibrational state ID"
+                    "ffmt": "I2",
+                    "cfmt": "%2d",
+                    "desc": "Index in vibrational symmetry block"
                 },
                 {
                     "name": "TROVE:Coef",
                     "ffmt": "F5.2",
                     "cfmt": "%5.2f",
-                    "desc": "Square of the largest coefficient"
+                    "desc": "Coefficient with the largest contribution"
                 },
                 {
                     "name": "TROVE:n1",

@@ -29,34 +29,34 @@ hunda                                                                           
 8                                                                               # No. of quanta defined
 +/-                                                                             # Quantum label 1
 A1 %1s                                                                          # Format quantum label 1
-Parity                                                                          # Description quantum label 1
+Total parity: '+' or '-'                                                        # Description quantum label 1
 e/f                                                                             # Quantum label 2
 A1 %1s                                                                          # Format quantum label 2
 Rotationless-parity                                                             # Description quantum label 2
 J                                                                               # Quantum label 3
-F7.1 %7.1f                                                                      # Format quantum label 3
-Total electron angular momentum                                                 # Description quantum label 3
+I7 %7d                                                                          # Format quantum label 3
+Total rotational quantum number                                                 # Description quantum label 3
 ElecState                                                                       # Quantum label 4
-A10 %10s                                                                        # Format quantum label 4
-Notation of the electronic state                                                # Description quantum label 4
+A12 %12s                                                                        # Format quantum label 4
+Electronic state                                                                # Description quantum label 4
 v                                                                               # Quantum label 5
 I3 %3d                                                                          # Format quantum label 5
 State vibrational quantum number                                                # Description quantum label 5
 Lambda                                                                          # Quantum label 6
-I1 %1d                                                                          # Format quantum label 6
-Projection of the electronic angular momentum                                   # Description quantum label 6
+I3 %3d                                                                          # Format quantum label 6
+Projection of electronic angular momentum                                       # Description quantum label 6
 Sigma                                                                           # Quantum label 7
-F7.1 %7.1f                                                                      # Format quantum label 7
+I5 %5d                                                                          # Format quantum label 7
 Projection of the electronic spin                                               # Description quantum label 7
 Omega                                                                           # Quantum label 8
-F7.1 %7.1f                                                                      # Format quantum label 8
-Omega = Lambda + Sigma, projection of the total angular momentum                # Description quantum label 8
+I5 %5d                                                                          # Format quantum label 8
+Omega = Lambda + Sigma, projection of total angular momentum                    # Description quantum label 8
 SourceType                                                                      # Auxiliary title 1
 A2 %2s                                                                          # Format title 1
-Indicates if the value is from MARVEL (Ma) or Calculated(Ca)                    # Description title 1
+Ma=MARVEL,Ca=Calculated,EH=Effective Hamiltonian,IE=Isotopologue extrapolation  # Description title 1
 Ecal                                                                            # Auxiliary title 2
 F12.6 %12.6f                                                                    # Format title 2
-Variational (Calculated) Energy (in cm-1)                                       # Description title 2
+Calculated energy in cm-1                                                       # Description title 2
 58904173243                                                                     # Total number of transitions
 90                                                                              # No. of transition files
 45000.00                                                                        # Maximum wavenumber (in cm-1)

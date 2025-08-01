@@ -66,8 +66,8 @@
                 },
                 {
                     "name": "hands:v",
-                    "ffmt": "I4",
-                    "cfmt": "%4d",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
                     "desc": "State vibrational quantum number"
                 },
                 {
@@ -77,16 +77,16 @@
                     "desc": "total angular momentum quantum number excluding spin"
                 },
                 {
-                    "name": "hands:par",
-                    "ffmt": "A4",
-                    "cfmt": "%4s",
-                    "desc": "parity: e or f"
+                    "name": "hands:e/f",
+                    "ffmt": "A1",
+                    "cfmt": "%1s",
+                    "desc": "Rotationless-parity"
                 },
                 {
                     "name": "hands:ElecState",
                     "ffmt": "A12",
                     "cfmt": "%12s",
-                    "desc": "electronic state"
+                    "desc": "Electronic state"
                 }
             ]
         },

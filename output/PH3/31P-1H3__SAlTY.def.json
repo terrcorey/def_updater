@@ -73,22 +73,22 @@
                     "cfmt": "%12.4e"
                 },
                 {
-                    "name": "stcs:totalSym",
-                    "ffmt": "I3",
-                    "cfmt": "%3d",
-                    "desc": "Total symmetry in C3v(M)"
+                    "name": "stcs:Gtot",
+                    "ffmt": "A3",
+                    "cfmt": "%3s",
+                    "desc": "Total symmetry"
                 },
                 {
                     "name": "stcs:K",
                     "ffmt": "I3",
                     "cfmt": "%3d",
-                    "desc": "Projection of rotational angular momentum"
+                    "desc": "Projection of J onto axis of molecular symmetry"
                 },
                 {
-                    "name": "stcs:rotSym",
-                    "ffmt": "I3",
-                    "cfmt": "%3d",
-                    "desc": "Rotational symmetry in C3v(M)"
+                    "name": "stcs:Grot",
+                    "ffmt": "A3",
+                    "cfmt": "%3s",
+                    "desc": "Rotational symmetry"
                 },
                 {
                     "name": "stcs:L",
@@ -133,10 +133,16 @@
                     "desc": "Projection of angular momentum corresponding to v4"
                 },
                 {
-                    "name": "stcs:vibSym",
-                    "ffmt": "I3",
-                    "cfmt": "%3d",
-                    "desc": "Vibrational symmetry in C3v(M)"
+                    "name": "stcs:Gvib",
+                    "ffmt": "A3",
+                    "cfmt": "%3s",
+                    "desc": "Vibrational symmetry"
+                },
+                {
+                    "name": "stcs:|Coef|2",
+                    "ffmt": "F5.2",
+                    "cfmt": "%5.2f",
+                    "desc": "Square modulus of the coefficient with the largest contribution"
                 },
                 {
                     "name": "stcs:s1",

@@ -36,7 +36,7 @@
         "states": {
             "number_of_states": 2399110,
             "max_energy": 19999.56,
-            "uncertainty_description": "Indicates if the value is from MARVEL (Ma) or Calculated(Ca)",
+            "uncertainty_description": "Ma=MARVEL,Ca=Calculated,EH=Effective Hamiltonian,IE=Isotopologue extrapolation",
             "uncertainties_available": true,
             "lifetime_available": false,
             "lande_g_available": false,
@@ -76,7 +76,7 @@
                     "name": "nltcs:Gtot",
                     "ffmt": "A3",
                     "cfmt": "%3s",
-                    "desc": "Overall symmetry in Cs(M) (A' or A\")"
+                    "desc": "Total symmetry"
                 },
                 {
                     "name": "nltcs:v1",
@@ -106,25 +106,25 @@
                     "name": "nltcs:e/f",
                     "ffmt": "A1",
                     "cfmt": "%1s",
-                    "desc": "Rotationless parity"
+                    "desc": "Rotationless-parity"
                 },
                 {
                     "name": "nltcs:Gvib",
                     "ffmt": "A3",
                     "cfmt": "%3s",
-                    "desc": "Symmetry of vibrational contribution in Cs(M) (A' or A\")"
+                    "desc": "Vibrational symmetry"
                 },
                 {
                     "name": "nltcs:Grot",
                     "ffmt": "A3",
                     "cfmt": "%3s",
-                    "desc": "Symmetry of rotational contribution in Cs(M) (A' or A\")"
+                    "desc": "Rotational symmetry"
                 },
                 {
                     "name": "nltcs:Coef",
                     "ffmt": "F5.2",
                     "cfmt": "%5.2f",
-                    "desc": "Largest coefficient used in the TROVE vibrational assignment"
+                    "desc": "Coefficient with the largest contribution"
                 },
                 {
                     "name": "nltcs:n1",

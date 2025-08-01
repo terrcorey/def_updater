@@ -29,16 +29,16 @@ hundb                                                                           
 4                                                                               # No. of quanta defined
 ElecState                                                                       # Quantum label 1
 A12 %12s                                                                        # Format quantum label 1
-electronic state                                                                # Description quantum label 1
+Electronic state                                                                # Description quantum label 1
 v                                                                               # Quantum label 2
-I4 %4d                                                                          # Format quantum label 2
+I3 %3d                                                                          # Format quantum label 2
 State vibrational quantum number                                                # Description quantum label 2
 F                                                                               # Quantum label 3
-I4 %4d                                                                          # Format quantum label 3
-F level                                                                         # Description quantum label 3
-kp                                                                              # Quantum label 4
-A4 %4s                                                                          # Format quantum label 4
-kronig rotationless parity                                                      # Description quantum label 4
+I3 %3d                                                                          # Format quantum label 3
+Final angular momentum                                                          # Description quantum label 3
+e/f                                                                             # Quantum label 4
+A1 %1s                                                                          # Format quantum label 4
+Rotationless-parity                                                             # Description quantum label 4
 28752                                                                           # Total number of transitions
 1                                                                               # No. of transition files
 5571.32                                                                         # Maximum wavenumber (in cm-1)

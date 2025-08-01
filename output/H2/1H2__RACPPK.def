@@ -30,9 +30,9 @@ Sigma_g-                                                                        
 dcs                                                                             # Quantum case label
 hundb                                                                           # Quantum case label
 1                                                                               # No. of quanta defined
-V                                                                               # Quantum label 1
-I6 %6d                                                                          # Format quantum label 1
-Vibrational quantum number                                                      # Description quantum label 1
+v                                                                               # Quantum label 1
+I3 %3d                                                                          # Format quantum label 1
+State vibrational quantum number                                                # Description quantum label 1
 4712                                                                            # Total number of transitions
 1                                                                               # No. of transition file
 36023.123654                                                                    # Maximum wavenumber (in cm-1)

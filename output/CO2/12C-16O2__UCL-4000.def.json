@@ -37,7 +37,7 @@
         "states": {
             "number_of_states": 3480477,
             "max_energy": 16000.0,
-            "uncertainty_description": "Variational (Calculated) Energy (in cm-1)",
+            "uncertainty_description": "Calculated energy in cm-1",
             "uncertainties_available": true,
             "lifetime_available": false,
             "lande_g_available": false,
@@ -83,7 +83,7 @@
                     "name": "TROVE:e/f",
                     "ffmt": "A1",
                     "cfmt": "%1s",
-                    "desc": "e/f parity"
+                    "desc": "Rotationless-parity"
                 },
                 {
                     "name": "TROVE:n1",
@@ -112,8 +112,8 @@
                 {
                     "name": "TROVE:Coef",
                     "ffmt": "F5.2",
-                    "cfmt": " %5.2f",
-                    "desc": "Coefficient with the largest contribution to the (J = 0) contracted set"
+                    "cfmt": "%5.2f",
+                    "desc": "Coefficient with the largest contribution"
                 },
                 {
                     "name": "TROVE:m1",
@@ -131,7 +131,7 @@
                     "name": "TROVE:l2",
                     "ffmt": "I2",
                     "cfmt": " %2d",
-                    "desc": "Vibrational bending QN"
+                    "desc": "Normal mode vibrational angular momentum QN"
                 },
                 {
                     "name": "TROVE:m3",

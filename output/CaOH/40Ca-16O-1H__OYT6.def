@@ -31,7 +31,7 @@ hunda                                                                           
 11                                                                              # No. of quanta defined
 +/-                                                                             # Quantum label 1
 A1 %1s                                                                          # Format quantum label 1
-Total parity                                                                    # Description quantum label 1
+Total parity: '+' or '-'                                                        # Description quantum label 1
 e/f                                                                             # Quantum label 2
 A1 %1s                                                                          # Format quantum label 2
 Rotationless-parity                                                             # Description quantum label 2
@@ -57,17 +57,17 @@ v3                                                                              
 I2 %2d                                                                          # Format quantum label 9
 Antisymmetric stretching v3 mode vibrational quantum number                     # Description quantum label 9
 Omega                                                                           # Quantum label 10
-F5.1 %5.1f                                                                      # Format quantum label 10
-Projection of the total angular momentum                                        # Description quantum label 10
-F_i                                                                             # Quantum label 11
-A2 %2s                                                                          # Format quantum label 11
-Spin components F1/F2                                                           # Description quantum label 11
+I5 %5d                                                                          # Format quantum label 10
+Omega = Lambda + Sigma, projection of total angular momentum                    # Description quantum label 10
+F                                                                               # Quantum label 11
+I3 %3d                                                                          # Format quantum label 11
+Final angular momentum                                                          # Description quantum label 11
 Ecal                                                                            # Auxiliary title 1
 F12.6 %12.6f                                                                    # Format title 1
-Original EVEREST calculated state energy                                        # Description title 1
+Calculated energy in cm-1                                                       # Description title 1
 SourceType                                                                      # Auxiliary title 2
 A2 %2s                                                                          # Format title 2
-Label 'Ma' for MARVEL, 'Ca' for calculated                                      # Description title 2
+Ma=MARVEL,Ca=Calculated,EH=Effective Hamiltonian,IE=Isotopologue extrapolation  # Description title 2
 23384729495                                                                     # Total number of transitions
 18                                                                              # No. of transition files
 36000.00                                                                        # Maximum wavenumber (in cm-1)

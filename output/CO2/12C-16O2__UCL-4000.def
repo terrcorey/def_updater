@@ -38,7 +38,7 @@ A3 %3s                                                                          
 Total symmetry                                                                  # Description quantum label 1
 e/f                                                                             # Quantum label 2
 A1 %1s                                                                          # Format quantum label 2
-e/f parity                                                                      # Description quantum label 2
+Rotationless-parity                                                             # Description quantum label 2
 n1                                                                              # Quantum label 3
 I2  %2d                                                                         # Format quantum label 3
 Normal mode stretching symmetry QN                                              # Description quantum label 3
@@ -52,8 +52,8 @@ n3                                                                              
 I2  %2d                                                                         # Format quantum label 6
 Normal mode stretching asymmetric QN                                            # Description quantum label 6
 Coef                                                                            # Quantum label 7
-F5.2  %5.2f                                                                     # Format quantum label 7
-Coefficient with the largest contribution to the (J = 0) contracted set         # Description quantum label 7
+F5.2 %5.2f                                                                      # Format quantum label 7
+Coefficient with the largest contribution                                       # Description quantum label 7
 m1                                                                              # Quantum label 8
 I2  %2d                                                                         # Format quantum label 8
 Symmetric vibrational Fermi-resonance group QN (-1=not available)               # Description quantum label 8
@@ -62,7 +62,7 @@ I2  %2d                                                                         
 Vibrational bending QN                                                          # Description quantum label 9
 l2                                                                              # Quantum label 10
 I2  %2d                                                                         # Format quantum label 10
-Vibrational bending QN                                                          # Description quantum label 10
+Normal mode vibrational angular momentum QN                                     # Description quantum label 10
 m3                                                                              # Quantum label 11
 I2  %2d                                                                         # Format quantum label 11
 Asymmetric vibrational stretching QN (equivalent to n3)                         # Description quantum label 11
@@ -80,10 +80,10 @@ I2  %2d                                                                         
 TROVE bending vibrational QN                                                    # Description quantum label 15
 SourceType                                                                      # Auxiliary title 1
 A2 %2s                                                                          # Format title 1
-Indicates if the value is from HITRAN (HI), Calculated(Ca)                      # Description title 1
+Ma=MARVEL,Ca=Calculated,EH=Effective Hamiltonian,IE=Isotopologue extrapolation  # Description title 1
 Ecal                                                                            # Auxiliary title 2
 F12.6 %12.6f                                                                    # Format title 2
-Variational (Calculated) Energy (in cm-1)                                       # Description title 2
+Calculated energy in cm-1                                                       # Description title 2
 2557549946                                                                      # Total number of transitions
 20                                                                              # No. of transition files
 20000.00                                                                        # Maximum wavenumber (in cm-1)

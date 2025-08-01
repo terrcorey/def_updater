@@ -68,16 +68,22 @@
                     "cfmt": "%7d"
                 },
                 {
-                    "name": "nltcs:Gamma",
-                    "ffmt": "I2",
-                    "cfmt": "%2d",
-                    "desc": "Symmetry block number (1)"
+                    "name": "nltcs:unc",
+                    "ffmt": "F12.6",
+                    "cfmt": "%12.6f",
+                    "desc": "Energy uncertainty in cm-1"
+                },
+                {
+                    "name": "nltcs:Gtot",
+                    "ffmt": "A3",
+                    "cfmt": "%3s",
+                    "desc": "Total symmetry"
                 },
                 {
                     "name": "nltcs:e/f",
-                    "ffmt": "a1",
+                    "ffmt": "A1",
                     "cfmt": "%1s",
-                    "desc": "Kronig parity e/f"
+                    "desc": "Rotationless-parity"
                 },
                 {
                     "name": "nltcs:v1",
@@ -105,9 +111,9 @@
                 },
                 {
                     "name": "nltcs:Coef",
-                    "ffmt": "f8.4",
-                    "cfmt": "%8.4f",
-                    "desc": "C_i largest contribution coefficient"
+                    "ffmt": "F5.2",
+                    "cfmt": "%5.2f",
+                    "desc": "Coefficient with the largest contribution"
                 },
                 {
                     "name": "nltcs:n1",
@@ -128,10 +134,10 @@
                     "desc": "n3 bend quantum number"
                 },
                 {
-                    "name": "nltcs:Gamma_vib",
-                    "ffmt": "A2",
-                    "cfmt": "%2s",
-                    "desc": "vibrational symmetry label"
+                    "name": "nltcs:Gvib",
+                    "ffmt": "A3",
+                    "cfmt": "%3s",
+                    "desc": "Vibrational symmetry"
                 },
                 {
                     "name": "nltcs:Ka",
@@ -140,10 +146,10 @@
                     "desc": "Ka rotational quantum number"
                 },
                 {
-                    "name": "nltcs:Gamma_rot",
-                    "ffmt": "A2",
-                    "cfmt": "%2s",
-                    "desc": "Rotatonal symmetry label"
+                    "name": "nltcs:Grot",
+                    "ffmt": "A3",
+                    "cfmt": "%3s",
+                    "desc": "Rotational symmetry"
                 }
             ]
         },

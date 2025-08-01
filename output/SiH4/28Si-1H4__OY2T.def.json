@@ -69,10 +69,10 @@
                     "cfmt": "%7d"
                 },
                 {
-                    "name": "sphcs:G",
-                    "ffmt": "I5",
-                    "cfmt": "%5d",
-                    "desc": "[1/5] Total symmetry in T_d_(M),Gamma=A_1,A_2,E,F_1_,F_2_"
+                    "name": "sphcs:Gtot",
+                    "ffmt": "A3",
+                    "cfmt": "%3s",
+                    "desc": "Total symmetry"
                 },
                 {
                     "name": "sphcs:n1",
@@ -129,46 +129,46 @@
                     "desc": "[0/20] M_4_ Multiplicity index quantum number"
                 },
                 {
-                    "name": "sphcs:Gv",
-                    "ffmt": "I4",
-                    "cfmt": "%4d",
-                    "desc": "[1/5] T_d_(M) vi. symmetry Gamma(v) (local mode)"
+                    "name": "sphcs:Gvib",
+                    "ffmt": "A3",
+                    "cfmt": "%3s",
+                    "desc": "Vibrational symmetry"
                 },
                 {
                     "name": "sphcs:J",
-                    "ffmt": "I6",
-                    "cfmt": "%6d",
-                    "desc": "[0/39] Total angular momentum quantum number, the same as J at 34-40"
+                    "ffmt": "I7",
+                    "cfmt": "%7d",
+                    "desc": "Total rotational quantum number"
                 },
                 {
                     "name": "sphcs:K",
-                    "ffmt": "I4",
-                    "cfmt": "%4d",
-                    "desc": "[0/39] Projection of J on axis of molec. symmetry"
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "Projection of J onto axis of molecular symmetry"
                 },
                 {
-                    "name": "sphcs:Pr",
-                    "ffmt": "I4",
-                    "cfmt": "%4d",
-                    "desc": "[0/1] Rotational parity tau(rot)"
+                    "name": "sphcs:rotpar",
+                    "ffmt": "I1",
+                    "cfmt": "%1d",
+                    "desc": "Rotational parity"
                 },
                 {
-                    "name": "sphcs:Gr",
-                    "ffmt": "I4",
-                    "cfmt": "%4d",
-                    "desc": "[1/5] T_d_(M) rot. symmetry Gamma(v) (local mode)"
+                    "name": "sphcs:Grot",
+                    "ffmt": "A3",
+                    "cfmt": "%3s",
+                    "desc": "Rotational symmetry"
                 },
                 {
-                    "name": "sphcs:N(Bl)",
-                    "ffmt": "I10",
-                    "cfmt": "%10d",
-                    "desc": "[1/97054] Reference number in the polyad"
+                    "name": "sphcs:nblock",
+                    "ffmt": "I2",
+                    "cfmt": "%2d",
+                    "desc": "Counting number in symmetry block"
                 },
                 {
-                    "name": "sphcs:C2",
-                    "ffmt": "F7.2",
-                    "cfmt": "%7.2f",
-                    "desc": "[0.0/1.0000] Square of the largest coefficient"
+                    "name": "sphcs:|Coef|2",
+                    "ffmt": "F5.2",
+                    "cfmt": "%5.2f",
+                    "desc": "Square modulus of the coefficient with the largest contribution"
                 },
                 {
                     "name": "sphcs:v1",

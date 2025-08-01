@@ -11,38 +11,34 @@ import requests
 import bz2
 from io import BytesIO
 
-def download_states_first_line():
-    states_dir = os.path.join(".", "input")
-    for mol in os.listdir(states_dir):
-        if os.path.isdir(os.path.join(states_dir, mol)):
-            for f in os.listdir(os.path.join(states_dir, mol)):
-                if f.endswith(".def"):
-                    states_file_path = os.path.join(states_dir, mol, f).replace(".def", ".states")
-                    if not os.path.exists(states_file_path):
-                        iso_slug, ds_name = f.split(".")[0].split("__")
-                        url = f"https://exomol.com/db/{mol}/{iso_slug}/{ds_name}/{f.replace('.def', '.states.bz2')}".replace("+", "_p")
-                        response = requests.get(url)
-                        if response.status_code == 200:
-                            # Decompress only until the first line is read
-                            decompressor = bz2.BZ2Decompressor()
-                            buffer = BytesIO(response.content)
-                            line = b""
-                            while True:
-                                chunk = buffer.read(1024)
-                                if not chunk:
-                                    break
-                                data = decompressor.decompress(chunk)
-                                line += data
-                                if b"\n" in line:
-                                    line = line.split(b"\n", 1)[0]
-                                    break
-                            # Save the first line to the states file
-                            with open(states_file_path, "wb") as f:
-                                f.write(line + b"\n")
-                        else:
-                            error_log(f"Dataset: {f.replace('.def', '')} || Failed to download states file from {url}", "Error")
-                            
-
+def download_states_first_line(mol, f):
+    if f.endswith(".def"):
+        f.replace(".def", "")
+    states_dir = os.path.join(".", "input", mol)
+    states_file_path = os.path.join(states_dir, f + ".states")
+    if not os.path.exists(states_file_path):
+        iso_slug, ds_name = f.split("__")
+        url = f"https://exomol.com/db/{mol}/{iso_slug}/{ds_name}/{f + '.states.bz2'}".replace("+", "_p")
+        response = requests.get(url)
+        if response.status_code == 200:
+            # Decompress only until the first line is read
+            decompressor = bz2.BZ2Decompressor()
+            buffer = BytesIO(response.content)
+            line = b""
+            while True:
+                chunk = buffer.read(1024)
+                if not chunk:
+                    break
+                data = decompressor.decompress(chunk)
+                line += data
+                if b"\n" in line:
+                    line = line.split(b"\n", 1)[0]
+                    break
+            # Save the first line to the states file
+            with open(states_file_path, "wb") as f:
+                f.write(line + b"\n")
+        else:
+            error_log(f"Dataset: {f.replace('.def', '')} || Failed to download states file from {url}", "Error")
 
 def check_J_format(states_file_path):
     # Reads only the first row to check the J column format
@@ -75,7 +71,7 @@ def load_standard_labels():
 def make_def_json():
     """Creates a JSON file with the standard labels structure."""
     path = os.path.join(os.getcwd(), "other_materials", "scripts", "convert_newnew.py")
-    os.system(f"python {path}")
+    os.system(f"python3 {path}")
 
 # Error handling and logging
 def exit_script():
@@ -270,8 +266,8 @@ def line_formatter(value, desc):
     """Formats a line for the new definition file."""
     value = str(value).strip()
     desc = str(desc).strip()
-    if value == "None" or value == "null" or value == None:
-        error_log(f"Dataset: {filename} || Value for '{desc}' is None or null.", "Warn")
+    if value == "None" or value == None:
+        error_log(f"Dataset: {filename} || Value for '{desc}' is None.", "Warn")
         return ""
     l = "EXOMOL.def                                                                      # ID"
     try:
@@ -332,21 +328,21 @@ def def_dict_update(def_dict, labels_list):
     keys = list(def_dict.keys())
 
     for key in keys:
-        if "Lifetime availability (1=yes, 0=no)" in key:
+        if "Lifetime availability" in key:
             if "tau" in labels:
                 labels.remove("tau")    
                 def_dict[key] = 1
             else:
                 def_dict[key] = 0
 
-        elif "Lande g-factor availability (1=yes, 0=no)" in key:
+        elif "Lande g-factor availability" in key:
             if "gfactor" in labels:
                 labels.remove("gfactor")    
                 def_dict[key] = 1
             else:
                 def_dict[key] = 0
 
-        elif "Uncertainty availability (1=yes, 0=no)" in key:
+        elif "Uncertainty availability" in key:
             if "unc" in labels:
                 labels.remove("unc")    
                 def_dict[key] = 1
@@ -355,24 +351,23 @@ def def_dict_update(def_dict, labels_list):
 
     aux_labels = [label for label in labels if "Auxiliary" in label]
     if aux_labels:
-        if len(aux_labels) != len(def_dict.get("Auxiliary labels", [])):
-            def_dict["Auxiliary labels"] = []
-            for aux_label in aux_labels:
-                label = aux_label.split(":")[1]
-                if label == "SourceType":
-                    dict = {
-                        "Auxiliary title": label,
-                        "Format title": "A2 %2s",
-                        "Description title": "Ma=MARVEL,Ca=Calculated,EH=Effective Hamiltonian,IE=Isotopologue extrapolation"
-                    }
-                    def_dict["Auxiliary labels"].append(dict)
-                elif label == "Ecal":
-                    dict = {
-                        "Auxiliary title": label,
-                        "Format title": "F12.6 %12.6f",
-                        "Description title": "Calculated energy in cm-1"
-                    }
-                    def_dict["Auxiliary labels"].append(dict)
+        def_dict["Auxiliary labels"] = []
+        for aux_label in aux_labels:
+            label = aux_label.split(":")[1]
+            if label == "SourceType":
+                dict = {
+                    "Auxiliary title": label,
+                    "Format title": "A2 %2s",
+                    "Description title": "Ma=MARVEL,Ca=Calculated,EH=Effective Hamiltonian,IE=Isotopologue extrapolation"
+                }
+                def_dict["Auxiliary labels"].append(dict)
+            elif label == "Ecal":
+                dict = {
+                    "Auxiliary title": label,
+                    "Format title": "F12.6 %12.6f",
+                    "Description title": "Calculated energy in cm-1"
+                }
+                def_dict["Auxiliary labels"].append(dict)
     new_labels = []
     prefixes = []
     for label in labels:
@@ -382,17 +377,11 @@ def def_dict_update(def_dict, labels_list):
         elif label not in aux_labels:
             new_labels.append(label)
 
-    quanta_cases = np.unique(np.array(prefixes))
-
-    if int(def_dict["No. of quanta cases"]) != len(quanta_cases):
-        error_log(f"Dataset: {filename} || Number of quanta cases ({len(quanta_cases)}) does not match number of entries in def file ({def_dict['No. of quanta cases']}).", "Warn")
-
     old_labels = def_dict.get("Quantum labels", None)
     if not old_labels:
         error_log(f"Dataset: {filename} || No quantum labels found in definition file.", "Critical")
         exit_script()
     for i, label in enumerate(new_labels):
-        found = False
         if label == "J":
             mol = re.sub(r'\((\d+)([A-Za-z]*)\)', r'(\2)', def_dict["IsoFormula"])
             mol = mol.replace("(", "").replace(")", "")
@@ -406,21 +395,28 @@ def def_dict_update(def_dict, labels_list):
                 "Format quantum label": fmt,
                 "Description quantum label": "Total rotational quantum number"
             }
-            found = True
-            break
+            continue
         for dict in old_labels:
             if dict["Quantum label"] == label:
                 new_labels[i] = dict
-                found = True
                 break
-        if not found:
-            for dict in standard_labels:
-                if dict["Quantum label"] == label:
-                    new_labels[i] = dict
-                    found = True
-                    break
-            if not found:
-                error_log(f"Dataset: {filename} || Quantum label '{label}' not found in old labels. Please input them manually.")
+        for dict in standard_labels:
+            if dict["Quantum label"] == label:
+                new_labels[i] = dict
+                break
+    for label in new_labels:
+        if isinstance(label, str):
+            dict = {
+                "Quantum label": label,
+                "Format quantum label": "",
+                "Description quantum label": ""
+            }
+            new_labels[new_labels.index(label)] = dict
+            error_log(f"Dataset: {filename} || Quantum label '{label}' not found in old labels. Please input them manually.")
+
+    def_dict["Quantum labels"] = new_labels
+    if def_dict.get("Iso-slug", None) == "cis-31P2-1H2":
+        print(new_labels)
 
 def update_def(def_file_path, def_dict):
     """Creates a new definition file with updated labels."""
@@ -470,9 +466,6 @@ def update_def(def_file_path, def_dict):
                     else:
                         output_file.write(line_formatter(case_labels, desc))
                     def_dict.pop("Quantum case label", None)
-
-            from pprint import pprint
-            pprint(def_dict)
                 
             # Write any remaining entries in def_dict to the output file
             for desc, value in def_dict.items():
@@ -518,6 +511,9 @@ def main():
         else:
             match = None
         if match and None not in match['labels']:
+            mol = match['mol']
+            f = match['ds_name']
+            download_states_first_line(mol, f)
             def_dict = read_def_file(def_file_path)
             labels_list = match['labels']
             def_dict_update(def_dict, labels_list)
@@ -539,7 +535,6 @@ if __name__ == "__main__":
     log_file_path = os.path.join(os.path.dirname(__file__), "log.txt")
     if os.path.exists(log_file_path):
         os.remove(log_file_path)
-    download_states_first_line()
     main()
     make_def_json()
     exit_script()

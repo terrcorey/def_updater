@@ -31,39 +31,66 @@ B2                                                                              
 1                                                                               # No. of quanta cases
 stcs                                                                            # Quantum case label
 11                                                                              # No. of quanta defined
-totalSym                                                                        # Quantum label 1
-I3 %3d                                                                          # Format quantum label 1
-Not given                                                                       # Description quantum label 1
-K                                                                               # Quantum label 2
+Gtot                                                                            # Quantum label 1
+A3 %3s                                                                          # Format quantum label 1
+Total symmetry                                                                  # Description quantum label 1
+v1                                                                              # Quantum label 2
 I3 %3d                                                                          # Format quantum label 2
-Not given                                                                       # Description quantum label 2
-rotSym                                                                          # Quantum label 3
+v1 Symmetric PH stretching                                                      # Description quantum label 2
+v2                                                                              # Quantum label 3
 I3 %3d                                                                          # Format quantum label 3
-Not given                                                                       # Description quantum label 3
-l                                                                               # Quantum label 4
+v2 Symmetric bending                                                            # Description quantum label 3
+v3                                                                              # Quantum label 4
 I3 %3d                                                                          # Format quantum label 4
-Not given                                                                       # Description quantum label 4
-v1                                                                              # Quantum label 5
+v3 PP stretching                                                                # Description quantum label 4
+v4                                                                              # Quantum label 5
 I3 %3d                                                                          # Format quantum label 5
-v1 Symmetric PH stretching                                                      # Description quantum label 5
-v2                                                                              # Quantum label 6
+v4 Torsional motion                                                             # Description quantum label 5
+v5                                                                              # Quantum label 6
 I3 %3d                                                                          # Format quantum label 6
-v2 Symmetric bending                                                            # Description quantum label 6
-v3                                                                              # Quantum label 7
+v5 Asymmetric PH stretching                                                     # Description quantum label 6
+v6                                                                              # Quantum label 7
 I3 %3d                                                                          # Format quantum label 7
-v3 PP stretching                                                                # Description quantum label 7
-v4                                                                              # Quantum label 8
-I3 %3d                                                                          # Format quantum label 8
-v4 Torsional motion                                                             # Description quantum label 8
-v5                                                                              # Quantum label 9
-I3 %3d                                                                          # Format quantum label 9
-v5 Asymmetric PH stretching                                                     # Description quantum label 9
-v6                                                                              # Quantum label 10
+v6 Asymmetric bending                                                           # Description quantum label 7
+Grot                                                                            # Quantum label 8
+A3 %3s                                                                          # Format quantum label 8
+Rotational symmetry                                                             # Description quantum label 8
+J                                                                               # Quantum label 9
+I7 %7d                                                                          # Format quantum label 9
+Total rotational quantum number                                                 # Description quantum label 9
+K                                                                               # Quantum label 10
 I3 %3d                                                                          # Format quantum label 10
-v6 Asymmetric bending                                                           # Description quantum label 10
-vibSym                                                                          # Quantum label 11
-I3 %3d                                                                          # Format quantum label 11
-Vib symmetry                                                                    # Description quantum label 11
+Projection of J onto axis of molecular symmetry                                 # Description quantum label 10
+rotpar                                                                          # Quantum label 11
+I1 %1d                                                                          # Format quantum label 11
+Rotational parity                                                               # Description quantum label 11
+Gvib                                                                            # Quantum label 12
+A3 %3s                                                                          # Format quantum label 12
+Vibrational symmetry                                                            # Description quantum label 12
+null                                                                            # Quantum label 13
+                                                                                # Format quantum label 13
+                                                                                # Description quantum label 13
+|Coef|2                                                                         # Quantum label 14
+F5.2 %5.2f                                                                      # Format quantum label 14
+Square modulus of the coefficient with the largest contribution                 # Description quantum label 14
+n1                                                                              # Quantum label 15
+                                                                                # Format quantum label 15
+                                                                                # Description quantum label 15
+n2                                                                              # Quantum label 16
+                                                                                # Format quantum label 16
+                                                                                # Description quantum label 16
+n3                                                                              # Quantum label 17
+                                                                                # Format quantum label 17
+                                                                                # Description quantum label 17
+n4                                                                              # Quantum label 18
+                                                                                # Format quantum label 18
+                                                                                # Description quantum label 18
+n5                                                                              # Quantum label 19
+                                                                                # Format quantum label 19
+                                                                                # Description quantum label 19
+n6                                                                              # Quantum label 20
+                                                                                # Format quantum label 20
+                                                                                # Description quantum label 20
 11020092365                                                                     # Total number of transitions
 8                                                                               # No. of transition files
 8000.00                                                                         # Maximum wavenumber (in cm-1)

@@ -35,7 +35,7 @@
         "states": {
             "number_of_states": 33330,
             "max_energy": 18496.21669,
-            "uncertainty_description": "Variational (Calculated) Energy (in cm-1)",
+            "uncertainty_description": "Calculated energy in cm-1",
             "uncertainties_available": true,
             "lifetime_available": true,
             "lande_g_available": false,
@@ -81,19 +81,19 @@
                     "name": "nltcs:+/-",
                     "ffmt": "A1",
                     "cfmt": "%1s",
-                    "desc": "Total parity"
+                    "desc": "Total parity: '+' or '-'"
                 },
                 {
                     "name": "nltcs:Grve",
                     "ffmt": "A3",
                     "cfmt": "%3s",
-                    "desc": "C2v symmetry group"
+                    "desc": "Rovibrational symmetry"
                 },
                 {
-                    "name": "nltcs:N",
-                    "ffmt": "I5",
-                    "cfmt": "%5d",
-                    "desc": "Symmetry group block counting number"
+                    "name": "nltcs:nblock",
+                    "ffmt": "I2",
+                    "cfmt": "%2d",
+                    "desc": "Counting number in symmetry block"
                 },
                 {
                     "name": "nltcs:Isomer",
@@ -123,13 +123,13 @@
                     "name": "nltcs:Ka",
                     "ffmt": "I2",
                     "cfmt": "%2d",
-                    "desc": "Rotational angular momentum quantum number"
+                    "desc": "Ka rotational quantum number"
                 },
                 {
                     "name": "nltcs:Kc",
                     "ffmt": "I2",
                     "cfmt": "%2d",
-                    "desc": "Rotational angular momentum quantum number"
+                    "desc": "Kc rotational quantum number"
                 }
             ]
         },

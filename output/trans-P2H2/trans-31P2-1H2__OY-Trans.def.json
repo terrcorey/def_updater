@@ -68,28 +68,10 @@
                     "cfmt": "%7d"
                 },
                 {
-                    "name": "stcs:totalSym",
-                    "ffmt": "I3",
-                    "cfmt": "%3d",
-                    "desc": "Not given"
-                },
-                {
-                    "name": "stcs:K",
-                    "ffmt": "I3",
-                    "cfmt": "%3d",
-                    "desc": "Not given"
-                },
-                {
-                    "name": "stcs:rotSym",
-                    "ffmt": "I3",
-                    "cfmt": "%3d",
-                    "desc": "Not given"
-                },
-                {
-                    "name": "stcs:l",
-                    "ffmt": "I3",
-                    "cfmt": "%3d",
-                    "desc": "Not given"
+                    "name": "stcs:Gtot",
+                    "ffmt": "A3",
+                    "cfmt": "%3s",
+                    "desc": "Total symmetry"
                 },
                 {
                     "name": "stcs:v1",
@@ -128,10 +110,82 @@
                     "desc": "v6 Asymmetric bending"
                 },
                 {
-                    "name": "stcs:vibSym",
+                    "name": "stcs:Grot",
+                    "ffmt": "A3",
+                    "cfmt": "%3s",
+                    "desc": "Rotational symmetry"
+                },
+                {
+                    "name": "stcs:J",
+                    "ffmt": "I7",
+                    "cfmt": "%7d",
+                    "desc": "Total rotational quantum number"
+                },
+                {
+                    "name": "stcs:K",
                     "ffmt": "I3",
                     "cfmt": "%3d",
-                    "desc": "Vib symmetry"
+                    "desc": "Projection of J onto axis of molecular symmetry"
+                },
+                {
+                    "name": "stcs:rotpar",
+                    "ffmt": "I1",
+                    "cfmt": "%1d",
+                    "desc": "Rotational parity"
+                },
+                {
+                    "name": "stcs:Gvib",
+                    "ffmt": "A3",
+                    "cfmt": "%3s",
+                    "desc": "Vibrational symmetry"
+                },
+                {
+                    "name": "stcs:null",
+                    "ffmt": "",
+                    "cfmt": "",
+                    "desc": ""
+                },
+                {
+                    "name": "stcs:|Coef|2",
+                    "ffmt": "F5.2",
+                    "cfmt": "%5.2f",
+                    "desc": "Square modulus of the coefficient with the largest contribution"
+                },
+                {
+                    "name": "stcs:n1",
+                    "ffmt": "",
+                    "cfmt": "",
+                    "desc": ""
+                },
+                {
+                    "name": "stcs:n2",
+                    "ffmt": "",
+                    "cfmt": "",
+                    "desc": ""
+                },
+                {
+                    "name": "stcs:n3",
+                    "ffmt": "",
+                    "cfmt": "",
+                    "desc": ""
+                },
+                {
+                    "name": "stcs:n4",
+                    "ffmt": "",
+                    "cfmt": "",
+                    "desc": ""
+                },
+                {
+                    "name": "stcs:n5",
+                    "ffmt": "",
+                    "cfmt": "",
+                    "desc": ""
+                },
+                {
+                    "name": "stcs:n6",
+                    "ffmt": "",
+                    "cfmt": "",
+                    "desc": ""
                 }
             ]
         },

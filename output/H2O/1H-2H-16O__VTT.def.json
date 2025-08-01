@@ -69,7 +69,7 @@
                     "name": "nltcs:+/-",
                     "ffmt": "A1",
                     "cfmt": "%1s",
-                    "desc": "Parity"
+                    "desc": "Total parity: '+' or '-'"
                 },
                 {
                     "name": "nltcs:G",
@@ -78,16 +78,16 @@
                     "desc": "Symmetry block number (1)"
                 },
                 {
-                    "name": "nltcs:N",
-                    "ffmt": "I10",
-                    "cfmt": "%10d",
-                    "desc": "Index within the symmetry block"
+                    "name": "nltcs:nblock",
+                    "ffmt": "I2",
+                    "cfmt": "%2d",
+                    "desc": "Counting number in symmetry block"
                 },
                 {
-                    "name": "nltcs:Gamma_rve",
-                    "ffmt": "A2",
-                    "cfmt": "%2s",
-                    "desc": "Rovibrational symmetry label"
+                    "name": "nltcs:Grve",
+                    "ffmt": "A3",
+                    "cfmt": "%3s",
+                    "desc": "Rovibrational symmetry"
                 },
                 {
                     "name": "nltcs:v1",

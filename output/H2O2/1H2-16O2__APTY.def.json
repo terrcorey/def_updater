@@ -78,10 +78,10 @@
                     "cfmt": "%12.4e"
                 },
                 {
-                    "name": "TROVE:G",
-                    "ffmt": "I5",
-                    "cfmt": "%5d",
-                    "desc": "[1/8] Total symmetry"
+                    "name": "TROVE:Gtot",
+                    "ffmt": "A3",
+                    "cfmt": "%3s",
+                    "desc": "Total symmetry"
                 },
                 {
                     "name": "TROVE:v1",
@@ -120,46 +120,46 @@
                     "desc": "[0/16] normal mode vibrational quantum number"
                 },
                 {
-                    "name": "TROVE:tau",
-                    "ffmt": "I3",
-                    "cfmt": "%3d",
-                    "desc": "[1/4] normal mode torsional symmetry quantum number"
+                    "name": "TROVE:Gtor",
+                    "ffmt": "A3",
+                    "cfmt": "%3s",
+                    "desc": "Torsional symmetry"
                 },
                 {
-                    "name": "TROVE:Gv",
-                    "ffmt": "I3",
-                    "cfmt": "%3d",
-                    "desc": "[1/4] D_2h_(M) vi. symmetry Gamma(v) (local mode)"
+                    "name": "TROVE:Gvib",
+                    "ffmt": "A3",
+                    "cfmt": "%3s",
+                    "desc": "Vibrational symmetry"
                 },
                 {
                     "name": "TROVE:K",
                     "ffmt": "I3",
                     "cfmt": "%3d",
-                    "desc": "[0/85] Projection of J on axis of molec. symmetry"
+                    "desc": "Projection of J onto axis of molecular symmetry"
                 },
                 {
-                    "name": "TROVE:Pr",
-                    "ffmt": "I3",
-                    "cfmt": "%3d",
-                    "desc": "[0/1] Rotational parity tau(rot)"
+                    "name": "TROVE:rotpar",
+                    "ffmt": "I1",
+                    "cfmt": "%1d",
+                    "desc": "Rotational parity"
                 },
                 {
-                    "name": "TROVE:Gr",
-                    "ffmt": "I5",
-                    "cfmt": "%5d",
-                    "desc": "[1/4] D_2h_(M) rot. symmetry Gamma(v) (local mode)"
+                    "name": "TROVE:Grot",
+                    "ffmt": "A3",
+                    "cfmt": "%3s",
+                    "desc": "Rotational symmetry"
                 },
                 {
-                    "name": "TROVE:N(Bl",
-                    "ffmt": "I8",
-                    "cfmt": "%8d",
-                    "desc": "[1/67238] Reference number in the polyad"
+                    "name": "TROVE:nblock",
+                    "ffmt": "I2",
+                    "cfmt": "%2d",
+                    "desc": "Counting number in symmetry block"
                 },
                 {
-                    "name": "TROVE:C2",
-                    "ffmt": "F3.2",
-                    "cfmt": "%3.2f",
-                    "desc": "[0.0/1.00] Square of the largest coefficient"
+                    "name": "TROVE:|Coef|2",
+                    "ffmt": "F5.2",
+                    "cfmt": "%5.2f",
+                    "desc": "Square modulus of the coefficient with the largest contribution"
                 },
                 {
                     "name": "TROVE:n1",

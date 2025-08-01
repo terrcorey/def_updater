@@ -83,7 +83,7 @@
                     "name": "nltcs:Grve",
                     "ffmt": "A3",
                     "cfmt": "%3s",
-                    "desc": "Rovibrational symmetry label"
+                    "desc": "Rovibrational symmetry"
                 },
                 {
                     "name": "nltcs:Ka",

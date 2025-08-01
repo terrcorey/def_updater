@@ -37,7 +37,7 @@
         "states": {
             "number_of_states": 158721,
             "max_energy": null,
-            "uncertainty_description": "Variational (Calculated) Energy (in cm-1)",
+            "uncertainty_description": "Calculated energy in cm-1",
             "uncertainties_available": true,
             "lifetime_available": true,
             "lande_g_available": false,
@@ -82,20 +82,20 @@
                 {
                     "name": "stcs:e/f",
                     "ffmt": "A1",
-                    "cfmt": " %1s",
-                    "desc": "e/f state parity"
+                    "cfmt": "%1s",
+                    "desc": "Rotationless-parity"
                 },
                 {
                     "name": "stcs:Grve",
                     "ffmt": "A3",
                     "cfmt": "%3s",
-                    "desc": "The total symmetry (D3h); un for undefined"
+                    "desc": "Rovibrational symmetry"
                 },
                 {
-                    "name": "stcs:N",
-                    "ffmt": "I5",
-                    "cfmt": "%5d",
-                    "desc": "Reference within the symmetry block"
+                    "name": "stcs:nblock",
+                    "ffmt": "I2",
+                    "cfmt": "%2d",
+                    "desc": "Counting number in symmetry block"
                 },
                 {
                     "name": "stcs:Isomer",
@@ -135,9 +135,9 @@
                 },
                 {
                     "name": "stcs:K",
-                    "ffmt": "I2",
-                    "cfmt": "%2d",
-                    "desc": "Absolute value of the projection of J on the C3 axis; -1 if not present"
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "Projection of J onto axis of molecular symmetry"
                 }
             ]
         },

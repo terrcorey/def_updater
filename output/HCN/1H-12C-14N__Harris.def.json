@@ -76,7 +76,7 @@
                     "name": "ltcs:+/-",
                     "ffmt": "A1",
                     "cfmt": "%1s",
-                    "desc": "Parity"
+                    "desc": "Total parity: '+' or '-'"
                 },
                 {
                     "name": "ltcs:kp",

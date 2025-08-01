@@ -66,16 +66,16 @@
                     "cfmt": "%7d"
                 },
                 {
-                    "name": "dcs:v",
-                    "ffmt": "I4",
-                    "cfmt": "%4d",
-                    "desc": "State vibrational quantum number"
+                    "name": "dcs:unc",
+                    "ffmt": "F12.6",
+                    "cfmt": "%12.6f",
+                    "desc": "Energy uncertainty in cm-1"
                 },
                 {
-                    "name": "dcs:ElecState",
-                    "ffmt": "A4",
-                    "cfmt": "%4s",
-                    "desc": "electronic state"
+                    "name": "dcs:v",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "State vibrational quantum number"
                 }
             ]
         },

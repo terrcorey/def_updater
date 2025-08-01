@@ -29,48 +29,66 @@ E                                                                               
 1                                                                               # No. of quanta cases
 local                                                                           # Quantum case label
 20                                                                              # No. of quanta defined
-G                                                                               # Quantum label 1
-I7 %7d                                                                          # Format quantum label 1
-[1/1099] Total degeneracy                                                       # Description quantum label 1
-J                                                                               # Quantum label 2
-I8 %8d                                                                          # Format quantum label 2
-[1/100] Total angular momentum                                                  # Description quantum label 2
-G                                                                               # Quantum label 3
-I5 %5d                                                                          # Format quantum label 3
-[1/3] Total symmetry in C3v(M),Gamma=A1,A2,E                                    # Description quantum label 3
-n1                                                                              # Quantum label 4
-I6 %6d                                                                          # Format quantum label 4
+Gtot                                                                            # Quantum label 1
+A3 %3s                                                                          # Format quantum label 1
+Total symmetry                                                                  # Description quantum label 1
+n1                                                                              # Quantum label 2
+I6 %6d                                                                          # Format quantum label 2
+[0/3] TROVE quantum number P-F local mode stretch                               # Description quantum label 2
+n2                                                                              # Quantum label 3
+I4 %4d                                                                          # Format quantum label 3
+[0/3] TROVE quantum number P-F local mode stretch                               # Description quantum label 3
+n3                                                                              # Quantum label 4
+I4 %4d                                                                          # Format quantum label 4
 [0/3] TROVE quantum number P-F local mode stretch                               # Description quantum label 4
-n2                                                                              # Quantum label 5
+n4                                                                              # Quantum label 5
 I4 %4d                                                                          # Format quantum label 5
-[0/3] TROVE quantum number P-F local mode stretch                               # Description quantum label 5
-n3                                                                              # Quantum label 6
+[0/7] TROVE quantum number PPF local mode bend                                  # Description quantum label 5
+n5                                                                              # Quantum label 6
 I4 %4d                                                                          # Format quantum label 6
-[0/3] TROVE quantum number P-F local mode stretch                               # Description quantum label 6
-n4                                                                              # Quantum label 7
+[0/7] TROVE quantum number PPF local mode bend                                  # Description quantum label 6
+n6                                                                              # Quantum label 7
 I4 %4d                                                                          # Format quantum label 7
 [0/7] TROVE quantum number PPF local mode bend                                  # Description quantum label 7
-n5                                                                              # Quantum label 8
-I4 %4d                                                                          # Format quantum label 8
-[0/7] TROVE quantum number PPF local mode bend                                  # Description quantum label 8
-n6                                                                              # Quantum label 9
-I4 %4d                                                                          # Format quantum label 9
-[0/7] TROVE quantum number PPF local mode bend                                  # Description quantum label 9
-Gv                                                                              # Quantum label 10
-I5 %5d                                                                          # Format quantum label 10
-[0/3] Vib component  symmetry in C3v(M)                                         # Description quantum label 10
-J                                                                               # Quantum label 11
-I7 %7d                                                                          # Format quantum label 11
-[1/100] Total angular momentum                                                  # Description quantum label 11
-K                                                                               # Quantum label 12
-I4 %4d                                                                          # Format quantum label 12
-[0/100] Projection of J on axis of molec. symmetry                              # Description quantum label 12
-Pr                                                                              # Quantum label 13
-I4 %4d                                                                          # Format quantum label 13
-[0/1] Rotational parity tau(rot)                                                # Description quantum label 13
-Gr                                                                              # Quantum label 14
-I4 %4d                                                                          # Format quantum label 14
-[1/3] C_3v(M) rot. symmetry Gamma(v) (local mode)                               # Description quantum label 14
+Gvib                                                                            # Quantum label 8
+A3 %3s                                                                          # Format quantum label 8
+Vibrational symmetry                                                            # Description quantum label 8
+J                                                                               # Quantum label 9
+I7 %7d                                                                          # Format quantum label 9
+Total rotational quantum number                                                 # Description quantum label 9
+K                                                                               # Quantum label 10
+I3 %3d                                                                          # Format quantum label 10
+Projection of J onto axis of molecular symmetry                                 # Description quantum label 10
+rotpar                                                                          # Quantum label 11
+I1 %1d                                                                          # Format quantum label 11
+Rotational parity                                                               # Description quantum label 11
+Grot                                                                            # Quantum label 12
+A3 %3s                                                                          # Format quantum label 12
+Rotational symmetry                                                             # Description quantum label 12
+null                                                                            # Quantum label 13
+                                                                                # Format quantum label 13
+                                                                                # Description quantum label 13
+|Coef|2                                                                         # Quantum label 14
+F5.2 %5.2f                                                                      # Format quantum label 14
+Square modulus of the coefficient with the largest contribution                 # Description quantum label 14
+n1                                                                              # Quantum label 15
+I6 %6d                                                                          # Format quantum label 15
+[0/3] TROVE quantum number P-F local mode stretch                               # Description quantum label 15
+n2                                                                              # Quantum label 16
+I4 %4d                                                                          # Format quantum label 16
+[0/3] TROVE quantum number P-F local mode stretch                               # Description quantum label 16
+n3                                                                              # Quantum label 17
+I4 %4d                                                                          # Format quantum label 17
+[0/3] TROVE quantum number P-F local mode stretch                               # Description quantum label 17
+n4                                                                              # Quantum label 18
+I4 %4d                                                                          # Format quantum label 18
+[0/7] TROVE quantum number PPF local mode bend                                  # Description quantum label 18
+n5                                                                              # Quantum label 19
+I4 %4d                                                                          # Format quantum label 19
+[0/7] TROVE quantum number PPF local mode bend                                  # Description quantum label 19
+n6                                                                              # Quantum label 20
+I4 %4d                                                                          # Format quantum label 20
+[0/7] TROVE quantum number PPF local mode bend                                  # Description quantum label 20
 68000000000                                                                     # Total number of transitions
 36                                                                              # No. of transition files
 3600.00                                                                         # Maximum wavenumber (in cm-1)

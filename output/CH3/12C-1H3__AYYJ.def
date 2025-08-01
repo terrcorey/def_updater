@@ -36,66 +36,63 @@ E"                                                                              
 stcs                                                                            # Quantum case label
 TROVE                                                                           # Quantum case label
 20                                                                              # No. of quanta defined
-+/-                                                                             # Quantum label 1
-A1 %1s                                                                          # Format quantum label 1
-Parity                                                                          # Description quantum label 1
-Gamma                                                                           # Quantum label 2
-I2 %2d                                                                          # Format quantum label 2
-Total symmetry index in D3h(M)                                                  # Description quantum label 2
-N(Block)                                                                        # Quantum label 3
-I10 %10d                                                                        # Format quantum label 3
-Reference number in the J-Gamma block                                           # Description quantum label 3
-n1                                                                              # Quantum label 4
-I6 %6d                                                                          # Format quantum label 4
-Symmetric stretch quantum number (normal mode)                                  # Description quantum label 4
-n2                                                                              # Quantum label 5
-I3 %3d                                                                          # Format quantum label 5
-Symmetric bend quantum number (normal mode)                                     # Description quantum label 5
-n3                                                                              # Quantum label 6
-I3 %3d                                                                          # Format quantum label 6
-Asymmetric stretch quantum number (normal mode)                                 # Description quantum label 6
-n4                                                                              # Quantum label 7
-I4 %4d                                                                          # Format quantum label 7
-Asymmetric bend quantum number (normal mode)                                    # Description quantum label 7
-l3                                                                              # Quantum label 8
-I6 %6d                                                                          # Format quantum label 8
-Asymmetric stretch angular momentum quantum no. (normal mode)                   # Description quantum label 8
-l4                                                                              # Quantum label 9
-I3 %3d                                                                          # Format quantum label 9
-Asymmetric bend angular momentum quantum no. (normal mode)                      # Description quantum label 9
-tau(inv)                                                                        # Quantum label 10
-I4 %4d                                                                          # Format quantum label 10
-Inversional parity (takes values 0,1)                                           # Description quantum label 10
-J                                                                               # Quantum label 11
-                                                                                # Format quantum label 11
-Total rotational angular momentum                                               # Description quantum label 11
-K                                                                               # Quantum label 12
-I3 %3d                                                                          # Format quantum label 12
-Projection of J on axis of molecular symmetry                                   # Description quantum label 12
-tau(rot)                                                                        # Quantum label 13
-I3 %3d                                                                          # Format quantum label 13
-Rotational parity (takes values 0,1)                                            # Description quantum label 13
-v1                                                                              # Quantum label 14
+Gtot                                                                            # Quantum label 1
+A3 %3s                                                                          # Format quantum label 1
+Total symmetry                                                                  # Description quantum label 1
+n1                                                                              # Quantum label 2
+I6 %6d                                                                          # Format quantum label 2
+Symmetric stretch quantum number (normal mode)                                  # Description quantum label 2
+n2                                                                              # Quantum label 3
+I3 %3d                                                                          # Format quantum label 3
+Symmetric bend quantum number (normal mode)                                     # Description quantum label 3
+n3                                                                              # Quantum label 4
+I3 %3d                                                                          # Format quantum label 4
+Asymmetric stretch quantum number (normal mode)                                 # Description quantum label 4
+n4                                                                              # Quantum label 5
+I4 %4d                                                                          # Format quantum label 5
+Asymmetric bend quantum number (normal mode)                                    # Description quantum label 5
+l3                                                                              # Quantum label 6
+I6 %6d                                                                          # Format quantum label 6
+Asymmetric stretch angular momentum quantum no. (normal mode)                   # Description quantum label 6
+l4                                                                              # Quantum label 7
+I3 %3d                                                                          # Format quantum label 7
+Asymmetric bend angular momentum quantum no. (normal mode)                      # Description quantum label 7
+Gvib                                                                            # Quantum label 8
+A3 %3s                                                                          # Format quantum label 8
+Vibrational symmetry                                                            # Description quantum label 8
+J                                                                               # Quantum label 9
+I7 %7d                                                                          # Format quantum label 9
+Total rotational quantum number                                                 # Description quantum label 9
+K                                                                               # Quantum label 10
+I3 %3d                                                                          # Format quantum label 10
+Projection of J onto axis of molecular symmetry                                 # Description quantum label 10
+rotpar                                                                          # Quantum label 11
+I1 %1d                                                                          # Format quantum label 11
+Rotational parity                                                               # Description quantum label 11
+Grot                                                                            # Quantum label 12
+A3 %3s                                                                          # Format quantum label 12
+Rotational symmetry                                                             # Description quantum label 12
+|Coef|2                                                                         # Quantum label 13
+F5.2 %5.2f                                                                      # Format quantum label 13
+Square modulus of the coefficient with the largest contribution                 # Description quantum label 13
+n1                                                                              # Quantum label 14
 I6 %6d                                                                          # Format quantum label 14
-Local mode stretching quantum number (1)                                        # Description quantum label 14
-v2                                                                              # Quantum label 15
+Symmetric stretch quantum number (normal mode)                                  # Description quantum label 14
+n2                                                                              # Quantum label 15
 I3 %3d                                                                          # Format quantum label 15
-Local mode stretching quantum number (2)                                        # Description quantum label 15
-v3                                                                              # Quantum label 16
+Symmetric bend quantum number (normal mode)                                     # Description quantum label 15
+n3                                                                              # Quantum label 16
 I3 %3d                                                                          # Format quantum label 16
-Local mode stretching quantum number (3)                                        # Description quantum label 16
-v4                                                                              # Quantum label 17
-I3 %3d                                                                          # Format quantum label 17
-Local mode bending quantum number (1)                                           # Description quantum label 17
-v5                                                                              # Quantum label 18
-I3 %3d                                                                          # Format quantum label 18
-Local mode bending quantum number  (2)                                          # Description quantum label 18
-v6                                                                              # Quantum label 19
-I3 %3d                                                                          # Format quantum label 19
-Local mode inversion quantum number                                             # Description quantum label 19
-Gamma(vib)                                                                      # Quantum label 20
-I5 %5d                                                                          # Format quantum label 20
-D3h(M) vibrational symmetry (local mode)                                        # Description quantum label 20
+Asymmetric stretch quantum number (normal mode)                                 # Description quantum label 16
+n4                                                                              # Quantum label 17
+I4 %4d                                                                          # Format quantum label 17
+Asymmetric bend quantum number (normal mode)                                    # Description quantum label 17
+n5                                                                              # Quantum label 18
+                                                                                # Format quantum label 18
+                                                                                # Description quantum label 18
+n6                                                                              # Quantum label 19
+                                                                                # Format quantum label 19
+                                                                                # Description quantum label 19
 2058655166                                                                      # Total number of transitions
 10                                                                              # No. of transition files
 10000.00                                                                        # Maximum wavenumber (in cm-1)

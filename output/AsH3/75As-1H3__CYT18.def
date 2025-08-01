@@ -30,9 +30,9 @@ E                                                                               
 local                                                                           # Quantum case label
 TROVE                                                                           # Quantum case label
 12                                                                              # No. of quanta defined
-Gamma                                                                           # Quantum label 1
-I2 %2d                                                                          # Format quantum label 1
-Total symmetry index in C3v(M)                                                  # Description quantum label 1
+Gtot                                                                            # Quantum label 1
+A3 %3s                                                                          # Format quantum label 1
+Total symmetry                                                                  # Description quantum label 1
 v1                                                                              # Quantum label 2
 I5 %5d                                                                          # Format quantum label 2
 Local mode stretching quantum number 1                                          # Description quantum label 2
@@ -52,20 +52,23 @@ v6                                                                              
 I3 %3d                                                                          # Format quantum label 7
 Local mode bending quantum number 3                                             # Description quantum label 7
 Gvib                                                                            # Quantum label 8
-I4 %4d                                                                          # Format quantum label 8
-Vibrational symmtery index in C3v(M)                                            # Description quantum label 8
+A3 %3s                                                                          # Format quantum label 8
+Vibrational symmetry                                                            # Description quantum label 8
 J                                                                               # Quantum label 9
-I6 %6                                                                           # Format quantum label 9
-Total angular momentum quantum number                                           # Description quantum label 9
+I7 %7d                                                                          # Format quantum label 9
+Total rotational quantum number                                                 # Description quantum label 9
 K                                                                               # Quantum label 10
-I3 %d3                                                                          # Format quantum label 10
+I3 %3d                                                                          # Format quantum label 10
 Projection of J onto axis of molecular symmetry                                 # Description quantum label 10
-tau(rot)                                                                        # Quantum label 11
-I3 %d3                                                                          # Format quantum label 11
+rotpar                                                                          # Quantum label 11
+I1 %1d                                                                          # Format quantum label 11
 Rotational parity                                                               # Description quantum label 11
 Grot                                                                            # Quantum label 12
-I3 %d3                                                                          # Format quantum label 12
-Rotational symmetry index in C3v(M)                                             # Description quantum label 12
+A3 %3s                                                                          # Format quantum label 12
+Rotational symmetry                                                             # Description quantum label 12
+|Coef|2                                                                         # Quantum label 13
+F5.2 %5.2f                                                                      # Format quantum label 13
+Square modulus of the coefficient with the largest contribution                 # Description quantum label 13
 3636112                                                                         # Total number of transitions
 1                                                                               # No. of transition files
 7000.00                                                                         # Maximum wavenumber (in cm-1)

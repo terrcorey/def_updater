@@ -68,34 +68,16 @@
                     "cfmt": "%7d"
                 },
                 {
-                    "name": "nltcs:+/-",
-                    "ffmt": "A1",
-                    "cfmt": "%1s",
-                    "desc": "Total parity"
-                },
-                {
-                    "name": "nltcs:Gamma",
+                    "name": "nltcs:Ka",
                     "ffmt": "I2",
                     "cfmt": "%2d",
-                    "desc": "Symmetry block number (1)"
+                    "desc": "Ka rotational quantum number"
                 },
                 {
-                    "name": "nltcs:N",
-                    "ffmt": "I10",
-                    "cfmt": "%10d",
-                    "desc": "Reference within the symmetry block"
-                },
-                {
-                    "name": "nltcs:nucspin",
-                    "ffmt": "A1",
-                    "cfmt": "%1s",
-                    "desc": "Nuclear spin isomer label(2)"
-                },
-                {
-                    "name": "nltcs:Gamma_rve",
-                    "ffmt": "A2",
-                    "cfmt": "%2s",
-                    "desc": "Rovibrational symmetry label"
+                    "name": "nltcs:Kc",
+                    "ffmt": "I2",
+                    "cfmt": "%2d",
+                    "desc": "Kc rotational quantum number"
                 },
                 {
                     "name": "nltcs:v1",
@@ -116,16 +98,10 @@
                     "desc": "v3 asymmetrics stretch quantum number"
                 },
                 {
-                    "name": "nltcs:Ka",
-                    "ffmt": "I2",
-                    "cfmt": "%2d",
-                    "desc": "Ka rotational quantum number"
-                },
-                {
-                    "name": "nltcs:Kc",
-                    "ffmt": "I2",
-                    "cfmt": "%2d",
-                    "desc": "Kc rotational quantum number"
+                    "name": "nltcs:Grve",
+                    "ffmt": "A3",
+                    "cfmt": "%3s",
+                    "desc": "Rovibrational symmetry"
                 }
             ]
         },

@@ -79,7 +79,7 @@
                     "name": "TROVE:Gtot",
                     "ffmt": "A3",
                     "cfmt": "%3s",
-                    "desc": "Total symmetry index in D3h(M)"
+                    "desc": "Total symmetry"
                 },
                 {
                     "name": "TROVE:n1",
@@ -121,25 +121,25 @@
                     "name": "TROVE:Gvib",
                     "ffmt": "A3",
                     "cfmt": "%3s",
-                    "desc": "Vibrational symmetry index in D3h(M)"
+                    "desc": "Vibrational symmetry"
                 },
                 {
                     "name": "TROVE:K",
-                    "ffmt": "I2",
-                    "cfmt": "%2d",
-                    "desc": "Projection of J on axis of molecular symmetry"
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "Projection of J onto axis of molecular symmetry"
                 },
                 {
                     "name": "TROVE:Grot",
                     "ffmt": "A3",
                     "cfmt": "%3s",
-                    "desc": "Rotational symmetry index in D3h(M)"
+                    "desc": "Rotational symmetry"
                 },
                 {
                     "name": "TROVE:Coef",
                     "ffmt": "F5.2",
                     "cfmt": "%5.2f",
-                    "desc": "Largest coefficient"
+                    "desc": "Coefficient with the largest contribution"
                 },
                 {
                     "name": "TROVE:v1",

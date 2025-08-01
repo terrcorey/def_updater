@@ -48,13 +48,13 @@ I2 %2d                                                                          
 v3 asymmetrics stretch quantum number                                           # Description quantum label 5
 Grve                                                                            # Quantum label 6
 A3 %3s                                                                          # Format quantum label 6
-Rovibrational symmetry label                                                    # Description quantum label 6
+Rovibrational symmetry                                                          # Description quantum label 6
 Ecal                                                                            # Auxiliary title 1
 F12.6 %12.6f                                                                    # Format title 1
-Variational (Calculated) Energy (in cm-1)                                       # Description title 1
+Calculated energy in cm-1                                                       # Description title 1
 SourceType                                                                      # Auxiliary title 2
 A2 %2s                                                                          # Format title 2
-Indicates if the value is from MARVEL (Ma) or Calculated(Ca)                    # Description title 2
+Ma=MARVEL,Ca=Calculated,EH=Effective Hamiltonian,IE=Isotopologue extrapolation  # Description title 2
 5745071340                                                                      # Total number of transitions
 412                                                                             # No. of transition files
 41200.00                                                                        # Maximum wavenumber (in cm-1)

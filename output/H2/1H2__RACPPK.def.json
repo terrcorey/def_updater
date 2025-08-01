@@ -66,10 +66,10 @@
                     "cfmt": "%7d"
                 },
                 {
-                    "name": "hundb:V",
-                    "ffmt": "I6",
-                    "cfmt": "%6d",
-                    "desc": "Vibrational quantum number"
+                    "name": "hundb:v",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "State vibrational quantum number"
                 }
             ]
         },

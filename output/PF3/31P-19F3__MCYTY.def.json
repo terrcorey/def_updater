@@ -67,22 +67,10 @@
                     "cfmt": "%7d"
                 },
                 {
-                    "name": "local:G",
-                    "ffmt": "I7",
-                    "cfmt": "%7d",
-                    "desc": "[1/1099] Total degeneracy"
-                },
-                {
-                    "name": "local:J",
-                    "ffmt": "I8",
-                    "cfmt": "%8d",
-                    "desc": "[1/100] Total angular momentum"
-                },
-                {
-                    "name": "local:G",
-                    "ffmt": "I5",
-                    "cfmt": "%5d",
-                    "desc": "[1/3] Total symmetry in C3v(M),Gamma=A1,A2,E"
+                    "name": "local:Gtot",
+                    "ffmt": "A3",
+                    "cfmt": "%3s",
+                    "desc": "Total symmetry"
                 },
                 {
                     "name": "local:n1",
@@ -121,34 +109,82 @@
                     "desc": "[0/7] TROVE quantum number PPF local mode bend"
                 },
                 {
-                    "name": "local:Gv",
-                    "ffmt": "I5",
-                    "cfmt": "%5d",
-                    "desc": "[0/3] Vib component  symmetry in C3v(M)"
+                    "name": "local:Gvib",
+                    "ffmt": "A3",
+                    "cfmt": "%3s",
+                    "desc": "Vibrational symmetry"
                 },
                 {
                     "name": "local:J",
                     "ffmt": "I7",
                     "cfmt": "%7d",
-                    "desc": "[1/100] Total angular momentum"
+                    "desc": "Total rotational quantum number"
                 },
                 {
                     "name": "local:K",
-                    "ffmt": "I4",
-                    "cfmt": "%4d",
-                    "desc": "[0/100] Projection of J on axis of molec. symmetry"
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "Projection of J onto axis of molecular symmetry"
                 },
                 {
-                    "name": "local:Pr",
-                    "ffmt": "I4",
-                    "cfmt": "%4d",
-                    "desc": "[0/1] Rotational parity tau(rot)"
+                    "name": "local:rotpar",
+                    "ffmt": "I1",
+                    "cfmt": "%1d",
+                    "desc": "Rotational parity"
                 },
                 {
-                    "name": "local:Gr",
+                    "name": "local:Grot",
+                    "ffmt": "A3",
+                    "cfmt": "%3s",
+                    "desc": "Rotational symmetry"
+                },
+                {
+                    "name": "local:null",
+                    "ffmt": "",
+                    "cfmt": "",
+                    "desc": ""
+                },
+                {
+                    "name": "local:|Coef|2",
+                    "ffmt": "F5.2",
+                    "cfmt": "%5.2f",
+                    "desc": "Square modulus of the coefficient with the largest contribution"
+                },
+                {
+                    "name": "local:n1",
+                    "ffmt": "I6",
+                    "cfmt": "%6d",
+                    "desc": "[0/3] TROVE quantum number P-F local mode stretch"
+                },
+                {
+                    "name": "local:n2",
                     "ffmt": "I4",
                     "cfmt": "%4d",
-                    "desc": "[1/3] C_3v(M) rot. symmetry Gamma(v) (local mode)"
+                    "desc": "[0/3] TROVE quantum number P-F local mode stretch"
+                },
+                {
+                    "name": "local:n3",
+                    "ffmt": "I4",
+                    "cfmt": "%4d",
+                    "desc": "[0/3] TROVE quantum number P-F local mode stretch"
+                },
+                {
+                    "name": "local:n4",
+                    "ffmt": "I4",
+                    "cfmt": "%4d",
+                    "desc": "[0/7] TROVE quantum number PPF local mode bend"
+                },
+                {
+                    "name": "local:n5",
+                    "ffmt": "I4",
+                    "cfmt": "%4d",
+                    "desc": "[0/7] TROVE quantum number PPF local mode bend"
+                },
+                {
+                    "name": "local:n6",
+                    "ffmt": "I4",
+                    "cfmt": "%4d",
+                    "desc": "[0/7] TROVE quantum number PPF local mode bend"
                 }
             ]
         },

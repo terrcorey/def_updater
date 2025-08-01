@@ -33,9 +33,9 @@ T2                                                                              
 1                                                                               # No. of quanta cases
 sphcs                                                                           # Quantum case label
 26                                                                              # No. of quanta defined
-G                                                                               # Quantum label 1
-I5 %5d                                                                          # Format quantum label 1
-[1/5] Total symmetry in T_d_(M),Gamma=A_1,A_2,E,F_1_,F_2_                       # Description quantum label 1
+Gtot                                                                            # Quantum label 1
+A3 %3s                                                                          # Format quantum label 1
+Total symmetry                                                                  # Description quantum label 1
 n1                                                                              # Quantum label 2
 I6 %6d                                                                          # Format quantum label 2
 [0/10] A_1_-symmetry normal mode quantum number                                 # Description quantum label 2
@@ -63,27 +63,27 @@ I4 %4d                                                                          
 M4                                                                              # Quantum label 10
 I4 %4d                                                                          # Format quantum label 10
 [0/20] M_4_ Multiplicity index quantum number                                   # Description quantum label 10
-Gv                                                                              # Quantum label 11
-I4 %4d                                                                          # Format quantum label 11
-[1/5] T_d_(M) vi. symmetry Gamma(v) (local mode)                                # Description quantum label 11
+Gvib                                                                            # Quantum label 11
+A3 %3s                                                                          # Format quantum label 11
+Vibrational symmetry                                                            # Description quantum label 11
 J                                                                               # Quantum label 12
-I6 %6d                                                                          # Format quantum label 12
-[0/39] Total angular momentum quantum number, the same as J at 34-40            # Description quantum label 12
+I7 %7d                                                                          # Format quantum label 12
+Total rotational quantum number                                                 # Description quantum label 12
 K                                                                               # Quantum label 13
-I4 %4d                                                                          # Format quantum label 13
-[0/39] Projection of J on axis of molec. symmetry                               # Description quantum label 13
-Pr                                                                              # Quantum label 14
-I4 %4d                                                                          # Format quantum label 14
-[0/1] Rotational parity tau(rot)                                                # Description quantum label 14
-Gr                                                                              # Quantum label 15
-I4 %4d                                                                          # Format quantum label 15
-[1/5] T_d_(M) rot. symmetry Gamma(v) (local mode)                               # Description quantum label 15
-N(Bl)                                                                           # Quantum label 16
-I10 %10d                                                                        # Format quantum label 16
-[1/97054] Reference number in the polyad                                        # Description quantum label 16
-C2                                                                              # Quantum label 17
-F7.2 %7.2f                                                                      # Format quantum label 17
-[0.0/1.0000] Square of the largest coefficient                                  # Description quantum label 17
+I3 %3d                                                                          # Format quantum label 13
+Projection of J onto axis of molecular symmetry                                 # Description quantum label 13
+rotpar                                                                          # Quantum label 14
+I1 %1d                                                                          # Format quantum label 14
+Rotational parity                                                               # Description quantum label 14
+Grot                                                                            # Quantum label 15
+A3 %3s                                                                          # Format quantum label 15
+Rotational symmetry                                                             # Description quantum label 15
+nblock                                                                          # Quantum label 16
+I2 %2d                                                                          # Format quantum label 16
+Counting number in symmetry block                                               # Description quantum label 16
+|Coef|2                                                                         # Quantum label 17
+F5.2 %5.2f                                                                      # Format quantum label 17
+Square modulus of the coefficient with the largest contribution                 # Description quantum label 17
 v1                                                                              # Quantum label 18
 I4 %4d                                                                          # Format quantum label 18
 v1 symmetric stretch quantum number(3)                                          # Description quantum label 18

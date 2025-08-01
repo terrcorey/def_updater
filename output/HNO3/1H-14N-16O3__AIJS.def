@@ -29,8 +29,8 @@ A"                                                                              
 1                                                                               # No. of quanta cases
 stcs                                                                            # Quantum case label
 10                                                                              # No. of quanta defined
-A'/A"                                                                           # Quantum label 1
-A1 %1s                                                                          # Format quantum label 1
+Gtot                                                                            # Quantum label 1
+A3 %3s                                                                          # Format quantum label 1
 Total symmetry                                                                  # Description quantum label 1
 v1                                                                              # Quantum label 2
 I2 %2d                                                                          # Format quantum label 2

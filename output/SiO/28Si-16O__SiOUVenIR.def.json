@@ -87,13 +87,13 @@
                     "name": "dcs:+/-",
                     "ffmt": "A1",
                     "cfmt": "%1s",
-                    "desc": "Total parity"
+                    "desc": "Total parity: '+' or '-'"
                 },
                 {
                     "name": "dcs:e/f",
                     "ffmt": "A1",
                     "cfmt": "%1s",
-                    "desc": "Rotationless parity"
+                    "desc": "Rotationless-parity"
                 },
                 {
                     "name": "dcs:ElecState",
@@ -111,19 +111,19 @@
                     "name": "dcs:Lambda",
                     "ffmt": "I3",
                     "cfmt": "%3d",
-                    "desc": "Projection of the electronic angular momentum"
+                    "desc": "Projection of electronic angular momentum"
                 },
                 {
                     "name": "dcs:Sigma",
-                    "ffmt": "F5.1",
-                    "cfmt": "%5.1f",
+                    "ffmt": "I5",
+                    "cfmt": "%5d",
                     "desc": "Projection of the electronic spin"
                 },
                 {
                     "name": "dcs:Omega",
-                    "ffmt": "F5.1",
-                    "cfmt": "%5.1f",
-                    "desc": "Projection of the total angular momentum, Omega = Lambda + Sigma"
+                    "ffmt": "I5",
+                    "cfmt": "%5d",
+                    "desc": "Omega = Lambda + Sigma, projection of total angular momentum"
                 }
             ]
         },

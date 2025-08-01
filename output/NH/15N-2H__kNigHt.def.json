@@ -34,7 +34,7 @@
         "states": {
             "number_of_states": 7465,
             "max_energy": 46295.527425,
-            "uncertainty_description": "Variational (Calculated) Energy (in cm-1)",
+            "uncertainty_description": "Calculated energy in cm-1",
             "uncertainties_available": true,
             "lifetime_available": true,
             "lande_g_available": true,
@@ -86,19 +86,19 @@
                     "name": "dcs:+/-",
                     "ffmt": "A1",
                     "cfmt": "%1s",
-                    "desc": "Total parity"
+                    "desc": "Total parity: '+' or '-'"
                 },
                 {
                     "name": "dcs:e/f",
                     "ffmt": "A1",
                     "cfmt": "%1s",
-                    "desc": "Rotationless parity"
+                    "desc": "Rotationless-parity"
                 },
                 {
                     "name": "dcs:ElecState",
                     "ffmt": "A12",
                     "cfmt": "%12s",
-                    "desc": "Electronic states"
+                    "desc": "Electronic state"
                 },
                 {
                     "name": "dcs:v",
@@ -110,7 +110,7 @@
                     "name": "dcs:Lambda",
                     "ffmt": "I3",
                     "cfmt": "%3d",
-                    "desc": "Electronic orbital angular momentum projection along internuclear axis"
+                    "desc": "Projection of electronic angular momentum"
                 },
                 {
                     "name": "dcs:N",
@@ -120,9 +120,9 @@
                 },
                 {
                     "name": "dcs:F",
-                    "ffmt": "I2",
-                    "cfmt": "%2d",
-                    "desc": "Fine structure counting number"
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "Final angular momentum"
                 }
             ]
         },

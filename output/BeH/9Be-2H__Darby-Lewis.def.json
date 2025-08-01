@@ -34,7 +34,7 @@
         "states": {
             "number_of_states": 14950,
             "max_energy": 40000.0,
-            "uncertainty_description": "Variational (Calculated) Energy (in cm-1)",
+            "uncertainty_description": "Calculated energy in cm-1",
             "uncertainties_available": true,
             "lifetime_available": false,
             "lande_g_available": false,
@@ -74,7 +74,7 @@
                     "name": "dcs:+/-",
                     "ffmt": "A1",
                     "cfmt": "%1s",
-                    "desc": "Parity"
+                    "desc": "Total parity: '+' or '-'"
                 },
                 {
                     "name": "dcs:e/f",
@@ -86,7 +86,7 @@
                     "name": "dcs:ElecState",
                     "ffmt": "A12",
                     "cfmt": "%12s",
-                    "desc": "Notation of the electronic state"
+                    "desc": "Electronic state"
                 },
                 {
                     "name": "dcs:v",
@@ -98,19 +98,19 @@
                     "name": "dcs:Lambda",
                     "ffmt": "I3",
                     "cfmt": "%3d",
-                    "desc": "Projection of the electronic angular momentum"
+                    "desc": "Projection of electronic angular momentum"
                 },
                 {
                     "name": "dcs:Sigma",
-                    "ffmt": "F5.1",
-                    "cfmt": "%5.1f",
+                    "ffmt": "I5",
+                    "cfmt": "%5d",
                     "desc": "Projection of the electronic spin"
                 },
                 {
                     "name": "dcs:Omega",
-                    "ffmt": "F5.1",
-                    "cfmt": "%5.1f",
-                    "desc": "Omega = Lambda + Sigma, projection of the total angular momentum"
+                    "ffmt": "I5",
+                    "cfmt": "%5d",
+                    "desc": "Omega = Lambda + Sigma, projection of total angular momentum"
                 }
             ]
         },

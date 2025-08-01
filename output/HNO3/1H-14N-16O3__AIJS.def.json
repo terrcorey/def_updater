@@ -73,9 +73,9 @@
                     "cfmt": "%12.4e"
                 },
                 {
-                    "name": "stcs:A'/A\"",
-                    "ffmt": "A1",
-                    "cfmt": "%1s",
+                    "name": "stcs:Gtot",
+                    "ffmt": "A3",
+                    "cfmt": "%3s",
                     "desc": "Total symmetry"
                 },
                 {

@@ -79,19 +79,19 @@
                     "name": "TROVE:+/-",
                     "ffmt": "A1",
                     "cfmt": "%1s",
-                    "desc": "Parity"
+                    "desc": "Total parity: '+' or '-'"
                 },
                 {
                     "name": "TROVE:Gtot",
                     "ffmt": "A3",
                     "cfmt": "%3s",
-                    "desc": "Total symmetry index in D3h(M)"
+                    "desc": "Total symmetry"
                 },
                 {
-                    "name": "TROVE:N",
-                    "ffmt": "I5",
-                    "cfmt": "%5d",
-                    "desc": "Reference number in the J-Gamma block"
+                    "name": "TROVE:nblock",
+                    "ffmt": "I2",
+                    "cfmt": "%2d",
+                    "desc": "Counting number in symmetry block"
                 },
                 {
                     "name": "TROVE:n1",
@@ -130,28 +130,28 @@
                     "desc": "Asymmetric bend angular momentum quantum no. (normal mode)"
                 },
                 {
-                    "name": "TROVE:inv",
-                    "ffmt": "A1",
-                    "cfmt": "%1s",
+                    "name": "TROVE:invpar",
+                    "ffmt": "I1",
+                    "cfmt": "%1d",
                     "desc": "Inversional parity"
                 },
                 {
                     "name": "TROVE:J",
-                    "ffmt": "I2",
-                    "cfmt": "%2d",
-                    "desc": "Total rotational angular momentum"
+                    "ffmt": "I7",
+                    "cfmt": "%7d",
+                    "desc": "Total rotational quantum number"
                 },
                 {
                     "name": "TROVE:K",
-                    "ffmt": "I2",
-                    "cfmt": "%2d",
-                    "desc": "Projection of J on axis of molecular symmetry"
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "Projection of J onto axis of molecular symmetry"
                 },
                 {
-                    "name": "TROVE:Grot",
-                    "ffmt": "A3",
-                    "cfmt": "%3s",
-                    "desc": "D3h(M) rotational symmetry"
+                    "name": "TROVE:rotpar",
+                    "ffmt": "I1",
+                    "cfmt": "%1d",
+                    "desc": "Rotational parity"
                 },
                 {
                     "name": "TROVE:v1",
@@ -193,7 +193,7 @@
                     "name": "TROVE:Gvib",
                     "ffmt": "A3",
                     "cfmt": "%3s",
-                    "desc": "D3h(M) vibrational symmetry (local mode)"
+                    "desc": "Vibrational symmetry"
                 }
             ]
         },

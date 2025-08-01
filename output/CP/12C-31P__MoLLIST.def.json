@@ -69,25 +69,25 @@
                     "name": "hundb:ElecState",
                     "ffmt": "A12",
                     "cfmt": "%12s",
-                    "desc": "electronic state"
+                    "desc": "Electronic state"
                 },
                 {
                     "name": "hundb:v",
-                    "ffmt": "I4",
-                    "cfmt": "%4d",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
                     "desc": "State vibrational quantum number"
                 },
                 {
                     "name": "hundb:F",
-                    "ffmt": "I4",
-                    "cfmt": "%4d",
-                    "desc": "F level"
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "Final angular momentum"
                 },
                 {
-                    "name": "hundb:kp",
-                    "ffmt": "A4",
-                    "cfmt": "%4s",
-                    "desc": "kronig rotationless parity"
+                    "name": "hundb:e/f",
+                    "ffmt": "A1",
+                    "cfmt": "%1s",
+                    "desc": "Rotationless-parity"
                 }
             ]
         },

@@ -67,15 +67,9 @@
                 },
                 {
                     "name": "dcs:v",
-                    "ffmt": "I4",
-                    "cfmt": "%4d",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
                     "desc": "State vibrational quantum number"
-                },
-                {
-                    "name": "dcs:ElecState",
-                    "ffmt": "A4",
-                    "cfmt": "%4s",
-                    "desc": "electronic state"
                 }
             ]
         },

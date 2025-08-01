@@ -27,21 +27,18 @@ Sigma-                                                                          
 1                                                                               # No. of quanta cases
 hundb                                                                           # Quantum case label
 5                                                                               # No. of quanta defined
-v                                                                               # Quantum label 1
+F                                                                               # Quantum label 1
 I3 %3d                                                                          # Format quantum label 1
-State vibrational quantum number                                                # Description quantum label 1
-N                                                                               # Quantum label 2
+Final angular momentum                                                          # Description quantum label 1
+v                                                                               # Quantum label 2
 I3 %3d                                                                          # Format quantum label 2
-N quantum number                                                                # Description quantum label 2
-Omega                                                                           # Quantum label 3
-I3 %3d                                                                          # Format quantum label 3
-Projection of total electromic angular momentum                                 # Description quantum label 3
-e/f                                                                             # Quantum label 4
-A3 %3s                                                                          # Format quantum label 4
-Rotationless-parity                                                             # Description quantum label 4
-ElecState                                                                       # Quantum label 5
-A12 %12s                                                                        # Format quantum label 5
-Electromic state                                                                # Description quantum label 5
+State vibrational quantum number                                                # Description quantum label 2
+e/f                                                                             # Quantum label 3
+A1 %1s                                                                          # Format quantum label 3
+Rotationless-parity                                                             # Description quantum label 3
+ElecState                                                                       # Quantum label 4
+A12 %12s                                                                        # Format quantum label 4
+Electronic state                                                                # Description quantum label 4
 53079                                                                           # Total number of transitions
 1                                                                               # No. of transition files
 39140.274477                                                                    # Maximum wavenumber (in cm-1)

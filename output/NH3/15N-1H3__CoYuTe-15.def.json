@@ -85,7 +85,7 @@
                     "name": "TROVE:Gtot",
                     "ffmt": "A3",
                     "cfmt": "%3s",
-                    "desc": "Total symmetry index in D3h(M)"
+                    "desc": "Total symmetry"
                 },
                 {
                     "name": "TROVE:n1",
@@ -127,25 +127,25 @@
                     "name": "TROVE:Gvib",
                     "ffmt": "A3",
                     "cfmt": "%3s",
-                    "desc": "D3h(M) vibrational symmetry (local mode)"
+                    "desc": "Vibrational symmetry"
                 },
                 {
                     "name": "TROVE:K",
-                    "ffmt": "I2",
-                    "cfmt": "%2d",
-                    "desc": "Projection of J on axis of molecular symmetry"
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "Projection of J onto axis of molecular symmetry"
                 },
                 {
                     "name": "TROVE:Grot",
                     "ffmt": "A3",
                     "cfmt": "%3s",
-                    "desc": "D3h(M) rotational symmetry"
+                    "desc": "Rotational symmetry"
                 },
                 {
-                    "name": "TROVE:N(Block)",
-                    "ffmt": "I5",
-                    "cfmt": "%5d",
-                    "desc": "Reference number in the block"
+                    "name": "TROVE:ivib",
+                    "ffmt": "I2",
+                    "cfmt": "%2d",
+                    "desc": "Index in vibrational symmetry block"
                 },
                 {
                     "name": "TROVE:s/a",
@@ -154,10 +154,10 @@
                     "desc": "Inversion symmetry"
                 },
                 {
-                    "name": "TROVE:Coef",
+                    "name": "TROVE:|Coef|2",
                     "ffmt": "F5.2",
                     "cfmt": "%5.2f",
-                    "desc": "Largest coefficient used in the assignment"
+                    "desc": "Square modulus of the coefficient with the largest contribution"
                 },
                 {
                     "name": "TROVE:v1",

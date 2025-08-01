@@ -40,9 +40,9 @@ B_3u                                                                            
 stcs                                                                            # Quantum case label
 TROVE                                                                           # Quantum case label
 20                                                                              # No. of quanta defined
-G                                                                               # Quantum label 1
-I5 %5d                                                                          # Format quantum label 1
-[1/8] Total symmetry                                                            # Description quantum label 1
+Gtot                                                                            # Quantum label 1
+A3 %3s                                                                          # Format quantum label 1
+Total symmetry                                                                  # Description quantum label 1
 v1                                                                              # Quantum label 2
 I3 %3d                                                                          # Format quantum label 2
 [0/16] normal mode vibrational quantum number                                   # Description quantum label 2
@@ -61,27 +61,27 @@ I3 %3d                                                                          
 v6                                                                              # Quantum label 7
 I3 %3d                                                                          # Format quantum label 7
 [0/16] normal mode vibrational quantum number                                   # Description quantum label 7
-tau                                                                             # Quantum label 8
-I3 %3d                                                                          # Format quantum label 8
-[1/4] normal mode torsional symmetry quantum number                             # Description quantum label 8
-Gv                                                                              # Quantum label 9
-I3 %3d                                                                          # Format quantum label 9
-[1/4] D_2h_(M) vi. symmetry Gamma(v) (local mode)                               # Description quantum label 9
+Gtor                                                                            # Quantum label 8
+A3 %3s                                                                          # Format quantum label 8
+Torsional symmetry                                                              # Description quantum label 8
+Gvib                                                                            # Quantum label 9
+A3 %3s                                                                          # Format quantum label 9
+Vibrational symmetry                                                            # Description quantum label 9
 K                                                                               # Quantum label 10
 I3 %3d                                                                          # Format quantum label 10
-[0/85] Projection of J on axis of molec. symmetry                               # Description quantum label 10
-Pr                                                                              # Quantum label 11
-I3 %3d                                                                          # Format quantum label 11
-[0/1] Rotational parity tau(rot)                                                # Description quantum label 11
-Gr                                                                              # Quantum label 12
-I5 %5d                                                                          # Format quantum label 12
-[1/4] D_2h_(M) rot. symmetry Gamma(v) (local mode)                              # Description quantum label 12
-N(Bl                                                                            # Quantum label 13
-I8 %8d                                                                          # Format quantum label 13
-[1/67238] Reference number in the polyad                                        # Description quantum label 13
-C2                                                                              # Quantum label 14
-F3.2 %3.2f                                                                      # Format quantum label 14
-[0.0/1.00] Square of the largest coefficient                                    # Description quantum label 14
+Projection of J onto axis of molecular symmetry                                 # Description quantum label 10
+rotpar                                                                          # Quantum label 11
+I1 %1d                                                                          # Format quantum label 11
+Rotational parity                                                               # Description quantum label 11
+Grot                                                                            # Quantum label 12
+A3 %3s                                                                          # Format quantum label 12
+Rotational symmetry                                                             # Description quantum label 12
+nblock                                                                          # Quantum label 13
+I2 %2d                                                                          # Format quantum label 13
+Counting number in symmetry block                                               # Description quantum label 13
+|Coef|2                                                                         # Quantum label 14
+F5.2 %5.2f                                                                      # Format quantum label 14
+Square modulus of the coefficient with the largest contribution                 # Description quantum label 14
 n1                                                                              # Quantum label 15
 I3 %3d                                                                          # Format quantum label 15
 [0/16] Local mode vibrational quantum number                                    # Description quantum label 15

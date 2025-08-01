@@ -68,10 +68,10 @@
                     "cfmt": "%7d"
                 },
                 {
-                    "name": "stcs:totalSym",
-                    "ffmt": "I3",
-                    "cfmt": "%3d",
-                    "desc": "Gamma"
+                    "name": "stcs:Gtot",
+                    "ffmt": "A3",
+                    "cfmt": "%3s",
+                    "desc": "Total symmetry"
                 },
                 {
                     "name": "stcs:v1",
@@ -128,28 +128,40 @@
                     "desc": "v9 bend quantum number"
                 },
                 {
-                    "name": "stcs:VibSym",
-                    "ffmt": "I3",
-                    "cfmt": "%3d",
-                    "desc": "Gammav"
+                    "name": "stcs:Gvib",
+                    "ffmt": "A3",
+                    "cfmt": "%3s",
+                    "desc": "Vibrational symmetry"
+                },
+                {
+                    "name": "stcs:J",
+                    "ffmt": "I7",
+                    "cfmt": "%7d",
+                    "desc": "Total rotational quantum number"
                 },
                 {
                     "name": "stcs:K",
                     "ffmt": "I3",
                     "cfmt": "%3d",
-                    "desc": "rot QN"
+                    "desc": "Projection of J onto axis of molecular symmetry"
                 },
                 {
-                    "name": "stcs:rotSym",
-                    "ffmt": "I3",
-                    "cfmt": "%3d",
-                    "desc": "GammaR"
+                    "name": "stcs:rotpar",
+                    "ffmt": "I1",
+                    "cfmt": "%1d",
+                    "desc": "Rotational parity"
                 },
                 {
-                    "name": "stcs:Coeff",
-                    "ffmt": "f4.2",
-                    "cfmt": "%4f",
-                    "desc": "Coeff"
+                    "name": "stcs:Grot",
+                    "ffmt": "A3",
+                    "cfmt": "%3s",
+                    "desc": "Rotational symmetry"
+                },
+                {
+                    "name": "stcs:|Coef|2",
+                    "ffmt": "F5.2",
+                    "cfmt": "%5.2f",
+                    "desc": "Square modulus of the coefficient with the largest contribution"
                 }
             ]
         },

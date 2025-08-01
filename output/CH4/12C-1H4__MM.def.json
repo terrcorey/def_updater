@@ -81,10 +81,22 @@
                     "cfmt": "%12.4e"
                 },
                 {
-                    "name": "TROVE:G",
-                    "ffmt": "I5",
-                    "cfmt": "%5d",
-                    "desc": "[1/5] Total symmetry in T_d_(M),Gamma=A_1,A_2,E,F_1_,F_2_"
+                    "name": "TROVE:Gtot",
+                    "ffmt": "A3",
+                    "cfmt": "%3s",
+                    "desc": "Total symmetry"
+                },
+                {
+                    "name": "TROVE:P",
+                    "ffmt": "I2",
+                    "cfmt": "%2d",
+                    "desc": "Polyad number"
+                },
+                {
+                    "name": "TROVE:Pnum",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "Polyad counting number"
                 },
                 {
                     "name": "TROVE:n1",
@@ -141,34 +153,34 @@
                     "desc": "[0/20] M_4_ Multiplicity index quantum number"
                 },
                 {
-                    "name": "TROVE:Gv",
-                    "ffmt": "I4",
-                    "cfmt": "%4d",
-                    "desc": "[1/5] T_d_(M) vi. symmetry Gamma(v) (local mode)"
+                    "name": "TROVE:Gvib",
+                    "ffmt": "A3",
+                    "cfmt": "%3s",
+                    "desc": "Vibrational symmetry"
                 },
                 {
-                    "name": "TROVE:n",
-                    "ffmt": "I4",
-                    "cfmt": "%4d",
-                    "desc": "[0/39] Rotational index"
+                    "name": "TROVE:irot",
+                    "ffmt": "I2",
+                    "cfmt": "%2d",
+                    "desc": "Index in rotational symmetry block"
                 },
                 {
-                    "name": "TROVE:Gr",
-                    "ffmt": "I4",
-                    "cfmt": "%4d",
-                    "desc": "[1/5] T_d_(M) rot. symmetry Gamma(v) (local mode)"
+                    "name": "TROVE:Grot",
+                    "ffmt": "A3",
+                    "cfmt": "%3s",
+                    "desc": "Rotational symmetry"
                 },
                 {
-                    "name": "TROVE:i_vib",
-                    "ffmt": "I10",
-                    "cfmt": "%10d",
-                    "desc": "[1/97054] Vibrational index"
+                    "name": "TROVE:ivib",
+                    "ffmt": "I2",
+                    "cfmt": "%2d",
+                    "desc": "Index in vibrational symmetry block"
                 },
                 {
-                    "name": "TROVE:C2",
-                    "ffmt": "F7.2",
-                    "cfmt": "%7.2f",
-                    "desc": "[0.0/1.0000]  largest coefficient"
+                    "name": "TROVE:Coef",
+                    "ffmt": "F5.2",
+                    "cfmt": "%5.2f",
+                    "desc": "Coefficient with the largest contribution"
                 },
                 {
                     "name": "TROVE:v1",

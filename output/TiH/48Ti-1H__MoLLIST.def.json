@@ -66,33 +66,33 @@
                 },
                 {
                     "name": "hunda:v",
-                    "ffmt": "I4",
-                    "cfmt": "%4d",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
                     "desc": "State vibrational quantum number"
                 },
                 {
                     "name": "hunda:Omega",
-                    "ffmt": "F4.1",
-                    "cfmt": "%4.1f",
-                    "desc": "Omega = Lambda + Sigma, projection of the total angular momentum"
+                    "ffmt": "I5",
+                    "cfmt": "%5d",
+                    "desc": "Omega = Lambda + Sigma, projection of total angular momentum"
                 },
                 {
                     "name": "hunda:e/f",
-                    "ffmt": "A4",
-                    "cfmt": "%4s",
+                    "ffmt": "A1",
+                    "cfmt": "%1s",
                     "desc": "Rotationless-parity"
                 },
                 {
-                    "name": "hunda:par",
-                    "ffmt": "A4",
-                    "cfmt": "%4s",
+                    "name": "hunda:+/-",
+                    "ffmt": "A1",
+                    "cfmt": "%1s",
                     "desc": "Total parity: '+' or '-'"
                 },
                 {
                     "name": "hunda:ElecState",
                     "ffmt": "A12",
                     "cfmt": "%12s",
-                    "desc": "electronic state"
+                    "desc": "Electronic state"
                 }
             ]
         },

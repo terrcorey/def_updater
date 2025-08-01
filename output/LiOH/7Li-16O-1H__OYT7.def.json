@@ -76,7 +76,7 @@
                     "name": "hunda:+/-",
                     "ffmt": "A1",
                     "cfmt": "%1s",
-                    "desc": "Total parity"
+                    "desc": "Total parity: '+' or '-'"
                 },
                 {
                     "name": "hunda:e/f",

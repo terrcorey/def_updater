@@ -34,7 +34,7 @@
         "states": {
             "number_of_states": 1519,
             "max_energy": 42616.181902,
-            "uncertainty_description": "Variational (Calculated) Energy (in cm-1)",
+            "uncertainty_description": "Calculated energy in cm-1",
             "uncertainties_available": true,
             "lifetime_available": true,
             "lande_g_available": false,
@@ -80,7 +80,7 @@
                     "name": "hunda:+/-",
                     "ffmt": "A1",
                     "cfmt": "%1s",
-                    "desc": "Parity"
+                    "desc": "Total parity: '+' or '-'"
                 },
                 {
                     "name": "hunda:e/f",
@@ -92,7 +92,7 @@
                     "name": "hunda:ElecState",
                     "ffmt": "A12",
                     "cfmt": "%12s",
-                    "desc": "Notation of the electronic state"
+                    "desc": "Electronic state"
                 },
                 {
                     "name": "hunda:v",
@@ -104,7 +104,7 @@
                     "name": "hunda:Lambda",
                     "ffmt": "I3",
                     "cfmt": "%3d",
-                    "desc": "Projection of the electronic angular momentum"
+                    "desc": "Projection of electronic angular momentum"
                 },
                 {
                     "name": "hunda:Sigma",
@@ -116,7 +116,7 @@
                     "name": "hunda:Omega",
                     "ffmt": "I5",
                     "cfmt": "%5d",
-                    "desc": "Omega = Lambda + Sigma, projection of the total angular momentum"
+                    "desc": "Omega = Lambda + Sigma, projection of total angular momentum"
                 }
             ]
         },

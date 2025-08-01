@@ -29,15 +29,15 @@ E                                                                               
 1                                                                               # No. of quanta cases
 stcs                                                                            # Quantum case label
 16                                                                              # No. of quanta defined
-totalSym                                                                        # Quantum label 1
-I3 %3d                                                                          # Format quantum label 1
-Total symmetry in D3h(M): 1 = A′ , 4 = A′′                                   # Description quantum label 1
+Gtot                                                                            # Quantum label 1
+A3 %3s                                                                          # Format quantum label 1
+Total symmetry                                                                  # Description quantum label 1
 K                                                                               # Quantum label 2
 I3 %3d                                                                          # Format quantum label 2
-Projection of J on to the z-axis                                                # Description quantum label 2
-rotSym                                                                          # Quantum label 3
-I3 %3d                                                                          # Format quantum label 3
-RotationalsymmetryinD3h(M):1=A′,2=A′,3=E′ ,4=A′′,5=A′′,6=E′′           # Description quantum label 3
+Projection of J onto axis of molecular symmetry                                 # Description quantum label 2
+Grot                                                                            # Quantum label 3
+A3 %3s                                                                          # Format quantum label 3
+Rotational symmetry                                                             # Description quantum label 3
 v1                                                                              # Quantum label 4
 I3 %3d                                                                          # Format quantum label 4
 Local mode vibrational quantum numbers                                          # Description quantum label 4
@@ -74,9 +74,9 @@ L projections of the vibrational angular momenta                                
 L4                                                                              # Quantum label 15
 I3 %3d                                                                          # Format quantum label 15
 L projections of the vibrational angular momenta                                # Description quantum label 15
-vibSym                                                                          # Quantum label 16
-I3 %3d                                                                          # Format quantum label 16
-VibrationalsymmetryinD3h(M):1=A′,2=A′,3=E′ ,4=A′′,5=A′′,6=E′′          # Description quantum label 16
+Gvib                                                                            # Quantum label 16
+A3 %3s                                                                          # Format quantum label 16
+Vibrational symmetry                                                            # Description quantum label 16
 21413927818                                                                     # Total number of transitions
 500                                                                             # No. of transition files
 9999.92                                                                         # Maximum wavenumber (in cm-1)

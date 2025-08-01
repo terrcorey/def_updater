@@ -35,7 +35,7 @@
         "states": {
             "number_of_states": 3187522,
             "max_energy": NaN,
-            "uncertainty_description": "Label 'Ma' for MARVEL, 'Ca' for calculated",
+            "uncertainty_description": "Ma=MARVEL,Ca=Calculated,EH=Effective Hamiltonian,IE=Isotopologue extrapolation",
             "uncertainties_available": true,
             "lifetime_available": false,
             "lande_g_available": false,
@@ -75,7 +75,7 @@
                     "name": "hunda:+/-",
                     "ffmt": "A1",
                     "cfmt": "%1s",
-                    "desc": "Total parity"
+                    "desc": "Total parity: '+' or '-'"
                 },
                 {
                     "name": "hunda:e/f",
@@ -127,15 +127,15 @@
                 },
                 {
                     "name": "hunda:Omega",
-                    "ffmt": "F5.1",
-                    "cfmt": "%5.1f",
-                    "desc": "Projection of the total angular momentum"
+                    "ffmt": "I5",
+                    "cfmt": "%5d",
+                    "desc": "Omega = Lambda + Sigma, projection of total angular momentum"
                 },
                 {
-                    "name": "hunda:F_i",
-                    "ffmt": "A2",
-                    "cfmt": "%2s",
-                    "desc": "Spin components F1/F2"
+                    "name": "hunda:F",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "Final angular momentum"
                 }
             ]
         },

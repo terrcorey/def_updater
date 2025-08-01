@@ -129,27 +129,27 @@
                 },
                 {
                     "name": "stcs:K",
-                    "ffmt": "I2",
-                    "cfmt": "%2d",
-                    "desc": "Projection of J on the axis of molecular rotational symmetry"
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "Projection of J onto axis of molecular symmetry"
                 },
                 {
                     "name": "stcs:e/f",
                     "ffmt": "A1",
                     "cfmt": "%1s",
-                    "desc": "Rotational parity"
+                    "desc": "Rotationless-parity"
                 },
                 {
                     "name": "stcs:Grot",
                     "ffmt": "A3",
                     "cfmt": "%3s",
-                    "desc": "Rotational Symmetry"
+                    "desc": "Rotational symmetry"
                 },
                 {
                     "name": "stcs:Coef",
                     "ffmt": "F5.2",
                     "cfmt": "%5.2f",
-                    "desc": "Coefficient with the largest contribution to the (J = 0) contracted set"
+                    "desc": "Coefficient with the largest contribution"
                 }
             ]
         },

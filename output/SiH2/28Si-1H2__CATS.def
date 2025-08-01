@@ -31,9 +31,9 @@ B2                                                                              
 1                                                                               # No. of quanta cases
 nltcs                                                                           # Quantum case label
 11                                                                              # No. of quanta defined
-Gamma                                                                           # Quantum label 1
-I2 %2d                                                                          # Format quantum label 1
-Symmetry block number (1)                                                       # Description quantum label 1
+Gtot                                                                            # Quantum label 1
+A3 %3s                                                                          # Format quantum label 1
+Total symmetry                                                                  # Description quantum label 1
 v1                                                                              # Quantum label 2
 I2 %2d                                                                          # Format quantum label 2
 v1 symmetric stretch quantum number(3)                                          # Description quantum label 2
@@ -43,27 +43,30 @@ v2 bend quantum number                                                          
 v3                                                                              # Quantum label 4
 I2 %2d                                                                          # Format quantum label 4
 v2 asymmetrics stretch quantum number                                           # Description quantum label 4
-Gamma_vib                                                                       # Quantum label 5
-A2 %2s                                                                          # Format quantum label 5
-vibrational symmetry label                                                      # Description quantum label 5
+Gvib                                                                            # Quantum label 5
+A3 %3s                                                                          # Format quantum label 5
+Vibrational symmetry                                                            # Description quantum label 5
 Ka                                                                              # Quantum label 6
 I2 %2d                                                                          # Format quantum label 6
 Ka rotational quantum number                                                    # Description quantum label 6
 Kc                                                                              # Quantum label 7
 I2 %2d                                                                          # Format quantum label 7
 Kc rotational quantum number                                                    # Description quantum label 7
-C                                                                               # Quantum label 8
-f8.4 %8.4f                                                                      # Format quantum label 8
-C_i largest contribution coefficient                                            # Description quantum label 8
-n1                                                                              # Quantum label 9
-I2 %2d                                                                          # Format quantum label 9
-n1 TROVE stretch quantum number                                                 # Description quantum label 9
-n2                                                                              # Quantum label 10
+Grot                                                                            # Quantum label 8
+A3 %3s                                                                          # Format quantum label 8
+Rotational symmetry                                                             # Description quantum label 8
+Coef                                                                            # Quantum label 9
+F5.2 %5.2f                                                                      # Format quantum label 9
+Coefficient with the largest contribution                                       # Description quantum label 9
+n1                                                                              # Quantum label 10
 I2 %2d                                                                          # Format quantum label 10
-n2 TROVE stretch quantum number                                                 # Description quantum label 10
-n3                                                                              # Quantum label 11
+n1 TROVE stretch quantum number                                                 # Description quantum label 10
+n2                                                                              # Quantum label 11
 I2 %2d                                                                          # Format quantum label 11
-n3 bend quantum number                                                          # Description quantum label 11
+n2 TROVE stretch quantum number                                                 # Description quantum label 11
+n3                                                                              # Quantum label 12
+I2 %2d                                                                          # Format quantum label 12
+n3 bend quantum number                                                          # Description quantum label 12
 311979852                                                                       # Total number of transitions
 10                                                                              # No. of transition files
 10000.00                                                                        # Maximum wavenumber (in cm-1)

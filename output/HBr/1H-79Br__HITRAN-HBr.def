@@ -27,12 +27,12 @@ Sigma-                                                                          
 1                                                                               # No. of quanta cases
 dcs                                                                             # Quantum case label
 2                                                                               # No. of quanta defined
-v                                                                               # Quantum label 1
-I4 %4d                                                                          # Format quantum label 1
-State vibrational quantum number                                                # Description quantum label 1
-ElecState                                                                       # Quantum label 2
-A4 %4s                                                                          # Format quantum label 2
-electronic state                                                                # Description quantum label 2
+unc                                                                             # Quantum label 1
+F12.6 %12.6f                                                                    # Format quantum label 1
+Energy uncertainty in cm-1                                                      # Description quantum label 1
+v                                                                               # Quantum label 2
+I3 %3d                                                                          # Format quantum label 2
+State vibrational quantum number                                                # Description quantum label 2
 3039                                                                            # Total number of transitions
 1                                                                               # No. of transition files
 16033.492029                                                                    # Maximum wavenumber (in cm-1)

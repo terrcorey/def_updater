@@ -37,7 +37,7 @@
         "states": {
             "number_of_states": 810269,
             "max_energy": 41200.0,
-            "uncertainty_description": "Indicates if the value is from MARVEL (Ma) or Calculated(Ca)",
+            "uncertainty_description": "Ma=MARVEL,Ca=Calculated,EH=Effective Hamiltonian,IE=Isotopologue extrapolation",
             "uncertainties_available": true,
             "lifetime_available": false,
             "lande_g_available": false,
@@ -107,7 +107,7 @@
                     "name": "nltcs:Grve",
                     "ffmt": "A3",
                     "cfmt": "%3s",
-                    "desc": "Rovibrational symmetry label"
+                    "desc": "Rovibrational symmetry"
                 }
             ]
         },

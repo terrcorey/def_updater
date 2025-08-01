@@ -65,15 +65,15 @@
                 },
                 {
                     "name": "dcs:v",
-                    "ffmt": "I4",
-                    "cfmt": "%4d",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
                     "desc": "State vibrational quantum number"
                 },
                 {
-                    "name": "dcs:b/qb",
-                    "ffmt": "A2",
-                    "cfmt": "%2s",
-                    "desc": "Bound/Quasi-bound"
+                    "name": "dcs:q/qs",
+                    "ffmt": "",
+                    "cfmt": "",
+                    "desc": ""
                 }
             ]
         },

@@ -29,15 +29,15 @@ E                                                                               
 1                                                                               # No. of quanta cases
 stcs                                                                            # Quantum case label
 17                                                                              # No. of quanta defined
-totalSym                                                                        # Quantum label 1
-I3 %3d                                                                          # Format quantum label 1
-Total symmetry in C3v(M)                                                        # Description quantum label 1
+Gtot                                                                            # Quantum label 1
+A3 %3s                                                                          # Format quantum label 1
+Total symmetry                                                                  # Description quantum label 1
 K                                                                               # Quantum label 2
 I3 %3d                                                                          # Format quantum label 2
-Projection of rotational angular momentum                                       # Description quantum label 2
-rotSym                                                                          # Quantum label 3
-I3 %3d                                                                          # Format quantum label 3
-Rotational symmetry in C3v(M)                                                   # Description quantum label 3
+Projection of J onto axis of molecular symmetry                                 # Description quantum label 2
+Grot                                                                            # Quantum label 3
+A3 %3s                                                                          # Format quantum label 3
+Rotational symmetry                                                             # Description quantum label 3
 L                                                                               # Quantum label 4
 I3 %3d                                                                          # Format quantum label 4
 Projection of total vibrational angular momentum                                # Description quantum label 4
@@ -59,27 +59,30 @@ Projection of angular momentum corresponding to v3                              
 l4                                                                              # Quantum label 10
 I3 %3d                                                                          # Format quantum label 10
 Projection of angular momentum corresponding to v4                              # Description quantum label 10
-vibSym                                                                          # Quantum label 11
-I3 %3d                                                                          # Format quantum label 11
-Vibrational symmetry in C3v(M)                                                  # Description quantum label 11
-s1                                                                              # Quantum label 12
-I3 %3d                                                                          # Format quantum label 12
-Local mode vibrational QN1                                                      # Description quantum label 12
-s2                                                                              # Quantum label 13
+Gvib                                                                            # Quantum label 11
+A3 %3s                                                                          # Format quantum label 11
+Vibrational symmetry                                                            # Description quantum label 11
+|Coef|2                                                                         # Quantum label 12
+F5.2 %5.2f                                                                      # Format quantum label 12
+Square modulus of the coefficient with the largest contribution                 # Description quantum label 12
+s1                                                                              # Quantum label 13
 I3 %3d                                                                          # Format quantum label 13
-Local mode vibrational QN2                                                      # Description quantum label 13
-s3                                                                              # Quantum label 14
+Local mode vibrational QN1                                                      # Description quantum label 13
+s2                                                                              # Quantum label 14
 I3 %3d                                                                          # Format quantum label 14
-Local mode vibrational QN3                                                      # Description quantum label 14
-b1                                                                              # Quantum label 15
+Local mode vibrational QN2                                                      # Description quantum label 14
+s3                                                                              # Quantum label 15
 I3 %3d                                                                          # Format quantum label 15
-Local mode vibrational QN4                                                      # Description quantum label 15
-b2                                                                              # Quantum label 16
+Local mode vibrational QN3                                                      # Description quantum label 15
+b1                                                                              # Quantum label 16
 I3 %3d                                                                          # Format quantum label 16
-Local mode vibrational QN5                                                      # Description quantum label 16
-b3                                                                              # Quantum label 17
+Local mode vibrational QN4                                                      # Description quantum label 16
+b2                                                                              # Quantum label 17
 I3 %3d                                                                          # Format quantum label 17
-Local mode vibrational QN6                                                      # Description quantum label 17
+Local mode vibrational QN5                                                      # Description quantum label 17
+b3                                                                              # Quantum label 18
+I3 %3d                                                                          # Format quantum label 18
+Local mode vibrational QN6                                                      # Description quantum label 18
 16803703395                                                                     # Total number of transitions
 100                                                                             # No. of transition files
 10000.00                                                                        # Maximum wavenumber (in cm-1)

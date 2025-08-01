@@ -35,7 +35,7 @@
         "states": {
             "number_of_states": 3148,
             "max_energy": NaN,
-            "uncertainty_description": "Variational (Calculated) Energy (in cm-1)",
+            "uncertainty_description": "Calculated energy in cm-1",
             "uncertainties_available": true,
             "lifetime_available": true,
             "lande_g_available": true,
@@ -111,19 +111,19 @@
                     "name": "dcs:Lambda",
                     "ffmt": "I3",
                     "cfmt": "%3d",
-                    "desc": "Projection of the electronic angular momentum"
+                    "desc": "Projection of electronic angular momentum"
                 },
                 {
                     "name": "dcs:Sigma",
-                    "ffmt": "F5.1",
-                    "cfmt": "%5.1f",
+                    "ffmt": "I5",
+                    "cfmt": "%5d",
                     "desc": "Projection of the electronic spin"
                 },
                 {
                     "name": "dcs:Omega",
-                    "ffmt": "F5.1",
-                    "cfmt": "%5.1f",
-                    "desc": "Omega = Lambda + Sigma, projection of the total angular momentum"
+                    "ffmt": "I5",
+                    "cfmt": "%5d",
+                    "desc": "Omega = Lambda + Sigma, projection of total angular momentum"
                 }
             ]
         },

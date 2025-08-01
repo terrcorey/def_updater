@@ -38,7 +38,7 @@ TROVE                                                                           
 19                                                                              # No. of quanta defined
 Gtot                                                                            # Quantum label 1
 A3 %3s                                                                          # Format quantum label 1
-Total symmetry index in D3h(M)                                                  # Description quantum label 1
+Total symmetry                                                                  # Description quantum label 1
 n1                                                                              # Quantum label 2
 I2 %2d                                                                          # Format quantum label 2
 Symmetric stretch quantum number (normal mode)                                  # Description quantum label 2
@@ -59,22 +59,22 @@ I2 %2d                                                                          
 Asymmetric bend angular momentum quantum no. (normal mode)                      # Description quantum label 7
 Gvib                                                                            # Quantum label 8
 A3 %3s                                                                          # Format quantum label 8
-D3h(M) vibrational symmetry (local mode)                                        # Description quantum label 8
+Vibrational symmetry                                                            # Description quantum label 8
 K                                                                               # Quantum label 9
-I2 %2d                                                                          # Format quantum label 9
-Projection of J on axis of molecular symmetry                                   # Description quantum label 9
+I3 %3d                                                                          # Format quantum label 9
+Projection of J onto axis of molecular symmetry                                 # Description quantum label 9
 Grot                                                                            # Quantum label 10
 A3 %3s                                                                          # Format quantum label 10
-D3h(M) rotational symmetry                                                      # Description quantum label 10
-N(Block)                                                                        # Quantum label 11
-I5 %5d                                                                          # Format quantum label 11
-Reference number in the block                                                   # Description quantum label 11
+Rotational symmetry                                                             # Description quantum label 10
+ivib                                                                            # Quantum label 11
+I2 %2d                                                                          # Format quantum label 11
+Index in vibrational symmetry block                                             # Description quantum label 11
 s/a                                                                             # Quantum label 12
 A1 %1s                                                                          # Format quantum label 12
 Inversion symmetry                                                              # Description quantum label 12
-Coef                                                                            # Quantum label 13
+|Coef|2                                                                         # Quantum label 13
 F5.2 %5.2f                                                                      # Format quantum label 13
-Largest coefficient used in the assignment                                      # Description quantum label 13
+Square modulus of the coefficient with the largest contribution                 # Description quantum label 13
 v1                                                                              # Quantum label 14
 I2 %2d                                                                          # Format quantum label 14
 TROVE vibrational stretching quantum number (1)                                 # Description quantum label 14

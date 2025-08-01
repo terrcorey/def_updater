@@ -67,22 +67,22 @@
                     "cfmt": "%7d"
                 },
                 {
-                    "name": "stcs:totalSym",
-                    "ffmt": "I3",
-                    "cfmt": "%3d",
-                    "desc": "Total symmetry in D3h(M): 1 = A′ , 4 = A′′"
+                    "name": "stcs:Gtot",
+                    "ffmt": "A3",
+                    "cfmt": "%3s",
+                    "desc": "Total symmetry"
                 },
                 {
                     "name": "stcs:K",
                     "ffmt": "I3",
                     "cfmt": "%3d",
-                    "desc": "Projection of J on to the z-axis"
+                    "desc": "Projection of J onto axis of molecular symmetry"
                 },
                 {
-                    "name": "stcs:rotSym",
-                    "ffmt": "I3",
-                    "cfmt": "%3d",
-                    "desc": "RotationalsymmetryinD3h(M):1=A′,2=A′,3=E′ ,4=A′′,5=A′′,6=E′′"
+                    "name": "stcs:Grot",
+                    "ffmt": "A3",
+                    "cfmt": "%3s",
+                    "desc": "Rotational symmetry"
                 },
                 {
                     "name": "stcs:v1",
@@ -157,10 +157,10 @@
                     "desc": "L projections of the vibrational angular momenta"
                 },
                 {
-                    "name": "stcs:vibSym",
-                    "ffmt": "I3",
-                    "cfmt": "%3d",
-                    "desc": "VibrationalsymmetryinD3h(M):1=A′,2=A′,3=E′ ,4=A′′,5=A′′,6=E′′"
+                    "name": "stcs:Gvib",
+                    "ffmt": "A3",
+                    "cfmt": "%3s",
+                    "desc": "Vibrational symmetry"
                 }
             ]
         },

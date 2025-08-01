@@ -86,7 +86,7 @@
                     "name": "hunda:+/-",
                     "ffmt": "A1",
                     "cfmt": "%1s",
-                    "desc": "Parity"
+                    "desc": "Total parity: '+' or '-'"
                 },
                 {
                     "name": "hunda:e/f",
@@ -98,7 +98,7 @@
                     "name": "hunda:ElecState",
                     "ffmt": "A12",
                     "cfmt": "%12s",
-                    "desc": "Notation of the electronic state"
+                    "desc": "Electronic state"
                 },
                 {
                     "name": "hunda:v",
@@ -108,21 +108,21 @@
                 },
                 {
                     "name": "hunda:Lambda",
-                    "ffmt": "I2",
-                    "cfmt": "%2d",
-                    "desc": "Projection of the electronic angular momentum"
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "Projection of electronic angular momentum"
                 },
                 {
                     "name": "hunda:Sigma",
-                    "ffmt": "F7.5",
-                    "cfmt": "%5.1f",
+                    "ffmt": "I5",
+                    "cfmt": "%5d",
                     "desc": "Projection of the electronic spin"
                 },
                 {
                     "name": "hunda:Omega",
-                    "ffmt": "F5.1",
-                    "cfmt": "%5.1f",
-                    "desc": "Omega = Lambda + Sigma, projection of the total angular momentum"
+                    "ffmt": "I5",
+                    "cfmt": "%5d",
+                    "desc": "Omega = Lambda + Sigma, projection of total angular momentum"
                 }
             ]
         },

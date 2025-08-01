@@ -34,7 +34,7 @@
         "states": {
             "number_of_states": 2166503,
             "max_energy": 19999.323708,
-            "uncertainty_description": "Variational (Calculated) Energy (in cm-1)",
+            "uncertainty_description": "Calculated energy in cm-1",
             "uncertainties_available": true,
             "lifetime_available": true,
             "lande_g_available": false,
@@ -80,7 +80,7 @@
                     "name": "nltcs:Gtot",
                     "ffmt": "A3",
                     "cfmt": "%3s",
-                    "desc": "Overall symmetry in Cs(M) (A' or A\")"
+                    "desc": "Total symmetry"
                 },
                 {
                     "name": "nltcs:v1",
@@ -110,13 +110,13 @@
                     "name": "nltcs:Gvib",
                     "ffmt": "A3",
                     "cfmt": "%3s",
-                    "desc": "Symmetry of vibrational contribution in Cs(M) (A' or A\")"
+                    "desc": "Vibrational symmetry"
                 },
                 {
                     "name": "nltcs:Coef",
                     "ffmt": "F5.2",
                     "cfmt": "%5.2f",
-                    "desc": "Largest coefficient used in the TROVE vibrational assignment"
+                    "desc": "Coefficient with the largest contribution"
                 },
                 {
                     "name": "nltcs:n1",

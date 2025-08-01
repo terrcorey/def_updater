@@ -31,7 +31,7 @@ nltcs                                                                           
 10                                                                              # No. of quanta defined
 Gtot                                                                            # Quantum label 1
 A3 %3s                                                                          # Format quantum label 1
-Overall symmetry in Cs(M) (A' or A")                                            # Description quantum label 1
+Total symmetry                                                                  # Description quantum label 1
 v1                                                                              # Quantum label 2
 I2 %2d                                                                          # Format quantum label 2
 Symmetric stretching ν1 mode vibrational quantum number                        # Description quantum label 2
@@ -46,7 +46,7 @@ I3 %3d                                                                          
 Vibrational angular momentum quantum number L = |l| associated with ν2 mode    # Description quantum label 5
 Coef                                                                            # Quantum label 6
 F5.2 %5.2f                                                                      # Format quantum label 6
-Largest coefficient used in the TROVE assignment                                # Description quantum label 6
+Coefficient with the largest contribution                                       # Description quantum label 6
 n1                                                                              # Quantum label 7
 I2 %2d                                                                          # Format quantum label 7
 TROVE vibrational quantum numbers                                               # Description quantum label 7
@@ -61,10 +61,10 @@ I2 %2d                                                                          
 TROVE vibrational quantum numbers                                               # Description quantum label 10
 SourceType                                                                      # Auxiliary title 1
 A2 %2s                                                                          # Format title 1
-Indicates if the value is from MARVEL (Ma) or Calculated(Ca)                    # Description title 1
+Ma=MARVEL,Ca=Calculated,EH=Effective Hamiltonian,IE=Isotopologue extrapolation  # Description title 1
 Ecal                                                                            # Auxiliary title 2
 F12.6 %12.6f                                                                    # Format title 2
-Variational (Calculated) Energy (in cm-1)                                       # Description title 2
+Calculated energy in cm-1                                                       # Description title 2
 76905951                                                                        # Total number of transitions
 1                                                                               # No. of transition files
 8999.999842                                                                     # Maximum wavenumber (in cm-1)

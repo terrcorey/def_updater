@@ -38,7 +38,7 @@
         "states": {
             "number_of_states": 10297025,
             "max_energy": 8000.0,
-            "uncertainty_description": "Variational (Calculated) Energy (in cm-1)",
+            "uncertainty_description": "Calculated energy in cm-1",
             "uncertainties_available": true,
             "lifetime_available": true,
             "lande_g_available": false,
@@ -84,7 +84,7 @@
                     "name": "TROVE:Gtot",
                     "ffmt": "A3",
                     "cfmt": "%3s",
-                    "desc": "[1/4] Total symmetry in C_2v_(M), Gamma = A_1_,A_2_,B_1_,B_2_"
+                    "desc": "Total symmetry"
                 },
                 {
                     "name": "TROVE:v1",
@@ -126,13 +126,13 @@
                     "name": "TROVE:Gvib",
                     "ffmt": "A3",
                     "cfmt": "%3s",
-                    "desc": "C_2v_(M) vi. symmetry Gamma(v) (local mode)"
+                    "desc": "Vibrational symmetry"
                 },
                 {
                     "name": "TROVE:Ka",
                     "ffmt": "I2",
                     "cfmt": "%2d",
-                    "desc": "Rotational Ka quantum number"
+                    "desc": "Ka rotational quantum number"
                 },
                 {
                     "name": "TROVE:Kb",
@@ -144,13 +144,13 @@
                     "name": "TROVE:Grot",
                     "ffmt": "A3",
                     "cfmt": "%3s",
-                    "desc": "C_2v_(M) rot. symmetry Gamma(v) (local mode)"
+                    "desc": "Rotational symmetry"
                 },
                 {
-                    "name": "TROVE:Coef",
+                    "name": "TROVE:|Coef|2",
                     "ffmt": "F5.2",
                     "cfmt": "%5.2f",
-                    "desc": "Square of the largest coefficient"
+                    "desc": "Square modulus of the coefficient with the largest contribution"
                 },
                 {
                     "name": "TROVE:n1",

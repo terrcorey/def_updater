@@ -65,34 +65,28 @@
                     "cfmt": "%7.1f"
                 },
                 {
+                    "name": "hundb:F",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "Final angular momentum"
+                },
+                {
                     "name": "hundb:v",
                     "ffmt": "I3",
                     "cfmt": "%3d",
                     "desc": "State vibrational quantum number"
                 },
                 {
-                    "name": "hundb:N",
-                    "ffmt": "I3",
-                    "cfmt": "%3d",
-                    "desc": "N quantum number"
-                },
-                {
-                    "name": "hundb:Omega",
-                    "ffmt": "I3",
-                    "cfmt": "%3d",
-                    "desc": "Projection of total electromic angular momentum"
-                },
-                {
                     "name": "hundb:e/f",
-                    "ffmt": "A3",
-                    "cfmt": "%3s",
+                    "ffmt": "A1",
+                    "cfmt": "%1s",
                     "desc": "Rotationless-parity"
                 },
                 {
                     "name": "hundb:ElecState",
                     "ffmt": "A12",
                     "cfmt": "%12s",
-                    "desc": "Electromic state"
+                    "desc": "Electronic state"
                 }
             ]
         },

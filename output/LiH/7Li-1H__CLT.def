@@ -28,7 +28,7 @@ Sigma-                                                                          
 dcs                                                                             # Quantum case label
 1                                                                               # No. of quanta defined
 v                                                                               # Quantum label 1
-I2 %2d                                                                          # Format quantum label 1
+I3 %3d                                                                          # Format quantum label 1
 State vibrational quantum number                                                # Description quantum label 1
 18982                                                                           # Total number of transitions
 1                                                                               # No. of transition files

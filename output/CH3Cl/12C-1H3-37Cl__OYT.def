@@ -31,9 +31,9 @@ E                                                                               
 1                                                                               # No. of quanta cases
 stcs                                                                            # Quantum case label
 14                                                                              # No. of quanta defined
-totalSym                                                                        # Quantum label 1
-I3 %3d                                                                          # Format quantum label 1
-Gamma                                                                           # Description quantum label 1
+Gtot                                                                            # Quantum label 1
+A3 %3s                                                                          # Format quantum label 1
+Total symmetry                                                                  # Description quantum label 1
 v1                                                                              # Quantum label 2
 I3 %3d                                                                          # Format quantum label 2
 v1 C--Cl stretch quantum number(3)                                              # Description quantum label 2
@@ -61,18 +61,24 @@ v8 bend quantum number                                                          
 v9                                                                              # Quantum label 10
 I3 %3d                                                                          # Format quantum label 10
 v9 bend quantum number                                                          # Description quantum label 10
-VibSym                                                                          # Quantum label 11
-I3 %3d                                                                          # Format quantum label 11
-Gammav                                                                          # Description quantum label 11
-K                                                                               # Quantum label 12
-I3 %3d                                                                          # Format quantum label 12
-rot QN                                                                          # Description quantum label 12
-rotSym                                                                          # Quantum label 13
+Gvib                                                                            # Quantum label 11
+A3 %3s                                                                          # Format quantum label 11
+Vibrational symmetry                                                            # Description quantum label 11
+J                                                                               # Quantum label 12
+I7 %7d                                                                          # Format quantum label 12
+Total rotational quantum number                                                 # Description quantum label 12
+K                                                                               # Quantum label 13
 I3 %3d                                                                          # Format quantum label 13
-GammaR                                                                          # Description quantum label 13
-Coeff                                                                           # Quantum label 14
-f4.2 %4f                                                                        # Format quantum label 14
-Coeff                                                                           # Description quantum label 14
+Projection of J onto axis of molecular symmetry                                 # Description quantum label 13
+rotpar                                                                          # Quantum label 14
+I1 %1d                                                                          # Format quantum label 14
+Rotational parity                                                               # Description quantum label 14
+Grot                                                                            # Quantum label 15
+A3 %3s                                                                          # Format quantum label 15
+Rotational symmetry                                                             # Description quantum label 15
+|Coef|2                                                                         # Quantum label 16
+F5.2 %5.2f                                                                      # Format quantum label 16
+Square modulus of the coefficient with the largest contribution                 # Description quantum label 16
 168039551516                                                                    # Total number of transitions
 64                                                                              # No. of transition files
 6400.0                                                                          # Maximum wavenumber (in cm-1)

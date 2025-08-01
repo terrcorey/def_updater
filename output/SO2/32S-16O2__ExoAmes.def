@@ -33,22 +33,22 @@ nltcs                                                                           
 6                                                                               # No. of quanta defined
 +/-                                                                             # Quantum label 1
 A1 %1s                                                                          # Format quantum label 1
-Total parity                                                                    # Description quantum label 1
-Ka                                                                              # Quantum label 2
+Total parity: '+' or '-'                                                        # Description quantum label 1
+v1                                                                              # Quantum label 2
 I2 %2d                                                                          # Format quantum label 2
-Ka rotational quantum number                                                    # Description quantum label 2
-Kc                                                                              # Quantum label 3
+v1 symmetric stretch quantum number(3)                                          # Description quantum label 2
+v2                                                                              # Quantum label 3
 I2 %2d                                                                          # Format quantum label 3
-Kc rotational quantum number                                                    # Description quantum label 3
-v1                                                                              # Quantum label 4
+v2 bend quantum number                                                          # Description quantum label 3
+v3                                                                              # Quantum label 4
 I2 %2d                                                                          # Format quantum label 4
-v1 symmetric stretch quantum number(3)                                          # Description quantum label 4
-v2                                                                              # Quantum label 5
+v2 asymmetrics stretch quantum number                                           # Description quantum label 4
+Ka                                                                              # Quantum label 5
 I2 %2d                                                                          # Format quantum label 5
-v2 bend quantum number                                                          # Description quantum label 5
-v3                                                                              # Quantum label 6
+Ka rotational quantum number                                                    # Description quantum label 5
+Kc                                                                              # Quantum label 6
 I2 %2d                                                                          # Format quantum label 6
-v2 asymmetrics stretch quantum number                                           # Description quantum label 6
+Kc rotational quantum number                                                    # Description quantum label 6
 Ecal                                                                            # Auxiliary title 1
 F12.6 %12.6f                                                                    # Format title 1
 Calculated energy in cm-1                                                       # Description title 1

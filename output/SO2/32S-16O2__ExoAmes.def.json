@@ -83,19 +83,7 @@
                     "name": "nltcs:+/-",
                     "ffmt": "A1",
                     "cfmt": "%1s",
-                    "desc": "Total parity"
-                },
-                {
-                    "name": "nltcs:Ka",
-                    "ffmt": "I2",
-                    "cfmt": "%2d",
-                    "desc": "Ka rotational quantum number"
-                },
-                {
-                    "name": "nltcs:Kc",
-                    "ffmt": "I2",
-                    "cfmt": "%2d",
-                    "desc": "Kc rotational quantum number"
+                    "desc": "Total parity: '+' or '-'"
                 },
                 {
                     "name": "nltcs:v1",
@@ -114,6 +102,18 @@
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "v2 asymmetrics stretch quantum number"
+                },
+                {
+                    "name": "nltcs:Ka",
+                    "ffmt": "I2",
+                    "cfmt": "%2d",
+                    "desc": "Ka rotational quantum number"
+                },
+                {
+                    "name": "nltcs:Kc",
+                    "ffmt": "I2",
+                    "cfmt": "%2d",
+                    "desc": "Kc rotational quantum number"
                 }
             ]
         },

@@ -76,7 +76,7 @@
                     "name": "nltcs:Gtot",
                     "ffmt": "A3",
                     "cfmt": "%3s",
-                    "desc": "Overall symmetry in Cs(M) (A' or A\")"
+                    "desc": "Total symmetry"
                 },
                 {
                     "name": "nltcs:v1",
@@ -106,7 +106,7 @@
                     "name": "nltcs:Coef",
                     "ffmt": "F5.2",
                     "cfmt": "%5.2f",
-                    "desc": "Largest coefficient used in the TROVE assignment"
+                    "desc": "Coefficient with the largest contribution"
                 },
                 {
                     "name": "nltcs:n1",

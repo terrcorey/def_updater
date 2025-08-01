@@ -60,17 +60,17 @@ Gvib                                                                            
 A3 %3s                                                                          # Format quantum label 9
 Vibrational symmetry                                                            # Description quantum label 9
 K                                                                               # Quantum label 10
-I2 %2d                                                                          # Format quantum label 10
-Projection of J on the axis of molecular rotational symmetry                    # Description quantum label 10
+I3 %3d                                                                          # Format quantum label 10
+Projection of J onto axis of molecular symmetry                                 # Description quantum label 10
 e/f                                                                             # Quantum label 11
 A1 %1s                                                                          # Format quantum label 11
-Rotational parity                                                               # Description quantum label 11
+Rotationless-parity                                                             # Description quantum label 11
 Grot                                                                            # Quantum label 12
 A3 %3s                                                                          # Format quantum label 12
-Rotational Symmetry                                                             # Description quantum label 12
+Rotational symmetry                                                             # Description quantum label 12
 Coef                                                                            # Quantum label 13
 F5.2 %5.2f                                                                      # Format quantum label 13
-Coefficient with the largest contribution to the (J = 0) contracted set         # Description quantum label 13
+Coefficient with the largest contribution                                       # Description quantum label 13
 SourceType                                                                      # Auxiliary title 1
 A2 %2s                                                                          # Format title 1
 Ma=MARVEL,Ca=Calculated,EH=Effective Hamiltonian,IE=Isotopologue extrapolation  # Description title 1

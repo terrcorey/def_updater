@@ -68,10 +68,10 @@
                     "cfmt": "%7d"
                 },
                 {
-                    "name": "nltcs:Gamma",
-                    "ffmt": "I2",
-                    "cfmt": "%2d",
-                    "desc": "Symmetry block number (1)"
+                    "name": "nltcs:Gtot",
+                    "ffmt": "A3",
+                    "cfmt": "%3s",
+                    "desc": "Total symmetry"
                 },
                 {
                     "name": "nltcs:v1",
@@ -92,10 +92,10 @@
                     "desc": "v2 asymmetrics stretch quantum number"
                 },
                 {
-                    "name": "nltcs:Gamma_vib",
-                    "ffmt": "A2",
-                    "cfmt": "%2s",
-                    "desc": "vibrational symmetry label"
+                    "name": "nltcs:Gvib",
+                    "ffmt": "A3",
+                    "cfmt": "%3s",
+                    "desc": "Vibrational symmetry"
                 },
                 {
                     "name": "nltcs:Ka",
@@ -110,10 +110,16 @@
                     "desc": "Kc rotational quantum number"
                 },
                 {
+                    "name": "nltcs:Grot",
+                    "ffmt": "A3",
+                    "cfmt": "%3s",
+                    "desc": "Rotational symmetry"
+                },
+                {
                     "name": "nltcs:Coef",
-                    "ffmt": "f8.4",
-                    "cfmt": "%8.4f",
-                    "desc": "C_i largest contribution coefficient"
+                    "ffmt": "F5.2",
+                    "cfmt": "%5.2f",
+                    "desc": "Coefficient with the largest contribution"
                 },
                 {
                     "name": "nltcs:n1",

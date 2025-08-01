@@ -38,7 +38,7 @@ TROVE                                                                           
 17                                                                              # No. of quanta defined
 Gtot                                                                            # Quantum label 1
 A3 %3s                                                                          # Format quantum label 1
-Total symmetry index in D3h(M)                                                  # Description quantum label 1
+Total symmetry                                                                  # Description quantum label 1
 n1                                                                              # Quantum label 2
 I2 %2d                                                                          # Format quantum label 2
 Symmetric stretch quantum number (normal mode)                                  # Description quantum label 2
@@ -59,16 +59,16 @@ I2 %2d                                                                          
 Asymmetric bend angular momentum quantum no. (normal mode)                      # Description quantum label 7
 Gvib                                                                            # Quantum label 8
 A3 %3s                                                                          # Format quantum label 8
-Vibrational symmetry index in D3h(M)                                            # Description quantum label 8
+Vibrational symmetry                                                            # Description quantum label 8
 K                                                                               # Quantum label 9
-I2 %2d                                                                          # Format quantum label 9
-Projection of J on axis of molecular symmetry                                   # Description quantum label 9
+I3 %3d                                                                          # Format quantum label 9
+Projection of J onto axis of molecular symmetry                                 # Description quantum label 9
 Grot                                                                            # Quantum label 10
 A3 %3s                                                                          # Format quantum label 10
-Rotational symmetry index in D3h(M)                                             # Description quantum label 10
+Rotational symmetry                                                             # Description quantum label 10
 Coef                                                                            # Quantum label 11
 F5.2 %5.2f                                                                      # Format quantum label 11
-Largest coefficient                                                             # Description quantum label 11
+Coefficient with the largest contribution                                       # Description quantum label 11
 v1                                                                              # Quantum label 12
 I2 %2d                                                                          # Format quantum label 12
 Local mode stretching quantum number (1)                                        # Description quantum label 12
