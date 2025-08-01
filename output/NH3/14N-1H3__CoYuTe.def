@@ -149,3 +149,4 @@ a0                                                                              
 15                                                                              # No. of lines in the broad that contain this code
 0                                                                               # No. of quantum numbers defined
 1                                                                               # Uncertainty availability (1=yes, 0=no)
+20                                                                              # No. of quantum labels

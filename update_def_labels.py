@@ -178,6 +178,7 @@ def error_log(message, prefix="Error"):
 # Input reading and processing
 def read_def_file(def_file_path):
     """Reads a definition file and returns a dictionary mapping descriptions to values."""
+    correction_dict = load_correction_dict()
     def_dict = {}
 
     with open(def_file_path, 'r') as def_file:
@@ -389,6 +390,7 @@ def broadener_formatter(broad_dict):
 # Update def_dict according to states_labels.json
 def def_dict_update(mol, def_dict, labels_list):
     """Updates the definition dictionary with new labels."""
+    standard_labels = load_standard_labels()
     if labels_list[3] == "F":
         error_log(f"Dataset: {filename} || Fourth label should be F instead of J.", "Warn")
         pass
@@ -480,6 +482,7 @@ def def_dict_update(mol, def_dict, labels_list):
             error_log(f"Dataset: {filename} || Quantum label '{label}' not found in old labels. Please input the description manually.")
 
     def_dict["Quantum labels"] = new_labels
+    def_dict["No. of quantum labels"] = len(new_labels)
 
 def update_def(def_file_path, def_dict):
     """Creates a new definition file with updated labels."""
@@ -593,8 +596,6 @@ def main():
 
 if __name__ == "__main__":
     os.chdir(os.path.dirname(os.path.abspath(__file__)))
-    correction_dict = load_correction_dict()
-    standard_labels = load_standard_labels()
     log_file_path = os.path.join(os.path.dirname(__file__), "log.txt")
     if os.path.exists(log_file_path):
         os.remove(log_file_path)

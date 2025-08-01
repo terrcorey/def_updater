@@ -95,3 +95,4 @@ Calculated energy in cm-1                                                       
 0.1063                                                                          # Default value of Lorentzian half-width for all lines (in cm-1/bar)
 0.695                                                                           # Default value of temperature exponent for all lines
 1                                                                               # Uncertainty availability (1=yes, 0=no)
+15                                                                              # No. of quantum labels

@@ -91,3 +91,4 @@ Theoretical state energy                                                        
 0.077                                                                           # Default value of Lorentzian half-width for all lines (in cm-1/bar)
 0.590                                                                           # Default value of temperature exponent for all lines
 1                                                                               # Uncertainty availability (1=yes, 0=no)
+13                                                                              # No. of quantum labels

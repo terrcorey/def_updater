@@ -135,3 +135,4 @@ a0                                                                              
 10                                                                              # No. of lines in the broad that contain this code
 0                                                                               # No. of quantum numbers defined
 1                                                                               # Uncertainty availability (1=yes, 0=no); unc(cacl)= 0.05*v+0.001*J*(J+1)
+18                                                                              # No. of quantum labels

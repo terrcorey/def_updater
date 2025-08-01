@@ -100,3 +100,4 @@ I4 %4d                                                                          
 0.110                                                                           # Default value of Lorentzian half-width for all lines (in cm-1/bar)
 0.6                                                                             # Default value of temperature exponent for all lines
 H2                                                                              # Label for a particular broadener
+20                                                                              # No. of quantum labels

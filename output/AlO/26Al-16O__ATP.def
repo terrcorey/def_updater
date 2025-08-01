@@ -62,3 +62,4 @@ Ma=MARVEL,Ca=Calculated,EH=Effective Hamiltonian,IE=Isotopologue extrapolation  
 0.500                                                                           # Default value of temperature exponent for all lines
 4                                                                               # Number of columns in .trans
 1                                                                               # Uncertainty availability (1=yes, 0=no); unc(cacl)= 0.05*v+0.001*J*(J+1)
+7                                                                               # No. of quantum labels

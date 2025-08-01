@@ -47,3 +47,4 @@ Rotationless-parity                                                             
 1.00                                                                            # Step size of temperature
 0                                                                               # Cooling function availability (1=yes, 0=no)
 4                                                                               # Number of columns in .trans
+4                                                                               # No. of quantum labels

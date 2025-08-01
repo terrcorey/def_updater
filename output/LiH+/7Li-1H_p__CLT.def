@@ -39,3 +39,4 @@ NaN                                                                             
 1                                                                               # Cooling function availability (1=yes, 0=no)
 0.0700                                                                          # Default value of Lorentzian half-width for all lines (in cm-1/bar)
 0.500                                                                           # Default value of temperature exponent for all lines
+1                                                                               # No. of quantum labels
