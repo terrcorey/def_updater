@@ -60,7 +60,7 @@
                     "cfmt": "%6d"
                 },
                 {
-                    "name": "J",
+                    "name": "F",
                     "desc": "Total rotational quantum number, excluding nuclear spin",
                     "ffmt": "I7",
                     "cfmt": "%7d"

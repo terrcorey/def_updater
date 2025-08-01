@@ -23,10 +23,12 @@ Sigma-                                                                          
 0                                                                               # No. of k-coefficient files available
 0                                                                               # Lifetime availability (1=yes, 0=no)
 0                                                                               # Lande g-factor availability (1=yes, 0=no)
+0                                                                               # Uncertainty availability (1=yes, 0=no)
+0                                                                               # Hyperfine dataset (1=yes, 0=no)
 711                                                                             # No. of states in .states file
 1                                                                               # No. of quanta cases
 dcs                                                                             # Quantum case label
-2                                                                               # No. of quanta defined
+1                                                                               # No. of quanta defined
 v                                                                               # Quantum label 1
 I3 %3d                                                                          # Format quantum label 1
 State vibrational quantum number                                                # Description quantum label 1
@@ -39,4 +41,3 @@ NaN                                                                             
 0                                                                               # Cooling function availability (1=yes, 0=no)
 0.0700                                                                          # Default value of Lorentzian half-width for all lines (in cm-1/bar)
 0.500                                                                           # Default value of temperature exponent for all lines
-1                                                                               # No. of quantum labels

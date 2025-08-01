@@ -29,6 +29,8 @@ B2                                                                              
 0                                                                               # No. of k-coefficient files available
 1                                                                               # Lifetime availability (1=yes, 0=no)
 0                                                                               # Lande g-factor availability (1=yes, 0=no)
+1                                                                               # Uncertainty availability (1=yes, 0=no)
+0                                                                               # Hyperfine dataset (1=yes, 0=no)
 10297025.0                                                                      # No. of states in .states file
 2                                                                               # No. of quanta cases
 asymcs                                                                          # Quantum case label
@@ -134,5 +136,3 @@ K'                                                                              
 a0                                                                              # A code that defines this set of quantum numbers
 10                                                                              # No. of lines in the broad that contain this code
 0                                                                               # No. of quantum numbers defined
-1                                                                               # Uncertainty availability (1=yes, 0=no); unc(cacl)= 0.05*v+0.001*J*(J+1)
-18                                                                              # No. of quantum labels

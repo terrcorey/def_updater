@@ -29,6 +29,8 @@ T2                                                                              
 0                                                                               # No. of k-coefficient files available
 0                                                                               # Lifetime availability (1=yes, 0=no)
 0                                                                               # Lande g-factor availability (1=yes, 0=no)
+0                                                                               # Uncertainty availability (1=yes, 0=no)
+0                                                                               # Hyperfine dataset (1=yes, 0=no)
 7086727                                                                         # No. of states in .states file
 1                                                                               # No. of quanta cases
 sphcs                                                                           # Quantum case label
@@ -132,4 +134,3 @@ n1'                                                                             
 n2'                                                                             # Defined quantum number
 n3'                                                                             # Defined quantum number
 n4'                                                                             # Defined quantum number
-26                                                                              # No. of quantum labels

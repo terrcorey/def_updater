@@ -29,6 +29,8 @@ B2                                                                              
 0                                                                               # No. of k-coefficient files available
 0                                                                               # Lifetime availability (1=yes, 0=no)
 0                                                                               # Lande g-factor availability (1=yes, 0=no)
+1                                                                               # Uncertainty availability (1=yes, 0=no)
+0                                                                               # Hyperfine dataset (1=yes, 0=no)
 52292454                                                                        # No. of states in .states file
 2                                                                               # No. of quanta cases
 asymcs                                                                          # Quantum case label
@@ -106,5 +108,3 @@ Calculated energy in cm-1                                                       
 0                                                                               # Cooling function availability (1=yes, 0=no)
 0.1000                                                                          # Default value of Lorentzian half-width for all lines (in cm-1/bar)
 0.500                                                                           # Default value of temperature exponent for all lines
-1                                                                               # Uncertainty availability (1=yes, 0=no); unc(cacl)= 0.05*v+0.001*J*(J+1)
-19                                                                              # No. of quantum labels

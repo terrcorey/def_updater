@@ -23,11 +23,13 @@ A"                                                                              
 0                                                                               # No. of k-coefficient files available
 1                                                                               # Lifetime availability (1=yes, 0=no)
 0                                                                               # Lande g-factor availability (1=yes, 0=no)
+1                                                                               # Uncertainty availability (1=yes, 0=no)
+0                                                                               # Hyperfine dataset (1=yes, 0=no)
 1759068                                                                         # No. of states in .states file
 2                                                                               # No. of quanta cases
 dcs                                                                             # Quantum case label
 nltcs                                                                           # Quantum case label
-10                                                                              # No. of quanta defined
+11                                                                              # No. of quanta defined
 Gtot                                                                            # Quantum label 1
 A3 %3s                                                                          # Format quantum label 1
 Total symmetry                                                                  # Description quantum label 1
@@ -80,5 +82,3 @@ Original TROVE calculated state energy (in cm-1)                                
 0                                                                               # Specific heat availability (1=yes, 0=no)
 0.0700                                                                          # Default value of Lorentzian half-width for all lines (in cm-1/bar)
 0.500                                                                           # Default value of temperature exponent for all lines
-1                                                                               # Uncertainty availability (1=yes, 0=no)
-11                                                                              # No. of quantum labels

@@ -23,35 +23,34 @@ Sigma-                                                                          
 0                                                                               # No. of k-coefficient files available
 1                                                                               # Lifetime availability (1=yes, 0=no)
 1                                                                               # Lande g-factor availability (1=yes, 0=no)
+1                                                                               # Uncertainty availability (1=yes, 0=no)
+0                                                                               # Hyperfine dataset (1=yes, 0=no)
 182598                                                                          # No. of states in .states file
 1                                                                               # No. of quanta cases
 dcs                                                                             # Quantum case label
 hunda                                                                           # Quantum case label
 7                                                                               # No. of quanta defined
-unc                                                                             # Quantum label 1
-F12.6 %12.6f                                                                    # Format quantum label 1
-Energy uncertainty in cm-1                                                      # Description quantum label 1
-+/-                                                                             # Quantum label 2
++/-                                                                             # Quantum label 1
+A1 %1s                                                                          # Format quantum label 1
+Total parity: '+' or '-'                                                        # Description quantum label 1
+e/f                                                                             # Quantum label 2
 A1 %1s                                                                          # Format quantum label 2
-Total parity: '+' or '-'                                                        # Description quantum label 2
-e/f                                                                             # Quantum label 3
-A1 %1s                                                                          # Format quantum label 3
-Rotationless-parity                                                             # Description quantum label 3
-ElecState                                                                       # Quantum label 4
-A12 %12s                                                                        # Format quantum label 4
-Electronic state                                                                # Description quantum label 4
-v                                                                               # Quantum label 5
+Rotationless-parity                                                             # Description quantum label 2
+ElecState                                                                       # Quantum label 3
+A12 %12s                                                                        # Format quantum label 3
+Electronic state                                                                # Description quantum label 3
+v                                                                               # Quantum label 4
+I3 %3d                                                                          # Format quantum label 4
+State vibrational quantum number                                                # Description quantum label 4
+Lambda                                                                          # Quantum label 5
 I3 %3d                                                                          # Format quantum label 5
-State vibrational quantum number                                                # Description quantum label 5
-Lambda                                                                          # Quantum label 6
-I3 %3d                                                                          # Format quantum label 6
-Projection of electronic angular momentum                                       # Description quantum label 6
-Sigma                                                                           # Quantum label 7
+Projection of electronic angular momentum                                       # Description quantum label 5
+Sigma                                                                           # Quantum label 6
+I5 %5d                                                                          # Format quantum label 6
+Projection of the electronic spin                                               # Description quantum label 6
+Omega                                                                           # Quantum label 7
 I5 %5d                                                                          # Format quantum label 7
-Projection of the electronic spin                                               # Description quantum label 7
-Omega                                                                           # Quantum label 8
-I5 %5d                                                                          # Format quantum label 8
-Omega = Lambda + Sigma, projection of total angular momentum                    # Description quantum label 8
+Omega = Lambda + Sigma, projection of total angular momentum                    # Description quantum label 7
 SourceType                                                                      # Auxiliary title 1
 A2 %2s                                                                          # Format title 1
 Indicates if the value is from MARVEL (Ma) or Calculated(Ca)                    # Description title 1
@@ -68,4 +67,3 @@ Variational (Calculated) Energy (in cm-1)                                       
 0                                                                               # Specific heat availability (1=yes, 0=no)
 0.0700                                                                          # Default value of Lorentzian half-width for all lines (in cm-1/bar)
 0.500                                                                           # Default value of temperature exponent for all lines
-8                                                                               # No. of quantum labels

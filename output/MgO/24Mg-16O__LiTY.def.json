@@ -36,7 +36,7 @@
             "number_of_states": 186842,
             "max_energy": 37000.0,
             "uncertainty_description": "Calculated energy in cm-1",
-            "uncertainties_available": null,
+            "uncertainties_available": true,
             "lifetime_available": true,
             "lande_g_available": true,
             "num_quanta": 7,
@@ -66,6 +66,12 @@
                     "cfmt": "%7d"
                 },
                 {
+                    "name": "unc",
+                    "desc": "Energy uncertainty in cm-1",
+                    "ffmt": "F12.6",
+                    "cfmt": "%12.6f"
+                },
+                {
                     "name": "tau",
                     "desc": "Lifetime in s",
                     "ffmt": "ES12.4",
@@ -76,12 +82,6 @@
                     "desc": "Lande g-factor",
                     "ffmt": "F10.6",
                     "cfmt": "%10.6f"
-                },
-                {
-                    "name": "hunda:unc",
-                    "ffmt": "F12.6",
-                    "cfmt": "%12.6f",
-                    "desc": "Energy uncertainty in cm-1"
                 },
                 {
                     "name": "hunda:+/-",

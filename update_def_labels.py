@@ -386,40 +386,54 @@ def broadener_formatter(broad_dict):
         error_log(f"Dataset: {filename} || {e}", "Critical")
         result = ""
     return result
+    
+def bool_formmatter(bools_dict):
+    """Formats the boolean flags for the definition file."""
+    result = ""
+    try:
+        for key, value in bools_dict.items():
+            result += line_formatter(value, f"{key} (1=yes, 0=no)")
+    except Exception as e:
+        error_log(f"Dataset: {filename} || {e}", "Critical")
+        result = ""
+    return result
 
 # Update def_dict according to states_labels.json
 def def_dict_update(mol, def_dict, labels_list):
     """Updates the definition dictionary with new labels."""
+
+    bools = {
+        "Lifetime availability": 0,
+        "Lande g-factor availability": 0,
+        "Uncertainty availability": 0,
+        "Hyperfine dataset": 0
+    }
+
+    keys = list(def_dict.keys())
+    for key in keys:
+        if "Lifetime availability" in key:
+            def_dict.pop(key, None)
+        if "Lande g-factor availability" in key:
+            def_dict.pop(key, None)
+        if "Uncertainty availability" in key:
+            def_dict.pop(key, None)
+
     standard_labels = load_standard_labels()
     if labels_list[3] == "F":
         error_log(f"Dataset: {filename} || Fourth label should be F instead of J.", "Warn")
-        pass
+        bools['Hyperfine dataset'] = 1
     labels = labels_list[4:]
-
-    keys = list(def_dict.keys())
-
-    for key in keys:
-        if "Lifetime availability" in key:
-            if "tau" in labels:
-                labels.remove("tau")    
-                def_dict[key] = 1
-            else:
-                def_dict[key] = 0
-
-        elif "Lande g-factor availability" in key:
-            if "gfactor" in labels:
-                labels.remove("gfactor")    
-                def_dict[key] = 1
-            else:
-                def_dict[key] = 0
-
-        elif "Uncertainty availability" in key:
-            if "unc" in labels:
-                labels.remove("unc")    
-                def_dict[key] = 1
-            else:
-                def_dict[key] = 0
-
+    if "tau" in labels:
+        bools["Lifetime availability"] = 1
+        labels.remove("tau")
+    if "gfactor" in labels:
+        bools["Lande g-factor availability"] = 1
+        labels.remove("gfactor")
+    if "unc" in labels:
+        bools["Uncertainty availability"] = 1
+        labels.remove("unc")
+    def_dict["bools"] = bools
+    
     aux_labels = [label for label in labels if "Auxiliary" in label]
     if aux_labels:
         def_dict["Auxiliary labels"] = []
@@ -482,7 +496,7 @@ def def_dict_update(mol, def_dict, labels_list):
             error_log(f"Dataset: {filename} || Quantum label '{label}' not found in old labels. Please input the description manually.")
 
     def_dict["Quantum labels"] = new_labels
-    def_dict["No. of quantum labels"] = len(new_labels)
+    def_dict["No. of quanta defined"] = len(new_labels)
 
 def update_def(def_file_path, def_dict):
     """Creates a new definition file with updated labels."""
@@ -532,6 +546,9 @@ def update_def(def_file_path, def_dict):
                     else:
                         output_file.write(line_formatter(case_labels, desc))
                     def_dict.pop("Quantum case label", None)
+                elif desc == "No. of k-coefficient files available":
+                    output_file.write(bool_formmatter(def_dict.get("bools", {})))
+                    def_dict.pop("bools", None)
                 
             # Write any remaining entries in def_dict to the output file
             for desc, value in def_dict.items():

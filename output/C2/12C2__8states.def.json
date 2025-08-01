@@ -40,7 +40,7 @@
             "uncertainties_available": true,
             "lifetime_available": true,
             "lande_g_available": true,
-            "num_quanta": 7,
+            "num_quanta": 9,
             "states_file_fields": [
                 {
                     "name": "ID",

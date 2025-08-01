@@ -25,6 +25,8 @@ E                                                                               
 0                                                                               # No. of k-coefficient files available
 0                                                                               # Lifetime availability (1=yes, 0=no)
 0                                                                               # Lande g-factor availability (1=yes, 0=no)
+0                                                                               # Uncertainty availability (1=yes, 0=no)
+0                                                                               # Hyperfine dataset (1=yes, 0=no)
 3311926                                                                         # No. of states in .states file
 1                                                                               # No. of quanta cases
 local                                                                           # Quantum case label
@@ -100,4 +102,3 @@ I4 %4d                                                                          
 0.110                                                                           # Default value of Lorentzian half-width for all lines (in cm-1/bar)
 0.6                                                                             # Default value of temperature exponent for all lines
 H2                                                                              # Label for a particular broadener
-20                                                                              # No. of quantum labels

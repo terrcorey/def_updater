@@ -36,7 +36,7 @@
             "number_of_states": 33051,
             "max_energy": 38443.08671,
             "uncertainty_description": null,
-            "uncertainties_available": null,
+            "uncertainties_available": false,
             "lifetime_available": true,
             "lande_g_available": true,
             "num_quanta": 7,
@@ -64,6 +64,12 @@
                     "desc": "Total rotational quantum number, excluding nuclear spin",
                     "ffmt": "F7.1",
                     "cfmt": "%7.1f"
+                },
+                {
+                    "name": "unc",
+                    "desc": "Energy uncertainty in cm-1",
+                    "ffmt": "F12.6",
+                    "cfmt": "%12.6f"
                 },
                 {
                     "name": "tau",
