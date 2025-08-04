@@ -34,6 +34,7 @@
         "states": {
             "number_of_states": 823,
             "max_energy": 22861.7141,
+            "hyperfine_resolved_dataset": false,
             "uncertainty_description": null,
             "uncertainties_available": false,
             "lifetime_available": false,

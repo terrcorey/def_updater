@@ -25,6 +25,11 @@
         "Description quantum label": "Rotationless-parity"
     },
     {
+        "Quantum label": "J_par",
+        "Format quantum label": "A1 %1s",
+        "Description quantum label": "Parity excluding hyperfine effects: e or f"
+    },
+    {
         "Quantum label": "ElecState",
         "Format quantum label": "A12 %12s",
         "Description quantum label": "Electronic state"

@@ -36,11 +36,12 @@
         "states": {
             "number_of_states": 3311926,
             "max_energy": 4500.0,
+            "hyperfine_resolved_dataset": false,
             "uncertainty_description": null,
             "uncertainties_available": false,
             "lifetime_available": false,
             "lande_g_available": false,
-            "num_quanta": 20,
+            "num_quanta": 13,
             "states_file_fields": [
                 {
                     "name": "ID",
@@ -145,52 +146,10 @@
                     "desc": "Rotational symmetry"
                 },
                 {
-                    "name": "local:null",
-                    "ffmt": "I9",
-                    "cfmt": "%9d",
-                    "desc": ""
-                },
-                {
                     "name": "local:|Coef|2",
                     "ffmt": "F5.2",
                     "cfmt": "%5.2f",
                     "desc": "Square modulus of the coefficient with the largest contribution"
-                },
-                {
-                    "name": "local:n1",
-                    "ffmt": "I6",
-                    "cfmt": "%6d",
-                    "desc": "[0/3] TROVE quantum number P-F local mode stretch"
-                },
-                {
-                    "name": "local:n2",
-                    "ffmt": "I4",
-                    "cfmt": "%4d",
-                    "desc": "[0/3] TROVE quantum number P-F local mode stretch"
-                },
-                {
-                    "name": "local:n3",
-                    "ffmt": "I4",
-                    "cfmt": "%4d",
-                    "desc": "[0/3] TROVE quantum number P-F local mode stretch"
-                },
-                {
-                    "name": "local:n4",
-                    "ffmt": "I4",
-                    "cfmt": "%4d",
-                    "desc": "[0/7] TROVE quantum number PPF local mode bend"
-                },
-                {
-                    "name": "local:n5",
-                    "ffmt": "I4",
-                    "cfmt": "%4d",
-                    "desc": "[0/7] TROVE quantum number PPF local mode bend"
-                },
-                {
-                    "name": "local:n6",
-                    "ffmt": "I4",
-                    "cfmt": "%4d",
-                    "desc": "[0/7] TROVE quantum number PPF local mode bend"
                 }
             ]
         },

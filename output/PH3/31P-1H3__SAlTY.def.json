@@ -36,6 +36,7 @@
         "states": {
             "number_of_states": 9787832,
             "max_energy": null,
+            "hyperfine_resolved_dataset": false,
             "uncertainty_description": null,
             "uncertainties_available": false,
             "lifetime_available": true,
@@ -97,10 +98,10 @@
                     "desc": "Rotational symmetry"
                 },
                 {
-                    "name": "stcs:L",
-                    "ffmt": "I3",
-                    "cfmt": "%3d",
-                    "desc": "Projection of total vibrational angular momentum"
+                    "name": "stcs:l",
+                    "ffmt": "I5",
+                    "cfmt": "%5d",
+                    "desc": ""
                 },
                 {
                     "name": "stcs:v1",

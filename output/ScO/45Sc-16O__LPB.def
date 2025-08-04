@@ -1,0 +1,62 @@
+EXOMOL.def                                                                      # ID
+(45Sc)(16O)                                                                     # IsoFormula
+45Sc-16O                                                                        # Iso-slug
+LPB                                                                             # Isotopologue dataset name
+20241104                                                                        # Version number with format YYYYMMDD
+SILDMMUQVSAMEE-UHFFFAOYSA-N                                                     # Inchi key of molecule
+2                                                                               # Number of atoms
+45                                                                              # Isotope number 1
+Sc                                                                              # Element symbol 1
+16                                                                              # Isotope number 2
+O                                                                               # Element symbol 2
+60.95082 1.012106679E-25                                                        # Isotopologue mass (Da) and (kg)
+C                                                                               # Symmetry group
+2                                                                               # Number of irreducible representations
+Sigma+                                                                          # Irreducible representation label 1
+6                                                                               # Nuclear spin degeneracy 1
+Sigma-                                                                          # Irreducible representation label 2
+6                                                                               # Nuclear spin degeneracy 2
+5000.00                                                                         # Maximum temperature of linelist
+0                                                                               # No. of pressure broadeners available
+0                                                                               # Dipole availability (1=yes, 0=no)
+0                                                                               # No. of cross section files available
+0                                                                               # No. of k-coefficient files available
+0                                                                               # Lifetime availability (1=yes, 0=no)
+0                                                                               # Lande g-factor availability (1=yes, 0=no)
+1                                                                               # Uncertainty availability (1=yes, 0=no)
+1                                                                               # Hyperfine resolved dataset (1=yes, 0=no)
+73384                                                                           # No. of states in .states file
+1                                                                               # No. of quanta cases
+dcs                                                                             # Quantum case label
+7                                                                               # No. of quanta defined
+e/f                                                                             # Quantum label 1
+A1 %1s                                                                          # Format quantum label 1
+Rotationless-parity                                                             # Description quantum label 1
+ElecState                                                                       # Quantum label 2
+A12 %12s                                                                        # Format quantum label 2
+Electronic state                                                                # Description quantum label 2
+v                                                                               # Quantum label 3
+I3 %3d                                                                          # Format quantum label 3
+State vibrational quantum number                                                # Description quantum label 3
+J                                                                               # Quantum label 4
+I7 %7d                                                                          # Format quantum label 4
+Total rotational quantum number                                                 # Description quantum label 4
+N                                                                               # Quantum label 5
+I5 %5d                                                                          # Format quantum label 5
+Rotational angular momentum                                                     # Description quantum label 5
+F_i                                                                             # Quantum label 6
+I5 %5d                                                                          # Format quantum label 6
+                                                                                # Description quantum label 6
+J_par                                                                           # Quantum label 7
+A1 %1s                                                                          # Format quantum label 7
+Parity excluding hyperfine effects: e or f                                      # Description quantum label 7
+559227                                                                          # Total number of transitions
+1                                                                               # No. of transition files
+17478.982218                                                                    # Maximum wavenumber (in cm-1)
+28239.442956                                                                    # Higher energy with complete set of transitions (in cm-1)
+5000.00                                                                         # Maximum temperature of partition function
+1.00                                                                            # Step size of temperature
+0                                                                               # Cooling function availability (1=yes, 0=no)
+0                                                                               # Specific heat availability (1=yes, 0=no)
+0.0700                                                                          # Default value of Lorentzian half-width for all lines (in cm-1/bar)
+0.500                                                                           # Default value of temperature exponent for all lines

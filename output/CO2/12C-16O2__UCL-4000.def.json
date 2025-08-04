@@ -37,6 +37,7 @@
         "states": {
             "number_of_states": 3480477,
             "max_energy": 16000.0,
+            "hyperfine_resolved_dataset": false,
             "uncertainty_description": "Calculated energy in cm-1",
             "uncertainties_available": true,
             "lifetime_available": false,
@@ -128,16 +129,16 @@
                     "desc": "Vibrational bending QN"
                 },
                 {
-                    "name": "TROVE:l2",
-                    "ffmt": "I2",
-                    "cfmt": " %2d",
-                    "desc": "Normal mode vibrational angular momentum QN"
-                },
-                {
                     "name": "TROVE:m3",
                     "ffmt": "I2",
                     "cfmt": " %2d",
                     "desc": "Asymmetric vibrational stretching QN (equivalent to n3)"
+                },
+                {
+                    "name": "TROVE:m4",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": ""
                 },
                 {
                     "name": "TROVE:r",

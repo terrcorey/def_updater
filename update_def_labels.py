@@ -21,22 +21,25 @@ def download_states_first_line(mol, f):
         url = f"https://exomol.com/db/{mol}/{iso_slug}/{ds_name}/{f + '.states.bz2'}".replace("+", "_p")
         response = requests.get(url)
         if response.status_code == 200:
-            # Decompress only until the first line is read
+            # Decompress only until the first 10 lines are read
             decompressor = bz2.BZ2Decompressor()
             buffer = BytesIO(response.content)
-            line = b""
-            while True:
+            lines = []
+            line_buffer = b""
+            while len(lines) < 10:
                 chunk = buffer.read(1024)
                 if not chunk:
                     break
                 data = decompressor.decompress(chunk)
-                line += data
-                if b"\n" in line:
-                    line = line.split(b"\n", 1)[0]
-                    break
-            # Save the first line to the states file
+                line_buffer += data
+            while b"\n" in line_buffer and len(lines) < 10:
+                line, line_buffer = line_buffer.split(b"\n", 1)
+                lines.append(line)
+            # Save the first 10 lines to the states file
             with open(states_file_path, "wb") as f:
-                f.write(line + b"\n")
+                for line in lines:
+                    f.write(line + b"\n")
+
         else:
             error_log(f"Dataset: {f.replace('.def', '')} || Failed to download states file from {url}", "Error")
 
@@ -406,7 +409,7 @@ def def_dict_update(mol, def_dict, labels_list):
         "Lifetime availability": 0,
         "Lande g-factor availability": 0,
         "Uncertainty availability": 0,
-        "Hyperfine dataset": 0
+        "Hyperfine resolved dataset": 0
     }
 
     keys = list(def_dict.keys())
@@ -420,8 +423,7 @@ def def_dict_update(mol, def_dict, labels_list):
 
     standard_labels = load_standard_labels()
     if labels_list[3] == "F":
-        error_log(f"Dataset: {filename} || Fourth label should be F instead of J.", "Warn")
-        bools['Hyperfine dataset'] = 1
+        bools['Hyperfine resolved dataset'] = 1
     labels = labels_list[4:]
     if "tau" in labels:
         bools["Lifetime availability"] = 1

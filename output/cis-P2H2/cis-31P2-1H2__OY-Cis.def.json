@@ -37,11 +37,12 @@
         "states": {
             "number_of_states": 6009302,
             "max_energy": null,
+            "hyperfine_resolved_dataset": false,
             "uncertainty_description": null,
             "uncertainties_available": false,
             "lifetime_available": false,
             "lande_g_available": false,
-            "num_quanta": 20,
+            "num_quanta": 19,
             "states_file_fields": [
                 {
                     "name": "ID",
@@ -146,12 +147,6 @@
                     "desc": "Vibrational symmetry"
                 },
                 {
-                    "name": "stcs:null",
-                    "ffmt": "I9",
-                    "cfmt": "%9d",
-                    "desc": ""
-                },
-                {
                     "name": "stcs:|Coef|2",
                     "ffmt": "F5.2",
                     "cfmt": "%5.2f",
@@ -159,14 +154,14 @@
                 },
                 {
                     "name": "stcs:n1",
-                    "ffmt": "I6",
-                    "cfmt": "%6d",
+                    "ffmt": "F3.1",
+                    "cfmt": "%3.1f",
                     "desc": ""
                 },
                 {
                     "name": "stcs:n2",
-                    "ffmt": "I3",
-                    "cfmt": "%3d",
+                    "ffmt": "I6",
+                    "cfmt": "%6d",
                     "desc": ""
                 },
                 {

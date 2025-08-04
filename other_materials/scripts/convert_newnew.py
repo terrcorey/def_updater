@@ -172,9 +172,12 @@ def def_to_json(def_file_path, json_file_path):
                 json_dict["dataset"]["states"]["lifetime_available"] = bool(int(line.split('#')[0].strip()))
             elif '# Lande g-factor availability (1=yes, 0=no)' in line:
                 json_dict["dataset"]["states"]["lande_g_available"] = bool(int(line.split('#')[0].strip()))
-            elif '# Hyperfine dataset (1=yes, 0=no)' in line:
+            elif '# Hyperfine resolved dataset (1=yes, 0=no)' in line:
                 if int(line.split('#')[0].strip()) == 1:
+                    json_dict["dataset"]["states"]["hyperfine_resolved_dataset"] = True
                     json_dict["dataset"]["states"]["states_file_fields"][3]['name'] = "F"
+                else:
+                    json_dict["dataset"]["states"]["hyperfine_resolved_dataset"] = False
             elif '# Cooling function availability (1=yes, 0=no)' in line:
                 json_dict["dataset"]["cooling_function_available"] = bool(int(line.split('#')[0].strip()))
             elif '# Specific heat availability (1=yes, 0=no)' in line:
@@ -354,6 +357,7 @@ def def_to_json(def_file_path, json_file_path):
         states_keys_order = [
             "number_of_states",
             "max_energy",
+            "hyperfine_resolved_dataset",
             "uncertainty_description",
             "uncertainties_available",
             "lifetime_available",

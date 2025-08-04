@@ -26,11 +26,11 @@ E                                                                               
 0                                                                               # Lifetime availability (1=yes, 0=no)
 0                                                                               # Lande g-factor availability (1=yes, 0=no)
 0                                                                               # Uncertainty availability (1=yes, 0=no)
-0                                                                               # Hyperfine dataset (1=yes, 0=no)
+0                                                                               # Hyperfine resolved dataset (1=yes, 0=no)
 3311926                                                                         # No. of states in .states file
 1                                                                               # No. of quanta cases
 local                                                                           # Quantum case label
-20                                                                              # No. of quanta defined
+13                                                                              # No. of quanta defined
 Gtot                                                                            # Quantum label 1
 A3 %3s                                                                          # Format quantum label 1
 Total symmetry                                                                  # Description quantum label 1
@@ -67,30 +67,9 @@ Rotational parity                                                               
 Grot                                                                            # Quantum label 12
 A3 %3s                                                                          # Format quantum label 12
 Rotational symmetry                                                             # Description quantum label 12
-null                                                                            # Quantum label 13
-I9 %9d                                                                          # Format quantum label 13
-                                                                                # Description quantum label 13
-|Coef|2                                                                         # Quantum label 14
-F5.2 %5.2f                                                                      # Format quantum label 14
-Square modulus of the coefficient with the largest contribution                 # Description quantum label 14
-n1                                                                              # Quantum label 15
-I6 %6d                                                                          # Format quantum label 15
-[0/3] TROVE quantum number P-F local mode stretch                               # Description quantum label 15
-n2                                                                              # Quantum label 16
-I4 %4d                                                                          # Format quantum label 16
-[0/3] TROVE quantum number P-F local mode stretch                               # Description quantum label 16
-n3                                                                              # Quantum label 17
-I4 %4d                                                                          # Format quantum label 17
-[0/3] TROVE quantum number P-F local mode stretch                               # Description quantum label 17
-n4                                                                              # Quantum label 18
-I4 %4d                                                                          # Format quantum label 18
-[0/7] TROVE quantum number PPF local mode bend                                  # Description quantum label 18
-n5                                                                              # Quantum label 19
-I4 %4d                                                                          # Format quantum label 19
-[0/7] TROVE quantum number PPF local mode bend                                  # Description quantum label 19
-n6                                                                              # Quantum label 20
-I4 %4d                                                                          # Format quantum label 20
-[0/7] TROVE quantum number PPF local mode bend                                  # Description quantum label 20
+|Coef|2                                                                         # Quantum label 13
+F5.2 %5.2f                                                                      # Format quantum label 13
+Square modulus of the coefficient with the largest contribution                 # Description quantum label 13
 68000000000                                                                     # Total number of transitions
 36                                                                              # No. of transition files
 3600.00                                                                         # Maximum wavenumber (in cm-1)

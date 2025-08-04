@@ -28,7 +28,7 @@ B2                                                                              
 0                                                                               # Lifetime availability (1=yes, 0=no)
 0                                                                               # Lande g-factor availability (1=yes, 0=no)
 1                                                                               # Uncertainty availability (1=yes, 0=no)
-0                                                                               # Hyperfine dataset (1=yes, 0=no)
+0                                                                               # Hyperfine resolved dataset (1=yes, 0=no)
 810269                                                                          # No. of states in .states file
 1                                                                               # No. of quanta cases
 nltcs                                                                           # Quantum case label

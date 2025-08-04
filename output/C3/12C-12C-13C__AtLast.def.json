@@ -33,6 +33,7 @@
         "states": {
             "number_of_states": 2442205,
             "max_energy": 16995.777956,
+            "hyperfine_resolved_dataset": false,
             "uncertainty_description": "Calculated energy in cm-1",
             "uncertainties_available": true,
             "lifetime_available": true,

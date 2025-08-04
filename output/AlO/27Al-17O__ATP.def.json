@@ -34,6 +34,7 @@
         "states": {
             "number_of_states": 96350,
             "max_energy": 15000.0,
+            "hyperfine_resolved_dataset": false,
             "uncertainty_description": "Ma=MARVEL,Ca=Calculated,EH=Effective Hamiltonian,IE=Isotopologue extrapolation",
             "uncertainties_available": true,
             "lifetime_available": true,
