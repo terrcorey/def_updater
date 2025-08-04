@@ -33,7 +33,7 @@ nltcs                                                                           
 12                                                                              # No. of quanta defined
 Gtot                                                                            # Quantum label 1
 A3 %3s                                                                          # Format quantum label 1
-Total symmetry                                                                  # Description quantum label 1
+Overall symmetry in Cs(M) (A' or A")                                            # Description quantum label 1
 v1                                                                              # Quantum label 2
 I2 %2d                                                                          # Format quantum label 2
 Symmetric stretching v1 mode vibrational quantum number                         # Description quantum label 2
@@ -48,16 +48,16 @@ I2 %2d                                                                          
 Antisymmetric stretching v3 mode vibrational quantum number                     # Description quantum label 5
 e/f                                                                             # Quantum label 6
 A1 %1s                                                                          # Format quantum label 6
-Rotationless-parity                                                             # Description quantum label 6
+Rotationless parity                                                             # Description quantum label 6
 Gvib                                                                            # Quantum label 7
 A3 %3s                                                                          # Format quantum label 7
-Vibrational symmetry                                                            # Description quantum label 7
+Symmetry of vibrational contribution in Cs(M) (A' or A")                        # Description quantum label 7
 Grot                                                                            # Quantum label 8
 A3 %3s                                                                          # Format quantum label 8
-Rotational symmetry                                                             # Description quantum label 8
+Symmetry of rotational contribution in Cs(M) (A' or A")                         # Description quantum label 8
 Coef                                                                            # Quantum label 9
 F5.2 %5.2f                                                                      # Format quantum label 9
-Coefficient with the largest contribution                                       # Description quantum label 9
+Largest coefficient used in the TROVE vibrational assignment                    # Description quantum label 9
 n1                                                                              # Quantum label 10
 I2 %2d                                                                          # Format quantum label 10
 TROVE vibrational quantum numbers                                               # Description quantum label 10

@@ -35,10 +35,10 @@ nltcs                                                                           
 9                                                                               # No. of quanta defined
 +/-                                                                             # Quantum label 1
 A1 %1s                                                                          # Format quantum label 1
-Total parity: '+' or '-'                                                        # Description quantum label 1
+Total parity                                                                    # Description quantum label 1
 Grve                                                                            # Quantum label 2
 A3 %3s                                                                          # Format quantum label 2
-Rovibrational symmetry                                                          # Description quantum label 2
+C2v symmetry group                                                              # Description quantum label 2
 nblock                                                                          # Quantum label 3
 I2 %2d                                                                          # Format quantum label 3
 Counting number in symmetry block                                               # Description quantum label 3
@@ -56,10 +56,10 @@ I2 %2d                                                                          
 Asymmetrical stretching quantum number                                          # Description quantum label 7
 Ka                                                                              # Quantum label 8
 I2 %2d                                                                          # Format quantum label 8
-Ka rotational quantum number                                                    # Description quantum label 8
+Rotational angular momentum quantum number                                      # Description quantum label 8
 Kc                                                                              # Quantum label 9
 I2 %2d                                                                          # Format quantum label 9
-Kc rotational quantum number                                                    # Description quantum label 9
+Rotational angular momentum quantum number                                      # Description quantum label 9
 SourceType                                                                      # Auxiliary title 1
 A2 %2s                                                                          # Format title 1
 Ma=MARVEL,Ca=Calculated,EH=Effective Hamiltonian,IE=Isotopologue extrapolation  # Description title 1

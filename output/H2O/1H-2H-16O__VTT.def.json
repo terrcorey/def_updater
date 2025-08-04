@@ -76,7 +76,7 @@
                     "name": "nltcs:+/-",
                     "ffmt": "A1",
                     "cfmt": "%1s",
-                    "desc": "Total parity: '+' or '-'"
+                    "desc": "Parity"
                 },
                 {
                     "name": "nltcs:G",

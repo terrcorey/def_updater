@@ -82,13 +82,13 @@
                     "name": "nltcs:+/-",
                     "ffmt": "A1",
                     "cfmt": "%1s",
-                    "desc": "Total parity: '+' or '-'"
+                    "desc": "Total parity"
                 },
                 {
                     "name": "nltcs:Grve",
                     "ffmt": "A3",
                     "cfmt": "%3s",
-                    "desc": "Rovibrational symmetry"
+                    "desc": "C2v symmetry group"
                 },
                 {
                     "name": "nltcs:nblock",
@@ -124,13 +124,13 @@
                     "name": "nltcs:Ka",
                     "ffmt": "I2",
                     "cfmt": "%2d",
-                    "desc": "Ka rotational quantum number"
+                    "desc": "Rotational angular momentum quantum number"
                 },
                 {
                     "name": "nltcs:Kc",
                     "ffmt": "I2",
                     "cfmt": "%2d",
-                    "desc": "Kc rotational quantum number"
+                    "desc": "Rotational angular momentum quantum number"
                 }
             ]
         },

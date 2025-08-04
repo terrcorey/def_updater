@@ -89,7 +89,7 @@
                     "name": "stcs:K",
                     "ffmt": "I3",
                     "cfmt": "%3d",
-                    "desc": "Projection of J onto axis of molecular symmetry"
+                    "desc": "Projection of rotational angular momentum"
                 },
                 {
                     "name": "stcs:Grot",

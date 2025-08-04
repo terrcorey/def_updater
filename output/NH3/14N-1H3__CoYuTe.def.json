@@ -80,13 +80,13 @@
                     "name": "TROVE:+/-",
                     "ffmt": "A1",
                     "cfmt": "%1s",
-                    "desc": "Total parity: '+' or '-'"
+                    "desc": "Parity"
                 },
                 {
                     "name": "TROVE:Gtot",
                     "ffmt": "A3",
                     "cfmt": "%3s",
-                    "desc": "Total symmetry"
+                    "desc": "Total symmetry index in D3h(M)"
                 },
                 {
                     "name": "TROVE:nblock",
@@ -144,9 +144,9 @@
                 },
                 {
                     "name": "TROVE:K",
-                    "ffmt": "I3",
-                    "cfmt": "%3d",
-                    "desc": "Projection of J onto axis of molecular symmetry"
+                    "ffmt": "I2",
+                    "cfmt": "%2d",
+                    "desc": "Projection of J on axis of molecular symmetry"
                 },
                 {
                     "name": "TROVE:rotpar",
@@ -194,7 +194,7 @@
                     "name": "TROVE:Gvib",
                     "ffmt": "A3",
                     "cfmt": "%3s",
-                    "desc": "Vibrational symmetry"
+                    "desc": "D3h(M) vibrational symmetry (local mode)"
                 }
             ]
         },

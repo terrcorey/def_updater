@@ -85,20 +85,20 @@
                 },
                 {
                     "name": "hunda:e/f",
-                    "ffmt": "A1",
-                    "cfmt": "%1s",
+                    "ffmt": "A3",
+                    "cfmt": "%3s",
                     "desc": "Rotationless-parity"
                 },
                 {
                     "name": "hunda:ElecState",
-                    "ffmt": "A12",
-                    "cfmt": "%12s",
-                    "desc": "Electronic state"
+                    "ffmt": "A11",
+                    "cfmt": "%11s",
+                    "desc": "Notation of the electronic state"
                 },
                 {
                     "name": "hunda:v",
-                    "ffmt": "I3",
-                    "cfmt": "%3d",
+                    "ffmt": "I10",
+                    "cfmt": "%10d",
                     "desc": "State vibrational quantum number"
                 },
                 {

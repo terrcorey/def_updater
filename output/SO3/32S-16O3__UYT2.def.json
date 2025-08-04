@@ -83,7 +83,7 @@
                     "name": "stcs:K",
                     "ffmt": "I3",
                     "cfmt": "%3d",
-                    "desc": "Projection of J onto axis of molecular symmetry"
+                    "desc": "Projection of J on to the z-axis"
                 },
                 {
                     "name": "stcs:Grot",

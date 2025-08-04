@@ -85,7 +85,7 @@
                     "name": "TROVE:Gtot",
                     "ffmt": "A3",
                     "cfmt": "%3s",
-                    "desc": "Total symmetry"
+                    "desc": "[1/4] Total symmetry in C_2v_(M), Gamma = A_1_,A_2_,B_1_,B_2_"
                 },
                 {
                     "name": "TROVE:v1",
@@ -127,13 +127,13 @@
                     "name": "TROVE:Gvib",
                     "ffmt": "A3",
                     "cfmt": "%3s",
-                    "desc": "Vibrational symmetry"
+                    "desc": "C_2v_(M) vi. symmetry Gamma(v) (local mode)"
                 },
                 {
                     "name": "TROVE:Ka",
                     "ffmt": "I2",
                     "cfmt": "%2d",
-                    "desc": "Ka rotational quantum number"
+                    "desc": "Rotational Ka quantum number"
                 },
                 {
                     "name": "TROVE:Kb",
@@ -145,7 +145,7 @@
                     "name": "TROVE:Grot",
                     "ffmt": "A3",
                     "cfmt": "%3s",
-                    "desc": "Rotational symmetry"
+                    "desc": "C_2v_(M) rot. symmetry Gamma(v) (local mode)"
                 },
                 {
                     "name": "TROVE:|Coef|2",

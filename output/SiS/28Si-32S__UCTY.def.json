@@ -74,8 +74,8 @@
                 },
                 {
                     "name": "dcs:v",
-                    "ffmt": "I3",
-                    "cfmt": "%3d",
+                    "ffmt": "I5",
+                    "cfmt": "%4d",
                     "desc": "State vibrational quantum number"
                 }
             ]

@@ -85,15 +85,15 @@
                 },
                 {
                     "name": "hund:e/f",
-                    "ffmt": "A1",
-                    "cfmt": "%1s",
+                    "ffmt": "A3",
+                    "cfmt": "%3s",
                     "desc": "Rotationless-parity"
                 },
                 {
                     "name": "hund:ElecState",
                     "ffmt": "A12",
                     "cfmt": "%12s",
-                    "desc": "Electronic state"
+                    "desc": "Electromic state"
                 }
             ]
         },

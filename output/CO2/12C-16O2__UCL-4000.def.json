@@ -84,7 +84,7 @@
                     "name": "TROVE:e/f",
                     "ffmt": "A1",
                     "cfmt": "%1s",
-                    "desc": "Rotationless-parity"
+                    "desc": "e/f parity"
                 },
                 {
                     "name": "TROVE:n1",
@@ -102,7 +102,7 @@
                     "name": "TROVE:l2",
                     "ffmt": "I2",
                     "cfmt": " %2d",
-                    "desc": "Normal mode vibrational angular momentum QN"
+                    "desc": "Vibrational bending QN"
                 },
                 {
                     "name": "TROVE:n3",
@@ -113,8 +113,8 @@
                 {
                     "name": "TROVE:Coef",
                     "ffmt": "F5.2",
-                    "cfmt": "%5.2f",
-                    "desc": "Coefficient with the largest contribution"
+                    "cfmt": " %5.2f",
+                    "desc": "Coefficient with the largest contribution to the (J = 0) contracted set"
                 },
                 {
                     "name": "TROVE:m1",

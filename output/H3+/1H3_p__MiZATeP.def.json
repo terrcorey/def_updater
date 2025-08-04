@@ -83,14 +83,14 @@
                 {
                     "name": "stcs:e/f",
                     "ffmt": "A1",
-                    "cfmt": "%1s",
-                    "desc": "Rotationless-parity"
+                    "cfmt": " %1s",
+                    "desc": "e/f state parity"
                 },
                 {
                     "name": "stcs:Grve",
                     "ffmt": "A3",
                     "cfmt": "%3s",
-                    "desc": "Rovibrational symmetry"
+                    "desc": "The total symmetry (D3h); un for undefined"
                 },
                 {
                     "name": "stcs:nblock",
@@ -136,9 +136,9 @@
                 },
                 {
                     "name": "stcs:K",
-                    "ffmt": "I3",
-                    "cfmt": "%3d",
-                    "desc": "Projection of J onto axis of molecular symmetry"
+                    "ffmt": "I2",
+                    "cfmt": "%2d",
+                    "desc": "Absolute value of the projection of J on the C3 axis; -1 if not present"
                 }
             ]
         },

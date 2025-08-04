@@ -116,9 +116,9 @@
                 },
                 {
                     "name": "TROVE:Gvib",
-                    "ffmt": "A3",
-                    "cfmt": "%3s",
-                    "desc": "Vibrational symmetry"
+                    "ffmt": "I4",
+                    "cfmt": "%4d",
+                    "desc": "Vibrational symmtery index in C3v(M)"
                 },
                 {
                     "name": "TROVE:J",
@@ -129,7 +129,7 @@
                 {
                     "name": "TROVE:K",
                     "ffmt": "I3",
-                    "cfmt": "%3d",
+                    "cfmt": "%d3",
                     "desc": "Projection of J onto axis of molecular symmetry"
                 },
                 {
@@ -140,9 +140,9 @@
                 },
                 {
                     "name": "TROVE:Grot",
-                    "ffmt": "A3",
-                    "cfmt": "%3s",
-                    "desc": "Rotational symmetry"
+                    "ffmt": "I3",
+                    "cfmt": "%d3",
+                    "desc": "Rotational symmetry index in C3v(M)"
                 },
                 {
                     "name": "TROVE:|Coef|2",

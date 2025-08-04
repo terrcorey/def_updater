@@ -134,7 +134,7 @@
                     "name": "TROVE:K",
                     "ffmt": "I3",
                     "cfmt": "%3d",
-                    "desc": "Projection of J onto axis of molecular symmetry"
+                    "desc": "Projection of J on axis of molecular symmetry"
                 },
                 {
                     "name": "TROVE:rotpar",

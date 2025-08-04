@@ -86,7 +86,7 @@
                     "name": "TROVE:Gtot",
                     "ffmt": "A3",
                     "cfmt": "%3s",
-                    "desc": "Total symmetry"
+                    "desc": "Total symmetry index in D3h(M)"
                 },
                 {
                     "name": "TROVE:n1",
@@ -128,19 +128,19 @@
                     "name": "TROVE:Gvib",
                     "ffmt": "A3",
                     "cfmt": "%3s",
-                    "desc": "Vibrational symmetry"
+                    "desc": "D3h(M) vibrational symmetry (local mode)"
                 },
                 {
                     "name": "TROVE:K",
-                    "ffmt": "I3",
-                    "cfmt": "%3d",
-                    "desc": "Projection of J onto axis of molecular symmetry"
+                    "ffmt": "I2",
+                    "cfmt": "%2d",
+                    "desc": "Projection of J on axis of molecular symmetry"
                 },
                 {
                     "name": "TROVE:Grot",
                     "ffmt": "A3",
                     "cfmt": "%3s",
-                    "desc": "Rotational symmetry"
+                    "desc": "D3h(M) rotational symmetry"
                 },
                 {
                     "name": "TROVE:ivib",

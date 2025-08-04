@@ -40,7 +40,7 @@ A3 %3s                                                                          
 Total symmetry                                                                  # Description quantum label 1
 e/f                                                                             # Quantum label 2
 A1 %1s                                                                          # Format quantum label 2
-Rotationless-parity                                                             # Description quantum label 2
+e/f parity                                                                      # Description quantum label 2
 n1                                                                              # Quantum label 3
 I2  %2d                                                                         # Format quantum label 3
 Normal mode stretching symmetry QN                                              # Description quantum label 3
@@ -49,13 +49,13 @@ I2  %2d                                                                         
 Normal mode linear molecule bending QN                                          # Description quantum label 4
 l2                                                                              # Quantum label 5
 I2  %2d                                                                         # Format quantum label 5
-Normal mode vibrational angular momentum QN                                     # Description quantum label 5
+Vibrational bending QN                                                          # Description quantum label 5
 n3                                                                              # Quantum label 6
 I2  %2d                                                                         # Format quantum label 6
 Normal mode stretching asymmetric QN                                            # Description quantum label 6
 Coef                                                                            # Quantum label 7
-F5.2 %5.2f                                                                      # Format quantum label 7
-Coefficient with the largest contribution                                       # Description quantum label 7
+F5.2  %5.2f                                                                     # Format quantum label 7
+Coefficient with the largest contribution to the (J = 0) contracted set         # Description quantum label 7
 m1                                                                              # Quantum label 8
 I2  %2d                                                                         # Format quantum label 8
 Symmetric vibrational Fermi-resonance group QN (-1=not available)               # Description quantum label 8

@@ -77,7 +77,7 @@
                     "name": "TROVE:Gtot",
                     "ffmt": "A3",
                     "cfmt": "%3s",
-                    "desc": "Total symmetry"
+                    "desc": "Symmetry"
                 },
                 {
                     "name": "TROVE:v1",
@@ -107,7 +107,7 @@
                     "name": "TROVE:Coef",
                     "ffmt": "F5.2",
                     "cfmt": "%5.2f",
-                    "desc": "Coefficient with the largest contribution"
+                    "desc": "Conribution coefficient"
                 },
                 {
                     "name": "TROVE:n1",

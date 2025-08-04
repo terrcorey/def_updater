@@ -218,10 +218,6 @@ def def_to_json(def_file_path, json_file_path):
             elif '# Quantum label' in line:
                 quantum_label = line.split('#')[0].strip()
                 # print(quantum_label)
-                if quantum_label in ["eS", "State", "electstate"]:
-                    quantum_label = "electronic_state"
-                if quantum_label in ["Ci", "W", "C"]:
-                    quantum_label = "Coef"
                 format_quantum_label = next(line_iter, None)
                 if format_quantum_label is not None:
                     if '# Format quantum' in format_quantum_label:

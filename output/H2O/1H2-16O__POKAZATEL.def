@@ -50,7 +50,7 @@ I2 %2d                                                                          
 v3 asymmetrics stretch quantum number                                           # Description quantum label 5
 Grve                                                                            # Quantum label 6
 A3 %3s                                                                          # Format quantum label 6
-Rovibrational symmetry                                                          # Description quantum label 6
+Rovibrational symmetry label                                                    # Description quantum label 6
 Ecal                                                                            # Auxiliary title 1
 F12.6 %12.6f                                                                    # Format title 1
 Calculated energy in cm-1                                                       # Description title 1

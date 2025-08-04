@@ -31,10 +31,10 @@ dcs                                                                             
 7                                                                               # No. of quanta defined
 +/-                                                                             # Quantum label 1
 A1 %1s                                                                          # Format quantum label 1
-Total parity: '+' or '-'                                                        # Description quantum label 1
+Total parity                                                                    # Description quantum label 1
 e/f                                                                             # Quantum label 2
 A1 %1s                                                                          # Format quantum label 2
-Rotationless-parity                                                             # Description quantum label 2
+Rotationless parity                                                             # Description quantum label 2
 ElecState                                                                       # Quantum label 3
 A12 %12s                                                                        # Format quantum label 3
 Electronic state                                                                # Description quantum label 3
@@ -43,13 +43,13 @@ I3 %3d                                                                          
 State vibrational quantum number                                                # Description quantum label 4
 Lambda                                                                          # Quantum label 5
 I3 %3d                                                                          # Format quantum label 5
-Projection of electronic angular momentum                                       # Description quantum label 5
+Projection of the electronic angular momentum                                   # Description quantum label 5
 Sigma                                                                           # Quantum label 6
-I5 %5d                                                                          # Format quantum label 6
+F5.1 %5.1f                                                                      # Format quantum label 6
 Projection of the electronic spin                                               # Description quantum label 6
 Omega                                                                           # Quantum label 7
-I5 %5d                                                                          # Format quantum label 7
-Omega = Lambda + Sigma, projection of total angular momentum                    # Description quantum label 7
+F5.1 %5.1f                                                                      # Format quantum label 7
+Projection of the total angular momentum, Omega = Lambda + Sigma                # Description quantum label 7
 SourceType                                                                      # Auxiliary title 1
 A2 %2s                                                                          # Format title 1
 Ma=MARVEL,Ca=Calculated,EH=Effective Hamiltonian,IE=Isotopologue extrapolation  # Description title 1

@@ -30,7 +30,7 @@ Sigma-                                                                          
 hundb                                                                           # Quantum case label
 2                                                                               # No. of quanta defined
 v                                                                               # Quantum label 1
-I3 %3d                                                                          # Format quantum label 1
+I4 %4d                                                                          # Format quantum label 1
 State vibrational quantum number                                                # Description quantum label 1
 e/f                                                                             # Quantum label 2
 A1 %1s                                                                          # Format quantum label 2

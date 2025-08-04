@@ -32,7 +32,7 @@ nltcs                                                                           
 11                                                                              # No. of quanta defined
 Gtot                                                                            # Quantum label 1
 A3 %3s                                                                          # Format quantum label 1
-Total symmetry                                                                  # Description quantum label 1
+Total symmetry index in Cs(M)                                                   # Description quantum label 1
 n1                                                                              # Quantum label 2
 I2 %2d                                                                          # Format quantum label 2
 Normal mode stretching N-N quantum number                                       # Description quantum label 2
@@ -47,7 +47,7 @@ I2 %2d                                                                          
 Normal mode stretching N-O quantum number                                       # Description quantum label 5
 P                                                                               # Quantum label 6
 I2 %2d                                                                          # Format quantum label 6
-Polyad number                                                                   # Description quantum label 6
+Polyad number P = 2n1 + nlin + 4n3                                              # Description quantum label 6
 Pnum                                                                            # Quantum label 7
 I3 %3d                                                                          # Format quantum label 7
 Polyad counting number                                                          # Description quantum label 7

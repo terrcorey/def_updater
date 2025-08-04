@@ -108,7 +108,7 @@
                     "name": "nltcs:Grve",
                     "ffmt": "A3",
                     "cfmt": "%3s",
-                    "desc": "Rovibrational symmetry"
+                    "desc": "Rovibrational symmetry label"
                 }
             ]
         },

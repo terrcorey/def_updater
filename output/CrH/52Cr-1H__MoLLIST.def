@@ -30,7 +30,7 @@ Sigma-                                                                          
 hands                                                                           # Quantum case label
 4                                                                               # No. of quanta defined
 v                                                                               # Quantum label 1
-I3 %3d                                                                          # Format quantum label 1
+I4 %4d                                                                          # Format quantum label 1
 State vibrational quantum number                                                # Description quantum label 1
 s                                                                               # Quantum label 2
 I4 %4d                                                                          # Format quantum label 2
@@ -40,7 +40,7 @@ A1 %1s                                                                          
 Rotationless-parity                                                             # Description quantum label 3
 ElecState                                                                       # Quantum label 4
 A12 %12s                                                                        # Format quantum label 4
-Electronic state                                                                # Description quantum label 4
+electronic state                                                                # Description quantum label 4
 13824                                                                           # Total number of transitions
 1                                                                               # No. of transition files
 15000.00                                                                        # Maximum wavenumber (in cm-1)

@@ -468,9 +468,17 @@ def def_dict_update(mol, def_dict, labels_list):
     if not old_labels:
         error_log(f"Dataset: {filename} || No quantum labels found in definition file.", "Critical")
         exit_script()
+    fname = def_dict["Iso-slug"] + "__" + def_dict["Isotopologue dataset name"] + ".states"
+    states_file_path = os.path.join(".", "input", mol, fname)
+
+    # Build lookup dicts for old and standard labels for O(1) access
+    old_label_map = {d["Quantum label"]: d for d in old_labels}
+    standard_label_map = {d["Quantum label"]: d for d in standard_labels}
+
     for i, label in enumerate(new_labels):
-        fname = def_dict["Iso-slug"] + "__" + def_dict["Isotopologue dataset name"] + ".states"
-        states_file_path = os.path.join(".", "input", mol, fname)
+        correction_dict = load_correction_dict()
+        if label in list(correction_dict.keys()):
+            label = correction_dict[label]
         if label == "J":
             J_cfmt, J_ffmt = check_J_format(states_file_path)
             fmt = " ".join([J_ffmt, J_cfmt])
@@ -480,22 +488,20 @@ def def_dict_update(mol, def_dict, labels_list):
                 "Description quantum label": "Total rotational quantum number"
             }
             continue
-        for dict in old_labels:
-            if dict["Quantum label"] == label:
-                new_labels[i] = dict
-                break
-        for dict in standard_labels:
-            if dict["Quantum label"] == label:
-                new_labels[i] = dict
-                break
-        if isinstance(new_labels[i], str):
-            dict = {
+
+        # Try old labels, then standard labels, else fallback
+        if label in old_label_map:
+            new_labels[i] = old_label_map[label]
+        elif label in standard_label_map:
+            new_labels[i] = standard_label_map[label]
+        elif isinstance(new_labels[i], str):
+            new_labels[i] = {
                 "Quantum label": label,
                 "Format quantum label": detect_format(states_file_path, i),
                 "Description quantum label": ""
             }
-            new_labels[i] = dict
             error_log(f"Dataset: {filename} || Quantum label '{label}' not found in old labels. Please input the description manually.")
+
 
     def_dict["Quantum labels"] = new_labels
     def_dict["No. of quanta defined"] = len(new_labels)

@@ -33,7 +33,7 @@ ltcs                                                                            
 7                                                                               # No. of quanta defined
 +/-                                                                             # Quantum label 1
 A1 %1s                                                                          # Format quantum label 1
-Total parity: '+' or '-'                                                        # Description quantum label 1
+Parity                                                                          # Description quantum label 1
 kp                                                                              # Quantum label 2
 A1 %1s                                                                          # Format quantum label 2
 Kronig rotationless parity                                                      # Description quantum label 2

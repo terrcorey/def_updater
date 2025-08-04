@@ -33,7 +33,7 @@ hunda                                                                           
 7                                                                               # No. of quanta defined
 +/-                                                                             # Quantum label 1
 A1 %1s                                                                          # Format quantum label 1
-Total parity: '+' or '-'                                                        # Description quantum label 1
+Total parity                                                                    # Description quantum label 1
 e/f                                                                             # Quantum label 2
 A1 %1s                                                                          # Format quantum label 2
 Rotationless-parity                                                             # Description quantum label 2

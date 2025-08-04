@@ -36,11 +36,11 @@ v                                                                               
 I3 %3d                                                                          # Format quantum label 2
 State vibrational quantum number                                                # Description quantum label 2
 e/f                                                                             # Quantum label 3
-A1 %1s                                                                          # Format quantum label 3
+A3 %3s                                                                          # Format quantum label 3
 Rotationless-parity                                                             # Description quantum label 3
 ElecState                                                                       # Quantum label 4
 A12 %12s                                                                        # Format quantum label 4
-Electronic state                                                                # Description quantum label 4
+Electromic state                                                                # Description quantum label 4
 51349                                                                           # Total number of transitions
 1                                                                               # No. of transition files
 39061.972053                                                                    # Maximum wavenumber (in cm-1)

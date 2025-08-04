@@ -32,7 +32,7 @@ hunda                                                                           
 7                                                                               # No. of quanta defined
 +/-                                                                             # Quantum label 1
 A1 %1s                                                                          # Format quantum label 1
-Total parity: '+' or '-'                                                        # Description quantum label 1
+Parity                                                                          # Description quantum label 1
 e/f                                                                             # Quantum label 2
 A1 %1s                                                                          # Format quantum label 2
 Rotationless-parity                                                             # Description quantum label 2
@@ -44,13 +44,13 @@ I3 %3d                                                                          
 State vibrational quantum number                                                # Description quantum label 4
 Lambda                                                                          # Quantum label 5
 I3 %3d                                                                          # Format quantum label 5
-Projection of electronic angular momentum                                       # Description quantum label 5
+Projection of the electronic angular momentum                                   # Description quantum label 5
 Sigma                                                                           # Quantum label 6
 I5 %5d                                                                          # Format quantum label 6
 Projection of the electronic spin                                               # Description quantum label 6
 Omega                                                                           # Quantum label 7
 I5 %5d                                                                          # Format quantum label 7
-Omega = Lambda + Sigma, projection of total angular momentum                    # Description quantum label 7
+Projection of the total angular momentum, Omega = Lambda + Sigma                # Description quantum label 7
 5748704                                                                         # Total number of transitions
 1                                                                               # No. of transition files
 48000.000000                                                                    # Maximum wavenumber (in cm-1)

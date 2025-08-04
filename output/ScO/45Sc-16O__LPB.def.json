@@ -75,13 +75,13 @@
                     "name": "dcs:e/f",
                     "ffmt": "A1",
                     "cfmt": "%1s",
-                    "desc": "Rotationless-parity"
+                    "desc": "Rotationless parity without nuclear spin"
                 },
                 {
                     "name": "dcs:ElecState",
                     "ffmt": "A12",
                     "cfmt": "%12s",
-                    "desc": "Electronic state"
+                    "desc": "Electronic states"
                 },
                 {
                     "name": "dcs:v",
@@ -103,9 +103,9 @@
                 },
                 {
                     "name": "dcs:F_i",
-                    "ffmt": "I5",
-                    "cfmt": "%5d",
-                    "desc": ""
+                    "ffmt": "A4",
+                    "cfmt": "%4s",
+                    "desc": "Spin component"
                 },
                 {
                     "name": "dcs:J_par",

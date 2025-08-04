@@ -38,7 +38,7 @@ TROVE                                                                           
 18                                                                              # No. of quanta defined
 Gtot                                                                            # Quantum label 1
 A3 %3s                                                                          # Format quantum label 1
-Total symmetry                                                                  # Description quantum label 1
+[1/4] Total symmetry in C_2v_(M), Gamma = A_1_,A_2_,B_1_,B_2_                   # Description quantum label 1
 v1                                                                              # Quantum label 2
 I2 %2d                                                                          # Format quantum label 2
 v1 symmetric C-H normal mode QN                                                 # Description quantum label 2
@@ -59,16 +59,16 @@ I2 %2d                                                                          
 v6 asymmetric bend OCH normal mode QN                                           # Description quantum label 7
 Gvib                                                                            # Quantum label 8
 A3 %3s                                                                          # Format quantum label 8
-Vibrational symmetry                                                            # Description quantum label 8
+C_2v_(M) vi. symmetry Gamma(v) (local mode)                                     # Description quantum label 8
 Ka                                                                              # Quantum label 9
 I2 %2d                                                                          # Format quantum label 9
-Ka rotational quantum number                                                    # Description quantum label 9
+Rotational Ka quantum number                                                    # Description quantum label 9
 Kb                                                                              # Quantum label 10
 I2 %2d                                                                          # Format quantum label 10
 Rotational Kb quantum number                                                    # Description quantum label 10
 Grot                                                                            # Quantum label 11
 A3 %3s                                                                          # Format quantum label 11
-Rotational symmetry                                                             # Description quantum label 11
+C_2v_(M) rot. symmetry Gamma(v) (local mode)                                    # Description quantum label 11
 |Coef|2                                                                         # Quantum label 12
 F5.2 %5.2f                                                                      # Format quantum label 12
 Square modulus of the coefficient with the largest contribution                 # Description quantum label 12

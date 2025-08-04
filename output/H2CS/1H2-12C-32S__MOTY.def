@@ -38,7 +38,7 @@ TROVE                                                                           
 19                                                                              # No. of quanta defined
 Gtot                                                                            # Quantum label 1
 A3 %3s                                                                          # Format quantum label 1
-Total symmetry                                                                  # Description quantum label 1
+[1/4] Total symmetry in C_2v_(M), Gamma = A_1_,A_2_,B_1_,B_2_                   # Description quantum label 1
 v1                                                                              # Quantum label 2
 I2 %2d                                                                          # Format quantum label 2
 normal mode symmetric CH stretch quantum number                                 # Description quantum label 2
@@ -59,22 +59,22 @@ I2 %2d                                                                          
 normal mode asymm HCS bend quantum number                                       # Description quantum label 7
 Gvib                                                                            # Quantum label 8
 A3 %3s                                                                          # Format quantum label 8
-Vibrational symmetry                                                            # Description quantum label 8
+Symmetry of vibrational contribution C_2v_(M) Gamma(v) (local mode)             # Description quantum label 8
 J                                                                               # Quantum label 9
 I7 %7d                                                                          # Format quantum label 9
 Total rotational quantum number                                                 # Description quantum label 9
 Ka                                                                              # Quantum label 10
 I2 %2d                                                                          # Format quantum label 10
-Ka rotational quantum number                                                    # Description quantum label 10
+Projection of J on axis of molec. symmetry                                      # Description quantum label 10
 Kc                                                                              # Quantum label 11
 I2 %2d                                                                          # Format quantum label 11
-Kc rotational quantum number                                                    # Description quantum label 11
+Projection of J rotational quantum number Kc                                    # Description quantum label 11
 ivib                                                                            # Quantum label 12
-I2 %2d                                                                          # Format quantum label 12
-Index in vibrational symmetry block                                             # Description quantum label 12
+I4 %4d                                                                          # Format quantum label 12
+TROVE vibrational state ID                                                      # Description quantum label 12
 Coef                                                                            # Quantum label 13
 F5.2 %5.2f                                                                      # Format quantum label 13
-Coefficient with the largest contribution                                       # Description quantum label 13
+Square of the largest coefficient                                               # Description quantum label 13
 n1                                                                              # Quantum label 14
 I2 %2d                                                                          # Format quantum label 14
 Local mode vibrational quantum number                                           # Description quantum label 14

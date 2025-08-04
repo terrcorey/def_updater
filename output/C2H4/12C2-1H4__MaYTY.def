@@ -87,8 +87,8 @@ J                                                                               
 I7 %7d                                                                          # Format quantum label 15
 Total rotational quantum number                                                 # Description quantum label 15
 K                                                                               # Quantum label 16
-I3 %3d                                                                          # Format quantum label 16
-Projection of J onto axis of molecular symmetry                                 # Description quantum label 16
+I4 %4d                                                                          # Format quantum label 16
+[0/78] Projection of J on axis of molec. symmetry                               # Description quantum label 16
 rotpar                                                                          # Quantum label 17
 I1 %1d                                                                          # Format quantum label 17
 Rotational parity                                                               # Description quantum label 17

@@ -36,7 +36,7 @@ A3 %3s                                                                          
 Total symmetry                                                                  # Description quantum label 1
 K                                                                               # Quantum label 2
 I3 %3d                                                                          # Format quantum label 2
-Projection of J onto axis of molecular symmetry                                 # Description quantum label 2
+Projection of J on to the z-axis                                                # Description quantum label 2
 Grot                                                                            # Quantum label 3
 A3 %3s                                                                          # Format quantum label 3
 Rotational symmetry                                                             # Description quantum label 3

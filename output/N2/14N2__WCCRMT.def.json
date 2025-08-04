@@ -76,13 +76,13 @@
                     "name": "hunda:+/-",
                     "ffmt": "A1",
                     "cfmt": "%1s",
-                    "desc": "Total parity: '+' or '-'"
+                    "desc": "Parity of states"
                 },
                 {
                     "name": "hunda:e/f",
                     "ffmt": "A1",
                     "cfmt": "%1s",
-                    "desc": "Rotationless-parity"
+                    "desc": "Rotationless parity"
                 },
                 {
                     "name": "hunda:g/u",
@@ -93,20 +93,20 @@
                 {
                     "name": "hunda:ElecState",
                     "ffmt": "A12",
-                    "cfmt": "%12s",
-                    "desc": "Electronic state"
+                    "cfmt": " %12s",
+                    "desc": ""
                 },
                 {
                     "name": "hunda:v",
                     "ffmt": "I3",
                     "cfmt": "%3d",
-                    "desc": "State vibrational quantum number"
+                    "desc": "['Electronic states', 'State vibrational quantum number']"
                 },
                 {
                     "name": "hunda:F",
-                    "ffmt": "I3",
-                    "cfmt": "%3d",
-                    "desc": "Final angular momentum"
+                    "ffmt": "A2",
+                    "cfmt": "%2s",
+                    "desc": "F1/2/3 quantum number"
                 },
                 {
                     "name": "hunda:N",

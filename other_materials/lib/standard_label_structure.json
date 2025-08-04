@@ -153,5 +153,10 @@
         "Quantum label": "EnergyID",
         "Format quantum label": "I5 %5d",
         "Description quantum label": "Counting number according to state energy"
+    },
+    {
+        "Quantum label": "F_i",
+        "Format quantum label": "A4 %4s",
+        "Description quantum label": "Spin component"
     }
 ]

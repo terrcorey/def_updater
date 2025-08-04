@@ -79,21 +79,21 @@
                 },
                 {
                     "name": "dcs:v",
-                    "ffmt": "I3",
-                    "cfmt": "%3d",
+                    "ffmt": "I6",
+                    "cfmt": "%6d",
                     "desc": "State vibrational quantum number"
                 },
                 {
                     "name": "dcs:F",
                     "ffmt": "I3",
                     "cfmt": "%3d",
-                    "desc": "Final angular momentum"
+                    "desc": "F1/F2/F3 spin component"
                 },
                 {
                     "name": "dcs:e/f",
-                    "ffmt": "A1",
-                    "cfmt": "%1s",
-                    "desc": "Rotationless-parity"
+                    "ffmt": "A3",
+                    "cfmt": "%3s",
+                    "desc": "Rotationless parity"
                 }
             ]
         },

@@ -88,19 +88,19 @@
                     "name": "dcs:+/-",
                     "ffmt": "A1",
                     "cfmt": "%1s",
-                    "desc": "Total parity: '+' or '-'"
+                    "desc": "Total parity"
                 },
                 {
                     "name": "dcs:e/f",
                     "ffmt": "A1",
                     "cfmt": "%1s",
-                    "desc": "Rotationless-parity"
+                    "desc": "Rotationless parity"
                 },
                 {
                     "name": "dcs:ElecState",
                     "ffmt": "A12",
                     "cfmt": "%12s",
-                    "desc": "Electronic state"
+                    "desc": "Electronic states"
                 },
                 {
                     "name": "dcs:v",
@@ -112,7 +112,7 @@
                     "name": "dcs:Lambda",
                     "ffmt": "I3",
                     "cfmt": "%3d",
-                    "desc": "Projection of electronic angular momentum"
+                    "desc": "Electronic orbital angular momentum projection along internuclear axis"
                 },
                 {
                     "name": "dcs:N",
@@ -122,9 +122,9 @@
                 },
                 {
                     "name": "dcs:F",
-                    "ffmt": "I3",
-                    "cfmt": "%3d",
-                    "desc": "Final angular momentum"
+                    "ffmt": "I2",
+                    "cfmt": "%2d",
+                    "desc": "Fine structure counting number"
                 }
             ]
         },

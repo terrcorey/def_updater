@@ -149,9 +149,9 @@
                 },
                 {
                     "name": "sphcs:K",
-                    "ffmt": "I3",
-                    "cfmt": "%3d",
-                    "desc": "Projection of J onto axis of molecular symmetry"
+                    "ffmt": "I4",
+                    "cfmt": "%4d",
+                    "desc": "[0/39] Projection of J on axis of molec. symmetry"
                 },
                 {
                     "name": "sphcs:rotpar",

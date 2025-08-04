@@ -82,9 +82,9 @@
                 },
                 {
                     "name": "nltcs:e/f",
-                    "ffmt": "A1",
+                    "ffmt": "a1",
                     "cfmt": "%1s",
-                    "desc": "Rotationless-parity"
+                    "desc": "Kronig parity e/f"
                 },
                 {
                     "name": "nltcs:v1",

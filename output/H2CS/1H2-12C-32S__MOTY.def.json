@@ -79,7 +79,7 @@
                     "name": "TROVE:Gtot",
                     "ffmt": "A3",
                     "cfmt": "%3s",
-                    "desc": "Total symmetry"
+                    "desc": "[1/4] Total symmetry in C_2v_(M), Gamma = A_1_,A_2_,B_1_,B_2_"
                 },
                 {
                     "name": "TROVE:v1",
@@ -121,7 +121,7 @@
                     "name": "TROVE:Gvib",
                     "ffmt": "A3",
                     "cfmt": "%3s",
-                    "desc": "Vibrational symmetry"
+                    "desc": "Symmetry of vibrational contribution C_2v_(M) Gamma(v) (local mode)"
                 },
                 {
                     "name": "TROVE:J",
@@ -133,25 +133,25 @@
                     "name": "TROVE:Ka",
                     "ffmt": "I2",
                     "cfmt": "%2d",
-                    "desc": "Ka rotational quantum number"
+                    "desc": "Projection of J on axis of molec. symmetry"
                 },
                 {
                     "name": "TROVE:Kc",
                     "ffmt": "I2",
                     "cfmt": "%2d",
-                    "desc": "Kc rotational quantum number"
+                    "desc": "Projection of J rotational quantum number Kc"
                 },
                 {
                     "name": "TROVE:ivib",
-                    "ffmt": "I2",
-                    "cfmt": "%2d",
-                    "desc": "Index in vibrational symmetry block"
+                    "ffmt": "I4",
+                    "cfmt": "%4d",
+                    "desc": "TROVE vibrational state ID"
                 },
                 {
                     "name": "TROVE:Coef",
                     "ffmt": "F5.2",
                     "cfmt": "%5.2f",
-                    "desc": "Coefficient with the largest contribution"
+                    "desc": "Square of the largest coefficient"
                 },
                 {
                     "name": "TROVE:n1",

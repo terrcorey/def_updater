@@ -82,7 +82,7 @@
                     "name": "hundb:+/-",
                     "ffmt": "A1",
                     "cfmt": "%1s",
-                    "desc": "Total parity: '+' or '-'"
+                    "desc": "Parity"
                 },
                 {
                     "name": "hundb:e/f",
@@ -92,9 +92,9 @@
                 },
                 {
                     "name": "hundb:ElecState",
-                    "ffmt": "A12",
-                    "cfmt": "%12s",
-                    "desc": "Electronic state"
+                    "ffmt": "A3",
+                    "cfmt": "%3s",
+                    "desc": "Notation of the electronic state"
                 },
                 {
                     "name": "hundb:v",

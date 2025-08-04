@@ -36,13 +36,13 @@ N                                                                               
 I6 %6d                                                                          # Format quantum label 2
 Rotational angular momentum                                                     # Description quantum label 2
 e/f                                                                             # Quantum label 3
-A1 %1s                                                                          # Format quantum label 3
+A3 %3s                                                                          # Format quantum label 3
 Rotationless-parity                                                             # Description quantum label 3
 ElecState                                                                       # Quantum label 4
-A12 %12s                                                                        # Format quantum label 4
-Electronic state                                                                # Description quantum label 4
+A11 %11s                                                                        # Format quantum label 4
+Notation of the electronic state                                                # Description quantum label 4
 v                                                                               # Quantum label 5
-I3 %3d                                                                          # Format quantum label 5
+I10 %10d                                                                        # Format quantum label 5
 State vibrational quantum number                                                # Description quantum label 5
 F_i                                                                             # Quantum label 6
 A4 %4s                                                                          # Format quantum label 6
