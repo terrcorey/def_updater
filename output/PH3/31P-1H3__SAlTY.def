@@ -40,9 +40,9 @@ Projection of rotational angular momentum                                       
 Grot                                                                            # Quantum label 3
 A3 %3s                                                                          # Format quantum label 3
 Rotational symmetry                                                             # Description quantum label 3
-l                                                                               # Quantum label 4
-I5 %5d                                                                          # Format quantum label 4
-                                                                                # Description quantum label 4
+L                                                                               # Quantum label 4
+I3 %3d                                                                          # Format quantum label 4
+Projection of total vibrational angular momentum                                # Description quantum label 4
 v1                                                                              # Quantum label 5
 I3 %3d                                                                          # Format quantum label 5
 Normal mode vibrational QN1                                                     # Description quantum label 5

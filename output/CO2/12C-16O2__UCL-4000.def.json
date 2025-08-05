@@ -93,7 +93,7 @@
                     "desc": "Normal mode stretching symmetry QN"
                 },
                 {
-                    "name": "TROVE:n2",
+                    "name": "TROVE:n2lin",
                     "ffmt": "I2",
                     "cfmt": " %2d",
                     "desc": "Normal mode linear molecule bending QN"
@@ -102,7 +102,7 @@
                     "name": "TROVE:l2",
                     "ffmt": "I2",
                     "cfmt": " %2d",
-                    "desc": "Vibrational bending QN"
+                    "desc": "Vibrational bending QN (Similar but not identical to standard l2)"
                 },
                 {
                     "name": "TROVE:n3",
@@ -126,19 +126,19 @@
                     "name": "TROVE:m2",
                     "ffmt": "I2",
                     "cfmt": " %2d",
-                    "desc": "Vibrational bending QN"
+                    "desc": "Vibrational bending QN (Similar but not identical to standard n2lin)"
+                },
+                {
+                    "name": "TROVE:l2",
+                    "ffmt": "I2",
+                    "cfmt": " %2d",
+                    "desc": "Vibrational bending QN (Similar but not identical to standard l2)"
                 },
                 {
                     "name": "TROVE:m3",
-                    "ffmt": "I2",
-                    "cfmt": " %2d",
-                    "desc": "Asymmetric vibrational stretching QN (equivalent to n3)"
-                },
-                {
-                    "name": "TROVE:m4",
                     "ffmt": "I3",
                     "cfmt": "%3d",
-                    "desc": ""
+                    "desc": "Asymmetric vibrational stretching QN (equivalent to n3)"
                 },
                 {
                     "name": "TROVE:r",

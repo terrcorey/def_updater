@@ -132,7 +132,7 @@
                     "name": "stcs:K",
                     "ffmt": "I3",
                     "cfmt": "%3d",
-                    "desc": "Not given"
+                    "desc": "Projection of J onto the P-P principal axis"
                 },
                 {
                     "name": "stcs:rotpar",
@@ -156,37 +156,37 @@
                     "name": "stcs:n1",
                     "ffmt": "F3.1",
                     "cfmt": "%3.1f",
-                    "desc": ""
+                    "desc": "TROVE quantum number 1"
                 },
                 {
                     "name": "stcs:n2",
                     "ffmt": "I6",
                     "cfmt": "%6d",
-                    "desc": ""
+                    "desc": "TROVE quantum number 2"
                 },
                 {
                     "name": "stcs:n3",
                     "ffmt": "I3",
                     "cfmt": "%3d",
-                    "desc": ""
+                    "desc": "TROVE quantum number 3"
                 },
                 {
                     "name": "stcs:n4",
                     "ffmt": "I3",
                     "cfmt": "%3d",
-                    "desc": ""
+                    "desc": "TROVE quantum number 4"
                 },
                 {
                     "name": "stcs:n5",
                     "ffmt": "I3",
                     "cfmt": "%3d",
-                    "desc": ""
+                    "desc": "TROVE quantum number 5"
                 },
                 {
                     "name": "stcs:n6",
                     "ffmt": "I3",
                     "cfmt": "%3d",
-                    "desc": ""
+                    "desc": "TROVE quantum number 6"
                 }
             ]
         },

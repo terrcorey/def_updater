@@ -46,12 +46,12 @@ e/f parity                                                                      
 n1                                                                              # Quantum label 3
 I2  %2d                                                                         # Format quantum label 3
 Normal mode stretching symmetry QN                                              # Description quantum label 3
-n2                                                                              # Quantum label 4
+n2lin                                                                           # Quantum label 4
 I2  %2d                                                                         # Format quantum label 4
 Normal mode linear molecule bending QN                                          # Description quantum label 4
 l2                                                                              # Quantum label 5
 I2  %2d                                                                         # Format quantum label 5
-Normal mode vibrational angular momentum QN                                     # Description quantum label 5
+Vibrational bending QN                                                          # Description quantum label 5
 n3                                                                              # Quantum label 6
 I2  %2d                                                                         # Format quantum label 6
 Normal mode stretching asymmetric QN                                            # Description quantum label 6
@@ -63,12 +63,12 @@ I2  %2d                                                                         
 Symmetric vibrational Fermi-resonance group QN (-1=not available)               # Description quantum label 8
 m2                                                                              # Quantum label 9
 I2  %2d                                                                         # Format quantum label 9
-Vibrational bending QN                                                          # Description quantum label 9
+Vibrational bending QN (Similar but not identical to standard n2lin)            # Description quantum label 9
 l2                                                                              # Quantum label 10
 I2  %2d                                                                         # Format quantum label 10
-Vibrational bending QN                                                          # Description quantum label 10
+Vibrational bending QN (Similar but not identical to standard l2)               # Description quantum label 10
 m3                                                                              # Quantum label 11
-I2  %2d                                                                         # Format quantum label 11
+I3 %3d                                                                          # Format quantum label 11
 Asymmetric vibrational stretching QN (equivalent to n3)                         # Description quantum label 11
 r                                                                               # Quantum label 12
 I2  %2d                                                                         # Format quantum label 12

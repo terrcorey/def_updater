@@ -110,6 +110,11 @@
         "Description quantum label": "Index in rotational symmetry block"
     },
     {
+        "Quantum label": "Fnum",
+        "Format quantum label": "I2 %2d",
+        "Description quantum label": "Fine structure counting number"
+    },
+    {
         "Quantum label": "P",
         "Format quantum label": "I2 %2d",
         "Description quantum label": "Polyad number"

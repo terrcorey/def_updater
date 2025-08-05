@@ -86,25 +86,25 @@
                     "name": "TROVE:n1",
                     "ffmt": "I6",
                     "cfmt": "%6d",
-                    "desc": "Symmetric stretch quantum number (normal mode)"
+                    "desc": "TROVE quantum number 1"
                 },
                 {
                     "name": "TROVE:n2",
                     "ffmt": "I3",
                     "cfmt": "%3d",
-                    "desc": "Symmetric bend quantum number (normal mode)"
+                    "desc": "TROVE quantum number 2"
                 },
                 {
                     "name": "TROVE:n3",
                     "ffmt": "I3",
                     "cfmt": "%3d",
-                    "desc": "Asymmetric stretch quantum number (normal mode)"
+                    "desc": "TROVE quantum number 3"
                 },
                 {
                     "name": "TROVE:n4",
                     "ffmt": "I4",
                     "cfmt": "%4d",
-                    "desc": "Asymmetric bend quantum number (normal mode)"
+                    "desc": "TROVE quantum number 4"
                 },
                 {
                     "name": "TROVE:l3",
@@ -158,37 +158,37 @@
                     "name": "TROVE:n1",
                     "ffmt": "I6",
                     "cfmt": "%6d",
-                    "desc": "Symmetric stretch quantum number (normal mode)"
+                    "desc": "TROVE quantum number 1"
                 },
                 {
                     "name": "TROVE:n2",
                     "ffmt": "I3",
                     "cfmt": "%3d",
-                    "desc": "Symmetric bend quantum number (normal mode)"
+                    "desc": "TROVE quantum number 2"
                 },
                 {
                     "name": "TROVE:n3",
                     "ffmt": "I3",
                     "cfmt": "%3d",
-                    "desc": "Asymmetric stretch quantum number (normal mode)"
+                    "desc": "TROVE quantum number 3"
                 },
                 {
                     "name": "TROVE:n4",
                     "ffmt": "I4",
                     "cfmt": "%4d",
-                    "desc": "Asymmetric bend quantum number (normal mode)"
+                    "desc": "TROVE quantum number 4"
                 },
                 {
                     "name": "TROVE:n5",
                     "ffmt": "I3",
                     "cfmt": "%3d",
-                    "desc": ""
+                    "desc": "TROVE quantum number 5"
                 },
                 {
                     "name": "TROVE:n6",
                     "ffmt": "I3",
                     "cfmt": "%3d",
-                    "desc": ""
+                    "desc": "TROVE quantum number 6"
                 }
             ]
         },

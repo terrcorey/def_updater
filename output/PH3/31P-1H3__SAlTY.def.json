@@ -98,10 +98,10 @@
                     "desc": "Rotational symmetry"
                 },
                 {
-                    "name": "stcs:l",
-                    "ffmt": "I5",
-                    "cfmt": "%5d",
-                    "desc": ""
+                    "name": "stcs:L",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "Projection of total vibrational angular momentum"
                 },
                 {
                     "name": "stcs:v1",

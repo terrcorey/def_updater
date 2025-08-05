@@ -72,16 +72,16 @@
                     "cfmt": "%12.6f"
                 },
                 {
-                    "name": "hundb:F",
-                    "ffmt": "I3",
-                    "cfmt": "%3d",
-                    "desc": "Final angular momentum"
-                },
-                {
                     "name": "hundb:v",
                     "ffmt": "I3",
                     "cfmt": "%3d",
                     "desc": "State vibrational quantum number"
+                },
+                {
+                    "name": "hundb:N",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "N quantum number"
                 },
                 {
                     "name": "hundb:e/f",

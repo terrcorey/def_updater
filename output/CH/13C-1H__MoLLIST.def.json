@@ -72,22 +72,22 @@
                     "cfmt": "%12.6f"
                 },
                 {
-                    "name": "hund:F",
+                    "name": "hund:N",
                     "ffmt": "I3",
                     "cfmt": "%3d",
-                    "desc": "Final angular momentum"
-                },
-                {
-                    "name": "hund:v",
-                    "ffmt": "I3",
-                    "cfmt": "%3d",
-                    "desc": "State vibrational quantum number"
+                    "desc": "N quantum number"
                 },
                 {
                     "name": "hund:e/f",
                     "ffmt": "A3",
                     "cfmt": "%3s",
                     "desc": "Rotationless-parity"
+                },
+                {
+                    "name": "hund:v",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "State vibrational quantum number"
                 },
                 {
                     "name": "hund:ElecState",

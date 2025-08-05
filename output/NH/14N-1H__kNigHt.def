@@ -47,7 +47,7 @@ Electronic orbital angular momentum projection along internuclear axis          
 N                                                                               # Quantum label 6
 I5 %5d                                                                          # Format quantum label 6
 Rotational angular momentum                                                     # Description quantum label 6
-F                                                                               # Quantum label 7
+Fnum                                                                            # Quantum label 7
 I2 %2d                                                                          # Format quantum label 7
 Fine structure counting number                                                  # Description quantum label 7
 SourceType                                                                      # Auxiliary title 1

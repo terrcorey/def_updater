@@ -549,10 +549,10 @@ def update_def(def_file_path, def_dict):
                 elif desc == "Quantum case label":
                     case_labels = def_dict.get("Quantum case label", [])
                     if isinstance(case_labels, list):
-                        for case in case_labels:
-                            output_file.write(line_formatter(case, desc))
+                        for i, case in enumerate(case_labels):
+                            output_file.write(line_formatter(case, f"{desc} {i+1}"))
                     else:
-                        output_file.write(line_formatter(case_labels, desc))
+                        output_file.write(line_formatter(case_labels, f"{desc} 1"))
                     def_dict.pop("Quantum case label", None)
                 elif desc == "No. of k-coefficient files available":
                     output_file.write(bool_formmatter(def_dict.get("bools", {})))

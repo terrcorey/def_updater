@@ -121,7 +121,7 @@
                     "desc": "Rotational angular momentum"
                 },
                 {
-                    "name": "dcs:F",
+                    "name": "dcs:Fnum",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "Fine structure counting number"

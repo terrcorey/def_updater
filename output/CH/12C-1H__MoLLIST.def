@@ -29,12 +29,12 @@ Sigma-                                                                          
 1                                                                               # No. of quanta cases
 hundb                                                                           # Quantum case label
 4                                                                               # No. of quanta defined
-F                                                                               # Quantum label 1
+v                                                                               # Quantum label 1
 I3 %3d                                                                          # Format quantum label 1
-Final angular momentum                                                          # Description quantum label 1
-v                                                                               # Quantum label 2
+State vibrational quantum number                                                # Description quantum label 1
+N                                                                               # Quantum label 2
 I3 %3d                                                                          # Format quantum label 2
-State vibrational quantum number                                                # Description quantum label 2
+N quantum number                                                                # Description quantum label 2
 e/f                                                                             # Quantum label 3
 A3 %3s                                                                          # Format quantum label 3
 Rotationless-parity                                                             # Description quantum label 3

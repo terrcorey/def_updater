@@ -846,7 +846,7 @@
             "dcs:v",
             "dcs:Lambda",
             "dcs:N",
-            "dcs:F",
+            "dcs:Fnum",
             "Auxiliary:SourceType",
             "Auxiliary:Ecal"
         ]
@@ -871,7 +871,7 @@
             "dcs:v",
             "dcs:Lambda",
             "dcs:N",
-            "dcs:F",
+            "dcs:Fnum",
             "Auxiliary:SourceType",
             "Auxiliary:Ecal"
         ]
@@ -896,7 +896,7 @@
             "dcs:v",
             "dcs:Lambda",
             "dcs:N",
-            "dcs:F",
+            "dcs:Fnum",
             "Auxiliary:SourceType",
             "Auxiliary:Ecal"
         ]
@@ -921,7 +921,7 @@
             "dcs:v",
             "dcs:Lambda",
             "dcs:N",
-            "dcs:F",
+            "dcs:Fnum",
             "Auxiliary:SourceType",
             "Auxiliary:Ecal"
         ]
@@ -937,8 +937,8 @@
             "E",
             "gtot",
             "J",
-            "hundb:F",
             "hundb:v",
+            "hundb:N",
             "hundb:e/f",
             "hundb:ElecState"
         ]
@@ -954,9 +954,9 @@
             "E",
             "gtot",
             "J",
-            "hundb:F",
-            "hundb:v",
+            "hundb:N",
             "hundb:e/f",
+            "hundb:v",
             "hundb:ElecState"
         ]
     },
@@ -2389,7 +2389,7 @@
             "stcs:l3",
             "stcs:l4",
             "stcs:invpar",
-            "stcs:J",
+            "stcs:Ja",
             "stcs:K",
             "stcs:rotpar",
             "TROVE:v1",
@@ -2727,7 +2727,7 @@
             "stcs:Gtot",
             "stcs:K",
             "stcs:Grot",
-            "stcs:l",
+            "stcs:L",
             "stcs:v1",
             "stcs:v2",
             "stcs:v3",
@@ -4180,14 +4180,14 @@
             "nltcs:Gtot",
             "nltcs:e/f",
             "nltcs:n1",
-            "nltcs:n2",
+            "nltcs:n2lin",
             "nltcs:l2",
             "nltcs:n3",
             "TROVE:Coef",
             "HITRAN:m1",
             "HITRAN:m2",
+            "HITRAN:l2",
             "HITRAN:m3",
-            "HITRAN:m4",
             "HITRAN:r",
             "TROVE:v1",
             "TROVE:v2",
