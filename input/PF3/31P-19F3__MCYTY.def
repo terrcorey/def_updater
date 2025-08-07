@@ -2,7 +2,7 @@ EXOMOL.def                                                                      
 (31P)(19F)3                                                                     # IsoFormula
 31P-19F3                                                                        # Iso-slug
 MCYTY                                                                           # Isotopologue dataset name
-20190314                                                                        # Version number with format YYYYMMDD
+20250807                                                                        # Version number with format YYYYMMDD
 WKFBZNUBXWCCHG-UHFFFAOYSA-N                                                     # Inchi key of molecule
 4                                                                               # Number of atoms
 31                                                                              # Isotope number 1

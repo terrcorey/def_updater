@@ -21,7 +21,7 @@
     },
     "dataset": {
         "name": "MCYTY",
-        "version": 20190314,
+        "version": 20250807,
         "doi": "10.5281/zenodo.5716880",
         "max_temperature": 296.0,
         "n_L_default": 0.6,

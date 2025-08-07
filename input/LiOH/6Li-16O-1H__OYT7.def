@@ -2,7 +2,7 @@ EXOMOL.def                                                                      
 (6Li)(16O)(1H)                                                                  # IsoFormula
 6Li-16O-1H                                                                      # Iso-slug
 OYT7                                                                            # Isotopologue dataset name
-20231001                                                                        # Version number with format YYYYMMDD
+20250807                                                                        # Version number with format YYYYMMDD
 XXXXXXXXXXXXXXXXXXXXXXXXXXX                                                     # Inchi key of molecule
 3                                                                               # Number of atoms
 6                                                                               # Isotope number 1

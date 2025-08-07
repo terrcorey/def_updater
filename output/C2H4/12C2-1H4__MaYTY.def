@@ -2,7 +2,7 @@ EXOMOL.def                                                                      
 (12C)2(1H)4                                                                     # IsoFormula
 12C2-1H4                                                                        # Iso-slug
 MaYTY                                                                           # Isotopologue dataset name
-20180514                                                                        # Version number with format YYYYMMDD
+20250807                                                                        # Version number with format YYYYMMDD
 VGGSQFUCUMXWEO-UHFFFAOYSA-N                                                     # Inchi key of molecule
 6                                                                               # Number of atoms
 12                                                                              # Isotope number 1

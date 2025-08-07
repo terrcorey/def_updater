@@ -22,7 +22,7 @@
     },
     "dataset": {
         "name": "OY-Trans",
-        "version": 20190401,
+        "version": 20250807,
         "doi": "10.5281/zenodo.5716892",
         "max_temperature": 1000.0,
         "n_L_default": 0.53,

@@ -2,7 +2,7 @@ EXOMOL.def                                                                      
 cis-(31P)2(1H)2                                                                 # IsoFormula
 cis-31P2-1H2                                                                    # Iso-slug
 OY-Cis                                                                          # Isotopologue dataset name
-20190401                                                                        # Version number with format YYYYMMDD
+20250807                                                                        # Version number with format YYYYMMDD
 SWJAOBXRZSMKNS-UHFFFAOYSA-N                                                     # Inchi key of molecule
 4                                                                               # Number of atoms
 31                                                                              # Isotope number 1 
