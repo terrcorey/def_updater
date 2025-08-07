@@ -257,15 +257,12 @@
             "E",
             "gtot",
             "J",
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
+            "unc",
+            "ltcs:Gtot",
+            "ltcs:v1",
+            "ltcs:v2lin",
+            "ltcs:L",
+            "ltcs:v3",
             "ltcs:Coef",
             "ltcs:n1",
             "ltcs:n2",
@@ -290,8 +287,7 @@
             "hunda:v1",
             "hunda:v2",
             "hunda:l2",
-            "hunda:v3",
-            null
+            "hunda:v3"
         ]
     },
     {
