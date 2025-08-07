@@ -74,58 +74,58 @@
                     "cfmt": "%12.6f"
                 },
                 {
-                    "name": "ltcs:Gtot",
+                    "name": "TROVE:Gtot",
                     "ffmt": "A3",
                     "cfmt": "%3s",
-                    "desc": "Total symmetry"
+                    "desc": "Symmetry"
                 },
                 {
-                    "name": "ltcs:v1",
-                    "ffmt": "I3",
-                    "cfmt": "%3d",
+                    "name": "TROVE:v1",
+                    "ffmt": "I2",
+                    "cfmt": "%2d",
                     "desc": "v1 vibrational quantum number"
                 },
                 {
-                    "name": "ltcs:v2lin",
-                    "ffmt": "I3",
-                    "cfmt": "%3d",
+                    "name": "TROVE:v2lin",
+                    "ffmt": "I2",
+                    "cfmt": "%2d",
                     "desc": "v2lin vibrational quantum number"
                 },
                 {
-                    "name": "ltcs:L",
+                    "name": "TROVE:L",
                     "ffmt": "I3",
                     "cfmt": "%3d",
                     "desc": "L vibrational quantum number"
                 },
                 {
-                    "name": "ltcs:v3",
-                    "ffmt": "I3",
-                    "cfmt": "%3d",
+                    "name": "TROVE:v3",
+                    "ffmt": "I2",
+                    "cfmt": "%2d",
                     "desc": "v3 vibrational quantum number"
                 },
                 {
-                    "name": "ltcs:Coef",
+                    "name": "TROVE:Coef",
                     "ffmt": "F5.2",
                     "cfmt": "%5.2f",
-                    "desc": "Coefficient with the largest contribution"
+                    "desc": "Conribution coefficient"
                 },
                 {
-                    "name": "ltcs:n1",
-                    "ffmt": "I3",
-                    "cfmt": "%3d",
-                    "desc": "l2 vibrational quantum number"
+                    "name": "TROVE:n1",
+                    "ffmt": "I2",
+                    "cfmt": "%2d",
+                    "desc": "n1 vibrational quantum number (TROVE)"
                 },
                 {
-                    "name": "ltcs:n2",
-                    "ffmt": "I3",
-                    "cfmt": "%3d",
-                    "desc": "n2 vibrational quantum number"
+                    "name": "TROVE:n2",
+                    "ffmt": "I2",
+                    "cfmt": "%2d",
+                    "desc": "n2 vibrational quantum number (TROVE)"
                 },
                 {
-                    "name": "ltcs:n3",
-                    "ffmt": "I3",
-                    "cfmt": "%3d",
-                    "desc": "n3 vibrational quantum number"
+                    "name": "TROVE:n3",
+                    "ffmt": "I2",
+                    "cfmt": "%2d",
+                    "desc": "n3 vibrational quantum number (TROVE)"
                 }
             ]
         },
