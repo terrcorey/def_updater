@@ -39,7 +39,7 @@
             "number_of_states": 5095730,
             "max_energy": 11000.0,
             "hyperfine_resolved_dataset": false,
-            "uncertainty_description": "Calculated energy in cm-1",
+            "uncertainty_description": null,
             "uncertainties_available": true,
             "lifetime_available": false,
             "lande_g_available": false,
@@ -194,6 +194,12 @@
                     "ffmt": "A3",
                     "cfmt": "%3s",
                     "desc": "D3h(M) vibrational symmetry (local mode)"
+                },
+                {
+                    "name": "Auxiliary:Ecal",
+                    "ffmt": "F12.6",
+                    "cfmt": "%12.6f",
+                    "desc": "Calculated energy in cm-1"
                 }
             ]
         },

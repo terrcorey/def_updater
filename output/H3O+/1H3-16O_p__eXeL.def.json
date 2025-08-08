@@ -39,7 +39,7 @@
             "number_of_states": 1173114,
             "max_energy": 10000.0,
             "hyperfine_resolved_dataset": false,
-            "uncertainty_description": "Calculated energy in cm-1",
+            "uncertainty_description": null,
             "uncertainties_available": true,
             "lifetime_available": false,
             "lande_g_available": false,
@@ -176,6 +176,12 @@
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "Local mode inversion quantum number"
+                },
+                {
+                    "name": "Auxiliary:Ecal",
+                    "ffmt": "F12.6",
+                    "cfmt": "%12.6f",
+                    "desc": "Calculated energy in cm-1"
                 }
             ]
         },

@@ -238,7 +238,7 @@ def def_to_json(def_file_path, json_file_path):
                     "desc": description_quantum_label
                 })
                 # print("Appending to states dictionary:", quantum_case_label + ":" + quantum_label)
-            elif '# Auxiliary label' in line:
+            elif '# Auxiliary title' in line:
                 aux_title = line.split('#')[0].strip()
                 fmt = next(line_iter, None)
                 cfmt = None
@@ -369,7 +369,7 @@ def def_to_json(def_file_path, json_file_path):
         # print(json_dict)
 
         insert_index = 4
-        if json_dict["dataset"]["states"].get("uncertainties_available", None) is not None:
+        if json_dict["dataset"]["states"].get("uncertainties_available", False):
             json_dict["dataset"]["states"]["states_file_fields"].insert(insert_index, {
                 "name": "unc",
                 "desc": "Energy uncertainty in cm-1",

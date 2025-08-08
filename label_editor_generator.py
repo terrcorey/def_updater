@@ -3,7 +3,7 @@ import sys
 import os
 import numpy as np
 import pandas as pd
-from update_def_labels import read_def_file
+import json
 from tqdm import tqdm
 import openpyxl
 from openpyxl.utils import get_column_letter
@@ -13,26 +13,12 @@ def format_excel(output_excel_path):
     try:
         # Open workbook with openpyxl for autofit
         wb = openpyxl.load_workbook(output_excel_path)
-        sheet_names = wb.sheetnames
-        for sheet_name in sheet_names:
-            ws = wb[sheet_name]
-            for col in range(1, ws.max_column + 1): 
-                col_letter = get_column_letter(col)
-                ws.column_dimensions[col_letter].width = 10  # Add some padding
+        for ws in wb.worksheets:
+            for idx in range(1, ws.max_column + 1):
+                col_letter = get_column_letter(idx)
+                ws.column_dimensions[col_letter].width = 12
         wb.save(output_excel_path)
         wb.close()
-
-        # Open workbook with xlwings for suppressing number-as-text warnings
-        app = xw.App(visible=False)
-        wb_xlw = app.books.open(output_excel_path)
-        for ws in wb_xlw.sheets:
-            used_range = ws.used_range
-            for cell in used_range:
-                if cell.api.Errors(4).Value:  # 4 is xlNumberAsText
-                    cell.api.Errors(4).Ignore = True
-        wb_xlw.save()
-        wb_xlw.close()
-        app.quit()
     except Exception as e:
         print(f"Error formatting workbook: {e}")
 
@@ -70,9 +56,75 @@ def write_to_excel(df, desc_df, mol, filename):
     except Exception as e:
         print(f"{filename} || Error saving DataFrame to Excel: {e}")
 
+def read_def_labels(path):
+    with open(path, "r") as f:
+        lines = f.readlines()
+    quantum_labels = [
+        {
+            "Quantum label": "ID",
+            "Description quantum label": "Unique integer identifier for the energy level",
+            "Format quantum label": "I12 %12d",
+        },
+        {
+            "Quantum label": "E",
+            "Description quantum label": "State energy in cm-1",
+            "Format quantum label": "F12.6 %12.6f",
+        },
+        {
+            "Quantum label": "gtot",
+            "Description quantum label": "Total energy level degeneracy",
+            "Format quantum label": "I6 %6d"
+        },
+        {
+            "Quantum label": "J",
+            "Description quantum label": "Total rotational quantum number, excluding nuclear spin",
+            "Format quantum label": "I7 %7d"
+        }
+    ]
+    lines_iter = iter(lines)
+    for l in lines_iter:
+        if "# Hyperfine resolved dataset" in l:
+            if bool(l.split("#")[0].strip()):
+                quantum_labels[3] = {
+                    "Quantum label": "F",
+                    "Description quantum label": "Final angular momentum quantum number",
+                    "Format quantum label": "I7 %7d"
+                }
+        if "# Quantum label" in l:
+            quantum_label = l.split("#")[0].strip()
+            fmt_label = next(lines_iter).split("#")[0].strip()
+            desc_label = next(lines_iter).split("#")[0].strip()
+            quantum_labels.append({
+                "Quantum label": quantum_label,
+                "Format quantum label": fmt_label,
+                "Description quantum label": desc_label
+            })
+        if "# Auxiliary title" in l:
+            auxiliary_title = l.split("#")[0].strip()
+            fmt_label = next(lines_iter).split("#")[0].strip()
+            desc_label = next(lines_iter).split("#")[0].strip()
+            quantum_labels.append({
+                "Quantum label": auxiliary_title,
+                "Format quantum label": fmt_label,
+                "Description quantum label": desc_label
+            })
+    return quantum_labels
+
+def read_json_labels(path):
+    with open(path, "r") as f:
+        data = json.load(f)
+    quanta = data['dataset']['states'].get("states_file_fields", [])
+    quantum_labels = []
+    for q in quanta:
+        quantum_labels.append({
+            "Quantum label": q.get("name", ""),
+            "Format quantum label": " ".join([q.get("ffmt", ""), q.get("cfmt", "")]),
+            "Description quantum label": q.get("desc", "")
+        })
+    return quantum_labels
 
 def main():
-    input_path = os.path.join(".", "input")
+    input_path = os.path.join(".", "output")
     mol_dirs = [d for d in os.listdir(input_path) if os.path.isdir(os.path.join(input_path, d))]
     for mol in tqdm(mol_dirs, desc = "Printing labels onto Excel..."):
         # Process each molecule directory
@@ -80,38 +132,20 @@ def main():
         for f in os.listdir(mol_path):
             def_file_path = os.path.join(mol_path, f)
             if def_file_path.endswith(".def"):
-                def_labels = [
-                {
-                "Quantum label": "StateID",
-                "Format quantum label": "I12 %12d",
-                "Description quantum label": "Unique integer identifier for the energy level"
-                },
-                {
-                "Quantum label": "E",
-                "Format quantum label": "F12.6 %12.6f",
-                "Description quantum label": "State energy in cm-1"
-                },
-                {
-                "Quantum label": "gtot",
-                "Format quantum label": "I6 %6d",
-                "Description quantum label": "Total energy level degeneracy"
-                },
-                {
-                "Quantum label": "J",
-                "Format quantum label": "",
-                "Description quantum label": "Total rotational quantum number, excluding nuclear spin"
-                }
-            ]
-                # Read the labels from the definition file
-                def_dict = read_def_file(def_file_path)
-                def_labels = def_labels + def_dict['Quantum labels']
-
-                states_file_path = os.path.join(mol_path, f.replace(".def", ".states"))
+                states_file_path = os.path.join(mol_path.replace("output", "input"), f.replace(".def", ".states"))
                 if os.path.exists(states_file_path):
                     states_df = read_states(states_file_path)
                 else:
                     print(f"States file not found for {def_file_path}. Skipping.")
                     continue
+                # Read the labels from the definition file
+                if os.path.exists(def_file_path.replace(".def", ".def.json")):
+                    def_labels = read_json_labels(def_file_path.replace(".def", ".def.json"))
+                else:
+                    def_labels = read_def_labels(def_file_path)
+                    if not isinstance(states_df.iloc[0, 3], int):
+                        def_labels[3]["Format quantum label"] = "F7.1 %7.1f"
+
                 # Stack def_labels and states_df
                 labels = [l['Quantum label'] for l in def_labels]
                 fmt = [l['Format quantum label'] for l in def_labels]
@@ -119,12 +153,7 @@ def main():
                 header_df = pd.DataFrame([labels, fmt])
                 full_df = pd.concat([header_df, states_df], ignore_index=True)
                 desc_df = pd.DataFrame([labels, description])
-                J_state = str(full_df.iloc[2, 3])
-                try:
-                    J_state = int(J_state)
-                    full_df.iloc[1, 3] = f"I7 %7d"
-                except ValueError:
-                    full_df.iloc[1, 3] = f"F7.1 %7.1f"
+                full_df = full_df.replace({np.nan: None})
                 write_to_excel(full_df, desc_df, mol, f)
     
 

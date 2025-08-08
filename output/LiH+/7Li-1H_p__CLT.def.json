@@ -66,12 +66,6 @@
                     "cfmt": "%7d"
                 },
                 {
-                    "name": "unc",
-                    "desc": "Energy uncertainty in cm-1",
-                    "ffmt": "F12.6",
-                    "cfmt": "%12.6f"
-                },
-                {
                     "name": "dcs:v",
                     "ffmt": "I2",
                     "cfmt": "%2d",
