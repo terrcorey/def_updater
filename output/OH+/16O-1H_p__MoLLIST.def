@@ -3,7 +3,7 @@ EXOMOL.def                                                                      
 16O-1H_p                                                                        # Iso-slug
 MoLLIST                                                                         # Isotopologue dataset name
 20220713                                                                        # Version number with format YYYYMMDD
-xxxxxxxxxxxxxxxxxxxxxxxxxxx                                                     # Inchi key of molecule
+XLYOFNOQVPJJNP-UHFFFAOYSA-X                                                     # Inchi key of molecule
 2                                                                               # Number of atoms
 16                                                                              # Isotope number 1
 O                                                                               # Element symbol 1

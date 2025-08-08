@@ -3,7 +3,7 @@ EXOMOL.def                                                                      
 12C-12C-13C                                                                     # Iso-slug
 AtLast                                                                          # Isotopologue dataset name
 20241023                                                                        # Version number with format YYYYMMDD
-NVLRFXKSQQPKAD-LBPDFUHNSA-N                                                     # Inchi key of molecule
+NVLRFXKSQQPKAD-UHFFFAOYSA-N                                                     # Inchi key of molecule
 3                                                                               # Number of atoms
 12                                                                              # Isotope number 1
 C                                                                               # Element symbol 1

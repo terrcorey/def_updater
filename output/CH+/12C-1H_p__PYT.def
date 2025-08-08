@@ -3,7 +3,7 @@ EXOMOL.def                                                                      
 12C-1H_p                                                                        # Iso-slug
 PYT                                                                             # Isotopologue dataset name
 20231219                                                                        # Version number with format YYYYMMDD
-WVVLBIYUCXYYEU-UHFFFAOYSA-N                                                     # Inchi key of molecule
+WVVLBIYUCXYYEU-MICDWDOJSA-N                                                     # Inchi key of molecule
 2                                                                               # Number of atoms
 12                                                                              # Isotope number 1
 C                                                                               # Element symbol 1

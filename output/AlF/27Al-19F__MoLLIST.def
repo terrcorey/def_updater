@@ -3,7 +3,7 @@ EXOMOL.def                                                                      
 27Al-19F                                                                        # Iso-slug
 MoLLIST                                                                         # Isotopologue dataset name
 20221307                                                                        # Version number with format YYYYMMDD
-xxxxxxxxxxxxxxxxxxxxxxxxxxx                                                     # Inchi key of molecule
+APURLPHDHPNUFL-UHFFFAOYSA-M                                                     # Inchi key of molecule
 2                                                                               # Number of atoms
 27                                                                              # Isotope number 1
 Al                                                                              # Element symbol 1

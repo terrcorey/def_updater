@@ -3,7 +3,7 @@ EXOMOL.def                                                                      
 48Ti-16O                                                                        # Iso-slug
 Toto                                                                            # Isotopologue dataset name
 20240509                                                                        # Version number with format YYYYMMD: origin. from 20190514 was replaced with Marvelisation of a1Delta and e1Sigma+ corrected
-KZWJQQBLIBIGGJ-UHFFFAOYSA-N                                                     # Inchi key of molecule
+KZWJQQBLIBIGGJ-DEQYMQKBSA-N                                                     # Inchi key of molecule
 2                                                                               # Number of atoms
 48                                                                              # Isotope number 1
 Ti                                                                              # Element symbol 1

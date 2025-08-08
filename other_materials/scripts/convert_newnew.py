@@ -78,22 +78,6 @@ def def_to_json(def_file_path, json_file_path):
                 json_dict["isotopologue"]["iso_slug"] = line.split('#')[0].strip()
             elif '# Inchi key of molecule' in line:
                 json_dict["isotopologue"]["inchikey"] = line.split('#')[0].strip()
-                # Add the InChI retrieval code here
-                inchikey = json_dict["isotopologue"].get("inchikey")
-                if inchikey:
-                    url = f"https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/inchikey/{inchikey}/property/InChI/TXT"
-                    response = requests.get(url)
-                    if response.status_code == 200:
-                        inchi = response.text.strip().replace("InChI=", "")
-                        json_dict["isotopologue"]["inchi"] = inchi
-                    else:
-                        # Write the failed InChI key and the reason to the CSV file
-                        if response.status_code == 404:
-                            reason = 'InChI not found in PubChem'
-                        else:
-                            reason = f'HTTP error {response.status_code}'
-                        filename = os.path.basename(def_file_path)
-                        error_log(f"Dataset: {filename} || Failed to retrieve InChI for InChI key '{inchikey}': {reason}", "Warn")
             elif '# Number of atoms' in line:
                 json_dict["atoms"]["number_of_atoms"] = int(line.split('#')[0].strip())
             elif '# Isotope number' in line:

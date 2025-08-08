@@ -1,0 +1,2569 @@
+{
+  "ID": "EXOMOL.master",
+  "version": 20250624,
+  "num_molecules": 97,
+  "num_isotopologues": 222,
+  "num_datasets": 223,
+  "num_species": null,
+  "molecules": {
+    "H2O": {
+      "num_molecule_names": 11,
+      "molecule_names": [
+        "Water",
+        "Oxidane",
+        "Hydrogen oxide",
+        "Dihydrogen monoxide",
+        "Hydrogen monoxide",
+        "Dihydrogen oxide",
+        "Hydrogen hydroxide",
+        "Hydric acid",
+        "Hydrohydroxic acid",
+        "Hydroxic acid",
+        "Hydrol"
+      ],
+      "num_isotopologues": 4,
+      "linelist": [
+        {
+          "inchikey": "XLYOFNOQVPJJNP-DYCDLGHISA-N",
+          "iso_slug": "1H-2H-16O",
+          "iso_formula": "(1H)(2H)(16O)",
+          "dataset_name": "VTT",
+          "version": 20160726
+        },
+        {
+          "inchikey": "XLYOFNOQVPJJNP-UHFFFAOYSA-N",
+          "iso_slug": "1H2-16O",
+          "iso_formula": "(1H)2(16O)",
+          "dataset_name": "POKAZATEL",
+          "version": 20230621
+        },
+        {
+          "inchikey": "XLYOFNOQVPJJNP-OUBTZVSYSA-N",
+          "iso_slug": "1H2-17O",
+          "iso_formula": "(1H)2(17O)",
+          "dataset_name": "HotWat78",
+          "version": 20230919
+        },
+        {
+          "inchikey": "XLYOFNOQVPJJNP-NJFSPNSNSA-N",
+          "iso_slug": "1H2-18O",
+          "iso_formula": "(1H)2(18O)",
+          "dataset_name": "HotWat78",
+          "version": 20230919
+        }
+      ]
+    },
+    "CO2": {
+      "num_molecule_names": 1,
+      "molecule_names": [
+        "Carbon dioxide"
+      ],
+      "num_isotopologues": 13,
+      "linelist": [
+        {
+          "inchikey": "CURLTUGMZLYLDI-UHFFFAOYSA-N",
+          "iso_slug": "12C-16O2",
+          "iso_formula": "(12C)(16O)2",
+          "dataset_name": "UCL-4000",
+          "version": 20200630
+        },
+        {
+          "inchikey": "UGFAIRIUMAVXCW-HQMMCQRPSA-7",
+          "iso_slug": "12C-17O2",
+          "iso_formula": "(12C)(17O)2",
+          "dataset_name": "Zak",
+          "version": 20180223
+        },
+        {
+          "inchikey": "CURLTUGMZLYLDI-FTOQCNSHSA-N",
+          "iso_slug": "12C-18O2",
+          "iso_formula": "(12C)(18O)2",
+          "dataset_name": "Zak",
+          "version": 20180223
+        },
+        {
+          "inchikey": "CURLTUGMZLYLDI-OUBTZVSYSA-N",
+          "iso_slug": "13C-16O2",
+          "iso_formula": "(13C)(16O)2",
+          "dataset_name": "Zak",
+          "version": 20180223
+        },
+        {
+          "inchikey": "CURLTUGMZLYLDI-VMIGTVKRSA-N",
+          "iso_slug": "13C-17O2",
+          "iso_formula": "(13C)(17O)2",
+          "dataset_name": "Zak",
+          "version": 20180223
+        },
+        {
+          "inchikey": "CURLTUGMZLYLDI-UKEFCNGDSA-N",
+          "iso_slug": "13C-18O2",
+          "iso_formula": "(13C)(18O)2",
+          "dataset_name": "Zak",
+          "version": 20180223
+        },
+        {
+          "inchikey": "CURLTUGMZLYLDI-OUBTZVSYSA-4",
+          "iso_slug": "14C-16O2",
+          "iso_formula": "(14C)(16O)2",
+          "dataset_name": "Zak",
+          "version": 20180223
+        },
+        {
+          "inchikey": "CURLTUGMZLYLDI-VQEHIDDOSA-N",
+          "iso_slug": "16O-12C-17O",
+          "iso_formula": "(16O)(12C)(17O)",
+          "dataset_name": "Zak",
+          "version": 20200630
+        },
+        {
+          "inchikey": "CURLTUGMZLYLDI-HQMMCQRPSA-N",
+          "iso_slug": "16O-12C-18O",
+          "iso_formula": "(16O)(12C)(18O)",
+          "dataset_name": "Zak",
+          "version": 20200630
+        },
+        {
+          "inchikey": "CURLTUGMZLYLDI-ZDOIIHCHSA-N",
+          "iso_slug": "16O-13C-17O",
+          "iso_formula": "(16O)(13C)(17O)",
+          "dataset_name": "Zak",
+          "version": 20200630
+        },
+        {
+          "inchikey": "CURLTUGMZLYLDI-RGIGPVFXSA-N",
+          "iso_slug": "16O-13C-18O",
+          "iso_formula": "(16O)(13C)(18O)",
+          "dataset_name": "Zak",
+          "version": 20200630
+        },
+        {
+          "inchikey": "CURLTUGMZLYLDI-JFJVQQHZSA-N",
+          "iso_slug": "17O-12C-18O",
+          "iso_formula": "(17O)(12C)(18O)",
+          "dataset_name": "Zak",
+          "version": 20200630
+        },
+        {
+          "inchikey": "CURLTUGMZLYLDI-RGIGPVFXSA-X",
+          "iso_slug": "17O-13C-18O",
+          "iso_formula": "(17O)(13C)(18O)",
+          "dataset_name": "Zak",
+          "version": 20200630
+        }
+      ]
+    },
+    "CO": {
+      "num_molecule_names": 1,
+      "molecule_names": [
+        "Carbon monoxide"
+      ],
+      "num_isotopologues": 6,
+      "linelist": [
+        {
+          "inchikey": "UGFAIRIUMAVXCW-UHFFFAOYSA-N",
+          "iso_slug": "12C-16O",
+          "iso_formula": "(12C)(16O)",
+          "dataset_name": "Li2015",
+          "version": 20170101
+        },
+        {
+          "inchikey": "UGFAIRIUMAVXCW-VQEHIDDOSA-N",
+          "iso_slug": "12C-17O",
+          "iso_formula": "(12C)(17O)",
+          "dataset_name": "Li2015",
+          "version": 20192207
+        },
+        {
+          "inchikey": "UGFAIRIUMAVXCW-HQMMCQRPSA-N",
+          "iso_slug": "12C-18O",
+          "iso_formula": "(12C)(18O)",
+          "dataset_name": "Li2015",
+          "version": 20190722
+        },
+        {
+          "inchikey": "UGFAIRIUMAVXCW-OUBTZVSYSA-N",
+          "iso_slug": "13C-16O",
+          "iso_formula": "(13C)(16O)",
+          "dataset_name": "Li2015",
+          "version": 20170101
+        },
+        {
+          "inchikey": "UGFAIRIUMAVXCW-ZDOIIHCHSA-N",
+          "iso_slug": "13C-17O",
+          "iso_formula": "(13C)(17O)",
+          "dataset_name": "Li2015",
+          "version": 20190722
+        },
+        {
+          "inchikey": "UGFAIRIUMAVXCW-RGIGPVFXSA-N",
+          "iso_slug": "13C-18O",
+          "iso_formula": "(13C)(18O)",
+          "dataset_name": "Li2015",
+          "version": 20190722
+        }
+      ]
+    },
+    "CH4": {
+      "num_molecule_names": 7,
+      "molecule_names": [
+        "Methane",
+        "Tetrahydridocarbon",
+        "Carbane",
+        "Marsh gas",
+        "Natural gas",
+        "Carbon tetrahydride",
+        "Hydrogen carbide"
+      ],
+      "num_isotopologues": 1,
+      "linelist": [
+        {
+          "inchikey": "VNWKTOKETHGBQD-UHFFFAOYSA-N",
+          "iso_slug": "12C-1H4",
+          "iso_formula": "(12C)(1H)4",
+          "dataset_name": "MM",
+          "version": 20240113
+        }
+      ]
+    },
+    "NO": {
+      "num_molecule_names": 1,
+      "molecule_names": [
+        "nitric oxide"
+      ],
+      "num_isotopologues": 1,
+      "linelist": [
+        {
+          "inchikey": "MWUXSHHQAYIFBG-UHFFFAOYSA-N",
+          "iso_slug": "14N-16O",
+          "iso_formula": "(14N)(16O)",
+          "dataset_name": "XABC",
+          "version": 20210422
+        }
+      ]
+    },
+    "SO2": {
+      "num_molecule_names": 4,
+      "molecule_names": [
+        "Sulfur dioxide",
+        "Sulphur dioxide",
+        "Sulfurous anhydride",
+        "Sulfur(IV) oxide"
+      ],
+      "num_isotopologues": 1,
+      "linelist": [
+        {
+          "inchikey": "RAHZWNYVWXNFOC-UHFFFAOYSA-N",
+          "iso_slug": "32S-16O2",
+          "iso_formula": "(32S)(16O)2",
+          "dataset_name": "ExoAmes",
+          "version": 20170131
+        }
+      ]
+    },
+    "NH3": {
+      "num_molecule_names": 6,
+      "molecule_names": [
+        "Ammonia",
+        "Ammonia gas",
+        "Nitro-sil",
+        "Azane",
+        "Ammoniakgas",
+        "Spirit of hartshorn"
+      ],
+      "num_isotopologues": 2,
+      "linelist": [
+        {
+          "inchikey": "QGZKDVFQNNGYKY-UHFFFAOYSA-N",
+          "iso_slug": "14N-1H3",
+          "iso_formula": "(14N)(1H)3",
+          "dataset_name": "CoYuTe",
+          "version": 20200730
+        },
+        {
+          "inchikey": "QGZKDVFQNNGYKY-OUBTZVSYSA-N",
+          "iso_slug": "15N-1H3",
+          "iso_formula": "(15N)(1H)3",
+          "dataset_name": "CoYuTe-15",
+          "version": 20240808
+        }
+      ]
+    },
+    "HNO3": {
+      "num_molecule_names": 6,
+      "molecule_names": [
+        "Nitric acid",
+        "Aqua fortis",
+        "Spirit of niter",
+        "Eau forte",
+        "Hydrogen nitrate",
+        "Acidum nitricum"
+      ],
+      "num_isotopologues": 1,
+      "linelist": [
+        {
+          "inchikey": "ATQYDUAHJAWUEM-UHFFFAOYSA-N",
+          "iso_slug": "1H-14N-16O3",
+          "iso_formula": "(1H)(14N)(16O)3",
+          "dataset_name": "AIJS",
+          "version": 20160726
+        }
+      ]
+    },
+    "OH": {
+      "num_molecule_names": 3,
+      "molecule_names": [
+        "Hydroxyl",
+        "Hydroxyl radical",
+        "Oxidanyl"
+      ],
+      "num_isotopologues": 1,
+      "linelist": [
+        {
+          "inchikey": "TUJKJAMUKRIRHC-UHFFFAOYSA-N",
+          "iso_slug": "16O-1H",
+          "iso_formula": "(16O)(1H)",
+          "dataset_name": "MYTHOS",
+          "version": 20240526
+        }
+      ]
+    },
+    "HF": {
+      "num_molecule_names": 3,
+      "molecule_names": [
+        "Hydrofluoric acid",
+        "Hydrogen fluoride",
+        "Fluorane"
+      ],
+      "num_isotopologues": 1,
+      "linelist": [
+        {
+          "inchikey": "KRHYYFGTRYWZRS-UHFFFAOYSA-N",
+          "iso_slug": "1H-19F",
+          "iso_formula": "(1H)(19F)",
+          "dataset_name": "Coxon-Hajig",
+          "version": 20191005
+        }
+      ]
+    },
+    "HCl": {
+      "num_molecule_names": 3,
+      "molecule_names": [
+        "Hydrogen chloride",
+        "Hydrochloric acid",
+        "Hydrochloride"
+      ],
+      "num_isotopologues": 4,
+      "linelist": [
+        {
+          "inchikey": "VEXZGXHMUGYJMC-UHFFFAOYSA-N",
+          "iso_slug": "1H-35Cl",
+          "iso_formula": "(1H)(35Cl)",
+          "dataset_name": "HITRAN-HCl",
+          "version": 20160726
+        },
+        {
+          "inchikey": "VEXZGXHMUGYJMC-NJFSPNSNSA-N",
+          "iso_slug": "1H-37Cl",
+          "iso_formula": "(1H)(37Cl)",
+          "dataset_name": "HITRAN-HCl",
+          "version": 20160726
+        },
+        {
+          "inchikey": "VEXZGXHMUGYJMC-DYCDLGHISA-N",
+          "iso_slug": "2H-35Cl",
+          "iso_formula": "(2H)(35Cl)",
+          "dataset_name": "HITRAN-HCl",
+          "version": 20160726
+        },
+        {
+          "inchikey": "VEXZGXHMUGYJMC-DQGQKLTASA-N",
+          "iso_slug": "2H-37Cl",
+          "iso_formula": "(2H)(37Cl)",
+          "dataset_name": "HITRAN-HCl",
+          "version": 20160726
+        }
+      ]
+    },
+    "H2CO": {
+      "num_molecule_names": 3,
+      "molecule_names": [
+        "Formaldehyde",
+        "Methanal",
+        "Carbonous acid"
+      ],
+      "num_isotopologues": 1,
+      "linelist": [
+        {
+          "inchikey": "WSFSSNUMVMOOMR-UHFFFAOYSA-N",
+          "iso_slug": "1H2-12C-16O",
+          "iso_formula": "(1H)2(12C)(16O)",
+          "dataset_name": "AYTY",
+          "version": 20230430
+        }
+      ]
+    },
+    "N2": {
+      "num_molecule_names": 1,
+      "molecule_names": [
+        "Nitrogen"
+      ],
+      "num_isotopologues": 1,
+      "linelist": [
+        {
+          "inchikey": "IJGRMHOSHXDMSA-UHFFFAOYSA-N",
+          "iso_slug": "14N2",
+          "iso_formula": "(14N)2",
+          "dataset_name": "WCCRMT",
+          "version": 20240705
+        }
+      ]
+    },
+    "HCN": {
+      "num_molecule_names": 7,
+      "molecule_names": [
+        "Hydrogen cyanide",
+        "Formonitrile",
+        "Hydridonitridocarbon",
+        "Formic anammonide",
+        "Hydrocyanic acid",
+        "Prussic acid",
+        "Methanenitrile"
+      ],
+      "num_isotopologues": 1,
+      "linelist": [
+        {
+          "inchikey": "LELOWRISYMNNSU-UHFFFAOYSA-N",
+          "iso_slug": "1H-12C-14N",
+          "iso_formula": "(1H)(12C)(14N)",
+          "dataset_name": "Harris",
+          "version": 20161205
+        }
+      ]
+    },
+    "CH3Cl": {
+      "num_molecule_names": 2,
+      "molecule_names": [
+        "Cloromethane",
+        "Methyl chloride"
+      ],
+      "num_isotopologues": 2,
+      "linelist": [
+        {
+          "inchikey": "NEHMKBQYUWJMIP-UHFFFAOYSA-N",
+          "iso_slug": "12C-1H3-35Cl",
+          "iso_formula": "(12C)(1H)3(35Cl)",
+          "dataset_name": "OYT",
+          "version": 20180601
+        },
+        {
+          "inchikey": "NEHMKBQYUWJMIP-HQMMCQRPSA-N",
+          "iso_slug": "12C-1H3-37Cl",
+          "iso_formula": "(12C)(1H)3(37Cl)",
+          "dataset_name": "OYT",
+          "version": 20180601
+        }
+      ]
+    },
+    "H2O2": {
+      "num_molecule_names": 3,
+      "molecule_names": [
+        "Hydrogen peroxide",
+        "Dioxidane",
+        "Oxidanyl"
+      ],
+      "num_isotopologues": 1,
+      "linelist": [
+        {
+          "inchikey": "MHAJPDPJQMAIIY-UHFFFAOYSA-N",
+          "iso_slug": "1H2-16O2",
+          "iso_formula": "(1H)2(16O)2",
+          "dataset_name": "APTY",
+          "version": 20160726
+        }
+      ]
+    },
+    "C2H2": {
+      "num_molecule_names": 2,
+      "molecule_names": [
+        "Ethyne",
+        "Acetylene"
+      ],
+      "num_isotopologues": 1,
+      "linelist": [
+        {
+          "inchikey": "HSFWRNGVRCDJHI-UHFFFAOYSA-N",
+          "iso_slug": "12C2-1H2",
+          "iso_formula": "(12C)2(1H)2",
+          "dataset_name": "aCeTY",
+          "version": 20220918
+        }
+      ]
+    },
+    "PH3": {
+      "num_molecule_names": 5,
+      "molecule_names": [
+        "Phosphine",
+        "Phosphane",
+        "Phosphamine",
+        "Phosphorus trihydride",
+        "Phosphorated hydrogen"
+      ],
+      "num_isotopologues": 1,
+      "linelist": [
+        {
+          "inchikey": "XYFCBTPGUUZFHI-UHFFFAOYSA-N",
+          "iso_slug": "31P-1H3",
+          "iso_formula": "(31P)(1H)3",
+          "dataset_name": "SAlTY",
+          "version": 20170131
+        }
+      ]
+    },
+    "H2S": {
+      "num_molecule_names": 12,
+      "molecule_names": [
+        "Hydrogen sulfide",
+        "Dihydrogen monosulfide",
+        "Dihydrogen sulfide",
+        "Sewer gas",
+        "Sulfane",
+        "Sulfurated hydrogen",
+        "Sulfureted hydrogen",
+        "Sulfuretted hydrogen",
+        "Sulfur hydride",
+        "Hydrosulfuric acid",
+        "Hydrothionic acid",
+        "Sulfhydric acid"
+      ],
+      "num_isotopologues": 1,
+      "linelist": [
+        {
+          "inchikey": "RWSOTUBLDIXVET-UHFFFAOYSA-N",
+          "iso_slug": "1H2-32S",
+          "iso_formula": "(1H)2(32S)",
+          "dataset_name": "AYT2",
+          "version": 20241204
+        }
+      ]
+    },
+    "C2H4": {
+      "num_molecule_names": 2,
+      "molecule_names": [
+        "Ethene",
+        "Ethylene"
+      ],
+      "num_isotopologues": 1,
+      "linelist": [
+        {
+          "inchikey": "VGGSQFUCUMXWEO-UHFFFAOYSA-N",
+          "iso_slug": "12C2-1H4",
+          "iso_formula": "(12C)2(1H)4",
+          "dataset_name": "MaYTY",
+          "version": 20180514
+        }
+      ]
+    },
+    "CS": {
+      "num_molecule_names": 2,
+      "molecule_names": [
+        "Carbon monosulfide",
+        "Carbon(II) sulfide"
+      ],
+      "num_isotopologues": 8,
+      "linelist": [
+        {
+          "inchikey": "DXHPZXWIPWDXHJ-UHFFFAOYSA-N",
+          "iso_slug": "12C-32S",
+          "iso_formula": "(12C)(32S)",
+          "dataset_name": "JnK",
+          "version": 20160726
+        },
+        {
+          "inchikey": "DXHPZXWIPWDXHJ-VQEHIDDOSA-N",
+          "iso_slug": "12C-33S",
+          "iso_formula": "(12C)(33S)",
+          "dataset_name": "JnK",
+          "version": 20160726
+        },
+        {
+          "inchikey": "DXHPZXWIPWDXHJ-HQMMCQRPSA-N",
+          "iso_slug": "12C-34S",
+          "iso_formula": "(12C)(34S)",
+          "dataset_name": "JnK",
+          "version": 20160726
+        },
+        {
+          "inchikey": "DXHPZXWIPWDXHJ-XKBLRHCCSA-N",
+          "iso_slug": "12C-36S",
+          "iso_formula": "(12C)(36S)",
+          "dataset_name": "JnK",
+          "version": 20160726
+        },
+        {
+          "inchikey": "DXHPZXWIPWDXHJ-OUBTZVSYSA-N",
+          "iso_slug": "13C-32S",
+          "iso_formula": "(13C)(32S)",
+          "dataset_name": "JnK",
+          "version": 20160726
+        },
+        {
+          "inchikey": "DXHPZXWIPWDXHJ-ZIIAHIFVSA-N",
+          "iso_slug": "13C-33S",
+          "iso_formula": "(13C)(33S)",
+          "dataset_name": "JnK",
+          "version": 20160726
+        },
+        {
+          "inchikey": "DXHPZXWIPWDXHJ-KUEOXBMXSA-N",
+          "iso_slug": "13C-34S",
+          "iso_formula": "(13C)(34S)",
+          "dataset_name": "JnK",
+          "version": 20160726
+        },
+        {
+          "inchikey": "DXHPZXWIPWDXHJ-SZZQIKPLSA-N",
+          "iso_slug": "13C-36S",
+          "iso_formula": "(13C)(36S)",
+          "dataset_name": "JnK",
+          "version": 20160726
+        }
+      ]
+    },
+    "H2": {
+      "num_molecule_names": 1,
+      "molecule_names": [
+        "Deuterium hydride"
+      ],
+      "num_isotopologues": 2,
+      "linelist": [
+        {
+          "inchikey": "ZZIJOQHRUPVPQC-OUBTZVSYSA-N",
+          "iso_slug": "1H-2H",
+          "iso_formula": "(1H)(2H)",
+          "dataset_name": "ADJSAAM",
+          "version": 20190626
+        },
+        {
+          "inchikey": "UFHFLCQGNIYNRP-UHFFFAOYSA-N",
+          "iso_slug": "1H2",
+          "iso_formula": "(1H)2",
+          "dataset_name": "ARLR",
+          "version": 20230905
+        },
+        {
+          "inchikey": "UFHFLCQGNIYNRP-UHFFFAOYSA-N",
+          "iso_slug": "1H2",
+          "iso_formula": "(1H)2",
+          "dataset_name": "RACPPK",
+          "version": 20230826
+        }
+      ]
+    },
+    "LiH": {
+      "num_molecule_names": 2,
+      "molecule_names": [
+        "Lithium monohydride",
+        "Lithium(I) hydride"
+      ],
+      "num_isotopologues": 1,
+      "linelist": [
+        {
+          "inchikey": "SIAPCJWMELPYOE-UHFFFAOYSA-N",
+          "iso_slug": "7Li-1H",
+          "iso_formula": "(7Li)(1H)",
+          "dataset_name": "CLT",
+          "version": 20160927
+        }
+      ]
+    },
+    "LiH+": {
+      "num_molecule_names": 2,
+      "molecule_names": [
+        "Lithium monohydride",
+        "Lithium(I) hydride"
+      ],
+      "num_isotopologues": 1,
+      "linelist": [
+        {
+          "inchikey": "HSOYNNFNUCWPIZ-UHFFFAOYSA-N",
+          "iso_slug": "7Li-1H_p",
+          "iso_formula": "(7Li)(1H)+",
+          "dataset_name": "CLT",
+          "version": 20160726
+        }
+      ]
+    },
+    "FeH": {
+      "num_molecule_names": 3,
+      "molecule_names": [
+        "Iron monohydride",
+        "Iron(I) hydride",
+        "Iron hydride"
+      ],
+      "num_isotopologues": 1,
+      "linelist": [
+        {
+          "inchikey": "VWDRTGQNZKYVEZ-UHFFFAOYSA-N",
+          "iso_slug": "56Fe-1H",
+          "iso_formula": "(56Fe)(1H)",
+          "dataset_name": "MoLLIST",
+          "version": 20160726
+        }
+      ]
+    },
+    "TiH": {
+      "num_molecule_names": 2,
+      "molecule_names": [
+        "Titanium monohydride",
+        "Titanium(I) hydride"
+      ],
+      "num_isotopologues": 1,
+      "linelist": [
+        {
+          "inchikey": "FUMHXHODRLFENL-UHFFFAOYSA-N",
+          "iso_slug": "48Ti-1H",
+          "iso_formula": "(48Ti)(1H)",
+          "dataset_name": "MoLLIST",
+          "version": 20160726
+        }
+      ]
+    },
+    "BeH": {
+      "num_molecule_names": 2,
+      "molecule_names": [
+        "Beryllium monohydride",
+        "Beryllium(I) hydride"
+      ],
+      "num_isotopologues": 3,
+      "linelist": [
+        {
+          "inchikey": "AYBCUKQQDUJLQN-UHFFFAOYSA-N",
+          "iso_slug": "9Be-1H",
+          "iso_formula": "(9Be)(1H)",
+          "dataset_name": "Darby-Lewis",
+          "version": 20180212
+        },
+        {
+          "inchikey": "AYBCUKQQDUJLQN-UHFFFAOYSA-2",
+          "iso_slug": "9Be-2H",
+          "iso_formula": "(9Be)(2H)",
+          "dataset_name": "Darby-Lewis",
+          "version": 20180212
+        },
+        {
+          "inchikey": "AYBCUKQQDUJLQN-UHFFFAOYSA-3",
+          "iso_slug": "9Be-3H",
+          "iso_formula": "(9Be)(3H)",
+          "dataset_name": "Darby-Lewis",
+          "version": 20180212
+        }
+      ]
+    },
+    "CaH": {
+      "num_molecule_names": 2,
+      "molecule_names": [
+        "Calcium monohydride",
+        "Calcium(I) hydride"
+      ],
+      "num_isotopologues": 1,
+      "linelist": [
+        {
+          "inchikey": "PKHCKQOIOXDRJH-UHFFFAOYSA-N",
+          "iso_slug": "40Ca-1H",
+          "iso_formula": "(40Ca)(1H)",
+          "dataset_name": "XAB",
+          "version": 20220211
+        }
+      ]
+    },
+    "CrH": {
+      "num_molecule_names": 4,
+      "molecule_names": [
+        "Chromium(I) hydride",
+        "Chromium hydride",
+        "Chromium monohydride",
+        "Chromhydrid"
+      ],
+      "num_isotopologues": 1,
+      "linelist": [
+        {
+          "inchikey": "SEGIELJIHJYODU-UHFFFAOYSA-N",
+          "iso_slug": "52Cr-1H",
+          "iso_formula": "(52Cr)(1H)",
+          "dataset_name": "MoLLIST",
+          "version": 20160726
+        }
+      ]
+    },
+    "SiH": {
+      "num_molecule_names": 2,
+      "molecule_names": [
+        "Silicon monohydride",
+        "Silylidyne"
+      ],
+      "num_isotopologues": 4,
+      "linelist": [
+        {
+          "inchikey": "QHGSGZLLHBKSAH-UHFFFAOYSA-N",
+          "iso_slug": "28Si-1H",
+          "iso_formula": "(28Si)(1H)",
+          "dataset_name": "SiGHTLY",
+          "version": 20171101
+        },
+        {
+          "inchikey": "QHGSGZLLHBKSAH-MICDWDOJSA-N",
+          "iso_slug": "28Si-2H",
+          "iso_formula": "(28Si)(2H)",
+          "dataset_name": "SiGHTLY",
+          "version": 20171101
+        },
+        {
+          "inchikey": "QHGSGZLLHBKSAH-OUBTZVSYSA-N",
+          "iso_slug": "29Si-1H",
+          "iso_formula": "(29Si)(1H)",
+          "dataset_name": "SiGHTLY",
+          "version": 20171101
+        },
+        {
+          "inchikey": "QHGSGZLLHBKSAH-NJFSPNSNSA-N",
+          "iso_slug": "30Si-1H",
+          "iso_formula": "(30Si)(1H)",
+          "dataset_name": "SiGHTLY",
+          "version": 20171101
+        }
+      ]
+    },
+    "AlH": {
+      "num_molecule_names": 1,
+      "molecule_names": [
+        "Aluminium monohydride"
+      ],
+      "num_isotopologues": 2,
+      "linelist": [
+        {
+          "inchikey": "SPRIOUNJHPCKPV-UHFFFAOYSA-N",
+          "iso_slug": "27Al-1H",
+          "iso_formula": "(27Al)(1H)",
+          "dataset_name": "AloHa",
+          "version": 20240307
+        },
+        {
+          "inchikey": "SPRIOUNJHPCKPV-IEOVAKBOSA-N",
+          "iso_slug": "27Al-2H",
+          "iso_formula": "(27Al)(2H)",
+          "dataset_name": "AloHa",
+          "version": 20240307
+        }
+      ]
+    },
+    "NaH": {
+      "num_molecule_names": 1,
+      "molecule_names": [
+        "Sodium hydride"
+      ],
+      "num_isotopologues": 2,
+      "linelist": [
+        {
+          "inchikey": "MPMYQQHEHYDOCL-UHFFFAOYSA-N",
+          "iso_slug": "23Na-1H",
+          "iso_formula": "(23Na)(1H)",
+          "dataset_name": "Rivlin",
+          "version": 20160804
+        },
+        {
+          "inchikey": "MPMYQQHEHYDOCL-VQEHIDDOSA-N",
+          "iso_slug": "23Na-2H",
+          "iso_formula": "(23Na)(2H)",
+          "dataset_name": "Rivlin",
+          "version": 20160804
+        }
+      ]
+    },
+    "MgH": {
+      "num_molecule_names": 2,
+      "molecule_names": [
+        "Magnesium monohydride",
+        "Magnesium(I) hydride"
+      ],
+      "num_isotopologues": 3,
+      "linelist": [
+        {
+          "inchikey": "RZCHRULKKYOSQS-UHFFFAOYSA-N",
+          "iso_slug": "24Mg-1H",
+          "iso_formula": "(24Mg)(1H)",
+          "dataset_name": "XAB",
+          "version": 20220211
+        },
+        {
+          "inchikey": "RZCHRULKKYOSQS-YTBWXGASSA-N",
+          "iso_slug": "25Mg-1H",
+          "iso_formula": "(25Mg)(1H)",
+          "dataset_name": "XAB",
+          "version": 20220211
+        },
+        {
+          "inchikey": "RZCHRULKKYOSQS-DEQYMQKBSA-N",
+          "iso_slug": "26Mg-1H",
+          "iso_formula": "(26Mg)(1H)",
+          "dataset_name": "XAB",
+          "version": 20220211
+        }
+      ]
+    },
+    "SiO": {
+      "num_molecule_names": 1,
+      "molecule_names": [
+        "Silicon monoxide"
+      ],
+      "num_isotopologues": 1,
+      "linelist": [
+        {
+          "inchikey": "LIVNPJMFVYWSIS-UHFFFAOYSA-N",
+          "iso_slug": "28Si-16O",
+          "iso_formula": "(28Si)(16O)",
+          "dataset_name": "SiOUVenIR",
+          "version": 20211105
+        }
+      ]
+    },
+    "TiO": {
+      "num_molecule_names": 2,
+      "molecule_names": [
+        "Titanium monoxide",
+        "Titanium(II) oxide"
+      ],
+      "num_isotopologues": 5,
+      "linelist": [
+        {
+          "inchikey": "KZWJQQBLIBIGGJ-FXMLPJBTSA-N",
+          "iso_slug": "46Ti-16O",
+          "iso_formula": "(46Ti)(16O)",
+          "dataset_name": "Toto",
+          "version": 20240509
+        },
+        {
+          "inchikey": "KZWJQQBLIBIGGJ-ULWFUOSBSA-N",
+          "iso_slug": "47Ti-16O",
+          "iso_formula": "(47Ti)(16O)",
+          "dataset_name": "Toto",
+          "version": 20240509
+        },
+        {
+          "inchikey": "KZWJQQBLIBIGGJ-UHFFFAOYSA-N",
+          "iso_slug": "48Ti-16O",
+          "iso_formula": "(48Ti)(16O)",
+          "dataset_name": "Toto",
+          "version": 20240509
+        },
+        {
+          "inchikey": "KZWJQQBLIBIGGJ-YTBWXGASSA-N",
+          "iso_slug": "49Ti-16O",
+          "iso_formula": "(49Ti)(16O)",
+          "dataset_name": "Toto",
+          "version": 20240509
+        },
+        {
+          "inchikey": "KZWJQQBLIBIGGJ-DEQYMQKBSA-N",
+          "iso_slug": "50Ti-16O",
+          "iso_formula": "(50Ti)(16O)",
+          "dataset_name": "Toto",
+          "version": 20240509
+        }
+      ]
+    },
+    "MgO": {
+      "num_molecule_names": 1,
+      "molecule_names": [
+        "Magnesium oxide"
+      ],
+      "num_isotopologues": 5,
+      "linelist": [
+        {
+          "inchikey": "AXZKOIWUVFPNLO-UHFFFAOYSA-N",
+          "iso_slug": "24Mg-16O",
+          "iso_formula": "(24Mg)(16O)",
+          "dataset_name": "LiTY",
+          "version": 20241211
+        },
+        {
+          "inchikey": "MXDVONUOKSYWHF-VQEHIDDOSA-N",
+          "iso_slug": "24Mg-17O",
+          "iso_formula": "(24Mg)(17O)",
+          "dataset_name": "LiTY",
+          "version": 20241211
+        },
+        {
+          "inchikey": "MXDVONUOKSYWHF-HQMMCQRPSA-N",
+          "iso_slug": "24Mg-18O",
+          "iso_formula": "(24Mg)(18O)",
+          "dataset_name": "LiTY",
+          "version": 20241211
+        },
+        {
+          "inchikey": "MXDVONUOKSYWHF-OUBTZVSYSA-N",
+          "iso_slug": "25Mg-16O",
+          "iso_formula": "(25Mg)(16O)",
+          "dataset_name": "LiTY",
+          "version": 20241211
+        },
+        {
+          "inchikey": "MXDVONUOKSYWHF-NJFSPNSNSA-N",
+          "iso_slug": "26Mg-16O",
+          "iso_formula": "(26Mg)(16O)",
+          "dataset_name": "LiTY",
+          "version": 20241211
+        }
+      ]
+    },
+    "H3+": {
+      "num_molecule_names": 2,
+      "molecule_names": [
+        "Trihydrogen cation",
+        "Protonated molecular hydrogen"
+      ],
+      "num_isotopologues": 4,
+      "linelist": [
+        {
+          "inchikey": "QWLPJNYQVKBMAN-OUBTZVSYSA-N",
+          "iso_slug": "1H2-2H_p",
+          "iso_formula": "(1H)2(2H)+",
+          "dataset_name": "ST",
+          "version": 20230123
+        },
+        {
+          "inchikey": "QWLPJNYQVKBMAN-UHFFFAOYSA-N",
+          "iso_slug": "1H3_p",
+          "iso_formula": "(1H)3+",
+          "dataset_name": "MiZATeP",
+          "version": 20230123
+        },
+        {
+          "inchikey": "QWLPJNYQVKBMAN-VVKOMZTBSA-N",
+          "iso_slug": "2H2-1H_p",
+          "iso_formula": "(2H)2(1H)+",
+          "dataset_name": "MiZo",
+          "version": 20221221
+        },
+        {
+          "inchikey": "QWLPJNYQVKBMAN-WGVGGRBOSA-N",
+          "iso_slug": "2H3_p",
+          "iso_formula": "(2H)3+",
+          "dataset_name": "MiZo",
+          "version": 20230124
+        }
+      ]
+    },
+    "HeH+": {
+      "num_molecule_names": 3,
+      "molecule_names": [
+        "Helium hydride ion",
+        "Hydridohelium(1+)",
+        "helium-hydride molecular ion"
+      ],
+      "num_isotopologues": 4,
+      "linelist": [
+        {
+          "inchikey": "HSFAAVLNFOAYQX-BJUDXGSMSA-N",
+          "iso_slug": "3He-1H_p",
+          "iso_formula": "(3He)(1H)+",
+          "dataset_name": "ADJSAAM",
+          "version": 20200725
+        },
+        {
+          "inchikey": "HSFAAVLNFOAYQX-QIAWKQIGSA-N",
+          "iso_slug": "3He-2H_p",
+          "iso_formula": "(3He)(2H)+",
+          "dataset_name": "ADJSAAM",
+          "version": 20200725
+        },
+        {
+          "inchikey": "HSFAAVLNFOAYQX-UHFFFAOYSA-N",
+          "iso_slug": "4He-1H_p",
+          "iso_formula": "(4He)(1H)+",
+          "dataset_name": "ADJSAAM",
+          "version": 20200725
+        },
+        {
+          "inchikey": "HSFAAVLNFOAYQX-MICDWDOJSA-N",
+          "iso_slug": "4He-2H_p",
+          "iso_formula": "(4He)(2H)+",
+          "dataset_name": "ADJSAAM",
+          "version": 20200725
+        }
+      ]
+    },
+    "H2+": {
+      "num_molecule_names": 1,
+      "molecule_names": [
+        "Deuterium hydride ion"
+      ],
+      "num_isotopologues": 1,
+      "linelist": [
+        {
+          "inchikey": "ZZIJOQHRUPVPQC-OUBTZVSYSA-N",
+          "iso_slug": "1H-2H_p",
+          "iso_formula": "(1H)(2H)+",
+          "dataset_name": "ADJSAAM",
+          "version": 20200725
+        }
+      ]
+    },
+    "C2": {
+      "num_molecule_names": 3,
+      "molecule_names": [
+        "Diatomic carbon",
+        "Ethenediylidene",
+        "Dicarbon"
+      ],
+      "num_isotopologues": 3,
+      "linelist": [
+        {
+          "inchikey": "LBVWYGNGGJURHQ-VQEHIDDOSA-N",
+          "iso_slug": "12C-13C",
+          "iso_formula": "(12C)(13C)",
+          "dataset_name": "8states",
+          "version": 20200824
+        },
+        {
+          "inchikey": "LBVWYGNGGJURHQ-UHFFFAOYSA-N",
+          "iso_slug": "12C2",
+          "iso_formula": "(12C)2",
+          "dataset_name": "8states",
+          "version": 20200628
+        },
+        {
+          "inchikey": "LBVWYGNGGJURHQ-ZDOIIHCHSA-N",
+          "iso_slug": "13C2",
+          "iso_formula": "(13C)2",
+          "dataset_name": "8states",
+          "version": 20201108
+        }
+      ]
+    },
+    "CN": {
+      "num_molecule_names": 2,
+      "molecule_names": [
+        "Cyanide",
+        "Cyano group"
+      ],
+      "num_isotopologues": 4,
+      "linelist": [
+        {
+          "inchikey": "JEVCWSUVFOYBFI-UHFFFAOYSA-N",
+          "iso_slug": "12C-14N",
+          "iso_formula": "(12C)(14N)",
+          "dataset_name": "Trihybrid",
+          "version": 20210526
+        },
+        {
+          "inchikey": "JEVCWSUVFOYBFI-VQEHIDDOSA-N",
+          "iso_slug": "12C-15N",
+          "iso_formula": "(12C)(15N)",
+          "dataset_name": "Trihybrid",
+          "version": 20210526
+        },
+        {
+          "inchikey": "JEVCWSUVFOYBFI-OUBTZVSYSA-N",
+          "iso_slug": "13C-14N",
+          "iso_formula": "(13C)(14N)",
+          "dataset_name": "Trihybrid",
+          "version": 20210526
+        },
+        {
+          "inchikey": "JEVCWSUVFOYBFI-ZDOIIHCHSA-N",
+          "iso_slug": "13C-15N",
+          "iso_formula": "(13C)(15N)",
+          "dataset_name": "Trihybrid",
+          "version": 20210526
+        }
+      ]
+    },
+    "CH": {
+      "num_molecule_names": 3,
+      "molecule_names": [
+        "Methylidyne",
+        "hydridocarbon",
+        "carbyne"
+      ],
+      "num_isotopologues": 2,
+      "linelist": [
+        {
+          "inchikey": "VRLIPUYDFBXWCH-UHFFFAOYSA-N",
+          "iso_slug": "12C-1H",
+          "iso_formula": "(12C)(1H)",
+          "dataset_name": "MoLLIST",
+          "version": 20190214
+        },
+        {
+          "inchikey": "VRLIPUYDFBXWCH-OUBTZVSYSA-N",
+          "iso_slug": "13C-1H",
+          "iso_formula": "(13C)(1H)",
+          "dataset_name": "MoLLIST",
+          "version": 20160726
+        }
+      ]
+    },
+    "LiCl": {
+      "num_molecule_names": 1,
+      "molecule_names": [
+        "Lithium chloride"
+      ],
+      "num_isotopologues": 4,
+      "linelist": [
+        {
+          "inchikey": "KWGKDLIKAYFUFQ-UHFFFAOYSA-X",
+          "iso_slug": "6Li-35Cl",
+          "iso_formula": "(6Li)(35Cl)",
+          "dataset_name": "MoLLIST",
+          "version": 20180709
+        },
+        {
+          "inchikey": "KWGKDLIKAYFUFQ-DEQYMQKBSA-X",
+          "iso_slug": "6Li-37Cl",
+          "iso_formula": "(6Li)(37Cl)",
+          "dataset_name": "MoLLIST",
+          "version": 20180709
+        },
+        {
+          "inchikey": "KWGKDLIKAYFUFQ-UHFFFAOYSA-M",
+          "iso_slug": "7Li-35Cl",
+          "iso_formula": "(7Li)(35Cl)",
+          "dataset_name": "MoLLIST",
+          "version": 20180709
+        },
+        {
+          "inchikey": "KWGKDLIKAYFUFQ-DEQYMQKBSA-M",
+          "iso_slug": "7Li-37Cl",
+          "iso_formula": "(7Li)(37Cl)",
+          "dataset_name": "MoLLIST",
+          "version": 20180709
+        }
+      ]
+    },
+    "NaCl": {
+      "num_molecule_names": 7,
+      "molecule_names": [
+        "Sodium chloride",
+        "Common salt",
+        "Halite",
+        "Rock salt",
+        "Saline",
+        "Sodium chloric",
+        "Table salt"
+      ],
+      "num_isotopologues": 2,
+      "linelist": [
+        {
+          "inchikey": "FAPWRFPIFSIZLT-UHFFFAOYSA-M",
+          "iso_slug": "23Na-35Cl",
+          "iso_formula": "(23Na)(35Cl)",
+          "dataset_name": "Barton",
+          "version": 20160726
+        },
+        {
+          "inchikey": "FAPWRFPIFSIZLT-DEQYMQKBSA-M",
+          "iso_slug": "23Na-37Cl",
+          "iso_formula": "(23Na)(37Cl)",
+          "dataset_name": "Barton",
+          "version": 20160726
+        }
+      ]
+    },
+    "NH": {
+      "num_molecule_names": 1,
+      "molecule_names": [
+        "Nitrogen monohydride"
+      ],
+      "num_isotopologues": 4,
+      "linelist": [
+        {
+          "inchikey": "PDCKRJPYJMCOFO-UHFFFAOYSA-N",
+          "iso_slug": "14N-1H",
+          "iso_formula": "(14N)(1H)",
+          "dataset_name": "kNigHt",
+          "version": 20240301
+        },
+        {
+          "inchikey": "PDCKRJPYJMCOFO-MICDWDOJSA-N",
+          "iso_slug": "14N-2H",
+          "iso_formula": "(14N)(2H)",
+          "dataset_name": "kNigHt",
+          "version": 20240301
+        },
+        {
+          "inchikey": "PWRPVZHGGJTREH-OUBTZVSYSA-N",
+          "iso_slug": "15N-1H",
+          "iso_formula": "(15N)(1H)",
+          "dataset_name": "kNigHt",
+          "version": 20240301
+        },
+        {
+          "inchikey": "SHQROCLHCPBSPB-ZIIAHIFVSA-N",
+          "iso_slug": "15N-2H",
+          "iso_formula": "(15N)(2H)",
+          "dataset_name": "kNigHt",
+          "version": 20240301
+        }
+      ]
+    },
+    "SO3": {
+      "num_molecule_names": 3,
+      "molecule_names": [
+        "Sulfur trioxide",
+        "Sulfonylideneoxidane",
+        "Sulfuric anhydride"
+      ],
+      "num_isotopologues": 1,
+      "linelist": [
+        {
+          "inchikey": "AKEJUJNQAAGONA-UHFFFAOYSA-N",
+          "iso_slug": "32S-16O3",
+          "iso_formula": "(32S)(16O)3",
+          "dataset_name": "UYT2",
+          "version": 20170107
+        }
+      ]
+    },
+    "YO": {
+      "num_molecule_names": 2,
+      "molecule_names": [
+        "Yttrium(II) oxide",
+        "Yttrium monoxide"
+      ],
+      "num_isotopologues": 3,
+      "linelist": [
+        {
+          "inchikey": "APUGIHICMSAKGR-UHFFFAOYSA-N",
+          "iso_slug": "89Y-16O",
+          "iso_formula": "(89Y)(16O)",
+          "dataset_name": "BRYTS",
+          "version": 20230916
+        },
+        {
+          "inchikey": "APUGIHICMSAKGR-DDBDWIKTSA-N",
+          "iso_slug": "89Y-17O",
+          "iso_formula": "(89Y)(17O)",
+          "dataset_name": "BRYTS",
+          "version": 20230916
+        },
+        {
+          "inchikey": "APUGIHICMSAKGR-OJTQQMQBSA-N",
+          "iso_slug": "89Y-18O",
+          "iso_formula": "(89Y)(18O)",
+          "dataset_name": "BRYTS",
+          "version": 20230916
+        }
+      ]
+    },
+    "VO": {
+      "num_molecule_names": 4,
+      "molecule_names": [
+        "Vanadium oxide (VO)",
+        "Vanadium(II) oxide",
+        "Vanadium monooxide",
+        "Oxovanadium"
+      ],
+      "num_isotopologues": 1,
+      "linelist": [
+        {
+          "inchikey": "IBYSTTGVDIFUAY-UHFFFAOYSA-N",
+          "iso_slug": "51V-16O",
+          "iso_formula": "(51V)(16O)",
+          "dataset_name": "HyVO",
+          "version": 20231218
+        }
+      ]
+    },
+    "SH": {
+      "num_molecule_names": 4,
+      "molecule_names": [
+        "Sulfanyl",
+        "Sulphanyl",
+        "Sulfur monohydride",
+        "Sulphur monohydride"
+      ],
+      "num_isotopologues": 5,
+      "linelist": [
+        {
+          "inchikey": "PXQLVRUNWNTZOS-UHFFFAOYSA-N",
+          "iso_slug": "32S-1H",
+          "iso_formula": "(32S)(1H)",
+          "dataset_name": "GYT",
+          "version": 20190801
+        },
+        {
+          "inchikey": "PXQLVRUNWNTZOS-MICDWDOJSA-N",
+          "iso_slug": "32S-2H",
+          "iso_formula": "(32S)(2H)",
+          "dataset_name": "GYT",
+          "version": 20190801
+        },
+        {
+          "inchikey": "PXQLVRUNWNTZOS-OUBTZVSYSA-N",
+          "iso_slug": "33S-1H",
+          "iso_formula": "(33S)(1H)",
+          "dataset_name": "GYT",
+          "version": 20190801
+        },
+        {
+          "inchikey": "PXQLVRUNWNTZOS-NJFSPNSNSA-N",
+          "iso_slug": "34S-1H",
+          "iso_formula": "(34S)(1H)",
+          "dataset_name": "GYT",
+          "version": 20190801
+        },
+        {
+          "inchikey": "PXQLVRUNWNTZOS-RNFDNDRNSA-N",
+          "iso_slug": "36S-1H",
+          "iso_formula": "(36S)(1H)",
+          "dataset_name": "GYT",
+          "version": 20190801
+        }
+      ]
+    },
+    "AlO": {
+      "num_molecule_names": 2,
+      "molecule_names": [
+        "Aluminium(II) oxide",
+        "Aluminium monoxide"
+      ],
+      "num_isotopologues": 4,
+      "linelist": [
+        {
+          "inchikey": "AIRCTMFFNKZQPN-BJUDXGSMSA-N",
+          "iso_slug": "26Al-16O",
+          "iso_formula": "(26Al)(16O)",
+          "dataset_name": "ATP",
+          "version": 20210622
+        },
+        {
+          "inchikey": "AIRCTMFFNKZQPN-UHFFFAOYSA-N",
+          "iso_slug": "27Al-16O",
+          "iso_formula": "(27Al)(16O)",
+          "dataset_name": "ATP",
+          "version": 20210622
+        },
+        {
+          "inchikey": "AIRCTMFFNKZQPN-VQEHIDDOSA-N",
+          "iso_slug": "27Al-17O",
+          "iso_formula": "(27Al)(17O)",
+          "dataset_name": "ATP",
+          "version": 20210622
+        },
+        {
+          "inchikey": "AIRCTMFFNKZQPN-HQMMCQRPSA-N",
+          "iso_slug": "27Al-18O",
+          "iso_formula": "(27Al)(18O)",
+          "dataset_name": "ATP",
+          "version": 20210622
+        }
+      ]
+    },
+    "ScH": {
+      "num_molecule_names": 2,
+      "molecule_names": [
+        "Scandium monohydride",
+        "Scandium(I) hydride"
+      ],
+      "num_isotopologues": 1,
+      "linelist": [
+        {
+          "inchikey": "ZTOCXCPDHKWLBM-UHFFFAOYSA-N",
+          "iso_slug": "45Sc-1H",
+          "iso_formula": "(45Sc)(1H)",
+          "dataset_name": "LYT",
+          "version": 20160726
+        }
+      ]
+    },
+    "KCl": {
+      "num_molecule_names": 3,
+      "molecule_names": [
+        "Potassium chloride",
+        "Sylvite",
+        "Muriate of potash"
+      ],
+      "num_isotopologues": 4,
+      "linelist": [
+        {
+          "inchikey": "WCUXLLCKKVVCTQ-UHFFFAOYSA-M",
+          "iso_slug": "39K-35Cl",
+          "iso_formula": "(39K)(35Cl)",
+          "dataset_name": "Barton",
+          "version": 20160726
+        },
+        {
+          "inchikey": "WCUXLLCKKVVCTQ-DEQYMQKBSA-M",
+          "iso_slug": "39K-37Cl",
+          "iso_formula": "(39K)(37Cl)",
+          "dataset_name": "Barton",
+          "version": 20160726
+        },
+        {
+          "inchikey": "WCUXLLCKKVVCTQ-NLQOEHMXSA-M",
+          "iso_slug": "41K-35Cl",
+          "iso_formula": "(41K)(35Cl)",
+          "dataset_name": "Barton",
+          "version": 20160726
+        },
+        {
+          "inchikey": "WCUXLLCKKVVCTQ-OPUYPRJVSA-M",
+          "iso_slug": "41K-37Cl",
+          "iso_formula": "(41K)(37Cl)",
+          "dataset_name": "Barton",
+          "version": 20160726
+        }
+      ]
+    },
+    "CaO": {
+      "num_molecule_names": 5,
+      "molecule_names": [
+        "Calcium oxide",
+        "Quicklime",
+        "burnt lime",
+        "unslaked lime",
+        "pebble lime"
+      ],
+      "num_isotopologues": 1,
+      "linelist": [
+        {
+          "inchikey": "ODINCKMPIJJUCX-UHFFFAOYSA-N",
+          "iso_slug": "40Ca-16O",
+          "iso_formula": "(40Ca)(16O)",
+          "dataset_name": "VBATHY",
+          "version": 20230220
+        }
+      ]
+    },
+    "CP": {
+      "num_molecule_names": 1,
+      "molecule_names": [
+        "Carbon phosphorous"
+      ],
+      "num_isotopologues": 1,
+      "linelist": [
+        {
+          "inchikey": "GDPLAAHPHNAIGW-UHFFFAOYSA-N",
+          "iso_slug": "12C-31P",
+          "iso_formula": "(12C)(31P)",
+          "dataset_name": "MoLLIST",
+          "version": 20160726
+        }
+      ]
+    },
+    "PN": {
+      "num_molecule_names": 1,
+      "molecule_names": [
+        "Phosphorus mononitride"
+      ],
+      "num_isotopologues": 2,
+      "linelist": [
+        {
+          "inchikey": "AOPJVJYWEDDOBI-UHFFFAOYSA-N",
+          "iso_slug": "31P-14N",
+          "iso_formula": "(31P)(14N)",
+          "dataset_name": "PaiN",
+          "version": 20240505
+        },
+        {
+          "inchikey": "AOPJVJYWEDDOBI-OUBTZVSYSA-N",
+          "iso_slug": "31P-15N",
+          "iso_formula": "(31P)(15N)",
+          "dataset_name": "PaiN",
+          "version": 20240505
+        }
+      ]
+    },
+    "PS": {
+      "num_molecule_names": 2,
+      "molecule_names": [
+        "Phosphorus monosulphide",
+        "Phosphorus monosulfide"
+      ],
+      "num_isotopologues": 1,
+      "linelist": [
+        {
+          "inchikey": "VKCLPVFDVVKEKU-UHFFFAOYSA-N",
+          "iso_slug": "31P-32S",
+          "iso_formula": "(31P)(32S)",
+          "dataset_name": "POPS",
+          "version": 20170910
+        }
+      ]
+    },
+    "PO": {
+      "num_molecule_names": 1,
+      "molecule_names": [
+        "Phosphorus monoxide"
+      ],
+      "num_isotopologues": 1,
+      "linelist": [
+        {
+          "inchikey": "LFGREXWGYUGZLY-UHFFFAOYSA-N",
+          "iso_slug": "31P-16O",
+          "iso_formula": "(31P)(16O)",
+          "dataset_name": "POPS",
+          "version": 20170910
+        }
+      ]
+    },
+    "SiH4": {
+      "num_molecule_names": 2,
+      "molecule_names": [
+        "Silane",
+        "Silicon tetrahydride"
+      ],
+      "num_isotopologues": 1,
+      "linelist": [
+        {
+          "inchikey": "BLRPTPMANUNPDV-UHFFFAOYSA-N",
+          "iso_slug": "28Si-1H4",
+          "iso_formula": "(28Si)(1H)4",
+          "dataset_name": "OY2T",
+          "version": 20170131
+        }
+      ]
+    },
+    "NS": {
+      "num_molecule_names": 2,
+      "molecule_names": [
+        "Mononitrogen monosulfide",
+        "Mononitrogen monosulphide"
+      ],
+      "num_isotopologues": 5,
+      "linelist": [
+        {
+          "inchikey": "QXTCFDCJXWLNAP-UHFFFAOYSA-N",
+          "iso_slug": "14N-32S",
+          "iso_formula": "(14N)(32S)",
+          "dataset_name": "SNaSH",
+          "version": 20180101
+        },
+        {
+          "inchikey": "QXTCFDCJXWLNAP-VQEHIDDOSA-N",
+          "iso_slug": "14N-33S",
+          "iso_formula": "(14N)(33S)",
+          "dataset_name": "SNaSH",
+          "version": 20180101
+        },
+        {
+          "inchikey": "QXTCFDCJXWLNAP-HQMMCQRPSA-N",
+          "iso_slug": "14N-34S",
+          "iso_formula": "(14N)(34S)",
+          "dataset_name": "SNaSH",
+          "version": 20180101
+        },
+        {
+          "inchikey": "QXTCFDCJXWLNAP-XKBLRHCCSA-N",
+          "iso_slug": "14N-36S",
+          "iso_formula": "(14N)(36S)",
+          "dataset_name": "SNaSH",
+          "version": 20180101
+        },
+        {
+          "inchikey": "QXTCFDCJXWLNAP-OUBTZVSYSA-N",
+          "iso_slug": "15N-32S",
+          "iso_formula": "(15N)(32S)",
+          "dataset_name": "SNaSH",
+          "version": 20180101
+        }
+      ]
+    },
+    "CH3F": {
+      "num_molecule_names": 2,
+      "molecule_names": [
+        "Fluoromethane",
+        "Methyl fluoride"
+      ],
+      "num_isotopologues": 1,
+      "linelist": [
+        {
+          "inchikey": "NBVXSUQYWXRMNV-UHFFFAOYSA-N",
+          "iso_slug": "12C-1H3-19F",
+          "iso_formula": "(12C)(1H)3(19F)",
+          "dataset_name": "OYKYT",
+          "version": 20180401
+        }
+      ]
+    },
+    "SiS": {
+      "num_molecule_names": 2,
+      "molecule_names": [
+        "Silicon monosulphide",
+        "Silicon monosulfide"
+      ],
+      "num_isotopologues": 12,
+      "linelist": [
+        {
+          "inchikey": "DWFFKGPZNGKUPH-UHFFFAOYSA-N",
+          "iso_slug": "28Si-32S",
+          "iso_formula": "(28Si)(32S)",
+          "dataset_name": "UCTY",
+          "version": 20180601
+        },
+        {
+          "inchikey": "DWFFKGPZNGKUPH-VQEHIDDOSA-N",
+          "iso_slug": "28Si-33S",
+          "iso_formula": "(28Si)(33S)",
+          "dataset_name": "UCTY",
+          "version": 20180601
+        },
+        {
+          "inchikey": "DWFFKGPZNGKUPH-HQMMCQRPSA-N",
+          "iso_slug": "28Si-34S",
+          "iso_formula": "(28Si)(34S)",
+          "dataset_name": "UCTY",
+          "version": 20180601
+        },
+        {
+          "inchikey": "DWFFKGPZNGKUPH-XKBLRHCCSA-N",
+          "iso_slug": "28Si-36S",
+          "iso_formula": "(28Si)(36S)",
+          "dataset_name": "UCTY",
+          "version": 20180601
+        },
+        {
+          "inchikey": "DWFFKGPZNGKUPH-OUBTZVSYSA-N",
+          "iso_slug": "29Si-32S",
+          "iso_formula": "(29Si)(32S)",
+          "dataset_name": "UCTY",
+          "version": 20180601
+        },
+        {
+          "inchikey": "DWFFKGPZNGKUPH-ZDOIIHCHSA-N",
+          "iso_slug": "29Si-33S",
+          "iso_formula": "(29Si)(33S)",
+          "dataset_name": "UCTY",
+          "version": 20180601
+        },
+        {
+          "inchikey": "DWFFKGPZNGKUPH-RGIGPVFXSA-N",
+          "iso_slug": "29Si-34S",
+          "iso_formula": "(29Si)(34S)",
+          "dataset_name": "UCTY",
+          "version": 20180601
+        },
+        {
+          "inchikey": "DWFFKGPZNGKUPH-JOTDZXCOSA-N",
+          "iso_slug": "29Si-36S",
+          "iso_formula": "(29Si)(36S)",
+          "dataset_name": "UCTY",
+          "version": 20180601
+        },
+        {
+          "inchikey": "DWFFKGPZNGKUPH-NJFSPNSNSA-N",
+          "iso_slug": "30Si-32S",
+          "iso_formula": "(30Si)(32S)",
+          "dataset_name": "UCTY",
+          "version": 20180601
+        },
+        {
+          "inchikey": "DWFFKGPZNGKUPH-WWQQEUHZSA-N",
+          "iso_slug": "30Si-33S",
+          "iso_formula": "(30Si)(33S)",
+          "dataset_name": "UCTY",
+          "version": 20180601
+        },
+        {
+          "inchikey": "DWFFKGPZNGKUPH-XPULMUKRSA-N",
+          "iso_slug": "30Si-34S",
+          "iso_formula": "(30Si)(34S)",
+          "dataset_name": "UCTY",
+          "version": 20180601
+        },
+        {
+          "inchikey": "DWFFKGPZNGKUPH-NBRKPRHBSA-N",
+          "iso_slug": "30Si-36S",
+          "iso_formula": "(30Si)(36S)",
+          "dataset_name": "UCTY",
+          "version": 20180601
+        }
+      ]
+    },
+    "LiF": {
+      "num_molecule_names": 1,
+      "molecule_names": [
+        "Lithium fluoride"
+      ],
+      "num_isotopologues": 2,
+      "linelist": [
+        {
+          "inchikey": "PQXKHYXIUOZZFA-UHFFFAOYSA-X",
+          "iso_slug": "6Li-19F",
+          "iso_formula": "(6Li)(19F)",
+          "dataset_name": "MoLLIST",
+          "version": 20180706
+        },
+        {
+          "inchikey": "PQXKHYXIUOZZFA-UHFFFAOYSA-M",
+          "iso_slug": "7Li-19F",
+          "iso_formula": "(7Li)(19F)",
+          "dataset_name": "MoLLIST",
+          "version": 20180706
+        }
+      ]
+    },
+    "NaF": {
+      "num_molecule_names": 1,
+      "molecule_names": [
+        "Sodium fluoride"
+      ],
+      "num_isotopologues": 1,
+      "linelist": [
+        {
+          "inchikey": "PUZPDOWCWNUUKD-UHFFFAOYSA-M",
+          "iso_slug": "23Na-19F",
+          "iso_formula": "(23Na)(19F)",
+          "dataset_name": "MoLLIST",
+          "version": 20180713
+        }
+      ]
+    },
+    "KF": {
+      "num_molecule_names": 1,
+      "molecule_names": [
+        "Potassium fluoride"
+      ],
+      "num_isotopologues": 2,
+      "linelist": [
+        {
+          "inchikey": "NROKBHXJSPEDAR-UHFFFAOYSA-M",
+          "iso_slug": "39K-19F",
+          "iso_formula": "(39K)(19F)",
+          "dataset_name": "MoLLIST",
+          "version": 20180716
+        },
+        {
+          "inchikey": "UNBLQQOGXZQQHO-NLQOEHMXSA-M",
+          "iso_slug": "41K-19F",
+          "iso_formula": "(41K)(19F)",
+          "dataset_name": "MoLLIST",
+          "version": 20180716
+        }
+      ]
+    },
+    "AlCl": {
+      "num_molecule_names": 1,
+      "molecule_names": [
+        "Aluminium monochloride"
+      ],
+      "num_isotopologues": 2,
+      "linelist": [
+        {
+          "inchikey": "IZMHKHHRLNWLMK-UHFFFAOYSA-M",
+          "iso_slug": "27Al-35Cl",
+          "iso_formula": "(27Al)(35Cl)",
+          "dataset_name": "YNAT",
+          "version": 20221231
+        },
+        {
+          "inchikey": "HLMARYJDZMOJJC-HQMMCQRPSA-N",
+          "iso_slug": "27Al-37Cl",
+          "iso_formula": "(27Al)(37Cl)",
+          "dataset_name": "YNAT",
+          "version": 20221231
+        }
+      ]
+    },
+    "AlF": {
+      "num_molecule_names": 1,
+      "molecule_names": [
+        "Aluminium monofluoride"
+      ],
+      "num_isotopologues": 1,
+      "linelist": [
+        {
+          "inchikey": "APURLPHDHPNUFL-UHFFFAOYSA-M",
+          "iso_slug": "27Al-19F",
+          "iso_formula": "(27Al)(19F)",
+          "dataset_name": "MoLLIST",
+          "version": 20221307
+        }
+      ]
+    },
+    "CaF": {
+      "num_molecule_names": 1,
+      "molecule_names": [
+        "Calcium monofluoride"
+      ],
+      "num_isotopologues": 6,
+      "linelist": [
+        {
+          "inchikey": "PMJVACMPRFHIPZ-UHFFFAOYSA-M",
+          "iso_slug": "40Ca-19F",
+          "iso_formula": "(40Ca)(19F)",
+          "dataset_name": "MoLLIST",
+          "version": 20180713
+        },
+        {
+          "inchikey": "GLWLHVXSYOTACU-NJFSPNSNSA-M",
+          "iso_slug": "42Ca-19F",
+          "iso_formula": "(42Ca)(19F)",
+          "dataset_name": "MoLLIST",
+          "version": 20180713
+        },
+        {
+          "inchikey": "GLWLHVXSYOTACU-AKLPVKDBSA-M",
+          "iso_slug": "43Ca-19F",
+          "iso_formula": "(43Ca)(19F)",
+          "dataset_name": "MoLLIST",
+          "version": 20180713
+        },
+        {
+          "inchikey": "GLWLHVXSYOTACU-RNFDNDRNSA-M",
+          "iso_slug": "44Ca-19F",
+          "iso_formula": "(44Ca)(19F)",
+          "dataset_name": "MoLLIST",
+          "version": 20180713
+        },
+        {
+          "inchikey": "GLWLHVXSYOTACU-LZFNBGRKSA-M",
+          "iso_slug": "46Ca-19F",
+          "iso_formula": "(46Ca)(19F)",
+          "dataset_name": "MoLLIST",
+          "version": 20180713
+        },
+        {
+          "inchikey": "GLWLHVXSYOTACU-CONNIKPHSA-M",
+          "iso_slug": "48Ca-19F",
+          "iso_formula": "(48Ca)(19F)",
+          "dataset_name": "MoLLIST",
+          "version": 20180713
+        }
+      ]
+    },
+    "MgF": {
+      "num_molecule_names": 1,
+      "molecule_names": [
+        "Magnesium monofluoride"
+      ],
+      "num_isotopologues": 3,
+      "linelist": [
+        {
+          "inchikey": "WSXHQDSJUJYQDO-UHFFFAOYSA-M",
+          "iso_slug": "24Mg-19F",
+          "iso_formula": "(24Mg)(19F)",
+          "dataset_name": "MoLLIST",
+          "version": 20180716
+        },
+        {
+          "inchikey": "DEKCOOIJMHCCME-IEOVAKBOSA-M",
+          "iso_slug": "25Mg-19F",
+          "iso_formula": "(25Mg)(19F)",
+          "dataset_name": "MoLLIST",
+          "version": 20180716
+        },
+        {
+          "inchikey": "DEKCOOIJMHCCME-NLQOEHMXSA-M",
+          "iso_slug": "26Mg-19F",
+          "iso_formula": "(26Mg)(19F)",
+          "dataset_name": "MoLLIST",
+          "version": 20180716
+        }
+      ]
+    },
+    "OH+": {
+      "num_molecule_names": 2,
+      "molecule_names": [
+        "Hydroxyl cation",
+        "Hydroxylium"
+      ],
+      "num_isotopologues": 1,
+      "linelist": [
+        {
+          "inchikey": "XLYOFNOQVPJJNP-UHFFFAOYSA-X",
+          "iso_slug": "16O-1H_p",
+          "iso_formula": "(16O)(1H)+",
+          "dataset_name": "MoLLIST",
+          "version": 20220713
+        }
+      ]
+    },
+    "AsH3": {
+      "num_molecule_names": 2,
+      "molecule_names": [
+        "Arsine",
+        "Arsenic trihydride"
+      ],
+      "num_isotopologues": 1,
+      "linelist": [
+        {
+          "inchikey": "RBFQJDQYXXHULB-UHFFFAOYSA-N",
+          "iso_slug": "75As-1H3",
+          "iso_formula": "(75As)(1H)3",
+          "dataset_name": "CYT18",
+          "version": 20181113
+        }
+      ]
+    },
+    "PF3": {
+      "num_molecule_names": 2,
+      "molecule_names": [
+        "Phosphine",
+        "Phosphorus trifluoride"
+      ],
+      "num_isotopologues": 1,
+      "linelist": [
+        {
+          "inchikey": "WKFBZNUBXWCCHG-UHFFFAOYSA-N",
+          "iso_slug": "31P-19F3",
+          "iso_formula": "(31P)(19F)3",
+          "dataset_name": "MCYTY",
+          "version": 20190314
+        }
+      ]
+    },
+    "PH": {
+      "num_molecule_names": 1,
+      "molecule_names": [
+        "Phosphorus monohydride"
+      ],
+      "num_isotopologues": 1,
+      "linelist": [
+        {
+          "inchikey": "BHEPBYXIRTUNPN-UHFFFAOYSA-N",
+          "iso_slug": "31P-1H",
+          "iso_formula": "(31P)(1H)",
+          "dataset_name": "LaTY",
+          "version": 20190427
+        }
+      ]
+    },
+    "CH3": {
+      "num_molecule_names": 2,
+      "molecule_names": [
+        "Methyl",
+        "Methyl radical"
+      ],
+      "num_isotopologues": 1,
+      "linelist": [
+        {
+          "inchikey": "WCYWZMWISLQXQU-UHFFFAOYSA-N",
+          "iso_slug": "12C-1H3",
+          "iso_formula": "(12C)(1H)3",
+          "dataset_name": "AYYJ",
+          "version": 20190501
+        }
+      ]
+    },
+    "SiH2": {
+      "num_molecule_names": 2,
+      "molecule_names": [
+        "Silylene",
+        "Silicon dihydride"
+      ],
+      "num_isotopologues": 1,
+      "linelist": [
+        {
+          "inchikey": "XMIJDTGORVPYLW-UHFFFAOYSA-N",
+          "iso_slug": "28Si-1H2",
+          "iso_formula": "(28Si)(1H)2",
+          "dataset_name": "CATS",
+          "version": 20200201
+        }
+      ]
+    },
+    "SiO2": {
+      "num_molecule_names": 6,
+      "molecule_names": [
+        "dioxosilane",
+        "quartz",
+        "silica, vitreous",
+        "silicon oxide",
+        "cristobalite",
+        "silicon dioxide gel"
+      ],
+      "num_isotopologues": 1,
+      "linelist": [
+        {
+          "inchikey": "VYPSYNLAJGMNEJ-UHFFFAOYSA-N",
+          "iso_slug": "28Si-16O2",
+          "iso_formula": "(28Si)(16O)2",
+          "dataset_name": "OYT3",
+          "version": 20200201
+        }
+      ]
+    },
+    "cis-P2H2": {
+      "num_molecule_names": 1,
+      "molecule_names": [
+        "cis-diphosphene"
+      ],
+      "num_isotopologues": 1,
+      "linelist": [
+        {
+          "inchikey": "SWJAOBXRZSMKNS-UHFFFAOXXX-N",
+          "iso_slug": "cis-31P2-1H2",
+          "iso_formula": "cis-(31P)2(1H)2",
+          "dataset_name": "OY-Cis",
+          "version": 20190401
+        }
+      ]
+    },
+    "trans-P2H2": {
+      "num_molecule_names": 1,
+      "molecule_names": [
+        "trans-diphosphene"
+      ],
+      "num_isotopologues": 2,
+      "linelist": [
+        {
+          "inchikey": "SWJAOBXRZSMKNS-UHFFFAOZZZ-X",
+          "iso_slug": "trans-31P2-1H-2H",
+          "iso_formula": "trans-(31P)2(1H)(2H)",
+          "dataset_name": "OY-Trans",
+          "version": 20190401
+        },
+        {
+          "inchikey": "SWJAOBXRZSMKNS-UHFFFAOYYY-N",
+          "iso_slug": "trans-31P2-1H2",
+          "iso_formula": "trans-(31P)2(1H)2",
+          "dataset_name": "OY-Trans",
+          "version": 20190401
+        }
+      ]
+    },
+    "H3O+": {
+      "num_molecule_names": 1,
+      "molecule_names": [
+        "hydronium"
+      ],
+      "num_isotopologues": 1,
+      "linelist": [
+        {
+          "inchikey": "XLYOFNOQVPJJNP-UHFFFAOYSA-O",
+          "iso_slug": "1H3-16O_p",
+          "iso_formula": "(1H)3(16O)+",
+          "dataset_name": "eXeL",
+          "version": 20200707
+        }
+      ]
+    },
+    "KOH": {
+      "num_molecule_names": 1,
+      "molecule_names": [
+        "potassium hydroxide"
+      ],
+      "num_isotopologues": 1,
+      "linelist": [
+        {
+          "inchikey": "KWYUFKZDYYNOTN-UHFFFAOYSA-M",
+          "iso_slug": "39K-16O-1H",
+          "iso_formula": "(39K)(16O)(1H)",
+          "dataset_name": "OYT4",
+          "version": 20201201
+        }
+      ]
+    },
+    "NaOH": {
+      "num_molecule_names": 1,
+      "molecule_names": [
+        "sodium hydroxide"
+      ],
+      "num_isotopologues": 1,
+      "linelist": [
+        {
+          "inchikey": "HEMHJVSKTPXQMS-UHFFFAOYSA-M",
+          "iso_slug": "23Na-16O-1H",
+          "iso_formula": "(23Na)(16O)(1H)",
+          "dataset_name": "OYT5",
+          "version": 20201201
+        }
+      ]
+    },
+    "NaO": {
+      "num_molecule_names": 1,
+      "molecule_names": [
+        "sodium oxide"
+      ],
+      "num_isotopologues": 1,
+      "linelist": [
+        {
+          "inchikey": "IVAOQJNBYYIDSI-UHFFFAOYSA-N",
+          "iso_slug": "23Na-16O",
+          "iso_formula": "(23Na)(16O)",
+          "dataset_name": "NaOUCMe",
+          "version": 20211117
+        }
+      ]
+    },
+    "SiN": {
+      "num_molecule_names": 1,
+      "molecule_names": [
+        "silicon nitride"
+      ],
+      "num_isotopologues": 4,
+      "linelist": [
+        {
+          "inchikey": "NCLWWTWAYQTPBU-UHFFFAOYSA-N",
+          "iso_slug": "28Si-14N",
+          "iso_formula": "(28Si)(14N)",
+          "dataset_name": "SiNfull",
+          "version": 20220809
+        },
+        {
+          "inchikey": "NCLWWTWAYQTPBU-OUBTZVSYSA-N",
+          "iso_slug": "28Si-15N",
+          "iso_formula": "(28Si)(15N)",
+          "dataset_name": "SiNfull",
+          "version": 20220809
+        },
+        {
+          "inchikey": "NCLWWTWAYQTPBU-VQEHIDDOSA-N",
+          "iso_slug": "29Si-14N",
+          "iso_formula": "(29Si)(14N)",
+          "dataset_name": "SiNfull",
+          "version": 20220809
+        },
+        {
+          "inchikey": "NCLWWTWAYQTPBU-HQMMCQRPSA-N",
+          "iso_slug": "30Si-14N",
+          "iso_formula": "(30Si)(14N)",
+          "dataset_name": "SiNfull",
+          "version": 20220809
+        }
+      ]
+    },
+    "CaOH": {
+      "num_molecule_names": 1,
+      "molecule_names": [
+        "calcium monohydroxide"
+      ],
+      "num_isotopologues": 1,
+      "linelist": [
+        {
+          "inchikey": "KIZFHUJKFSNWKO-UHFFFAOYSA-M",
+          "iso_slug": "40Ca-16O-1H",
+          "iso_formula": "(40Ca)(16O)(1H)",
+          "dataset_name": "OYT6",
+          "version": 20230523
+        }
+      ]
+    },
+    "LaO": {
+      "num_molecule_names": 1,
+      "molecule_names": [
+        "lanthanum monoxide"
+      ],
+      "num_isotopologues": 1,
+      "linelist": [
+        {
+          "inchikey": "KCPAGCNHGFPBFR-UHFFFAOYSA-N",
+          "iso_slug": "139La-16O",
+          "iso_formula": "(139La)(16O)",
+          "dataset_name": "BDL",
+          "version": 20230923
+        }
+      ]
+    },
+    "H2CS": {
+      "num_molecule_names": 1,
+      "molecule_names": [
+        "Thioformaldehyde"
+      ],
+      "num_isotopologues": 1,
+      "linelist": [
+        {
+          "inchikey": "DBTDEFJAFBUGPP-UHFFFAOYSA-N",
+          "iso_slug": "1H2-12C-32S",
+          "iso_formula": "(1H)2(12C)(32S)",
+          "dataset_name": "MOTY",
+          "version": 20221231
+        }
+      ]
+    },
+    "LiOH": {
+      "num_molecule_names": 1,
+      "molecule_names": [
+        "Lithium hydroxide"
+      ],
+      "num_isotopologues": 2,
+      "linelist": [
+        {
+          "inchikey": "WMFOQBRAJBCJND-ULWFUOSBSA-M",
+          "iso_slug": "6Li-16O-1H",
+          "iso_formula": "(6Li)(16O)(1H)",
+          "dataset_name": "OYT7",
+          "version": 20231001
+        },
+        {
+          "inchikey": "WMFOQBRAJBCJND-UHFFFAOYSA-M",
+          "iso_slug": "7Li-16O-1H",
+          "iso_formula": "(7Li)(16O)(1H)",
+          "dataset_name": "OYT7",
+          "version": 20230529
+        }
+      ]
+    },
+    "ZrO": {
+      "num_molecule_names": 1,
+      "molecule_names": [
+        "Zirconium oxide"
+      ],
+      "num_isotopologues": 6,
+      "linelist": [
+        {
+          "inchikey": "GEIAQOFPUVMAGM-UHFFFAOYSA-N",
+          "iso_slug": "90Zr-16O",
+          "iso_formula": "(90Zr)(16O)",
+          "dataset_name": "ZorrO",
+          "version": 20230713
+        },
+        {
+          "inchikey": "GEIAQOFPUVMAGM-MHGBRSHDSA-N",
+          "iso_slug": "91Zr-16O",
+          "iso_formula": "(91Zr)(16O)",
+          "dataset_name": "ZorrO",
+          "version": 20230713
+        },
+        {
+          "inchikey": "GEIAQOFPUVMAGM-LFSUVYIMSA-N",
+          "iso_slug": "92Zr-16O",
+          "iso_formula": "(92Zr)(16O)",
+          "dataset_name": "ZorrO",
+          "version": 20230713
+        },
+        {
+          "inchikey": "GEIAQOFPUVMAGM-WMSMEIEASA-N",
+          "iso_slug": "93Zr-16O",
+          "iso_formula": "(93Zr)(16O)",
+          "dataset_name": "ZorrO",
+          "version": 20230713
+        },
+        {
+          "inchikey": "GEIAQOFPUVMAGM-ULBMIEEJSA-N",
+          "iso_slug": "94Zr-16O",
+          "iso_formula": "(94Zr)(16O)",
+          "dataset_name": "ZorrO",
+          "version": 20230713
+        },
+        {
+          "inchikey": "GEIAQOFPUVMAGM-WNVRODMJSA-N",
+          "iso_slug": "96Zr-16O",
+          "iso_formula": "(96Zr)(16O)",
+          "dataset_name": "ZorrO",
+          "version": 20230713
+        }
+      ]
+    },
+    "OCS": {
+      "num_molecule_names": 1,
+      "molecule_names": [
+        "Carbonyl sulfide"
+      ],
+      "num_isotopologues": 1,
+      "linelist": [
+        {
+          "inchikey": "JJWKPURADFRFRB-UHFFFAOYSA-N",
+          "iso_slug": "16O-12C-32S",
+          "iso_formula": "(16O)(12C)(32S)",
+          "dataset_name": "OYT8",
+          "version": 20240425
+        }
+      ]
+    },
+    "HBO": {
+      "num_molecule_names": 1,
+      "molecule_names": [
+        "Hydroboron monoxide"
+      ],
+      "num_isotopologues": 2,
+      "linelist": [
+        {
+          "inchikey": "UXUFOKFTFHRQTE-BJUDXGSMSA-N",
+          "iso_slug": "1H-10B-16O",
+          "iso_formula": "(1H)(10B)(16O)",
+          "dataset_name": "LQL",
+          "version": 20240522
+        },
+        {
+          "inchikey": "UXUFOKFTFHRQTE-UHFFFAOYSA-N",
+          "iso_slug": "1H-11B-16O",
+          "iso_formula": "(1H)(11B)(16O)",
+          "dataset_name": "LQL",
+          "version": 20240522
+        }
+      ]
+    },
+    "N2O": {
+      "num_molecule_names": 1,
+      "molecule_names": [
+        "Nitrous oxide"
+      ],
+      "num_isotopologues": 5,
+      "linelist": [
+        {
+          "inchikey": "GQPLMRYTRLFLPF-VQEHIDDOSA-N",
+          "iso_slug": "14N-15N-16O",
+          "iso_formula": "(14N)(15N)(16O)",
+          "dataset_name": "TYM",
+          "version": null
+        },
+        {
+          "inchikey": "GQPLMRYTRLFLPF-UHFFFAOYSA-N",
+          "iso_slug": "14N2-16O",
+          "iso_formula": "(14N)2(16O)",
+          "dataset_name": "TYM",
+          "version": 20240527
+        },
+        {
+          "inchikey": "GQPLMRYTRLFLPF-LBPDFUHNSA-N",
+          "iso_slug": "14N2-17O",
+          "iso_formula": "(14N)2(17O)",
+          "dataset_name": "TYM",
+          "version": null
+        },
+        {
+          "inchikey": "GQPLMRYTRLFLPF-YZRHJBSPSA-N",
+          "iso_slug": "14N2-18O",
+          "iso_formula": "(14N)2(18O)",
+          "dataset_name": "TYM",
+          "version": null
+        },
+        {
+          "inchikey": "GQPLMRYTRLFLPF-OUBTZVSYSA-N",
+          "iso_slug": "15N-14N-16O",
+          "iso_formula": "(15N)(14N)(16O)",
+          "dataset_name": "TYM",
+          "version": null
+        }
+      ]
+    },
+    "C3": {
+      "num_molecule_names": 1,
+      "molecule_names": [
+        "Tricarbon"
+      ],
+      "num_isotopologues": 3,
+      "linelist": [
+        {
+          "inchikey": "NVLRFXKSQQPKAD-LBPDFUHNSA-N",
+          "iso_slug": "12C-12C-13C",
+          "iso_formula": "(12C)(12C)(13C)",
+          "dataset_name": "AtLast",
+          "version": 20241023
+        },
+        {
+          "inchikey": "NVLRFXKSQQPKAD-VQEHIDDOSA-N",
+          "iso_slug": "12C-13C-12C",
+          "iso_formula": "(12C)(13C)(12C)",
+          "dataset_name": "AtLast",
+          "version": 20241023
+        },
+        {
+          "inchikey": "NVLRFXKSQQPKAD-UHFFFAOYSA-N",
+          "iso_slug": "12C3",
+          "iso_formula": "(12C)3",
+          "dataset_name": "AtLast",
+          "version": 20241023
+        }
+      ]
+    },
+    "CH+": {
+      "num_molecule_names": 1,
+      "molecule_names": [
+        "Methylidyne cation"
+      ],
+      "num_isotopologues": 2,
+      "linelist": [
+        {
+          "inchikey": "WVVLBIYUCXYYEU-UHFFFAOYSA-N",
+          "iso_slug": "12C-1H_p",
+          "iso_formula": "(12C)(1H)+",
+          "dataset_name": "PYT",
+          "version": 20231219
+        },
+        {
+          "inchikey": "WVVLBIYUCXYYEU-MICDWDOJSA-N",
+          "iso_slug": "13C-1H_p",
+          "iso_formula": "(13C)(1H)+",
+          "dataset_name": "PYT",
+          "version": 20231219
+        }
+      ]
+    },
+    "CaCl": {
+      "num_molecule_names": 1,
+      "molecule_names": [
+        "Calcium monochloride"
+      ],
+      "num_isotopologues": 2,
+      "linelist": [
+        {
+          "inchikey": "WGPMOVAPQPJDDK-MHGBRSHDSA-M",
+          "iso_slug": "40Ca-35Cl",
+          "iso_formula": "(40Ca)(35Cl)",
+          "dataset_name": "MoLLIST-CaCl",
+          "version": 20240720
+        },
+        {
+          "inchikey": "WGPMOVAPQPJDDK-WMSMEIEASA-M",
+          "iso_slug": "40Ca-37Cl",
+          "iso_formula": "(40Ca)(37Cl)",
+          "dataset_name": "MoLLIST-CaCl",
+          "version": 20240720
+        }
+      ]
+    },
+    "HBr": {
+      "num_molecule_names": 2,
+      "molecule_names": [
+        "Hydrogen bromide",
+        "Hydrobromide acid"
+      ],
+      "num_isotopologues": 1,
+      "linelist": [
+        {
+          "inchikey": "CPELXLSAUQHCOX-OXEALATOSA-N",
+          "iso_slug": "1H-79Br",
+          "iso_formula": "(1H)(79Br)",
+          "dataset_name": "HITRAN-HBr",
+          "version": 20230904
+        }
+      ]
+    },
+    "NiH": {
+      "num_molecule_names": 2,
+      "molecule_names": [
+        "Nickel monohydride",
+        "Nickel hydride"
+      ],
+      "num_isotopologues": 0,
+      "linelist": []
+    },
+    "ScO": {
+      "num_molecule_names": 1,
+      "molecule_names": [
+        "Scandium monoxide"
+      ],
+      "num_isotopologues": 1,
+      "linelist": [
+        {
+          "inchikey": "AXJFPMGRQPKZLD-MHGBRSHDSA-N",
+          "iso_slug": "45Sc-16O",
+          "iso_formula": "(45Sc)(16O)",
+          "dataset_name": "LPB",
+          "version": 20241104
+        }
+      ]
+    },
+    "SO": {
+      "num_molecule_names": 2,
+      "molecule_names": [
+        "Sulphur monoxide",
+        "Sulfur monoxide"
+      ],
+      "num_isotopologues": 1,
+      "linelist": [
+        {
+          "inchikey": "XTQHKBHJIVJGKJ-ZCWHFVSRSA-N",
+          "iso_slug": "32S-16O",
+          "iso_formula": "(32S)(16O)",
+          "dataset_name": "SOLIS",
+          "version": 20230914
+        }
+      ]
+    }
+  }
+}

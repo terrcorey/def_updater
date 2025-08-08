@@ -135,6 +135,12 @@ def load_standard_labels():
         standard_labels = json.load(f)
     return standard_labels
 
+def load_old_master_file():
+    path = os.path.join(os.getcwd(), "other_materials", "lib", "old_master_file.json")
+    with open(path, "r") as f:
+        old_master_file = json.load(f)
+    return old_master_file
+
 def make_def_json():
     """Creates a JSON file with the standard labels structure."""
     path = os.path.join(os.getcwd(), "other_materials", "scripts", "convert_newnew.py")
@@ -405,6 +411,8 @@ def bool_formmatter(bools_dict):
 def def_dict_update(mol, def_dict, labels_list):
     """Updates the definition dictionary with new labels."""
 
+    old_master = load_old_master_file()
+
     bools = {
         "Lifetime availability": 0,
         "Lande g-factor availability": 0,
@@ -420,6 +428,11 @@ def def_dict_update(mol, def_dict, labels_list):
             def_dict.pop(key, None)
         if "Uncertainty availability" in key:
             def_dict.pop(key, None)
+        if "Inchi key of molecule" in key:
+            datasets = old_master["molecules"][mol]["linelist"]
+            for linelist in datasets:
+                if linelist["dataset_name"] == def_dict["Isotopologue dataset name"]:
+                    def_dict[key] = linelist["inchikey"]
 
     standard_labels = load_standard_labels()
     if labels_list[3] == "F":

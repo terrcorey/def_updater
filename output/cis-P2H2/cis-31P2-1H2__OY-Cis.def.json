@@ -2,8 +2,7 @@
     "isotopologue": {
         "iso_formula": "cis-(31P)2(1H)2",
         "iso_slug": "cis-31P2-1H2",
-        "inchikey": "SWJAOBXRZSMKNS-UHFFFAOYSA-N",
-        "inchi": "1S/H2P2/c1-2/h1-2H",
+        "inchikey": "SWJAOBXRZSMKNS-UHFFFAOXXX-N",
         "mass_in_Da": 63.9634,
         "point_group": "C2v"
     },
