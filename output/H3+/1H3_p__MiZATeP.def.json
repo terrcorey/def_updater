@@ -1,7 +1,7 @@
 {
     "isotopologue": {
-        "IsoFormula": "(1H)3+",
-        "Iso-slug": "1H3_p",
+        "iso_formula": "(1H)3+",
+        "iso_slug": "1H3_p",
         "inchikey": "QWLPJNYQVKBMAN-UHFFFAOYSA-N",
         "mass_in_Da": 3.023475,
         "point_group": "D3h"

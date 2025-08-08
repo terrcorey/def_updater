@@ -1,7 +1,7 @@
 {
     "isotopologue": {
-        "IsoFormula": "(6Li)(37Cl)",
-        "Iso-slug": "6Li-37Cl",
+        "iso_formula": "(6Li)(37Cl)",
+        "iso_slug": "6Li-37Cl",
         "inchikey": "xxxxxxxxxxxxxxxxxxxxxxxxxxx",
         "mass_in_Da": 42.981025,
         "point_group": "C"

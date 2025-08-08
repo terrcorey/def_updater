@@ -1,7 +1,7 @@
 {
     "isotopologue": {
-        "IsoFormula": "(139La)(16O)",
-        "Iso-slug": "139La-16O",
+        "iso_formula": "(139La)(16O)",
+        "iso_slug": "139La-16O",
         "inchikey": "KCPAGCNHGFPBFR-UHFFFAOYSA-N",
         "mass_in_Da": 154.9049,
         "point_group": "C"

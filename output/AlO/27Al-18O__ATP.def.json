@@ -1,7 +1,7 @@
 {
     "isotopologue": {
-        "IsoFormula": "(27Al)(18O)",
-        "Iso-slug": "27Al-18O",
+        "iso_formula": "(27Al)(18O)",
+        "iso_slug": "27Al-18O",
         "inchikey": "AIRCTMFFNKZQPN-MOROPIOGSA-N",
         "mass_in_Da": 44.9807,
         "point_group": "C"

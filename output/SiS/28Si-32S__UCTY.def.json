@@ -1,7 +1,7 @@
 {
     "isotopologue": {
-        "IsoFormula": "(28Si)(32S)",
-        "Iso-slug": "28Si-32S",
+        "iso_formula": "(28Si)(32S)",
+        "iso_slug": "28Si-32S",
         "inchikey": "DWFFKGPZNGKUPH-UHFFFAOYSA-N",
         "inchi": "1S/SSi/c1-2",
         "mass_in_Da": 59.948998,

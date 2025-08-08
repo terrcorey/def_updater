@@ -1,7 +1,7 @@
 {
     "isotopologue": {
-        "IsoFormula": "(89Y)(18O)",
-        "Iso-slug": "89Y-18O",
+        "iso_formula": "(89Y)(18O)",
+        "iso_slug": "89Y-18O",
         "inchikey": "MCONFXYGGKTRFS-HQMMCQRPSA-N",
         "mass_in_Da": 106.9050079,
         "point_group": "C"

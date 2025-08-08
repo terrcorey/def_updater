@@ -1,7 +1,7 @@
 {
     "isotopologue": {
-        "IsoFormula": "(1H)(12C)(14N)",
-        "Iso-slug": "1H-12C-14N",
+        "iso_formula": "(1H)(12C)(14N)",
+        "iso_slug": "1H-12C-14N",
         "inchikey": "LELOWRISYMNNSU-UHFFFAOYSA-N",
         "inchi": "1S/CHN/c1-2/h1H",
         "mass_in_Da": 27.010899,

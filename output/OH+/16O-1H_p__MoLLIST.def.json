@@ -1,7 +1,7 @@
 {
     "isotopologue": {
-        "IsoFormula": "(16O)(1H)+",
-        "Iso-slug": "16O-1H_p",
+        "iso_formula": "(16O)(1H)+",
+        "iso_slug": "16O-1H_p",
         "inchikey": "xxxxxxxxxxxxxxxxxxxxxxxxxxx",
         "mass_in_Da": 17.00274,
         "point_group": "C"

@@ -1,7 +1,7 @@
 {
     "isotopologue": {
-        "IsoFormula": "(27Al)(19F)",
-        "Iso-slug": "27Al-19F",
+        "iso_formula": "(27Al)(19F)",
+        "iso_slug": "27Al-19F",
         "inchikey": "xxxxxxxxxxxxxxxxxxxxxxxxxxx",
         "mass_in_Da": 45.979942,
         "point_group": "C"

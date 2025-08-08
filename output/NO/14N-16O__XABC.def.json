@@ -1,7 +1,7 @@
 {
     "isotopologue": {
-        "IsoFormula": "(14N)(16O)",
-        "Iso-slug": "14N-16O",
+        "iso_formula": "(14N)(16O)",
+        "iso_slug": "14N-16O",
         "inchikey": "MWUXSHHQAYIFBG-UHFFFAOYSA-N",
         "inchi": "1S/NO/c1-2",
         "mass_in_Da": 29.9979886,

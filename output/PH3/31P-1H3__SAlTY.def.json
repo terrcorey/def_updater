@@ -1,7 +1,7 @@
 {
     "isotopologue": {
-        "IsoFormula": "(31P)(1H)3",
-        "Iso-slug": "31P-1H3",
+        "iso_formula": "(31P)(1H)3",
+        "iso_slug": "31P-1H3",
         "inchikey": "XYFCBTPGUUZFHI-UHFFFAOYSA-N",
         "inchi": "1S/H3P/h1H3",
         "mass_in_Da": 33.997237,

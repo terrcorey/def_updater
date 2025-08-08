@@ -1,7 +1,7 @@
 {
     "isotopologue": {
-        "IsoFormula": "(14N)(36S)",
-        "Iso-slug": "14N-36S",
+        "iso_formula": "(14N)(36S)",
+        "iso_slug": "14N-36S",
         "inchikey": "QXTCFDCJXWLNAP-XKBLRHCCSA-N",
         "mass_in_Da": 49.97015471,
         "point_group": "C"

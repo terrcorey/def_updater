@@ -73,9 +73,9 @@ def def_to_json(def_file_path, json_file_path):
         broadener_label = None
         for line in line_iter:
             if '# IsoFormula' in line:
-                json_dict["isotopologue"]["IsoFormula"] = line.split('#')[0].strip()
+                json_dict["isotopologue"]["iso_formula"] = line.split('#')[0].strip()
             elif '# Iso-slug' in line:
-                json_dict["isotopologue"]["Iso-slug"] = line.split('#')[0].strip()
+                json_dict["isotopologue"]["iso_slug"] = line.split('#')[0].strip()
             elif '# Inchi key of molecule' in line:
                 json_dict["isotopologue"]["inchikey"] = line.split('#')[0].strip()
                 # Add the InChI retrieval code here

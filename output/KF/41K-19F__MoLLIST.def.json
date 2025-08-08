@@ -1,7 +1,7 @@
 {
     "isotopologue": {
-        "IsoFormula": "(41K)(19F)",
-        "Iso-slug": "41K-19F",
+        "iso_formula": "(41K)(19F)",
+        "iso_slug": "41K-19F",
         "inchikey": "UNBLQQOGXZQQHO-NLQOEHMXSA-M",
         "mass_in_Da": 59.960229,
         "point_group": "C"

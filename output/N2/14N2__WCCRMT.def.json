@@ -1,7 +1,7 @@
 {
     "isotopologue": {
-        "IsoFormula": "(14N)2",
-        "Iso-slug": "14N2",
+        "iso_formula": "(14N)2",
+        "iso_slug": "14N2",
         "inchikey": "IJGRMHOSHXDMSA-UHFFFAOYSA-N",
         "inchi": "1S/N2/c1-2",
         "mass_in_Da": 28.006482,

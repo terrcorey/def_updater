@@ -1,7 +1,7 @@
 {
     "isotopologue": {
-        "IsoFormula": "(56Fe)(1H)",
-        "Iso-slug": "56Fe-1H",
+        "iso_formula": "(56Fe)(1H)",
+        "iso_slug": "56Fe-1H",
         "inchikey": "VWDRTGQNZKYVEZ-UHFFFAOYSA-N",
         "mass_in_Da": 56.942762,
         "point_group": "C"

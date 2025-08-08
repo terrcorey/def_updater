@@ -1,7 +1,7 @@
 {
     "isotopologue": {
-        "IsoFormula": "(48Ti)(16O)",
-        "Iso-slug": "48Ti-16O",
+        "iso_formula": "(48Ti)(16O)",
+        "iso_slug": "48Ti-16O",
         "inchikey": "KZWJQQBLIBIGGJ-UHFFFAOYSA-N",
         "mass_in_Da": 63.942857,
         "point_group": "C"

@@ -1,7 +1,7 @@
 {
     "isotopologue": {
-        "IsoFormula": "(1H)2(2H)+",
-        "Iso-slug": "1H2-2H_p",
+        "iso_formula": "(1H)2(2H)+",
+        "iso_slug": "1H2-2H_p",
         "inchikey": "RQZCXKHVAUFVMF-OUBTZVSYSA-N",
         "mass_in_Da": 4.029752,
         "point_group": "C2v"

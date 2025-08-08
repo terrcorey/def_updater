@@ -1,7 +1,7 @@
 {
     "isotopologue": {
-        "IsoFormula": "(12C)(1H)3(19F)",
-        "Iso-slug": "12C-1H3-19F",
+        "iso_formula": "(12C)(1H)3(19F)",
+        "iso_slug": "12C-1H3-19F",
         "inchikey": "NBVXSUQYWXRMNV-UHFFFAOYSA-N",
         "inchi": "1S/CH3F/c1-2/h1H3",
         "mass_in_Da": 34.0329,

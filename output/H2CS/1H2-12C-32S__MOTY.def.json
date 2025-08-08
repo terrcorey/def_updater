@@ -1,7 +1,7 @@
 {
     "isotopologue": {
-        "IsoFormula": "(1H)2(12C)(32S)",
-        "Iso-slug": "1H2-12C-32S",
+        "iso_formula": "(1H)2(12C)(32S)",
+        "iso_slug": "1H2-12C-32S",
         "inchikey": "DBTDEFJAFBUGPP-UHFFFAOYSA-N",
         "inchi": "1S/CH2S/c1-2/h1H2",
         "mass_in_Da": 46.092,

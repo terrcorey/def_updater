@@ -1,7 +1,7 @@
 {
     "isotopologue": {
-        "IsoFormula": "(36S)(1H)",
-        "Iso-slug": "36S-1H",
+        "iso_formula": "(36S)(1H)",
+        "iso_slug": "36S-1H",
         "inchikey": "PXQLVRUNWNTZOS-RNFDNDRNSA-N",
         "mass_in_Da": 36.97490574,
         "point_group": "C"

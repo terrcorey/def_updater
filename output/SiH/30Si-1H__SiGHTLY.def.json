@@ -1,7 +1,7 @@
 {
     "isotopologue": {
-        "IsoFormula": "(30Si)(1H)",
-        "Iso-slug": "30Si-1H",
+        "iso_formula": "(30Si)(1H)",
+        "iso_slug": "30Si-1H",
         "inchikey": "QHGSGZLLHBKSAH-NJFSPNSNSA-N",
         "mass_in_Da": 30.9815952,
         "point_group": "C"

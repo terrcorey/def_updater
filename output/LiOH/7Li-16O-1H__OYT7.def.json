@@ -1,7 +1,7 @@
 {
     "isotopologue": {
-        "IsoFormula": "(7Li)(16O)(1H)",
-        "Iso-slug": "7Li-16O-1H",
+        "iso_formula": "(7Li)(16O)(1H)",
+        "iso_slug": "7Li-16O-1H",
         "inchikey": "WMFOQBRAJBCJND-UHFFFAOYSA-M",
         "inchi": "1S/Li.H2O/h;1H2/q+1;/p-1\n1S/Li.H2O/h;1H2/q+1;/p-1",
         "mass_in_Da": 23.948,

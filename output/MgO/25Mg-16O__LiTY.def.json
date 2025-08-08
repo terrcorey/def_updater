@@ -1,7 +1,7 @@
 {
     "isotopologue": {
-        "IsoFormula": "(25Mg)(16O)",
-        "Iso-slug": "25Mg-16O",
+        "iso_formula": "(25Mg)(16O)",
+        "iso_slug": "25Mg-16O",
         "inchikey": "CPLXHLVBOLITMK-YTBWXGASSA-N",
         "mass_in_Da": 40.9807516,
         "point_group": "C"

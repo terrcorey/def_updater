@@ -1,7 +1,7 @@
 {
     "isotopologue": {
-        "IsoFormula": "(9Be)(3H)",
-        "Iso-slug": "9Be-3H",
+        "iso_formula": "(9Be)(3H)",
+        "iso_slug": "9Be-3H",
         "inchikey": "AYBCUKQQDUJLQN-UHFFFAOYSA-Y",
         "mass_in_Da": 12.02823148,
         "point_group": "C"

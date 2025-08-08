@@ -1,7 +1,7 @@
 {
     "isotopologue": {
-        "IsoFormula": "(42Ca)(19F)",
-        "Iso-slug": "42Ca-19F",
+        "iso_formula": "(42Ca)(19F)",
+        "iso_slug": "42Ca-19F",
         "inchikey": "GLWLHVXSYOTACU-NJFSPNSNSA-M",
         "mass_in_Da": 60.957021,
         "point_group": "C"

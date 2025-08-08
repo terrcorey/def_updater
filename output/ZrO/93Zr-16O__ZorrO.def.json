@@ -1,7 +1,7 @@
 {
     "isotopologue": {
-        "IsoFormula": "(93Zr)(16O)",
-        "Iso-slug": "93Zr-16O",
+        "iso_formula": "(93Zr)(16O)",
+        "iso_slug": "93Zr-16O",
         "inchikey": "GEIAQOFPUVMAGM-WMSMEIEASA-N",
         "mass_in_Da": 108.9013906,
         "point_group": "C"

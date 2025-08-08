@@ -1,7 +1,7 @@
 {
     "isotopologue": {
-        "IsoFormula": "(32S)(16O)",
-        "Iso-slug": "32S-16O",
+        "iso_formula": "(32S)(16O)",
+        "iso_slug": "32S-16O",
         "inchikey": "XTQHKBHJIVJGKJ-UHFFFAOYSA-N",
         "inchi": "1S/OS/c1-2",
         "mass_in_Da": 48.064,

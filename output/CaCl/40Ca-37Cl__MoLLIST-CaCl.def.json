@@ -1,7 +1,7 @@
 {
     "isotopologue": {
-        "IsoFormula": "(40Ca)(37Cl)",
-        "Iso-slug": "40Ca-37Cl",
+        "iso_formula": "(40Ca)(37Cl)",
+        "iso_slug": "40Ca-37Cl",
         "inchikey": "CFKSNBVAEBBMBR-HQMMCQRPSA-N",
         "mass_in_Da": 76.92849,
         "point_group": "C"

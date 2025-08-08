@@ -1,7 +1,7 @@
 {
     "isotopologue": {
-        "IsoFormula": "(28Si)(34S)",
-        "Iso-slug": "28Si-34S",
+        "iso_formula": "(28Si)(34S)",
+        "iso_slug": "28Si-34S",
         "inchikey": "DWFFKGPZNGKUPH-HQMMCQRPSA-N",
         "mass_in_Da": 61.944794,
         "point_group": "C"

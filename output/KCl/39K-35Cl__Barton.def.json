@@ -1,7 +1,7 @@
 {
     "isotopologue": {
-        "IsoFormula": "(39K)(35Cl)",
-        "Iso-slug": "39K-35Cl",
+        "iso_formula": "(39K)(35Cl)",
+        "iso_slug": "39K-35Cl",
         "inchikey": "WCUXLLCKKVVCTQ-UHFFFAOYSA-M",
         "inchi": "1S/ClH.K/h1H;/q;+1/p-1\n1S/ClH.K/h1H;/q;+1/p-1",
         "mass_in_Da": 73.93256,

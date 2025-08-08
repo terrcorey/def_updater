@@ -1,7 +1,7 @@
 {
     "isotopologue": {
-        "IsoFormula": "(24Mg)(1H)",
-        "Iso-slug": "24Mg-1H",
+        "iso_formula": "(24Mg)(1H)",
+        "iso_slug": "24Mg-1H",
         "inchikey": "RZCHRULKKYOSQS-UHFFFAOYSA-N",
         "inchi": "1S/Mg.H",
         "mass_in_Da": 24.992867,

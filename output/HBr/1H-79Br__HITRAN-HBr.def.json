@@ -1,7 +1,7 @@
 {
     "isotopologue": {
-        "IsoFormula": "(1H)(79Br)",
-        "Iso-slug": "1H-79Br",
+        "iso_formula": "(1H)(79Br)",
+        "iso_slug": "1H-79Br",
         "inchikey": "CPELXLSAUQHCOX-UHFFFAOYSA-N",
         "inchi": "1S/BrH/h1H\n1S/BrH/h1H",
         "mass_in_Da": 80.912,

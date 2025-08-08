@@ -1,7 +1,7 @@
 {
     "isotopologue": {
-        "IsoFormula": "(13C)(15N)",
-        "Iso-slug": "13C-15N",
+        "iso_formula": "(13C)(15N)",
+        "iso_slug": "13C-15N",
         "inchikey": "JEVCWSUVFOYBFI-ZDOIIHCHSA-N",
         "mass_in_Da": 28.003463736,
         "point_group": "C"

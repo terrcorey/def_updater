@@ -1,7 +1,7 @@
 {
     "isotopologue": {
-        "IsoFormula": "(27Al)(1H)",
-        "Iso-slug": "27Al-1H",
+        "iso_formula": "(27Al)(1H)",
+        "iso_slug": "27Al-1H",
         "inchikey": "SPRIOUNJHPCKPV-UHFFFAOYSA-N",
         "inchi": "1S/Al.H",
         "mass_in_Da": 27.98948,

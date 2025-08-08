@@ -1,7 +1,7 @@
 {
     "isotopologue": {
-        "IsoFormula": "(12C)(1H)3(35Cl)",
-        "Iso-slug": "12C-1H3-35Cl",
+        "iso_formula": "(12C)(1H)3(35Cl)",
+        "iso_slug": "12C-1H3-35Cl",
         "inchikey": "NEHMKBQYUWJMIP-UHFFFAOYSA-N",
         "inchi": "1S/CH3Cl/c1-2/h1H3",
         "mass_in_Da": 49.99232778,

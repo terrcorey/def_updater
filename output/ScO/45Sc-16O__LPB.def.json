@@ -1,7 +1,7 @@
 {
     "isotopologue": {
-        "IsoFormula": "(45Sc)(16O)",
-        "Iso-slug": "45Sc-16O",
+        "iso_formula": "(45Sc)(16O)",
+        "iso_slug": "45Sc-16O",
         "inchikey": "SILDMMUQVSAMEE-UHFFFAOYSA-N",
         "mass_in_Da": 60.95082,
         "point_group": "C"

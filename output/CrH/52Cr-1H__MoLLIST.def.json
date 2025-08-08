@@ -1,7 +1,7 @@
 {
     "isotopologue": {
-        "IsoFormula": "(52Cr)(1H)",
-        "Iso-slug": "52Cr-1H",
+        "iso_formula": "(52Cr)(1H)",
+        "iso_slug": "52Cr-1H",
         "inchikey": "SEGIELJIHJYODU-UHFFFAOYSA-N",
         "mass_in_Da": 52.948333,
         "point_group": "Cs"

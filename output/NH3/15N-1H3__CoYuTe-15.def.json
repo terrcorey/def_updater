@@ -1,7 +1,7 @@
 {
     "isotopologue": {
-        "IsoFormula": "(15N)(1H)3",
-        "Iso-slug": "15N-1H3",
+        "iso_formula": "(15N)(1H)3",
+        "iso_slug": "15N-1H3",
         "inchikey": "QGZKDVFQNNGYKY-OUBTZVSYSA-N",
         "inchi": "1S/H3N/h1H3/i1+1",
         "mass_in_Da": 18.023584,

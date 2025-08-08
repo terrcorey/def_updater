@@ -1,7 +1,7 @@
 {
     "isotopologue": {
-        "IsoFormula": "(25Mg)(1H)",
-        "Iso-slug": "25Mg-1H",
+        "iso_formula": "(25Mg)(1H)",
+        "iso_slug": "25Mg-1H",
         "inchikey": "RZCHRULKKYOSQS-OUBTZVSYSA-N",
         "mass_in_Da": 25.993662,
         "point_group": "C"

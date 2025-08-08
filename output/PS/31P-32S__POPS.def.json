@@ -1,7 +1,7 @@
 {
     "isotopologue": {
-        "IsoFormula": "(31P)(32S)",
-        "Iso-slug": "31P-32S",
+        "iso_formula": "(31P)(32S)",
+        "iso_slug": "31P-32S",
         "inchikey": "VKCLPVFDVVKEKU-UHFFFAOYSA-N",
         "inchi": "1S/PS/c1-2",
         "mass_in_Da": 62.945833,

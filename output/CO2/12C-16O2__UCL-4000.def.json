@@ -1,7 +1,7 @@
 {
     "isotopologue": {
-        "IsoFormula": "(12C)(16O)2",
-        "Iso-slug": "12C-16O2",
+        "iso_formula": "(12C)(16O)2",
+        "iso_slug": "12C-16O2",
         "inchikey": "CURLTUGMZLYLDI-UHFFFAOYSA-N",
         "inchi": "1S/CO2/c2-1-3",
         "mass_in_Da": 43.9898292,

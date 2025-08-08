@@ -1,7 +1,7 @@
 {
     "isotopologue": {
-        "IsoFormula": "(15N)(32S)",
-        "Iso-slug": "15N-32S",
+        "iso_formula": "(15N)(32S)",
+        "iso_slug": "15N-32S",
         "inchikey": "QXTCFDCJXWLNAP-UHFFFAOYSA-N",
         "inchi": "1S/NS/c1-2",
         "mass_in_Da": 46.97218007,

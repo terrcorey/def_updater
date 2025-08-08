@@ -1,7 +1,7 @@
 {
     "isotopologue": {
-        "IsoFormula": "(2H)(37Cl)",
-        "Iso-slug": "2H-37Cl",
+        "iso_formula": "(2H)(37Cl)",
+        "iso_slug": "2H-37Cl",
         "inchikey": "VEXZGXHMUGYJMC-DQGQKLTASA-N",
         "mass_in_Da": 38.98000436,
         "point_group": "C"

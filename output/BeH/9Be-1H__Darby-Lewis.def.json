@@ -1,7 +1,7 @@
 {
     "isotopologue": {
-        "IsoFormula": "(9Be)(1H)",
-        "Iso-slug": "9Be-1H",
+        "iso_formula": "(9Be)(1H)",
+        "iso_slug": "9Be-1H",
         "inchikey": "AYBCUKQQDUJLQN-UHFFFAOYSA-N",
         "inchi": "1S/Be.H",
         "mass_in_Da": 10.020007,

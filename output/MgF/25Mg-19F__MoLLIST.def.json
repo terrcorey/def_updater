@@ -1,7 +1,7 @@
 {
     "isotopologue": {
-        "IsoFormula": "(25Mg)(19F)",
-        "Iso-slug": "25Mg-19F",
+        "iso_formula": "(25Mg)(19F)",
+        "iso_slug": "25Mg-19F",
         "inchikey": "DEKCOOIJMHCCME-IEOVAKBOSA-M",
         "mass_in_Da": 43.98424,
         "point_group": "C"

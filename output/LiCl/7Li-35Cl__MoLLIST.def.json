@@ -1,7 +1,7 @@
 {
     "isotopologue": {
-        "IsoFormula": "(7Li)(35Cl)",
-        "Iso-slug": "7Li-35Cl",
+        "iso_formula": "(7Li)(35Cl)",
+        "iso_slug": "7Li-35Cl",
         "inchikey": "KWGKDLIKAYFUFQ-UHFFFAOYSA-M",
         "inchi": "1S/ClH.Li/h1H;/q;+1/p-1\n1S/ClH.Li/h1H;/q;+1/p-1",
         "mass_in_Da": 41.984856,

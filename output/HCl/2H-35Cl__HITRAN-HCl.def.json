@@ -1,7 +1,7 @@
 {
     "isotopologue": {
-        "IsoFormula": "(2H)(35Cl)",
-        "Iso-slug": "2H-35Cl",
+        "iso_formula": "(2H)(35Cl)",
+        "iso_slug": "2H-35Cl",
         "inchikey": "VEXZGXHMUGYJMC-DYCDLGHISA-N",
         "inchi": "1S/ClH/h1H/i/hD\n1S/ClH/h1H/i/hD",
         "mass_in_Da": 36.98295447,

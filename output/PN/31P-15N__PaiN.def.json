@@ -1,7 +1,7 @@
 {
     "isotopologue": {
-        "IsoFormula": "(31P)(15N)",
-        "Iso-slug": "31P-15N",
+        "iso_formula": "(31P)(15N)",
+        "iso_slug": "31P-15N",
         "inchikey": "AOPJVJYWEDDOBI-NMHUKANLSA-N",
         "mass_in_Da": 45.973871,
         "point_group": "C"

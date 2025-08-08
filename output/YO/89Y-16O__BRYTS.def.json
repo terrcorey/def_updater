@@ -1,7 +1,7 @@
 {
     "isotopologue": {
-        "IsoFormula": "(89Y)(16O)",
-        "Iso-slug": "89Y-16O",
+        "iso_formula": "(89Y)(16O)",
+        "iso_slug": "89Y-16O",
         "inchikey": "APUGIHICMSAKGR-UHFFFAOYSA-N",
         "mass_in_Da": 104.9007629,
         "point_group": "C"

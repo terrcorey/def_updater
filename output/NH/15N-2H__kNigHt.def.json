@@ -1,7 +1,7 @@
 {
     "isotopologue": {
-        "IsoFormula": "(15N)(2H)",
-        "Iso-slug": "15N-2H",
+        "iso_formula": "(15N)(2H)",
+        "iso_slug": "15N-2H",
         "inchikey": "PDCKRJPYJMCOFO-RMCWLEMVSA-N",
         "mass_in_Da": 17.014211,
         "point_group": "C"

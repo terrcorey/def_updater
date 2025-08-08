@@ -1,7 +1,7 @@
 {
     "isotopologue": {
-        "IsoFormula": "(28Si)(1H)4",
-        "Iso-slug": "28Si-1H4",
+        "iso_formula": "(28Si)(1H)4",
+        "iso_slug": "28Si-1H4",
         "inchikey": "BLRPTPMANUNPDV-UHFFFAOYSA-N",
         "inchi": "1S/H4Si/h1H4",
         "mass_in_Da": 32.00822666,

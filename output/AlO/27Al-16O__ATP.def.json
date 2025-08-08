@@ -1,7 +1,7 @@
 {
     "isotopologue": {
-        "IsoFormula": "(27Al)(16O)",
-        "Iso-slug": "27Al-16O",
+        "iso_formula": "(27Al)(16O)",
+        "iso_slug": "27Al-16O",
         "inchikey": "AIRCTMFFNKZQPN-UHFFFAOYSA-N",
         "inchi": "1S/Al.O",
         "mass_in_Da": 42.976454,

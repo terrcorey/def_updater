@@ -1,7 +1,7 @@
 {
     "isotopologue": {
-        "IsoFormula": "(28Si)(15N)",
-        "Iso-slug": "28Si-15N",
+        "iso_formula": "(28Si)(15N)",
+        "iso_slug": "28Si-15N",
         "inchikey": "NCLWWTWAYQTPBU-OUBTZVSYSA-N",
         "mass_in_Da": 42.977035,
         "point_group": "C"

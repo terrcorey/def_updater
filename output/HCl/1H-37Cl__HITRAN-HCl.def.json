@@ -1,7 +1,7 @@
 {
     "isotopologue": {
-        "IsoFormula": "(1H)(37Cl)",
-        "Iso-slug": "1H-37Cl",
+        "iso_formula": "(1H)(37Cl)",
+        "iso_slug": "1H-37Cl",
         "inchikey": "VEXZGXHMUGYJMC-NJFSPNSNSA-N",
         "inchi": "1S/ClH/h1H/i1+2",
         "mass_in_Da": 36.98295447,

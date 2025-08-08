@@ -1,7 +1,7 @@
 {
     "isotopologue": {
-        "IsoFormula": "(31P)(16O)",
-        "Iso-slug": "31P-16O",
+        "iso_formula": "(31P)(16O)",
+        "iso_slug": "31P-16O",
         "inchikey": "LFGREXWGYUGZLY-UHFFFAOYSA-N",
         "inchi": "1S/OP/c1-2",
         "mass_in_Da": 46.96867624956,
