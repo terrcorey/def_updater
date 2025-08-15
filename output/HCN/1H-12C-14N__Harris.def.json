@@ -130,6 +130,7 @@
         "default_Lorentzian_half-width": 0.084,
         "default_temperature_exponent": 0.5,
         "H2": {
+            "filename": "1H-12C-14N__H2.broad",
             "max_J": 9,
             "Lorentzian_half_width": 0.118,
             "temperature_exponent": 0.5,
@@ -155,6 +156,7 @@
             ]
         },
         "He": {
+            "filename": "1H-12C-14N__He.broad",
             "max_J": 10,
             "Lorentzian_half_width": 0.049,
             "temperature_exponent": 0.75,

@@ -35,7 +35,7 @@
             "number_of_states": 30327,
             "max_energy": 82170.969984,
             "hyperfine_resolved_dataset": false,
-            "uncertainty_description": "State energy in cm-1 calculated with DUO",
+            "uncertainty_description": null,
             "uncertainties_available": true,
             "lifetime_available": true,
             "lande_g_available": true,

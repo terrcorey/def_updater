@@ -1,0 +1,214 @@
+{
+    "isotopologue": {
+        "iso_formula": "(15N)(1H)3",
+        "iso_slug": "15N-1H3",
+        "inchikey": "QGZKDVFQNNGYKY-OUBTZVSYSA-N",
+        "mass_in_Da": 18.023584,
+        "point_group": "D3h"
+    },
+    "atoms": {
+        "number_of_atoms": 4,
+        "element": {
+            "N": 15,
+            "H": 1
+        }
+    },
+    "irreducible_representations": {
+        "A'1": 0,
+        "A'2": 12,
+        "E'": 6,
+        "A\"1": 0,
+        "A\"2": 12,
+        "E\"": 4
+    },
+    "dataset": {
+        "name": "CoYuTe-15",
+        "version": 20240808,
+        "doi": "10.1093/mnras/stae1849",
+        "max_temperature": 1000.0,
+        "n_L_default": 0.5,
+        "num_pressure_broadeners": 0,
+        "nxsec_files": 0,
+        "nkcoeff_files": 0,
+        "dipole_available": false,
+        "cooling_function_available": false,
+        "specific_heat_available": true,
+        "continuum": null,
+        "predis": null,
+        "states": {
+            "number_of_states": 12699617,
+            "max_energy": 48323.797182,
+            "hyperfine_resolved_dataset": false,
+            "uncertainty_description": "State energy in cm-1 calculated with DUO",
+            "uncertainties_available": true,
+            "lifetime_available": true,
+            "lande_g_available": false,
+            "num_quanta": 19,
+            "states_file_fields": [
+                {
+                    "name": "ID",
+                    "desc": "Unique integer identifier for the energy level",
+                    "ffmt": "I12",
+                    "cfmt": "%12d"
+                },
+                {
+                    "name": "E",
+                    "desc": "State energy in cm-1",
+                    "ffmt": "F12.6",
+                    "cfmt": "%12.6f"
+                },
+                {
+                    "name": "gtot",
+                    "desc": "Total energy level degeneracy",
+                    "ffmt": "I6",
+                    "cfmt": "%6d"
+                },
+                {
+                    "name": "J",
+                    "desc": "Total rotational quantum number, excluding nuclear spin",
+                    "ffmt": "I7",
+                    "cfmt": "%7d"
+                },
+                {
+                    "name": "unc",
+                    "desc": "Energy uncertainty in cm-1",
+                    "ffmt": "F12.6",
+                    "cfmt": "%12.6f"
+                },
+                {
+                    "name": "tau",
+                    "desc": "Lifetime in s",
+                    "ffmt": "ES12.4",
+                    "cfmt": "%12.4e"
+                },
+                {
+                    "name": "TROVE:Gtot",
+                    "ffmt": "A3",
+                    "cfmt": "%3s",
+                    "desc": "Total symmetry index in D3h(M)"
+                },
+                {
+                    "name": "TROVE:n1",
+                    "ffmt": "I2",
+                    "cfmt": "%2d",
+                    "desc": "Symmetric stretch quantum number (normal mode)"
+                },
+                {
+                    "name": "TROVE:n2",
+                    "ffmt": "I2",
+                    "cfmt": "%2d",
+                    "desc": "Symmetric bend quantum number (normal mode)"
+                },
+                {
+                    "name": "TROVE:n3",
+                    "ffmt": "I2",
+                    "cfmt": "%2d",
+                    "desc": "Asymmetric stretch quantum number (normal mode)"
+                },
+                {
+                    "name": "TROVE:l3",
+                    "ffmt": "I2",
+                    "cfmt": "%2d",
+                    "desc": "Asymmetric stretch angular momentum quantum no. (normal mode)"
+                },
+                {
+                    "name": "TROVE:n4",
+                    "ffmt": "I2",
+                    "cfmt": "%2d",
+                    "desc": "Asymmetric bend quantum number (normal mode)"
+                },
+                {
+                    "name": "TROVE:l4",
+                    "ffmt": "I2",
+                    "cfmt": "%2d",
+                    "desc": "Asymmetric bend angular momentum quantum no. (normal mode)"
+                },
+                {
+                    "name": "TROVE:Gvib",
+                    "ffmt": "A3",
+                    "cfmt": "%3s",
+                    "desc": "D3h(M) vibrational symmetry (local mode)"
+                },
+                {
+                    "name": "TROVE:K",
+                    "ffmt": "I2",
+                    "cfmt": "%2d",
+                    "desc": "Projection of J on axis of molecular symmetry"
+                },
+                {
+                    "name": "TROVE:Grot",
+                    "ffmt": "A3",
+                    "cfmt": "%3s",
+                    "desc": "D3h(M) rotational symmetry"
+                },
+                {
+                    "name": "TROVE:ivib",
+                    "ffmt": "I2",
+                    "cfmt": "%2d",
+                    "desc": "Index in vibrational symmetry block"
+                },
+                {
+                    "name": "TROVE:s/a",
+                    "ffmt": "A1",
+                    "cfmt": "%1s",
+                    "desc": "Inversion symmetry"
+                },
+                {
+                    "name": "TROVE:|Coef|2",
+                    "ffmt": "F5.2",
+                    "cfmt": "%5.2f",
+                    "desc": "Square modulus of the coefficient with the largest contribution"
+                },
+                {
+                    "name": "TROVE:v1",
+                    "ffmt": "I2",
+                    "cfmt": "%2d",
+                    "desc": "TROVE vibrational stretching quantum number (1)"
+                },
+                {
+                    "name": "TROVE:v2",
+                    "ffmt": "I2",
+                    "cfmt": "%2d",
+                    "desc": "TROVE vibrational stretching quantum number (2)"
+                },
+                {
+                    "name": "TROVE:v3",
+                    "ffmt": "I2",
+                    "cfmt": "%2d",
+                    "desc": "TROVE vibrational stretching quantum number (3)"
+                },
+                {
+                    "name": "TROVE:v4",
+                    "ffmt": "I2",
+                    "cfmt": "%2d",
+                    "desc": "TROVE vibrational bending quantum number (1)"
+                },
+                {
+                    "name": "TROVE:v5",
+                    "ffmt": "I2",
+                    "cfmt": "%2d",
+                    "desc": "TROVE vibrational bending quantum number  (2)"
+                },
+                {
+                    "name": "TROVE:v6",
+                    "ffmt": "I2",
+                    "cfmt": "%2d",
+                    "desc": "TROVE vibrational inversion quantum number"
+                }
+            ]
+        },
+        "transitions": {
+            "number_of_transitions": 929795249,
+            "number_of_transition_files": 10,
+            "max_wavenumber": 10000.0
+        }
+    },
+    "partition_function": {
+        "max_partition_function_temperature": 2000.0,
+        "partition_function_step_size": 1.0
+    },
+    "broad": {
+        "default_Lorentzian_half-width": 0.07,
+        "default_temperature_exponent": 0.5
+    }
+}

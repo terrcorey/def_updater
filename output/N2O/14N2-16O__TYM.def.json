@@ -35,7 +35,7 @@
             "number_of_states": 1759068,
             "max_energy": 20000.0,
             "hyperfine_resolved_dataset": false,
-            "uncertainty_description": "Original TROVE calculated state energy (in cm-1)",
+            "uncertainty_description": null,
             "uncertainties_available": true,
             "lifetime_available": true,
             "lande_g_available": false,

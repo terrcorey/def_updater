@@ -31,8 +31,8 @@ A2u                                                                             
 0                                                                               # Hyperfine resolved dataset (1=yes, 0=no)
 5160803                                                                         # No. of states in .states file
 2                                                                               # No. of quanta cases
-TROVE                                                                           # Quantum case label
-stcs                                                                            # Quantum case label
+TROVE                                                                           # Quantum case label 1
+stcs                                                                            # Quantum case label 2
 13                                                                              # No. of quanta defined
 Gtot                                                                            # Quantum label 1
 A3 %3s                                                                          # Format quantum label 1
@@ -79,9 +79,6 @@ Ma=MARVEL,Ca=Calculated,EH=Effective Hamiltonian,IE=Isotopologue extrapolation  
 Ecal                                                                            # Auxiliary title 2
 F12.6 %12.6f                                                                    # Format title 2
 Calculated energy in cm-1                                                       # Description title 2
-Ecalc                                                                           # Auxiliary tite 2
-F12.6 %12.6f                                                                    # Format title 2
-Theoretical state energy                                                        # Description title 2
 4347381911                                                                      # Total number of transitions
 100                                                                             # No. of transition files
 10000.00                                                                        # Maximum wavenumber (in cm-1)

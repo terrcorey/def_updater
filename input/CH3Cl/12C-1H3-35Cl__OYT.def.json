@@ -1,0 +1,188 @@
+{
+    "isotopologue": {
+        "iso_formula": "(12C)(1H)3(35Cl)",
+        "iso_slug": "12C-1H3-35Cl",
+        "inchikey": "NEHMKBQYUWJMIP-HQMMCQRPSA-N",
+        "mass_in_Da": 49.99232778,
+        "point_group": "C3v"
+    },
+    "atoms": {
+        "number_of_atoms": 5,
+        "element": {
+            "C": 12,
+            "H": 1,
+            "Cl": 35
+        }
+    },
+    "irreducible_representations": {
+        "A1": 16,
+        "A2": 16,
+        "E": 16
+    },
+    "dataset": {
+        "name": "OYT",
+        "version": 20180601,
+        "doi": "10.5281/zenodo.5716852",
+        "max_temperature": 1200.0,
+        "n_L_default": 0.53,
+        "num_pressure_broadeners": 0,
+        "nxsec_files": 0,
+        "nkcoeff_files": 0,
+        "dipole_available": false,
+        "cooling_function_available": false,
+        "specific_heat_available": true,
+        "continuum": null,
+        "predis": null,
+        "states": {
+            "number_of_states": 10176406,
+            "max_energy": 8000.0,
+            "hyperfine_resolved_dataset": false,
+            "uncertainty_description": null,
+            "uncertainties_available": false,
+            "lifetime_available": false,
+            "lande_g_available": false,
+            "num_quanta": 16,
+            "states_file_fields": [
+                {
+                    "name": "ID",
+                    "desc": "Unique integer identifier for the energy level",
+                    "ffmt": "I12",
+                    "cfmt": "%12d"
+                },
+                {
+                    "name": "E",
+                    "desc": "State energy in cm-1",
+                    "ffmt": "F12.6",
+                    "cfmt": "%12.6f"
+                },
+                {
+                    "name": "gtot",
+                    "desc": "Total energy level degeneracy",
+                    "ffmt": "I6",
+                    "cfmt": "%6d"
+                },
+                {
+                    "name": "J",
+                    "desc": "Total rotational quantum number, excluding nuclear spin",
+                    "ffmt": "I7",
+                    "cfmt": "%7d"
+                },
+                {
+                    "name": "unc",
+                    "desc": "Energy uncertainty in cm-1",
+                    "ffmt": "F12.6",
+                    "cfmt": "%12.6f"
+                },
+                {
+                    "name": "stcs:Gtot",
+                    "ffmt": "A3",
+                    "cfmt": "%3s",
+                    "desc": "Total symmetry"
+                },
+                {
+                    "name": "stcs:v1",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "v1 C--Cl stretch quantum number(3)"
+                },
+                {
+                    "name": "stcs:v2",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "v2 C--H stretch quantum number(3)"
+                },
+                {
+                    "name": "stcs:v3",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "v3 C--H stretch quantum number(3)"
+                },
+                {
+                    "name": "stcs:v4",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "v4 C--H stretch quantum number(3)"
+                },
+                {
+                    "name": "stcs:v5",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "v5 bend quantum number"
+                },
+                {
+                    "name": "stcs:v6",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "v6 bend quantum number"
+                },
+                {
+                    "name": "stcs:v7",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "v7 bend quantum number"
+                },
+                {
+                    "name": "stcs:v8",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "v8 bend quantum number"
+                },
+                {
+                    "name": "stcs:v9",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "v9 bend quantum number"
+                },
+                {
+                    "name": "stcs:Gvib",
+                    "ffmt": "A3",
+                    "cfmt": "%3s",
+                    "desc": "Vibrational symmetry"
+                },
+                {
+                    "name": "stcs:J",
+                    "ffmt": "I7",
+                    "cfmt": "%7d",
+                    "desc": "Total rotational quantum number"
+                },
+                {
+                    "name": "stcs:K",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "rot QN"
+                },
+                {
+                    "name": "stcs:rotpar",
+                    "ffmt": "I1",
+                    "cfmt": "%1d",
+                    "desc": "Rotational parity"
+                },
+                {
+                    "name": "stcs:Grot",
+                    "ffmt": "A3",
+                    "cfmt": "%3s",
+                    "desc": "Rotational symmetry"
+                },
+                {
+                    "name": "stcs:|Coef|2",
+                    "ffmt": "F5.2",
+                    "cfmt": "%5.2f",
+                    "desc": "Square modulus of the coefficient with the largest contribution"
+                }
+            ]
+        },
+        "transitions": {
+            "number_of_transitions": 166279320228,
+            "number_of_transition_files": 64,
+            "max_wavenumber": 6400.0
+        }
+    },
+    "partition_function": {
+        "max_partition_function_temperature": 2000.0,
+        "partition_function_step_size": 1.0
+    },
+    "broad": {
+        "default_Lorentzian_half-width": 0.075,
+        "default_temperature_exponent": 0.53
+    }
+}

@@ -1,0 +1,114 @@
+{
+    "isotopologue": {
+        "iso_formula": "(13C)(1H)",
+        "iso_slug": "13C-1H",
+        "inchikey": "VRLIPUYDFBXWCH-OUBTZVSYSA-N",
+        "mass_in_Da": 14.01118,
+        "point_group": "Cs"
+    },
+    "atoms": {
+        "number_of_atoms": 2,
+        "element": {
+            "C": 13,
+            "H": 1
+        }
+    },
+    "irreducible_representations": {
+        "Sigma+": 4,
+        "Sigma-": 4
+    },
+    "dataset": {
+        "name": "MoLLIST",
+        "version": 20160726,
+        "doi": "10.5281/zenodo.5716694",
+        "max_temperature": 8000.0,
+        "n_L_default": 0.5,
+        "num_pressure_broadeners": 0,
+        "nxsec_files": 0,
+        "nkcoeff_files": 0,
+        "dipole_available": false,
+        "cooling_function_available": false,
+        "specific_heat_available": null,
+        "continuum": null,
+        "predis": null,
+        "states": {
+            "number_of_states": 2428,
+            "max_energy": null,
+            "hyperfine_resolved_dataset": false,
+            "uncertainty_description": null,
+            "uncertainties_available": false,
+            "lifetime_available": false,
+            "lande_g_available": false,
+            "num_quanta": 4,
+            "states_file_fields": [
+                {
+                    "name": "ID",
+                    "desc": "Unique integer identifier for the energy level",
+                    "ffmt": "I12",
+                    "cfmt": "%12d"
+                },
+                {
+                    "name": "E",
+                    "desc": "State energy in cm-1",
+                    "ffmt": "F12.6",
+                    "cfmt": "%12.6f"
+                },
+                {
+                    "name": "gtot",
+                    "desc": "Total energy level degeneracy",
+                    "ffmt": "I6",
+                    "cfmt": "%6d"
+                },
+                {
+                    "name": "J",
+                    "desc": "Total rotational quantum number, excluding nuclear spin",
+                    "ffmt": "F7.1",
+                    "cfmt": "%7.1f"
+                },
+                {
+                    "name": "unc",
+                    "desc": "Energy uncertainty in cm-1",
+                    "ffmt": "F12.6",
+                    "cfmt": "%12.6f"
+                },
+                {
+                    "name": "hund:N",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "N quantum number"
+                },
+                {
+                    "name": "hund:e/f",
+                    "ffmt": "A3",
+                    "cfmt": "%3s",
+                    "desc": "Rotationless-parity"
+                },
+                {
+                    "name": "hund:v",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "State vibrational quantum number"
+                },
+                {
+                    "name": "hund:ElecState",
+                    "ffmt": "A12",
+                    "cfmt": "%12s",
+                    "desc": "Electromic state"
+                }
+            ]
+        },
+        "transitions": {
+            "number_of_transitions": 51349,
+            "number_of_transition_files": 1,
+            "max_wavenumber": 39061.972053
+        }
+    },
+    "partition_function": {
+        "max_partition_function_temperature": 8000.0,
+        "partition_function_step_size": 1.0
+    },
+    "broad": {
+        "default_Lorentzian_half-width": 0.07,
+        "default_temperature_exponent": 0.5
+    }
+}

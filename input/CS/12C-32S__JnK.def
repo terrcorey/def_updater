@@ -3,28 +3,28 @@ EXOMOL.def                                                                      
 12C-32S                                                                         # Iso-slug
 JnK                                                                             # Isotopologue dataset name
 20160726                                                                        # Version number with format YYYYMMDD
-DXHPZXWIPWDXHJ-UHFFFAOYSA-N                                                     # Inchi key of molecule
+DXHPZXWIPWDXHJ-SZZQIKPLSA-N                                                     # Inchi key of molecule
 2                                                                               # Number of atoms
 12                                                                              # Isotope number 1
 C                                                                               # Element symbol 1
 32                                                                              # Isotope number 2
 S                                                                               # Element symbol 2
-   43.972071 7.30173406e-26                                                     # Isotopologue mass (Da) and (kg)
+43.972071 7.30173406e-26                                                        # Isotopologue mass (Da) and (kg)
 C                                                                               # Symmetry group
 2                                                                               # Number of irreducible representations
-1                                                                               # Irreducible representation ID
-Sigma+                                                                          # Irreducible representation label
-1                                                                               # Nuclear spin degeneracy
-2                                                                               # Irreducible representation ID
-Sigma-                                                                          # Irreducible representation label
-1                                                                               # Nuclear spin degeneracy
- 3000.00                                                                        # Maximum temperature of linelist
+Sigma+                                                                          # Irreducible representation label 1
+1                                                                               # Nuclear spin degeneracy 1
+Sigma-                                                                          # Irreducible representation label 2
+1                                                                               # Nuclear spin degeneracy 2
+3000.00                                                                         # Maximum temperature of linelist
 2                                                                               # No. of pressure broadeners available
 0                                                                               # Dipole availability (1=yes, 0=no)
 18                                                                              # No. of cross section files available
 0                                                                               # No. of k-coefficient files available
 1                                                                               # Lifetime availability (1=yes, 0=no)
 0                                                                               # Lande g-factor availability (1=yes, 0=no)
+0                                                                               # Uncertainty availability (1=yes, 0=no)
+0                                                                               # Hyperfine resolved dataset (1=yes, 0=no)
 11497                                                                           # No. of states in .states file
 1                                                                               # No. of quanta cases
 dcs                                                                             # Quantum case label
@@ -36,14 +36,14 @@ State vibrational quantum number                                                
 1                                                                               # No. of transition files
 10996.09                                                                        # Maximum wavenumber (in cm-1)
 30000.00                                                                        # Higher energy with complete set of transitions (in cm-1)
- 3000.00                                                                        # Maximum temperature of partition function
- 1.00                                                                           # Step size of temperature
+3000.00                                                                         # Maximum temperature of partition function
+1.00                                                                            # Step size of temperature
 0                                                                               # Cooling function availability (1=yes, 0=no)
 1                                                                               # Specific heat availability (1=yes, 0=no)
 0.0700                                                                          # Default value of Lorentzian half-width for all lines (in cm-1/bar)
 0.500                                                                           # Default value of temperature exponent for all lines
 air                                                                             # Label for a particular broadener
-12C-32S__air.broad                                                              # Filename of particular broadener
+12C-32S__air.broad                                                              # Filename for a particular broadener
 46                                                                              # Maximum J for which pressure broadening parameters provided
 0.0698                                                                          # Value of Lorentzian half-width for J" > Jmax
 0.750                                                                           # Value of temperature exponent for lines with J" > Jmax
@@ -52,7 +52,7 @@ a0                                                                              
 47                                                                              # No. of lines in the broad that contain this code
 0                                                                               # No. of quantum numbers defined
 self                                                                            # Label for a particular broadener
-12C-32S__self.broad                                                             # Filename of particular broadener
+12C-32S__self.broad                                                             # Filename for a particular broadener
 46                                                                              # Maximum J for which pressure broadening parameters provided
 0.0620                                                                          # Value of Lorentzian half-width for J" > Jmax
 0.500                                                                           # Value of temperature exponent for lines with J" > Jmax

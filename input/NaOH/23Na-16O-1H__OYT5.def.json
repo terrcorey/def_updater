@@ -1,0 +1,145 @@
+{
+    "isotopologue": {
+        "iso_formula": "(23Na)(16O)(1H)",
+        "iso_slug": "23Na-16O-1H",
+        "inchikey": "HEMHJVSKTPXQMS-UHFFFAOYSA-M",
+        "mass_in_Da": 39.9971,
+        "point_group": "C"
+    },
+    "atoms": {
+        "number_of_atoms": 3,
+        "element": {
+            "Na": 23,
+            "O": 16,
+            "H": 1
+        }
+    },
+    "irreducible_representations": {
+        "Sigma+": 6,
+        "Sigma-": 6
+    },
+    "dataset": {
+        "name": "OYT5",
+        "version": 20201201,
+        "doi": "10.5281/zenodo.5716832",
+        "max_temperature": 3500.0,
+        "n_L_default": 0.5,
+        "num_pressure_broadeners": 0,
+        "nxsec_files": 0,
+        "nkcoeff_files": 0,
+        "dipole_available": false,
+        "cooling_function_available": false,
+        "specific_heat_available": true,
+        "continuum": null,
+        "predis": null,
+        "states": {
+            "number_of_states": 7927877,
+            "max_energy": 16000.0,
+            "hyperfine_resolved_dataset": false,
+            "uncertainty_description": null,
+            "uncertainties_available": true,
+            "lifetime_available": false,
+            "lande_g_available": false,
+            "num_quanta": 9,
+            "states_file_fields": [
+                {
+                    "name": "ID",
+                    "desc": "Unique integer identifier for the energy level",
+                    "ffmt": "I12",
+                    "cfmt": "%12d"
+                },
+                {
+                    "name": "E",
+                    "desc": "State energy in cm-1",
+                    "ffmt": "F12.6",
+                    "cfmt": "%12.6f"
+                },
+                {
+                    "name": "gtot",
+                    "desc": "Total energy level degeneracy",
+                    "ffmt": "I6",
+                    "cfmt": "%6d"
+                },
+                {
+                    "name": "J",
+                    "desc": "Total rotational quantum number, excluding nuclear spin",
+                    "ffmt": "I7",
+                    "cfmt": "%7d"
+                },
+                {
+                    "name": "unc",
+                    "desc": "Energy uncertainty in cm-1",
+                    "ffmt": "F12.6",
+                    "cfmt": "%12.6f"
+                },
+                {
+                    "name": "TROVE:Gtot",
+                    "ffmt": "A3",
+                    "cfmt": "%3s",
+                    "desc": "Symmetry"
+                },
+                {
+                    "name": "TROVE:v1",
+                    "ffmt": "I2",
+                    "cfmt": "%2d",
+                    "desc": "v1 vibrational quantum number"
+                },
+                {
+                    "name": "TROVE:v2lin",
+                    "ffmt": "I2",
+                    "cfmt": "%2d",
+                    "desc": "v2lin vibrational quantum number"
+                },
+                {
+                    "name": "TROVE:L",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "L vibrational quantum number"
+                },
+                {
+                    "name": "TROVE:v3",
+                    "ffmt": "I2",
+                    "cfmt": "%2d",
+                    "desc": "v3 vibrational quantum number"
+                },
+                {
+                    "name": "TROVE:Coef",
+                    "ffmt": "F5.2",
+                    "cfmt": "%5.2f",
+                    "desc": "Conribution coefficient"
+                },
+                {
+                    "name": "TROVE:n1",
+                    "ffmt": "I2",
+                    "cfmt": "%2d",
+                    "desc": "n1 vibrational quantum number (TROVE)"
+                },
+                {
+                    "name": "TROVE:n2",
+                    "ffmt": "I2",
+                    "cfmt": "%2d",
+                    "desc": "n2 vibrational quantum number (TROVE)"
+                },
+                {
+                    "name": "TROVE:n3",
+                    "ffmt": "I2",
+                    "cfmt": "%2d",
+                    "desc": "n3 vibrational quantum number (TROVE)"
+                }
+            ]
+        },
+        "transitions": {
+            "number_of_transitions": 496639230921,
+            "number_of_transition_files": 90,
+            "max_wavenumber": 9000.0
+        }
+    },
+    "partition_function": {
+        "max_partition_function_temperature": 4000.0,
+        "partition_function_step_size": 1.0
+    },
+    "broad": {
+        "default_Lorentzian_half-width": 0.084,
+        "default_temperature_exponent": 0.5
+    }
+}

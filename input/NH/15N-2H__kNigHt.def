@@ -3,7 +3,7 @@ EXOMOL.def                                                                      
 15N-2H                                                                          # Iso-slug
 kNigHt                                                                          # Isotopologue dataset name
 20240301                                                                        # Version number with format YYYYMMDD
-PDCKRJPYJMCOFO-RMCWLEMVSA-N                                                     # Inchi key of molecule
+SHQROCLHCPBSPB-ZIIAHIFVSA-N                                                     # Inchi key of molecule
 2                                                                               # Number of atoms
 15                                                                              # Isotope number 1
 N                                                                               # Element symbol 1
@@ -12,19 +12,19 @@ H                                                                               
 17.014211 2.82526073e-26                                                        # Isotopologue mass (Da) and (kg)
 C                                                                               # Symmetry group
 2                                                                               # Number of irreducible representations
-1                                                                               # Irreducible representation ID
-Sigma+                                                                          # Irreducible representation label
-6                                                                               # Nuclear spin degeneracy
-2                                                                               # Irreducible representation ID
-Sigma-                                                                          # Irreducible representation label
-6                                                                               # Nuclear spin degeneracy
- 10000.00                                                                       # Maximum temperature of linelist
+Sigma+                                                                          # Irreducible representation label 1
+6                                                                               # Nuclear spin degeneracy 1
+Sigma-                                                                          # Irreducible representation label 2
+6                                                                               # Nuclear spin degeneracy 2
+10000.00                                                                        # Maximum temperature of linelist
 0                                                                               # No. of pressure broadeners available
 0                                                                               # Dipole availability (1=yes, 0=no)
 0                                                                               # No. of cross section files available
 0                                                                               # No. of k-coefficient files available
 1                                                                               # Lifetime availability (1=yes, 0=no)
 1                                                                               # Lande g-factor availability (1=yes, 0=no)
+1                                                                               # Uncertainty availability (1=yes, 0=no)
+0                                                                               # Hyperfine resolved dataset (1=yes, 0=no)
 7465                                                                            # No. of states in .states file
 1                                                                               # No. of quanta cases
 dcs                                                                             # Quantum case label
@@ -35,7 +35,7 @@ Total parity                                                                    
 e/f                                                                             # Quantum label 2
 A1 %1s                                                                          # Format quantum label 2
 Rotationless parity                                                             # Description quantum label 2
-State                                                                           # Quantum label 3
+ElecState                                                                       # Quantum label 3
 A12 %12s                                                                        # Format quantum label 3
 Electronic states                                                               # Description quantum label 3
 v                                                                               # Quantum label 4
@@ -47,23 +47,22 @@ Electronic orbital angular momentum projection along internuclear axis          
 N                                                                               # Quantum label 6
 I3 %3d                                                                          # Format quantum label 6
 Rotational angular momentum                                                     # Description quantum label 6
-F                                                                               # Quantum label 7
+Fnum                                                                            # Quantum label 7
 I2 %2d                                                                          # Format quantum label 7
 Fine structure counting number                                                  # Description quantum label 7
 SourceType                                                                      # Auxiliary title 1
 A2 %2s                                                                          # Format title 1
-State source (MARVEL/Experimental,Effective Hamiltonian,Calculated/Variational) # Description title 1
+Ma=MARVEL,Ca=Calculated,EH=Effective Hamiltonian,IE=Isotopologue extrapolation  # Description title 1
 Ecal                                                                            # Auxiliary title 2
 F12.6 %12.6f                                                                    # Format title 2
-Variational (Calculated) Energy (in cm-1)                                       # Description title 2
+Calculated energy in cm-1                                                       # Description title 2
 785940                                                                          # Total number of transitions
 1                                                                               # No. of transition files
 46205.312575                                                                    # Maximum wavenumber (in cm-1)
 46295.527425                                                                    # Higher energy with complete set of transitions (in cm-1)
- 10000.00                                                                       # Maximum temperature of partition function
- 1.00                                                                           # Step size of temperature
+10000.00                                                                        # Maximum temperature of partition function
+1.00                                                                            # Step size of temperature
 0                                                                               # Cooling function availability (1=yes, 0=no)
 0                                                                               # Specific heat availability (1=yes, 0=no)
 0.0700                                                                          # Default value of Lorentzian half-width for all lines (in cm-1/bar)
 0.500                                                                           # Default value of temperature exponent for all lines
-1                                                                               # Uncertainty availability (1=yes, 0=no)

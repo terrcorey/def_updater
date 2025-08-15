@@ -1,0 +1,222 @@
+{
+    "isotopologue": {
+        "iso_formula": "(1H)2(16O)2",
+        "iso_slug": "1H2-16O2",
+        "inchikey": "MHAJPDPJQMAIIY-UHFFFAOYSA-N",
+        "mass_in_Da": 34.005479,
+        "point_group": "D2h"
+    },
+    "atoms": {
+        "number_of_atoms": 4,
+        "element": {
+            "H": 1,
+            "O": 16
+        }
+    },
+    "irreducible_representations": {
+        "A_g_": 1,
+        "A_u_": 1,
+        "B_1g_": 3,
+        "B_1u_": 3,
+        "B_2g_": 0,
+        "B_2u_": 0,
+        "B_3g_": 0,
+        "B_3u": 0
+    },
+    "dataset": {
+        "name": "APTY",
+        "version": 20160726,
+        "doi": "10.5281/zenodo.5716870",
+        "max_temperature": 9000.0,
+        "n_L_default": 0.5,
+        "num_pressure_broadeners": 0,
+        "nxsec_files": 0,
+        "nkcoeff_files": 0,
+        "dipole_available": false,
+        "cooling_function_available": false,
+        "specific_heat_available": true,
+        "continuum": null,
+        "predis": null,
+        "states": {
+            "number_of_states": 7560352,
+            "max_energy": 8000.0,
+            "hyperfine_resolved_dataset": false,
+            "uncertainty_description": null,
+            "uncertainties_available": false,
+            "lifetime_available": true,
+            "lande_g_available": false,
+            "num_quanta": 20,
+            "states_file_fields": [
+                {
+                    "name": "ID",
+                    "desc": "Unique integer identifier for the energy level",
+                    "ffmt": "I12",
+                    "cfmt": "%12d"
+                },
+                {
+                    "name": "E",
+                    "desc": "State energy in cm-1",
+                    "ffmt": "F12.6",
+                    "cfmt": "%12.6f"
+                },
+                {
+                    "name": "gtot",
+                    "desc": "Total energy level degeneracy",
+                    "ffmt": "I6",
+                    "cfmt": "%6d"
+                },
+                {
+                    "name": "J",
+                    "desc": "Total rotational quantum number, excluding nuclear spin",
+                    "ffmt": "I7",
+                    "cfmt": "%7d"
+                },
+                {
+                    "name": "unc",
+                    "desc": "Energy uncertainty in cm-1",
+                    "ffmt": "F12.6",
+                    "cfmt": "%12.6f"
+                },
+                {
+                    "name": "tau",
+                    "desc": "Lifetime in s",
+                    "ffmt": "ES12.4",
+                    "cfmt": "%12.4e"
+                },
+                {
+                    "name": "TROVE:Gtot",
+                    "ffmt": "A3",
+                    "cfmt": "%3s",
+                    "desc": "Total symmetry"
+                },
+                {
+                    "name": "TROVE:v1",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "[0/16] normal mode vibrational quantum number"
+                },
+                {
+                    "name": "TROVE:v2",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "[0/8]  normal mode vibrational quantum number"
+                },
+                {
+                    "name": "TROVE:v3",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "[0/8] normal mode vibrational quantum number"
+                },
+                {
+                    "name": "TROVE:v4",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "[0/14] normal mode torsional excitation quantum number"
+                },
+                {
+                    "name": "TROVE:v5",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "[0/14] normal mode vibrational quantum number"
+                },
+                {
+                    "name": "TROVE:v6",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "[0/16] normal mode vibrational quantum number"
+                },
+                {
+                    "name": "TROVE:Gtor",
+                    "ffmt": "A3",
+                    "cfmt": "%3s",
+                    "desc": "Torsional symmetry"
+                },
+                {
+                    "name": "TROVE:Gvib",
+                    "ffmt": "A3",
+                    "cfmt": "%3s",
+                    "desc": "Vibrational symmetry"
+                },
+                {
+                    "name": "TROVE:K",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "[0/85] Projection of J on axis of molec. symmetry"
+                },
+                {
+                    "name": "TROVE:rotpar",
+                    "ffmt": "I1",
+                    "cfmt": "%1d",
+                    "desc": "Rotational parity"
+                },
+                {
+                    "name": "TROVE:Grot",
+                    "ffmt": "A3",
+                    "cfmt": "%3s",
+                    "desc": "Rotational symmetry"
+                },
+                {
+                    "name": "TROVE:nblock",
+                    "ffmt": "I2",
+                    "cfmt": "%2d",
+                    "desc": "Counting number in symmetry block"
+                },
+                {
+                    "name": "TROVE:|Coef|2",
+                    "ffmt": "F5.2",
+                    "cfmt": "%5.2f",
+                    "desc": "Square modulus of the coefficient with the largest contribution"
+                },
+                {
+                    "name": "TROVE:n1",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "[0/16] Local mode vibrational quantum number"
+                },
+                {
+                    "name": "TROVE:n2",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "[0/8] Local mode vibrational quantum number"
+                },
+                {
+                    "name": "TROVE:n3",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "[0/8] Local mode vibrational quantum number"
+                },
+                {
+                    "name": "TROVE:n4",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "[0/14] Local mode vibrational quantum number"
+                },
+                {
+                    "name": "TROVE:n5",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "[0/14] Local mode vibrational quantum number"
+                },
+                {
+                    "name": "TROVE:n6",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "[0/16] Local mode vibrational quantum number"
+                }
+            ]
+        },
+        "transitions": {
+            "number_of_transitions": 20000000,
+            "number_of_transition_files": 60,
+            "max_wavenumber": 6000.0
+        }
+    },
+    "partition_function": {
+        "max_partition_function_temperature": 1500.0,
+        "partition_function_step_size": 1.0
+    },
+    "broad": {
+        "default_Lorentzian_half-width": 0.07,
+        "default_temperature_exponent": 0.5
+    }
+}

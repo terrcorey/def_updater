@@ -1,0 +1,279 @@
+{
+    "isotopologue": {
+        "iso_formula": "(14N)(1H)3",
+        "iso_slug": "14N-1H3",
+        "inchikey": "QGZKDVFQNNGYKY-UHFFFAOYSA-N",
+        "mass_in_Da": 17.026549,
+        "point_group": "D3h"
+    },
+    "atoms": {
+        "number_of_atoms": 4,
+        "element": {
+            "N": 14,
+            "H": 1
+        }
+    },
+    "irreducible_representations": {
+        "A'1": 0,
+        "A'2": 12,
+        "E'": 6,
+        "A\"1": 0,
+        "A\"2": 12,
+        "E\"": 6
+    },
+    "dataset": {
+        "name": "CoYuTe",
+        "version": 20200730,
+        "doi": "10.5281/zenodo.5716876",
+        "max_temperature": 2000.0,
+        "n_L_default": 0.5,
+        "num_pressure_broadeners": 2,
+        "nxsec_files": 0,
+        "nkcoeff_files": 0,
+        "dipole_available": false,
+        "cooling_function_available": false,
+        "specific_heat_available": true,
+        "continuum": null,
+        "predis": null,
+        "states": {
+            "number_of_states": 5095730,
+            "max_energy": 11000.0,
+            "hyperfine_resolved_dataset": false,
+            "uncertainty_description": "Calculated energy in cm-1",
+            "uncertainties_available": true,
+            "lifetime_available": false,
+            "lande_g_available": false,
+            "num_quanta": 20,
+            "states_file_fields": [
+                {
+                    "name": "ID",
+                    "desc": "Unique integer identifier for the energy level",
+                    "ffmt": "I12",
+                    "cfmt": "%12d"
+                },
+                {
+                    "name": "E",
+                    "desc": "State energy in cm-1",
+                    "ffmt": "F12.6",
+                    "cfmt": "%12.6f"
+                },
+                {
+                    "name": "gtot",
+                    "desc": "Total energy level degeneracy",
+                    "ffmt": "I6",
+                    "cfmt": "%6d"
+                },
+                {
+                    "name": "J",
+                    "desc": "Total rotational quantum number, excluding nuclear spin",
+                    "ffmt": "I7",
+                    "cfmt": "%7d"
+                },
+                {
+                    "name": "unc",
+                    "desc": "Energy uncertainty in cm-1",
+                    "ffmt": "F12.6",
+                    "cfmt": "%12.6f"
+                },
+                {
+                    "name": "TROVE:+/-",
+                    "ffmt": "A1",
+                    "cfmt": "%1s",
+                    "desc": "Parity"
+                },
+                {
+                    "name": "TROVE:Gtot",
+                    "ffmt": "A3",
+                    "cfmt": "%3s",
+                    "desc": "Total symmetry index in D3h(M)"
+                },
+                {
+                    "name": "TROVE:nblock",
+                    "ffmt": "I2",
+                    "cfmt": "%2d",
+                    "desc": "Counting number in symmetry block"
+                },
+                {
+                    "name": "TROVE:n1",
+                    "ffmt": "I2",
+                    "cfmt": "%2d",
+                    "desc": "Symmetric stretch quantum number (normal mode)"
+                },
+                {
+                    "name": "TROVE:n2",
+                    "ffmt": "I2",
+                    "cfmt": "%2d",
+                    "desc": "Symmetric bend quantum number (normal mode)"
+                },
+                {
+                    "name": "TROVE:n3",
+                    "ffmt": "I2",
+                    "cfmt": "%2d",
+                    "desc": "Asymmetric stretch quantum number (normal mode)"
+                },
+                {
+                    "name": "TROVE:n4",
+                    "ffmt": "I2",
+                    "cfmt": "%2d",
+                    "desc": "Asymmetric bend quantum number (normal mode)"
+                },
+                {
+                    "name": "TROVE:l3",
+                    "ffmt": "I2",
+                    "cfmt": "%2d",
+                    "desc": "Asymmetric stretch angular momentum quantum no. (normal mode)"
+                },
+                {
+                    "name": "TROVE:l4",
+                    "ffmt": "I2",
+                    "cfmt": "%2d",
+                    "desc": "Asymmetric bend angular momentum quantum no. (normal mode)"
+                },
+                {
+                    "name": "TROVE:invpar",
+                    "ffmt": "I1",
+                    "cfmt": "%1d",
+                    "desc": "Inversional parity"
+                },
+                {
+                    "name": "TROVE:J",
+                    "ffmt": "I7",
+                    "cfmt": "%7d",
+                    "desc": "Total rotational quantum number"
+                },
+                {
+                    "name": "TROVE:K",
+                    "ffmt": "I2",
+                    "cfmt": "%2d",
+                    "desc": "Projection of J on axis of molecular symmetry"
+                },
+                {
+                    "name": "TROVE:rotpar",
+                    "ffmt": "I1",
+                    "cfmt": "%1d",
+                    "desc": "Rotational parity"
+                },
+                {
+                    "name": "TROVE:v1",
+                    "ffmt": "I2",
+                    "cfmt": "%2d",
+                    "desc": "Local mode stretching quantum number (1)"
+                },
+                {
+                    "name": "TROVE:v2",
+                    "ffmt": "I2",
+                    "cfmt": "%2d",
+                    "desc": "Local mode stretching quantum number (2)"
+                },
+                {
+                    "name": "TROVE:v3",
+                    "ffmt": "I2",
+                    "cfmt": "%2d",
+                    "desc": "Local mode stretching quantum number (3)"
+                },
+                {
+                    "name": "TROVE:v4",
+                    "ffmt": "I2",
+                    "cfmt": "%2d",
+                    "desc": "Local mode bending quantum number (1)"
+                },
+                {
+                    "name": "TROVE:v5",
+                    "ffmt": "I2",
+                    "cfmt": "%2d",
+                    "desc": "Local mode bending quantum number  (2)"
+                },
+                {
+                    "name": "TROVE:v6",
+                    "ffmt": "I2",
+                    "cfmt": "%2d",
+                    "desc": "Local mode inversion quantum number"
+                },
+                {
+                    "name": "TROVE:Gvib",
+                    "ffmt": "A3",
+                    "cfmt": "%3s",
+                    "desc": "D3h(M) vibrational symmetry (local mode)"
+                }
+            ]
+        },
+        "transitions": {
+            "number_of_transitions": 16941637250,
+            "number_of_transition_files": 200,
+            "max_wavenumber": 20000.0
+        }
+    },
+    "partition_function": {
+        "max_partition_function_temperature": 3000.0,
+        "partition_function_step_size": 1.0
+    },
+    "broad": {
+        "default_Lorentzian_half-width": 0.053,
+        "default_temperature_exponent": 0.5,
+        "H2": {
+            "max_J": 14,
+            "Lorentzian_half_width": 0.0801,
+            "temperature_exponent": 0.5,
+            "num_quantum_number_sets": 3,
+            "quantum_number_sets": [
+                {
+                    "code": "a4",
+                    "num_lines": 16,
+                    "num_quantum_numbers": 4,
+                    "quantum_numbers": [
+                        "K\"",
+                        "J'",
+                        "J\"",
+                        "Gamma\""
+                    ]
+                },
+                {
+                    "code": "a1",
+                    "num_lines": 571,
+                    "num_quantum_numbers": 1,
+                    "quantum_numbers": [
+                        "K\""
+                    ]
+                },
+                {
+                    "code": "a0",
+                    "num_lines": 15,
+                    "num_quantum_numbers": 0,
+                    "quantum_numbers": []
+                }
+            ]
+        },
+        "He": {
+            "max_J": 14,
+            "Lorentzian_half_width": 0.025,
+            "temperature_exponent": 0.5,
+            "num_quantum_number_sets": 3,
+            "quantum_number_sets": [
+                {
+                    "code": "a3",
+                    "num_lines": 3,
+                    "num_quantum_numbers": 3,
+                    "quantum_numbers": [
+                        "K\"",
+                        "J'",
+                        "J\""
+                    ]
+                },
+                {
+                    "code": "a1",
+                    "num_lines": 242,
+                    "num_quantum_numbers": 1,
+                    "quantum_numbers": [
+                        "K\""
+                    ]
+                },
+                {
+                    "code": "a0",
+                    "num_lines": 15,
+                    "num_quantum_numbers": 0,
+                    "quantum_numbers": []
+                }
+            ]
+        }
+    }
+}

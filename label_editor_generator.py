@@ -39,8 +39,9 @@ def read_states(states_file_path):
     return df
 
 def write_to_excel(df, desc_df, mol, filename):
+    ds_name = filename.replace(".def", "")
     excel_file_path = os.path.join(".", "label_editor.xlsx")
-    sheet_name = f"{mol}__{filename}"
+    sheet_name = f"{mol}__{ds_name}"
     sheet_name = sheet_name[:31]
     try:
         with pd.ExcelWriter(excel_file_path, mode='a' if os.path.exists(excel_file_path) else 'w', engine='openpyxl') as writer:
@@ -83,13 +84,6 @@ def read_def_labels(path):
     ]
     lines_iter = iter(lines)
     for l in lines_iter:
-        if "# Hyperfine resolved dataset" in l:
-            if bool(l.split("#")[0].strip()):
-                quantum_labels[3] = {
-                    "Quantum label": "F",
-                    "Description quantum label": "Final angular momentum quantum number",
-                    "Format quantum label": "I7 %7d"
-                }
         if "# Quantum label" in l:
             quantum_label = l.split("#")[0].strip()
             fmt_label = next(lines_iter).split("#")[0].strip()
@@ -99,12 +93,44 @@ def read_def_labels(path):
                 "Format quantum label": fmt_label,
                 "Description quantum label": desc_label
             })
+        if "# Lifetime availability (1=yes, 0=no)" in l:
+            lifetime_avail = l.split("#")[0].strip()
+            gfactor_avail = next(lines_iter).split("#")[0].strip()
+            unc_avail = next(lines_iter).split("#")[0].strip()
+            hyperfine_dataset = next(lines_iter).split("#")[0].strip()
+            insert_idx = 4
+            if unc_avail == "1":
+                quantum_labels.insert(insert_idx, {
+                    "Quantum label": "unc",
+                    "Format quantum label": "F12.6 %12.6f",
+                    "Description quantum label": "Energy uncertainty in cm-1"
+                })
+                insert_idx += 1
+            if lifetime_avail == "1":
+                quantum_labels.insert(insert_idx, {
+                    "Quantum label": "tau",
+                    "Format quantum label": "ES12.4 %12.4e",
+                    "Description quantum label": "Lifetime in s"
+                })
+                insert_idx += 1
+            if gfactor_avail == "1":
+                quantum_labels.insert(insert_idx, {
+                    "Quantum label": "gfactor",
+                    "Format quantum label": "F10.6 %10.6f",
+                    "Description quantum label": "Landé g-factor"
+                })
+            if hyperfine_dataset == "1":
+                quantum_labels[3] = {
+                    "Quantum label": "F",
+                    "Description quantum label": "Final angular momentum quantum number",
+                    "Format quantum label": "I7 %7d"
+                }
         if "# Auxiliary title" in l:
             auxiliary_title = l.split("#")[0].strip()
             fmt_label = next(lines_iter).split("#")[0].strip()
             desc_label = next(lines_iter).split("#")[0].strip()
             quantum_labels.append({
-                "Quantum label": auxiliary_title,
+                "Quantum label": "Auxiliary:" + auxiliary_title,
                 "Format quantum label": fmt_label,
                 "Description quantum label": desc_label
             })
@@ -124,7 +150,7 @@ def read_json_labels(path):
     return quantum_labels
 
 def main():
-    input_path = os.path.join(".", "output")
+    input_path = os.path.join(".", "input")
     mol_dirs = [d for d in os.listdir(input_path) if os.path.isdir(os.path.join(input_path, d))]
     for mol in tqdm(mol_dirs, desc = "Printing labels onto Excel..."):
         # Process each molecule directory
@@ -132,19 +158,19 @@ def main():
         for f in os.listdir(mol_path):
             def_file_path = os.path.join(mol_path, f)
             if def_file_path.endswith(".def"):
-                states_file_path = os.path.join(mol_path.replace("output", "input"), f.replace(".def", ".states"))
+                states_file_path = os.path.join(mol_path, f.replace(".def", ".states"))
                 if os.path.exists(states_file_path):
                     states_df = read_states(states_file_path)
                 else:
                     print(f"States file not found for {def_file_path}. Skipping.")
                     continue
                 # Read the labels from the definition file
-                if os.path.exists(def_file_path.replace(".def", ".def.json")):
-                    def_labels = read_json_labels(def_file_path.replace(".def", ".def.json"))
-                else:
-                    def_labels = read_def_labels(def_file_path)
-                    if not isinstance(states_df.iloc[0, 3], int):
-                        def_labels[3]["Format quantum label"] = "F7.1 %7.1f"
+                #if os.path.exists(def_file_path.replace(".def", ".def.json")):
+                    #def_labels = read_json_labels(def_file_path.replace(".def", ".def.json"))
+                #else:
+                def_labels = read_def_labels(def_file_path)
+                if not isinstance(states_df.iloc[0, 3], int):
+                    def_labels[3]["Format quantum label"] = "F7.1 %7.1f"
 
                 # Stack def_labels and states_df
                 labels = [l['Quantum label'] for l in def_labels]

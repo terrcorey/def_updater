@@ -9,39 +9,42 @@ KCPAGCNHGFPBFR-UHFFFAOYSA-N                                                     
 La                                                                              # Element symbol 1
 16                                                                              # Isotope number 2
 O                                                                               # Element symbol 2
-   154.904900 2.572242335E-25                                                   # Isotopologue mass (Da) and (kg)
+154.904900 2.572242335E-25                                                      # Isotopologue mass (Da) and (kg)
 C                                                                               # Symmetry group
 2                                                                               # Number of irreducible representations
-1                                                                               # Irreducible representation ID
-Sigma+                                                                          # Irreducible representation label
-8                                                                               # Nuclear spin degeneracy
-2                                                                               # Irreducible representation ID
-Sigma-                                                                          # Irreducible representation label
-8                                                                               # Nuclear spin degeneracy
- 5000.00                                                                        # Maximum temperature of linelist
+Sigma+                                                                          # Irreducible representation label 1
+8                                                                               # Nuclear spin degeneracy 1
+Sigma-                                                                          # Irreducible representation label 2
+8                                                                               # Nuclear spin degeneracy 2
+5000.00                                                                         # Maximum temperature of linelist
 0                                                                               # No. of pressure broadeners available
 0                                                                               # Dipole availability (1=yes, 0=no)
 0                                                                               # No. of cross section files available
 0                                                                               # No. of k-coefficient files available
 0                                                                               # Lifetime availability (1=yes, 0=no)
 0                                                                               # Lande g-factor availability (1=yes, 0=no)
+0                                                                               # Uncertainty availability (1=yes, 0=no)
+1                                                                               # Hyperfine resolved dataset (1=yes, 0=no)
 63644                                                                           # No. of states in .states file
 1                                                                               # No. of quanta cases
 hunda                                                                           # Quantum case label
-5                                                                               # No. of quanta defined
+6                                                                               # No. of quanta defined
+J                                                                               # Quantum label 1
+I7 %7d                                                                          # Format quantum label 1
+Total rotational quantum number                                                 # Description quantum label 1
 N                                                                               # Quantum label 2
 I6 %6d                                                                          # Format quantum label 2
 Rotational angular momentum                                                     # Description quantum label 2
 e/f                                                                             # Quantum label 3
 A3 %3s                                                                          # Format quantum label 3
 Rotationless-parity                                                             # Description quantum label 3
-State                                                                           # Quantum label 4
+ElecState                                                                       # Quantum label 4
 A11 %11s                                                                        # Format quantum label 4
 Notation of the electronic state                                                # Description quantum label 4
 v                                                                               # Quantum label 5
 I10 %10d                                                                        # Format quantum label 5
 State vibrational quantum number                                                # Description quantum label 5
-F1/F2/F3                                                                        # Quantum label 6
+F_i                                                                             # Quantum label 6
 A4 %4s                                                                          # Format quantum label 6
 Spin component                                                                  # Description quantum label 6
 2066535                                                                         # Total number of transitions

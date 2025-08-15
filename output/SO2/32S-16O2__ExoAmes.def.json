@@ -37,7 +37,7 @@
             "number_of_states": 3270271,
             "max_energy": 8000.0,
             "hyperfine_resolved_dataset": false,
-            "uncertainty_description": "State energy in cm-1 calculated with DUO",
+            "uncertainty_description": null,
             "uncertainties_available": true,
             "lifetime_available": true,
             "lande_g_available": false,
@@ -143,6 +143,7 @@
         "default_Lorentzian_half-width": 0.1063,
         "default_temperature_exponent": 0.695,
         "H2": {
+            "filename": "32S-16O2__H2.broad",
             "max_J": 60,
             "Lorentzian_half_width": 0.14,
             "temperature_exponent": 0.75,
@@ -169,6 +170,7 @@
             ]
         },
         "He": {
+            "filename": "32S-16O2__He.broad",
             "max_J": 60,
             "Lorentzian_half_width": 0.07,
             "temperature_exponent": 0.64,

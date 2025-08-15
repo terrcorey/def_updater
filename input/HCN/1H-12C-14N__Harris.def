@@ -5,28 +5,28 @@ Harris                                                                          
 20161205                                                                        # Version number with format YYYYMMDD
 LELOWRISYMNNSU-UHFFFAOYSA-N                                                     # Inchi key of molecule
 3                                                                               # Number of atoms
-1                                                                               # Isotope number 1 
-H                                                                               # Element symbol 1 
-12                                                                              # Isotope number 2 
-C                                                                               # Element symbol 2 
-14                                                                              # Isotope number 3 
-N                                                                               # Element symbol 3 
-   27.010899 4.48526523e-26                                                     # Isotopologue mass (Da) and (kg)
+1                                                                               # Isotope number 1
+H                                                                               # Element symbol 1
+12                                                                              # Isotope number 2
+C                                                                               # Element symbol 2
+14                                                                              # Isotope number 3
+N                                                                               # Element symbol 3
+27.010899 4.48526523e-26                                                        # Isotopologue mass (Da) and (kg)
 C                                                                               # Symmetry group
 2                                                                               # Number of irreducible representations
-1                                                                               # Irreducible representation ID
-Sigma+                                                                          # Irreducible representation label
-6                                                                               # Nuclear spin degeneracy
-2                                                                               # Irreducible representation ID
-Sigma-                                                                          # Irreducible representation label
-6                                                                               # Nuclear spin degeneracy
- 4000.00                                                                        # Maximum temperature of linelist
+Sigma+                                                                          # Irreducible representation label 1
+6                                                                               # Nuclear spin degeneracy 1
+Sigma-                                                                          # Irreducible representation label 2
+6                                                                               # Nuclear spin degeneracy 2
+4000.00                                                                         # Maximum temperature of linelist
 0                                                                               # No. of pressure broadeners available
 2                                                                               # Dipole availability (1=yes, 0=no)
 0                                                                               # No. of cross section files available
 0                                                                               # No. of k-coefficient files available
 1                                                                               # Lifetime availability (1=yes, 0=no)
 0                                                                               # Lande g-factor availability (1=yes, 0=no)
+0                                                                               # Uncertainty availability (1=yes, 0=no)
+0                                                                               # Hyperfine resolved dataset (1=yes, 0=no)
 168110                                                                          # No. of states in .states file
 1                                                                               # No. of quanta cases
 ltcs                                                                            # Quantum case label
@@ -55,15 +55,15 @@ v3 vibrational quantum number                                                   
 34418408                                                                        # Total number of transitions
 1                                                                               # No. of transition files
 17585.79                                                                        # Maximum wavenumber (in cm-1)
-     NaN                                                                        # Higher energy with complete set of transitions (in cm-1)
- 4000.00                                                                        # Maximum temperature of partition function
- 1.00                                                                           # Step size of temperature
+NaN                                                                             # Higher energy with complete set of transitions (in cm-1)
+4000.00                                                                         # Maximum temperature of partition function
+1.00                                                                            # Step size of temperature
 0                                                                               # Cooling function availability (1=yes, 0=no)
 1                                                                               # Specific heat availability (1=yes, 0=no)
 0.0840                                                                          # Default value of Lorentzian half-width for all lines (in cm-1/bar)
 0.500                                                                           # Default value of temperature exponent for all lines
 H2                                                                              # Label for a particular broadener
-1H-12C-14N__H2.broad                                                            # Filename of particular broadener
+1H-12C-14N__H2.broad                                                            # Filename for a particular broadener
 9                                                                               # Maximum J for which pressure broadening parameters provided
 0.1180                                                                          # Value of Lorentzian half-width for J" > Jmax
 0.500                                                                           # Value of temperature exponent for lines with J" > Jmax
@@ -71,15 +71,15 @@ H2                                                                              
 a4                                                                              # A code that defines this set of quantum numbers
 5                                                                               # No. of lines in the broad that contain this code
 4                                                                               # No. of quantum numbers defined
-v1"                                                                             # Defined quantum number 
-v2"                                                                             # Defined quantum number 
-l2"                                                                             # Defined quantum number 
-v3"                                                                             # Defined quantum number 
+v1"                                                                             # Defined quantum number
+v2"                                                                             # Defined quantum number
+l2"                                                                             # Defined quantum number
+v3"                                                                             # Defined quantum number
 a0                                                                              # A code that defines this set of quantum numbers
 10                                                                              # No. of lines in the broad that contain this code
 0                                                                               # No. of quantum numbers defined
 He                                                                              # Label for a particular broadener
-1H-12C-14N__He.broad                                                            # Filename of particular broadener
+1H-12C-14N__He.broad                                                            # Filename for a particular broadener
 10                                                                              # Maximum J for which pressure broadening parameters provided
 0.0490                                                                          # Value of Lorentzian half-width for J" > Jmax
 0.750                                                                           # Value of temperature exponent for lines with J" > Jmax
@@ -87,10 +87,10 @@ He                                                                              
 a4                                                                              # A code that defines this set of quantum numbers
 6                                                                               # No. of lines in the broad that contain this code
 4                                                                               # No. of quantum numbers defined
-v1"                                                                             # Defined quantum number 
-v2"                                                                             # Defined quantum number 
-l2"                                                                             # Defined quantum number 
-v3"                                                                             # Defined quantum number 
+v1"                                                                             # Defined quantum number
+v2"                                                                             # Defined quantum number
+l2"                                                                             # Defined quantum number
+v3"                                                                             # Defined quantum number
 a0                                                                              # A code that defines this set of quantum numbers
 11                                                                              # No. of lines in the broad that contain this code
 0                                                                               # No. of quantum numbers defined

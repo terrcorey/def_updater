@@ -29,8 +29,8 @@ Sigma_g-                                                                        
 0                                                                               # Hyperfine resolved dataset (1=yes, 0=no)
 2051                                                                            # No. of states in .states file
 1                                                                               # No. of quanta cases
-dcs                                                                             # Quantum case label
-hundb                                                                           # Quantum case label
+dcs                                                                             # Quantum case label 1
+hundb                                                                           # Quantum case label 2
 2                                                                               # No. of quanta defined
 ElecState                                                                       # Quantum label 1
 A12 %12s                                                                        # Format quantum label 1

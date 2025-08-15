@@ -196,6 +196,7 @@
         "default_Lorentzian_half-width": 0.075,
         "default_temperature_exponent": 0.53,
         "H2": {
+            "filename": "31P-1H3__H2.broad",
             "max_J": 16,
             "Lorentzian_half_width": 0.0888,
             "temperature_exponent": 0.75,
@@ -227,6 +228,7 @@
             ]
         },
         "He": {
+            "filename": "31P-1H3__He.broad",
             "max_J": 15,
             "Lorentzian_half_width": 0.0452,
             "temperature_exponent": 0.3,

@@ -1,9 +1,9 @@
 EXOMOL.def                                                                      # ID
 (46Ca)(19F)                                                                     # IsoFormula
 46Ca-19F                                                                        # Iso-slug
-Bernath                                                                         # Isotopologue dataset name
+MoLLIST                                                                         # Isotopologue dataset name
 20180713                                                                        # Version number with format YYYYMMDD
-GLWLHVXSYOTACU-LZFNBGRKSA-M                                                     # Inchi key of molecule
+GLWLHVXSYOTACU-CONNIKPHSA-M                                                     # Inchi key of molecule
 2                                                                               # Number of atoms
 46                                                                              # Isotope number 1
 Ca                                                                              # Element symbol 1
@@ -12,19 +12,19 @@ F                                                                               
 64.952096 1.07855483e-25                                                        # Isotopologue mass (Da) and (kg)
 C                                                                               # Symmetry group
 2                                                                               # Number of irreducible representations
-1                                                                               # Irreducible representation ID
-Sigma+                                                                          # Irreducible representation label
-2                                                                               # Nuclear spin degeneracy
-2                                                                               # Irreducible representation ID
-Sigma-                                                                          # Irreducible representation label
-2                                                                               # Nuclear spin degeneracy
- 5000.00                                                                        # Maximum temperature of linelist
+Sigma+                                                                          # Irreducible representation label 1
+2                                                                               # Nuclear spin degeneracy 1
+Sigma-                                                                          # Irreducible representation label 2
+2                                                                               # Nuclear spin degeneracy 2
+5000.00                                                                         # Maximum temperature of linelist
 0                                                                               # No. of pressure broadeners available
 0                                                                               # Dipole availability (1=yes, 0=no)
 0                                                                               # No. of cross section files available
 0                                                                               # No. of k-coefficient files available
-0                                                                               # Lifetime availability (1=yes, 0=no)
+1                                                                               # Lifetime availability (1=yes, 0=no)
 0                                                                               # Lande g-factor availability (1=yes, 0=no)
+0                                                                               # Uncertainty availability (1=yes, 0=no)
+0                                                                               # Hyperfine resolved dataset (1=yes, 0=no)
 1363                                                                            # No. of states in .states file
 1                                                                               # No. of quanta cases
 dcs                                                                             # Quantum case label
@@ -36,6 +36,6 @@ State vibrational quantum number                                                
 1                                                                               # No. of transition files
 5468.138400                                                                     # Maximum wavenumber (in cm-1)
 9883.290600                                                                     # Higher energy with complete set of transitions (in cm-1)
- 5000.00                                                                        # Maximum temperature of partition function
- 1.00                                                                           # Step size of temperature
+5000.00                                                                         # Maximum temperature of partition function
+1.00                                                                            # Step size of temperature
 0                                                                               # Cooling function availability (1=yes, 0=no)

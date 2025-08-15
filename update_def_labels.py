@@ -10,6 +10,8 @@ import re
 import requests
 import bz2
 from io import BytesIO
+import openpyxl
+from pprint import pprint
 
 def download_states_first_line(mol, f):
     if f.endswith(".def"):
@@ -120,24 +122,25 @@ def detect_format(states_file_path, idx):
 # json loaders
 def load_correction_dict():
     path = os.path.join(os.getcwd(), "other_materials", "lib", "correction_dict.json")
-    with open(path, "r") as f:
+    with open(path, "r", encoding="utf-8") as f:
         return json.load(f)
     
 def load_labels_data():
-    path = os.path.join(os.getcwd(), "states_labels.json")
-    with open(path, "r") as f:
+    path = os.path.join(os.getcwd(), "other_materials", "lib", "labels.json")
+    #path = os.path.join(os.getcwd(), "states_labels.json")
+    with open(path, "r", encoding="utf-8") as f:
         labels_data = json.load(f)
     return labels_data
 
 def load_standard_labels():
     path = os.path.join(os.getcwd(), "other_materials", "lib", "standard_label_structure.json")
-    with open(path, "r") as f:
+    with open(path, "r", encoding="utf-8") as f:
         standard_labels = json.load(f)
     return standard_labels
 
 def load_old_master_file():
     path = os.path.join(os.getcwd(), "other_materials", "lib", "old_master_file.json")
-    with open(path, "r") as f:
+    with open(path, "r", encoding="utf-8") as f:
         old_master_file = json.load(f)
     return old_master_file
 
@@ -200,6 +203,13 @@ def read_def_file(def_file_path):
         if len(parts) != 2:
             continue
         value, desc = parts
+        if ": bound/quasi-bound" in desc:
+            desc = desc.replace(": bound/quasi-bound", "")
+        try:
+            _ = int(desc[-2:])
+            desc = desc[:-2].strip()
+        except (ValueError, IndexError):
+            pass
         if value in correction_dict:
             value = correction_dict[value]
         if def_dict.get(desc):
@@ -210,65 +220,83 @@ def read_def_file(def_file_path):
                 def_dict[desc] = [temp, value]
         else:
             def_dict[desc] = value
-    
+
     filename = os.path.basename(def_file_path).replace(".def", "").split("__")
     def_dict["Iso-slug"] = filename[0]
     def_dict["Isotopologue dataset name"] = filename[1]
 
-
     quantum_labels = []
     auxiliary_labels = []
 
-    keys = list(def_dict.keys())
-    for key in keys:
-        if "Quantum label" in key:
-            if key.endswith(": bound/quasi-bound"):
-                key = key.replace(": bound/quasi-bound", "")
-            assert key[-2:].strip().isdigit(), f"Key '{key}' does not end with a digit."
-            try:
-                idx = int(key[-2:].strip())
-                label = {
-                    "Quantum label": def_dict[key],
-                    "Format quantum label": def_dict.get(f"Format quantum label {idx}", ""),
-                    "Description quantum label": def_dict.get(f"Description quantum label {idx}", "")
-                }
-                quantum_labels.append(label)
-                def_dict.pop(key)
-                def_dict.pop(f"Format quantum label {idx}", None)
-                def_dict.pop(f"Description quantum label {idx}", None)
-            except ValueError as e:
-                error_log(f"Dataset: {filename} || Error processing quantum label '{key, def_dict[key]}': {e}")
-                continue
-        elif "Auxiliary title" in key:
-            assert key[-1].isdigit(), f"Key '{key}' does not end with a digit."
-            try:
-                idx = int(key[-1])
-                label = {
-                    "Auxiliary title": def_dict[key],
-                    "Format title": def_dict.get(f"Format title {idx}", ""),
-                    "Description title": def_dict.get(f"Description title {idx}", "")
-                }
-                auxiliary_labels.append(label)
-                def_dict.pop(key)
-                def_dict.pop(f"Format title {idx}", None)
-                def_dict.pop(f"Description title {idx}", None)
-            except ValueError as e:
-                error_log(f"Dataset: {filename} || Error processing auxiliary title '{key, def_dict[key]}': {e}")
-                continue
+    label = def_dict.get("Quantum label", [])
+    fmt = def_dict.get("Format quantum label", [])
+    desc = def_dict.get("Description quantum label", [])
+    if isinstance(label, str):
+        label = [label]
+        fmt = [fmt]
+        desc = [desc]
 
-    idx_list = def_dict["Irreducible representation ID"] 
+    for i, l in enumerate(label):
+        quantum_labels.append({
+            "Quantum label": l,
+            "Format quantum label": fmt[i],
+            "Description quantum label": desc[i]
+        })
+    def_dict.pop("Quantum label", None)
+    def_dict.pop("Format quantum label", None)
+    def_dict.pop("Description quantum label", None)
+
+    aux = def_dict.get("Auxiliary title", [])
+    if aux == []:
+        aux = def_dict.get("Auxiliary tite", [])
+    fmt_aux = def_dict.get("Format title", [])
+    desc_aux = def_dict.get("Description title", [])
+    if isinstance(aux, str):
+        aux = [aux]
+        fmt_aux = [fmt_aux]
+        desc_aux = [desc_aux]
+
+    for i, a in enumerate(aux):
+        auxiliary_labels.append({
+            "Auxiliary title": a,
+            "Format title": fmt_aux[i],
+            "Description title": desc_aux[i]
+        })
+    def_dict.pop("Auxiliary title", None)
+    def_dict.pop("Auxiliary tite", None)
+    def_dict.pop("Format title", None)
+    def_dict.pop("Description title", None)
+
+    isotopes = def_dict.get("Isotope number", [])
+    symbol = def_dict.get("Element symbol", [])
+    if isinstance(isotopes, str):
+        isotopes = [isotopes]
+        symbol = [symbol]
+
+    isotope_info = []
+    for i, l in enumerate(isotopes):
+        isotope_info.append({
+            "Isotope number": l,
+            "Element symbol": symbol[i] 
+        })
+    def_dict["Isotope information"] = isotope_info
+    def_dict.pop("Isotope number", None)
+    def_dict.pop("Element symbol", None)
+
     irreps_list = def_dict["Irreducible representation label"]
     nuc_deg_list = def_dict["Nuclear spin degeneracy"]
-    
-    assert len(idx_list) == len(irreps_list) == len(nuc_deg_list), "Irreducible representation lists are not of the same length."
+    try:
+        idx_list = def_dict["Irreducible representation ID"] 
+        assert len(idx_list) == len(irreps_list) == len(nuc_deg_list)
+    except KeyError:
+        pass
+    assert len(irreps_list) == len(nuc_deg_list), "Irreducible representation lists are not of the same length."
     irreps = []
-    for i in idx_list:
-        i = int(i) - 1
-        dict = {
-            "Irreducible representation label": irreps_list[i],
+    for i, l in enumerate(irreps_list):
+        irreps.append({
+            "Irreducible representation label": l,
             "Nuclear spin degeneracy": nuc_deg_list[i]
-        }
-        irreps.append(dict)
+        })
     def_dict["irreps"] = irreps
     def_dict.pop("Irreducible representation ID", None)
     def_dict.pop("Irreducible representation label", None)
@@ -276,6 +304,8 @@ def read_def_file(def_file_path):
 
     label_list = def_dict.get("Label for a particular broadener", None)
     fname_list = def_dict.get("Filename of particular broadener", None)
+    if fname_list == None:
+        fname_list = def_dict.get("Filename for a particular broadener", None)
     max_J_list = def_dict.get("Maximum J for which pressure broadening parameters provided", None)
     lor_hw_list = def_dict.get('Value of Lorentzian half-width for J" > Jmax', None)
     temp_exp_list = def_dict.get('Value of temperature exponent for lines with J" > Jmax', None)
@@ -293,7 +323,7 @@ def read_def_file(def_file_path):
         for i in range(len(label_list)):
             dict = {
                 "Label for a particular broadener": label_list[i],
-                "Filename for a particular broadener": fname_list[i],
+                "Filename of particular broadener": fname_list[i],
                 "Maximum J for which pressure broadening parameters provided": max_J_list[i],
                 'Value of Lorentzian half-width for J" > Jmax': lor_hw_list[i],
                 'Value of temperature exponent for lines with J" > Jmax': temp_exp_list[i],
@@ -326,6 +356,7 @@ def read_def_file(def_file_path):
         def_dict["Broadening parameters"] = broadeners
         def_dict.pop("Label for a particular broadener", None)
         def_dict.pop("Filename of particular broadener", None)
+        def_dict.pop("Filename for a particular broadener", None)
         def_dict.pop("Maximum J for which pressure broadening parameters provided", None)
         def_dict.pop("Value of Lorentzian half-width for J\" > Jmax", None)
         def_dict.pop("Value of temperature exponent for lines with J\" > Jmax", None)
@@ -346,8 +377,11 @@ def line_formatter(value, desc):
     value = str(value).strip()
     desc = str(desc).strip()
     if value == "None" or value == None:
-        error_log(f"Dataset: {filename} || Value for '{desc}' is None.", "Warn")
-        return ""
+        if desc == "Quantum case label":
+            return ""
+        else:
+            error_log(f"Dataset: {filename} || Value for '{desc}' is None.", "Warn")
+            return ""
     l = "EXOMOL.def                                                                      # ID"
     try:
         tot_chars = int(len(l.split("#")[0]))
@@ -408,9 +442,14 @@ def bool_formmatter(bools_dict):
     return result
 
 # Update def_dict according to states_labels.json
-def def_dict_update(mol, def_dict, labels_list):
+def def_dict_update(mol, def_dict, labels_info):
     """Updates the definition dictionary with new labels."""
-
+    labels_list = []
+    for dict in labels_info:
+        if isinstance(dict, str):
+            labels_list.append(dict)
+        else:
+            labels_list.append(dict["Quantum label"])
     old_master = load_old_master_file()
 
     bools = {
@@ -427,6 +466,8 @@ def def_dict_update(mol, def_dict, labels_list):
         if "Lande g-factor availability" in key:
             def_dict.pop(key, None)
         if "Uncertainty availability" in key:
+            def_dict.pop(key, None)
+        if "Hyperfine resolved dataset" in key:
             def_dict.pop(key, None)
         if "Inchi key of molecule" in key:
             datasets = old_master["molecules"][mol]["linelist"]
@@ -513,6 +554,12 @@ def def_dict_update(mol, def_dict, labels_list):
                 "Format quantum label": detect_format(states_file_path, i),
                 "Description quantum label": ""
             }
+            for dict in labels_info:
+                if not isinstance(dict, str):
+                    if dict["Quantum label"] == label:
+                        new_labels[i]["Description quantum label"] = dict["Description quantum label"]
+                        break
+
             error_log(f"Dataset: {filename} || Quantum label '{label}' not found in old labels. Please input the description manually.")
 
 
@@ -559,14 +606,19 @@ def update_def(def_file_path, def_dict):
                 elif desc == "Default value of temperature exponent for all lines":
                     output_file.write(broadener_formatter(def_dict.get("Broadening parameters", [])))
                     def_dict.pop("Broadening parameters", None)
-                elif desc == "Quantum case label":
+                elif desc == "Number of atoms":
+                    output_file.write(label_formatter(def_dict.get("Isotope information", [])))
+                    def_dict.pop("Isotope information", None)
+                elif desc == "No. of quanta cases":
                     case_labels = def_dict.get("Quantum case label", [])
                     if isinstance(case_labels, list):
                         for i, case in enumerate(case_labels):
-                            output_file.write(line_formatter(case, f"{desc} {i+1}"))
+                            output_file.write(line_formatter(case, f"Quantum case label {i+1}"))
                     else:
-                        output_file.write(line_formatter(case_labels, f"{desc} 1"))
+                        output_file.write(line_formatter(case_labels, f"Quantum case label"))
                     def_dict.pop("Quantum case label", None)
+                elif desc == "Quantum case label":
+                    continue
                 elif desc == "No. of k-coefficient files available":
                     output_file.write(bool_formmatter(def_dict.get("bools", {})))
                     def_dict.pop("bools", None)
@@ -579,6 +631,97 @@ def update_def(def_file_path, def_dict):
                 else:
                     output_file.write(line_formatter(value, desc))
 
+def make_label_json():
+    """Creates a JSON file from the label definitions in the Excel file."""
+    excel_path = os.path.join(os.getcwd(), "label_editor.xlsx")
+    try:
+        wb = openpyxl.load_workbook(excel_path, data_only=True)
+    except Exception as e:
+        error_log(f"Failed to load Excel file '{excel_path}': {e}", "Critical")
+        return
+
+    # Load def_states_check.csv once for all sheets
+    csv_path = os.path.join(os.getcwd(), "other_materials", "lib", "def_states_check.csv")
+    try:
+        with open(csv_path, 'r') as file:
+            lines = file.read().splitlines()
+        csv_data = [line.split(",") for line in lines[::4]]
+    except Exception as e:
+        error_log(f"Failed to load CSV file '{csv_path}': {e}", "Critical")
+        csv_data = []
+
+    all_label_dicts = []
+
+    for ws in tqdm(wb.worksheets, desc="Reading labels from Excel spreadsheet"):
+        if ws is None:
+            error_log(f"Failed to load worksheet from {excel_path}", "Critical")
+            continue
+
+        # Extract the sheet name
+        try:
+            first_line = ws.cell(row=1, column=1).value
+            mol, fname = str(first_line).split(",")
+            mol = mol.split(":")[1].strip()
+            fname = fname.split(":")[1].strip()
+            iso_slug = fname.split("__")[0]
+            dsname = fname.split("__")[1]
+            dsname = dsname.replace(".def", "")
+        except Exception as e:
+            error_log(f"Sheet name '{ws.title}' does not match expected format: {e}", "Critical")
+            continue
+
+        # Find DOI from CSV data
+        doi = ""
+        for info in csv_data:
+            if info[0].strip() == mol and info[1].strip() == iso_slug and info[2].strip() == dsname:
+                doi = info[3].strip()
+                break
+
+        # Read rows 2-3 as a DataFrame (headers and types)
+        try:
+            data_rows = [list(row) for row in ws.iter_rows(min_row=2, max_row=3, values_only=True)]
+            data_array = np.array(data_rows, dtype=object).T
+        except Exception as e:
+            error_log(f"Failed to create data array from rows 2-3 in sheet {ws.title}: {e}", "Critical")
+            continue
+
+        # Read descriptions from row 7 onwards
+        try:
+            desc_rows = [list(row) for row in ws.iter_rows(min_row=7, values_only=True)]
+            desc_dict = {
+                str(row[0]).strip(): str(row[1]).strip() if row[1] is not None else ""
+                for row in desc_rows if row[0] is not None
+            }
+        except Exception as e:
+            error_log(f"Failed to create description dict from rows 7+ in sheet {ws.title}: {e}", "Critical")
+            desc_dict = {}
+
+        label_dict = {
+            "mol": mol,
+            "iso_slug": iso_slug,
+            "doi": doi,
+            "linelist": dsname,
+            "ds_name": f"{iso_slug}__{dsname}",
+            "labels": []
+        }
+        for i in range(data_array.shape[0]):
+            label_name = str(data_array[i, 0]).strip()
+            label = {
+                "Quantum label": label_name,
+                "Format quantum label": str(data_array[i, 1]).strip(),
+                "Description quantum label": desc_dict.get(label_name, "")
+            }
+            label_dict["labels"].append(label)
+        all_label_dicts.append(label_dict)
+
+    # Save to JSON
+    out_path = os.path.join(os.getcwd(), "other_materials", "lib", "labels.json")
+    try:
+        with open(out_path, "w", encoding="utf-8") as f:
+            json.dump(all_label_dicts, f, indent=4, ensure_ascii=False)
+    except Exception as e:
+        error_log(f"Failed to write labels JSON to '{out_path}': {e}", "Critical")
+
 def main():
     global date
     date = datetime.now().strftime("%Y%m%dT%H%M%S")
@@ -588,14 +731,13 @@ def main():
         os.makedirs(def_folder_path)
         print("Input folder has been created. Please place your .def files in the 'input' folder.")
         exit_script()
+    make_label_json()
     def_paths = []
     labels_data = load_labels_data()
-    for dir in os.listdir(def_folder_path):
-        dir_path = os.path.join(def_folder_path, dir)
-        if os.path.isdir(dir_path):
-            for file in os.listdir(dir_path):
-                if file.endswith(".def"):
-                    def_paths.append(os.path.abspath(os.path.join(dir_path, file)))
+    for root, _, files in os.walk(def_folder_path):
+        for file in files:
+            if file.endswith(".def"):
+                def_paths.append(os.path.abspath(os.path.join(root, file)))
 
     if not labels_data:
         print(f"No updated labels file found in the folder. Please ensure 'states_labels.json' is correctly named and present.")
@@ -614,7 +756,7 @@ def main():
             match = next((item for item in labels_data if item.get('ds_name') == filename), None)
         else:
             match = None
-        if match and None not in match['labels']:
+        if match:
             mol = match['mol']
             f = match['ds_name']
             download_states_first_line(mol, f)

@@ -9,28 +9,26 @@ RWSOTUBLDIXVET-UHFFFAOYSA-N                                                     
 H                                                                               # Element symbol 1
 32                                                                              # Isotope number 2
 S                                                                               # Element symbol 2
-   33.987721 5.64379778e-26                                                     # Isotopologue mass (Da) and (kg)
+33.987721 5.64379778e-26                                                        # Isotopologue mass (Da) and (kg)
 C2v                                                                             # Symmetry group
 4                                                                               # Number of irreducible representations
-1                                                                               # Irreducible representation ID
-A1                                                                              # Irreducible representation label
-1                                                                               # Nuclear spin degeneracy
-2                                                                               # Irreducible representation ID
-A2                                                                              # Irreducible representation label
-1                                                                               # Nuclear spin degeneracy
-3                                                                               # Irreducible representation ID
-B1                                                                              # Irreducible representation label
-3                                                                               # Nuclear spin degeneracy
-4                                                                               # Irreducible representation ID
-B2                                                                              # Irreducible representation label
-3                                                                               # Nuclear spin degeneracy
-  1500.00                                                                       # Maximum temperature of linelist
+A1                                                                              # Irreducible representation label 1
+1                                                                               # Nuclear spin degeneracy 1
+A2                                                                              # Irreducible representation label 2
+1                                                                               # Nuclear spin degeneracy 2
+B1                                                                              # Irreducible representation label 3
+3                                                                               # Nuclear spin degeneracy 3
+B2                                                                              # Irreducible representation label 4
+3                                                                               # Nuclear spin degeneracy 4
+1500.00                                                                         # Maximum temperature of linelist
 0                                                                               # No. of pressure broadeners available
 0                                                                               # Dipole availability (1=yes, 0=no)
 0                                                                               # No. of cross section files available
 0                                                                               # No. of k-coefficient files available
 1                                                                               # Lifetime availability (1=yes, 0=no)
 0                                                                               # Lande g-factor availability (1=yes, 0=no)
+1                                                                               # Uncertainty availability (1=yes, 0=no)
+0                                                                               # Hyperfine resolved dataset (1=yes, 0=no)
 220630                                                                          # No. of states in .states file
 1                                                                               # No. of quanta cases
 nltcs                                                                           # Quantum case label
@@ -53,14 +51,19 @@ v2 bend quantum number                                                          
 v3                                                                              # Quantum label 6
 I2 %2d                                                                          # Format quantum label 6
 v3 asymmetrics stretch quantum number                                           # Description quantum label 6
+SourceType                                                                      # Auxiliary title 1
+A2 %2s                                                                          # Format title 1
+Ma=MARVEL,Ca=Calculated,EH=Effective Hamiltonian,IE=Isotopologue extrapolation  # Description title 1
+Ecal                                                                            # Auxiliary title 2
+F12.6 %12.6f                                                                    # Format title 2
+Calculated energy in cm-1                                                       # Description title 2
 115032941                                                                       # Total number of transitions
 35                                                                              # No. of transition files
 35000.00                                                                        # Maximum wavenumber (in cm-1)
- 10000.00                                                                       # Higher energy with complete set of transitions (in cm-1)
-  3000.00                                                                       # Maximum temperature of partition function
- 1.00                                                                           # Step size of temperature
+10000.00                                                                        # Higher energy with complete set of transitions (in cm-1)
+3000.00                                                                         # Maximum temperature of partition function
+1.00                                                                            # Step size of temperature
 0                                                                               # Cooling function availability (1=yes, 0=no)
 1                                                                               # Specific heat availability (1=yes, 0=no)
 0.0700                                                                          # Default value of Lorentzian half-width for all lines (in cm-1/bar)
 0.500                                                                           # Default value of temperature exponent for all lines
-1                                                                               # Uncertainty availability (1=yes, 0=no); unc(cacl)= 0.05*v+0.001*J*(J+1)

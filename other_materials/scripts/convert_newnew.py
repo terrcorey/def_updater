@@ -88,9 +88,12 @@ def def_to_json(def_file_path, json_file_path):
                 if "element" not in json_dict["atoms"]:
                     json_dict["atoms"]["element"] = {}
                 json_dict["atoms"]["element"][element_symbol] = isotope_number
-            elif '# Isotopologue mass (Da) and (kg)' in line:
-                mass_values = line.split('#')[0].strip().split()
-                json_dict["isotopologue"]["mass_in_Da"] = float(mass_values[0])
+            elif '# Isotopologue mass (Da)' in line:
+                try:
+                    mass_values = line.split('#')[0].strip().split()
+                    json_dict["isotopologue"]["mass_in_Da"] = float(mass_values[0])
+                except:
+                    json_dict["isotopologue"]["mass_in_Da"] = float(line.split('#')[0].strip())
             elif '# Symmetry group' in line:
                 json_dict["isotopologue"]["point_group"] = line.split('#')[0].strip()
             elif '# Isotopologue dataset name' in line:

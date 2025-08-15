@@ -12,15 +12,12 @@ H                                                                               
 77.94542                                                                        # Isotopologue mass (Da)
 C3v                                                                             # Symmetry group
 3                                                                               # Number of irreducible representations
-1                                                                               # Irreducible representation ID
-A1                                                                              # Irreducible representation label
-16                                                                              # Nuclear spin degeneracy
-2                                                                               # Irreducible representation ID
-A2                                                                              # Irreducible representation label
-16                                                                              # Nuclear spin degeneracy
-3                                                                               # Irreducible representation ID
-E                                                                               # Irreducible representation label
-16                                                                              # Nuclear spin degeneracy
+A1                                                                              # Irreducible representation label 1
+16                                                                              # Nuclear spin degeneracy 1
+A2                                                                              # Irreducible representation label 2
+16                                                                              # Nuclear spin degeneracy 2
+E                                                                               # Irreducible representation label 3
+16                                                                              # Nuclear spin degeneracy 3
 300.00                                                                          # Maximum temperature of linelist
 0                                                                               # No. of pressure broadeners available
 0                                                                               # Dipole availability (1=yes, 0=no)
@@ -28,6 +25,8 @@ E                                                                               
 0                                                                               # No. of k-coefficient files available
 0                                                                               # Lifetime availability (1=yes, 0=no)
 0                                                                               # Lande g-factor availability (1=yes, 0=no)
+0                                                                               # Uncertainty availability (1=yes, 0=no)
+0                                                                               # Hyperfine resolved dataset (1=yes, 0=no)
 4319868                                                                         # No. of states in .states file
 1                                                                               # No. of quanta cases
 local                                                                           # Quantum case label
@@ -75,8 +74,8 @@ Square modulus of the coefficient with the largest contribution                 
 3636112                                                                         # Total number of transitions
 1                                                                               # No. of transition files
 7000.00                                                                         # Maximum wavenumber (in cm-1)
- 3500.00                                                                        # Higher energy with complete set of transitions (in cm-1)
- 500.00                                                                         # Maximum temperature of partition function
-  1.00                                                                          # Step size of temperature
+3500.00                                                                         # Higher energy with complete set of transitions (in cm-1)
+500.00                                                                          # Maximum temperature of partition function
+1.00                                                                            # Step size of temperature
 0                                                                               # Cooling function availability (1=yes, 0=no)
 1                                                                               # Specific heat availability (1=yes, 0=no)

@@ -43,7 +43,7 @@ State vibrational quantum number                                                
 0.0700                                                                          # Default value of Lorentzian half-width for all lines (in cm-1/bar)
 0.500                                                                           # Default value of temperature exponent for all lines
 air                                                                             # Label for a particular broadener
-12C-32S__air.broad                                                              # Filename for a particular broadener
+12C-32S__air.broad                                                              # Filename of particular broadener
 46                                                                              # Maximum J for which pressure broadening parameters provided
 0.0698                                                                          # Value of Lorentzian half-width for J" > Jmax
 0.750                                                                           # Value of temperature exponent for lines with J" > Jmax
@@ -52,7 +52,7 @@ a0                                                                              
 47                                                                              # No. of lines in the broad that contain this code
 0                                                                               # No. of quantum numbers defined
 self                                                                            # Label for a particular broadener
-12C-32S__self.broad                                                             # Filename for a particular broadener
+12C-32S__self.broad                                                             # Filename of particular broadener
 46                                                                              # Maximum J for which pressure broadening parameters provided
 0.0620                                                                          # Value of Lorentzian half-width for J" > Jmax
 0.500                                                                           # Value of temperature exponent for lines with J" > Jmax

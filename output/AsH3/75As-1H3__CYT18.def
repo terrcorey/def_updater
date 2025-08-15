@@ -29,8 +29,8 @@ E                                                                               
 0                                                                               # Hyperfine resolved dataset (1=yes, 0=no)
 4319868                                                                         # No. of states in .states file
 1                                                                               # No. of quanta cases
-local                                                                           # Quantum case label
-TROVE                                                                           # Quantum case label
+local                                                                           # Quantum case label 1
+TROVE                                                                           # Quantum case label 2
 13                                                                              # No. of quanta defined
 Gtot                                                                            # Quantum label 1
 A3 %3s                                                                          # Format quantum label 1

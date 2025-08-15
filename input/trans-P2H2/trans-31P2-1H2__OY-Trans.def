@@ -3,34 +3,32 @@ trans-(31P)2(1H)2                                                               
 trans-31P2-1H2                                                                  # Iso-slug
 OY-Trans                                                                        # Isotopologue dataset name
 20250807                                                                        # Version number with format YYYYMMDD
-SWJAOBXRZSMKNS-UHFFFAOYSA-N                                                     # Inchi key of molecule
+SWJAOBXRZSMKNS-UHFFFAOYYY-N                                                     # Inchi key of molecule
 4                                                                               # Number of atoms
-31                                                                              # Isotope number 1 
-P                                                                               # Element symbol 1 
-1                                                                               # Isotope number 2 
-H                                                                               # Element symbol 2 
-  63.96340  .1062137228e-24                                                     # Isotopologue mass (Da) and (kg)
+31                                                                              # Isotope number 1
+P                                                                               # Element symbol 1
+1                                                                               # Isotope number 2
+H                                                                               # Element symbol 2
+63.96340  .1062137228e-24                                                       # Isotopologue mass (Da) and (kg)
 C2h                                                                             # Symmetry group
 4                                                                               # Number of irreducible representations
-1                                                                               # Irreducible representation ID
-Ag                                                                              # Irreducible representation label
-10                                                                              # Nuclear spin degeneracy
-2                                                                               # Irreducible representation ID
-Au                                                                              # Irreducible representation label
-10                                                                              # Nuclear spin degeneracy
-3                                                                               # Irreducible representation ID
-Bg                                                                              # Irreducible representation label
-6                                                                               # Nuclear spin degeneracy
-4                                                                               # Irreducible representation ID
-Bu                                                                              # Irreducible representation label
-6                                                                               # Nuclear spin degeneracy
- 1000.00                                                                        # Maximum temperature of linelist
+Ag                                                                              # Irreducible representation label 1
+10                                                                              # Nuclear spin degeneracy 1
+Au                                                                              # Irreducible representation label 2
+10                                                                              # Nuclear spin degeneracy 2
+Bg                                                                              # Irreducible representation label 3
+6                                                                               # Nuclear spin degeneracy 3
+Bu                                                                              # Irreducible representation label 4
+6                                                                               # Nuclear spin degeneracy 4
+1000.00                                                                         # Maximum temperature of linelist
 0                                                                               # No. of pressure broadeners available
 0                                                                               # Dipole availability (1=yes, 0=no)
 0                                                                               # No. of cross section files available
 0                                                                               # No. of k-coefficient files available
 0                                                                               # Lifetime availability (1=yes, 0=no)
 0                                                                               # Lande g-factor availability (1=yes, 0=no)
+0                                                                               # Uncertainty availability (1=yes, 0=no)
+0                                                                               # Hyperfine resolved dataset (1=yes, 0=no)
 5881876                                                                         # No. of states in .states file
 1                                                                               # No. of quanta cases
 stcs                                                                            # Quantum case label
@@ -93,10 +91,10 @@ n6                                                                              
 I3 %3d                                                                          # Format quantum label 19
 TROVE quantum number 6                                                          # Description quantum label 19
 10667208951                                                                     # Total number of transitions
-  8                                                                             # No. of transition files
- 8000.00                                                                        # Maximum wavenumber (in cm-1)
-     NaN                                                                        # Higher energy with complete set of transitions (in cm-1)
- 1000.00                                                                        # Maximum temperature of partition function
+8                                                                               # No. of transition files
+8000.00                                                                         # Maximum wavenumber (in cm-1)
+NaN                                                                             # Higher energy with complete set of transitions (in cm-1)
+1000.00                                                                         # Maximum temperature of partition function
 1.00                                                                            # Step size of temperature
 0                                                                               # Cooling function availability (1=yes, 0=no)
 1                                                                               # Specific heat availability (1=yes, 0=no)

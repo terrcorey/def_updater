@@ -57,9 +57,6 @@ Calculated energy in cm-1                                                       
 SourceType                                                                      # Auxiliary title 2
 A2 %2s                                                                          # Format title 2
 Ma=MARVEL,Ca=Calculated,EH=Effective Hamiltonian,IE=Isotopologue extrapolation  # Description title 2
-Ecal                                                                            # Auxiliary tite 1
-F12.6 %12.6f                                                                    # Format title 1
-State energy in cm-1 calculated with DUO                                        # Description title 1
 1300000000                                                                      # Total number of transitions
 80                                                                              # No. of transition files
 8000.00                                                                         # Maximum wavenumber (in cm-1)
@@ -71,7 +68,7 @@ State energy in cm-1 calculated with DUO                                        
 0.1063                                                                          # Default value of Lorentzian half-width for all lines (in cm-1/bar)
 0.695                                                                           # Default value of temperature exponent for all lines
 H2                                                                              # Label for a particular broadener
-32S-16O2__H2.broad                                                              # Filename for a particular broadener
+32S-16O2__H2.broad                                                              # Filename of particular broadener
 60                                                                              # Maximum J for which pressure broadening parameters provided
 0.1400                                                                          # Value of Lorentzian half-width for J" > Jmax
 0.750                                                                           # Value of temperature exponent for lines with J" > Jmax
@@ -88,7 +85,7 @@ a0                                                                              
 61                                                                              # No. of lines in the broad that contain this code
 0                                                                               # No. of quantum numbers defined
 He                                                                              # Label for a particular broadener
-32S-16O2__He.broad                                                              # Filename for a particular broadener
+32S-16O2__He.broad                                                              # Filename of particular broadener
 60                                                                              # Maximum J for which pressure broadening parameters provided
 0.0700                                                                          # Value of Lorentzian half-width for J" > Jmax
 0.640                                                                           # Value of temperature exponent for lines with J" > Jmax

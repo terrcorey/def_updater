@@ -129,13 +129,13 @@
                     "name": "Auxiliary:SourceType",
                     "ffmt": "A2",
                     "cfmt": "%2s",
-                    "desc": "Indicates if the value is from MARVEL (Ma) or Calculated(Ca)"
+                    "desc": "Ma=MARVEL,Ca=Calculated,EH=Effective Hamiltonian,IE=Isotopologue extrapolation"
                 },
                 {
                     "name": "Auxiliary:Ecal",
                     "ffmt": "F12.6",
                     "cfmt": "%12.6f",
-                    "desc": "Variational (Calculated) Energy (in cm-1)"
+                    "desc": "Calculated energy in cm-1"
                 }
             ]
         },

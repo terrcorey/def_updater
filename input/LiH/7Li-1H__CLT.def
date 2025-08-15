@@ -5,26 +5,26 @@ CLT                                                                             
 20160927                                                                        # Version number with format YYYYMMDD
 SIAPCJWMELPYOE-UHFFFAOYSA-N                                                     # Inchi key of molecule
 2                                                                               # Number of atoms
-7                                                                               # Isotope number 1 
-Li                                                                              # Element symbol 1 
-1                                                                               # Isotope number 2 
-H                                                                               # Element symbol 2 
-    8.023830 1.33238830e-26                                                     # Isotopologue mass (Da) and (kg)
+7                                                                               # Isotope number 1
+Li                                                                              # Element symbol 1
+1                                                                               # Isotope number 2
+H                                                                               # Element symbol 2
+8.023830 1.33238830e-26                                                         # Isotopologue mass (Da) and (kg)
 C                                                                               # Symmetry group
 2                                                                               # Number of irreducible representations
-1                                                                               # Irreducible representation ID
-Sigma+                                                                          # Irreducible representation label
-8                                                                               # Nuclear spin degeneracy
-2                                                                               # Irreducible representation ID
-Sigma-                                                                          # Irreducible representation label
-8                                                                               # Nuclear spin degeneracy
+Sigma+                                                                          # Irreducible representation label 1
+8                                                                               # Nuclear spin degeneracy 1
+Sigma-                                                                          # Irreducible representation label 2
+8                                                                               # Nuclear spin degeneracy 2
 12000.00                                                                        # Maximum temperature of linelist
 0                                                                               # No. of pressure broadeners available
 0                                                                               # Dipole availability (1=yes, 0=no)
 0                                                                               # No. of cross section files available
 0                                                                               # No. of k-coefficient files available
-1                                                                               # Lifetime availability (1=yes, 0=no)
+0                                                                               # Lifetime availability (1=yes, 0=no)
 0                                                                               # Lande g-factor availability (1=yes, 0=no)
+0                                                                               # Uncertainty availability (1=yes, 0=no)
+0                                                                               # Hyperfine resolved dataset (1=yes, 0=no)
 1086                                                                            # No. of states in .states file
 1                                                                               # No. of quanta cases
 dcs                                                                             # Quantum case label

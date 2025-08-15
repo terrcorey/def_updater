@@ -11,22 +11,22 @@ Na                                                                              
 O                                                                               # Element symbol 2
 1                                                                               # Isotope number 3
 H                                                                               # Element symbol 3
-   39.9971  6.641674712e-25                                                     # Isotopologue mass (Da) and (kg)
+39.9971  6.641674712e-25                                                        # Isotopologue mass (Da) and (kg)
 C                                                                               # Symmetry group
 2                                                                               # Number of irreducible representations
-1                                                                               # Irreducible representation ID
-Sigma+                                                                          # Irreducible representation label
-6                                                                               # Nuclear spin degeneracy
-2                                                                               # Irreducible representation ID
-Sigma-                                                                          # Irreducible representation label
-6                                                                               # Nuclear spin degeneracy
- 3500.00                                                                        # Maximum temperature of linelist
+Sigma+                                                                          # Irreducible representation label 1
+6                                                                               # Nuclear spin degeneracy 1
+Sigma-                                                                          # Irreducible representation label 2
+6                                                                               # Nuclear spin degeneracy 2
+3500.00                                                                         # Maximum temperature of linelist
 0                                                                               # No. of pressure broadeners available
 0                                                                               # Dipole availability (1=yes, 0=no)
 0                                                                               # No. of cross section files available
 0                                                                               # No. of k-coefficient files available
 0                                                                               # Lifetime availability (1=yes, 0=no)
 0                                                                               # Lande g-factor availability (1=yes, 0=no)
+1                                                                               # Uncertainty availability (1=yes, 0=no)
+0                                                                               # Hyperfine resolved dataset (1=yes, 0=no)
 7927877                                                                         # No. of states in .states file
 2                                                                               # No. of quanta cases
 ltcs                                                                            # Quantum case label
@@ -61,12 +61,11 @@ I2 %2d                                                                          
 n3 vibrational quantum number (TROVE)                                           # Description quantum label 9
 496639230921                                                                    # Total number of transitions
 90                                                                              # No. of transition files
- 9000.00                                                                        # Maximum wavenumber (in cm-1)
-  16000.00                                                                      # Higher energy with complete set of transitions (in cm-1)
- 4000.00                                                                        # Maximum temperature of partition function
- 1.00                                                                           # Step size of temperature
+9000.00                                                                         # Maximum wavenumber (in cm-1)
+16000.00                                                                        # Higher energy with complete set of transitions (in cm-1)
+4000.00                                                                         # Maximum temperature of partition function
+1.00                                                                            # Step size of temperature
 0                                                                               # Cooling function availability (1=yes, 0=no)
 1                                                                               # Specific heat availability (1=yes, 0=no)
 0.0840                                                                          # Default value of Lorentzian half-width for all lines (in cm-1/bar)
 0.500                                                                           # Default value of temperature exponent for all lines
-1                                                                               # Uncertainty availability (1=yes, 0=no)

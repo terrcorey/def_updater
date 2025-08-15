@@ -3,41 +3,39 @@ EXOMOL.def                                                                      
 28Si-16O2                                                                       # Iso-slug
 OYT3                                                                            # Isotopologue dataset name
 20200201                                                                        # Version number with format YYYYMMDD
-XMIJDTGORVPYLW-UHFFFAOYSA-N                                                     # Inchi key of molecule
+VYPSYNLAJGMNEJ-UHFFFAOYSA-N                                                     # Inchi key of molecule
 3                                                                               # Number of atoms
 28                                                                              # Isotope number 1
 O                                                                               # Element symbol 1
 1                                                                               # Isotope number 2
 H                                                                               # Element symbol 2
-  59.96675578 .9957714069e-25                                                   # Isotopologue mass (Da) and (kg)
+59.96675578 .9957714069e-25                                                     # Isotopologue mass (Da) and (kg)
 C2v                                                                             # Symmetry group
 4                                                                               # Number of irreducible representations
-1                                                                               # Irreducible representation ID
-A1                                                                              # Irreducible representation label
-1                                                                               # Nuclear spin degeneracy
-2                                                                               # Irreducible representation ID
-A2                                                                              # Irreducible representation label
-1                                                                               # Nuclear spin degeneracy
-3                                                                               # Irreducible representation ID
-B1                                                                              # Irreducible representation label
-3                                                                               # Nuclear spin degeneracy
-4                                                                               # Irreducible representation ID
-B2                                                                              # Irreducible representation label
-3                                                                               # Nuclear spin degeneracy
- 3000.00                                                                        # Maximum temperature of linelist
+A1                                                                              # Irreducible representation label 1
+1                                                                               # Nuclear spin degeneracy 1
+A2                                                                              # Irreducible representation label 2
+1                                                                               # Nuclear spin degeneracy 2
+B1                                                                              # Irreducible representation label 3
+3                                                                               # Nuclear spin degeneracy 3
+B2                                                                              # Irreducible representation label 4
+3                                                                               # Nuclear spin degeneracy 4
+3000.00                                                                         # Maximum temperature of linelist
 0                                                                               # No. of pressure broadeners available
 0                                                                               # Dipole availability (1=yes, 0=no)
 0                                                                               # No. of cross section files available
 0                                                                               # No. of k-coefficient files available
 0                                                                               # Lifetime availability (1=yes, 0=no)
 0                                                                               # Lande g-factor availability (1=yes, 0=no)
+1                                                                               # Uncertainty availability (1=yes, 0=no)
+0                                                                               # Hyperfine resolved dataset (1=yes, 0=no)
 5688942                                                                         # No. of states in .states file
 1                                                                               # No. of quanta cases
 nltcs                                                                           # Quantum case label
 13                                                                              # No. of quanta defined
-Gamma                                                                           # Quantum label 1
-I2 %2d                                                                          # Format quantum label 1
-Symmetry block number (1)                                                       # Description quantum label 1
+Gtot                                                                            # Quantum label 1
+A3 %3s                                                                          # Format quantum label 1
+Total symmetry                                                                  # Description quantum label 1
 e/f                                                                             # Quantum label 2
 a1 %1s                                                                          # Format quantum label 2
 Kronig parity e/f                                                               # Description quantum label 2
@@ -53,9 +51,9 @@ l2 linear bend quantum number                                                   
 v3                                                                              # Quantum label 6
 I2 %2d                                                                          # Format quantum label 6
 v2 asymmetrics stretch quantum number                                           # Description quantum label 6
-C                                                                               # Quantum label 7
-f8.4 %8.4f                                                                      # Format quantum label 7
-C_i largest contribution coefficient                                            # Description quantum label 7
+Coef                                                                            # Quantum label 7
+F5.2 %5.2f                                                                      # Format quantum label 7
+Coefficient with the largest contribution                                       # Description quantum label 7
 n1                                                                              # Quantum label 8
 I2 %2d                                                                          # Format quantum label 8
 n1 TROVE stretch quantum number                                                 # Description quantum label 8
@@ -65,21 +63,21 @@ n2 TROVE stretch quantum number                                                 
 n3                                                                              # Quantum label 10
 I2 %2d                                                                          # Format quantum label 10
 n3 bend quantum number                                                          # Description quantum label 10
-Gamma_vib                                                                       # Quantum label 11
-A2 %2s                                                                          # Format quantum label 11
-vibrational symmetry label                                                      # Description quantum label 11
+Gvib                                                                            # Quantum label 11
+A3 %3s                                                                          # Format quantum label 11
+Vibrational symmetry                                                            # Description quantum label 11
 Ka                                                                              # Quantum label 12
 I2 %2d                                                                          # Format quantum label 12
 Ka rotational quantum number                                                    # Description quantum label 12
-Gamma_rot                                                                       # Quantum label 13
-A2 %2s                                                                          # Format quantum label 13
-Rotatonal symmetry label                                                        # Description quantum label 13
+Grot                                                                            # Quantum label 13
+A3 %3s                                                                          # Format quantum label 13
+Rotational symmetry                                                             # Description quantum label 13
 32951275437                                                                     # Total number of transitions
 60                                                                              # No. of transition files
- 6000.00                                                                        # Maximum wavenumber (in cm-1)
- 15000.00                                                                       # Higher energy with complete set of transitions (in cm-1)
-  3000.00                                                                       # Maximum temperature of partition function
- 1.00                                                                           # Step size of temperature
+6000.00                                                                         # Maximum wavenumber (in cm-1)
+15000.00                                                                        # Higher energy with complete set of transitions (in cm-1)
+3000.00                                                                         # Maximum temperature of partition function
+1.00                                                                            # Step size of temperature
 0                                                                               # Cooling function availability (1=yes, 0=no)
 1                                                                               # Specific heat availability (1=yes, 0=no)
 0.0700                                                                          # Default value of Lorentzian half-width for all lines (in cm-1/bar)

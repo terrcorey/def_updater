@@ -172,6 +172,7 @@
         "default_Lorentzian_half-width": 0.07,
         "default_temperature_exponent": 0.5,
         "H2": {
+            "filename": "16O-12C-32S__H2.broad",
             "max_J": 121,
             "Lorentzian_half_width": 0.0525,
             "temperature_exponent": 0.75,
@@ -195,6 +196,7 @@
             ]
         },
         "He": {
+            "filename": "16O-12C-32S__He.broad",
             "max_J": 121,
             "Lorentzian_half_width": 0.0383,
             "temperature_exponent": 0.75,

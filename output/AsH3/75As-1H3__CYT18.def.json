@@ -3,6 +3,7 @@
         "iso_formula": "(75As)(1H)3",
         "iso_slug": "75As-1H3",
         "inchikey": "RBFQJDQYXXHULB-UHFFFAOYSA-N",
+        "mass_in_Da": 77.94542,
         "point_group": "C3v"
     },
     "atoms": {

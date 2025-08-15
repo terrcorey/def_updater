@@ -1,0 +1,206 @@
+{
+    "isotopologue": {
+        "iso_formula": "trans-(31P)2(1H)2",
+        "iso_slug": "trans-31P2-1H-2H",
+        "inchikey": "SWJAOBXRZSMKNS-UHFFFAOYYY-N",
+        "mass_in_Da": 63.9634,
+        "point_group": "C2h"
+    },
+    "atoms": {
+        "number_of_atoms": 4,
+        "element": {
+            "P": 31,
+            "H": 1
+        }
+    },
+    "irreducible_representations": {
+        "Ag": 10,
+        "Au": 10,
+        "Bg": 6,
+        "Bu": 6
+    },
+    "dataset": {
+        "name": "OY-Trans",
+        "version": 20250807,
+        "doi": "10.5281/zenodo.5716892",
+        "max_temperature": 1000.0,
+        "n_L_default": 0.53,
+        "num_pressure_broadeners": 0,
+        "nxsec_files": 0,
+        "nkcoeff_files": 0,
+        "dipole_available": false,
+        "cooling_function_available": false,
+        "specific_heat_available": true,
+        "continuum": null,
+        "predis": null,
+        "states": {
+            "number_of_states": 5881876,
+            "max_energy": null,
+            "hyperfine_resolved_dataset": false,
+            "uncertainty_description": null,
+            "uncertainties_available": false,
+            "lifetime_available": false,
+            "lande_g_available": false,
+            "num_quanta": 19,
+            "states_file_fields": [
+                {
+                    "name": "ID",
+                    "desc": "Unique integer identifier for the energy level",
+                    "ffmt": "I12",
+                    "cfmt": "%12d"
+                },
+                {
+                    "name": "E",
+                    "desc": "State energy in cm-1",
+                    "ffmt": "F12.6",
+                    "cfmt": "%12.6f"
+                },
+                {
+                    "name": "gtot",
+                    "desc": "Total energy level degeneracy",
+                    "ffmt": "I6",
+                    "cfmt": "%6d"
+                },
+                {
+                    "name": "J",
+                    "desc": "Total rotational quantum number, excluding nuclear spin",
+                    "ffmt": "I7",
+                    "cfmt": "%7d"
+                },
+                {
+                    "name": "unc",
+                    "desc": "Energy uncertainty in cm-1",
+                    "ffmt": "F12.6",
+                    "cfmt": "%12.6f"
+                },
+                {
+                    "name": "stcs:Gtot",
+                    "ffmt": "A3",
+                    "cfmt": "%3s",
+                    "desc": "Total symmetry"
+                },
+                {
+                    "name": "stcs:v1",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "v1 Symmetric PH stretching"
+                },
+                {
+                    "name": "stcs:v2",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "v2 Symmetric bending"
+                },
+                {
+                    "name": "stcs:v3",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "v3 PP stretching"
+                },
+                {
+                    "name": "stcs:v4",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "v4 Torsional motion"
+                },
+                {
+                    "name": "stcs:v5",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "v5 Asymmetric PH stretching"
+                },
+                {
+                    "name": "stcs:v6",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "v6 Asymmetric bending"
+                },
+                {
+                    "name": "stcs:Grot",
+                    "ffmt": "A3",
+                    "cfmt": "%3s",
+                    "desc": "Rotational symmetry"
+                },
+                {
+                    "name": "stcs:J",
+                    "ffmt": "I7",
+                    "cfmt": "%7d",
+                    "desc": "Total rotational quantum number"
+                },
+                {
+                    "name": "stcs:K",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "Projection of J onto the P-P principal axis"
+                },
+                {
+                    "name": "stcs:rotpar",
+                    "ffmt": "I1",
+                    "cfmt": "%1d",
+                    "desc": "Rotational parity"
+                },
+                {
+                    "name": "stcs:Gvib",
+                    "ffmt": "A3",
+                    "cfmt": "%3s",
+                    "desc": "Vibrational symmetry"
+                },
+                {
+                    "name": "stcs:|Coef|2",
+                    "ffmt": "F5.2",
+                    "cfmt": "%5.2f",
+                    "desc": "Square modulus of the coefficient with the largest contribution"
+                },
+                {
+                    "name": "stcs:n1",
+                    "ffmt": "F3.1",
+                    "cfmt": "%3.1f",
+                    "desc": "TROVE quantum number 1"
+                },
+                {
+                    "name": "stcs:n2",
+                    "ffmt": "I6",
+                    "cfmt": "%6d",
+                    "desc": "TROVE quantum number 2"
+                },
+                {
+                    "name": "stcs:n3",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "TROVE quantum number 3"
+                },
+                {
+                    "name": "stcs:n4",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "TROVE quantum number 4"
+                },
+                {
+                    "name": "stcs:n5",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "TROVE quantum number 5"
+                },
+                {
+                    "name": "stcs:n6",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "TROVE quantum number 6"
+                }
+            ]
+        },
+        "transitions": {
+            "number_of_transitions": 10667208951,
+            "number_of_transition_files": 8,
+            "max_wavenumber": 8000.0
+        }
+    },
+    "partition_function": {
+        "max_partition_function_temperature": 1000.0,
+        "partition_function_step_size": 1.0
+    },
+    "broad": {
+        "default_Lorentzian_half-width": 0.075,
+        "default_temperature_exponent": 0.53
+    }
+}
