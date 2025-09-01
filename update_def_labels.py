@@ -657,18 +657,13 @@ def make_label_json():
             error_log(f"Failed to load worksheet from {excel_path}", "Critical")
             continue
 
-        # Extract the sheet name
-        try:
-            first_line = ws.cell(row=1, column=1).value
-            mol, fname = str(first_line).split(",")
-            mol = mol.split(":")[1].strip()
-            fname = fname.split(":")[1].strip()
-            iso_slug = fname.split("__")[0]
-            dsname = fname.split("__")[1]
-            dsname = dsname.replace(".def", "")
-        except Exception as e:
-            error_log(f"Sheet name '{ws.title}' does not match expected format: {e}", "Critical")
-            continue
+        first_line = ws.cell(row=1, column=1).value
+        mol, fname = str(first_line).split(",")
+        mol = mol.split(":")[1].strip()
+        fname = fname.split(":")[1].strip()
+        iso_slug = fname.split("__")[0]
+        dsname = fname.split("__")[1]
+        dsname = dsname.replace(".def", "")
 
         # Find DOI from CSV data
         doi = ""
@@ -711,6 +706,8 @@ def make_label_json():
                 "Format quantum label": str(data_array[i, 1]).strip(),
                 "Description quantum label": desc_dict.get(label_name, "")
             }
+            if label["Description quantum label"] == "":
+                error_log(f"Missing description for label '{label_name}' in sheet {ws.title}. Please check if you inputted the description correctly in the Excel file.")
             label_dict["labels"].append(label)
         all_label_dicts.append(label_dict)
 
