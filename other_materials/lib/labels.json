@@ -3818,6 +3818,75 @@
         ]
     },
     {
+        "mol": "CO+",
+        "iso_slug": "12C-16O_p",
+        "doi": "",
+        "linelist": "AWXLZY",
+        "ds_name": "12C-16O_p__AWXLZY",
+        "labels": [
+            {
+                "Quantum label": "ID",
+                "Format quantum label": "I12 %12d",
+                "Description quantum label": "Unique integer identifier for the energy level"
+            },
+            {
+                "Quantum label": "E",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "State energy in cm-1"
+            },
+            {
+                "Quantum label": "gtot",
+                "Format quantum label": "I6 %6d",
+                "Description quantum label": "Total energy level degeneracy"
+            },
+            {
+                "Quantum label": "J",
+                "Format quantum label": "F7.1 %7.1f",
+                "Description quantum label": "Total rotational quantum number, excluding nuclear spin"
+            },
+            {
+                "Quantum label": "gfactor",
+                "Format quantum label": "F10.6 %10.6f",
+                "Description quantum label": "Landé g-factor"
+            },
+            {
+                "Quantum label": "+/-",
+                "Format quantum label": "A1 %1s",
+                "Description quantum label": "Parity"
+            },
+            {
+                "Quantum label": "e/f",
+                "Format quantum label": "A1 %1s",
+                "Description quantum label": "Rotationless-parity"
+            },
+            {
+                "Quantum label": "ElecState",
+                "Format quantum label": "A8 %8s",
+                "Description quantum label": "Electronic state"
+            },
+            {
+                "Quantum label": "v",
+                "Format quantum label": "I3 %3d",
+                "Description quantum label": "State vibrational quantum number"
+            },
+            {
+                "Quantum label": "Lambda",
+                "Format quantum label": "I3 %3d",
+                "Description quantum label": "Projection of the electronic angular momentum"
+            },
+            {
+                "Quantum label": "Sigma",
+                "Format quantum label": "I5 %5d",
+                "Description quantum label": "Projection of the electronic spin"
+            },
+            {
+                "Quantum label": "Omega",
+                "Format quantum label": "I5 %5d",
+                "Description quantum label": "Projection of the total angular momentum, Omega = Lambda + Sigma"
+            }
+        ]
+    },
+    {
         "mol": "CO2",
         "iso_slug": "12C-16O2",
         "doi": "10.5281/zenodo.5716786",
@@ -8190,17 +8259,17 @@
             {
                 "Quantum label": "ElecState",
                 "Format quantum label": "A12  %12s",
-                "Description quantum label": ""
+                "Description quantum label": "Electronic state"
             },
             {
                 "Quantum label": "v",
                 "Format quantum label": "I3 %3d",
-                "Description quantum label": "['Electronic states', 'State vibrational quantum number']"
+                "Description quantum label": "State vibrational quantum number"
             },
             {
-                "Quantum label": "F",
+                "Quantum label": "F_i",
                 "Format quantum label": "A2 %2s",
-                "Description quantum label": "F1/2/3 quantum number"
+                "Description quantum label": "Spin component"
             },
             {
                 "Quantum label": "N",

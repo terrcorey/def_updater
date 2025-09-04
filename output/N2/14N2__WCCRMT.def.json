@@ -93,19 +93,19 @@
                     "name": "hunda:ElecState",
                     "ffmt": "A12",
                     "cfmt": " %12s",
-                    "desc": ""
+                    "desc": "Electronic state"
                 },
                 {
                     "name": "hunda:v",
                     "ffmt": "I3",
                     "cfmt": "%3d",
-                    "desc": "['Electronic states', 'State vibrational quantum number']"
+                    "desc": "State vibrational quantum number"
                 },
                 {
-                    "name": "hunda:F",
-                    "ffmt": "A2",
-                    "cfmt": "%2s",
-                    "desc": "F1/2/3 quantum number"
+                    "name": "hunda:F_i",
+                    "ffmt": "A4",
+                    "cfmt": "%4s",
+                    "desc": "Spin component"
                 },
                 {
                     "name": "hunda:N",

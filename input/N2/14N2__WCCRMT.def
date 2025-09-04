@@ -43,10 +43,10 @@ A1 %1s                                                                          
 Gerade/ungerade                                                                 # Description quantum label 3
 ElecState                                                                       # Quantum label 4
 A12  %12s                                                                       # Format quantum label 4
-                                                                                # Description quantum label 4
+Electronic state                                                                # Description quantum label 4
 v                                                                               # Quantum label 5
 I3 %3d                                                                          # Format quantum label 5
-['Electronic states', 'State vibrational quantum number']                       # Description quantum label 5
+State vibrational quantum number                                                # Description quantum label 5
 F                                                                               # Quantum label 6
 A2 %2s                                                                          # Format quantum label 6
 F1/2/3 quantum number                                                           # Description quantum label 6

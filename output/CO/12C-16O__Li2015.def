@@ -1,5 +1,5 @@
 EXOMOL.def                                                                      # ID
-(12C)(12O)                                                                      # IsoFormula
+(12C)(16O)                                                                      # IsoFormula
 12C-16O                                                                         # Iso-slug
 Li2015                                                                          # Isotopologue dataset name
 20170101                                                                        # Version number with format YYYYMMDD

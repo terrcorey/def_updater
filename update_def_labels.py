@@ -470,10 +470,13 @@ def def_dict_update(mol, def_dict, labels_info):
         if "Hyperfine resolved dataset" in key:
             def_dict.pop(key, None)
         if "Inchi key of molecule" in key:
-            datasets = old_master["molecules"][mol]["linelist"]
-            for linelist in datasets:
-                if linelist["dataset_name"] == def_dict["Isotopologue dataset name"]:
-                    def_dict[key] = linelist["inchikey"]
+            try:
+                datasets = old_master["molecules"][mol]["linelist"]
+                for linelist in datasets:
+                    if linelist["dataset_name"] == def_dict["Isotopologue dataset name"]:
+                        def_dict[key] = linelist["inchikey"]
+            except KeyError:
+                pass 
 
     standard_labels = load_standard_labels()
     if labels_list[3] == "F":

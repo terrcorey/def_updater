@@ -1,8 +1,8 @@
 {
     "isotopologue": {
-        "iso_formula": "(12C)(16O)",
-        "iso_slug": "12C-16O",
-        "inchikey": "UGFAIRIUMAVXCW-RGIGPVFXSA-N",
+        "iso_formula": "(12C)(16O)+",
+        "iso_slug": "12C-16O_p",
+        "inchikey": "XPRMKTHGXOVKEH-UHFFFAOYSA-N",
         "mass_in_Da": 28.0101,
         "point_group": "Cs"
     },
@@ -18,9 +18,9 @@
         "Sigma-": 2
     },
     "dataset": {
-        "name": "Li2015",
-        "version": 20170101,
-        "doi": "10.5281/zenodo.5716770",
+        "name": "AWXLZY",
+        "version": 20250902,
+        "doi": null,
         "max_temperature": 9000.0,
         "n_L_default": 0.5,
         "num_pressure_broadeners": 0,
@@ -32,14 +32,14 @@
         "continuum": null,
         "predis": null,
         "states": {
-            "number_of_states": 6383,
+            "number_of_states": 29137,
             "max_energy": null,
             "hyperfine_resolved_dataset": false,
             "uncertainty_description": null,
             "uncertainties_available": false,
             "lifetime_available": false,
-            "lande_g_available": false,
-            "num_quanta": 2,
+            "lande_g_available": true,
+            "num_quanta": 7,
             "states_file_fields": [
                 {
                     "name": "ID",
@@ -62,20 +62,56 @@
                 {
                     "name": "J",
                     "desc": "Total rotational quantum number, excluding nuclear spin",
-                    "ffmt": "I7",
-                    "cfmt": "%7d"
+                    "ffmt": "F7.1",
+                    "cfmt": "%7.1f"
                 },
                 {
-                    "name": "hundb:v",
-                    "ffmt": "I4",
-                    "cfmt": "%4d",
-                    "desc": "State vibrational quantum number"
+                    "name": "gfactor",
+                    "desc": "Lande g-factor",
+                    "ffmt": "F10.6",
+                    "cfmt": "%10.6f"
                 },
                 {
-                    "name": "hundb:e/f",
+                    "name": "hunda:+/-",
+                    "ffmt": "A1",
+                    "cfmt": "%1s",
+                    "desc": "Parity"
+                },
+                {
+                    "name": "hunda:e/f",
                     "ffmt": "A1",
                     "cfmt": "%1s",
                     "desc": "Rotationless-parity"
+                },
+                {
+                    "name": "hunda:ElecState",
+                    "ffmt": "A8",
+                    "cfmt": "%8s",
+                    "desc": "Electronic state"
+                },
+                {
+                    "name": "hunda:v",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "State vibrational quantum number"
+                },
+                {
+                    "name": "hunda:Lambda",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "Projection of the electronic angular momentum"
+                },
+                {
+                    "name": "hunda:Sigma",
+                    "ffmt": "I5",
+                    "cfmt": "%5d",
+                    "desc": "Projection of the electronic spin"
+                },
+                {
+                    "name": "hunda:Omega",
+                    "ffmt": "I5",
+                    "cfmt": "%5d",
+                    "desc": "Projection of the total angular momentum, Omega = Lambda + Sigma"
                 }
             ]
         },
