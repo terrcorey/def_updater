@@ -45,10 +45,10 @@ Lambda                                                                          
 I3 %3d                                                                          # Format quantum label 5
 Projection of the electronic angular momentum                                   # Description quantum label 5
 Sigma                                                                           # Quantum label 6
-I5 %5d                                                                          # Format quantum label 6
+F5.1 %5.1f                                                                      # Format quantum label 6
 Projection of the electronic spin                                               # Description quantum label 6
 Omega                                                                           # Quantum label 7
-I5 %5d                                                                          # Format quantum label 7
+F5.1 %5.1f                                                                      # Format quantum label 7
 Projection of the total angular momentum, Omega = Lambda + Sigma                # Description quantum label 7
 125496                                                                          # Total number of transitions
 1                                                                               # No. of transition files

@@ -103,14 +103,14 @@
                 },
                 {
                     "name": "hunda:Sigma",
-                    "ffmt": "I5",
-                    "cfmt": "%5d",
+                    "ffmt": "F5.1",
+                    "cfmt": "%5.1f",
                     "desc": "Projection of the electronic spin"
                 },
                 {
                     "name": "hunda:Omega",
-                    "ffmt": "I5",
-                    "cfmt": "%5d",
+                    "ffmt": "F5.1",
+                    "cfmt": "%5.1f",
                     "desc": "Projection of the total angular momentum, Omega = Lambda + Sigma"
                 }
             ]

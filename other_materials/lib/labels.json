@@ -3876,12 +3876,12 @@
             },
             {
                 "Quantum label": "Sigma",
-                "Format quantum label": "I5 %5d",
+                "Format quantum label": "F5.1 %5.1f",
                 "Description quantum label": "Projection of the electronic spin"
             },
             {
                 "Quantum label": "Omega",
-                "Format quantum label": "I5 %5d",
+                "Format quantum label": "F5.1 %5.1f",
                 "Description quantum label": "Projection of the total angular momentum, Omega = Lambda + Sigma"
             }
         ]
