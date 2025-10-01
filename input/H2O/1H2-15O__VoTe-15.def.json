@@ -1,39 +1,41 @@
 {
     "isotopologue": {
-        "iso_formula": "(14N)2",
-        "iso_slug": "14N2",
-        "inchikey": "IJGRMHOSHXDMSA-UHFFFAOYSA-N",
-        "mass_in_Da": 28.006482,
-        "point_group": "D_infh(EM)"
+        "iso_formula": "(1H)2(15O)",
+        "iso_slug": "1H2-15O",
+        "inchikey": "XXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "mass_in_Da": 17.01871566,
+        "point_group": "C2v"
     },
     "atoms": {
-        "number_of_atoms": 2,
+        "number_of_atoms": 3,
         "element": {
-            "N": 14
+            "H": 1,
+            "O": 15
         }
     },
     "irreducible_representations": {
-        "Sigma_g+": 1,
-        "Sigma_u+": 0,
-        "Sigma_g-": 0
+        "A1": 2,
+        "A2": 2,
+        "B1": 6,
+        "B2": 6
     },
     "dataset": {
-        "name": "WCCRMT",
-        "version": 20240705,
-        "doi": "10.5281/zenodo.5717009",
-        "max_temperature": 8000.0,
+        "name": "VoTe-15",
+        "version": 20231030,
+        "doi": null,
+        "max_temperature": 1000.0,
         "n_L_default": 0.5,
         "num_pressure_broadeners": 0,
         "nxsec_files": 0,
         "nkcoeff_files": 0,
         "dipole_available": false,
         "cooling_function_available": false,
-        "specific_heat_available": true,
+        "specific_heat_available": null,
         "continuum": null,
         "predis": null,
         "states": {
-            "number_of_states": 40380,
-            "max_energy": 100471.940015,
+            "number_of_states": 0,
+            "max_energy": null,
             "hyperfine_resolved_dataset": false,
             "uncertainty_description": null,
             "uncertainties_available": true,
@@ -72,56 +74,69 @@
                     "cfmt": "%12.6f"
                 },
                 {
-                    "name": "hunda:+/-",
-                    "ffmt": "A1",
-                    "cfmt": "%1s",
-                    "desc": "Parity of states"
+                    "name": "nltcs:v1",
+                    "ffmt": "I2",
+                    "cfmt": "%2d",
+                    "desc": "Kc rotational quantum number"
                 },
                 {
-                    "name": "hunda:e/f",
-                    "ffmt": "A1",
-                    "cfmt": "%1s",
-                    "desc": "Rotationless parity"
+                    "name": "nltcs:v2",
+                    "ffmt": "I2",
+                    "cfmt": "%2d",
+                    "desc": "v1 symmetric stretch quantum number(3)"
                 },
                 {
-                    "name": "hunda:g/u",
-                    "ffmt": "A1",
-                    "cfmt": "%1s",
-                    "desc": "Gerade/ungerade"
+                    "name": "nltcs:v3",
+                    "ffmt": "I2",
+                    "cfmt": "%2d",
+                    "desc": "v2 bend quantum number"
                 },
                 {
-                    "name": "hunda:ElecState",
-                    "ffmt": "A12",
-                    "cfmt": " %12s",
-                    "desc": "Electronic state"
+                    "name": "nltcs:J",
+                    "ffmt": "I7",
+                    "cfmt": "%7d",
+                    "desc": "Total rotational quantum number"
                 },
                 {
-                    "name": "hunda:v",
-                    "ffmt": "I3",
-                    "cfmt": "%3d",
-                    "desc": "State vibrational quantum number"
+                    "name": "nltcs:Ka",
+                    "ffmt": "I2",
+                    "cfmt": "%2d",
+                    "desc": "Ka rotational quantum number"
                 },
                 {
-                    "name": "hunda:F",
+                    "name": "nltcs:Kc",
+                    "ffmt": "I2",
+                    "cfmt": "%2d",
+                    "desc": "Ka rotational quantum number"
+                },
+                {
+                    "name": "nltcs:Grve",
+                    "ffmt": "A3",
+                    "cfmt": "%3s",
+                    "desc": "Rovibrational symmetry"
+                },
+                {
+                    "name": "Auxiliary:SourceType",
                     "ffmt": "A2",
                     "cfmt": "%2s",
-                    "desc": "F1/2/3 quantum number"
+                    "desc": "Ma=MARVEL,Ca=Calculated,EH=Effective Hamiltonian,IE=Isotopologue extrapolation"
                 },
                 {
-                    "name": "hunda:N",
-                    "ffmt": "I5",
-                    "cfmt": "%5d",
-                    "desc": "Total angular momentum exclusive of electron spin"
+                    "name": "Auxiliary:Ecal",
+                    "ffmt": "F12.6",
+                    "cfmt": "%12.6f",
+                    "desc": "Calculated energy in cm-1"
                 }
             ]
         },
         "transitions": {
-            "number_of_transitions": 8389499,
-            "max_wavenumber": 56011.0
+            "number_of_transitions": 149665543,
+            "number_of_transition_files": 12,
+            "max_wavenumber": 30000.0
         }
     },
     "partition_function": {
-        "max_partition_function_temperature": 9000.0,
+        "max_partition_function_temperature": 1200.0,
         "partition_function_step_size": 1.0
     },
     "broad": {

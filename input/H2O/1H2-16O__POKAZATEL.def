@@ -68,7 +68,7 @@ Ma=MARVEL,Ca=Calculated,EH=Effective Hamiltonian,IE=Isotopologue extrapolation  
 0.0700                                                                          # Default value of Lorentzian half-width for all lines (in cm-1/bar)
 0.500                                                                           # Default value of temperature exponent for all lines
 H2                                                                              # Label for a particular broadener
-1H2-16O__H2.broad                                                               # Filename for a particular broadener
+1H2-16O__H2.broad                                                               # Filename of particular broadener
 50                                                                              # Maximum J for which pressure broadening parameters provided
 0.0209                                                                          # Value of Lorentzian half-width for J" > Jmax
 0.027                                                                           # Value of temperature exponent for lines with J" > Jmax
@@ -87,7 +87,7 @@ a0                                                                              
 51                                                                              # No. of lines in the broad that contain this code
 0                                                                               # No. of quantum numbers defined
 He                                                                              # Label for a particular broadener
-1H2-16O__He.broad                                                               # Filename for a particular broadener
+1H2-16O__He.broad                                                               # Filename of particular broadener
 50                                                                              # Maximum J for which pressure broadening parameters provided
 0.0042                                                                          # Value of Lorentzian half-width for J" > Jmax
 0.020                                                                           # Value of temperature exponent for lines with J" > Jmax

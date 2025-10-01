@@ -37,7 +37,7 @@
             "number_of_states": 0,
             "max_energy": 30000.0,
             "hyperfine_resolved_dataset": false,
-            "uncertainty_description": "Calculated energy in cm-1",
+            "uncertainty_description": null,
             "uncertainties_available": false,
             "lifetime_available": false,
             "lande_g_available": false,
@@ -66,12 +66,6 @@
                     "desc": "Total rotational quantum number, excluding nuclear spin",
                     "ffmt": "I7",
                     "cfmt": "%7d"
-                },
-                {
-                    "name": "unc",
-                    "desc": "Energy uncertainty in cm-1",
-                    "ffmt": "F12.6",
-                    "cfmt": "%12.6f"
                 },
                 {
                     "name": "nltcs:Ka",
@@ -108,6 +102,12 @@
                     "ffmt": "A3",
                     "cfmt": "%3s",
                     "desc": "Rovibrational symmetry"
+                },
+                {
+                    "name": "Auxiliary:Ecal",
+                    "ffmt": "F12.6",
+                    "cfmt": "%12.6f",
+                    "desc": "Calculated energy in cm-1"
                 }
             ]
         },
@@ -125,6 +125,7 @@
         "default_Lorentzian_half-width": 0.07,
         "default_temperature_exponent": 0.5,
         "H2": {
+            "filename": "1H2-16O__H2.broad",
             "max_J": 50,
             "Lorentzian_half_width": 0.0209,
             "temperature_exponent": 0.027,
@@ -157,6 +158,7 @@
             ]
         },
         "He": {
+            "filename": "1H2-16O__He.broad",
             "max_J": 50,
             "Lorentzian_half_width": 0.0042,
             "temperature_exponent": 0.02,
