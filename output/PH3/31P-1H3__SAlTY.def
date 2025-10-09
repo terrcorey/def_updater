@@ -3,7 +3,8 @@ EXOMOL.def                                                                      
 31P-1H3                                                                         # Iso-slug
 SAlTY                                                                           # Isotopologue dataset name
 20170131                                                                        # Version number with format YYYYMMDD
-XYFCBTPGUUZFHI-UHFFFAOYSA-N                                                     # Inchi key of molecule
+InChI=1S/H3P/h1H3                                                               # In-ChI of molecule
+XYFCBTPGUUZFHI-UHFFFAOYSA-N                                                     # In-ChI key of molecule
 4                                                                               # Number of atoms
 31                                                                              # Isotope number 1
 P                                                                               # Element symbol 1

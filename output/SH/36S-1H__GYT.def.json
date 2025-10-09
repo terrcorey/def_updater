@@ -2,6 +2,7 @@
     "isotopologue": {
         "iso_formula": "(36S)(1H)",
         "iso_slug": "36S-1H",
+        "inchi": "InChI=1S/HS/h1H/i2+4",
         "inchikey": "PXQLVRUNWNTZOS-RNFDNDRNSA-N",
         "mass_in_Da": 36.97490574,
         "point_group": "C"

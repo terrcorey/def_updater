@@ -2,6 +2,7 @@
     "isotopologue": {
         "iso_formula": "(40Ca)(16O)",
         "iso_slug": "40Ca-16O",
+        "inchi": "InChI=1S/Ca.O",
         "inchikey": "ODINCKMPIJJUCX-UHFFFAOYSA-N",
         "mass_in_Da": 55.957506,
         "point_group": "C"

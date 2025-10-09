@@ -2,7 +2,8 @@
     "isotopologue": {
         "iso_formula": "(29Si)(1H)",
         "iso_slug": "29Si-1H",
-        "inchikey": "QHGSGZLLHBKSAH-NJFSPNSNSA-N",
+        "inchi": "InChI=1S/HSi/h1H/i1+1",
+        "inchikey": "QHGSGZLLHBKSAH-OUBTZVSYSA-N",
         "mass_in_Da": 29.98431973,
         "point_group": "C"
     },

@@ -2,7 +2,8 @@
     "isotopologue": {
         "iso_formula": "(14N)(1H)",
         "iso_slug": "14N-1H",
-        "inchikey": "SHQROCLHCPBSPB-ZIIAHIFVSA-N",
+        "inchi": "InChI=1S/HN/h1H",
+        "inchikey": "PDCKRJPYJMCOFO-UHFFFAOYSA-N",
         "mass_in_Da": 15.010899,
         "point_group": "C"
     },

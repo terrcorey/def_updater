@@ -3,7 +3,8 @@ EXOMOL.def                                                                      
 12C2                                                                            # Iso-slug
 8states                                                                         # Isotopologue dataset name
 20200628                                                                        # Version number with format YYYYMMDD
-LBVWYGNGGJURHQ-ZDOIIHCHSA-N                                                     # Inchi key of molecule
+InChI=1S/C2/c1-2                                                                # In-ChI of molecule
+LBVWYGNGGJURHQ-UHFFFAOYSA-N                                                     # In-ChI key of molecule
 2                                                                               # Number of atoms
 12                                                                              # Isotope number 1
 C                                                                               # Element symbol 1

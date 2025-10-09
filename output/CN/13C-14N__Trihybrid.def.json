@@ -2,7 +2,8 @@
     "isotopologue": {
         "iso_formula": "(13C)(14N)",
         "iso_slug": "13C-14N",
-        "inchikey": "JEVCWSUVFOYBFI-ZDOIIHCHSA-N",
+        "inchi": "InChI=1S/CN/c1-2/i1+1",
+        "inchikey": "JEVCWSUVFOYBFI-OUBTZVSYSA-N",
         "mass_in_Da": 27.0101,
         "point_group": "C"
     },

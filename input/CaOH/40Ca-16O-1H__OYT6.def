@@ -61,9 +61,9 @@ Antisymmetric stretching v3 mode vibrational quantum number                     
 Omega                                                                           # Quantum label 10
 F5.1 %5.1f                                                                      # Format quantum label 10
 Projection of the total angular momentum                                        # Description quantum label 10
-F                                                                               # Quantum label 11
-I3 %3d                                                                          # Format quantum label 11
-Final angular momentum                                                          # Description quantum label 11
+F_i                                                                             # Quantum label 11
+A4 %4s                                                                          # Format quantum label 11
+Spin component                                                                  # Description quantum label 11
 Ecal                                                                            # Auxiliary title 1
 F12.6 %12.6f                                                                    # Format title 1
 Calculated energy in cm-1                                                       # Description title 1

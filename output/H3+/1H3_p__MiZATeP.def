@@ -3,7 +3,8 @@ EXOMOL.def                                                                      
 1H3_p                                                                           # Iso-slug
 MiZATeP                                                                         # Isotopologue dataset name
 20230123                                                                        # Version number with format YYYYMMDD
-QWLPJNYQVKBMAN-UHFFFAOYSA-N                                                     # Inchi key of molecule
+InChI=1S/H3/h1H2/q+1                                                            # In-ChI of molecule
+QWLPJNYQVKBMAN-UHFFFAOYSA-N                                                     # In-ChI key of molecule
 3                                                                               # Number of atoms
 1                                                                               # Isotope number 1
 H                                                                               # Element symbol 1

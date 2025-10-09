@@ -3,7 +3,8 @@ EXOMOL.def                                                                      
 12C-16O_p                                                                       # Iso-slug
 AWXLZY                                                                          # Isotopologue dataset name
 20250902                                                                        # Version number with format YYYYMMDD
-XPRMKTHGXOVKEH-UHFFFAOYSA-N                                                     # Inchi key of molecule
+InChI=1S/CO/c1-2/q+1                                                            # In-ChI of molecule
+BOJPITGAFFYFJK-UHFFFAOYSA-N                                                     # In-ChI key of molecule
 2                                                                               # Number of atoms
 12                                                                              # Isotope number 1
 C                                                                               # Element symbol 1

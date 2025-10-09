@@ -2,7 +2,8 @@
     "isotopologue": {
         "iso_formula": "(12C)(15N)",
         "iso_slug": "12C-15N",
-        "inchikey": "JEVCWSUVFOYBFI-ZDOIIHCHSA-N",
+        "inchi": "InChI=1S/CN/c1-2/i2+1",
+        "inchikey": "JEVCWSUVFOYBFI-VQEHIDDOSA-N",
         "mass_in_Da": 27.0108,
         "point_group": "C"
     },

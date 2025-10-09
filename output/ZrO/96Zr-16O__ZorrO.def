@@ -3,7 +3,8 @@ EXOMOL.def                                                                      
 96Zr-16O                                                                        # Iso-slug
 ZorrO                                                                           # Isotopologue dataset name
 20230713                                                                        # Version number with format YYYYMMDD
-GEIAQOFPUVMAGM-WNVRODMJSA-N                                                     # Inchi key of molecule
+InChI=1S/O.Zr/i1+0;1+5                                                          # In-ChI of molecule
+GEIAQOFPUVMAGM-WNVRODMJSA-N                                                     # In-ChI key of molecule
 2                                                                               # Number of atoms
 96                                                                              # Isotope number 1
 Zr                                                                              # Element symbol 1

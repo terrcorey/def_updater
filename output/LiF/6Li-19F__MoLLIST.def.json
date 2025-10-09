@@ -2,7 +2,8 @@
     "isotopologue": {
         "iso_formula": "(6Li)(19F)",
         "iso_slug": "6Li-19F",
-        "inchikey": "PQXKHYXIUOZZFA-UHFFFAOYSA-M",
+        "inchi": "InChI=1S/FH.Li/h1H;/q;+1/p-x",
+        "inchikey": "PQXKHYXIUOZZFA-UHFFFAOYSA-X",
         "mass_in_Da": 25.013526,
         "point_group": "C"
     },

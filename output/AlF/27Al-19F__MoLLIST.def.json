@@ -2,6 +2,7 @@
     "isotopologue": {
         "iso_formula": "(27Al)(19F)",
         "iso_slug": "27Al-19F",
+        "inchi": "InChI=1S/Al.FH/h;1H/q+1;/p-1",
         "inchikey": "APURLPHDHPNUFL-UHFFFAOYSA-M",
         "mass_in_Da": 45.979942,
         "point_group": "C"

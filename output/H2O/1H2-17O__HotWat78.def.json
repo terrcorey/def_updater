@@ -2,7 +2,8 @@
     "isotopologue": {
         "iso_formula": "(1H)2(17O)",
         "iso_slug": "1H2-17O",
-        "inchikey": "XLYOFNOQVPJJNP-NJFSPNSNSA-N",
+        "inchi": "InChI=1S/H2O/h1H2/i1+1",
+        "inchikey": "XLYOFNOQVPJJNP-OUBTZVSYSA-N",
         "mass_in_Da": 19.01478176,
         "point_group": "C2v"
     },

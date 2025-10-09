@@ -3,7 +3,8 @@ EXOMOL.def                                                                      
 6Li-37Cl                                                                        # Iso-slug
 MoLLIST                                                                         # Isotopologue dataset name
 20180709                                                                        # Version number with format YYYYMMDD
-KWGKDLIKAYFUFQ-DEQYMQKBSA-M                                                     # Inchi key of molecule
+InChI=1S/ClH.Li/h1H;/q;+1/p-1/i1+X                                              # In-ChI of molecule
+KWGKDLIKAYFUFQ-DEQYMQKBSA-X                                                     # In-ChI key of molecule
 2                                                                               # Number of atoms
 6                                                                               # Isotope number 1
 Li                                                                              # Element symbol 1

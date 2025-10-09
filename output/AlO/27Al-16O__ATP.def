@@ -3,7 +3,8 @@ EXOMOL.def                                                                      
 27Al-16O                                                                        # Iso-slug
 ATP                                                                             # Isotopologue dataset name
 20210622                                                                        # Version number with format YYYYMMDD
-AIRCTMFFNKZQPN-HQMMCQRPSA-N                                                     # Inchi key of molecule
+InChI=1S/Al.O                                                                   # In-ChI of molecule
+AIRCTMFFNKZQPN-UHFFFAOYSA-N                                                     # In-ChI key of molecule
 2                                                                               # Number of atoms
 27                                                                              # Isotope number 1
 Al                                                                              # Element symbol 1

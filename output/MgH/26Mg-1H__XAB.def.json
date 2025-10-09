@@ -2,6 +2,7 @@
     "isotopologue": {
         "iso_formula": "(26Mg)(1H)",
         "iso_slug": "26Mg-1H",
+        "inchi": "InChI=1S/Mg.H/i1+2;",
         "inchikey": "RZCHRULKKYOSQS-DEQYMQKBSA-N",
         "mass_in_Da": 26.990418,
         "point_group": "C"

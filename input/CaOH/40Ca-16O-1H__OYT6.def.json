@@ -36,7 +36,7 @@
             "number_of_states": 3187522,
             "max_energy": null,
             "hyperfine_resolved_dataset": false,
-            "uncertainty_description": "Ma=MARVEL,Ca=Calculated,EH=Effective Hamiltonian,IE=Isotopologue extrapolation",
+            "uncertainty_description": null,
             "uncertainties_available": true,
             "lifetime_available": false,
             "lande_g_available": false,
@@ -133,10 +133,22 @@
                     "desc": "Projection of the total angular momentum"
                 },
                 {
-                    "name": "hunda:F",
-                    "ffmt": "I3",
-                    "cfmt": "%3d",
-                    "desc": "Final angular momentum"
+                    "name": "hunda:F_i",
+                    "ffmt": "A4",
+                    "cfmt": "%4s",
+                    "desc": "Spin component"
+                },
+                {
+                    "name": "Auxiliary:Ecal",
+                    "ffmt": "F12.6",
+                    "cfmt": "%12.6f",
+                    "desc": "Calculated energy in cm-1"
+                },
+                {
+                    "name": "Auxiliary:SourceType",
+                    "ffmt": "A2",
+                    "cfmt": "%2s",
+                    "desc": "Ma=MARVEL,Ca=Calculated,EH=Effective Hamiltonian,IE=Isotopologue extrapolation"
                 }
             ]
         },

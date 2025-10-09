@@ -3,7 +3,8 @@ EXOMOL.def                                                                      
 15N-1H                                                                          # Iso-slug
 kNigHt                                                                          # Isotopologue dataset name
 20240301                                                                        # Version number with format YYYYMMDD
-SHQROCLHCPBSPB-ZIIAHIFVSA-N                                                     # Inchi key of molecule
+InChI=XXXXXX                                                                    # In-ChI of molecule
+XXXXXXXXXXXXXX-YYYYYYYYYY-X                                                     # In-ChI key of molecule
 2                                                                               # Number of atoms
 15                                                                              # Isotope number 1
 N                                                                               # Element symbol 1

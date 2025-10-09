@@ -2,7 +2,8 @@
     "isotopologue": {
         "iso_formula": "(91Zr)(16O)",
         "iso_slug": "91Zr-16O",
-        "inchikey": "GEIAQOFPUVMAGM-WNVRODMJSA-N",
+        "inchi": "InChI=1S/O.Zr/i1+0;1+0",
+        "inchikey": "GEIAQOFPUVMAGM-QGXXTBATSA-N",
         "mass_in_Da": 106.9005604,
         "point_group": "C"
     },

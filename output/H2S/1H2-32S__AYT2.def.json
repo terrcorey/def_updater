@@ -2,6 +2,7 @@
     "isotopologue": {
         "iso_formula": "(1H)2(32S)",
         "iso_slug": "1H2-32S",
+        "inchi": "InChI=1S/H2S/h1H2",
         "inchikey": "RWSOTUBLDIXVET-UHFFFAOYSA-N",
         "mass_in_Da": 33.987721,
         "point_group": "C2v"

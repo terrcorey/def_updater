@@ -2,6 +2,7 @@
     "isotopologue": {
         "iso_formula": "(30Si)(14N)",
         "iso_slug": "30Si-14N",
+        "inchi": "InChI=1S/NSi/c1-2/i2+2",
         "inchikey": "NCLWWTWAYQTPBU-HQMMCQRPSA-N",
         "mass_in_Da": 43.976844,
         "point_group": "C"

@@ -2,7 +2,8 @@
     "isotopologue": {
         "iso_formula": "(40Ca)(35Cl)",
         "iso_slug": "40Ca-35Cl",
-        "inchikey": "WGPMOVAPQPJDDK-WMSMEIEASA-M",
+        "inchi": "InChI=1S/Ca.ClH/h;1H/q+1;/p-1",
+        "inchikey": "WGPMOVAPQPJDDK-UHFFFAOYSA-M",
         "mass_in_Da": 74.93144,
         "point_group": "C"
     },

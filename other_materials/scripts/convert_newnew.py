@@ -10,8 +10,8 @@ from update_def_labels import error_log, check_J_format
 from tqdm import tqdm
 
 def find_doi(ds_name):
-    path = os.path.join(".", "states_labels.json")
-    with open(path, "r") as f:
+    labels = os.path.join(".", "other_materials", "lib", "labels.json")
+    with open(labels, "r", encoding="utf-8") as f:
         states_labels = json.load(f)
         for entry in states_labels:
             if entry["ds_name"] == ds_name:
@@ -69,6 +69,8 @@ def def_to_json(def_file_path, json_file_path):
     with open(def_file_path, 'r') as def_file:
         lines = def_file.readlines()
         line_iter = iter(lines)
+        if def_file_path.endswith('AWXLZY.def'):
+            print(lines)
         quantum_case_label = None
         broadener_label = None
         for line in line_iter:
@@ -76,7 +78,9 @@ def def_to_json(def_file_path, json_file_path):
                 json_dict["isotopologue"]["iso_formula"] = line.split('#')[0].strip()
             elif '# Iso-slug' in line:
                 json_dict["isotopologue"]["iso_slug"] = line.split('#')[0].strip()
-            elif '# Inchi key of molecule' in line:
+            elif '# In-ChI of molecule' in line:
+                json_dict["isotopologue"]["inchi"] = line.split('#')[0].strip()
+            elif '# In-ChI key of molecule' in line:
                 json_dict["isotopologue"]["inchikey"] = line.split('#')[0].strip()
             elif '# Number of atoms' in line:
                 json_dict["atoms"]["number_of_atoms"] = int(line.split('#')[0].strip())
@@ -337,6 +341,17 @@ def def_to_json(def_file_path, json_file_path):
         #         json_dict["isotopologue"]["inchi"] = inchi
 
         # Ensure the order of keys in "states" as specified
+        iso_keys_order = [
+            "iso_formula",
+            "iso_slug",
+            "inchi",
+            "inchikey",
+            "mass_in_Da",
+            "point_group"
+        ]
+
+        json_dict["isotopologue"] = {k: json_dict["isotopologue"].get(k) for k in iso_keys_order}
+
         states_keys_order = [
             "number_of_states",
             "max_energy",

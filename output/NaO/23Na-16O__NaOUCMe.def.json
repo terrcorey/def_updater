@@ -2,6 +2,7 @@
     "isotopologue": {
         "iso_formula": "(23Na)(16O)",
         "iso_slug": "23Na-16O",
+        "inchi": "InChI=1S/Na.O",
         "inchikey": "IVAOQJNBYYIDSI-UHFFFAOYSA-N",
         "mass_in_Da": 38.9892,
         "point_group": "Cs"

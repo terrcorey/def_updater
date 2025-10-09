@@ -2,6 +2,7 @@
     "isotopologue": {
         "iso_formula": "(23Na)(19F)",
         "iso_slug": "23Na-19F",
+        "inchi": "InChI=1S/FH.Na/h1H;/q;+1/p-1",
         "inchikey": "PUZPDOWCWNUUKD-UHFFFAOYSA-M",
         "mass_in_Da": 41.988172,
         "point_group": "C"

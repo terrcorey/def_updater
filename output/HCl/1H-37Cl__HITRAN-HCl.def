@@ -3,7 +3,8 @@ EXOMOL.def                                                                      
 1H-37Cl                                                                         # Iso-slug
 HITRAN-HCl                                                                      # Isotopologue dataset name
 20160726                                                                        # Version number with format YYYYMMDD
-VEXZGXHMUGYJMC-DQGQKLTASA-N                                                     # Inchi key of molecule
+InChI=1S/ClH/h1H/i1+2                                                           # In-ChI of molecule
+VEXZGXHMUGYJMC-NJFSPNSNSA-N                                                     # In-ChI key of molecule
 2                                                                               # Number of atoms
 1                                                                               # Isotope number 1
 H                                                                               # Element symbol 1

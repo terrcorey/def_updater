@@ -2,7 +2,8 @@
     "isotopologue": {
         "iso_formula": "(28Si)(32S)",
         "iso_slug": "28Si-32S",
-        "inchikey": "DWFFKGPZNGKUPH-NBRKPRHBSA-N",
+        "inchi": "InChI=1S/SSi/c1-2",
+        "inchikey": "DWFFKGPZNGKUPH-UHFFFAOYSA-N",
         "mass_in_Da": 59.948998,
         "point_group": "C"
     },

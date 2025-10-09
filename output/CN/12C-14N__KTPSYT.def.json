@@ -2,7 +2,8 @@
     "isotopologue": {
         "iso_formula": "(12C)(14N)",
         "iso_slug": "12C-14N",
-        "inchikey": "JEVCWSUVFOYBFI-ZDOIIHCHSA-N",
+        "inchi": "InChI=1S/CN/c1-2",
+        "inchikey": "JEVCWSUVFOYBFI-UHFFFAOYSA-N",
         "mass_in_Da": 26.0174,
         "point_group": "C"
     },
@@ -20,7 +21,7 @@
     "dataset": {
         "name": "KTPSYT",
         "version": 20241119,
-        "doi": null,
+        "doi": "",
         "max_temperature": 10000.0,
         "n_L_default": 0.5,
         "num_pressure_broadeners": 0,

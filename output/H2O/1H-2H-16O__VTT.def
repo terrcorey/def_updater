@@ -3,7 +3,8 @@ EXOMOL.def                                                                      
 1H-2H-16O                                                                       # Iso-slug
 VTT                                                                             # Isotopologue dataset name
 20160726                                                                        # Version number with format YYYYMMDD
-XLYOFNOQVPJJNP-DYCDLGHISA-N                                                     # Inchi key of molecule
+InChI=1S/H2O/h1H2/i/hD                                                          # In-ChI of molecule
+XLYOFNOQVPJJNP-DYCDLGHISA-N                                                     # In-ChI key of molecule
 3                                                                               # Number of atoms
 1                                                                               # Isotope number 1
 H                                                                               # Element symbol 1

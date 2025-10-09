@@ -2,7 +2,8 @@
     "isotopologue": {
         "iso_formula": "(27Al)(17O)",
         "iso_slug": "27Al-17O",
-        "inchikey": "AIRCTMFFNKZQPN-HQMMCQRPSA-N",
+        "inchi": "InChI=1S/Al.O/i2+1",
+        "inchikey": "AIRCTMFFNKZQPN-VQEHIDDOSA-N",
         "mass_in_Da": 43.980671,
         "point_group": "C"
     },

@@ -2,6 +2,7 @@
     "isotopologue": {
         "iso_formula": "(27Al)(2H)",
         "iso_slug": "27Al-2H",
+        "inchi": "InChI=1S/Al.H/i;1+1",
         "inchikey": "SPRIOUNJHPCKPV-IEOVAKBOSA-N",
         "mass_in_Da": 28.9956404,
         "point_group": "C"

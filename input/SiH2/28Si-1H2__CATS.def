@@ -1,5 +1,5 @@
 EXOMOL.def                                                                      # ID
-(1H)2(28Si)                                                                     # IsoFormula
+(28Si)(1H)2                                                                     # IsoFormula
 28Si-1H2                                                                        # Iso-slug
 CATS                                                                            # Isotopologue dataset name
 20200201                                                                        # Version number with format YYYYMMDD

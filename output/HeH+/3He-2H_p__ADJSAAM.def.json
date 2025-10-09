@@ -2,7 +2,8 @@
     "isotopologue": {
         "iso_formula": "(3He)(2H)+",
         "iso_slug": "3He-2H_p",
-        "inchikey": "HSFAAVLNFOAYQX-MICDWDOJSA-N",
+        "inchi": "InChI=1S/HHe/h1H/q+1/i1-1D",
+        "inchikey": "HSFAAVLNFOAYQX-QIAWKQIGSA-N",
         "mass_in_Da": 5.030131,
         "point_group": "Cs"
     },

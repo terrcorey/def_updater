@@ -138,8 +138,8 @@ def load_standard_labels():
         standard_labels = json.load(f)
     return standard_labels
 
-def load_old_master_file():
-    path = os.path.join(os.getcwd(), "other_materials", "lib", "old_master_file.json")
+def load_backend_master_file():
+    path = os.path.join(os.getcwd(), "other_materials", "lib", "exomol-20250905.all.json")
     with open(path, "r", encoding="utf-8") as f:
         old_master_file = json.load(f)
     return old_master_file
@@ -368,7 +368,6 @@ def read_def_file(def_file_path):
 
     def_dict["Quantum labels"] = quantum_labels
     def_dict["Auxiliary labels"] = auxiliary_labels
-
     return def_dict
 
 # Output formatting
@@ -450,7 +449,7 @@ def def_dict_update(mol, def_dict, labels_info):
             labels_list.append(dict)
         else:
             labels_list.append(dict["Quantum label"])
-    old_master = load_old_master_file()
+    backend_master = load_backend_master_file()
 
     bools = {
         "Lifetime availability": 0,
@@ -471,12 +470,20 @@ def def_dict_update(mol, def_dict, labels_info):
             def_dict.pop(key, None)
         if "Inchi key of molecule" in key:
             try:
-                datasets = old_master["molecules"][mol]["linelist"]
-                for linelist in datasets:
-                    if linelist["dataset_name"] == def_dict["Isotopologue dataset name"]:
-                        def_dict[key] = linelist["inchikey"]
-            except KeyError:
-                pass 
+                iso_formula = def_dict["IsoFormula"]
+                inchi = backend_master[mol][iso_formula]["inchi"]
+                inchikey = backend_master[mol][iso_formula]["inchikey"]
+                def_dict["In-ChI of molecule"] = inchi
+                def_dict["In-ChI key of molecule"] = inchikey
+                def_dict.pop(key, None)
+            except KeyError as e:
+                try:
+                    inchi = def_dict.get("In-ChI of molecule", None)
+                    inchikey = def_dict.get("In-ChI key of molecule", None)
+                    def_dict.pop(key, None)
+                except KeyError as e:
+                    error_log(f"Dataset: {filename} || In-ChI/In-ChI key not found in backend master file: {e}", "Warn")
+                    pass
 
     standard_labels = load_standard_labels()
     if labels_list[3] == "F":
@@ -625,6 +632,12 @@ def update_def(def_file_path, def_dict):
                 elif desc == "No. of k-coefficient files available":
                     output_file.write(bool_formmatter(def_dict.get("bools", {})))
                     def_dict.pop("bools", None)
+                elif desc == "Version number with format YYYYMMDD":
+                    output_file.write(line_formatter(def_dict.get("In-ChI of molecule"), "In-ChI of molecule"))
+                    output_file.write(line_formatter(def_dict.get("In-ChI key of molecule"), "In-ChI key of molecule"))
+                    def_dict.pop("In-ChI of molecule", None)
+                    def_dict.pop("In-ChI key of molecule", None)
+
                 
             # Write any remaining entries in def_dict to the output file
             for desc, value in def_dict.items():
@@ -633,6 +646,7 @@ def update_def(def_file_path, def_dict):
                         output_file.write(line_formatter(v, desc))
                 else:
                     output_file.write(line_formatter(value, desc))
+                    print(value, desc)
 
 def make_label_json():
     """Creates a JSON file from the label definitions in the Excel file."""

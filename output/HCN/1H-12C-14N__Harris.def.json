@@ -2,6 +2,7 @@
     "isotopologue": {
         "iso_formula": "(1H)(12C)(14N)",
         "iso_slug": "1H-12C-14N",
+        "inchi": "InChI=1S/CHN/c1-2/h1H",
         "inchikey": "LELOWRISYMNNSU-UHFFFAOYSA-N",
         "mass_in_Da": 27.010899,
         "point_group": "C"

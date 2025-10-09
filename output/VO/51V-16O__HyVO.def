@@ -3,7 +3,8 @@ EXOMOL.def                                                                      
 51V-16O                                                                         # Iso-slug
 HyVO                                                                            # Isotopologue dataset name
 20231218                                                                        # Version number with format YYYYMMDD
-IBYSTTGVDIFUAY-UHFFFAOYSA-N                                                     # Inchi key of molecule
+InChI=1S/O.V                                                                    # In-ChI of molecule
+IBYSTTGVDIFUAY-UHFFFAOYSA-N                                                     # In-ChI key of molecule
 2                                                                               # Number of atoms
 51                                                                              # Isotope number 1
 V                                                                               # Element symbol 1

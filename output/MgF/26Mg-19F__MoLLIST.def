@@ -3,7 +3,8 @@ EXOMOL.def                                                                      
 26Mg-19F                                                                        # Iso-slug
 MoLLIST                                                                         # Isotopologue dataset name
 20180716                                                                        # Version number with format YYYYMMDD
-DEKCOOIJMHCCME-NLQOEHMXSA-M                                                     # Inchi key of molecule
+InChI=1S/FH.Mg/c1-2/h1H;/q;+1/p-1/i;1+2                                         # In-ChI of molecule
+DEKCOOIJMHCCME-NLQOEHMXSA-M                                                     # In-ChI key of molecule
 2                                                                               # Number of atoms
 26                                                                              # Isotope number 1
 Mg                                                                              # Element symbol 1

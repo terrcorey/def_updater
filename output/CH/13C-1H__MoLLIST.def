@@ -3,7 +3,8 @@ EXOMOL.def                                                                      
 13C-1H                                                                          # Iso-slug
 MoLLIST                                                                         # Isotopologue dataset name
 20160726                                                                        # Version number with format YYYYMMDD
-VRLIPUYDFBXWCH-OUBTZVSYSA-N                                                     # Inchi key of molecule
+InChI=1S/CH/h1H/i1+1                                                            # In-ChI of molecule
+VRLIPUYDFBXWCH-OUBTZVSYSA-N                                                     # In-ChI key of molecule
 2                                                                               # Number of atoms
 13                                                                              # Isotope number 1
 C                                                                               # Element symbol 1

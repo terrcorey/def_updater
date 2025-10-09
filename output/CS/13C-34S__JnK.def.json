@@ -2,7 +2,8 @@
     "isotopologue": {
         "iso_formula": "(13C)(34S)",
         "iso_slug": "13C-34S",
-        "inchikey": "DXHPZXWIPWDXHJ-SZZQIKPLSA-N",
+        "inchi": "InChI=1S/CS/c1-2/i1+1;i2+2",
+        "inchikey": "DXHPZXWIPWDXHJ-KUEOXBMXSA-N",
         "mass_in_Da": 46.971222,
         "point_group": "C"
     },

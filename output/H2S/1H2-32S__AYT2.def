@@ -3,7 +3,8 @@ EXOMOL.def                                                                      
 1H2-32S                                                                         # Iso-slug
 AYT2                                                                            # Isotopologue dataset name
 20241204                                                                        # Version number with format YYYYMMDD
-RWSOTUBLDIXVET-UHFFFAOYSA-N                                                     # Inchi key of molecule
+InChI=1S/H2S/h1H2                                                               # In-ChI of molecule
+RWSOTUBLDIXVET-UHFFFAOYSA-N                                                     # In-ChI key of molecule
 3                                                                               # Number of atoms
 1                                                                               # Isotope number 1
 H                                                                               # Element symbol 1

@@ -2,6 +2,7 @@
     "isotopologue": {
         "iso_formula": "(12C)(1H)3(37Cl)",
         "iso_slug": "12C-1H3-37Cl",
+        "inchi": "InChI=1S/CH3Cl/c1-2/h1H3/i2+2",
         "inchikey": "NEHMKBQYUWJMIP-HQMMCQRPSA-N",
         "mass_in_Da": 51.9893776,
         "point_group": "C3v"

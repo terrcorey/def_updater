@@ -3,7 +3,8 @@ EXOMOL.def                                                                      
 31P-14N                                                                         # Iso-slug
 PaiN                                                                            # Isotopologue dataset name
 20240505                                                                        # Version number with format YYYYMMDD
-AOPJVJYWEDDOBI-OUBTZVSYSA-N                                                     # Inchi key of molecule
+InChI=1S/NP/c1-2                                                                # In-ChI of molecule
+AOPJVJYWEDDOBI-UHFFFAOYSA-N                                                     # In-ChI key of molecule
 2                                                                               # Number of atoms
 31                                                                              # Isotope number 1
 P                                                                               # Element symbol 1

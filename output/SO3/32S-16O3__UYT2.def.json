@@ -2,6 +2,7 @@
     "isotopologue": {
         "iso_formula": "(32S)(16O)3",
         "iso_slug": "32S-16O3",
+        "inchi": "InChI=1S/O3S/c1-4(2)3",
         "inchikey": "AKEJUJNQAAGONA-UHFFFAOYSA-N",
         "mass_in_Da": 79.956815,
         "point_group": "C3v"

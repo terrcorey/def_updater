@@ -2,6 +2,7 @@
     "isotopologue": {
         "iso_formula": "(26Mg)(16O)",
         "iso_slug": "26Mg-16O",
+        "inchi": "InChI=1S/MgO/c1-2/i1+2",
         "inchikey": "MXDVONUOKSYWHF-NJFSPNSNSA-N",
         "mass_in_Da": 41.9775075896,
         "point_group": "C"

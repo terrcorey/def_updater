@@ -3,7 +3,8 @@ EXOMOL.def                                                                      
 1H2-16O2                                                                        # Iso-slug
 APTY                                                                            # Isotopologue dataset name
 20160726                                                                        # Version number with format YYYYMMDD
-MHAJPDPJQMAIIY-UHFFFAOYSA-N                                                     # Inchi key of molecule
+InChI=1S/H2O2/c1-2/h1-2H                                                        # In-ChI of molecule
+MHAJPDPJQMAIIY-UHFFFAOYSA-N                                                     # In-ChI key of molecule
 4                                                                               # Number of atoms
 1                                                                               # Isotope number 1
 H                                                                               # Element symbol 1

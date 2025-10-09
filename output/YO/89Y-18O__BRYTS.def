@@ -3,7 +3,8 @@ EXOMOL.def                                                                      
 89Y-18O                                                                         # Iso-slug
 BRYTS                                                                           # Isotopologue dataset name
 20230916                                                                        # Version number with format YYYYMMDD
-APUGIHICMSAKGR-OJTQQMQBSA-N                                                     # Inchi key of molecule
+InChI=YO-YYYY                                                                   # In-ChI of molecule
+YO-XXXXXXXXXXXXXXXXXXXXXXX2                                                     # In-ChI key of molecule
 2                                                                               # Number of atoms
 89                                                                              # Isotope number 1
 Y                                                                               # Element symbol 1

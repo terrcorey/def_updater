@@ -2,6 +2,7 @@
     "isotopologue": {
         "iso_formula": "(1H)(2H)(16O)",
         "iso_slug": "1H-2H-16O",
+        "inchi": "InChI=1S/H2O/h1H2/i/hD",
         "inchikey": "XLYOFNOQVPJJNP-DYCDLGHISA-N",
         "mass_in_Da": 19.016842,
         "point_group": "Cs"

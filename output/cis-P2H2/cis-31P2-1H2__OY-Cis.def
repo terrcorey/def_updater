@@ -3,7 +3,8 @@ cis-(31P)2(1H)2                                                                 
 cis-31P2-1H2                                                                    # Iso-slug
 OY-Cis                                                                          # Isotopologue dataset name
 20250807                                                                        # Version number with format YYYYMMDD
-SWJAOBXRZSMKNS-UHFFFAOXXX-N                                                     # Inchi key of molecule
+1S/H2P2/c1-2/h1-2H/t1,2-                                                        # In-ChI of molecule
+SWJAOBXRZSMKNS-UHFFFAOXXX-N                                                     # In-ChI key of molecule
 4                                                                               # Number of atoms
 31                                                                              # Isotope number 1
 P                                                                               # Element symbol 1

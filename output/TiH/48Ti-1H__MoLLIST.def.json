@@ -2,6 +2,7 @@
     "isotopologue": {
         "iso_formula": "(48Ti)(1H)",
         "iso_slug": "48Ti-1H",
+        "inchi": "InChI=1S/Ti.H",
         "inchikey": "FUMHXHODRLFENL-UHFFFAOYSA-N",
         "mass_in_Da": 48.955771,
         "point_group": "C"

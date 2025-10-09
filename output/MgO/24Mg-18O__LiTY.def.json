@@ -2,7 +2,8 @@
     "isotopologue": {
         "iso_formula": "(24Mg)(18O)",
         "iso_slug": "24Mg-18O",
-        "inchikey": "MXDVONUOKSYWHF-NJFSPNSNSA-N",
+        "inchi": "InChI=1S/MgO/c1-2/i2+2",
+        "inchikey": "MXDVONUOKSYWHF-HQMMCQRPSA-N",
         "mass_in_Da": 41.9842013,
         "point_group": "C"
     },

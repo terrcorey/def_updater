@@ -2,6 +2,7 @@
     "isotopologue": {
         "iso_formula": "(13C)2",
         "iso_slug": "13C2",
+        "inchi": "InChI=1S/C2/c1-2/i1+1,2+1",
         "inchikey": "LBVWYGNGGJURHQ-ZDOIIHCHSA-N",
         "mass_in_Da": 26.00670968,
         "point_group": "D"

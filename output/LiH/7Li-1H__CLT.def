@@ -3,7 +3,8 @@ EXOMOL.def                                                                      
 7Li-1H                                                                          # Iso-slug
 CLT                                                                             # Isotopologue dataset name
 20160927                                                                        # Version number with format YYYYMMDD
-SIAPCJWMELPYOE-UHFFFAOYSA-N                                                     # Inchi key of molecule
+InChI=1S/Li.H                                                                   # In-ChI of molecule
+SIAPCJWMELPYOE-UHFFFAOYSA-N                                                     # In-ChI key of molecule
 2                                                                               # Number of atoms
 7                                                                               # Isotope number 1
 Li                                                                              # Element symbol 1

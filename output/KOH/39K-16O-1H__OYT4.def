@@ -3,7 +3,8 @@ EXOMOL.def                                                                      
 39K-16O-1H                                                                      # Iso-slug
 OYT4                                                                            # Isotopologue dataset name
 20250807                                                                        # Version number with format YYYYMMDD
-KWYUFKZDYYNOTN-UHFFFAOYSA-M                                                     # Inchi key of molecule
+1S/K.H2O/h;1H2/q+1;/p-1                                                         # In-ChI of molecule
+KWYUFKZDYYNOTN-UHFFFAOYSA-M                                                     # In-ChI key of molecule
 3                                                                               # Number of atoms
 39                                                                              # Isotope number 1
 K                                                                               # Element symbol 1

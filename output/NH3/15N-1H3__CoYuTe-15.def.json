@@ -2,6 +2,7 @@
     "isotopologue": {
         "iso_formula": "(15N)(1H)3",
         "iso_slug": "15N-1H3",
+        "inchi": "InChI=1S/H3N/h1H3/i1+1",
         "inchikey": "QGZKDVFQNNGYKY-OUBTZVSYSA-N",
         "mass_in_Da": 18.023584,
         "point_group": "D3h"

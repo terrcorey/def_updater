@@ -2,7 +2,8 @@
     "isotopologue": {
         "iso_formula": "(1H)(79Br)",
         "iso_slug": "1H-79Br",
-        "inchikey": "CPELXLSAUQHCOX-OXEALATOSA-N",
+        "inchi": "InChI=1S/BrH/h1H/i1-1",
+        "inchikey": "CPELXLSAUQHCOX-BJUDXGSMSA-N",
         "mass_in_Da": 80.912,
         "point_group": "C"
     },

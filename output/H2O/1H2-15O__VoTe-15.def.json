@@ -2,7 +2,8 @@
     "isotopologue": {
         "iso_formula": "(1H)2(15O)",
         "iso_slug": "1H2-15O",
-        "inchikey": "XXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "inchi": "InChI=1S/H2O/h1H2/i1-1",
+        "inchikey": "XLYOFNOQVPJJNP-OUBTZVSYSA-?",
         "mass_in_Da": 17.01871566,
         "point_group": "C2v"
     },
@@ -22,7 +23,7 @@
     "dataset": {
         "name": "VoTe-15",
         "version": 20231030,
-        "doi": null,
+        "doi": "",
         "max_temperature": 1000.0,
         "n_L_default": 0.5,
         "num_pressure_broadeners": 0,

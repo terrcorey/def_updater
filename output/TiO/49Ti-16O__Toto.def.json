@@ -2,7 +2,8 @@
     "isotopologue": {
         "iso_formula": "(49Ti)(16O)",
         "iso_slug": "49Ti-16O",
-        "inchikey": "KZWJQQBLIBIGGJ-DEQYMQKBSA-N",
+        "inchi": "InChI=1S/Ti.O/q+2;-2/i1+1;",
+        "inchikey": "KZWJQQBLIBIGGJ-YTBWXGASSA-N",
         "mass_in_Da": 64.94278,
         "point_group": "C"
     },

@@ -2,7 +2,8 @@
     "isotopologue": {
         "iso_formula": "(25Mg)(16O)",
         "iso_slug": "25Mg-16O",
-        "inchikey": "MXDVONUOKSYWHF-NJFSPNSNSA-N",
+        "inchi": "InChI=1S/MgO/c1-2/i1+1",
+        "inchikey": "MXDVONUOKSYWHF-OUBTZVSYSA-N",
         "mass_in_Da": 40.9807516,
         "point_group": "C"
     },

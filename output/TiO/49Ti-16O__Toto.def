@@ -3,7 +3,8 @@ EXOMOL.def                                                                      
 49Ti-16O                                                                        # Iso-slug
 Toto                                                                            # Isotopologue dataset name
 20240509                                                                        # Version number with format YYYYMMDD
-KZWJQQBLIBIGGJ-DEQYMQKBSA-N                                                     # Inchi key of molecule
+InChI=1S/Ti.O/q+2;-2/i1+1;                                                      # In-ChI of molecule
+KZWJQQBLIBIGGJ-YTBWXGASSA-N                                                     # In-ChI key of molecule
 2                                                                               # Number of atoms
 49                                                                              # Isotope number 1
 Ti                                                                              # Element symbol 1

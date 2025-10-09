@@ -2,6 +2,7 @@
     "isotopologue": {
         "iso_formula": "trans-(31P)2(1H)2",
         "iso_slug": "trans-31P2-1H2",
+        "inchi": "1S/H2P2/c1-2/h1-2H/t1,2+",
         "inchikey": "SWJAOBXRZSMKNS-UHFFFAOYYY-N",
         "mass_in_Da": 63.9634,
         "point_group": "C2h"

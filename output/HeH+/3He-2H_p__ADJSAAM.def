@@ -3,7 +3,8 @@ EXOMOL.def                                                                      
 3He-2H_p                                                                        # Iso-slug
 ADJSAAM                                                                         # Isotopologue dataset name
 20200725                                                                        # Version number with format YYYYMMDD
-HSFAAVLNFOAYQX-MICDWDOJSA-N                                                     # Inchi key of molecule
+InChI=1S/HHe/h1H/q+1/i1-1D                                                      # In-ChI of molecule
+HSFAAVLNFOAYQX-QIAWKQIGSA-N                                                     # In-ChI key of molecule
 2                                                                               # Number of atoms
 3                                                                               # Isotope number 1
 He                                                                              # Element symbol 1

@@ -2,7 +2,8 @@
     "isotopologue": {
         "iso_formula": "(1H)(11B)(16O)",
         "iso_slug": "1H-11B-16O",
-        "inchikey": "UXUFOKFTFHRQTE-UHFFFAOYSA-N",
+        "inchi": "InChI=XXXXX-HBO",
+        "inchikey": "XXXXXXXXXXXXXX-YYYYYYYYHBO",
         "mass_in_Da": 28.012045,
         "point_group": "CsM"
     },

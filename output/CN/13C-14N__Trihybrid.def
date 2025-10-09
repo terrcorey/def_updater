@@ -3,7 +3,8 @@ EXOMOL.def                                                                      
 13C-14N                                                                         # Iso-slug
 Trihybrid                                                                       # Isotopologue dataset name
 20210526                                                                        # Version number with format YYYYMMDD
-JEVCWSUVFOYBFI-ZDOIIHCHSA-N                                                     # Inchi key of molecule
+InChI=1S/CN/c1-2/i1+1                                                           # In-ChI of molecule
+JEVCWSUVFOYBFI-OUBTZVSYSA-N                                                     # In-ChI key of molecule
 2                                                                               # Number of atoms
 13                                                                              # Isotope number 1
 C                                                                               # Element symbol 1

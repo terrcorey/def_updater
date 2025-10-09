@@ -3,7 +3,8 @@ EXOMOL.def                                                                      
 33S-1H                                                                          # Iso-slug
 GYT                                                                             # Isotopologue dataset name
 20190801                                                                        # Version number with format YYYYMMDD
-PXQLVRUNWNTZOS-RNFDNDRNSA-N                                                     # Inchi key of molecule
+InChI=1S/HS/h1H/i2+1                                                            # In-ChI of molecule
+PXQLVRUNWNTZOS-OUBTZVSYSA-N                                                     # In-ChI key of molecule
 2                                                                               # Number of atoms
 1                                                                               # Isotope number 1
 H                                                                               # Element symbol 1

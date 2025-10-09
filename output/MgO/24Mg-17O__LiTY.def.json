@@ -2,7 +2,8 @@
     "isotopologue": {
         "iso_formula": "(24Mg)(17O)",
         "iso_slug": "24Mg-17O",
-        "inchikey": "MXDVONUOKSYWHF-NJFSPNSNSA-N",
+        "inchi": "InChI=1S/MgO/c1-2/i2+1",
+        "inchikey": "MXDVONUOKSYWHF-VQEHIDDOSA-N",
         "mass_in_Da": 40.9841735,
         "point_group": "C"
     },

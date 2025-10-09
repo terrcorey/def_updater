@@ -2,7 +2,8 @@
     "isotopologue": {
         "iso_formula": "(89Y)(18O)",
         "iso_slug": "89Y-18O",
-        "inchikey": "APUGIHICMSAKGR-OJTQQMQBSA-N",
+        "inchi": "InChI=YO-YYYY",
+        "inchikey": "YO-XXXXXXXXXXXXXXXXXXXXXXX2",
         "mass_in_Da": 106.9050079,
         "point_group": "C"
     },

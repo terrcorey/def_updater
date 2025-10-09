@@ -3,7 +3,8 @@ EXOMOL.def                                                                      
 23Na-16O-1H                                                                     # Iso-slug
 OYT5                                                                            # Isotopologue dataset name
 20201201                                                                        # Version number with format YYYYMMDD
-HEMHJVSKTPXQMS-UHFFFAOYSA-M                                                     # Inchi key of molecule
+1S/Na.H2O/h;1H2/q+1;/p-1                                                        # In-ChI of molecule
+HEMHJVSKTPXQMS-UHFFFAOYSA-M                                                     # In-ChI key of molecule
 3                                                                               # Number of atoms
 23                                                                              # Isotope number 1
 Na                                                                              # Element symbol 1

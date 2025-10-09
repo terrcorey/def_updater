@@ -3,7 +3,8 @@ EXOMOL.def                                                                      
 32S-16O                                                                         # Iso-slug
 SOLIS                                                                           # Isotopologue dataset name
 20230914                                                                        # Version number with format YYYYMMDD
-XTQHKBHJIVJGKJ-ZCWHFVSRSA-N                                                     # Inchi key of molecule
+InChI=1S/OS/c1-2                                                                # In-ChI of molecule
+XTQHKBHJIVJGKJ-UHFFFAOYSA-N                                                     # In-ChI key of molecule
 2                                                                               # Number of atoms
 32                                                                              # Isotope number 1
 S                                                                               # Element symbol 1

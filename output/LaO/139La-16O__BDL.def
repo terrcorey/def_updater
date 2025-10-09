@@ -3,7 +3,8 @@ EXOMOL.def                                                                      
 139La-16O                                                                       # Iso-slug
 BDL                                                                             # Isotopologue dataset name
 20230923                                                                        # Version number with format YYYYMMDD
-KCPAGCNHGFPBFR-UHFFFAOYSA-N                                                     # Inchi key of molecule
+InChI=1S/La.O/q+2;-2                                                            # In-ChI of molecule
+KCPAGCNHGFPBFR-UHFFFAOYSA-N                                                     # In-ChI key of molecule
 2                                                                               # Number of atoms
 139                                                                             # Isotope number 1
 La                                                                              # Element symbol 1

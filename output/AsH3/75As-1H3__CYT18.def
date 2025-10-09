@@ -3,7 +3,8 @@ EXOMOL.def                                                                      
 75As-1H3                                                                        # Iso-slug
 CYT18                                                                           # Isotopologue dataset name
 20181113                                                                        # Version number with format YYYYMMDD
-RBFQJDQYXXHULB-UHFFFAOYSA-N                                                     # Inchi key of molecule
+1S/AsH3/h1H3                                                                    # In-ChI of molecule
+RBFQJDQYXXHULB-UHFFFAOYSA-N                                                     # In-ChI key of molecule
 4                                                                               # Number of atoms
 75                                                                              # Isotope number 1
 As                                                                              # Element symbol 1

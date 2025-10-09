@@ -2,7 +2,8 @@
     "isotopologue": {
         "iso_formula": "(41K)(35Cl)",
         "iso_slug": "41K-35Cl",
-        "inchikey": "WCUXLLCKKVVCTQ-OPUYPRJVSA-M",
+        "inchi": "InChI=1S/ClH.K/h1H;/q;+1/p-1/i;1+2",
+        "inchikey": "WCUXLLCKKVVCTQ-NLQOEHMXSA-M",
         "mass_in_Da": 75.930679,
         "point_group": "C"
     },

@@ -3,7 +3,8 @@ EXOMOL.def                                                                      
 24Mg-16O                                                                        # Iso-slug
 LiTY                                                                            # Isotopologue dataset name
 20241211                                                                        # Version number with format YYYYMMDD
-MXDVONUOKSYWHF-NJFSPNSNSA-N                                                     # Inchi key of molecule
+InChI=1S/Mg.O/q+2;-2                                                            # In-ChI of molecule
+AXZKOIWUVFPNLO-UHFFFAOYSA-N                                                     # In-ChI key of molecule
 2                                                                               # Number of atoms
 24                                                                              # Isotope number 1
 Mg                                                                              # Element symbol 1

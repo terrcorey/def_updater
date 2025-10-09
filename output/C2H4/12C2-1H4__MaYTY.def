@@ -3,7 +3,8 @@ EXOMOL.def                                                                      
 12C2-1H4                                                                        # Iso-slug
 MaYTY                                                                           # Isotopologue dataset name
 20250807                                                                        # Version number with format YYYYMMDD
-VGGSQFUCUMXWEO-UHFFFAOYSA-N                                                     # Inchi key of molecule
+InChI=1S/C2H4/c1-2/h1-2H2                                                       # In-ChI of molecule
+VGGSQFUCUMXWEO-UHFFFAOYSA-N                                                     # In-ChI key of molecule
 6                                                                               # Number of atoms
 12                                                                              # Isotope number 1
 C                                                                               # Element symbol 1

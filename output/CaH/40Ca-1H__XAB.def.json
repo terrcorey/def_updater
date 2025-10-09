@@ -2,6 +2,7 @@
     "isotopologue": {
         "iso_formula": "(40Ca)(1H)",
         "iso_slug": "40Ca-1H",
+        "inchi": "InChI=1S/Ca.H",
         "inchikey": "PKHCKQOIOXDRJH-UHFFFAOYSA-N",
         "mass_in_Da": 40.970416,
         "point_group": "C"

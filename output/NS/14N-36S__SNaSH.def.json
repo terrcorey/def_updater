@@ -2,7 +2,8 @@
     "isotopologue": {
         "iso_formula": "(14N)(36S)",
         "iso_slug": "14N-36S",
-        "inchikey": "QXTCFDCJXWLNAP-OUBTZVSYSA-N",
+        "inchi": "InChI=1S/NS/c1-2/i2+4",
+        "inchikey": "QXTCFDCJXWLNAP-XKBLRHCCSA-N",
         "mass_in_Da": 49.97015471,
         "point_group": "C"
     },

@@ -2,6 +2,7 @@
     "isotopologue": {
         "iso_formula": "(23Na)(37Cl)",
         "iso_slug": "23Na-37Cl",
+        "inchi": "InChI=1S/ClH.Na/h1H;/q;+1/p-1/i1+2;",
         "inchikey": "FAPWRFPIFSIZLT-DEQYMQKBSA-M",
         "mass_in_Da": 59.955672,
         "point_group": "C"

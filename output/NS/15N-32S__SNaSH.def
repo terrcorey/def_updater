@@ -3,7 +3,8 @@ EXOMOL.def                                                                      
 15N-32S                                                                         # Iso-slug
 SNaSH                                                                           # Isotopologue dataset name
 20180101                                                                        # Version number with format YYYYMMDD
-QXTCFDCJXWLNAP-OUBTZVSYSA-N                                                     # Inchi key of molecule
+InChI=1S/NS/c1-2/i1+1                                                           # In-ChI of molecule
+QXTCFDCJXWLNAP-OUBTZVSYSA-N                                                     # In-ChI key of molecule
 2                                                                               # Number of atoms
 15                                                                              # Isotope number 1
 N                                                                               # Element symbol 1

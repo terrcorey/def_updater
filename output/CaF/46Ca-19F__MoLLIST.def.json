@@ -2,7 +2,8 @@
     "isotopologue": {
         "iso_formula": "(46Ca)(19F)",
         "iso_slug": "46Ca-19F",
-        "inchikey": "GLWLHVXSYOTACU-CONNIKPHSA-M",
+        "inchi": "InChI=1S/Ca.FH/c1-2/h;1H/q+1;/p-1/i1+6",
+        "inchikey": "GLWLHVXSYOTACU-LZFNBGRKSA-M",
         "mass_in_Da": 64.952096,
         "point_group": "C"
     },

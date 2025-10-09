@@ -3,7 +3,8 @@ EXOMOL.def                                                                      
 13C-32S                                                                         # Iso-slug
 JnK                                                                             # Isotopologue dataset name
 20160726                                                                        # Version number with format YYYYMMDD
-DXHPZXWIPWDXHJ-SZZQIKPLSA-N                                                     # Inchi key of molecule
+InChI=1S/CS/c1-2/i1+1                                                           # In-ChI of molecule
+DXHPZXWIPWDXHJ-OUBTZVSYSA-N                                                     # In-ChI key of molecule
 2                                                                               # Number of atoms
 13                                                                              # Isotope number 1
 C                                                                               # Element symbol 1

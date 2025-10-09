@@ -2,7 +2,8 @@
     "isotopologue": {
         "iso_formula": "(23Na)(1H)",
         "iso_slug": "23Na-1H",
-        "inchikey": "MPMYQQHEHYDOCL-VQEHIDDOSA-N",
+        "inchi": "InChI=1S/Na.H",
+        "inchikey": "MPMYQQHEHYDOCL-UHFFFAOYSA-N",
         "mass_in_Da": 23.997594,
         "point_group": "C"
     },

@@ -2397,8 +2397,8 @@
             },
             {
                 "Quantum label": "F_i",
-                "Format quantum label": "A3 %3s",
-                "Description quantum label": "Spin component (F1/F2)"
+                "Format quantum label": "A4 %4s",
+                "Description quantum label": "Spin component"
             },
             {
                 "Quantum label": "Auxiliary:Ecal",
@@ -5347,8 +5347,8 @@
             },
             {
                 "Quantum label": "J",
-                "Format quantum label": "I7 %7d",
-                "Description quantum label": "Total rotational quantum number, excluding nuclear spin"
+                "Format quantum label": "F7.1 %7.1f",
+                "Description quantum label": "Total rotational quantum number"
             },
             {
                 "Quantum label": "unc",
@@ -5358,22 +5358,22 @@
             {
                 "Quantum label": "v1",
                 "Format quantum label": "I2 %2d",
-                "Description quantum label": "v1 symmetric stretch quantum number(3)"
+                "Description quantum label": "Kc rotational quantum number"
             },
             {
                 "Quantum label": "v2",
                 "Format quantum label": "I2 %2d",
-                "Description quantum label": "v2 bend quantum number"
+                "Description quantum label": "v1 symmetric stretch quantum number(3)"
             },
             {
                 "Quantum label": "v3",
                 "Format quantum label": "I2 %2d",
-                "Description quantum label": "v3 asymmetrics stretch quantum number"
+                "Description quantum label": "v2 bend quantum number"
             },
             {
                 "Quantum label": "J",
                 "Format quantum label": "I7 %7d",
-                "Description quantum label": "Total rotational quantum number, excluding nuclear spin"
+                "Description quantum label": "Total rotational quantum number"
             },
             {
                 "Quantum label": "Ka",
@@ -5383,12 +5383,12 @@
             {
                 "Quantum label": "Kc",
                 "Format quantum label": "I2 %2d",
-                "Description quantum label": "Kc rotational quantum number"
+                "Description quantum label": "Ka rotational quantum number"
             },
             {
                 "Quantum label": "Grve",
-                "Format quantum label": "A2 %2s",
-                "Description quantum label": "Rovibrational symmetry label"
+                "Format quantum label": "A3 %3s",
+                "Description quantum label": "Rovibrational symmetry"
             },
             {
                 "Quantum label": "Auxiliary:SourceType",
@@ -8715,6 +8715,85 @@
     },
     {
         "mol": "N2O",
+        "iso_slug": "14N-15N-16O",
+        "doi": "None",
+        "linelist": "TYM",
+        "ds_name": "14N-15N-16O__TYM",
+        "labels": [
+            {
+                "Quantum label": "ID",
+                "Format quantum label": "I12 %12d",
+                "Description quantum label": "Unique integer identifier for the energy level"
+            },
+            {
+                "Quantum label": "E",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "State energy in cm-1"
+            },
+            {
+                "Quantum label": "gtot",
+                "Format quantum label": "I6 %6d",
+                "Description quantum label": "Total energy level degeneracy"
+            },
+            {
+                "Quantum label": "J",
+                "Format quantum label": "F7.1 %7.1f",
+                "Description quantum label": "Total rotational quantum number, excluding nuclear spin"
+            },
+            {
+                "Quantum label": "unc",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Energy uncertainty in cm-1"
+            },
+            {
+                "Quantum label": "tau",
+                "Format quantum label": "ES12.4 %12.4e",
+                "Description quantum label": "Lifetime in s"
+            },
+            {
+                "Quantum label": "Gtot",
+                "Format quantum label": "A3 %3s",
+                "Description quantum label": "Total symmetry index in Cs(M)"
+            },
+            {
+                "Quantum label": "P",
+                "Format quantum label": "I2 %2d",
+                "Description quantum label": "Polyad number P = 2n1 + nlin + 4n3"
+            },
+            {
+                "Quantum label": "l",
+                "Format quantum label": "I2 %2d",
+                "Description quantum label": "Normal mode vibrational angular momentum quantum number"
+            },
+            {
+                "Quantum label": "Pnum",
+                "Format quantum label": "I3 %3d",
+                "Description quantum label": "Polyad counting number"
+            },
+            {
+                "Quantum label": "v1",
+                "Format quantum label": "I2 %2d",
+                "Description quantum label": "TROVE stretching vibrational quantum number"
+            },
+            {
+                "Quantum label": "v2",
+                "Format quantum label": "I2 %2d",
+                "Description quantum label": "TROVE stretching vibrational quantum number"
+            },
+            {
+                "Quantum label": "v3",
+                "Format quantum label": "I2 %2d",
+                "Description quantum label": "TROVE bending vibrational quantum number"
+            },
+            {
+                "Quantum label": "EnergyID",
+                "Format quantum label": "I5 %5d",
+                "Description quantum label": "Counting number according to state energy"
+            }
+        ]
+    },
+    {
+        "mol": "N2O",
         "iso_slug": "14N2-16O",
         "doi": "10.1093/mnras/stae2201",
         "linelist": "TYM",
@@ -8814,6 +8893,243 @@
                 "Quantum label": "Auxiliary:Ecal",
                 "Format quantum label": "F12.6 %12.6f",
                 "Description quantum label": "Calculated energy in cm-1"
+            }
+        ]
+    },
+    {
+        "mol": "N2O",
+        "iso_slug": "14N2-17O",
+        "doi": "None",
+        "linelist": "TYM",
+        "ds_name": "14N2-17O__TYM",
+        "labels": [
+            {
+                "Quantum label": "ID",
+                "Format quantum label": "I12 %12d",
+                "Description quantum label": "Unique integer identifier for the energy level"
+            },
+            {
+                "Quantum label": "E",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "State energy in cm-1"
+            },
+            {
+                "Quantum label": "gtot",
+                "Format quantum label": "I6 %6d",
+                "Description quantum label": "Total energy level degeneracy"
+            },
+            {
+                "Quantum label": "J",
+                "Format quantum label": "F7.1 %7.1f",
+                "Description quantum label": "Total rotational quantum number, excluding nuclear spin"
+            },
+            {
+                "Quantum label": "unc",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Energy uncertainty in cm-1"
+            },
+            {
+                "Quantum label": "tau",
+                "Format quantum label": "ES12.4 %12.4e",
+                "Description quantum label": "Lifetime in s"
+            },
+            {
+                "Quantum label": "Gtot",
+                "Format quantum label": "A3 %3s",
+                "Description quantum label": "Total symmetry index in Cs(M)"
+            },
+            {
+                "Quantum label": "P",
+                "Format quantum label": "I2 %2d",
+                "Description quantum label": "Polyad number P = 2n1 + nlin + 4n3"
+            },
+            {
+                "Quantum label": "l",
+                "Format quantum label": "I2 %2d",
+                "Description quantum label": "Normal mode vibrational angular momentum quantum number"
+            },
+            {
+                "Quantum label": "Pnum",
+                "Format quantum label": "I3 %3d",
+                "Description quantum label": "Polyad counting number"
+            },
+            {
+                "Quantum label": "v1",
+                "Format quantum label": "I2 %2d",
+                "Description quantum label": "TROVE stretching vibrational quantum number"
+            },
+            {
+                "Quantum label": "v2",
+                "Format quantum label": "I2 %2d",
+                "Description quantum label": "TROVE stretching vibrational quantum number"
+            },
+            {
+                "Quantum label": "v3",
+                "Format quantum label": "I2 %2d",
+                "Description quantum label": "TROVE bending vibrational quantum number"
+            },
+            {
+                "Quantum label": "EnergyID",
+                "Format quantum label": "I5 %5d",
+                "Description quantum label": "Counting number according to state energy"
+            }
+        ]
+    },
+    {
+        "mol": "N2O",
+        "iso_slug": "14N2-18O",
+        "doi": "None",
+        "linelist": "TYM",
+        "ds_name": "14N2-18O__TYM",
+        "labels": [
+            {
+                "Quantum label": "ID",
+                "Format quantum label": "I12 %12d",
+                "Description quantum label": "Unique integer identifier for the energy level"
+            },
+            {
+                "Quantum label": "E",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "State energy in cm-1"
+            },
+            {
+                "Quantum label": "gtot",
+                "Format quantum label": "I6 %6d",
+                "Description quantum label": "Total energy level degeneracy"
+            },
+            {
+                "Quantum label": "J",
+                "Format quantum label": "F7.1 %7.1f",
+                "Description quantum label": "Total rotational quantum number, excluding nuclear spin"
+            },
+            {
+                "Quantum label": "unc",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Energy uncertainty in cm-1"
+            },
+            {
+                "Quantum label": "tau",
+                "Format quantum label": "ES12.4 %12.4e",
+                "Description quantum label": "Lifetime in s"
+            },
+            {
+                "Quantum label": "Gtot",
+                "Format quantum label": "A3 %3s",
+                "Description quantum label": "Total symmetry index in Cs(M)"
+            },
+            {
+                "Quantum label": "P",
+                "Format quantum label": "I2 %2d",
+                "Description quantum label": "Polyad number P = 2n1 + nlin + 4n3"
+            },
+            {
+                "Quantum label": "l",
+                "Format quantum label": "I2 %2d",
+                "Description quantum label": "Normal mode vibrational angular momentum quantum number"
+            },
+            {
+                "Quantum label": "Pnum",
+                "Format quantum label": "I3 %3d",
+                "Description quantum label": "Polyad counting number"
+            },
+            {
+                "Quantum label": "v1",
+                "Format quantum label": "I2 %2d",
+                "Description quantum label": "TROVE stretching vibrational quantum number"
+            },
+            {
+                "Quantum label": "v2",
+                "Format quantum label": "I2 %2d",
+                "Description quantum label": "TROVE stretching vibrational quantum number"
+            },
+            {
+                "Quantum label": "v3",
+                "Format quantum label": "I2 %2d",
+                "Description quantum label": "TROVE bending vibrational quantum number"
+            },
+            {
+                "Quantum label": "EnergyID",
+                "Format quantum label": "I5 %5d",
+                "Description quantum label": "Counting number according to state energy"
+            }
+        ]
+    },
+    {
+        "mol": "N2O",
+        "iso_slug": "15N-14N-16O",
+        "doi": "None",
+        "linelist": "TYM",
+        "ds_name": "15N-14N-16O__TYM",
+        "labels": [
+            {
+                "Quantum label": "ID",
+                "Format quantum label": "I12 %12d",
+                "Description quantum label": "Unique integer identifier for the energy level"
+            },
+            {
+                "Quantum label": "E",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "State energy in cm-1"
+            },
+            {
+                "Quantum label": "gtot",
+                "Format quantum label": "I6 %6d",
+                "Description quantum label": "Total energy level degeneracy"
+            },
+            {
+                "Quantum label": "J",
+                "Format quantum label": "F7.1 %7.1f",
+                "Description quantum label": "Total rotational quantum number, excluding nuclear spin"
+            },
+            {
+                "Quantum label": "unc",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Energy uncertainty in cm-1"
+            },
+            {
+                "Quantum label": "tau",
+                "Format quantum label": "ES12.4 %12.4e",
+                "Description quantum label": "Lifetime in s"
+            },
+            {
+                "Quantum label": "Gtot",
+                "Format quantum label": "A3 %3s",
+                "Description quantum label": "Total symmetry index in Cs(M)"
+            },
+            {
+                "Quantum label": "P",
+                "Format quantum label": "I2 %2d",
+                "Description quantum label": "Polyad number P = 2n1 + nlin + 4n3"
+            },
+            {
+                "Quantum label": "l",
+                "Format quantum label": "I2 %2d",
+                "Description quantum label": "Normal mode vibrational angular momentum quantum number"
+            },
+            {
+                "Quantum label": "Pnum",
+                "Format quantum label": "I3 %3d",
+                "Description quantum label": "Polyad counting number"
+            },
+            {
+                "Quantum label": "v1",
+                "Format quantum label": "I2 %2d",
+                "Description quantum label": "TROVE stretching vibrational quantum number"
+            },
+            {
+                "Quantum label": "v2",
+                "Format quantum label": "I2 %2d",
+                "Description quantum label": "TROVE stretching vibrational quantum number"
+            },
+            {
+                "Quantum label": "v3",
+                "Format quantum label": "I2 %2d",
+                "Description quantum label": "TROVE bending vibrational quantum number"
+            },
+            {
+                "Quantum label": "EnergyID",
+                "Format quantum label": "I5 %5d",
+                "Description quantum label": "Counting number according to state energy"
             }
         ]
     },

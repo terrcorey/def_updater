@@ -2,7 +2,8 @@
     "isotopologue": {
         "iso_formula": "(12C)(16O)",
         "iso_slug": "12C-16O",
-        "inchikey": "UGFAIRIUMAVXCW-RGIGPVFXSA-N",
+        "inchi": "InChI=1S/CO/c1-2",
+        "inchikey": "UGFAIRIUMAVXCW-UHFFFAOYSA-N",
         "mass_in_Da": 28.0101,
         "point_group": "Cs"
     },

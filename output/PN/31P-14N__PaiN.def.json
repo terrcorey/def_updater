@@ -2,7 +2,8 @@
     "isotopologue": {
         "iso_formula": "(31P)(14N)",
         "iso_slug": "31P-14N",
-        "inchikey": "AOPJVJYWEDDOBI-OUBTZVSYSA-N",
+        "inchi": "InChI=1S/NP/c1-2",
+        "inchikey": "AOPJVJYWEDDOBI-UHFFFAOYSA-N",
         "mass_in_Da": 44.976836,
         "point_group": "C"
     },

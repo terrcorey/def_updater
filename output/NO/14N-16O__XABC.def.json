@@ -2,6 +2,7 @@
     "isotopologue": {
         "iso_formula": "(14N)(16O)",
         "iso_slug": "14N-16O",
+        "inchi": "InChI=1S/NO/c1-2",
         "inchikey": "MWUXSHHQAYIFBG-UHFFFAOYSA-N",
         "mass_in_Da": 29.9979886,
         "point_group": "C"

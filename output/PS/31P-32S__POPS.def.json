@@ -2,6 +2,7 @@
     "isotopologue": {
         "iso_formula": "(31P)(32S)",
         "iso_slug": "31P-32S",
+        "inchi": "InChI=1S/PS/c1-2",
         "inchikey": "VKCLPVFDVVKEKU-UHFFFAOYSA-N",
         "mass_in_Da": 62.945833,
         "point_group": "C"

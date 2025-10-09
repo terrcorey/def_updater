@@ -2,6 +2,7 @@
     "isotopologue": {
         "iso_formula": "(26Mg)(19F)",
         "iso_slug": "26Mg-19F",
+        "inchi": "InChI=1S/FH.Mg/c1-2/h1H;/q;+1/p-1/i;1+2",
         "inchikey": "DEKCOOIJMHCCME-NLQOEHMXSA-M",
         "mass_in_Da": 44.980996,
         "point_group": "C"

@@ -3,7 +3,8 @@ EXOMOL.def                                                                      
 16O-12C-32S                                                                     # Iso-slug
 OYT8                                                                            # Isotopologue dataset name
 20240425                                                                        # Version number with format YYYYMMDD
-JJWKPURADFRFRB-UHFFFAOYSA-N                                                     # Inchi key of molecule
+InChI=1S/COS/c2-1-3                                                             # In-ChI of molecule
+JJWKPURADFRFRB-UHFFFAOYSA-N                                                     # In-ChI key of molecule
 3                                                                               # Number of atoms
 16                                                                              # Isotope number 1
 O                                                                               # Element symbol 1

@@ -2,7 +2,8 @@
     "isotopologue": {
         "iso_formula": "(4He)(1H)+",
         "iso_slug": "4He-1H_p",
-        "inchikey": "HSFAAVLNFOAYQX-MICDWDOJSA-N",
+        "inchi": "InChI=1S/HHe/h1H/q+1",
+        "inchikey": "HSFAAVLNFOAYQX-UHFFFAOYSA-N",
         "mass_in_Da": 5.010428,
         "point_group": "Cs"
     },

@@ -2,7 +2,8 @@
     "isotopologue": {
         "iso_formula": "(26Al)(16O)",
         "iso_slug": "26Al-16O",
-        "inchikey": "AIRCTMFFNKZQPN-HQMMCQRPSA-N",
+        "inchi": "InChI=1S/Al.O/i1-1",
+        "inchikey": "AIRCTMFFNKZQPN-BJUDXGSMSA-N",
         "mass_in_Da": 41.981807,
         "point_group": "C"
     },

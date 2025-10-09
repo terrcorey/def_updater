@@ -2,7 +2,8 @@
     "isotopologue": {
         "iso_formula": "(1H)(35Cl)",
         "iso_slug": "1H-35Cl",
-        "inchikey": "VEXZGXHMUGYJMC-DQGQKLTASA-N",
+        "inchi": "InChI=1S/ClH/h1H",
+        "inchikey": "VEXZGXHMUGYJMC-UHFFFAOYSA-N",
         "mass_in_Da": 35.976678,
         "point_group": "C"
     },

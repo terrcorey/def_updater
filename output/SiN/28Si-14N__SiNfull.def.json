@@ -2,7 +2,8 @@
     "isotopologue": {
         "iso_formula": "(28Si)(14N)",
         "iso_slug": "28Si-14N",
-        "inchikey": "NCLWWTWAYQTPBU-HQMMCQRPSA-N",
+        "inchi": "InChI=1S/NSi/c1-2",
+        "inchikey": "NCLWWTWAYQTPBU-UHFFFAOYSA-N",
         "mass_in_Da": 41.98,
         "point_group": "C"
     },
