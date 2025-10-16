@@ -3,7 +3,8 @@ EXOMOL.def                                                                      
 1H-14N-16O3                                                                     # Iso-slug
 AIJS                                                                            # Isotopologue dataset name
 20160726                                                                        # Version number with format YYYYMMDD
-ATQYDUAHJAWUEM-UHFFFAOYSA-N                                                     # Inchi key of molecule
+InChI=1S/HNO3/c2-1(3)4/h2H                                                      # In-ChI of molecule
+ATQYDUAHJAWUEM-UHFFFAOYSA-N                                                     # In-ChI key of molecule
 5                                                                               # Number of atoms
 1                                                                               # Isotope number 1
 H                                                                               # Element symbol 1

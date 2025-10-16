@@ -3,7 +3,8 @@ EXOMOL.def                                                                      
 31P-19F3                                                                        # Iso-slug
 MCYTY                                                                           # Isotopologue dataset name
 20250807                                                                        # Version number with format YYYYMMDD
-WKFBZNUBXWCCHG-UHFFFAOYSA-N                                                     # Inchi key of molecule
+1S/F3P/c1-4(2)3                                                                 # In-ChI of molecule
+WKFBZNUBXWCCHG-UHFFFAOYSA-N                                                     # In-ChI key of molecule
 4                                                                               # Number of atoms
 31                                                                              # Isotope number 1
 P                                                                               # Element symbol 1

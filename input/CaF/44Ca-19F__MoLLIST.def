@@ -3,7 +3,8 @@ EXOMOL.def                                                                      
 44Ca-19F                                                                        # Iso-slug
 MoLLIST                                                                         # Isotopologue dataset name
 20180713                                                                        # Version number with format YYYYMMDD
-GLWLHVXSYOTACU-CONNIKPHSA-M                                                     # Inchi key of molecule
+InChI=1S/Ca.FH/c1-2/h;1H/q+1;/p-1/i1+4                                          # In-ChI of molecule
+GLWLHVXSYOTACU-RNFDNDRNSA-M                                                     # In-ChI key of molecule
 2                                                                               # Number of atoms
 44                                                                              # Isotope number 1
 Ca                                                                              # Element symbol 1

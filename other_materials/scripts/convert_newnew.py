@@ -69,8 +69,6 @@ def def_to_json(def_file_path, json_file_path):
     with open(def_file_path, 'r') as def_file:
         lines = def_file.readlines()
         line_iter = iter(lines)
-        if def_file_path.endswith('AWXLZY.def'):
-            print(lines)
         quantum_case_label = None
         broadener_label = None
         for line in line_iter:

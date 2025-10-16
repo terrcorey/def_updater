@@ -3,7 +3,8 @@ EXOMOL.def                                                                      
 30Si-36S                                                                        # Iso-slug
 UCTY                                                                            # Isotopologue dataset name
 20180601                                                                        # Version number with format YYYYMMDD
-DWFFKGPZNGKUPH-NBRKPRHBSA-N                                                     # Inchi key of molecule
+InChI=1S/SSi/c1-2/i1+2,2+4                                                      # In-ChI of molecule
+DWFFKGPZNGKUPH-NBRKPRHBSA-N                                                     # In-ChI key of molecule
 2                                                                               # Number of atoms
 36                                                                              # Isotope number 1
 S                                                                               # Element symbol 1

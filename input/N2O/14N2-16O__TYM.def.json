@@ -2,7 +2,8 @@
     "isotopologue": {
         "iso_formula": "(14N)2(16O)",
         "iso_slug": "14N2-16O",
-        "inchikey": "GQPLMRYTRLFLPF-OUBTZVSYSA-N",
+        "inchi": "InChI=1S/N2O/c1-2-3",
+        "inchikey": "GQPLMRYTRLFLPF-UHFFFAOYSA-N",
         "mass_in_Da": 44.0010626,
         "point_group": "CsM"
     },
@@ -35,7 +36,7 @@
             "number_of_states": 1759068,
             "max_energy": 20000.0,
             "hyperfine_resolved_dataset": false,
-            "uncertainty_description": "Original TROVE calculated state energy (in cm-1)",
+            "uncertainty_description": null,
             "uncertainties_available": true,
             "lifetime_available": true,
             "lande_g_available": false,
@@ -142,6 +143,18 @@
                     "ffmt": "I5",
                     "cfmt": "%5d",
                     "desc": "Counting number according to state energy"
+                },
+                {
+                    "name": "Auxiliary:SourceType",
+                    "ffmt": "A2",
+                    "cfmt": "%2s",
+                    "desc": "Ma=MARVEL,Ca=Calculated,EH=Effective Hamiltonian,IE=Isotopologue extrapolation"
+                },
+                {
+                    "name": "Auxiliary:Ecal",
+                    "ffmt": "F12.6",
+                    "cfmt": "%12.6f",
+                    "desc": "Calculated energy in cm-1"
                 }
             ]
         },

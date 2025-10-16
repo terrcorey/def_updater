@@ -2,6 +2,7 @@
     "isotopologue": {
         "iso_formula": "(1H)2(32S)",
         "iso_slug": "1H2-32S",
+        "inchi": "InChI=1S/H2S/h1H2",
         "inchikey": "RWSOTUBLDIXVET-UHFFFAOYSA-N",
         "mass_in_Da": 33.987721,
         "point_group": "C2v"
@@ -37,7 +38,7 @@
             "number_of_states": 220630,
             "max_energy": 10000.0,
             "hyperfine_resolved_dataset": false,
-            "uncertainty_description": "Calculated energy in cm-1",
+            "uncertainty_description": null,
             "uncertainties_available": true,
             "lifetime_available": true,
             "lande_g_available": false,
@@ -114,6 +115,18 @@
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "v3 asymmetrics stretch quantum number"
+                },
+                {
+                    "name": "Auxiliary:SourceType",
+                    "ffmt": "A2",
+                    "cfmt": "%2s",
+                    "desc": "Ma=MARVEL,Ca=Calculated,EH=Effective Hamiltonian,IE=Isotopologue extrapolation"
+                },
+                {
+                    "name": "Auxiliary:Ecal",
+                    "ffmt": "F12.6",
+                    "cfmt": "%12.6f",
+                    "desc": "Calculated energy in cm-1"
                 }
             ]
         },

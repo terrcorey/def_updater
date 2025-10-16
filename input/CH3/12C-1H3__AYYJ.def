@@ -3,7 +3,8 @@ EXOMOL.def                                                                      
 12C-1H3                                                                         # Iso-slug
 AYYJ                                                                            # Isotopologue dataset name
 20190501                                                                        # Version number with format YYYYMMDD
-WCYWZMWISLQXQU-UHFFFAOYSA-N                                                     # Inchi key of molecule
+InChI=1S/CH3/h1H3                                                               # In-ChI of molecule
+WCYWZMWISLQXQU-UHFFFAOYSA-N                                                     # In-ChI key of molecule
 4                                                                               # Number of atoms
 12                                                                              # Isotope number 1
 C                                                                               # Element symbol 1
@@ -35,8 +36,8 @@ E"                                                                              
 0                                                                               # Hyperfine resolved dataset (1=yes, 0=no)
 9127123                                                                         # No. of states in .states file
 1                                                                               # No. of quanta cases
-stcs                                                                            # Quantum case label
-TROVE                                                                           # Quantum case label
+stcs                                                                            # Quantum case label 1
+TROVE                                                                           # Quantum case label 2
 19                                                                              # No. of quanta defined
 Gtot                                                                            # Quantum label 1
 A3 %3s                                                                          # Format quantum label 1

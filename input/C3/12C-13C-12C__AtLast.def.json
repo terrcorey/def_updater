@@ -2,7 +2,8 @@
     "isotopologue": {
         "iso_formula": "(12C)(13C)(12C)",
         "iso_slug": "12C-13C-12C",
-        "inchikey": "NVLRFXKSQQPKAD-UHFFFAOYSA-N",
+        "inchi": "InChI=1S/C3/c1-3-2/i3+1",
+        "inchikey": "NVLRFXKSQQPKAD-LBPDFUHNSA-N",
         "mass_in_Da": 37.00335,
         "point_group": "C"
     },
@@ -34,7 +35,7 @@
             "number_of_states": 2282841,
             "max_energy": 19998.744489,
             "hyperfine_resolved_dataset": false,
-            "uncertainty_description": "Calculated energy in cm-1",
+            "uncertainty_description": null,
             "uncertainties_available": true,
             "lifetime_available": false,
             "lande_g_available": false,
@@ -129,6 +130,18 @@
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "TROVE vibrational quantum numbers"
+                },
+                {
+                    "name": "Auxiliary:SourceType",
+                    "ffmt": "A2",
+                    "cfmt": "%2s",
+                    "desc": "Ma=MARVEL,Ca=Calculated,EH=Effective Hamiltonian,IE=Isotopologue extrapolation"
+                },
+                {
+                    "name": "Auxiliary:Ecal",
+                    "ffmt": "F12.6",
+                    "cfmt": "%12.6f",
+                    "desc": "Calculated energy in cm-1"
                 }
             ]
         },

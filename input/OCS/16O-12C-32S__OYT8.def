@@ -3,7 +3,8 @@ EXOMOL.def                                                                      
 16O-12C-32S                                                                     # Iso-slug
 OYT8                                                                            # Isotopologue dataset name
 20240425                                                                        # Version number with format YYYYMMDD
-JJWKPURADFRFRB-UHFFFAOYSA-N                                                     # Inchi key of molecule
+InChI=1S/COS/c2-1-3                                                             # In-ChI of molecule
+JJWKPURADFRFRB-UHFFFAOYSA-N                                                     # In-ChI key of molecule
 3                                                                               # Number of atoms
 16                                                                              # Isotope number 1
 O                                                                               # Element symbol 1
@@ -84,7 +85,7 @@ Ma=MARVEL,Ca=Calculated,EH=Effective Hamiltonian,IE=Isotopologue extrapolation  
 0.0700                                                                          # Default value of Lorentzian half-width for all lines (in cm-1/bar)
 0.500                                                                           # Default value of temperature exponent for all lines
 H2                                                                              # Label for a particular broadener
-16O-12C-32S__H2.broad                                                           # Filename for a particular broadener
+16O-12C-32S__H2.broad                                                           # Filename of particular broadener
 121                                                                             # Maximum J for which pressure broadening parameters provided
 0.0525                                                                          # Value of Lorentzian half-width for J" > Jmax
 0.750                                                                           # Value of temperature exponent for lines with J" > Jmax
@@ -101,7 +102,7 @@ v2"                                                                             
 L2"                                                                             # Defined quantum number
 v3"                                                                             # Defined quantum number
 He                                                                              # Label for a particular broadener
-16O-12C-32S__He.broad                                                           # Filename for a particular broadener
+16O-12C-32S__He.broad                                                           # Filename of particular broadener
 121                                                                             # Maximum J for which pressure broadening parameters provided
 0.0383                                                                          # Value of Lorentzian half-width for J" > Jmax
 0.750                                                                           # Value of temperature exponent for lines with J" > Jmax

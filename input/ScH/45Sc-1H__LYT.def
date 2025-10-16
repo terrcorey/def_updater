@@ -3,7 +3,8 @@ EXOMOL.def                                                                      
 45Sc-1H                                                                         # Iso-slug
 LYT                                                                             # Isotopologue dataset name
 20160726                                                                        # Version number with format YYYYMMDD
-ZTOCXCPDHKWLBM-UHFFFAOYSA-N                                                     # Inchi key of molecule
+InChI=1S/Sc.H                                                                   # In-ChI of molecule
+ZTOCXCPDHKWLBM-UHFFFAOYSA-N                                                     # In-ChI key of molecule
 2                                                                               # Number of atoms
 45                                                                              # Isotope number 1
 Sc                                                                              # Element symbol 1

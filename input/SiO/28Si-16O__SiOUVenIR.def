@@ -3,7 +3,8 @@ EXOMOL.def                                                                      
 28Si-16O                                                                        # Iso-slug
 SiOUVenIR                                                                       # Isotopologue dataset name
 20211105                                                                        # Version number with format YYYYMMDD
-LIVNPJMFVYWSIS-UHFFFAOYSA-N                                                     # Inchi key of molecule
+InChI=1S/OSi/c1-2                                                               # In-ChI of molecule
+LIVNPJMFVYWSIS-UHFFFAOYSA-N                                                     # In-ChI key of molecule
 2                                                                               # Number of atoms
 28                                                                              # Isotope number 1
 Si                                                                              # Element symbol 1

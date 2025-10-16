@@ -2,6 +2,7 @@
     "isotopologue": {
         "iso_formula": "(7Li)(1H)",
         "iso_slug": "7Li-1H",
+        "inchi": "InChI=1S/Li.H",
         "inchikey": "SIAPCJWMELPYOE-UHFFFAOYSA-N",
         "mass_in_Da": 8.02383,
         "point_group": "C"
@@ -64,12 +65,6 @@
                     "desc": "Total rotational quantum number, excluding nuclear spin",
                     "ffmt": "I7",
                     "cfmt": "%7d"
-                },
-                {
-                    "name": "unc",
-                    "desc": "Energy uncertainty in cm-1",
-                    "ffmt": "F12.6",
-                    "cfmt": "%12.6f"
                 },
                 {
                     "name": "dcs:v",

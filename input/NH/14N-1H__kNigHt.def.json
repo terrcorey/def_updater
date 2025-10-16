@@ -2,7 +2,8 @@
     "isotopologue": {
         "iso_formula": "(14N)(1H)",
         "iso_slug": "14N-1H",
-        "inchikey": "SHQROCLHCPBSPB-ZIIAHIFVSA-N",
+        "inchi": "InChI=1S/HN/h1H",
+        "inchikey": "PDCKRJPYJMCOFO-UHFFFAOYSA-N",
         "mass_in_Da": 15.010899,
         "point_group": "C"
     },
@@ -35,7 +36,7 @@
             "number_of_states": 4076,
             "max_energy": 45875.791389,
             "hyperfine_resolved_dataset": false,
-            "uncertainty_description": "Calculated energy in cm-1",
+            "uncertainty_description": null,
             "uncertainties_available": true,
             "lifetime_available": true,
             "lande_g_available": true,
@@ -124,6 +125,18 @@
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "Fine structure counting number"
+                },
+                {
+                    "name": "Auxiliary:SourceType",
+                    "ffmt": "A2",
+                    "cfmt": "%2s",
+                    "desc": "Ma=MARVEL,Ca=Calculated,EH=Effective Hamiltonian,IE=Isotopologue extrapolation"
+                },
+                {
+                    "name": "Auxiliary:Ecal",
+                    "ffmt": "F12.6",
+                    "cfmt": "%12.6f",
+                    "desc": "Calculated energy in cm-1"
                 }
             ]
         },

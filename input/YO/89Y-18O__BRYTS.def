@@ -3,7 +3,8 @@ EXOMOL.def                                                                      
 89Y-18O                                                                         # Iso-slug
 BRYTS                                                                           # Isotopologue dataset name
 20230916                                                                        # Version number with format YYYYMMDD
-APUGIHICMSAKGR-OJTQQMQBSA-N                                                     # Inchi key of molecule
+InChI=YO-YYYY                                                                   # In-ChI of molecule
+YO-XXXXXXXXXXXXXXXXXXXXXXX2                                                     # In-ChI key of molecule
 2                                                                               # Number of atoms
 89                                                                              # Isotope number 1
 Y                                                                               # Element symbol 1
@@ -27,8 +28,8 @@ Sigma-                                                                          
 0                                                                               # Hyperfine resolved dataset (1=yes, 0=no)
 182547                                                                          # No. of states in .states file
 1                                                                               # No. of quanta cases
-dcs                                                                             # Quantum case label
-hunda                                                                           # Quantum case label
+dcs                                                                             # Quantum case label 1
+hunda                                                                           # Quantum case label 2
 7                                                                               # No. of quanta defined
 +/-                                                                             # Quantum label 1
 A1 %1s                                                                          # Format quantum label 1
@@ -53,10 +54,10 @@ F5.1 %5.1f                                                                      
 Omega = Lambda + Sigma, projection of the total angular momentum                # Description quantum label 7
 SourceType                                                                      # Auxiliary title 1
 A2 %2s                                                                          # Format title 1
-Indicates if the value is from MARVEL (Ma) or Calculated(Ca)                    # Description title 1
+Ma=MARVEL,Ca=Calculated,EH=Effective Hamiltonian,IE=Isotopologue extrapolation  # Description title 1
 Ecal                                                                            # Auxiliary title 2
 F12.6 %12.6f                                                                    # Format title 2
-Variational (Calculated) Energy (in cm-1)                                       # Description title 2
+Calculated energy in cm-1                                                       # Description title 2
 64164605                                                                        # Total number of transitions
 1                                                                               # No. of transition files
 43955.189393                                                                    # Maximum wavenumber (in cm-1)

@@ -3,7 +3,8 @@ EXOMOL.def                                                                      
 1H-11B-16O                                                                      # Iso-slug
 LQL                                                                             # Isotopologue dataset name
 20240522                                                                        # Version number with format YYYYMMDD
-UXUFOKFTFHRQTE-UHFFFAOYSA-N                                                     # Inchi key of molecule
+InChI=XXXXX-HBO                                                                 # In-ChI of molecule
+XXXXXXXXXXXXXX-YYYYYYYYHBO                                                      # In-ChI key of molecule
 3                                                                               # Number of atoms
 1                                                                               # Isotope number 1
 H                                                                               # Element symbol 1

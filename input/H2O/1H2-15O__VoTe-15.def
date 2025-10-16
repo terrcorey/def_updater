@@ -3,7 +3,8 @@ EXOMOL.def                                                                      
 1H2-15O                                                                         # Iso-slug
 VoTe-15                                                                         # Isotopologue dataset name
 20231030                                                                        # Version number with format YYYYMMDD
-XXXXXXXXXXXXXXXXXXXXXXXXXXX                                                     # Inchi key of molecule
+InChI=1S/H2O/h1H2/i1-1                                                          # In-ChI of molecule
+XLYOFNOQVPJJNP-OUBTZVSYSA-?                                                     # In-ChI key of molecule
 3                                                                               # Number of atoms
 1                                                                               # Isotope number 1
 H                                                                               # Element symbol 1

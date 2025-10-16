@@ -2,7 +2,8 @@
     "isotopologue": {
         "iso_formula": "(12C)2",
         "iso_slug": "12C2",
-        "inchikey": "LBVWYGNGGJURHQ-ZDOIIHCHSA-N",
+        "inchi": "InChI=1S/C2/c1-2",
+        "inchikey": "LBVWYGNGGJURHQ-UHFFFAOYSA-N",
         "mass_in_Da": 24.0,
         "point_group": "D"
     },
@@ -36,7 +37,7 @@
             "number_of_states": 44189,
             "max_energy": 30000.0,
             "hyperfine_resolved_dataset": false,
-            "uncertainty_description": "Calculated energy in cm-1",
+            "uncertainty_description": null,
             "uncertainties_available": true,
             "lifetime_available": true,
             "lande_g_available": true,
@@ -137,6 +138,18 @@
                     "ffmt": "I5",
                     "cfmt": "%5d",
                     "desc": "Rotational angular momentum"
+                },
+                {
+                    "name": "Auxiliary:SourceType",
+                    "ffmt": "A2",
+                    "cfmt": "%2s",
+                    "desc": "Ma=MARVEL,Ca=Calculated,EH=Effective Hamiltonian,IE=Isotopologue extrapolation"
+                },
+                {
+                    "name": "Auxiliary:Ecal",
+                    "ffmt": "F12.6",
+                    "cfmt": "%12.6f",
+                    "desc": "Calculated energy in cm-1"
                 }
             ]
         },

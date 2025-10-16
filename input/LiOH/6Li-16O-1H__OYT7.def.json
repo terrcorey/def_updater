@@ -2,7 +2,8 @@
     "isotopologue": {
         "iso_formula": "(6Li)(16O)(1H)",
         "iso_slug": "6Li-16O-1H",
-        "inchikey": "WMFOQBRAJBCJND-UHFFFAOYSA-M",
+        "inchi": "InChI=(6Li)(16O)(1H)",
+        "inchikey": "WMFOQBRAJBCJND-LiOH-6-?????",
         "mass_in_Da": 23.948,
         "point_group": "C"
     },

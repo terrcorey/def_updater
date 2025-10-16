@@ -2,6 +2,7 @@
     "isotopologue": {
         "iso_formula": "(14N)2",
         "iso_slug": "14N2",
+        "inchi": "InChI=1S/N2/c1-2",
         "inchikey": "IJGRMHOSHXDMSA-UHFFFAOYSA-N",
         "mass_in_Da": 28.006482,
         "point_group": "D_infh(EM)"
@@ -93,13 +94,13 @@
                     "name": "hunda:ElecState",
                     "ffmt": "A12",
                     "cfmt": " %12s",
-                    "desc": ""
+                    "desc": "Electronic state"
                 },
                 {
                     "name": "hunda:v",
                     "ffmt": "I3",
                     "cfmt": "%3d",
-                    "desc": "['Electronic states', 'State vibrational quantum number']"
+                    "desc": "State vibrational quantum number"
                 },
                 {
                     "name": "hunda:F",

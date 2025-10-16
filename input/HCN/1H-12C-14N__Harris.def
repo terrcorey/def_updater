@@ -3,7 +3,8 @@ EXOMOL.def                                                                      
 1H-12C-14N                                                                      # Iso-slug
 Harris                                                                          # Isotopologue dataset name
 20161205                                                                        # Version number with format YYYYMMDD
-LELOWRISYMNNSU-UHFFFAOYSA-N                                                     # Inchi key of molecule
+InChI=1S/CHN/c1-2/h1H                                                           # In-ChI of molecule
+LELOWRISYMNNSU-UHFFFAOYSA-N                                                     # In-ChI key of molecule
 3                                                                               # Number of atoms
 1                                                                               # Isotope number 1
 H                                                                               # Element symbol 1
@@ -63,7 +64,7 @@ NaN                                                                             
 0.0840                                                                          # Default value of Lorentzian half-width for all lines (in cm-1/bar)
 0.500                                                                           # Default value of temperature exponent for all lines
 H2                                                                              # Label for a particular broadener
-1H-12C-14N__H2.broad                                                            # Filename for a particular broadener
+1H-12C-14N__H2.broad                                                            # Filename of particular broadener
 9                                                                               # Maximum J for which pressure broadening parameters provided
 0.1180                                                                          # Value of Lorentzian half-width for J" > Jmax
 0.500                                                                           # Value of temperature exponent for lines with J" > Jmax
@@ -79,7 +80,7 @@ a0                                                                              
 10                                                                              # No. of lines in the broad that contain this code
 0                                                                               # No. of quantum numbers defined
 He                                                                              # Label for a particular broadener
-1H-12C-14N__He.broad                                                            # Filename for a particular broadener
+1H-12C-14N__He.broad                                                            # Filename of particular broadener
 10                                                                              # Maximum J for which pressure broadening parameters provided
 0.0490                                                                          # Value of Lorentzian half-width for J" > Jmax
 0.750                                                                           # Value of temperature exponent for lines with J" > Jmax

@@ -3,7 +3,8 @@ EXOMOL.def                                                                      
 9Be-1H                                                                          # Iso-slug
 Darby-Lewis                                                                     # Isotopologue dataset name
 20180212                                                                        # Version number with format YYYYMMDD
-AYBCUKQQDUJLQN-UHFFFAOYSA-3                                                     # Inchi key of molecule
+InChI=1S/Be.H                                                                   # In-ChI of molecule
+AYBCUKQQDUJLQN-UHFFFAOYSA-N                                                     # In-ChI key of molecule
 2                                                                               # Number of atoms
 9                                                                               # Isotope number 1
 Be                                                                              # Element symbol 1

@@ -2,6 +2,7 @@
     "isotopologue": {
         "iso_formula": "(12C)(1H)3",
         "iso_slug": "12C-1H3",
+        "inchi": "InChI=1S/CH3/h1H3",
         "inchikey": "WCYWZMWISLQXQU-UHFFFAOYSA-N",
         "mass_in_Da": 15.0234751,
         "point_group": "D3h"
@@ -68,12 +69,6 @@
                     "desc": "Total rotational quantum number, excluding nuclear spin",
                     "ffmt": "I7",
                     "cfmt": "%7d"
-                },
-                {
-                    "name": "unc",
-                    "desc": "Energy uncertainty in cm-1",
-                    "ffmt": "F12.6",
-                    "cfmt": "%12.6f"
                 },
                 {
                     "name": "TROVE:Gtot",

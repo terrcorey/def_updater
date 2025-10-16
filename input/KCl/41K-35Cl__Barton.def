@@ -3,7 +3,8 @@ EXOMOL.def                                                                      
 41K-35Cl                                                                        # Iso-slug
 Barton                                                                          # Isotopologue dataset name
 20160726                                                                        # Version number with format YYYYMMDD
-WCUXLLCKKVVCTQ-OPUYPRJVSA-M                                                     # Inchi key of molecule
+InChI=1S/ClH.K/h1H;/q;+1/p-1/i;1+2                                              # In-ChI of molecule
+WCUXLLCKKVVCTQ-NLQOEHMXSA-M                                                     # In-ChI key of molecule
 2                                                                               # Number of atoms
 41                                                                              # Isotope number 1
 K                                                                               # Element symbol 1

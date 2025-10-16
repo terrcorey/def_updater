@@ -2,6 +2,7 @@
     "isotopologue": {
         "iso_formula": "(1H)(14N)(16O)3",
         "iso_slug": "1H-14N-16O3",
+        "inchi": "InChI=1S/HNO3/c2-1(3)4/h2H",
         "inchikey": "ATQYDUAHJAWUEM-UHFFFAOYSA-N",
         "mass_in_Da": 62.995644,
         "point_group": "Cs"
@@ -65,12 +66,6 @@
                     "desc": "Total rotational quantum number, excluding nuclear spin",
                     "ffmt": "I7",
                     "cfmt": "%7d"
-                },
-                {
-                    "name": "unc",
-                    "desc": "Energy uncertainty in cm-1",
-                    "ffmt": "F12.6",
-                    "cfmt": "%12.6f"
                 },
                 {
                     "name": "tau",

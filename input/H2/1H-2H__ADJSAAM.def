@@ -3,7 +3,8 @@ EXOMOL.def                                                                      
 1H-2H                                                                           # Iso-slug
 ADJSAAM                                                                         # Isotopologue dataset name
 20190626                                                                        # Version number with format YYYYMMDD
-ZZIJOQHRUPVPQC-OUBTZVSYSA-N                                                     # Inchi key of molecule
+InChI=1S/H2/h1H/i1+1                                                            # In-ChI of molecule
+UFHFLCQGNIYNRP-OUBTZVSYSA-N                                                     # In-ChI key of molecule
 2                                                                               # Number of atoms
 1                                                                               # Isotope number 1
 H                                                                               # Element symbol 1

@@ -2,7 +2,8 @@
     "isotopologue": {
         "iso_formula": "(28Si)(33S)",
         "iso_slug": "28Si-33S",
-        "inchikey": "DWFFKGPZNGKUPH-NBRKPRHBSA-N",
+        "inchi": "InChI=1S/SSi/c1-2/i2+1",
+        "inchikey": "DWFFKGPZNGKUPH-VQEHIDDOSA-N",
         "mass_in_Da": 60.948385,
         "point_group": "C"
     },
@@ -64,12 +65,6 @@
                     "desc": "Total rotational quantum number, excluding nuclear spin",
                     "ffmt": "I7",
                     "cfmt": "%7d"
-                },
-                {
-                    "name": "unc",
-                    "desc": "Energy uncertainty in cm-1",
-                    "ffmt": "F12.6",
-                    "cfmt": "%12.6f"
                 },
                 {
                     "name": "dcs:v",

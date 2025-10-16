@@ -3,7 +3,8 @@ EXOMOL.def                                                                      
 40Ca-16O                                                                        # Iso-slug
 VBATHY                                                                          # Isotopologue dataset name
 20230220                                                                        # Version number with format YYYYMMDD
-ODINCKMPIJJUCX-UHFFFAOYSA-N                                                     # Inchi key of molecule
+InChI=1S/Ca.O                                                                   # In-ChI of molecule
+ODINCKMPIJJUCX-UHFFFAOYSA-N                                                     # In-ChI key of molecule
 2                                                                               # Number of atoms
 40                                                                              # Isotope number 1
 Ca                                                                              # Element symbol 1

@@ -2,7 +2,8 @@
     "isotopologue": {
         "iso_formula": "(89Y)(18O)",
         "iso_slug": "89Y-18O",
-        "inchikey": "APUGIHICMSAKGR-OJTQQMQBSA-N",
+        "inchi": "InChI=YO-YYYY",
+        "inchikey": "YO-XXXXXXXXXXXXXXXXXXXXXXX2",
         "mass_in_Da": 106.9050079,
         "point_group": "C"
     },
@@ -35,7 +36,7 @@
             "number_of_states": 182547,
             "max_energy": 59972.729705,
             "hyperfine_resolved_dataset": false,
-            "uncertainty_description": "Variational (Calculated) Energy (in cm-1)",
+            "uncertainty_description": null,
             "uncertainties_available": true,
             "lifetime_available": true,
             "lande_g_available": true,
@@ -124,6 +125,18 @@
                     "ffmt": "F5.1",
                     "cfmt": "%5.1f",
                     "desc": "Omega = Lambda + Sigma, projection of the total angular momentum"
+                },
+                {
+                    "name": "Auxiliary:SourceType",
+                    "ffmt": "A2",
+                    "cfmt": "%2s",
+                    "desc": "Ma=MARVEL,Ca=Calculated,EH=Effective Hamiltonian,IE=Isotopologue extrapolation"
+                },
+                {
+                    "name": "Auxiliary:Ecal",
+                    "ffmt": "F12.6",
+                    "cfmt": "%12.6f",
+                    "desc": "Calculated energy in cm-1"
                 }
             ]
         },

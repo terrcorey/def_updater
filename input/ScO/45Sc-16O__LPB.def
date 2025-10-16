@@ -3,7 +3,8 @@ EXOMOL.def                                                                      
 45Sc-16O                                                                        # Iso-slug
 LPB                                                                             # Isotopologue dataset name
 20241104                                                                        # Version number with format YYYYMMDD
-AXJFPMGRQPKZLD-MHGBRSHDSA-N                                                     # Inchi key of molecule
+InChI=1S/Sc.O                                                                   # In-ChI of molecule
+XXXXXXXXXXXXXX-YYYYYYYY-ScO                                                     # In-ChI key of molecule
 2                                                                               # Number of atoms
 45                                                                              # Isotope number 1
 Sc                                                                              # Element symbol 1

@@ -3,7 +3,8 @@ EXOMOL.def                                                                      
 39K-19F                                                                         # Iso-slug
 MoLLIST                                                                         # Isotopologue dataset name
 20180716                                                                        # Version number with format YYYYMMDD
-UNBLQQOGXZQQHO-NLQOEHMXSA-M                                                     # Inchi key of molecule
+InChI=1S/FH.K/h1H;/q;+1/p-1                                                     # In-ChI of molecule
+NROKBHXJSPEDAR-UHFFFAOYSA-M                                                     # In-ChI key of molecule
 2                                                                               # Number of atoms
 39                                                                              # Isotope number 1
 K                                                                               # Element symbol 1

@@ -2,7 +2,8 @@
     "isotopologue": {
         "iso_formula": "(6Li)(19F)",
         "iso_slug": "6Li-19F",
-        "inchikey": "PQXKHYXIUOZZFA-UHFFFAOYSA-M",
+        "inchi": "InChI=1S/FH.Li/h1H;/q;+1/p-x",
+        "inchikey": "PQXKHYXIUOZZFA-UHFFFAOYSA-X",
         "mass_in_Da": 25.013526,
         "point_group": "C"
     },
@@ -64,12 +65,6 @@
                     "desc": "Total rotational quantum number, excluding nuclear spin",
                     "ffmt": "I7",
                     "cfmt": "%7d"
-                },
-                {
-                    "name": "unc",
-                    "desc": "Energy uncertainty in cm-1",
-                    "ffmt": "F12.6",
-                    "cfmt": "%12.6f"
                 },
                 {
                     "name": "tau",

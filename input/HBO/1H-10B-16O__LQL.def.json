@@ -2,6 +2,7 @@
     "isotopologue": {
         "iso_formula": "(1H)(10B)(16O)",
         "iso_slug": "1H-10B-16O",
+        "inchi": "InChI=1S/BHO/c1-2/h1H",
         "inchikey": "UXUFOKFTFHRQTE-UHFFFAOYSA-N",
         "mass_in_Da": 27.015677,
         "point_group": "CsM"
@@ -36,7 +37,7 @@
             "number_of_states": 411255,
             "max_energy": 23774.786069,
             "hyperfine_resolved_dataset": false,
-            "uncertainty_description": "Calculated energy in cm-1",
+            "uncertainty_description": null,
             "uncertainties_available": true,
             "lifetime_available": false,
             "lande_g_available": false,
@@ -131,6 +132,18 @@
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "TROVE vibrational quantum numbers"
+                },
+                {
+                    "name": "Auxiliary:SourceType",
+                    "ffmt": "A2",
+                    "cfmt": "%2s",
+                    "desc": "Ma=MARVEL,Ca=Calculated,EH=Effective Hamiltonian,IE=Isotopologue extrapolation"
+                },
+                {
+                    "name": "Auxiliary:Ecal",
+                    "ffmt": "F12.6",
+                    "cfmt": "%12.6f",
+                    "desc": "Calculated energy in cm-1"
                 }
             ]
         },

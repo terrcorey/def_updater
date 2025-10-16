@@ -3,7 +3,8 @@ EXOMOL.def                                                                      
 14N2-16O                                                                        # Iso-slug
 TYM                                                                             # Isotopologue dataset name
 20240527                                                                        # Version number with format YYYYMMDD
-GQPLMRYTRLFLPF-OUBTZVSYSA-N                                                     # Inchi key of molecule
+InChI=1S/N2O/c1-2-3                                                             # In-ChI of molecule
+GQPLMRYTRLFLPF-UHFFFAOYSA-N                                                     # In-ChI key of molecule
 3                                                                               # Number of atoms
 14                                                                              # Isotope number 1
 N                                                                               # Element symbol 1
@@ -27,8 +28,8 @@ A"                                                                              
 0                                                                               # Hyperfine resolved dataset (1=yes, 0=no)
 1759068                                                                         # No. of states in .states file
 2                                                                               # No. of quanta cases
-dcs                                                                             # Quantum case label
-nltcs                                                                           # Quantum case label
+dcs                                                                             # Quantum case label 1
+nltcs                                                                           # Quantum case label 2
 11                                                                              # No. of quanta defined
 Gtot                                                                            # Quantum label 1
 A3 %3s                                                                          # Format quantum label 1
@@ -69,9 +70,6 @@ Ma=MARVEL,Ca=Calculated,EH=Effective Hamiltonian,IE=Isotopologue extrapolation  
 Ecal                                                                            # Auxiliary title 2
 F12.6 %12.6f                                                                    # Format title 2
 Calculated energy in cm-1                                                       # Description title 2
-Ecal                                                                            # Auxiliary tite 2
-F12.6 %12.6f                                                                    # Format title 2
-Original TROVE calculated state energy (in cm-1)                                # Description title 2
 1360351722                                                                      # Total number of transitions
 21                                                                              # No. of transition files
 20000.00                                                                        # Maximum wavenumber (in cm-1)

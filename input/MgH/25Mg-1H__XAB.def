@@ -3,7 +3,8 @@ EXOMOL.def                                                                      
 25Mg-1H                                                                         # Iso-slug
 XAB                                                                             # Isotopologue dataset name
 20220211                                                                        # Version number with format YYYYMMDD
-RZCHRULKKYOSQS-DEQYMQKBSA-N                                                     # Inchi key of molecule
+InChI=1S/Mg.H/i1+1;                                                             # In-ChI of molecule
+RZCHRULKKYOSQS-YTBWXGASSA-N                                                     # In-ChI key of molecule
 2                                                                               # Number of atoms
 25                                                                              # Isotope number 1
 Mg                                                                              # Element symbol 1

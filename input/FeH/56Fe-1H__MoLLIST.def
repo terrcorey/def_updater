@@ -3,7 +3,8 @@ EXOMOL.def                                                                      
 56Fe-1H                                                                         # Iso-slug
 MoLLIST                                                                         # Isotopologue dataset name
 20160726                                                                        # Version number with format YYYYMMDD
-VWDRTGQNZKYVEZ-UHFFFAOYSA-N                                                     # Inchi key of molecule
+InChI=1S/Fe.H                                                                   # In-ChI of molecule
+VWDRTGQNZKYVEZ-UHFFFAOYSA-N                                                     # In-ChI key of molecule
 2                                                                               # Number of atoms
 56                                                                              # Isotope number 1
 Fe                                                                              # Element symbol 1

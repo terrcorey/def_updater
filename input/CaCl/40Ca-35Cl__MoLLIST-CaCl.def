@@ -3,7 +3,8 @@ EXOMOL.def                                                                      
 40Ca-35Cl                                                                       # Iso-slug
 MoLLIST-CaCl                                                                    # Isotopologue dataset name
 20240720                                                                        # Version number with format YYYYMMDD
-WGPMOVAPQPJDDK-WMSMEIEASA-M                                                     # Inchi key of molecule
+InChI=1S/Ca.ClH/h;1H/q+1;/p-1                                                   # In-ChI of molecule
+WGPMOVAPQPJDDK-UHFFFAOYSA-M                                                     # In-ChI key of molecule
 2                                                                               # Number of atoms
 40                                                                              # Isotope number 1
 Ca                                                                              # Element symbol 1

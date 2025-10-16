@@ -1,9 +1,10 @@
 EXOMOL.def                                                                      # ID
-(15N)(14N)(16O)                                                                     # IsoFormula
-15N-14N-16O                                                                        # Iso-slug
+(15N)(14N)(16O)                                                                 # IsoFormula
+15N-14N-16O                                                                     # Iso-slug
 TYM                                                                             # Isotopologue dataset name
 20240527                                                                        # Version number with format YYYYMMDD
-GQPLMRYTRLFLPF-OUBTZVSYSA-N                                                     # Inchi key of molecule
+InChI=1S/N2O/c1-2-3/i1+1                                                        # In-ChI of molecule
+GQPLMRYTRLFLPF-OUBTZVSYSA-N                                                     # In-ChI key of molecule
 3                                                                               # Number of atoms
 15                                                                              # Isotope number 1
 N                                                                               # Element symbol 1

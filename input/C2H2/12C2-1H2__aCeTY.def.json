@@ -2,6 +2,7 @@
     "isotopologue": {
         "iso_formula": "(12C)2(1H)2",
         "iso_slug": "12C2-1H2",
+        "inchi": "InChI=1S/C2H2/c1-2/h1-2H",
         "inchikey": "HSFWRNGVRCDJHI-UHFFFAOYSA-N",
         "mass_in_Da": 26.0,
         "point_group": "Dinfh(M)"
@@ -37,7 +38,7 @@
             "number_of_states": 5160803,
             "max_energy": 12000.0,
             "hyperfine_resolved_dataset": false,
-            "uncertainty_description": "Theoretical state energy",
+            "uncertainty_description": null,
             "uncertainties_available": true,
             "lifetime_available": false,
             "lande_g_available": false,
@@ -150,6 +151,18 @@
                     "ffmt": "F5.2",
                     "cfmt": "%5.2f",
                     "desc": "Coefficient with the largest contribution to the (J = 0) contracted set"
+                },
+                {
+                    "name": "Auxiliary:SourceType",
+                    "ffmt": "A2",
+                    "cfmt": "%2s",
+                    "desc": "Ma=MARVEL,Ca=Calculated,EH=Effective Hamiltonian,IE=Isotopologue extrapolation"
+                },
+                {
+                    "name": "Auxiliary:Ecal",
+                    "ffmt": "F12.6",
+                    "cfmt": "%12.6f",
+                    "desc": "Calculated energy in cm-1"
                 }
             ]
         },

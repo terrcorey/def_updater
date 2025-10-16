@@ -2,7 +2,8 @@
     "isotopologue": {
         "iso_formula": "(25Mg)(16O)",
         "iso_slug": "25Mg-16O",
-        "inchikey": "MXDVONUOKSYWHF-NJFSPNSNSA-N",
+        "inchi": "InChI=1S/MgO/c1-2/i1+1",
+        "inchikey": "MXDVONUOKSYWHF-OUBTZVSYSA-N",
         "mass_in_Da": 40.9807516,
         "point_group": "C"
     },
@@ -35,7 +36,7 @@
             "number_of_states": 188648,
             "max_energy": 37000.0,
             "hyperfine_resolved_dataset": false,
-            "uncertainty_description": "Calculated energy in cm-1",
+            "uncertainty_description": null,
             "uncertainties_available": true,
             "lifetime_available": false,
             "lande_g_available": true,
@@ -118,6 +119,18 @@
                     "ffmt": "F5.1",
                     "cfmt": "%5.1f",
                     "desc": "Omega = Lambda + Sigma, projection of the total angular momentum"
+                },
+                {
+                    "name": "Auxiliary:SourceType",
+                    "ffmt": "A2",
+                    "cfmt": "%2s",
+                    "desc": "Ma=MARVEL,Ca=Calculated,EH=Effective Hamiltonian,IE=Isotopologue extrapolation"
+                },
+                {
+                    "name": "Auxiliary:Ecal",
+                    "ffmt": "F12.6",
+                    "cfmt": "%12.6f",
+                    "desc": "Calculated energy in cm-1"
                 }
             ]
         },

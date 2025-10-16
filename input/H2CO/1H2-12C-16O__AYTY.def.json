@@ -2,6 +2,7 @@
     "isotopologue": {
         "iso_formula": "(1H)2(12C)(16O)",
         "iso_slug": "1H2-12C-16O",
+        "inchi": "InChI=1S/CH2O/c1-2/h1H2",
         "inchikey": "WSFSSNUMVMOOMR-UHFFFAOYSA-N",
         "mass_in_Da": 30.010565,
         "point_group": "C2v"
@@ -38,7 +39,7 @@
             "number_of_states": 10297025,
             "max_energy": 8000.0,
             "hyperfine_resolved_dataset": false,
-            "uncertainty_description": "Calculated energy in cm-1",
+            "uncertainty_description": null,
             "uncertainties_available": true,
             "lifetime_available": true,
             "lande_g_available": false,
@@ -187,6 +188,18 @@
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "Local mode out-of-plane bend vibrational quantum number"
+                },
+                {
+                    "name": "Auxiliary:SourceType",
+                    "ffmt": "A2",
+                    "cfmt": "%2s",
+                    "desc": "Ma=MARVEL,Ca=Calculated,EH=Effective Hamiltonian,IE=Isotopologue extrapolation"
+                },
+                {
+                    "name": "Auxiliary:Ecal",
+                    "ffmt": "F12.6",
+                    "cfmt": "%12.6f",
+                    "desc": "Calculated energy in cm-1"
                 }
             ]
         },
@@ -204,6 +217,7 @@
         "default_Lorentzian_half-width": 0.1,
         "default_temperature_exponent": 0.5,
         "H2": {
+            "filename": "1H2-12C-16O__H2.broad",
             "max_J": 9,
             "Lorentzian_half_width": 0.137,
             "temperature_exponent": 0.5,
@@ -228,6 +242,7 @@
             ]
         },
         "He": {
+            "filename": "1H2-12C-16O__He.broad",
             "max_J": 9,
             "Lorentzian_half_width": 0.084,
             "temperature_exponent": 0.5,

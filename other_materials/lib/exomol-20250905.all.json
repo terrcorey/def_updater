@@ -4397,6 +4397,8 @@
         },
         "(58Ni)(2H)": {
             "slug": "58Ni-2H",
+            "inchi": "InChI=1S/Ni.H/i1-1;1+1",
+            "inchikey": "CVKWMACQVBBEIJ-BBGAZUBOSA-N",
             "datasets": [
                 {
                     "BYOT": {

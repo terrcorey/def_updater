@@ -2,7 +2,8 @@
     "isotopologue": {
         "iso_formula": "(28Si)(14N)",
         "iso_slug": "28Si-14N",
-        "inchikey": "NCLWWTWAYQTPBU-HQMMCQRPSA-N",
+        "inchi": "InChI=1S/NSi/c1-2",
+        "inchikey": "NCLWWTWAYQTPBU-UHFFFAOYSA-N",
         "mass_in_Da": 41.98,
         "point_group": "C"
     },
@@ -35,7 +36,7 @@
             "number_of_states": 131936,
             "max_energy": null,
             "hyperfine_resolved_dataset": false,
-            "uncertainty_description": "State energy in  cm-1 calculated with DUO",
+            "uncertainty_description": null,
             "uncertainties_available": true,
             "lifetime_available": true,
             "lande_g_available": true,
@@ -124,6 +125,18 @@
                     "ffmt": "F5.1",
                     "cfmt": "%5.1f",
                     "desc": "Projection of the total angular momentum, Omega = Lambda + Sigma"
+                },
+                {
+                    "name": "Auxiliary:SourceType",
+                    "ffmt": "A2",
+                    "cfmt": "%2s",
+                    "desc": "Ma=MARVEL,Ca=Calculated,EH=Effective Hamiltonian,IE=Isotopologue extrapolation"
+                },
+                {
+                    "name": "Auxiliary:Ecal",
+                    "ffmt": "F12.6",
+                    "cfmt": "%12.6f",
+                    "desc": "Calculated energy in cm-1"
                 }
             ]
         },

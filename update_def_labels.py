@@ -596,6 +596,8 @@ def update_def(def_file_path, def_dict):
                 if len(parts) != 2:
                     continue
                 value, desc = parts
+                if "In-ChI" in desc:
+                    continue
                 if desc in keys and not isinstance(def_dict.get(desc), list):
                     value = def_dict.get(desc)
                     output_file.write(line_formatter(value, desc))

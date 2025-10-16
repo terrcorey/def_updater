@@ -3,7 +3,8 @@ EXOMOL.def                                                                      
 31P-1H3                                                                         # Iso-slug
 SAlTY                                                                           # Isotopologue dataset name
 20170131                                                                        # Version number with format YYYYMMDD
-XYFCBTPGUUZFHI-UHFFFAOYSA-N                                                     # Inchi key of molecule
+InChI=1S/H3P/h1H3                                                               # In-ChI of molecule
+XYFCBTPGUUZFHI-UHFFFAOYSA-N                                                     # In-ChI key of molecule
 4                                                                               # Number of atoms
 31                                                                              # Isotope number 1
 P                                                                               # Element symbol 1
@@ -96,7 +97,7 @@ NaN                                                                             
 0.0750                                                                          # Default value of Lorentzian half-width for all lines (in cm-1/bar)
 0.530                                                                           # Default value of temperature exponent for all lines
 H2                                                                              # Label for a particular broadener
-31P-1H3__H2.broad                                                               # Filename for a particular broadener
+31P-1H3__H2.broad                                                               # Filename of particular broadener
 16                                                                              # Maximum J for which pressure broadening parameters provided
 0.0888                                                                          # Value of Lorentzian half-width for J" > Jmax
 0.750                                                                           # Value of temperature exponent for lines with J" > Jmax
@@ -114,7 +115,7 @@ a0                                                                              
 17                                                                              # No. of lines in the broad that contain this code
 0                                                                               # No. of quantum numbers defined
 He                                                                              # Label for a particular broadener
-31P-1H3__He.broad                                                               # Filename for a particular broadener
+31P-1H3__He.broad                                                               # Filename of particular broadener
 15                                                                              # Maximum J for which pressure broadening parameters provided
 0.0452                                                                          # Value of Lorentzian half-width for J" > Jmax
 0.300                                                                           # Value of temperature exponent for lines with J" > Jmax

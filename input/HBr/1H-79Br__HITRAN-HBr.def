@@ -3,7 +3,8 @@ EXOMOL.def                                                                      
 1H-79Br                                                                         # Iso-slug
 HITRAN-HBr                                                                      # Isotopologue dataset name
 20230904                                                                        # Version number with format YYYYMMDD
-CPELXLSAUQHCOX-OXEALATOSA-N                                                     # Inchi key of molecule
+InChI=1S/BrH/h1H/i1-1                                                           # In-ChI of molecule
+CPELXLSAUQHCOX-BJUDXGSMSA-N                                                     # In-ChI key of molecule
 2                                                                               # Number of atoms
 1                                                                               # Isotope number 1
 H                                                                               # Element symbol 1

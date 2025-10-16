@@ -3,7 +3,8 @@ EXOMOL.def                                                                      
 23Na-19F                                                                        # Iso-slug
 MoLLIST                                                                         # Isotopologue dataset name
 20180713                                                                        # Version number with format YYYYMMDD
-PUZPDOWCWNUUKD-UHFFFAOYSA-M                                                     # Inchi key of molecule
+InChI=1S/FH.Na/h1H;/q;+1/p-1                                                    # In-ChI of molecule
+PUZPDOWCWNUUKD-UHFFFAOYSA-M                                                     # In-ChI key of molecule
 2                                                                               # Number of atoms
 23                                                                              # Isotope number 1
 Na                                                                              # Element symbol 1

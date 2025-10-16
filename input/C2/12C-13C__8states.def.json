@@ -2,7 +2,8 @@
     "isotopologue": {
         "iso_formula": "(12C)(13C)",
         "iso_slug": "12C-13C",
-        "inchikey": "LBVWYGNGGJURHQ-ZDOIIHCHSA-N",
+        "inchi": "InChI=1S/C2/c1-2/i1+1",
+        "inchikey": "LBVWYGNGGJURHQ-OUBTZVSYSA-N",
         "mass_in_Da": 25.00335484,
         "point_group": "C"
     },
@@ -34,7 +35,7 @@
             "number_of_states": 91067,
             "max_energy": 30000.0,
             "hyperfine_resolved_dataset": false,
-            "uncertainty_description": "Calculated energy in cm-1",
+            "uncertainty_description": null,
             "uncertainties_available": false,
             "lifetime_available": true,
             "lande_g_available": true,
@@ -63,12 +64,6 @@
                     "desc": "Total rotational quantum number, excluding nuclear spin",
                     "ffmt": "I7",
                     "cfmt": "%7d"
-                },
-                {
-                    "name": "unc",
-                    "desc": "Energy uncertainty in cm-1",
-                    "ffmt": "F12.6",
-                    "cfmt": "%12.6f"
                 },
                 {
                     "name": "tau",
@@ -123,6 +118,18 @@
                     "ffmt": "F5.1",
                     "cfmt": "%5.1f",
                     "desc": "Omega = Lambda + Sigma, projection of the total angular momentum"
+                },
+                {
+                    "name": "Auxiliary:SourceType",
+                    "ffmt": "A2",
+                    "cfmt": "%2s",
+                    "desc": "Ma=MARVEL,Ca=Calculated,EH=Effective Hamiltonian,IE=Isotopologue extrapolation"
+                },
+                {
+                    "name": "Auxiliary:Ecal",
+                    "ffmt": "F12.6",
+                    "cfmt": "%12.6f",
+                    "desc": "Calculated energy in cm-1"
                 }
             ]
         },

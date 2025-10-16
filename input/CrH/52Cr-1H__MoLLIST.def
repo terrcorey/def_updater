@@ -3,7 +3,8 @@ EXOMOL.def                                                                      
 52Cr-1H                                                                         # Iso-slug
 MoLLIST                                                                         # Isotopologue dataset name
 20160726                                                                        # Version number with format YYYYMMDD
-SEGIELJIHJYODU-UHFFFAOYSA-N                                                     # Inchi key of molecule
+InChI=1S/Cr.H                                                                   # In-ChI of molecule
+SEGIELJIHJYODU-UHFFFAOYSA-N                                                     # In-ChI key of molecule
 2                                                                               # Number of atoms
 52                                                                              # Isotope number 1
 Cr                                                                              # Element symbol 1

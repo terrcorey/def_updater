@@ -3,7 +3,8 @@ EXOMOL.def                                                                      
 28Si-14N                                                                        # Iso-slug
 SiNfull                                                                         # Isotopologue dataset name
 20220809                                                                        # Version number with format YYYYMMDD
-NCLWWTWAYQTPBU-HQMMCQRPSA-N                                                     # Inchi key of molecule
+InChI=1S/NSi/c1-2                                                               # In-ChI of molecule
+NCLWWTWAYQTPBU-UHFFFAOYSA-N                                                     # In-ChI key of molecule
 2                                                                               # Number of atoms
 28                                                                              # Isotope number 1
 Si                                                                              # Element symbol 1
@@ -56,9 +57,6 @@ Ma=MARVEL,Ca=Calculated,EH=Effective Hamiltonian,IE=Isotopologue extrapolation  
 Ecal                                                                            # Auxiliary title 2
 F12.6 %12.6f                                                                    # Format title 2
 Calculated energy in cm-1                                                       # Description title 2
-Ecal                                                                            # Auxiliary tite 2
-F12.6 %12.6f                                                                    # Format title 2
-State energy in  cm-1 calculated with DUO                                       # Description title 2
 43646806                                                                        # Total number of transitions
 1                                                                               # No. of transition files
 58000.00                                                                        # Maximum wavenumber (in cm-1)

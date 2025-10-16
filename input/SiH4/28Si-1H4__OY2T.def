@@ -3,7 +3,8 @@ EXOMOL.def                                                                      
 28Si-1H4                                                                        # Iso-slug
 OY2T                                                                            # Isotopologue dataset name
 20170131                                                                        # Version number with format YYYYMMDD
-BLRPTPMANUNPDV-UHFFFAOYSA-N                                                     # Inchi key of molecule
+InChI=1S/H4Si/h1H4                                                              # In-ChI of molecule
+BLRPTPMANUNPDV-UHFFFAOYSA-N                                                     # In-ChI key of molecule
 5                                                                               # Number of atoms
 28                                                                              # Isotope number 1
 Si                                                                              # Element symbol 1

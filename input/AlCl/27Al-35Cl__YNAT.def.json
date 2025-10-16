@@ -2,7 +2,8 @@
     "isotopologue": {
         "iso_formula": "(27Al)(35Cl)",
         "iso_slug": "27Al-35Cl",
-        "inchikey": "HLMARYJDZMOJJC-HQMMCQRPSA-N",
+        "inchi": "InChI=1S/Al.ClH/h;1H/q+1;/p-1",
+        "inchikey": "IZMHKHHRLNWLMK-UHFFFAOYSA-M",
         "mass_in_Da": 61.950391,
         "point_group": "C"
     },

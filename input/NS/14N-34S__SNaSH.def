@@ -3,7 +3,8 @@ EXOMOL.def                                                                      
 14N-34S                                                                         # Iso-slug
 SNaSH                                                                           # Isotopologue dataset name
 20180101                                                                        # Version number with format YYYYMMDD
-QXTCFDCJXWLNAP-OUBTZVSYSA-N                                                     # Inchi key of molecule
+InChI=1S/NS/c1-2/i2+2                                                           # In-ChI of molecule
+QXTCFDCJXWLNAP-HQMMCQRPSA-N                                                     # In-ChI key of molecule
 2                                                                               # Number of atoms
 14                                                                              # Isotope number 1
 N                                                                               # Element symbol 1
@@ -27,8 +28,8 @@ Sigma-                                                                          
 0                                                                               # Hyperfine resolved dataset (1=yes, 0=no)
 32089                                                                           # No. of states in .states file
 1                                                                               # No. of quanta cases
-dcs                                                                             # Quantum case label
-hunda                                                                           # Quantum case label
+dcs                                                                             # Quantum case label 1
+hunda                                                                           # Quantum case label 2
 7                                                                               # No. of quanta defined
 +/-                                                                             # Quantum label 1
 A1 %1s                                                                          # Format quantum label 1

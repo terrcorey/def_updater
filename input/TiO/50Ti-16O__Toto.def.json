@@ -2,6 +2,7 @@
     "isotopologue": {
         "iso_formula": "(50Ti)(16O)",
         "iso_slug": "50Ti-16O",
+        "inchi": "InChI=1S/Ti.O/q+2;-2/i1+2;",
         "inchikey": "KZWJQQBLIBIGGJ-DEQYMQKBSA-N",
         "mass_in_Da": 65.939702,
         "point_group": "C"
@@ -35,7 +36,7 @@
             "number_of_states": 301448,
             "max_energy": 20000.0,
             "hyperfine_resolved_dataset": false,
-            "uncertainty_description": "Calculated energy in cm-1",
+            "uncertainty_description": null,
             "uncertainties_available": true,
             "lifetime_available": true,
             "lande_g_available": true,
@@ -124,6 +125,18 @@
                     "ffmt": "F5.1",
                     "cfmt": "%5.1f",
                     "desc": "Omega = Lambda + Sigma, projection of the total angular momentum"
+                },
+                {
+                    "name": "Auxiliary:SourceType",
+                    "ffmt": "A2",
+                    "cfmt": "%2s",
+                    "desc": "Ma=MARVEL,Ca=Calculated,EH=Effective Hamiltonian,IE=Isotopologue extrapolation"
+                },
+                {
+                    "name": "Auxiliary:Ecal",
+                    "ffmt": "F12.6",
+                    "cfmt": "%12.6f",
+                    "desc": "Calculated energy in cm-1"
                 }
             ]
         },

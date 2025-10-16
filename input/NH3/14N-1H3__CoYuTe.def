@@ -3,7 +3,8 @@ EXOMOL.def                                                                      
 14N-1H3                                                                         # Iso-slug
 CoYuTe                                                                          # Isotopologue dataset name
 20200730                                                                        # Version number with format YYYYMMDD
-QGZKDVFQNNGYKY-UHFFFAOYSA-N                                                     # Inchi key of molecule
+InChI=1S/H3N/h1H3                                                               # In-ChI of molecule
+QGZKDVFQNNGYKY-UHFFFAOYSA-N                                                     # In-ChI key of molecule
 4                                                                               # Number of atoms
 14                                                                              # Isotope number 1
 N                                                                               # Element symbol 1
@@ -35,8 +36,8 @@ E"                                                                              
 0                                                                               # Hyperfine resolved dataset (1=yes, 0=no)
 5095730                                                                         # No. of states in .states file
 2                                                                               # No. of quanta cases
-stcs                                                                            # Quantum case label
-TROVE                                                                           # Quantum case label
+stcs                                                                            # Quantum case label 1
+TROVE                                                                           # Quantum case label 2
 20                                                                              # No. of quanta defined
 +/-                                                                             # Quantum label 1
 A1 %1s                                                                          # Format quantum label 1
@@ -112,7 +113,7 @@ Calculated energy in cm-1                                                       
 0.0530                                                                          # Default value of Lorentzian half-width for all lines (in cm-1/bar)
 0.500                                                                           # Default value of temperature exponent for all lines
 H2                                                                              # Label for a particular broadener
-14N-1H3__H2.broad                                                               # Filename for a particular broadener
+14N-1H3__H2.broad                                                               # Filename of particular broadener
 14                                                                              # Maximum J for which pressure broadening parameters provided
 0.0801                                                                          # Value of Lorentzian half-width for J" > Jmax
 0.500                                                                           # Value of temperature exponent for lines with J" > Jmax
@@ -132,7 +133,7 @@ a0                                                                              
 15                                                                              # No. of lines in the broad that contain this code
 0                                                                               # No. of quantum numbers defined
 He                                                                              # Label for a particular broadener
-14N-1H3__He.broad                                                               # Filename for a particular broadener
+14N-1H3__He.broad                                                               # Filename of particular broadener
 14                                                                              # Maximum J for which pressure broadening parameters provided
 0.0250                                                                          # Value of Lorentzian half-width for J" > Jmax
 0.500                                                                           # Value of temperature exponent for lines with J" > Jmax

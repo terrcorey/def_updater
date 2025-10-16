@@ -2,8 +2,9 @@ EXOMOL.def                                                                      
 (48Ti)(16O)                                                                     # IsoFormula
 48Ti-16O                                                                        # Iso-slug
 Toto                                                                            # Isotopologue dataset name
-20240509                                                                        # Version number with format YYYYMMD: origin. from 20190514 was replaced with Marvelisation of a1Delta and e1Sigma+ corrected
-KZWJQQBLIBIGGJ-DEQYMQKBSA-N                                                     # Inchi key of molecule
+20240509                                                                        # Version number with format YYYYMMDD
+InChI=1S/Ti.O/q+2;-2                                                            # In-ChI of molecule
+KZWJQQBLIBIGGJ-UHFFFAOYSA-N                                                     # In-ChI key of molecule
 2                                                                               # Number of atoms
 48                                                                              # Isotope number 1
 Ti                                                                              # Element symbol 1

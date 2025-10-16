@@ -2,6 +2,7 @@
     "isotopologue": {
         "iso_formula": "(1H)(12C)(14N)",
         "iso_slug": "1H-12C-14N",
+        "inchi": "InChI=1S/CHN/c1-2/h1H",
         "inchikey": "LELOWRISYMNNSU-UHFFFAOYSA-N",
         "mass_in_Da": 27.010899,
         "point_group": "C"
@@ -67,12 +68,6 @@
                     "cfmt": "%7d"
                 },
                 {
-                    "name": "unc",
-                    "desc": "Energy uncertainty in cm-1",
-                    "ffmt": "F12.6",
-                    "cfmt": "%12.6f"
-                },
-                {
                     "name": "tau",
                     "desc": "Lifetime in s",
                     "ffmt": "ES12.4",
@@ -136,6 +131,7 @@
         "default_Lorentzian_half-width": 0.084,
         "default_temperature_exponent": 0.5,
         "H2": {
+            "filename": "1H-12C-14N__H2.broad",
             "max_J": 9,
             "Lorentzian_half_width": 0.118,
             "temperature_exponent": 0.5,
@@ -161,6 +157,7 @@
             ]
         },
         "He": {
+            "filename": "1H-12C-14N__He.broad",
             "max_J": 10,
             "Lorentzian_half_width": 0.049,
             "temperature_exponent": 0.75,

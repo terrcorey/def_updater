@@ -3,7 +3,8 @@ EXOMOL.def                                                                      
 48Ti-1H                                                                         # Iso-slug
 MoLLIST                                                                         # Isotopologue dataset name
 20160726                                                                        # Version number with format YYYYMMDD
-FUMHXHODRLFENL-UHFFFAOYSA-N                                                     # Inchi key of molecule
+InChI=1S/Ti.H                                                                   # In-ChI of molecule
+FUMHXHODRLFENL-UHFFFAOYSA-N                                                     # In-ChI key of molecule
 2                                                                               # Number of atoms
 48                                                                              # Isotope number 1
 Ti                                                                              # Element symbol 1

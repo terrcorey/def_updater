@@ -3,7 +3,8 @@ EXOMOL.def                                                                      
 29Si-14N                                                                        # Iso-slug
 SiNfull                                                                         # Isotopologue dataset name
 20220809                                                                        # Version number with format YYYYMMDD
-NCLWWTWAYQTPBU-HQMMCQRPSA-N                                                     # Inchi key of molecule
+InChI=1S/NSi/c1-2/i2+1                                                          # In-ChI of molecule
+NCLWWTWAYQTPBU-VQEHIDDOSA-N                                                     # In-ChI key of molecule
 2                                                                               # Number of atoms
 29                                                                              # Isotope number 1
 Si                                                                              # Element symbol 1
