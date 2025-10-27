@@ -5320,27 +5320,27 @@
             },
             {
                 "Quantum label": "Ka",
-                "Format quantum label": "I2 %2d",
+                "Format quantum label": "I3 %2d",
                 "Description quantum label": "Ka rotational quantum number"
             },
             {
                 "Quantum label": "Kc",
-                "Format quantum label": "I2 %2d",
+                "Format quantum label": "I3 %2d",
                 "Description quantum label": "Kc rotational quantum number"
             },
             {
                 "Quantum label": "v1",
-                "Format quantum label": "I2 %2d",
+                "Format quantum label": "I3 %2d",
                 "Description quantum label": "v1 symmetric stretch quantum number(3)"
             },
             {
                 "Quantum label": "v2",
-                "Format quantum label": "I2 %2d",
+                "Format quantum label": "I3 %2d",
                 "Description quantum label": "v2 bend quantum number"
             },
             {
                 "Quantum label": "v3",
-                "Format quantum label": "I2 %2d",
+                "Format quantum label": "I3 %2d",
                 "Description quantum label": "v3 asymmetrics stretch quantum number"
             },
             {
