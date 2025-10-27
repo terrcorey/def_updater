@@ -103,10 +103,10 @@
                     "desc": "Projection of the total angular momentum Omega"
                 },
                 {
-                    "name": "dcs:F_i",
-                    "ffmt": "A4",
-                    "cfmt": "%4s",
-                    "desc": "Spin component"
+                    "name": "dcs:F",
+                    "ffmt": "I2",
+                    "cfmt": "%2d",
+                    "desc": "Fine structure counting number"
                 },
                 {
                     "name": "dcs:N",

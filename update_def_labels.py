@@ -694,7 +694,23 @@ def make_label_json():
         # Read rows 2-3 as a DataFrame (headers and types)
         try:
             data_rows = [list(row) for row in ws.iter_rows(min_row=2, max_row=3, values_only=True)]
+            state_rows = [list(row) for row in ws.iter_rows(min_row=4, max_row=4, values_only=True)][0]
+            headers = data_rows[0]
+            print(fname, "\n", headers, len(headers), "\n", state_rows, len(state_rows), "\n\n")
+            if headers[-1] is None:
+                if "tau" in headers and "unc" not in headers:
+                    data_rows[0].insert(4, "unc")
+                    data_rows[1].insert(4, "F12.6 %12.6f")
+                elif "unc" in headers and "tau" not in headers:
+                    data_rows[0].insert(5, "tau")
+                    data_rows[1].insert(5, "ES12.4 %12.4e")
+                elif "tau" not in headers and "unc" not in headers:
+                    data_rows[0].insert(4, "tau")
+                    data_rows[1].insert(4, "ES12.4 %12.4e")
+                data_rows[0].remove(None)
+                data_rows[1].remove(None)
             data_array = np.array(data_rows, dtype=object).T
+
         except Exception as e:
             error_log(f"Failed to create data array from rows 2-3 in sheet {ws.title}: {e}", "Critical")
             continue
@@ -726,7 +742,15 @@ def make_label_json():
                 "Description quantum label": desc_dict.get(label_name, "")
             }
             if label["Description quantum label"] == "":
-                error_log(f"Missing description for label '{label_name}' in sheet {ws.title}. Please check if you inputted the description correctly in the Excel file.")
+                error_log(f"Missing description for label '{label_name}' in sheet {ws.title}. Trying standard labels...", "Log")
+                standard_labels = load_standard_labels()
+                for std_label in standard_labels:
+                    if std_label["Quantum label"] == label_name:
+                        label["Description quantum label"] = std_label["Description quantum label"]
+                        error_log(f"Using standard label for '{label_name}' in sheet {ws.title}.", "Log")
+                        break
+                if label["Description quantum label"] == "":
+                    error_log(f"Description for label '{label_name}' not found in sheet {ws.title}.", "Error")
             label_dict["labels"].append(label)
         all_label_dicts.append(label_dict)
 

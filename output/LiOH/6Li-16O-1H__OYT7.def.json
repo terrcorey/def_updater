@@ -39,7 +39,7 @@
             "hyperfine_resolved_dataset": false,
             "uncertainty_description": null,
             "uncertainties_available": true,
-            "lifetime_available": false,
+            "lifetime_available": true,
             "lande_g_available": false,
             "num_quanta": 7,
             "states_file_fields": [
@@ -72,6 +72,12 @@
                     "desc": "Energy uncertainty in cm-1",
                     "ffmt": "F12.6",
                     "cfmt": "%12.6f"
+                },
+                {
+                    "name": "tau",
+                    "desc": "Lifetime in s",
+                    "ffmt": "ES12.4",
+                    "cfmt": "%12.4e"
                 },
                 {
                     "name": "hunda:+/-",

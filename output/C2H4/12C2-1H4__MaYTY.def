@@ -34,7 +34,7 @@ B3u                                                                             
 1                                                                               # Dipole availability (1=yes, 0=no)
 0                                                                               # No. of cross section files available
 0                                                                               # No. of k-coefficient files available
-0                                                                               # Lifetime availability (1=yes, 0=no)
+1                                                                               # Lifetime availability (1=yes, 0=no)
 0                                                                               # Lande g-factor availability (1=yes, 0=no)
 0                                                                               # Uncertainty availability (1=yes, 0=no)
 0                                                                               # Hyperfine resolved dataset (1=yes, 0=no)

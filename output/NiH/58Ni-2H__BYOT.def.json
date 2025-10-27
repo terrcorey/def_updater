@@ -35,7 +35,7 @@
         "states": {
             "number_of_states": 23201,
             "max_energy": 29948.214136,
-            "hyperfine_resolved_dataset": false,
+            "hyperfine_resolved_dataset": true,
             "uncertainty_description": null,
             "uncertainties_available": true,
             "lifetime_available": true,
@@ -61,7 +61,7 @@
                     "cfmt": "%6d"
                 },
                 {
-                    "name": "J",
+                    "name": "F",
                     "desc": "Total rotational quantum number, excluding nuclear spin",
                     "ffmt": "F7.1",
                     "cfmt": "%7.1f"

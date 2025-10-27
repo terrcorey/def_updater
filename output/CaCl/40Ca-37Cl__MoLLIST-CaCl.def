@@ -45,9 +45,9 @@ State vibrational quantum number                                                
 Omega                                                                           # Quantum label 5
 F5.1 %5.1f                                                                      # Format quantum label 5
 Projection of the total angular momentum Omega                                  # Description quantum label 5
-F_i                                                                             # Quantum label 6
-A4 %4s                                                                          # Format quantum label 6
-Spin component                                                                  # Description quantum label 6
+F                                                                               # Quantum label 6
+I2 %2d                                                                          # Format quantum label 6
+Fine structure counting number                                                  # Description quantum label 6
 N                                                                               # Quantum label 7
 I5 %5d                                                                          # Format quantum label 7
 Rotational angular momentum quantum number N                                    # Description quantum label 7

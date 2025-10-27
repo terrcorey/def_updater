@@ -37,7 +37,7 @@
             "max_energy": 49000.0,
             "hyperfine_resolved_dataset": false,
             "uncertainty_description": null,
-            "uncertainties_available": false,
+            "uncertainties_available": true,
             "lifetime_available": true,
             "lande_g_available": true,
             "num_quanta": 7,
@@ -65,6 +65,12 @@
                     "desc": "Total rotational quantum number, excluding nuclear spin",
                     "ffmt": "F7.1",
                     "cfmt": "%7.1f"
+                },
+                {
+                    "name": "unc",
+                    "desc": "Energy uncertainty in cm-1",
+                    "ffmt": "F12.6",
+                    "cfmt": "%12.6f"
                 },
                 {
                     "name": "tau",
