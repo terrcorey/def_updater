@@ -76,32 +76,32 @@
                 },
                 {
                     "name": "nltcs:Ka",
-                    "ffmt": "I2",
-                    "cfmt": "%2d",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
                     "desc": "Ka rotational quantum number"
                 },
                 {
                     "name": "nltcs:Kc",
-                    "ffmt": "I2",
-                    "cfmt": "%2d",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
                     "desc": "Kc rotational quantum number"
                 },
                 {
                     "name": "nltcs:v1",
-                    "ffmt": "I2",
-                    "cfmt": "%2d",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
                     "desc": "v1 symmetric stretch quantum number(3)"
                 },
                 {
                     "name": "nltcs:v2",
-                    "ffmt": "I2",
-                    "cfmt": "%2d",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
                     "desc": "v2 bend quantum number"
                 },
                 {
                     "name": "nltcs:v3",
-                    "ffmt": "I2",
-                    "cfmt": "%2d",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
                     "desc": "v3 asymmetrics stretch quantum number"
                 },
                 {

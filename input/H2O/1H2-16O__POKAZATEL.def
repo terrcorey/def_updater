@@ -35,19 +35,19 @@ B2                                                                              
 nltcs                                                                           # Quantum case label
 6                                                                               # No. of quanta defined
 Ka                                                                              # Quantum label 1
-I2 %2d                                                                          # Format quantum label 1
+I3 %3d                                                                          # Format quantum label 1
 Ka rotational quantum number                                                    # Description quantum label 1
 Kc                                                                              # Quantum label 2
-I2 %2d                                                                          # Format quantum label 2
+I3 %3d                                                                          # Format quantum label 2
 Kc rotational quantum number                                                    # Description quantum label 2
 v1                                                                              # Quantum label 3
-I2 %2d                                                                          # Format quantum label 3
+I3 %3d                                                                          # Format quantum label 3
 v1 symmetric stretch quantum number(3)                                          # Description quantum label 3
 v2                                                                              # Quantum label 4
-I2 %2d                                                                          # Format quantum label 4
+I3 %3d                                                                          # Format quantum label 4
 v2 bend quantum number                                                          # Description quantum label 4
 v3                                                                              # Quantum label 5
-I2 %2d                                                                          # Format quantum label 5
+I3 %3d                                                                          # Format quantum label 5
 v3 asymmetrics stretch quantum number                                           # Description quantum label 5
 Grve                                                                            # Quantum label 6
 A3 %3s                                                                          # Format quantum label 6
