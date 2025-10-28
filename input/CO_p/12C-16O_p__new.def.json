@@ -2,7 +2,8 @@
     "isotopologue": {
         "iso_formula": "(12C)(16O)+",
         "iso_slug": "12C-16O_p",
-        "inchikey": "XPRMKTHGXOVKEH-UHFFFAOYSA-N",
+        "inchi": "InChI=1S/CO/c1-2/q+1",
+        "inchikey": "BOJPITGAFFYFJK-UHFFFAOYSA-N",
         "mass_in_Da": 28.0096,
         "point_group": "Cs"
     },
@@ -18,9 +19,9 @@
         "Sigma-": 2
     },
     "dataset": {
-        "name": "AWXLZY",
+        "name": "new",
         "version": 20250902,
-        "doi": null,
+        "doi": "",
         "max_temperature": 9000.0,
         "n_L_default": 0.5,
         "num_pressure_broadeners": 0,

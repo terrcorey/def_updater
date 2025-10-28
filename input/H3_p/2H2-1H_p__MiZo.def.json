@@ -22,7 +22,7 @@
     "dataset": {
         "name": "MiZo",
         "version": 20221221,
-        "doi": "https://doi.org/10.1093/mnras/stad050",
+        "doi": "",
         "max_temperature": 2000.0,
         "n_L_default": 0.5,
         "num_pressure_broadeners": 0,

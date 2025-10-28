@@ -3950,7 +3950,7 @@
                 "Description quantum label": "Final angular momentum quantum number"
             },
             {
-                "Quantum label": "eS",
+                "Quantum label": "ElecState",
                 "Format quantum label": "A5 %5s",
                 "Description quantum label": "electronic state"
             },
@@ -3994,7 +3994,7 @@
                 "Description quantum label": "Final angular momentum quantum number"
             },
             {
-                "Quantum label": "eS",
+                "Quantum label": "ElecState",
                 "Format quantum label": "A5 %5s",
                 "Description quantum label": "electronic state"
             },
@@ -4038,7 +4038,7 @@
                 "Description quantum label": "Final angular momentum quantum number"
             },
             {
-                "Quantum label": "eS",
+                "Quantum label": "ElecState",
                 "Format quantum label": "A5 %5s",
                 "Description quantum label": "electronic state"
             },
@@ -4082,7 +4082,7 @@
                 "Description quantum label": "Final angular momentum quantum number"
             },
             {
-                "Quantum label": "eS",
+                "Quantum label": "ElecState",
                 "Format quantum label": "A5 %5s",
                 "Description quantum label": "electronic state"
             },
@@ -4126,7 +4126,7 @@
                 "Description quantum label": "Final angular momentum quantum number"
             },
             {
-                "Quantum label": "eS",
+                "Quantum label": "ElecState",
                 "Format quantum label": "A5 %5s",
                 "Description quantum label": "electronic state"
             },
@@ -10406,7 +10406,7 @@
                 "Description quantum label": "Rotationless-parity"
             },
             {
-                "Quantum label": "State",
+                "Quantum label": "ElecState",
                 "Format quantum label": "A12 %12s",
                 "Description quantum label": "Notation of the electronic state"
             },
@@ -10433,12 +10433,12 @@
             {
                 "Quantum label": "Auxiliary:SourceType",
                 "Format quantum label": "A2 %2s",
-                "Description quantum label": "State source (MARVEL/Experimental,Effective Hamiltonian,Calculated/Variational)"
+                "Description quantum label": "Ma=MARVEL,Ca=Calculated,EH=Effective Hamiltonian,IE=Isotopologue extrapolation"
             },
             {
                 "Quantum label": "Auxiliary:Ecal",
                 "Format quantum label": "F12.6 %12.6f",
-                "Description quantum label": "Variational (Calculated) Energy (in cm-1)"
+                "Description quantum label": "Calculated energy in cm-1"
             }
         ]
     },
@@ -10490,7 +10490,7 @@
                 "Description quantum label": "Rotationless-parity"
             },
             {
-                "Quantum label": "State",
+                "Quantum label": "ElecState",
                 "Format quantum label": "A12 %12s",
                 "Description quantum label": "Notation of the electronic state"
             },
@@ -10517,12 +10517,12 @@
             {
                 "Quantum label": "Auxiliary:SourceType",
                 "Format quantum label": "A2 %2s",
-                "Description quantum label": "State source (MARVEL/Experimental,Effective Hamiltonian,Calculated/Variational)"
+                "Description quantum label": "Ma=MARVEL,Ca=Calculated,EH=Effective Hamiltonian,IE=Isotopologue extrapolation"
             },
             {
                 "Quantum label": "Auxiliary:Ecal",
                 "Format quantum label": "F12.6 %12.6f",
-                "Description quantum label": "Variational (Calculated) Energy (in cm-1)"
+                "Description quantum label": "Calculated energy in cm-1"
             }
         ]
     },
@@ -10574,7 +10574,7 @@
                 "Description quantum label": "Rotationless-parity"
             },
             {
-                "Quantum label": "State",
+                "Quantum label": "ElecState",
                 "Format quantum label": "A12 %12s",
                 "Description quantum label": "Notation of the electronic state"
             },
@@ -10601,12 +10601,12 @@
             {
                 "Quantum label": "Auxiliary:SourceType",
                 "Format quantum label": "A2 %2s",
-                "Description quantum label": "State source (MARVEL/Experimental,Effective Hamiltonian,Calculated/Variational)"
+                "Description quantum label": "Ma=MARVEL,Ca=Calculated,EH=Effective Hamiltonian,IE=Isotopologue extrapolation"
             },
             {
                 "Quantum label": "Auxiliary:Ecal",
                 "Format quantum label": "F12.6 %12.6f",
-                "Description quantum label": "Variational (Calculated) Energy (in cm-1)"
+                "Description quantum label": "Calculated energy in cm-1"
             }
         ]
     },
@@ -10658,7 +10658,7 @@
                 "Description quantum label": "Rotationless-parity"
             },
             {
-                "Quantum label": "State",
+                "Quantum label": "ElecState",
                 "Format quantum label": "A12 %12s",
                 "Description quantum label": "Notation of the electronic state"
             },
@@ -10685,12 +10685,12 @@
             {
                 "Quantum label": "Auxiliary:SourceType",
                 "Format quantum label": "A2 %2s",
-                "Description quantum label": "State source (MARVEL/Experimental,Effective Hamiltonian,Calculated/Variational)"
+                "Description quantum label": "Ma=MARVEL,Ca=Calculated,EH=Effective Hamiltonian,IE=Isotopologue extrapolation"
             },
             {
                 "Quantum label": "Auxiliary:Ecal",
                 "Format quantum label": "F12.6 %12.6f",
-                "Description quantum label": "Variational (Calculated) Energy (in cm-1)"
+                "Description quantum label": "Calculated energy in cm-1"
             }
         ]
     },

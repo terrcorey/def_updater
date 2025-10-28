@@ -24,7 +24,7 @@
     "dataset": {
         "name": "MiZATeP",
         "version": 20230123,
-        "doi": "https://doi.org/10.1093/mnras/stad050",
+        "doi": "",
         "max_temperature": 5000.0,
         "n_L_default": 0.5,
         "num_pressure_broadeners": 0,

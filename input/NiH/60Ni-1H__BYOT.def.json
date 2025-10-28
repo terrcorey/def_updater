@@ -1,11 +1,11 @@
 {
     "isotopologue": {
-        "inchikey": "CVKWMACQVBBEIJ-YTBWXGASSA-N",
-        "inchi": "1S/Ni.H/i1+1;",
-        "mass_in_Da": 60.93861,
-        "point_group": "C",
         "iso_formula": "(60Ni)(1H)",
-        "iso_slug": "60Ni-1H"
+        "iso_slug": "60Ni-1H",
+        "inchi": "InChI=1S/Ni.H/i1+1;",
+        "inchikey": "CVKWMACQVBBEIJ-YTBWXGASSA-N",
+        "mass_in_Da": 60.93861,
+        "point_group": "C"
     },
     "atoms": {
         "number_of_atoms": 2,
@@ -15,13 +15,13 @@
         }
     },
     "irreducible_representations": {
-        "Sigma+": "12",
-        "Sigma-": "12"
+        "Sigma+": 12,
+        "Sigma-": 12
     },
     "dataset": {
         "name": "BYOT",
         "version": 20241209,
-        "doi": "10.1093/mnras/stae2710",
+        "doi": "",
         "max_temperature": 10000.0,
         "n_L_default": 0.5,
         "num_pressure_broadeners": 0,
@@ -35,6 +35,7 @@
         "states": {
             "number_of_states": 11986,
             "max_energy": 29927.037112,
+            "hyperfine_resolved_dataset": true,
             "uncertainty_description": null,
             "uncertainties_available": true,
             "lifetime_available": true,
@@ -60,7 +61,7 @@
                     "cfmt": "%6d"
                 },
                 {
-                    "name": "J",
+                    "name": "F",
                     "desc": "Total rotational quantum number, excluding nuclear spin",
                     "ffmt": "F7.1",
                     "cfmt": "%7.1f"
@@ -123,13 +124,13 @@
                     "name": "Auxiliary:SourceType",
                     "ffmt": "A2",
                     "cfmt": "%2s",
-                    "desc": "State source (MARVEL/Experimental,Effective Hamiltonian,Calculated/Variational)"
+                    "desc": "Ma=MARVEL,Ca=Calculated,EH=Effective Hamiltonian,IE=Isotopologue extrapolation"
                 },
                 {
                     "name": "Auxiliary:Ecal",
                     "ffmt": "F12.6",
                     "cfmt": "%12.6f",
-                    "desc": "Variational (Calculated) Energy (in cm-1)"
+                    "desc": "Calculated energy in cm-1"
                 }
             ]
         },

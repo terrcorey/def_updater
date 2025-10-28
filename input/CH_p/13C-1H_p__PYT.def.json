@@ -21,7 +21,7 @@
     "dataset": {
         "name": "PYT",
         "version": 20231219,
-        "doi": "10.1093/mnras/stad3909",
+        "doi": "",
         "max_temperature": 10000.0,
         "n_L_default": 0.5,
         "num_pressure_broadeners": 0,

@@ -21,7 +21,7 @@
     "dataset": {
         "name": "MoLLIST",
         "version": 20220713,
-        "doi": "10.3847/1538-4357/aa6bf5",
+        "doi": "",
         "max_temperature": 5000.0,
         "n_L_default": null,
         "num_pressure_broadeners": 0,

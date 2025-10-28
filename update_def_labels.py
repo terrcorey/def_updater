@@ -696,7 +696,6 @@ def make_label_json():
             data_rows = [list(row) for row in ws.iter_rows(min_row=2, max_row=3, values_only=True)]
             state_rows = [list(row) for row in ws.iter_rows(min_row=4, max_row=4, values_only=True)][0]
             headers = data_rows[0]
-            print(fname, "\n", headers, len(headers), "\n", state_rows, len(state_rows), "\n\n")
             if headers[-1] is None:
                 if "tau" in headers and "unc" not in headers:
                     data_rows[0].insert(4, "unc")

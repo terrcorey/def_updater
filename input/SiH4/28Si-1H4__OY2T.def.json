@@ -41,7 +41,7 @@
             "hyperfine_resolved_dataset": false,
             "uncertainty_description": null,
             "uncertainties_available": false,
-            "lifetime_available": false,
+            "lifetime_available": true,
             "lande_g_available": false,
             "num_quanta": 26,
             "states_file_fields": [
@@ -68,6 +68,12 @@
                     "desc": "Total rotational quantum number, excluding nuclear spin",
                     "ffmt": "I7",
                     "cfmt": "%7d"
+                },
+                {
+                    "name": "tau",
+                    "desc": "Lifetime in s",
+                    "ffmt": "ES12.4",
+                    "cfmt": "%12.4e"
                 },
                 {
                     "name": "sphcs:Gtot",

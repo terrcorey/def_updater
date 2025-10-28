@@ -21,7 +21,7 @@
     "dataset": {
         "name": "CLT",
         "version": 20160726,
-        "doi": "10.1111/j.1365-2966.2011.18723.x",
+        "doi": "",
         "max_temperature": 12000.0,
         "n_L_default": 0.5,
         "num_pressure_broadeners": 0,

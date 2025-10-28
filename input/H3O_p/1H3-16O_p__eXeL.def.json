@@ -25,7 +25,7 @@
     "dataset": {
         "name": "eXeL",
         "version": 20200707,
-        "doi": "10.1093/mnras/staa2034",
+        "doi": "",
         "max_temperature": 1500.0,
         "n_L_default": 0.5,
         "num_pressure_broadeners": 0,
@@ -42,7 +42,7 @@
             "hyperfine_resolved_dataset": false,
             "uncertainty_description": null,
             "uncertainties_available": true,
-            "lifetime_available": false,
+            "lifetime_available": true,
             "lande_g_available": false,
             "num_quanta": 17,
             "states_file_fields": [
@@ -75,6 +75,12 @@
                     "desc": "Energy uncertainty in cm-1",
                     "ffmt": "F12.6",
                     "cfmt": "%12.6f"
+                },
+                {
+                    "name": "tau",
+                    "desc": "Lifetime in s",
+                    "ffmt": "ES12.4",
+                    "cfmt": "%12.4e"
                 },
                 {
                     "name": "TROVE:Gtot",
