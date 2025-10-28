@@ -2,7 +2,7 @@ EXOMOL.def                                                                      
 (27Al)(2H)                                                                      # IsoFormula
 27Al-2H                                                                         # Iso-slug
 AloHa                                                                           # Isotopologue dataset name
-20240307                                                                        # Version number with format YYYYMMDD
+20251028                                                                        # Version number with format YYYYMMDD
 InChI=1S/Al.H/i;1+1                                                             # In-ChI of molecule
 SPRIOUNJHPCKPV-IEOVAKBOSA-N                                                     # In-ChI key of molecule
 2                                                                               # Number of atoms

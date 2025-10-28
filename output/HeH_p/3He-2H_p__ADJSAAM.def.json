@@ -20,7 +20,7 @@
     },
     "dataset": {
         "name": "ADJSAAM",
-        "version": 20200725,
+        "version": 20251028,
         "doi": "",
         "max_temperature": 9000.0,
         "n_L_default": 0.5,

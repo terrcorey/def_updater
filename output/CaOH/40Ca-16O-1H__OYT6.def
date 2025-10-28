@@ -2,7 +2,7 @@ EXOMOL.def                                                                      
 (40Ca)(16O)(1H)                                                                 # IsoFormula
 40Ca-16O-1H                                                                     # Iso-slug
 OYT6                                                                            # Isotopologue dataset name
-20230523                                                                        # Version number with format YYYYMMDD
+20251028                                                                        # Version number with format YYYYMMDD
 InChI=1S/Ca.2H2O/h;2*1H2/q+2;;/p-2                                              # In-ChI of molecule
 AXCZMVOFGPJBDE-UHFFFAOYSA-L                                                     # In-ChI key of molecule
 3                                                                               # Number of atoms

@@ -2,7 +2,7 @@ EXOMOL.def                                                                      
 (3He)(1H)+                                                                      # IsoFormula
 3He-1H_p                                                                        # Iso-slug
 ADJSAAM                                                                         # Isotopologue dataset name
-20200725                                                                        # Version number with format YYYYMMDD
+20251028                                                                        # Version number with format YYYYMMDD
 InChI=1S/HHe/h1H/q+1/i1-1                                                       # In-ChI of molecule
 HSFAAVLNFOAYQX-BJUDXGSMSA-N                                                     # In-ChI key of molecule
 2                                                                               # Number of atoms

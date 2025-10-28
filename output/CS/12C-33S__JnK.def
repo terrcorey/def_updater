@@ -2,7 +2,7 @@ EXOMOL.def                                                                      
 (12C)(33S)                                                                      # IsoFormula
 12C-33S                                                                         # Iso-slug
 JnK                                                                             # Isotopologue dataset name
-20160726                                                                        # Version number with format YYYYMMDD
+20251028                                                                        # Version number with format YYYYMMDD
 InChI=1S/CS/c1-2/i2+1                                                           # In-ChI of molecule
 DXHPZXWIPWDXHJ-VQEHIDDOSA-N                                                     # In-ChI key of molecule
 2                                                                               # Number of atoms

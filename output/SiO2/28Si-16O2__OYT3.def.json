@@ -22,7 +22,7 @@
     },
     "dataset": {
         "name": "OYT3",
-        "version": 20200201,
+        "version": 20251028,
         "doi": "10.5281/zenodo.5716838",
         "max_temperature": 3000.0,
         "n_L_default": 0.5,

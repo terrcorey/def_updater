@@ -2,7 +2,7 @@ EXOMOL.def                                                                      
 (75As)(1H)3                                                                     # IsoFormula
 75As-1H3                                                                        # Iso-slug
 CYT18                                                                           # Isotopologue dataset name
-20181113                                                                        # Version number with format YYYYMMDD
+20251028                                                                        # Version number with format YYYYMMDD
 1S/AsH3/h1H3                                                                    # In-ChI of molecule
 RBFQJDQYXXHULB-UHFFFAOYSA-N                                                     # In-ChI key of molecule
 4                                                                               # Number of atoms

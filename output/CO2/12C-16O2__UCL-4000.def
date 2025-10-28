@@ -2,7 +2,7 @@ EXOMOL.def                                                                      
 (12C)(16O)2                                                                     # IsoFormula
 12C-16O2                                                                        # Iso-slug
 UCL-4000                                                                        # Isotopologue dataset name
-20200630                                                                        # Version number with format YYYYMMDD
+20251028                                                                        # Version number with format YYYYMMDD
 InChI=1S/CO2/c2-1-3                                                             # In-ChI of molecule
 CURLTUGMZLYLDI-UHFFFAOYSA-N                                                     # In-ChI key of molecule
 3                                                                               # Number of atoms

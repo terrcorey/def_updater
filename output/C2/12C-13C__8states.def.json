@@ -19,7 +19,7 @@
     },
     "dataset": {
         "name": "8states",
-        "version": 20200824,
+        "version": 20251028,
         "doi": "10.5281/zenodo.5716928",
         "max_temperature": 8000.0,
         "n_L_default": 0.5,

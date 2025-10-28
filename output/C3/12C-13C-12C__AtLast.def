@@ -2,7 +2,7 @@ EXOMOL.def                                                                      
 (12C)(13C)(12C)                                                                 # IsoFormula
 12C-13C-12C                                                                     # Iso-slug
 AtLast                                                                          # Isotopologue dataset name
-20241023                                                                        # Version number with format YYYYMMDD
+20251028                                                                        # Version number with format YYYYMMDD
 InChI=1S/C3/c1-3-2/i3+1                                                         # In-ChI of molecule
 NVLRFXKSQQPKAD-LBPDFUHNSA-N                                                     # In-ChI key of molecule
 3                                                                               # Number of atoms

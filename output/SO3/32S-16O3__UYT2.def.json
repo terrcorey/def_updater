@@ -21,7 +21,7 @@
     },
     "dataset": {
         "name": "UYT2",
-        "version": 20170107,
+        "version": 20251028,
         "doi": "10.5281/zenodo.5716884",
         "max_temperature": 800.0,
         "n_L_default": 0.5,

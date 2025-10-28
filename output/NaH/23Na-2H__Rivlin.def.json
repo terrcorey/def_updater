@@ -20,7 +20,7 @@
     },
     "dataset": {
         "name": "Rivlin",
-        "version": 20160804,
+        "version": 20251028,
         "doi": "10.5281/zenodo.5363271",
         "max_temperature": 9000.0,
         "n_L_default": 0.5,

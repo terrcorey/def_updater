@@ -24,7 +24,7 @@
     },
     "dataset": {
         "name": "CoYuTe",
-        "version": 20200730,
+        "version": 20251028,
         "doi": "10.5281/zenodo.5716876",
         "max_temperature": 2000.0,
         "n_L_default": 0.5,

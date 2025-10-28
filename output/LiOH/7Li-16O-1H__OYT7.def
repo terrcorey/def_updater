@@ -2,7 +2,7 @@ EXOMOL.def                                                                      
 (7Li)(16O)(1H)                                                                  # IsoFormula
 7Li-16O-1H                                                                      # Iso-slug
 OYT7                                                                            # Isotopologue dataset name
-20230529                                                                        # Version number with format YYYYMMDD
+20251028                                                                        # Version number with format YYYYMMDD
 InChI=1S/Li.H2O/h;1H2/q+1;/p-1                                                  # In-ChI of molecule
 WMFOQBRAJBCJND-UHFFFAOYSA-M                                                     # In-ChI key of molecule
 3                                                                               # Number of atoms

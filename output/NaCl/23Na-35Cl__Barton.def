@@ -2,7 +2,7 @@ EXOMOL.def                                                                      
 (23Na)(35Cl)                                                                    # IsoFormula
 23Na-35Cl                                                                       # Iso-slug
 Barton                                                                          # Isotopologue dataset name
-20160726                                                                        # Version number with format YYYYMMDD
+20251028                                                                        # Version number with format YYYYMMDD
 InChI=1S/ClH.Na/h1H;/q;+1/p-1                                                   # In-ChI of molecule
 FAPWRFPIFSIZLT-UHFFFAOYSA-M                                                     # In-ChI key of molecule
 2                                                                               # Number of atoms

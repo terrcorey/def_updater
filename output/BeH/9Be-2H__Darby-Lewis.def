@@ -2,7 +2,7 @@ EXOMOL.def                                                                      
 (9Be)(2H)                                                                       # IsoFormula
 9Be-2H                                                                          # Iso-slug
 Darby-Lewis                                                                     # Isotopologue dataset name
-20180212                                                                        # Version number with format YYYYMMDD
+20251028                                                                        # Version number with format YYYYMMDD
 InChI=1S/Be.H/i2+1                                                              # In-ChI of molecule
 AYBCUKQQDUJLQN-UHFFFAOYSA-2                                                     # In-ChI key of molecule
 2                                                                               # Number of atoms

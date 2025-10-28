@@ -22,7 +22,7 @@
     },
     "dataset": {
         "name": "OY-Cis",
-        "version": 20250807,
+        "version": 20251028,
         "doi": "10.5281/zenodo.5716888",
         "max_temperature": 1000.0,
         "n_L_default": 0.53,

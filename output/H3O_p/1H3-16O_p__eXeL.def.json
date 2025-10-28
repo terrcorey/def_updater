@@ -24,7 +24,7 @@
     },
     "dataset": {
         "name": "eXeL",
-        "version": 20200707,
+        "version": 20251028,
         "doi": "",
         "max_temperature": 1500.0,
         "n_L_default": 0.5,

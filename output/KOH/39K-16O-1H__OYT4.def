@@ -2,7 +2,7 @@ EXOMOL.def                                                                      
 (39K)(16O)(1H)                                                                  # IsoFormula
 39K-16O-1H                                                                      # Iso-slug
 OYT4                                                                            # Isotopologue dataset name
-20250807                                                                        # Version number with format YYYYMMDD
+20251028                                                                        # Version number with format YYYYMMDD
 1S/K.H2O/h;1H2/q+1;/p-1                                                         # In-ChI of molecule
 KWYUFKZDYYNOTN-UHFFFAOYSA-M                                                     # In-ChI key of molecule
 3                                                                               # Number of atoms

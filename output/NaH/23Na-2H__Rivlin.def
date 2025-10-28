@@ -2,7 +2,7 @@ EXOMOL.def                                                                      
 (23Na)(2H)                                                                      # IsoFormula
 23Na-2H                                                                         # Iso-slug
 Rivlin                                                                          # Isotopologue dataset name
-20160804                                                                        # Version number with format YYYYMMDD
+20251028                                                                        # Version number with format YYYYMMDD
 InChI=1S/Na.H/i2+1                                                              # In-ChI of molecule
 MPMYQQHEHYDOCL-VQEHIDDOSA-N                                                     # In-ChI key of molecule
 2                                                                               # Number of atoms

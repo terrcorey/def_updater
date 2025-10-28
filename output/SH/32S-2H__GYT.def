@@ -2,7 +2,7 @@ EXOMOL.def                                                                      
 (32S)(2H)                                                                       # IsoFormula
 32S-2H                                                                          # Iso-slug
 GYT                                                                             # Isotopologue dataset name
-20190801                                                                        # Version number with format YYYYMMDD
+20251028                                                                        # Version number with format YYYYMMDD
 InChI=1S/HS/h1H/i1D                                                             # In-ChI of molecule
 XXXXXXXXXXXXXX-XXXXXXXXXX-3                                                     # In-ChI key of molecule
 2                                                                               # Number of atoms

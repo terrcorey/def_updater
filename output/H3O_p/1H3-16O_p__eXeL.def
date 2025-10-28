@@ -2,7 +2,7 @@ EXOMOL.def                                                                      
 (1H)3(16O)+                                                                     # IsoFormula
 1H3-16O_p                                                                       # Iso-slug
 eXeL                                                                            # Isotopologue dataset name
-20200707                                                                        # Version number with format YYYYMMDD
+20251028                                                                        # Version number with format YYYYMMDD
 1S/H2O/h1H2/p+1                                                                 # In-ChI of molecule
 XLYOFNOQVPJJNP-UHFFFAOYSA-O                                                     # In-ChI key of molecule
 4                                                                               # Number of atoms

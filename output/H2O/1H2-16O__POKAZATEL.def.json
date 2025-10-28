@@ -22,7 +22,7 @@
     },
     "dataset": {
         "name": "POKAZATEL",
-        "version": 20230621,
+        "version": 20251028,
         "doi": "10.1093/mnras/sty1877",
         "max_temperature": 6000.0,
         "n_L_default": 0.5,

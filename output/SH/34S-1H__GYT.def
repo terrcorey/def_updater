@@ -2,7 +2,7 @@ EXOMOL.def                                                                      
 (34S)(1H)                                                                       # IsoFormula
 34S-1H                                                                          # Iso-slug
 GYT                                                                             # Isotopologue dataset name
-20190801                                                                        # Version number with format YYYYMMDD
+20251028                                                                        # Version number with format YYYYMMDD
 InChI=1S/HS/h1H/i2+2                                                            # In-ChI of molecule
 PXQLVRUNWNTZOS-NJFSPNSNSA-N                                                     # In-ChI key of molecule
 2                                                                               # Number of atoms

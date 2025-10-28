@@ -21,7 +21,7 @@
     },
     "dataset": {
         "name": "CYT18",
-        "version": 20181113,
+        "version": 20251028,
         "doi": "10.5281/zenodo.5716840",
         "max_temperature": 300.0,
         "n_L_default": null,

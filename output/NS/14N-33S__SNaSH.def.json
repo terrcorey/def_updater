@@ -20,7 +20,7 @@
     },
     "dataset": {
         "name": "SNaSH",
-        "version": 20180101,
+        "version": 20251028,
         "doi": "10.5281/zenodo.5717015",
         "max_temperature": 5000.0,
         "n_L_default": 0.5,

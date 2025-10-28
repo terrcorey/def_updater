@@ -22,7 +22,7 @@
     },
     "dataset": {
         "name": "UCL-4000",
-        "version": 20200630,
+        "version": 20251028,
         "doi": "10.5281/zenodo.5716786",
         "max_temperature": 4000.0,
         "n_L_default": 0.695,

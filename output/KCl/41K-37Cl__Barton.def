@@ -2,7 +2,7 @@ EXOMOL.def                                                                      
 (41K)(37Cl)                                                                     # IsoFormula
 41K-37Cl                                                                        # Iso-slug
 Barton                                                                          # Isotopologue dataset name
-20160726                                                                        # Version number with format YYYYMMDD
+20251028                                                                        # Version number with format YYYYMMDD
 InChI=1S/ClH.K/h1H;/q;+1/p-1/i1+2;1+2                                           # In-ChI of molecule
 WCUXLLCKKVVCTQ-OPUYPRJVSA-M                                                     # In-ChI key of molecule
 2                                                                               # Number of atoms

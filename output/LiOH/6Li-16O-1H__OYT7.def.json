@@ -21,7 +21,7 @@
     },
     "dataset": {
         "name": "OYT7",
-        "version": 20250807,
+        "version": 20251028,
         "doi": "10.1093/mnras/stad3226",
         "max_temperature": 3000.0,
         "n_L_default": 0.5,
