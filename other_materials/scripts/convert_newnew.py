@@ -80,6 +80,8 @@ def def_to_json(def_file_path, json_file_path):
                 json_dict["isotopologue"]["inchi"] = line.split('#')[0].strip()
             elif '# In-ChI key of molecule' in line:
                 json_dict["isotopologue"]["inchikey"] = line.split('#')[0].strip()
+            elif '# CAS Registry Number' in line:
+                json_dict["isotopologue"]["cas_registry_number"] = line.split('#')[0].strip()
             elif '# Number of atoms' in line:
                 json_dict["atoms"]["number_of_atoms"] = int(line.split('#')[0].strip())
             elif '# Isotope number' in line:
@@ -141,22 +143,12 @@ def def_to_json(def_file_path, json_file_path):
                     json_dict["partition_function"]["partition_function_step_size"] = None
                 else:
                     json_dict["partition_function"]["partition_function_step_size"] = float(ssot_temp)
-            elif '# Default value of temperature exponent for all lines' in line:
-                dvotefal_temp = line.split('#')[0].strip()
-                if dvotefal_temp in ['NaN', '']:
-                    json_dict["dataset"]["n_L_default"] = None
-                else:
-                    json_dict["dataset"]["n_L_default"] = float(dvotefal_temp)
             elif '# Uncertainty availability (1=yes, 0=no)' in line:
                 json_dict["dataset"]["states"]["uncertainties_available"] = bool(int(line.split('#')[0].strip()))
             elif '# No. of pressure broadeners available' in line:
                 json_dict["dataset"]["num_pressure_broadeners"] = int(line.split('#')[0].strip())
             elif '# Dipole availability (1=yes, 0=no)' in line:
                 json_dict["dataset"]["dipole_available"] = bool(int(line.split('#')[0].strip()))
-            elif '# No. of cross section files available' in line:
-                json_dict["dataset"]["nxsec_files"] = int(line.split('#')[0].strip())
-            elif '# No. of k-coefficient files available' in line:
-                json_dict["dataset"]["nkcoeff_files"] = int(line.split('#')[0].strip())
             elif '# Lifetime availability (1=yes, 0=no)' in line:
                 json_dict["dataset"]["states"]["lifetime_available"] = bool(int(line.split('#')[0].strip()))
             elif '# Lande g-factor availability (1=yes, 0=no)' in line:
@@ -168,13 +160,26 @@ def def_to_json(def_file_path, json_file_path):
                 else:
                     json_dict["dataset"]["states"]["hyperfine_resolved_dataset"] = False
             elif '# Cooling function availability (1=yes, 0=no)' in line:
-                json_dict["dataset"]["cooling_function_available"] = bool(int(line.split('#')[0].strip()))
+                result = line.split('#')[0].strip()
+                if result == "None":
+                    result = False
+                else:
+                    result = bool(int(result))
+                json_dict["dataset"]["cooling_function_available"] = result
             elif '# Specific heat availability (1=yes, 0=no)' in line:
-                json_dict["dataset"]["specific_heat_available"] = bool(int(line.split('#')[0].strip()))
-            elif '# Continuum (1=yes, 0=no)' in line:
-                json_dict["dataset"]["continuum"] = bool(int(line.split('#')[0].strip()))
-            elif '# Predis (1=yes, 0=no)' in line:
-                json_dict["dataset"]["predis"] = bool(int(line.split('#')[0].strip()))
+                result = line.split('#')[0].strip()
+                if result == "None":
+                    result = False
+                else:
+                    result = bool(int(result))
+                json_dict["dataset"]["specific_heat_available"] = result
+            elif '# Photo-absorption continuum cross-sections availability (1=yes, 0=no)' in line:
+                result = line.split('#')[0].strip()
+                if result == "None" or result == None:
+                    result = False
+                else:
+                    result = bool(int(result))
+                json_dict["dataset"]["continuum"] = result
             elif '# Number of irreducible representations' in line:
                 num_irreps = int(line.split('#')[0].strip())
                 for _ in range(num_irreps): 
@@ -260,15 +265,25 @@ def def_to_json(def_file_path, json_file_path):
                     "desc": desc
                 })
             elif '# Default value of Lorentzian half-width for all lines (in cm-1/bar)' in line:
-                json_dict["broad"]["default_Lorentzian_half-width"] = float(line.split('#')[0].strip())
+                result = line.split('#')[0].strip()
+                if result == "None":
+                    result = None
+                else:
+                    result = float(result)
+                json_dict["broad"]["default_Lorentzian_half-width"] = result
             elif '# Default value of temperature exponent for all lines' in line:
-                json_dict["broad"]["default_temperature_exponent"] = float(line.split('#')[0].strip())
+                result = line.split('#')[0].strip()
+                if result == "None":
+                    result = None
+                else:
+                    result = float(result)
+                json_dict["broad"]["default_temperature_exponent"] = result
             elif '# Label for a particular broadener' in line:
                 broadener_label = line.split('#')[0].strip()
                 json_dict["broad"][broadener_label] = {}
             elif '# Higher energy with complete set of transitions (in cm-1)' in line:
                 max_energy = line.split('#')[0].strip()
-                if max_energy == 'NA' or max_energy == '' or max_energy == 'NaN':
+                if max_energy == 'NA' or max_energy == '' or max_energy == 'NaN' or max_energy == 'None':
                     json_dict["dataset"]["states"]["max_energy"] = None
                 else:
                     json_dict["dataset"]["states"]["max_energy"] = float(line.split('#')[0].strip())
@@ -344,6 +359,7 @@ def def_to_json(def_file_path, json_file_path):
             "iso_slug",
             "inchi",
             "inchikey",
+            "cas_registry_number",
             "mass_in_Da",
             "point_group"
         ]
@@ -368,21 +384,22 @@ def def_to_json(def_file_path, json_file_path):
             "version",
             "doi",
             "max_temperature",
-            "n_L_default",
             "num_pressure_broadeners",
-            "nxsec_files",
-            "nkcoeff_files",
-            "dipole_available",
             "cooling_function_available",
             "specific_heat_available",
             "continuum",
-            "predis",
             "states",
             "transitions"
         ]
 
         json_dict["dataset"] = {k: json_dict["dataset"].get(k) for k in dataset_keys_order}
         # print(json_dict)
+
+        broad_keys_order = [
+            "default_Lorentzian_half-width",
+            "default_temperature_exponent",
+            ""
+        ]
 
         insert_index = 4
         if json_dict["dataset"]["states"].get("uncertainties_available", False):

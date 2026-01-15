@@ -2,9 +2,10 @@
     "isotopologue": {
         "iso_formula": "(49Ti)(16O)",
         "iso_slug": "49Ti-16O",
-        "inchi": "InChI=1S/Ti.O/q+2;-2/i1+1;",
-        "inchikey": "KZWJQQBLIBIGGJ-YTBWXGASSA-N",
-        "mass_in_Da": 64.94278,
+        "inchi": "InChI=1S/O.Ti/i1+0;1+1",
+        "inchikey": "OGIDPMRJRNCKJF-LFSUVYIMSA-N",
+        "cas_registry_number": "12137-20-1",
+        "mass_in_Da": 64.94278462,
         "point_group": "C"
     },
     "atoms": {
@@ -23,15 +24,10 @@
         "version": 20240509,
         "doi": "10.5281/zenodo.5716760",
         "max_temperature": 5000.0,
-        "n_L_default": 0.5,
         "num_pressure_broadeners": 0,
-        "nxsec_files": 0,
-        "nkcoeff_files": 0,
-        "dipole_available": false,
         "cooling_function_available": false,
-        "specific_heat_available": null,
-        "continuum": null,
-        "predis": null,
+        "specific_heat_available": false,
+        "continuum": false,
         "states": {
             "number_of_states": 301371,
             "max_energy": 20000.0,

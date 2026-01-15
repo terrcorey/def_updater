@@ -4,7 +4,8 @@
         "iso_slug": "12C2-1H2",
         "inchi": "InChI=1S/C2H2/c1-2/h1-2H",
         "inchikey": "HSFWRNGVRCDJHI-UHFFFAOYSA-N",
-        "mass_in_Da": 26.0,
+        "cas_registry_number": "74-86-2",
+        "mass_in_Da": 26.01565006,
         "point_group": "Dinfh(M)"
     },
     "atoms": {
@@ -22,18 +23,13 @@
     },
     "dataset": {
         "name": "aCeTY",
-        "version": 20251028,
+        "version": 20220918,
         "doi": "10.5281/zenodo.5716842",
         "max_temperature": 2200.0,
-        "n_L_default": 0.59,
         "num_pressure_broadeners": 2,
-        "nxsec_files": 0,
-        "nkcoeff_files": 0,
-        "dipole_available": false,
         "cooling_function_available": false,
         "specific_heat_available": true,
-        "continuum": null,
-        "predis": null,
+        "continuum": false,
         "states": {
             "number_of_states": 5160803,
             "max_energy": 12000.0,

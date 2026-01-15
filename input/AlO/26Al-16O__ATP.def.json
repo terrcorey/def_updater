@@ -2,9 +2,10 @@
     "isotopologue": {
         "iso_formula": "(26Al)(16O)",
         "iso_slug": "26Al-16O",
-        "inchi": "InChI=1S/Al.O/i1-1",
-        "inchikey": "AIRCTMFFNKZQPN-BJUDXGSMSA-N",
-        "mass_in_Da": 41.981807,
+        "inchi": "InChI=1S/Al.O/i1-1;1+0",
+        "inchikey": "AIRCTMFFNKZQPN-KDQCXWKNSA-N",
+        "cas_registry_number": "None",
+        "mass_in_Da": 41.98180631,
         "point_group": "C"
     },
     "atoms": {
@@ -23,15 +24,10 @@
         "version": 20210622,
         "doi": "10.5281/zenodo.5716723",
         "max_temperature": 9000.0,
-        "n_L_default": 0.5,
         "num_pressure_broadeners": 0,
-        "nxsec_files": 0,
-        "nkcoeff_files": 0,
-        "dipole_available": false,
         "cooling_function_available": false,
-        "specific_heat_available": null,
-        "continuum": null,
-        "predis": null,
+        "specific_heat_available": false,
+        "continuum": false,
         "states": {
             "number_of_states": 93350,
             "max_energy": 15000.0,

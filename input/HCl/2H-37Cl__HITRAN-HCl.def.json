@@ -4,7 +4,8 @@
         "iso_slug": "2H-37Cl",
         "inchi": "InChI=1S/ClH/h1H/i1+2/hD",
         "inchikey": "VEXZGXHMUGYJMC-DQGQKLTASA-N",
-        "mass_in_Da": 38.98000436,
+        "cas_registry_number": "None",
+        "mass_in_Da": 38.98000437,
         "point_group": "C"
     },
     "atoms": {
@@ -23,15 +24,10 @@
         "version": 20160726,
         "doi": "0.1016/j.jqsrt.2017.06.038",
         "max_temperature": 5000.0,
-        "n_L_default": 0.5,
         "num_pressure_broadeners": 0,
-        "nxsec_files": 0,
-        "nkcoeff_files": 0,
-        "dipole_available": false,
         "cooling_function_available": false,
-        "specific_heat_available": null,
-        "continuum": null,
-        "predis": null,
+        "specific_heat_available": false,
+        "continuum": false,
         "states": {
             "number_of_states": 1552,
             "max_energy": null,

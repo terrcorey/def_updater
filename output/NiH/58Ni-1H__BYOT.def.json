@@ -2,9 +2,10 @@
     "isotopologue": {
         "iso_formula": "(58Ni)(1H)",
         "iso_slug": "58Ni-1H",
-        "inchi": "InChI=1S/Ni.H/i1-1;",
-        "inchikey": "CVKWMACQVBBEIJ-ULWFUOSBSA-N",
-        "mass_in_Da": 58.94317,
+        "inchi": "InChI=1S/Ni.H/i1-1;1+0",
+        "inchikey": "CVKWMACQVBBEIJ-KDQCXWKNSA-N",
+        "cas_registry_number": "None",
+        "mass_in_Da": 58.94316793,
         "point_group": "C"
     },
     "atoms": {
@@ -21,21 +22,16 @@
     "dataset": {
         "name": "BYOT",
         "version": 20241209,
-        "doi": "",
+        "doi": "10.1093/mnras/stae2710",
         "max_temperature": 10000.0,
-        "n_L_default": 0.5,
         "num_pressure_broadeners": 0,
-        "nxsec_files": 0,
-        "nkcoeff_files": 0,
-        "dipole_available": false,
         "cooling_function_available": false,
         "specific_heat_available": false,
-        "continuum": null,
-        "predis": null,
+        "continuum": false,
         "states": {
             "number_of_states": 11982,
             "max_energy": 29933.855601,
-            "hyperfine_resolved_dataset": true,
+            "hyperfine_resolved_dataset": false,
             "uncertainty_description": null,
             "uncertainties_available": true,
             "lifetime_available": true,
@@ -61,7 +57,7 @@
                     "cfmt": "%6d"
                 },
                 {
-                    "name": "F",
+                    "name": "J",
                     "desc": "Total rotational quantum number, excluding nuclear spin",
                     "ffmt": "F7.1",
                     "cfmt": "%7.1f"

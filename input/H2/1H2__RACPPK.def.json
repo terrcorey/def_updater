@@ -4,7 +4,8 @@
         "iso_slug": "1H2",
         "inchi": "InChI=1S/H2/h1H",
         "inchikey": "UFHFLCQGNIYNRP-UHFFFAOYSA-N",
-        "mass_in_Da": 1.00782503224,
+        "cas_registry_number": "None",
+        "mass_in_Da": 2.01565006,
         "point_group": "D_infh(EM)"
     },
     "atoms": {
@@ -21,17 +22,12 @@
     "dataset": {
         "name": "RACPPK",
         "version": 20230826,
-        "doi": "10.1051/0004-6361/201936249",
+        "doi": "10.1139/p94-112",
         "max_temperature": 10000.0,
-        "n_L_default": null,
         "num_pressure_broadeners": 0,
-        "nxsec_files": 0,
-        "nkcoeff_files": 0,
-        "dipole_available": false,
         "cooling_function_available": false,
         "specific_heat_available": true,
-        "continuum": null,
-        "predis": null,
+        "continuum": false,
         "states": {
             "number_of_states": 303,
             "max_energy": 35200.841676,
@@ -76,6 +72,7 @@
         },
         "transitions": {
             "number_of_transitions": 4712,
+            "number_of_transition_files": 1,
             "max_wavenumber": 36023.123654
         }
     },

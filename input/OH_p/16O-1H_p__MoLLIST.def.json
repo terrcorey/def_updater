@@ -2,9 +2,10 @@
     "isotopologue": {
         "iso_formula": "(16O)(1H)+",
         "iso_slug": "16O-1H_p",
-        "inchi": "InChI=1S/H2O/h1H2/p+1",
-        "inchikey": "XLYOFNOQVPJJNP-UHFFFAOYSA-X",
-        "mass_in_Da": 17.00274,
+        "inchi": "InChI=1S/HO/h1H/q+1",
+        "inchikey": "MSCUNRCIQGLERU-UHFFFAOYSA-N",
+        "cas_registry_number": "3352-57-6",
+        "mass_in_Da": 17.00219107,
         "point_group": "C"
     },
     "atoms": {
@@ -21,17 +22,12 @@
     "dataset": {
         "name": "MoLLIST",
         "version": 20220713,
-        "doi": "",
+        "doi": "10.3847/1538-4357/aa6bf5",
         "max_temperature": 5000.0,
-        "n_L_default": null,
         "num_pressure_broadeners": 0,
-        "nxsec_files": 0,
-        "nkcoeff_files": 0,
-        "dipole_available": false,
         "cooling_function_available": false,
-        "specific_heat_available": null,
-        "continuum": null,
-        "predis": null,
+        "specific_heat_available": false,
+        "continuum": false,
         "states": {
             "number_of_states": 823,
             "max_energy": 22861.7141,
@@ -79,10 +75,10 @@
                     "desc": "State vibrational quantum number"
                 },
                 {
-                    "name": "dcs:F",
-                    "ffmt": "I3",
-                    "cfmt": "%3d",
-                    "desc": "F1/F2/F3 spin component"
+                    "name": "dcs:F_i",
+                    "ffmt": "A4",
+                    "cfmt": "%4s",
+                    "desc": "Spin component"
                 },
                 {
                     "name": "dcs:e/f",

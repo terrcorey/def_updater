@@ -2,9 +2,10 @@
     "isotopologue": {
         "iso_formula": "(31P)(1H)",
         "iso_slug": "31P-1H",
-        "inchi": "InChI=1S/HP/h1H",
-        "inchikey": "BHEPBYXIRTUNPN-UHFFFAOYSA-N",
-        "mass_in_Da": 31.9817,
+        "inchi": "InChI=1S/HP/h1H/i1+0H",
+        "inchikey": "BHEPBYXIRTUNPN-HXFQMGJMSA-N",
+        "cas_registry_number": "13967-14-1",
+        "mass_in_Da": 31.98158666,
         "point_group": "C"
     },
     "atoms": {
@@ -23,15 +24,10 @@
         "version": 20190427,
         "doi": "10.5281/zenodo.5716703",
         "max_temperature": 4000.0,
-        "n_L_default": 0.5,
         "num_pressure_broadeners": 0,
-        "nxsec_files": 0,
-        "nkcoeff_files": 0,
-        "dipole_available": false,
         "cooling_function_available": false,
         "specific_heat_available": true,
-        "continuum": null,
-        "predis": null,
+        "continuum": false,
         "states": {
             "number_of_states": 2528,
             "max_energy": 24500.0,

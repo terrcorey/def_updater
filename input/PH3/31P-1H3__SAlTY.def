@@ -3,6 +3,7 @@ EXOMOL.def                                                                      
 31P-1H3                                                                         # Iso-slug
 SAlTY                                                                           # Isotopologue dataset name
 20170131                                                                        # Version number with format YYYYMMDD
+7803-51-2                                                                       # CAS Registry Number
 InChI=1S/H3P/h1H3                                                               # In-ChI of molecule
 XYFCBTPGUUZFHI-UHFFFAOYSA-N                                                     # In-ChI key of molecule
 4                                                                               # Number of atoms
@@ -10,7 +11,7 @@ XYFCBTPGUUZFHI-UHFFFAOYSA-N                                                     
 P                                                                               # Element symbol 1
 1                                                                               # Isotope number 2
 H                                                                               # Element symbol 2
-33.997237 5.64537393e-26                                                        # Isotopologue mass (Da) and (kg)
+33.99723673 5.64537398e-26                                                      # Isotopologue mass (Da) and (kg)
 C3v                                                                             # Symmetry group
 3                                                                               # Number of irreducible representations
 A1                                                                              # Irreducible representation label 1
@@ -21,14 +22,14 @@ E                                                                               
 8                                                                               # Nuclear spin degeneracy 3
 3000.00                                                                         # Maximum temperature of linelist
 2                                                                               # No. of pressure broadeners available
-0                                                                               # Dipole availability (1=yes, 0=no)
-0                                                                               # No. of cross section files available
-0                                                                               # No. of k-coefficient files available
+0                                                                               # Cooling function availability (1=yes, 0=no)
+1                                                                               # Specific heat availability (1=yes, 0=no)
+0                                                                               # Photo-absorption continuum cross-sections availability (1=yes, 0=no)
+9787832                                                                         # No. of states in .states file
+0                                                                               # Hyperfine resolved dataset (1=yes, 0=no)
+0                                                                               # Uncertainty availability (1=yes, 0=no)
 1                                                                               # Lifetime availability (1=yes, 0=no)
 0                                                                               # Lande g-factor availability (1=yes, 0=no)
-0                                                                               # Uncertainty availability (1=yes, 0=no)
-0                                                                               # Hyperfine resolved dataset (1=yes, 0=no)
-9787832                                                                         # No. of states in .states file
 1                                                                               # No. of quanta cases
 stcs                                                                            # Quantum case label
 18                                                                              # No. of quanta defined
@@ -92,8 +93,6 @@ Local mode vibrational QN6                                                      
 NaN                                                                             # Higher energy with complete set of transitions (in cm-1)
 3000.00                                                                         # Maximum temperature of partition function
 3.00                                                                            # Step size of temperature
-0                                                                               # Cooling function availability (1=yes, 0=no)
-1                                                                               # Specific heat availability (1=yes, 0=no)
 0.0750                                                                          # Default value of Lorentzian half-width for all lines (in cm-1/bar)
 0.530                                                                           # Default value of temperature exponent for all lines
 H2                                                                              # Label for a particular broadener

@@ -2,9 +2,10 @@
     "isotopologue": {
         "iso_formula": "(14N)(36S)",
         "iso_slug": "14N-36S",
-        "inchi": "InChI=1S/NS/c1-2/i2+4",
-        "inchikey": "QXTCFDCJXWLNAP-XKBLRHCCSA-N",
-        "mass_in_Da": 49.97015471,
+        "inchi": "InChI=1S/NS/c1-2/i1+0,2+4",
+        "inchikey": "QXTCFDCJXWLNAP-NYQHGNFPSA-N",
+        "cas_registry_number": "None",
+        "mass_in_Da": 49.97015476,
         "point_group": "C"
     },
     "atoms": {
@@ -23,15 +24,10 @@
         "version": 20180101,
         "doi": "10.5281/zenodo.5717019",
         "max_temperature": 5000.0,
-        "n_L_default": 0.5,
         "num_pressure_broadeners": 0,
-        "nxsec_files": 0,
-        "nkcoeff_files": 0,
-        "dipole_available": false,
         "cooling_function_available": false,
-        "specific_heat_available": null,
-        "continuum": null,
-        "predis": null,
+        "specific_heat_available": false,
+        "continuum": false,
         "states": {
             "number_of_states": 32620,
             "max_energy": 38254.449584,

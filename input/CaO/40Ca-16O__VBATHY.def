@@ -3,14 +3,15 @@ EXOMOL.def                                                                      
 40Ca-16O                                                                        # Iso-slug
 VBATHY                                                                          # Isotopologue dataset name
 20230220                                                                        # Version number with format YYYYMMDD
-InChI=1S/Ca.O                                                                   # In-ChI of molecule
-ODINCKMPIJJUCX-UHFFFAOYSA-N                                                     # In-ChI key of molecule
+1305-78-8                                                                       # CAS Registry Number
+InChI=1S/Ca.O/i2*1+0                                                            # In-ChI of molecule
+ODINCKMPIJJUCX-MHGBRSHDSA-N                                                     # In-ChI key of molecule
 2                                                                               # Number of atoms
 40                                                                              # Isotope number 1
 Ca                                                                              # Element symbol 1
 16                                                                              # Isotope number 2
 O                                                                               # Element symbol 2
-55.957506 9.29196233e-26                                                        # Isotopologue mass (Da) and (kg)
+55.95750560 9.29196242e-26                                                      # Isotopologue mass (Da) and (kg)
 C                                                                               # Symmetry group
 2                                                                               # Number of irreducible representations
 Sigma+                                                                          # Irreducible representation label 1
@@ -19,14 +20,14 @@ Sigma-                                                                          
 1                                                                               # Nuclear spin degeneracy 2
 8000.00                                                                         # Maximum temperature of linelist
 0                                                                               # No. of pressure broadeners available
-0                                                                               # Dipole availability (1=yes, 0=no)
-0                                                                               # No. of cross section files available
-0                                                                               # No. of k-coefficient files available
+0                                                                               # Cooling function availability (1=yes, 0=no)
+1                                                                               # Specific heat availability (1=yes, 0=no)
+0                                                                               # Photo-absorption continuum cross-sections availability (1=yes, 0=no)
+130660                                                                          # No. of states in .states file
+0                                                                               # Hyperfine resolved dataset (1=yes, 0=no)
+1                                                                               # Uncertainty availability (1=yes, 0=no)
 1                                                                               # Lifetime availability (1=yes, 0=no)
 0                                                                               # Lande g-factor availability (1=yes, 0=no)
-1                                                                               # Uncertainty availability (1=yes, 0=no)
-0                                                                               # Hyperfine resolved dataset (1=yes, 0=no)
-130660                                                                          # No. of states in .states file
 1                                                                               # No. of quanta cases
 hunda                                                                           # Quantum case label
 7                                                                               # No. of quanta defined
@@ -63,7 +64,5 @@ Ma=MARVEL,Ca=Calculated,EH=Effective Hamiltonian,IE=Isotopologue extrapolation  
 20000.00                                                                        # Higher energy with complete set of transitions (in cm-1)
 8000.00                                                                         # Maximum temperature of partition function
 1.00                                                                            # Step size of temperature
-0                                                                               # Cooling function availability (1=yes, 0=no)
-1                                                                               # Specific heat availability (1=yes, 0=no)
 0.0700                                                                          # Default value of Lorentzian half-width for all lines (in cm-1/bar)
 0.500                                                                           # Default value of temperature exponent for all lines

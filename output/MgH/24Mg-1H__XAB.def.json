@@ -2,9 +2,10 @@
     "isotopologue": {
         "iso_formula": "(24Mg)(1H)",
         "iso_slug": "24Mg-1H",
-        "inchi": "InChI=1S/Mg.H",
-        "inchikey": "RZCHRULKKYOSQS-UHFFFAOYSA-N",
-        "mass_in_Da": 24.992867,
+        "inchi": "InChI=1S/Mg.H/i2*1+0",
+        "inchikey": "RZCHRULKKYOSQS-MHGBRSHDSA-N",
+        "cas_registry_number": "14332-53-7",
+        "mass_in_Da": 24.99286673,
         "point_group": "C"
     },
     "atoms": {
@@ -23,15 +24,10 @@
         "version": 20220211,
         "doi": "10.1093/mnras/stac371",
         "max_temperature": 5000.0,
-        "n_L_default": 0.5,
         "num_pressure_broadeners": 0,
-        "nxsec_files": 0,
-        "nkcoeff_files": 0,
-        "dipole_available": false,
         "cooling_function_available": false,
         "specific_heat_available": true,
-        "continuum": null,
-        "predis": null,
+        "continuum": false,
         "states": {
             "number_of_states": 3148,
             "max_energy": null,

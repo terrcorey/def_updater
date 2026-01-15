@@ -3,8 +3,9 @@ EXOMOL.def                                                                      
 15N-14N-16O                                                                     # Iso-slug
 TYM                                                                             # Isotopologue dataset name
 20240527                                                                        # Version number with format YYYYMMDD
-InChI=1S/N2O/c1-2-3/i1+1                                                        # In-ChI of molecule
-GQPLMRYTRLFLPF-OUBTZVSYSA-N                                                     # In-ChI key of molecule
+10024-97-2                                                                      # CAS Registry Number
+InChI=1S/N2O/c1-2-3/i1+1,2+0                                                    # In-ChI of molecule
+GQPLMRYTRLFLPF-CRWWGTSDSA-N                                                     # In-ChI key of molecule
 3                                                                               # Number of atoms
 15                                                                              # Isotope number 1
 N                                                                               # Element symbol 1
@@ -12,7 +13,7 @@ N                                                                               
 O                                                                               # Element symbol 2
 16                                                                              # Isotope number 3
 O                                                                               # Element symbol 3
-44.9980975  7.47210990e-26                                                      # Isotopologue mass (Da) and (kg)
+44.99809752 7.47210990e-26                                                      # Isotopologue mass (Da) and (kg)
 CsM                                                                             # Symmetry group
 2                                                                               # Number of irreducible representations
 A'                                                                              # Irreducible representation label 1
@@ -21,14 +22,14 @@ A"                                                                              
 1                                                                               # Nuclear spin degeneracy 2
 2000.00                                                                         # Maximum temperature of linelist
 0                                                                               # No. of pressure broadeners available
-0                                                                               # Dipole availability (1=yes, 0=no)
-0                                                                               # No. of cross section files available
-0                                                                               # No. of k-coefficient files available
+0                                                                               # Cooling function availability (1=yes, 0=no)
+0                                                                               # Specific heat availability (1=yes, 0=no)
+0                                                                               # Photo-absorption continuum cross-sections availability (1=yes, 0=no)
+2171200                                                                         # No. of states in .states file
+0                                                                               # Hyperfine resolved dataset (1=yes, 0=no)
+1                                                                               # Uncertainty availability (1=yes, 0=no)
 1                                                                               # Lifetime availability (1=yes, 0=no)
 0                                                                               # Lande g-factor availability (1=yes, 0=no)
-1                                                                               # Uncertainty availability (1=yes, 0=no)
-0                                                                               # Hyperfine resolved dataset (1=yes, 0=no)
-2171200                                                                         # No. of states in .states file
 2                                                                               # No. of quanta cases
 dcs                                                                             # Quantum case label 1
 nltcs                                                                           # Quantum case label 2
@@ -63,7 +64,5 @@ Counting number according to state energy                                       
 20000.00                                                                        # Higher energy with complete set of transitions (in cm-1)
 3000.00                                                                         # Maximum temperature of partition function
 1.00                                                                            # Step size of temperature
-0                                                                               # Cooling function availability (1=yes, 0=no)
-0                                                                               # Specific heat availability (1=yes, 0=no)
 0.0700                                                                          # Default value of Lorentzian half-width for all lines (in cm-1/bar)
 0.500                                                                           # Default value of temperature exponent for all lines

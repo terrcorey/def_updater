@@ -4,7 +4,8 @@
         "iso_slug": "1H2-16O2",
         "inchi": "InChI=1S/H2O2/c1-2/h1-2H",
         "inchikey": "MHAJPDPJQMAIIY-UHFFFAOYSA-N",
-        "mass_in_Da": 34.005479,
+        "cas_registry_number": "7722-84-1",
+        "mass_in_Da": 34.0054793,
         "point_group": "D2h"
     },
     "atoms": {
@@ -29,15 +30,10 @@
         "version": 20160726,
         "doi": "10.5281/zenodo.5716870",
         "max_temperature": 9000.0,
-        "n_L_default": 0.5,
         "num_pressure_broadeners": 0,
-        "nxsec_files": 0,
-        "nkcoeff_files": 0,
-        "dipole_available": false,
         "cooling_function_available": false,
         "specific_heat_available": true,
-        "continuum": null,
-        "predis": null,
+        "continuum": false,
         "states": {
             "number_of_states": 7560352,
             "max_energy": 8000.0,

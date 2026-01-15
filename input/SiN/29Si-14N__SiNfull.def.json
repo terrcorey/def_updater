@@ -2,9 +2,10 @@
     "isotopologue": {
         "iso_formula": "(29Si)(14N)",
         "iso_slug": "29Si-14N",
-        "inchi": "InChI=1S/NSi/c1-2/i2+1",
-        "inchikey": "NCLWWTWAYQTPBU-VQEHIDDOSA-N",
-        "mass_in_Da": 42.979568,
+        "inchi": "InChI=1S/NSi/c1-2/i1+0,2+1",
+        "inchikey": "NCLWWTWAYQTPBU-DZEMCFCNSA-N",
+        "cas_registry_number": "None",
+        "mass_in_Da": 42.9795687,
         "point_group": "C"
     },
     "atoms": {
@@ -23,15 +24,10 @@
         "version": 20220809,
         "doi": "10.1093/mnras/stac2004",
         "max_temperature": 10000.0,
-        "n_L_default": 0.5,
         "num_pressure_broadeners": 0,
-        "nxsec_files": 0,
-        "nkcoeff_files": 0,
-        "dipole_available": false,
         "cooling_function_available": false,
-        "specific_heat_available": null,
-        "continuum": null,
-        "predis": null,
+        "specific_heat_available": false,
+        "continuum": false,
         "states": {
             "number_of_states": 132335,
             "max_energy": null,

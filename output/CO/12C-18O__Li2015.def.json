@@ -2,9 +2,10 @@
     "isotopologue": {
         "iso_formula": "(12C)(18O)",
         "iso_slug": "12C-18O",
-        "inchi": "InChI=1S/CO/c1-2/i2+2",
-        "inchikey": "UGFAIRIUMAVXCW-HQMMCQRPSA-N",
-        "mass_in_Da": 29.99915961,
+        "inchi": "InChI=1S/CO/c1-2/i1+0,2+2",
+        "inchikey": "UGFAIRIUMAVXCW-FNPQUGRCSA-N",
+        "cas_registry_number": "None",
+        "mass_in_Da": 29.999161,
         "point_group": "Cs"
     },
     "atoms": {
@@ -23,21 +24,16 @@
         "version": 20190722,
         "doi": "10.5281/zenodo.5716774",
         "max_temperature": 9000.0,
-        "n_L_default": 0.5,
         "num_pressure_broadeners": 0,
-        "nxsec_files": 0,
-        "nkcoeff_files": 0,
-        "dipole_available": false,
         "cooling_function_available": false,
-        "specific_heat_available": null,
-        "continuum": null,
-        "predis": null,
+        "specific_heat_available": false,
+        "continuum": false,
         "states": {
             "number_of_states": 6383,
             "max_energy": null,
-            "hyperfine_resolved_dataset": true,
+            "hyperfine_resolved_dataset": false,
             "uncertainty_description": null,
-            "uncertainties_available": false,
+            "uncertainties_available": true,
             "lifetime_available": false,
             "lande_g_available": false,
             "num_quanta": 3,
@@ -61,10 +57,16 @@
                     "cfmt": "%6d"
                 },
                 {
-                    "name": "F",
+                    "name": "J",
                     "desc": "Total rotational quantum number, excluding nuclear spin",
                     "ffmt": "I7",
                     "cfmt": "%7d"
+                },
+                {
+                    "name": "unc",
+                    "desc": "Energy uncertainty in cm-1",
+                    "ffmt": "F12.6",
+                    "cfmt": "%12.6f"
                 },
                 {
                     "name": "hundb:ElecState",

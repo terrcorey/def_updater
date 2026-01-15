@@ -2,9 +2,10 @@
     "isotopologue": {
         "iso_formula": "(1H)(37Cl)",
         "iso_slug": "1H-37Cl",
-        "inchi": "InChI=1S/ClH/h1H/i1+2",
-        "inchikey": "VEXZGXHMUGYJMC-NJFSPNSNSA-N",
-        "mass_in_Da": 36.98295447,
+        "inchi": "InChI=1S/ClH/h1H/i1+2/hH",
+        "inchikey": "VEXZGXHMUGYJMC-OXEDXLFZSA-N",
+        "cas_registry_number": "None",
+        "mass_in_Da": 37.97372762,
         "point_group": "C"
     },
     "atoms": {
@@ -23,15 +24,10 @@
         "version": 20160726,
         "doi": "0.1016/j.jqsrt.2017.06.038",
         "max_temperature": 5000.0,
-        "n_L_default": 0.5,
         "num_pressure_broadeners": 0,
-        "nxsec_files": 0,
-        "nkcoeff_files": 0,
-        "dipole_available": false,
         "cooling_function_available": false,
-        "specific_heat_available": null,
-        "continuum": null,
-        "predis": null,
+        "specific_heat_available": false,
+        "continuum": false,
         "states": {
             "number_of_states": 711,
             "max_energy": null,

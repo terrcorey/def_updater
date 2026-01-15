@@ -2,9 +2,10 @@ EXOMOL.def                                                                      
 (40Ca)(16O)(1H)                                                                 # IsoFormula
 40Ca-16O-1H                                                                     # Iso-slug
 OYT6                                                                            # Isotopologue dataset name
-20251028                                                                        # Version number with format YYYYMMDD
-InChI=1S/Ca.2H2O/h;2*1H2/q+2;;/p-2                                              # In-ChI of molecule
-AXCZMVOFGPJBDE-UHFFFAOYSA-L                                                     # In-ChI key of molecule
+20230523                                                                        # Version number with format YYYYMMDD
+12177-67-2                                                                      # CAS Registry Number
+InChI=1S/Ca.H2O/h;1H2/q+1;/p-1/i2*1+0/hH                                        # In-ChI of molecule
+KIZFHUJKFSNWKO-RTTLHEKESA-M                                                     # In-ChI key of molecule
 3                                                                               # Number of atoms
 40                                                                              # Isotope number 1
 Ca                                                                              # Element symbol 1
@@ -12,7 +13,7 @@ Ca                                                                              
 O                                                                               # Element symbol 2
 1                                                                               # Isotope number 3
 H                                                                               # Element symbol 3
-57.0850  9.479135505E-26                                                        # Isotopologue mass (Da) and (kg)
+56.96533063 9.45931571e-26                                                      # Isotopologue mass (Da) and (kg)
 C                                                                               # Symmetry group
 2                                                                               # Number of irreducible representations
 Sigma+                                                                          # Irreducible representation label 1
@@ -21,14 +22,14 @@ Sigma-                                                                          
 6                                                                               # Nuclear spin degeneracy 2
 3000.00                                                                         # Maximum temperature of linelist
 0                                                                               # No. of pressure broadeners available
-0                                                                               # Dipole availability (1=yes, 0=no)
-0                                                                               # No. of cross section files available
-0                                                                               # No. of k-coefficient files available
+0                                                                               # Cooling function availability (1=yes, 0=no)
+1                                                                               # Specific heat availability (1=yes, 0=no)
+0                                                                               # Photo-absorption continuum cross-sections availability (1=yes, 0=no)
+3187522                                                                         # No. of states in .states file
+0                                                                               # Hyperfine resolved dataset (1=yes, 0=no)
+1                                                                               # Uncertainty availability (1=yes, 0=no)
 1                                                                               # Lifetime availability (1=yes, 0=no)
 0                                                                               # Lande g-factor availability (1=yes, 0=no)
-1                                                                               # Uncertainty availability (1=yes, 0=no)
-0                                                                               # Hyperfine resolved dataset (1=yes, 0=no)
-3187522                                                                         # No. of states in .states file
 1                                                                               # No. of quanta cases
 hunda                                                                           # Quantum case label
 11                                                                              # No. of quanta defined
@@ -77,7 +78,5 @@ Ma=MARVEL,Ca=Calculated,EH=Effective Hamiltonian,IE=Isotopologue extrapolation  
 NaN                                                                             # Higher energy with complete set of transitions (in cm-1)
 5000.00                                                                         # Maximum temperature of partition function
 1.00                                                                            # Step size of temperature
-0                                                                               # Cooling function availability (1=yes, 0=no)
-1                                                                               # Specific heat availability (1=yes, 0=no)
 0.0840                                                                          # Default value of Lorentzian half-width for all lines (in cm-1/bar)
 0.500                                                                           # Default value of temperature exponent for all lines

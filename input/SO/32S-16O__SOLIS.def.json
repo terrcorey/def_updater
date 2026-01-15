@@ -2,9 +2,10 @@
     "isotopologue": {
         "iso_formula": "(32S)(16O)",
         "iso_slug": "32S-16O",
-        "inchi": "InChI=1S/OS/c1-2",
-        "inchikey": "XTQHKBHJIVJGKJ-UHFFFAOYSA-N",
-        "mass_in_Da": 48.064,
+        "inchi": "InChI=1S/OS/c1-2/i1+0,2+0",
+        "inchikey": "XTQHKBHJIVJGKJ-ZCWHFVSRSA-N",
+        "cas_registry_number": "13827-32-2",
+        "mass_in_Da": 47.96698562,
         "point_group": "C"
     },
     "atoms": {
@@ -23,15 +24,10 @@
         "version": 20230914,
         "doi": "10.1093/mnras/stad3508",
         "max_temperature": 5000.0,
-        "n_L_default": 0.5,
         "num_pressure_broadeners": 0,
-        "nxsec_files": 0,
-        "nkcoeff_files": 0,
-        "dipole_available": false,
         "cooling_function_available": false,
         "specific_heat_available": false,
-        "continuum": null,
-        "predis": null,
+        "continuum": false,
         "states": {
             "number_of_states": 84114,
             "max_energy": 43000.0,

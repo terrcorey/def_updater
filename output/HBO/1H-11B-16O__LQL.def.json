@@ -2,9 +2,10 @@
     "isotopologue": {
         "iso_formula": "(1H)(11B)(16O)",
         "iso_slug": "1H-11B-16O",
-        "inchi": "InChI=XXXXX-HBO",
-        "inchikey": "XXXXXXXXXXXXXX-YYYYYYYYHBO",
-        "mass_in_Da": 28.012045,
+        "inchi": "InChI=1S/BHO/c1-2/h1H/i1+0H,2+0",
+        "inchikey": "UXUFOKFTFHRQTE-VWHNNAKVSA-N",
+        "cas_registry_number": "None",
+        "mass_in_Da": 28.01204505,
         "point_group": "CsM"
     },
     "atoms": {
@@ -24,15 +25,10 @@
         "version": 20240522,
         "doi": "10.1039/D3CP05997A",
         "max_temperature": 3000.0,
-        "n_L_default": 0.5,
         "num_pressure_broadeners": 0,
-        "nxsec_files": 0,
-        "nkcoeff_files": 0,
-        "dipole_available": false,
         "cooling_function_available": false,
         "specific_heat_available": false,
-        "continuum": null,
-        "predis": null,
+        "continuum": false,
         "states": {
             "number_of_states": 441390,
             "max_energy": 23774.786069,

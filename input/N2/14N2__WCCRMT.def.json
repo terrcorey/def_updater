@@ -4,7 +4,8 @@
         "iso_slug": "14N2",
         "inchi": "InChI=1S/N2/c1-2",
         "inchikey": "IJGRMHOSHXDMSA-UHFFFAOYSA-N",
-        "mass_in_Da": 28.006482,
+        "cas_registry_number": "None",
+        "mass_in_Da": 28.006148,
         "point_group": "D_infh(EM)"
     },
     "atoms": {
@@ -23,15 +24,10 @@
         "version": 20240705,
         "doi": "10.5281/zenodo.5717009",
         "max_temperature": 8000.0,
-        "n_L_default": 0.5,
         "num_pressure_broadeners": 0,
-        "nxsec_files": 0,
-        "nkcoeff_files": 0,
-        "dipole_available": false,
         "cooling_function_available": false,
         "specific_heat_available": true,
-        "continuum": null,
-        "predis": null,
+        "continuum": false,
         "states": {
             "number_of_states": 40380,
             "max_energy": 100471.940015,
@@ -103,10 +99,10 @@
                     "desc": "State vibrational quantum number"
                 },
                 {
-                    "name": "hunda:F",
-                    "ffmt": "A2",
-                    "cfmt": "%2s",
-                    "desc": "F1/2/3 quantum number"
+                    "name": "hunda:F_i",
+                    "ffmt": "A4",
+                    "cfmt": "%4s",
+                    "desc": "Spin component"
                 },
                 {
                     "name": "hunda:N",
@@ -118,6 +114,7 @@
         },
         "transitions": {
             "number_of_transitions": 8389499,
+            "number_of_transition_files": 1,
             "max_wavenumber": 56011.0
         }
     },

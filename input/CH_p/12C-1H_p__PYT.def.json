@@ -4,7 +4,8 @@
         "iso_slug": "12C-1H_p",
         "inchi": "InChI=1S/CH/h1H/q+1",
         "inchikey": "WVVLBIYUCXYYEU-UHFFFAOYSA-N",
-        "mass_in_Da": 13.00783,
+        "cas_registry_number": "None",
+        "mass_in_Da": 13.00727645,
         "point_group": "C"
     },
     "atoms": {
@@ -21,17 +22,12 @@
     "dataset": {
         "name": "PYT",
         "version": 20231219,
-        "doi": "",
+        "doi": "10.1093/mnras/stad3909",
         "max_temperature": 10000.0,
-        "n_L_default": 0.5,
         "num_pressure_broadeners": 0,
-        "nxsec_files": 0,
-        "nkcoeff_files": 0,
-        "dipole_available": false,
         "cooling_function_available": false,
         "specific_heat_available": false,
-        "continuum": null,
-        "predis": null,
+        "continuum": false,
         "states": {
             "number_of_states": 1505,
             "max_energy": 42125.728083,

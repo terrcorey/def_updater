@@ -2,9 +2,10 @@
     "isotopologue": {
         "iso_formula": "(28Si)(32S)",
         "iso_slug": "28Si-32S",
-        "inchi": "InChI=1S/SSi/c1-2",
-        "inchikey": "DWFFKGPZNGKUPH-UHFFFAOYSA-N",
-        "mass_in_Da": 59.948998,
+        "inchi": "InChI=1S/SSi/c1-2/i1+0,2+0",
+        "inchikey": "DWFFKGPZNGKUPH-ZCWHFVSRSA-N",
+        "cas_registry_number": "12504-41-5",
+        "mass_in_Da": 59.94899753,
         "point_group": "C"
     },
     "atoms": {
@@ -23,15 +24,10 @@
         "version": 20180601,
         "doi": "10.5281/zenodo.5717037",
         "max_temperature": 5000.0,
-        "n_L_default": 0.5,
         "num_pressure_broadeners": 0,
-        "nxsec_files": 0,
-        "nkcoeff_files": 0,
-        "dipole_available": false,
         "cooling_function_available": false,
         "specific_heat_available": true,
-        "continuum": null,
-        "predis": null,
+        "continuum": false,
         "states": {
             "number_of_states": 10104,
             "max_energy": 36686.46,

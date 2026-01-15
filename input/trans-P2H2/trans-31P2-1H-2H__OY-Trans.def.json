@@ -1,10 +1,11 @@
 {
     "isotopologue": {
-        "iso_formula": "trans-(31P)2(1H)2",
+        "iso_formula": "trans-(31P)2(1H)(2H)",
         "iso_slug": "trans-31P2-1H-2H",
-        "inchi": "1S/H2P2/c1-2/h1-2H/t1,2+",
-        "inchikey": "SWJAOBXRZSMKNS-UHFFFAOYYY-N",
-        "mass_in_Da": 63.9634,
+        "inchi": "InChI=1S/H2P2/c1-2/h1-2H/i1+0,2+0D",
+        "inchikey": "SWJAOBXRZSMKNS-ZWYMUBPDSA-N",
+        "cas_registry_number": "None",
+        "mass_in_Da": 64.96945007,
         "point_group": "C2h"
     },
     "atoms": {
@@ -25,15 +26,10 @@
         "version": 20250807,
         "doi": "10.5281/zenodo.5716892",
         "max_temperature": 1000.0,
-        "n_L_default": 0.53,
         "num_pressure_broadeners": 0,
-        "nxsec_files": 0,
-        "nkcoeff_files": 0,
-        "dipole_available": false,
         "cooling_function_available": false,
         "specific_heat_available": true,
-        "continuum": null,
-        "predis": null,
+        "continuum": false,
         "states": {
             "number_of_states": 5881876,
             "max_energy": null,

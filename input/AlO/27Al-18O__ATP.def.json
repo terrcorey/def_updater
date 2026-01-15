@@ -2,9 +2,10 @@
     "isotopologue": {
         "iso_formula": "(27Al)(18O)",
         "iso_slug": "27Al-18O",
-        "inchi": "InChI=1S/Al.O/i2+2",
-        "inchikey": "AIRCTMFFNKZQPN-HQMMCQRPSA-N",
-        "mass_in_Da": 44.9807,
+        "inchi": "InChI=1S/Al.O/i1+0;1+2",
+        "inchikey": "AIRCTMFFNKZQPN-WMSMEIEASA-N",
+        "cas_registry_number": "None",
+        "mass_in_Da": 44.98069963,
         "point_group": "C"
     },
     "atoms": {
@@ -23,15 +24,10 @@
         "version": 20210622,
         "doi": "10.5281/zenodo.5716729",
         "max_temperature": 9000.0,
-        "n_L_default": 0.5,
         "num_pressure_broadeners": 0,
-        "nxsec_files": 0,
-        "nkcoeff_files": 0,
-        "dipole_available": false,
         "cooling_function_available": false,
-        "specific_heat_available": null,
-        "continuum": null,
-        "predis": null,
+        "specific_heat_available": false,
+        "continuum": false,
         "states": {
             "number_of_states": 98269,
             "max_energy": 15000.0,

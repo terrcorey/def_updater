@@ -2,9 +2,10 @@
     "isotopologue": {
         "iso_formula": "(2H)3+",
         "iso_slug": "2H3_p",
-        "inchi": "InChI=1S/H3/h1H2/q+1/i1+1D2",
-        "inchikey": "QWLPJNYQVKBMAN-WGVGGRBOSA-N",
-        "mass_in_Da": 6.041757,
+        "inchi": "InChI=1S/H3/c1-2-3-1/i1+1,2+1,3+1/q+1",
+        "inchikey": "FVJJEQURJXHDEY-PDOFMICISA-N",
+        "cas_registry_number": "None",
+        "mass_in_Da": 6.04175675,
         "point_group": "D3h"
     },
     "atoms": {
@@ -24,17 +25,12 @@
     "dataset": {
         "name": "MiZo",
         "version": 20230124,
-        "doi": "",
+        "doi": "10.1093/mnras/stx502",
         "max_temperature": 800.0,
-        "n_L_default": 0.5,
         "num_pressure_broadeners": 0,
-        "nxsec_files": 0,
-        "nkcoeff_files": 0,
-        "dipole_available": false,
         "cooling_function_available": false,
-        "specific_heat_available": null,
-        "continuum": null,
-        "predis": null,
+        "specific_heat_available": false,
+        "continuum": false,
         "states": {
             "number_of_states": 37410,
             "max_energy": null,

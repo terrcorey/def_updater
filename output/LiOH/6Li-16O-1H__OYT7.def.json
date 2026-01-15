@@ -2,9 +2,10 @@
     "isotopologue": {
         "iso_formula": "(6Li)(16O)(1H)",
         "iso_slug": "6Li-16O-1H",
-        "inchi": "InChI=(6Li)(16O)(1H)",
-        "inchikey": "WMFOQBRAJBCJND-LiOH-6-?????",
-        "mass_in_Da": 23.948,
+        "inchi": "InChI=1S/Li.H2O/h;1H2/q+1;/p-1/i1-1;1+0/hH",
+        "inchikey": "WMFOQBRAJBCJND-JMWGVYLYSA-M",
+        "cas_registry_number": "1310-66-3",
+        "mass_in_Da": 23.01786245,
         "point_group": "C"
     },
     "atoms": {
@@ -21,18 +22,13 @@
     },
     "dataset": {
         "name": "OYT7",
-        "version": 20251028,
+        "version": 20250807,
         "doi": "10.1093/mnras/stad3226",
         "max_temperature": 3000.0,
-        "n_L_default": 0.5,
         "num_pressure_broadeners": 0,
-        "nxsec_files": 0,
-        "nkcoeff_files": 0,
-        "dipole_available": false,
         "cooling_function_available": false,
         "specific_heat_available": true,
-        "continuum": null,
-        "predis": null,
+        "continuum": false,
         "states": {
             "number_of_states": 192412,
             "max_energy": null,

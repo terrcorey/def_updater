@@ -2,9 +2,10 @@
     "isotopologue": {
         "iso_formula": "(23Na)(16O)",
         "iso_slug": "23Na-16O",
-        "inchi": "InChI=1S/Na.O",
-        "inchikey": "IVAOQJNBYYIDSI-UHFFFAOYSA-N",
-        "mass_in_Da": 38.9892,
+        "inchi": "InChI=1S/Na.O/i2*1+0",
+        "inchikey": "IVAOQJNBYYIDSI-MHGBRSHDSA-N",
+        "cas_registry_number": "None",
+        "mass_in_Da": 38.9846839,
         "point_group": "Cs"
     },
     "atoms": {
@@ -23,15 +24,10 @@
         "version": 20211117,
         "doi": "10.5281/zenodo.5910816",
         "max_temperature": 2500.0,
-        "n_L_default": 0.5,
         "num_pressure_broadeners": 0,
-        "nxsec_files": 0,
-        "nkcoeff_files": 0,
-        "dipole_available": false,
         "cooling_function_available": false,
         "specific_heat_available": true,
-        "continuum": null,
-        "predis": null,
+        "continuum": false,
         "states": {
             "number_of_states": 36120,
             "max_energy": null,

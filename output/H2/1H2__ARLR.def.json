@@ -4,7 +4,8 @@
         "iso_slug": "1H2",
         "inchi": "InChI=1S/H2/h1H",
         "inchikey": "UFHFLCQGNIYNRP-UHFFFAOYSA-N",
-        "mass_in_Da": 1.00782503224,
+        "cas_registry_number": "None",
+        "mass_in_Da": 2.01565006,
         "point_group": "D_infh(EM)"
     },
     "atoms": {
@@ -23,21 +24,16 @@
         "version": 20230905,
         "doi": "10.1139/p94-112",
         "max_temperature": 10000.0,
-        "n_L_default": null,
         "num_pressure_broadeners": 0,
-        "nxsec_files": 0,
-        "nkcoeff_files": 0,
-        "dipole_available": false,
         "cooling_function_available": false,
         "specific_heat_available": false,
-        "continuum": null,
-        "predis": null,
+        "continuum": false,
         "states": {
             "number_of_states": 2051,
             "max_energy": null,
             "hyperfine_resolved_dataset": false,
             "uncertainty_description": null,
-            "uncertainties_available": false,
+            "uncertainties_available": true,
             "lifetime_available": false,
             "lande_g_available": false,
             "num_quanta": 2,
@@ -67,6 +63,12 @@
                     "cfmt": "%7d"
                 },
                 {
+                    "name": "unc",
+                    "desc": "Energy uncertainty in cm-1",
+                    "ffmt": "F12.6",
+                    "cfmt": "%12.6f"
+                },
+                {
                     "name": "hundb:ElecState",
                     "ffmt": "A12",
                     "cfmt": "%12s",
@@ -82,6 +84,7 @@
         },
         "transitions": {
             "number_of_transitions": 32915,
+            "number_of_transition_files": 1,
             "max_wavenumber": 118376.59
         }
     },

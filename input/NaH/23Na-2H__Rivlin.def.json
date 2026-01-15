@@ -2,9 +2,10 @@
     "isotopologue": {
         "iso_formula": "(23Na)(2H)",
         "iso_slug": "23Na-2H",
-        "inchi": "InChI=1S/Na.H/i2+1",
-        "inchikey": "MPMYQQHEHYDOCL-VQEHIDDOSA-N",
-        "mass_in_Da": 25.003871,
+        "inchi": "InChI=1S/Na.H/i1+0;1+1",
+        "inchikey": "MPMYQQHEHYDOCL-LFSUVYIMSA-N",
+        "cas_registry_number": "None",
+        "mass_in_Da": 25.00387106,
         "point_group": "C"
     },
     "atoms": {
@@ -23,15 +24,10 @@
         "version": 20160804,
         "doi": "10.5281/zenodo.5363271",
         "max_temperature": 9000.0,
-        "n_L_default": 0.5,
         "num_pressure_broadeners": 0,
-        "nxsec_files": 0,
-        "nkcoeff_files": 0,
-        "dipole_available": false,
         "cooling_function_available": false,
-        "specific_heat_available": null,
-        "continuum": null,
-        "predis": null,
+        "specific_heat_available": false,
+        "continuum": false,
         "states": {
             "number_of_states": 5960,
             "max_energy": 35000.0,

@@ -2,9 +2,10 @@
     "isotopologue": {
         "iso_formula": "(36S)(1H)",
         "iso_slug": "36S-1H",
-        "inchi": "InChI=1S/HS/h1H/i2+4",
-        "inchikey": "PXQLVRUNWNTZOS-RNFDNDRNSA-N",
-        "mass_in_Da": 36.97490574,
+        "inchi": "InChI=1S/HS/h1H/i1+4H",
+        "inchikey": "PXQLVRUNWNTZOS-QLHGJRNSSA-N",
+        "cas_registry_number": "None",
+        "mass_in_Da": 36.97490579,
         "point_group": "C"
     },
     "atoms": {
@@ -20,18 +21,13 @@
     },
     "dataset": {
         "name": "GYT",
-        "version": 20251028,
+        "version": 20190801,
         "doi": "10.5281/zenodo.5716713",
         "max_temperature": 5000.0,
-        "n_L_default": 0.5,
         "num_pressure_broadeners": 0,
-        "nxsec_files": 0,
-        "nkcoeff_files": 0,
-        "dipole_available": false,
         "cooling_function_available": false,
-        "specific_heat_available": null,
-        "continuum": null,
-        "predis": null,
+        "specific_heat_available": false,
+        "continuum": false,
         "states": {
             "number_of_states": 7709,
             "max_energy": 31000.0,

@@ -2,9 +2,10 @@
     "isotopologue": {
         "iso_formula": "(41K)(35Cl)",
         "iso_slug": "41K-35Cl",
-        "inchi": "InChI=1S/ClH.K/h1H;/q;+1/p-1/i;1+2",
-        "inchikey": "WCUXLLCKKVVCTQ-NLQOEHMXSA-M",
-        "mass_in_Da": 75.930679,
+        "inchi": "InChI=1S/ClH.K/h1H;/q;+1/p-1/i1+0;1+2",
+        "inchikey": "WCUXLLCKKVVCTQ-WMSMEIEASA-M",
+        "cas_registry_number": "None",
+        "mass_in_Da": 75.93067844,
         "point_group": "C"
     },
     "atoms": {
@@ -20,18 +21,13 @@
     },
     "dataset": {
         "name": "Barton",
-        "version": 20251028,
+        "version": 20160726,
         "doi": "10.5281/zenodo.5716981",
         "max_temperature": 3000.0,
-        "n_L_default": 0.5,
         "num_pressure_broadeners": 0,
-        "nxsec_files": 0,
-        "nkcoeff_files": 0,
-        "dipole_available": false,
         "cooling_function_available": false,
-        "specific_heat_available": null,
-        "continuum": null,
-        "predis": null,
+        "specific_heat_available": false,
+        "continuum": false,
         "states": {
             "number_of_states": 60741,
             "max_energy": 20000.0,

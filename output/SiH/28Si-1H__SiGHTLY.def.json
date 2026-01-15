@@ -2,8 +2,9 @@
     "isotopologue": {
         "iso_formula": "(28Si)(1H)",
         "iso_slug": "28Si-1H",
-        "inchi": "InChI=1S/Si.H",
-        "inchikey": "QHGSGZLLHBKSAH-UHFFFAOYSA-N",
+        "inchi": "InChI=1S/HSi/h1H/i1+0H",
+        "inchikey": "QHGSGZLLHBKSAH-HXFQMGJMSA-N",
+        "cas_registry_number": "13774-94-2",
         "mass_in_Da": 28.98475156,
         "point_group": "C"
     },
@@ -20,18 +21,13 @@
     },
     "dataset": {
         "name": "SiGHTLY",
-        "version": 20251028,
+        "version": 20171101,
         "doi": "10.5281/zenodo.5716715",
         "max_temperature": 5000.0,
-        "n_L_default": 0.5,
         "num_pressure_broadeners": 0,
-        "nxsec_files": 0,
-        "nkcoeff_files": 0,
-        "dipole_available": false,
         "cooling_function_available": false,
         "specific_heat_available": true,
-        "continuum": null,
-        "predis": null,
+        "continuum": false,
         "states": {
             "number_of_states": 11785,
             "max_energy": 32000.0,

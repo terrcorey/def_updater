@@ -2,9 +2,10 @@
     "isotopologue": {
         "iso_formula": "(31P)(16O)",
         "iso_slug": "31P-16O",
-        "inchi": "InChI=1S/OP/c1-2",
-        "inchikey": "LFGREXWGYUGZLY-UHFFFAOYSA-N",
-        "mass_in_Da": 46.96867624956,
+        "inchi": "InChI=1S/OP/c1-2/i1+0,2+0",
+        "inchikey": "LFGREXWGYUGZLY-ZCWHFVSRSA-N",
+        "cas_registry_number": "14452-66-5",
+        "mass_in_Da": 46.96867625,
         "point_group": "C"
     },
     "atoms": {
@@ -20,18 +21,13 @@
     },
     "dataset": {
         "name": "POPS",
-        "version": 20251028,
+        "version": 20170910,
         "doi": "10.5281/zenodo.5716784",
         "max_temperature": 5000.0,
-        "n_L_default": 0.5,
         "num_pressure_broadeners": 0,
-        "nxsec_files": 0,
-        "nkcoeff_files": 0,
-        "dipole_available": false,
         "cooling_function_available": false,
         "specific_heat_available": true,
-        "continuum": null,
-        "predis": null,
+        "continuum": false,
         "states": {
             "number_of_states": 43148,
             "max_energy": 49000.0,

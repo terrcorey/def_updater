@@ -2,9 +2,10 @@
     "isotopologue": {
         "iso_formula": "(23Na)(37Cl)",
         "iso_slug": "23Na-37Cl",
-        "inchi": "InChI=1S/ClH.Na/h1H;/q;+1/p-1/i1+2;",
-        "inchikey": "FAPWRFPIFSIZLT-DEQYMQKBSA-M",
-        "mass_in_Da": 59.955672,
+        "inchi": "InChI=1S/ClH.Na/h1H;/q;+1/p-1/i1+2;1+0",
+        "inchikey": "FAPWRFPIFSIZLT-OJTQQMQBSA-M",
+        "cas_registry_number": "None",
+        "mass_in_Da": 59.95567187,
         "point_group": "C"
     },
     "atoms": {
@@ -23,15 +24,10 @@
         "version": 20160726,
         "doi": "10.5281/zenodo.5717025",
         "max_temperature": 3000.0,
-        "n_L_default": 0.5,
         "num_pressure_broadeners": 0,
-        "nxsec_files": 0,
-        "nkcoeff_files": 0,
-        "dipole_available": false,
         "cooling_function_available": false,
-        "specific_heat_available": null,
-        "continuum": null,
-        "predis": null,
+        "specific_heat_available": false,
+        "continuum": false,
         "states": {
             "number_of_states": 49550,
             "max_energy": 20000.0,

@@ -2,9 +2,10 @@
     "isotopologue": {
         "iso_formula": "(45Sc)(1H)",
         "iso_slug": "45Sc-1H",
-        "inchi": "InChI=1S/Sc.H",
-        "inchikey": "ZTOCXCPDHKWLBM-UHFFFAOYSA-N",
-        "mass_in_Da": 45.963737,
+        "inchi": "InChI=1S/Sc.H/i2*1+0",
+        "inchikey": "ZTOCXCPDHKWLBM-MHGBRSHDSA-N",
+        "cas_registry_number": "33486-02-01",
+        "mass_in_Da": 45.96373693,
         "point_group": "C"
     },
     "atoms": {
@@ -20,18 +21,13 @@
     },
     "dataset": {
         "name": "LYT",
-        "version": 20251028,
+        "version": 20160726,
         "doi": "10.5281/zenodo.5363276",
         "max_temperature": 5000.0,
-        "n_L_default": 0.5,
         "num_pressure_broadeners": 0,
-        "nxsec_files": 0,
-        "nkcoeff_files": 0,
-        "dipole_available": false,
         "cooling_function_available": false,
         "specific_heat_available": true,
-        "continuum": null,
-        "predis": null,
+        "continuum": false,
         "states": {
             "number_of_states": 8451,
             "max_energy": 15000.0,

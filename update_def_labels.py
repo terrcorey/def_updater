@@ -375,7 +375,7 @@ def line_formatter(value, desc):
     """Formats a line for the new definition file."""
     value = str(value).strip()
     desc = str(desc).strip()
-    if value == "None" or value == None:
+    if value == None:
         if desc == "Quantum case label":
             return ""
         else:
@@ -402,6 +402,8 @@ def label_formatter(labels_dict):
             for key in keys:
                 result += line_formatter(dict[key], f"{key} {i+1}")
     except Exception as e:
+
+        print(labels_dict)
         error_log(f"Dataset: {filename} || {e}", "Critical")
         result = ""
     return result
@@ -450,16 +452,38 @@ def def_dict_update(mol, def_dict, labels_info):
         else:
             labels_list.append(dict["Quantum label"])
     backend_master = load_backend_master_file()
+    inchi_input = pd.read_csv("other_materials/lib/inchikey_input.csv", header=None)
+    cas_input = pd.read_csv("other_materials/lib/CAS_numbers.csv", header=0)
+
+    iso_slug = def_dict.get("Iso-slug", None)
+    cas_number = ""
+    for _, row in cas_input.iterrows():
+        if str(row.iloc[0]) == str(iso_slug):
+            cas_number = str(row.iloc[2])
+            break
+    if not cas_number:
+        error_log(f"Dataset: {filename} || No matching CAS number found for iso-slug '{iso_slug}' in CAS_numbers.csv", "Warn")
+        cas_number = None
+
+    def_dict["CAS Registry Number"] = cas_number
 
     bools = {
-        "Lifetime availability": 0,
-        "Lande g-factor availability": 0,
+        "Hyperfine resolved dataset": 0,
         "Uncertainty availability": 0,
-        "Hyperfine resolved dataset": 0
+        "Lifetime availability": 0,
+        "Lande g-factor availability": 0
     }
 
     keys = list(def_dict.keys())
     for key in keys:
+        if "Photo-dissociation cross-sections" in key:
+            def_dict.pop(key, None)
+        if "Dipole availability" in key:
+            def_dict.pop(key, None)
+        if "No. of k-coefficient files available" in key:
+            def_dict.pop(key, None)
+        if "No. of cross section files available" in key:
+            def_dict.pop(key, None)
         if "Lifetime availability" in key:
             def_dict.pop(key, None)
         if "Lande g-factor availability" in key:
@@ -468,22 +492,37 @@ def def_dict_update(mol, def_dict, labels_info):
             def_dict.pop(key, None)
         if "Hyperfine resolved dataset" in key:
             def_dict.pop(key, None)
-        if "Inchi key of molecule" in key:
-            try:
-                iso_formula = def_dict["IsoFormula"]
-                inchi = backend_master[mol][iso_formula]["inchi"]
-                inchikey = backend_master[mol][iso_formula]["inchikey"]
+        if "In-ChI key of molecule" in key:
+            iso_formula = def_dict["IsoFormula"]
+            formula_list = inchi_input.iloc[:, 0].tolist()
+            match_indices = [i for i, formula in enumerate(formula_list) if str(formula) == str(iso_formula)]
+            if match_indices:
+                matching_row = inchi_input.iloc[match_indices[0]]
+                inchi = matching_row.iloc[2]
+                inchikey = matching_row.iloc[3]
                 def_dict["In-ChI of molecule"] = inchi
                 def_dict["In-ChI key of molecule"] = inchikey
+            else:
+                inchi = ""
+                inchikey = ""
+                error_log(f"Dataset: {filename} || No matching In-ChI/In-ChI key found for IsoFormula '{iso_formula}' in inchikey_input.csv", "Warn")
+        if "Isotopologue mass" in key:
+            iso_formula = def_dict["IsoFormula"]
+            formula_list = inchi_input.iloc[:, 0].tolist()
+            match_indices = [i for i, formula in enumerate(formula_list) if str(formula) == str(iso_formula)]
+            if match_indices:
+                matching_row = inchi_input.iloc[match_indices[0]]
+                mass = matching_row.iloc[4]
+                mass_kg = matching_row.iloc[5]
+                mass = float(mass)
+                mass_kg = float(mass_kg)
                 def_dict.pop(key, None)
-            except KeyError as e:
-                try:
-                    inchi = def_dict.get("In-ChI of molecule", None)
-                    inchikey = def_dict.get("In-ChI key of molecule", None)
-                    def_dict.pop(key, None)
-                except KeyError as e:
-                    error_log(f"Dataset: {filename} || In-ChI/In-ChI key not found in backend master file: {e}", "Warn")
-                    pass
+                def_dict["Isotopologue mass (Da) and (kg)"] = f"{mass:.8f} {mass_kg:.8e}"
+            else:
+                mass = ""
+                mass_kg = ""
+                error_log(f"Dataset: {filename} || No matching mass found for IsoFormula '{iso_formula}' in inchikey_input.csv", "Warn")
+        
 
     standard_labels = load_standard_labels()
     if labels_list[3] == "F":
@@ -576,7 +615,8 @@ def def_dict_update(mol, def_dict, labels_info):
     def_dict["Quantum labels"] = new_labels
     def_dict["No. of quanta defined"] = len(new_labels)
 
-def update_def(def_file_path, def_dict):
+
+def update_def(def_file_path, structure_path, def_dict):
     """Creates a new definition file with updated labels."""
     os.makedirs(os.path.join(os.getcwd(), "output"), exist_ok=True)
     mol = os.path.basename(os.path.dirname(def_file_path))
@@ -585,11 +625,62 @@ def update_def(def_file_path, def_dict):
     output_file_path = os.path.join(output_dir, os.path.basename(def_file_path))
     
     keys = list(def_dict.keys())
+    with open(structure_path, 'r') as f:
+        def_structure = f.readlines()
+    with open(output_file_path, 'w') as output_file:
+        for entry in def_structure:
+            if "#" in entry:
+                desc = entry.split("#", 1)[1].strip()
+                if desc not in keys:
+                    if "(1=yes, 0=no)" in desc:
+                        output_file.write(line_formatter("0", desc))
+                    else:
+                        output_file.write(line_formatter("None", desc))
+                    error_log(f"Dataset: {filename} || Missing key '{desc}' in definition file.", "Warn")
+                else:
+                    value = def_dict.get(desc)
+                    output_file.write(line_formatter(value, desc))
+                    def_dict.pop(desc, None)
+            elif "&" in entry:
+                desc = entry.split("&", 1)[1].strip()
+                if desc not in keys and desc == "Broadening parameters":
+                    pass
+                elif desc not in keys:
+                    error_log(f"Dataset: {filename} || Missing key '{desc}' in definition file.")
+                elif desc == "bools":
+                    output_file.write(bool_formmatter(def_dict.get("bools", {})))
+                    def_dict.pop(desc, None)
+                elif desc == "Broadening parameters":
+                    output_file.write(broadener_formatter(def_dict.get("Broadening parameters", [])))
+                    def_dict.pop(desc, None)
+                elif desc == "Quantum case label":
+                    case_labels = def_dict.get(desc, [])
+                    if isinstance(case_labels, list):
+                        for i, case in enumerate(case_labels):
+                            output_file.write(line_formatter(case, f"Quantum case label {i+1}"))
+                    else:
+                        output_file.write(line_formatter(case_labels, f"Quantum case label"))
+                    def_dict.pop("Quantum case label", None)
+                elif isinstance(def_dict.get(desc), list):
+                    output_file.write(label_formatter(def_dict.get(desc, [])))
+                    def_dict.pop(desc, None)
+                else:
+                    value = def_dict.get(desc)
+                    output_file.write(line_formatter(value, desc))
+                    def_dict.pop(desc, None)
+            else:
+                error_log(f"Dataset: {filename} || Malformed line in structure file: {entry}", "Warn")
+                continue
+    # Write any remaining entries in def_dict to the output file
+        for desc, value in def_dict.items():
+            if isinstance(value, list):
+                for v in value:
+                    output_file.write(line_formatter(v, desc))
+            else:
+                output_file.write(line_formatter(value, desc))
+            
 
-    with open(def_file_path, 'r') as def_file:
-        with open(output_file_path, 'w') as output_file:
-            lines = def_file.readlines()
-            for l in lines:
+"""            for l in lines:
                 if "#" not in l:
                     continue
                 parts = [entry.strip() for entry in l.split("#", 1)]
@@ -606,7 +697,6 @@ def update_def(def_file_path, def_dict):
                     for value in def_dict[desc]:
                         output_file.write(line_formatter(value, desc))
                     def_dict.pop(desc, None)         
-
                 if desc == "No. of quanta defined":
                     output_file.write(label_formatter(def_dict.get("Quantum labels", [])))
                     output_file.write(label_formatter(def_dict.get("Auxiliary labels", [])))
@@ -638,17 +728,32 @@ def update_def(def_file_path, def_dict):
                     output_file.write(line_formatter(def_dict.get("In-ChI of molecule"), "In-ChI of molecule"))
                     output_file.write(line_formatter(def_dict.get("In-ChI key of molecule"), "In-ChI key of molecule"))
                     def_dict.pop("In-ChI of molecule", None)
-                    def_dict.pop("In-ChI key of molecule", None)
+                    def_dict.pop("In-ChI key of molecule", None)"""
 
-                
-            # Write any remaining entries in def_dict to the output file
-            for desc, value in def_dict.items():
-                if isinstance(value, list):
-                    for v in value:
-                        output_file.write(line_formatter(v, desc))
-                else:
-                    output_file.write(line_formatter(value, desc))
-                    print(value, desc)
+def slug_to_formula(slug):
+    """
+    Converts a slug (e.g., '1H2-2H_p') to a chemical formula (e.g., '(1H)2(2H)+').
+    
+    :param slug: The isotopologue slug to convert.
+    :return: The corresponding chemical formula as a string.
+    """
+    slug = slug.replace('_p', '+')  # Replace '_p' with '+' for compatibility
+    parts = slug.split('-')
+    formula = ''
+    for part in parts:
+        chars = list(part)
+        chars.insert(0, '(')  # Insert '(' at the beginning
+        chars.reverse()
+        for i, c in enumerate(chars):
+            if c.isalpha():
+                first_alpha = i
+                break
+        chars.insert(first_alpha, ")")
+        chars.reverse()
+        formula = formula + ''.join(chars)
+    formula = formula.replace('(cis)', 'cis-')
+    formula = formula.replace('(trans)', 'trans-')
+    return formula
 
 def make_label_json():
     """Creates a JSON file from the label definitions in the Excel file."""
@@ -685,11 +790,12 @@ def make_label_json():
         dsname = dsname.replace(".def", "")
 
         # Find DOI from CSV data
-        doi = ""
-        for info in csv_data:
-            if info[0].strip() == mol and info[1].strip() == iso_slug and info[2].strip() == dsname:
-                doi = info[3].strip()
-                break
+        doi_data = pd.read_csv("other_materials/lib/inchikey_input.csv", header=None)
+        iso_formula = slug_to_formula(iso_slug)
+        formula_list = doi_data.iloc[:, 0].tolist()
+        match_indices = [i for i, formula in enumerate(formula_list) if str(formula) == str(iso_formula)]
+        matched_row = doi_data.iloc[match_indices[0]] if match_indices else None
+        doi = matched_row.iloc[6] if matched_row is not None else ""
 
         # Read rows 2-3 as a DataFrame (headers and types)
         try:
@@ -786,6 +892,7 @@ def main():
         print(f"No definition files found in the folder: {def_folder_path}")
         exit_script()
     
+    def_structure_file_path = os.path.join(os.getcwd(), "other_materials", "lib", "def_structure.txt")
     skipped_files = []
     for def_file_path in tqdm(def_paths, desc="Processing definition files"):
         global filename
@@ -802,7 +909,7 @@ def main():
             def_dict = read_def_file(def_file_path)
             labels_list = match['labels']
             def_dict_update(mol, def_dict, labels_list)
-            update_def(def_file_path, def_dict)
+            update_def(def_file_path, def_structure_file_path, def_dict)
         else:
             skipped_files.append(filename)
             continue

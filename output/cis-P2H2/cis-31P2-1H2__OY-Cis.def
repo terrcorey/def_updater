@@ -2,15 +2,16 @@ EXOMOL.def                                                                      
 cis-(31P)2(1H)2                                                                 # IsoFormula
 cis-31P2-1H2                                                                    # Iso-slug
 OY-Cis                                                                          # Isotopologue dataset name
-20251028                                                                        # Version number with format YYYYMMDD
-1S/H2P2/c1-2/h1-2H/t1,2-                                                        # In-ChI of molecule
-SWJAOBXRZSMKNS-UHFFFAOXXX-N                                                     # In-ChI key of molecule
+20250807                                                                        # Version number with format YYYYMMDD
+41916-72-7                                                                      # CAS Registry Number
+InChI=1S/H2P2/c1-2/h1-2H/i1+0,2+0                                               # In-ChI of molecule
+SWJAOBXRZSMKNS-ZCWHFVSRSA-N                                                     # In-ChI key of molecule
 4                                                                               # Number of atoms
 31                                                                              # Isotope number 1
 P                                                                               # Element symbol 1
 1                                                                               # Isotope number 2
 H                                                                               # Element symbol 2
-63.96340  .1062137228e-24                                                       # Isotopologue mass (Da) and (kg)
+63.96317332 1.06213348e-25                                                      # Isotopologue mass (Da) and (kg)
 C2v                                                                             # Symmetry group
 4                                                                               # Number of irreducible representations
 A1                                                                              # Irreducible representation label 1
@@ -23,14 +24,14 @@ B2                                                                              
 6                                                                               # Nuclear spin degeneracy 4
 1000.00                                                                         # Maximum temperature of linelist
 0                                                                               # No. of pressure broadeners available
-0                                                                               # Dipole availability (1=yes, 0=no)
-0                                                                               # No. of cross section files available
-0                                                                               # No. of k-coefficient files available
+0                                                                               # Cooling function availability (1=yes, 0=no)
+1                                                                               # Specific heat availability (1=yes, 0=no)
+0                                                                               # Photo-absorption continuum cross-sections availability (1=yes, 0=no)
+6009302                                                                         # No. of states in .states file
+0                                                                               # Hyperfine resolved dataset (1=yes, 0=no)
+1                                                                               # Uncertainty availability (1=yes, 0=no)
 1                                                                               # Lifetime availability (1=yes, 0=no)
 0                                                                               # Lande g-factor availability (1=yes, 0=no)
-0                                                                               # Uncertainty availability (1=yes, 0=no)
-0                                                                               # Hyperfine resolved dataset (1=yes, 0=no)
-6009302                                                                         # No. of states in .states file
 1                                                                               # No. of quanta cases
 stcs                                                                            # Quantum case label
 19                                                                              # No. of quanta defined
@@ -97,7 +98,5 @@ TROVE quantum number 6                                                          
 NaN                                                                             # Higher energy with complete set of transitions (in cm-1)
 1000.00                                                                         # Maximum temperature of partition function
 1.00                                                                            # Step size of temperature
-0                                                                               # Cooling function availability (1=yes, 0=no)
-1                                                                               # Specific heat availability (1=yes, 0=no)
 0.0750                                                                          # Default value of Lorentzian half-width for all lines (in cm-1/bar)
 0.530                                                                           # Default value of temperature exponent for all lines

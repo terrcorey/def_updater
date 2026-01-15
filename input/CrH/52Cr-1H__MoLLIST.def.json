@@ -2,9 +2,10 @@
     "isotopologue": {
         "iso_formula": "(52Cr)(1H)",
         "iso_slug": "52Cr-1H",
-        "inchi": "InChI=1S/Cr.H",
-        "inchikey": "SEGIELJIHJYODU-UHFFFAOYSA-N",
-        "mass_in_Da": 52.948333,
+        "inchi": "InChI=1S/Cr.H/i2*1+0",
+        "inchikey": "SEGIELJIHJYODU-MHGBRSHDSA-N",
+        "cas_registry_number": "13966-79-5",
+        "mass_in_Da": 52.94833253,
         "point_group": "Cs"
     },
     "atoms": {
@@ -23,15 +24,10 @@
         "version": 20160726,
         "doi": "10.5281/zenodo.5362927",
         "max_temperature": 3000.0,
-        "n_L_default": 0.5,
         "num_pressure_broadeners": 0,
-        "nxsec_files": 0,
-        "nkcoeff_files": 0,
-        "dipole_available": false,
         "cooling_function_available": false,
-        "specific_heat_available": null,
-        "continuum": null,
-        "predis": null,
+        "specific_heat_available": false,
+        "continuum": false,
         "states": {
             "number_of_states": 1646,
             "max_energy": null,

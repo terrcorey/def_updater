@@ -2,9 +2,10 @@
     "isotopologue": {
         "iso_formula": "(1H)3+",
         "iso_slug": "1H3_p",
-        "inchi": "InChI=1S/H3/h1H2/q+1",
-        "inchikey": "QWLPJNYQVKBMAN-UHFFFAOYSA-N",
-        "mass_in_Da": 3.023475,
+        "inchi": "InChI=1S/H3/c1-2-3-1/q+1",
+        "inchikey": "RQZCXKHVAUFVMF-UHFFFAOYSA-N",
+        "cas_registry_number": "12184-91-7",
+        "mass_in_Da": 3.02292652,
         "point_group": "D3h"
     },
     "atoms": {
@@ -24,17 +25,12 @@
     "dataset": {
         "name": "MiZATeP",
         "version": 20230123,
-        "doi": "",
+        "doi": "10.1093/mnras/stx502",
         "max_temperature": 5000.0,
-        "n_L_default": 0.5,
         "num_pressure_broadeners": 0,
-        "nxsec_files": 0,
-        "nkcoeff_files": 0,
-        "dipole_available": false,
         "cooling_function_available": true,
         "specific_heat_available": true,
-        "continuum": null,
-        "predis": null,
+        "continuum": false,
         "states": {
             "number_of_states": 158721,
             "max_energy": null,

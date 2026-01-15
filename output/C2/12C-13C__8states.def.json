@@ -2,8 +2,9 @@
     "isotopologue": {
         "iso_formula": "(12C)(13C)",
         "iso_slug": "12C-13C",
-        "inchi": "InChI=1S/C2/c1-2/i1+1",
-        "inchikey": "LBVWYGNGGJURHQ-OUBTZVSYSA-N",
+        "inchi": "InChI=1S/C2/c1-2/i1+0,2+1",
+        "inchikey": "LBVWYGNGGJURHQ-DZEMCFCNSA-N",
+        "cas_registry_number": "None",
         "mass_in_Da": 25.00335484,
         "point_group": "C"
     },
@@ -19,18 +20,13 @@
     },
     "dataset": {
         "name": "8states",
-        "version": 20251028,
+        "version": 20200824,
         "doi": "10.5281/zenodo.5716928",
         "max_temperature": 8000.0,
-        "n_L_default": 0.5,
         "num_pressure_broadeners": 0,
-        "nxsec_files": 0,
-        "nkcoeff_files": 0,
-        "dipole_available": false,
         "cooling_function_available": false,
-        "specific_heat_available": null,
-        "continuum": null,
-        "predis": null,
+        "specific_heat_available": false,
+        "continuum": false,
         "states": {
             "number_of_states": 91067,
             "max_energy": 30000.0,

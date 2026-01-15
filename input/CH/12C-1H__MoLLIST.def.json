@@ -2,9 +2,10 @@
     "isotopologue": {
         "iso_formula": "(12C)(1H)",
         "iso_slug": "12C-1H",
-        "inchi": "InChI=1S/CH/h1H",
-        "inchikey": "VRLIPUYDFBXWCH-UHFFFAOYSA-N",
-        "mass_in_Da": 13.007825,
+        "inchi": "InChI=1S/CH/h1H/i1+0H",
+        "inchikey": "VRLIPUYDFBXWCH-HXFQMGJMSA-N",
+        "cas_registry_number": "3315-37-5",
+        "mass_in_Da": 13.00782503,
         "point_group": "Cs"
     },
     "atoms": {
@@ -23,15 +24,10 @@
         "version": 20190214,
         "doi": "10.5281/zenodo.5716692",
         "max_temperature": 8000.0,
-        "n_L_default": 0.5,
         "num_pressure_broadeners": 0,
-        "nxsec_files": 0,
-        "nkcoeff_files": 0,
-        "dipole_available": false,
         "cooling_function_available": false,
-        "specific_heat_available": null,
-        "continuum": null,
-        "predis": null,
+        "specific_heat_available": false,
+        "continuum": false,
         "states": {
             "number_of_states": 2681,
             "max_energy": null,

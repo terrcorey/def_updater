@@ -2,9 +2,10 @@
     "isotopologue": {
         "iso_formula": "(40Ca)(35Cl)",
         "iso_slug": "40Ca-35Cl",
-        "inchi": "InChI=1S/Ca.ClH/h;1H/q+1;/p-1",
-        "inchikey": "WGPMOVAPQPJDDK-UHFFFAOYSA-M",
-        "mass_in_Da": 74.93144,
+        "inchi": "InChI=1S/Ca.ClH/h;1H/q+1;/p-1/i2*1+0",
+        "inchikey": "WGPMOVAPQPJDDK-MHGBRSHDSA-M",
+        "cas_registry_number": "15606-71-0",
+        "mass_in_Da": 74.93144366,
         "point_group": "C"
     },
     "atoms": {
@@ -23,15 +24,10 @@
         "version": 20240720,
         "doi": "10.3847/1538-4357/ad499e",
         "max_temperature": 5000.0,
-        "n_L_default": 0.5,
         "num_pressure_broadeners": 0,
-        "nxsec_files": 0,
-        "nkcoeff_files": 0,
-        "dipole_available": false,
         "cooling_function_available": false,
         "specific_heat_available": false,
-        "continuum": null,
-        "predis": null,
+        "continuum": false,
         "states": {
             "number_of_states": 9060,
             "max_energy": 10857.963214,
@@ -103,10 +99,10 @@
                     "desc": "Projection of the total angular momentum Omega"
                 },
                 {
-                    "name": "dcs:F",
-                    "ffmt": "I2",
-                    "cfmt": "%2d",
-                    "desc": "Fine structure counting number"
+                    "name": "dcs:F_i",
+                    "ffmt": "A4",
+                    "cfmt": "%4s",
+                    "desc": "Spin component"
                 },
                 {
                     "name": "dcs:N",

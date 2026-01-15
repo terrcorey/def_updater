@@ -2,9 +2,10 @@
     "isotopologue": {
         "iso_formula": "(39K)(35Cl)",
         "iso_slug": "39K-35Cl",
-        "inchi": "InChI=1S/ClH.K/h1H;/q;+1/p-1",
-        "inchikey": "WCUXLLCKKVVCTQ-UHFFFAOYSA-M",
-        "mass_in_Da": 73.93256,
+        "inchi": "InChI=1S/ClH.K/h1H;/q;+1/p-1/i2*1+0",
+        "inchikey": "WCUXLLCKKVVCTQ-MHGBRSHDSA-M",
+        "cas_registry_number": "7447-40-7",
+        "mass_in_Da": 73.93255936,
         "point_group": "C"
     },
     "atoms": {
@@ -23,15 +24,10 @@
         "version": 20160726,
         "doi": "10.5281/zenodo.5716977",
         "max_temperature": 3000.0,
-        "n_L_default": 0.5,
         "num_pressure_broadeners": 0,
-        "nxsec_files": 0,
-        "nkcoeff_files": 0,
-        "dipole_available": false,
         "cooling_function_available": false,
         "specific_heat_available": true,
-        "continuum": null,
-        "predis": null,
+        "continuum": false,
         "states": {
             "number_of_states": 60741,
             "max_energy": 20000.0,

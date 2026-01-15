@@ -2,9 +2,10 @@
     "isotopologue": {
         "iso_formula": "(12C)(15N)",
         "iso_slug": "12C-15N",
-        "inchi": "InChI=1S/CN/c1-2/i2+1",
-        "inchikey": "JEVCWSUVFOYBFI-VQEHIDDOSA-N",
-        "mass_in_Da": 27.0108,
+        "inchi": "InChI=1S/CN/c1-2/i1+0,2+1",
+        "inchikey": "JEVCWSUVFOYBFI-DZEMCFCNSA-N",
+        "cas_registry_number": "None",
+        "mass_in_Da": 27.0001089,
         "point_group": "C"
     },
     "atoms": {
@@ -21,17 +22,12 @@
     "dataset": {
         "name": "KTPSYT",
         "version": 20241119,
-        "doi": "",
+        "doi": "10.3847/1538-4365/ad8b40",
         "max_temperature": 10000.0,
-        "n_L_default": 0.5,
         "num_pressure_broadeners": 0,
-        "nxsec_files": 0,
-        "nkcoeff_files": 0,
-        "dipole_available": false,
         "cooling_function_available": false,
-        "specific_heat_available": null,
-        "continuum": null,
-        "predis": null,
+        "specific_heat_available": false,
+        "continuum": false,
         "states": {
             "number_of_states": 28004,
             "max_energy": null,

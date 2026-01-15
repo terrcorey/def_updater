@@ -4,7 +4,8 @@
         "iso_slug": "3He-1H_p",
         "inchi": "InChI=1S/HHe/h1H/q+1/i1-1",
         "inchikey": "HSFAAVLNFOAYQX-BJUDXGSMSA-N",
-        "mass_in_Da": 4.023854,
+        "cas_registry_number": "None",
+        "mass_in_Da": 4.02330577,
         "point_group": "Cs"
     },
     "atoms": {
@@ -21,17 +22,12 @@
     "dataset": {
         "name": "ADJSAAM",
         "version": 20200725,
-        "doi": "",
+        "doi": "10.3847/1538-4357/ab1f65",
         "max_temperature": 9000.0,
-        "n_L_default": 0.5,
         "num_pressure_broadeners": 0,
-        "nxsec_files": 0,
-        "nkcoeff_files": 0,
-        "dipole_available": false,
         "cooling_function_available": false,
-        "specific_heat_available": null,
-        "continuum": null,
-        "predis": null,
+        "specific_heat_available": false,
+        "continuum": false,
         "states": {
             "number_of_states": 174,
             "max_energy": null,

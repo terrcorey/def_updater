@@ -1,0 +1,35 @@
+# ID
+# IsoFormula
+# Iso-slug
+# Isotopologue dataset name
+# Version number with format YYYYMMDD
+# CAS Registry Number
+# In-ChI of molecule
+# In-ChI key of molecule
+# Number of atoms
+& Isotope information 
+# Isotopologue mass (Da) and (kg)
+# Symmetry group
+# Number of irreducible representations
+& irreps
+# Maximum temperature of linelist
+# No. of pressure broadeners available
+# Cooling function availability (1=yes, 0=no)
+# Specific heat availability (1=yes, 0=no)
+# Photo-absorption continuum cross-sections availability (1=yes, 0=no)
+# No. of states in .states file
+& bools
+# No. of quanta cases
+& Quantum case label
+# No. of quanta defined
+& Quantum labels
+& Auxiliary labels
+# Total number of transitions
+# No. of transition files
+# Maximum wavenumber (in cm-1)
+# Higher energy with complete set of transitions (in cm-1)
+# Maximum temperature of partition function
+# Step size of temperature
+# Default value of Lorentzian half-width for all lines (in cm-1/bar)
+# Default value of temperature exponent for all lines
+& Broadening parameters

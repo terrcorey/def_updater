@@ -2,9 +2,10 @@
     "isotopologue": {
         "iso_formula": "(1H)(2H)+",
         "iso_slug": "1H-2H_p",
-        "inchi": "InChI=1S/H2/h1H/q+1/i1+1",
-        "inchikey": "ZZIJOQHRUPVPQC-OUBTZVSYSA-N",
-        "mass_in_Da": 3.021927,
+        "inchi": "InChI=1S/H2/h1H/i1+1/q+1",
+        "inchikey": "UFHFLCQGNIYNRP-FPPRTSDESA-N",
+        "cas_registry_number": "12184-90-6",
+        "mass_in_Da": 3.02137823,
         "point_group": "C"
     },
     "atoms": {
@@ -19,18 +20,13 @@
     },
     "dataset": {
         "name": "ADJSAAM",
-        "version": 20251028,
-        "doi": "",
+        "version": 20200725,
+        "doi": "10.3847/1538-4357/ab1f65",
         "max_temperature": 9000.0,
-        "n_L_default": 0.5,
         "num_pressure_broadeners": 0,
-        "nxsec_files": 0,
-        "nkcoeff_files": 0,
-        "dipole_available": false,
         "cooling_function_available": false,
         "specific_heat_available": true,
-        "continuum": null,
-        "predis": null,
+        "continuum": false,
         "states": {
             "number_of_states": 425,
             "max_energy": null,

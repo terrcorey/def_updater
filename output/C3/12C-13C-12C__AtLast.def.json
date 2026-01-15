@@ -2,9 +2,10 @@
     "isotopologue": {
         "iso_formula": "(12C)(13C)(12C)",
         "iso_slug": "12C-13C-12C",
-        "inchi": "InChI=1S/C3/c1-3-2/i3+1",
-        "inchikey": "NVLRFXKSQQPKAD-LBPDFUHNSA-N",
-        "mass_in_Da": 37.00335,
+        "inchi": "InChI=1S/C3/c1-3-2/i1+0,2+0,3+1",
+        "inchikey": "NVLRFXKSQQPKAD-ZAIVOFEBSA-N",
+        "cas_registry_number": "12075-35-3",
+        "mass_in_Da": 37.00335484,
         "point_group": "C"
     },
     "atoms": {
@@ -19,18 +20,13 @@
     },
     "dataset": {
         "name": "AtLast",
-        "version": 20251028,
+        "version": 20241023,
         "doi": "10.1093/mnras/stae2425",
         "max_temperature": 5000.0,
-        "n_L_default": 0.5,
         "num_pressure_broadeners": 0,
-        "nxsec_files": 0,
-        "nkcoeff_files": 0,
-        "dipole_available": false,
         "cooling_function_available": false,
         "specific_heat_available": false,
-        "continuum": null,
-        "predis": null,
+        "continuum": false,
         "states": {
             "number_of_states": 2282841,
             "max_energy": 19998.744489,

@@ -2,9 +2,10 @@
     "isotopologue": {
         "iso_formula": "(14N)(15N)(16O)",
         "iso_slug": "14N-15N-16O",
-        "inchi": "InChI=1S/N2O/c1-2-3/i2+1",
-        "inchikey": "GQPLMRYTRLFLPF-VQEHIDDOSA-N",
-        "mass_in_Da": 44.9980975,
+        "inchi": "InChI=1S/N2O/c1-2-3/i1+0,2+1",
+        "inchikey": "GQPLMRYTRLFLPF-DZEMCFCNSA-N",
+        "cas_registry_number": "10024-97-2",
+        "mass_in_Da": 44.99809752,
         "point_group": "CsM"
     },
     "atoms": {
@@ -21,17 +22,12 @@
     "dataset": {
         "name": "TYM",
         "version": 20240527,
-        "doi": "None",
+        "doi": NaN,
         "max_temperature": 2000.0,
-        "n_L_default": 0.5,
         "num_pressure_broadeners": 0,
-        "nxsec_files": 0,
-        "nkcoeff_files": 0,
-        "dipole_available": false,
         "cooling_function_available": false,
         "specific_heat_available": false,
-        "continuum": null,
-        "predis": null,
+        "continuum": false,
         "states": {
             "number_of_states": 2183803,
             "max_energy": 20000.0,

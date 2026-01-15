@@ -2,8 +2,9 @@
     "isotopologue": {
         "iso_formula": "(12C)3",
         "iso_slug": "12C3",
-        "inchi": "InChI=1S/C3/c1-3-2",
-        "inchikey": "NVLRFXKSQQPKAD-UHFFFAOYSA-N",
+        "inchi": "InChI=1S/C3/c1-3-2/i1+0,2+0,3+0",
+        "inchikey": "NVLRFXKSQQPKAD-SXRZRGFPSA-N",
+        "cas_registry_number": "12075-35-3",
         "mass_in_Da": 36.0,
         "point_group": "C"
     },
@@ -22,15 +23,10 @@
         "version": 20241023,
         "doi": "10.1093/mnras/stae2425",
         "max_temperature": 5000.0,
-        "n_L_default": 0.5,
         "num_pressure_broadeners": 0,
-        "nxsec_files": 0,
-        "nkcoeff_files": 0,
-        "dipole_available": false,
         "cooling_function_available": false,
         "specific_heat_available": false,
-        "continuum": null,
-        "predis": null,
+        "continuum": false,
         "states": {
             "number_of_states": 2166503,
             "max_energy": 19999.323708,

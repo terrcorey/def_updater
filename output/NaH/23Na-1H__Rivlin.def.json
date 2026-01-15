@@ -2,9 +2,10 @@
     "isotopologue": {
         "iso_formula": "(23Na)(1H)",
         "iso_slug": "23Na-1H",
-        "inchi": "InChI=1S/Na.H",
-        "inchikey": "MPMYQQHEHYDOCL-UHFFFAOYSA-N",
-        "mass_in_Da": 23.997594,
+        "inchi": "InChI=1S/Na.H/i2*1+0",
+        "inchikey": "MPMYQQHEHYDOCL-MHGBRSHDSA-N",
+        "cas_registry_number": "7646-69-7",
+        "mass_in_Da": 23.99759431,
         "point_group": "C"
     },
     "atoms": {
@@ -20,18 +21,13 @@
     },
     "dataset": {
         "name": "Rivlin",
-        "version": 20251028,
+        "version": 20160804,
         "doi": "10.5281/zenodo.5363263",
         "max_temperature": 9000.0,
-        "n_L_default": 0.5,
         "num_pressure_broadeners": 0,
-        "nxsec_files": 0,
-        "nkcoeff_files": 0,
-        "dipole_available": false,
         "cooling_function_available": false,
         "specific_heat_available": true,
-        "continuum": null,
-        "predis": null,
+        "continuum": false,
         "states": {
             "number_of_states": 3339,
             "max_energy": 35000.0,

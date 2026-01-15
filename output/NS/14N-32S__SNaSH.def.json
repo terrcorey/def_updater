@@ -2,8 +2,9 @@
     "isotopologue": {
         "iso_formula": "(14N)(32S)",
         "iso_slug": "14N-32S",
-        "inchi": "InChI=1S/NS/c1-2",
-        "inchikey": "QXTCFDCJXWLNAP-UHFFFAOYSA-N",
+        "inchi": "InChI=1S/NS/c1-2/i1+0,2+0",
+        "inchikey": "QXTCFDCJXWLNAP-ZCWHFVSRSA-N",
+        "cas_registry_number": "12033-56-6",
         "mass_in_Da": 45.975145,
         "point_group": "C"
     },
@@ -20,18 +21,13 @@
     },
     "dataset": {
         "name": "SNaSH",
-        "version": 20251028,
+        "version": 20180101,
         "doi": "10.5281/zenodo.5717011",
         "max_temperature": 5000.0,
-        "n_L_default": 0.5,
         "num_pressure_broadeners": 0,
-        "nxsec_files": 0,
-        "nkcoeff_files": 0,
-        "dipole_available": false,
         "cooling_function_available": false,
         "specific_heat_available": true,
-        "continuum": null,
-        "predis": null,
+        "continuum": false,
         "states": {
             "number_of_states": 31502,
             "max_energy": 38916.600168,

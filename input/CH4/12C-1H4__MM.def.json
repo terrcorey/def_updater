@@ -4,7 +4,8 @@
         "iso_slug": "12C-1H4",
         "inchi": "InChI=1S/CH4/h1H4",
         "inchikey": "VNWKTOKETHGBQD-UHFFFAOYSA-N",
-        "mass_in_Da": 16.0313,
+        "cas_registry_number": "74-82-8",
+        "mass_in_Da": 16.03130013,
         "point_group": "Td"
     },
     "atoms": {
@@ -26,15 +27,10 @@
         "version": 20240113,
         "doi": "10.1093/mnras/stae148",
         "max_temperature": 2000.0,
-        "n_L_default": 0.4,
         "num_pressure_broadeners": 2,
-        "nxsec_files": 0,
-        "nkcoeff_files": 0,
-        "dipole_available": false,
         "cooling_function_available": false,
-        "specific_heat_available": null,
-        "continuum": null,
-        "predis": null,
+        "specific_heat_available": false,
+        "continuum": false,
         "states": {
             "number_of_states": 9155208,
             "max_energy": 18000.0,

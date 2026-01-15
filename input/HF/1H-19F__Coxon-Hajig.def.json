@@ -2,9 +2,10 @@
     "isotopologue": {
         "iso_formula": "(1H)(19F)",
         "iso_slug": "1H-19F",
-        "inchi": "InChI=1S/FH/h1H",
-        "inchikey": "KRHYYFGTRYWZRS-UHFFFAOYSA-N",
-        "mass_in_Da": 20.00622819,
+        "inchi": "InChI=1S/FH/h1H/i1+0/hH",
+        "inchikey": "KRHYYFGTRYWZRS-LEAUUUNSSA-N",
+        "cas_registry_number": "7664-39-3",
+        "mass_in_Da": 20.00622825,
         "point_group": "C"
     },
     "atoms": {
@@ -23,15 +24,10 @@
         "version": 20191005,
         "doi": "10.5281/zenodo.5716696",
         "max_temperature": 5000.0,
-        "n_L_default": 0.5,
         "num_pressure_broadeners": 2,
-        "nxsec_files": 0,
-        "nkcoeff_files": 0,
-        "dipole_available": false,
         "cooling_function_available": false,
         "specific_heat_available": true,
-        "continuum": null,
-        "predis": null,
+        "continuum": false,
         "states": {
             "number_of_states": 684,
             "max_energy": 40000.0,

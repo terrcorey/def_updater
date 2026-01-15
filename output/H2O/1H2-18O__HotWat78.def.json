@@ -4,7 +4,8 @@
         "iso_slug": "1H2-18O",
         "inchi": "InChI=1S/H2O/h1H2/i1+2",
         "inchikey": "XLYOFNOQVPJJNP-NJFSPNSNSA-N",
-        "mass_in_Da": 20.01504,
+        "cas_registry_number": "None",
+        "mass_in_Da": 20.01481106,
         "point_group": "C2v"
     },
     "atoms": {
@@ -22,24 +23,19 @@
     },
     "dataset": {
         "name": "HotWat78",
-        "version": 20251028,
+        "version": 20230919,
         "doi": "10.5281/zenodo.5716822",
         "max_temperature": 3000.0,
-        "n_L_default": 0.5,
         "num_pressure_broadeners": 2,
-        "nxsec_files": 0,
-        "nkcoeff_files": 0,
-        "dipole_available": false,
         "cooling_function_available": false,
-        "specific_heat_available": null,
-        "continuum": null,
-        "predis": null,
+        "specific_heat_available": false,
+        "continuum": false,
         "states": {
             "number_of_states": 0,
             "max_energy": 30000.0,
             "hyperfine_resolved_dataset": false,
             "uncertainty_description": null,
-            "uncertainties_available": false,
+            "uncertainties_available": true,
             "lifetime_available": true,
             "lande_g_available": false,
             "num_quanta": 6,
@@ -67,6 +63,12 @@
                     "desc": "Total rotational quantum number, excluding nuclear spin",
                     "ffmt": "I7",
                     "cfmt": "%7d"
+                },
+                {
+                    "name": "unc",
+                    "desc": "Energy uncertainty in cm-1",
+                    "ffmt": "F12.6",
+                    "cfmt": "%12.6f"
                 },
                 {
                     "name": "tau",

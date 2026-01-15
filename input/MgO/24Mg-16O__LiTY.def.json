@@ -2,9 +2,10 @@
     "isotopologue": {
         "iso_formula": "(24Mg)(16O)",
         "iso_slug": "24Mg-16O",
-        "inchi": "InChI=1S/Mg.O/q+2;-2",
-        "inchikey": "AXZKOIWUVFPNLO-UHFFFAOYSA-N",
-        "mass_in_Da": 39.9799563,
+        "inchi": "InChI=1S/Mg.O/i2*1+0",
+        "inchikey": "CPLXHLVBOLITMK-MHGBRSHDSA-N",
+        "cas_registry_number": "1309-48-4",
+        "mass_in_Da": 39.97995632,
         "point_group": "C"
     },
     "atoms": {
@@ -23,15 +24,10 @@
         "version": 20241211,
         "doi": "10.5281/zenodo.5716733",
         "max_temperature": 5000.0,
-        "n_L_default": 0.5,
         "num_pressure_broadeners": 0,
-        "nxsec_files": 0,
-        "nkcoeff_files": 0,
-        "dipole_available": false,
         "cooling_function_available": false,
         "specific_heat_available": true,
-        "continuum": null,
-        "predis": null,
+        "continuum": false,
         "states": {
             "number_of_states": 186842,
             "max_energy": 37000.0,

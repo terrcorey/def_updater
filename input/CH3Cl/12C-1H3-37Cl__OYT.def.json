@@ -4,7 +4,8 @@
         "iso_slug": "12C-1H3-37Cl",
         "inchi": "InChI=1S/CH3Cl/c1-2/h1H3/i2+2",
         "inchikey": "NEHMKBQYUWJMIP-HQMMCQRPSA-N",
-        "mass_in_Da": 51.9893776,
+        "cas_registry_number": "None",
+        "mass_in_Da": 51.98937769,
         "point_group": "C3v"
     },
     "atoms": {
@@ -25,15 +26,10 @@
         "version": 20180601,
         "doi": "10.5281/zenodo.5716856",
         "max_temperature": 1200.0,
-        "n_L_default": 0.53,
         "num_pressure_broadeners": 0,
-        "nxsec_files": 0,
-        "nkcoeff_files": 0,
-        "dipole_available": false,
         "cooling_function_available": false,
-        "specific_heat_available": null,
-        "continuum": null,
-        "predis": null,
+        "specific_heat_available": false,
+        "continuum": false,
         "states": {
             "number_of_states": 10187780,
             "max_energy": 8000.0,

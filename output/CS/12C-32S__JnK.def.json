@@ -2,8 +2,9 @@
     "isotopologue": {
         "iso_formula": "(12C)(32S)",
         "iso_slug": "12C-32S",
-        "inchi": "InChI=1S/CS/c1-2",
-        "inchikey": "DXHPZXWIPWDXHJ-UHFFFAOYSA-N",
+        "inchi": "InChI=1S/CS/c1-2/i1+0,2+0",
+        "inchikey": "DXHPZXWIPWDXHJ-ZCWHFVSRSA-N",
+        "cas_registry_number": "2944-05-0",
         "mass_in_Da": 43.972071,
         "point_group": "C"
     },
@@ -20,18 +21,13 @@
     },
     "dataset": {
         "name": "JnK",
-        "version": 20251028,
+        "version": 20160726,
         "doi": "10.5281/zenodo.5716944",
         "max_temperature": 3000.0,
-        "n_L_default": 0.5,
         "num_pressure_broadeners": 2,
-        "nxsec_files": 18,
-        "nkcoeff_files": 0,
-        "dipole_available": false,
         "cooling_function_available": false,
         "specific_heat_available": true,
-        "continuum": null,
-        "predis": null,
+        "continuum": false,
         "states": {
             "number_of_states": 11497,
             "max_energy": 30000.0,

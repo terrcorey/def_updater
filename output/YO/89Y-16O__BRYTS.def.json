@@ -2,8 +2,9 @@
     "isotopologue": {
         "iso_formula": "(89Y)(16O)",
         "iso_slug": "89Y-16O",
-        "inchi": "InChI=1S/O.Y",
-        "inchikey": "APUGIHICMSAKGR-UHFFFAOYSA-N",
+        "inchi": "InChI=1S/O.Y/i2*1+0",
+        "inchikey": "APUGIHICMSAKGR-MHGBRSHDSA-N",
+        "cas_registry_number": "12036-00-9",
         "mass_in_Da": 104.9007629,
         "point_group": "C"
     },
@@ -23,15 +24,10 @@
         "version": 20230916,
         "doi": "10.1093/mnras/stad3225",
         "max_temperature": 5000.0,
-        "n_L_default": 0.5,
         "num_pressure_broadeners": 0,
-        "nxsec_files": 0,
-        "nkcoeff_files": 0,
-        "dipole_available": false,
         "cooling_function_available": false,
         "specific_heat_available": false,
-        "continuum": null,
-        "predis": null,
+        "continuum": false,
         "states": {
             "number_of_states": 173621,
             "max_energy": 16000.0,

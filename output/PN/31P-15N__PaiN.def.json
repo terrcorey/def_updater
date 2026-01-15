@@ -2,9 +2,10 @@
     "isotopologue": {
         "iso_formula": "(31P)(15N)",
         "iso_slug": "31P-15N",
-        "inchi": "InChI=1S/NP/c1-2/i1+1",
-        "inchikey": "AOPJVJYWEDDOBI-OUBTZVSYSA-N",
-        "mass_in_Da": 45.973871,
+        "inchi": "InChI=1S/NP/c1-2/i1+1,2+0",
+        "inchikey": "AOPJVJYWEDDOBI-CRWWGTSDSA-N",
+        "cas_registry_number": "17739-47-8",
+        "mass_in_Da": 45.97387053,
         "point_group": "C"
     },
     "atoms": {
@@ -23,15 +24,10 @@
         "version": 20240505,
         "doi": "10.1093/mnras/stae2610",
         "max_temperature": 5000.0,
-        "n_L_default": 0.5,
         "num_pressure_broadeners": 0,
-        "nxsec_files": 0,
-        "nkcoeff_files": 0,
-        "dipole_available": false,
         "cooling_function_available": false,
-        "specific_heat_available": null,
-        "continuum": null,
-        "predis": null,
+        "specific_heat_available": false,
+        "continuum": false,
         "states": {
             "number_of_states": 31563,
             "max_energy": 82043.391437,

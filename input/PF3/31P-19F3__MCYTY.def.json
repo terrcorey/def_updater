@@ -2,9 +2,10 @@
     "isotopologue": {
         "iso_formula": "(31P)(19F)3",
         "iso_slug": "31P-19F3",
-        "inchi": "1S/F3P/c1-4(2)3",
+        "inchi": "InChI=1S/F3P/c1-4(2)3",
         "inchikey": "WKFBZNUBXWCCHG-UHFFFAOYSA-N",
-        "mass_in_Da": 87.96897148,
+        "cas_registry_number": "None",
+        "mass_in_Da": 87.96897129,
         "point_group": "C3V"
     },
     "atoms": {
@@ -24,15 +25,10 @@
         "version": 20250807,
         "doi": "10.5281/zenodo.5716880",
         "max_temperature": 296.0,
-        "n_L_default": 0.6,
         "num_pressure_broadeners": 0,
-        "nxsec_files": 0,
-        "nkcoeff_files": 0,
-        "dipole_available": true,
         "cooling_function_available": false,
         "specific_heat_available": true,
-        "continuum": null,
-        "predis": null,
+        "continuum": false,
         "states": {
             "number_of_states": 3311926,
             "max_energy": 4500.0,

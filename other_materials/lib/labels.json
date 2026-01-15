@@ -175,6 +175,11 @@
                 "Description quantum label": "Total rotational quantum number, excluding nuclear spin"
             },
             {
+                "Quantum label": "unc",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Energy uncertainty in cm-1"
+            },
+            {
                 "Quantum label": "tau",
                 "Format quantum label": "ES12.4 %12.4e",
                 "Description quantum label": "Lifetime in s"
@@ -691,6 +696,11 @@
                 "Quantum label": "J",
                 "Format quantum label": "F7.1 %7.1f",
                 "Description quantum label": "Total rotational quantum number"
+            },
+            {
+                "Quantum label": "unc",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Energy uncertainty in cm-1"
             },
             {
                 "Quantum label": "tau",
@@ -1435,6 +1445,11 @@
                 "Description quantum label": "Total rotational quantum number"
             },
             {
+                "Quantum label": "unc",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Energy uncertainty in cm-1"
+            },
+            {
                 "Quantum label": "tau",
                 "Format quantum label": "ES12.4 %12.4e",
                 "Description quantum label": "Lifetime in s"
@@ -1891,9 +1906,9 @@
                 "Description quantum label": "Projection of the total angular momentum Omega"
             },
             {
-                "Quantum label": "F",
-                "Format quantum label": "I2 %2d",
-                "Description quantum label": "Fine structure counting number"
+                "Quantum label": "F_i",
+                "Format quantum label": "A4 %4s",
+                "Description quantum label": "Spin component"
             },
             {
                 "Quantum label": "N",
@@ -1960,9 +1975,9 @@
                 "Description quantum label": "Projection of the total angular momentum Omega"
             },
             {
-                "Quantum label": "F",
-                "Format quantum label": "I2 %2d",
-                "Description quantum label": "Fine structure counting number"
+                "Quantum label": "F_i",
+                "Format quantum label": "A4 %4s",
+                "Description quantum label": "Spin component"
             },
             {
                 "Quantum label": "N",
@@ -1997,6 +2012,11 @@
                 "Quantum label": "J",
                 "Format quantum label": "F7.1 %7.1f",
                 "Description quantum label": "Total rotational quantum number, excluding nuclear spin"
+            },
+            {
+                "Quantum label": "unc",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Energy uncertainty in cm-1"
             },
             {
                 "Quantum label": "tau",
@@ -2038,6 +2058,11 @@
                 "Description quantum label": "Total rotational quantum number, excluding nuclear spin"
             },
             {
+                "Quantum label": "unc",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Energy uncertainty in cm-1"
+            },
+            {
                 "Quantum label": "tau",
                 "Format quantum label": "ES12.4 %12.4e",
                 "Description quantum label": "Lifetime in s"
@@ -2075,6 +2100,11 @@
                 "Quantum label": "J",
                 "Format quantum label": "F7.1 %7.1f",
                 "Description quantum label": "Total rotational quantum number, excluding nuclear spin"
+            },
+            {
+                "Quantum label": "unc",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Energy uncertainty in cm-1"
             },
             {
                 "Quantum label": "tau",
@@ -2116,6 +2146,11 @@
                 "Description quantum label": "Total rotational quantum number, excluding nuclear spin"
             },
             {
+                "Quantum label": "unc",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Energy uncertainty in cm-1"
+            },
+            {
                 "Quantum label": "tau",
                 "Format quantum label": "ES12.4 %12.4e",
                 "Description quantum label": "Lifetime in s"
@@ -2155,6 +2190,11 @@
                 "Description quantum label": "Total rotational quantum number, excluding nuclear spin"
             },
             {
+                "Quantum label": "unc",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Energy uncertainty in cm-1"
+            },
+            {
                 "Quantum label": "tau",
                 "Format quantum label": "ES12.4 %12.4e",
                 "Description quantum label": "Lifetime in s"
@@ -2192,6 +2232,11 @@
                 "Quantum label": "J",
                 "Format quantum label": "F7.1 %7.1f",
                 "Description quantum label": "Total rotational quantum number, excluding nuclear spin"
+            },
+            {
+                "Quantum label": "unc",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Energy uncertainty in cm-1"
             },
             {
                 "Quantum label": "tau",
@@ -2510,6 +2555,11 @@
                 "Description quantum label": "Total rotational quantum number, excluding nuclear spin"
             },
             {
+                "Quantum label": "unc",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Energy uncertainty in cm-1"
+            },
+            {
                 "Quantum label": "v",
                 "Format quantum label": "I3 %3d",
                 "Description quantum label": "State vibrational quantum number"
@@ -2559,6 +2609,11 @@
                 "Description quantum label": "Total rotational quantum number, excluding nuclear spin"
             },
             {
+                "Quantum label": "unc",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Energy uncertainty in cm-1"
+            },
+            {
                 "Quantum label": "N",
                 "Format quantum label": "I3 %3d",
                 "Description quantum label": "N quantum number"
@@ -2606,6 +2661,11 @@
                 "Quantum label": "J",
                 "Format quantum label": "F7.1 %7.1f",
                 "Description quantum label": "Total rotational quantum number"
+            },
+            {
+                "Quantum label": "unc",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Energy uncertainty in cm-1"
             },
             {
                 "Quantum label": "Gtot",
@@ -2732,6 +2792,11 @@
                 "Description quantum label": "Total rotational quantum number"
             },
             {
+                "Quantum label": "unc",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Energy uncertainty in cm-1"
+            },
+            {
                 "Quantum label": "tau",
                 "Format quantum label": "ES12.4 %12.4e",
                 "Description quantum label": "Lifetime in s"
@@ -2846,6 +2911,11 @@
                 "Description quantum label": "Total rotational quantum number"
             },
             {
+                "Quantum label": "unc",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Energy uncertainty in cm-1"
+            },
+            {
                 "Quantum label": "tau",
                 "Format quantum label": "ES12.4 %12.4e",
                 "Description quantum label": "Lifetime in s"
@@ -2958,6 +3028,11 @@
                 "Quantum label": "J",
                 "Format quantum label": "F7.1 %7.1f",
                 "Description quantum label": "Total rotational quantum number"
+            },
+            {
+                "Quantum label": "unc",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Energy uncertainty in cm-1"
             },
             {
                 "Quantum label": "tau",
@@ -3233,7 +3308,7 @@
     {
         "mol": "CH_p",
         "iso_slug": "12C-1H_p",
-        "doi": "",
+        "doi": "10.1093/mnras/stad3909",
         "linelist": "PYT",
         "ds_name": "12C-1H_p__PYT",
         "labels": [
@@ -3317,7 +3392,7 @@
     {
         "mol": "CH_p",
         "iso_slug": "13C-1H_p",
-        "doi": "",
+        "doi": "10.1093/mnras/stad3909",
         "linelist": "PYT",
         "ds_name": "13C-1H_p__PYT",
         "labels": [
@@ -3426,6 +3501,11 @@
                 "Description quantum label": "Total rotational quantum number"
             },
             {
+                "Quantum label": "unc",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Energy uncertainty in cm-1"
+            },
+            {
                 "Quantum label": "tau",
                 "Format quantum label": "ES12.4 %12.4e",
                 "Description quantum label": "Lifetime in s"
@@ -3530,7 +3610,7 @@
     {
         "mol": "CN",
         "iso_slug": "12C-14N",
-        "doi": "",
+        "doi": "10.3847/1538-4365/ad8b40",
         "linelist": "KTPSYT",
         "ds_name": "12C-14N__KTPSYT",
         "labels": [
@@ -3619,7 +3699,7 @@
     {
         "mol": "CN",
         "iso_slug": "12C-15N",
-        "doi": "",
+        "doi": "10.3847/1538-4365/ad8b40",
         "linelist": "KTPSYT",
         "ds_name": "12C-15N__KTPSYT",
         "labels": [
@@ -3708,7 +3788,7 @@
     {
         "mol": "CN",
         "iso_slug": "13C-14N",
-        "doi": "",
+        "doi": "10.3847/1538-4365/ad8b40",
         "linelist": "KTPSYT",
         "ds_name": "13C-14N__KTPSYT",
         "labels": [
@@ -3797,7 +3877,7 @@
     {
         "mol": "CN",
         "iso_slug": "13C-15N",
-        "doi": "",
+        "doi": "10.3847/1538-4365/ad8b40",
         "linelist": "KTPSYT",
         "ds_name": "13C-15N__KTPSYT",
         "labels": [
@@ -3911,6 +3991,11 @@
                 "Description quantum label": "Total rotational quantum number, excluding nuclear spin"
             },
             {
+                "Quantum label": "unc",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Energy uncertainty in cm-1"
+            },
+            {
                 "Quantum label": "v",
                 "Format quantum label": "I4 %4d",
                 "Description quantum label": "State vibrational quantum number"
@@ -3945,9 +4030,14 @@
                 "Description quantum label": "Total energy level degeneracy"
             },
             {
-                "Quantum label": "F",
+                "Quantum label": "J",
                 "Format quantum label": "F7.1 %7.1f",
-                "Description quantum label": "Final angular momentum quantum number"
+                "Description quantum label": "Total rotational quantum number, excluding nuclear spin"
+            },
+            {
+                "Quantum label": "unc",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Energy uncertainty in cm-1"
             },
             {
                 "Quantum label": "ElecState",
@@ -3989,9 +4079,14 @@
                 "Description quantum label": "Total energy level degeneracy"
             },
             {
-                "Quantum label": "F",
+                "Quantum label": "J",
                 "Format quantum label": "F7.1 %7.1f",
-                "Description quantum label": "Final angular momentum quantum number"
+                "Description quantum label": "Total rotational quantum number, excluding nuclear spin"
+            },
+            {
+                "Quantum label": "unc",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Energy uncertainty in cm-1"
             },
             {
                 "Quantum label": "ElecState",
@@ -4033,9 +4128,14 @@
                 "Description quantum label": "Total energy level degeneracy"
             },
             {
-                "Quantum label": "F",
+                "Quantum label": "J",
                 "Format quantum label": "F7.1 %7.1f",
-                "Description quantum label": "Final angular momentum quantum number"
+                "Description quantum label": "Total rotational quantum number, excluding nuclear spin"
+            },
+            {
+                "Quantum label": "unc",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Energy uncertainty in cm-1"
             },
             {
                 "Quantum label": "ElecState",
@@ -4077,9 +4177,14 @@
                 "Description quantum label": "Total energy level degeneracy"
             },
             {
-                "Quantum label": "F",
+                "Quantum label": "J",
                 "Format quantum label": "F7.1 %7.1f",
-                "Description quantum label": "Final angular momentum quantum number"
+                "Description quantum label": "Total rotational quantum number, excluding nuclear spin"
+            },
+            {
+                "Quantum label": "unc",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Energy uncertainty in cm-1"
             },
             {
                 "Quantum label": "ElecState",
@@ -4121,9 +4226,14 @@
                 "Description quantum label": "Total energy level degeneracy"
             },
             {
-                "Quantum label": "F",
+                "Quantum label": "J",
                 "Format quantum label": "F7.1 %7.1f",
-                "Description quantum label": "Final angular momentum quantum number"
+                "Description quantum label": "Total rotational quantum number, excluding nuclear spin"
+            },
+            {
+                "Quantum label": "unc",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Energy uncertainty in cm-1"
             },
             {
                 "Quantum label": "ElecState",
@@ -4139,6 +4249,130 @@
                 "Quantum label": "kp",
                 "Format quantum label": "A4 %4s",
                 "Description quantum label": "kronig rotationless parity"
+            }
+        ]
+    },
+    {
+        "mol": "CO2",
+        "iso_slug": "12C-16O2",
+        "doi": "10.5281/zenodo.5716786",
+        "linelist": "Dozen",
+        "ds_name": "12C-16O2__Dozen",
+        "labels": [
+            {
+                "Quantum label": "ID",
+                "Format quantum label": "I12 %12d",
+                "Description quantum label": "Unique integer identifier for the energy level"
+            },
+            {
+                "Quantum label": "E",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "State energy in cm-1"
+            },
+            {
+                "Quantum label": "gtot",
+                "Format quantum label": "I6 %6d",
+                "Description quantum label": "Total energy level degeneracy"
+            },
+            {
+                "Quantum label": "J",
+                "Format quantum label": "F7.1 %7.1f",
+                "Description quantum label": "Total rotational quantum number, excluding nuclear spin"
+            },
+            {
+                "Quantum label": "unc",
+                "Format quantum label": "ES12.4 %12.4e",
+                "Description quantum label": "Energy uncertainty in cm-1"
+            },
+            {
+                "Quantum label": "tau",
+                "Format quantum label": "A3 %3s",
+                "Description quantum label": "Lifetime in s"
+            },
+            {
+                "Quantum label": "Gtot",
+                "Format quantum label": "A1 %1s",
+                "Description quantum label": "Total symmetry"
+            },
+            {
+                "Quantum label": "e/f",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "e/f parity"
+            },
+            {
+                "Quantum label": "v1",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "Normal mode (Hertzberg) vibrational QN"
+            },
+            {
+                "Quantum label": "v2",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "Normal mode (Hertzberg) vibrational QN"
+            },
+            {
+                "Quantum label": "l2",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "Vibrational bending QN (Similar but not identical to standard l2)"
+            },
+            {
+                "Quantum label": "v3",
+                "Format quantum label": "F5.2  %5.2f",
+                "Description quantum label": "Normal mode (Hertzberg) vibrational QN"
+            },
+            {
+                "Quantum label": "|Coef|2",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "Coefficient with the largest contribution"
+            },
+            {
+                "Quantum label": "m1",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "Symmetric vibrational Fermi-resonance group QN (-1=not available)"
+            },
+            {
+                "Quantum label": "m2",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "Vibrational bending QN (Similar but not identical to standard n2lin)"
+            },
+            {
+                "Quantum label": "l2",
+                "Format quantum label": "I3 %3d",
+                "Description quantum label": "Vibrational bending QN (Similar but not identical to standard l2)"
+            },
+            {
+                "Quantum label": "m3",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "Asymmetric vibrational stretching QN (equivalent to n3)"
+            },
+            {
+                "Quantum label": "r",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "Fermi-resonance group ranking QN"
+            },
+            {
+                "Quantum label": "n1",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "TROVE local-mode QN1"
+            },
+            {
+                "Quantum label": "n2",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "TROVE local-mode QN2"
+            },
+            {
+                "Quantum label": "n3",
+                "Format quantum label": "A2 %2s",
+                "Description quantum label": "TROVE local-mode QN3"
+            },
+            {
+                "Quantum label": "Auxiliary:SourceType",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Ma=MARVEL,Ca=Calculated,EH=Effective Hamiltonian,IE=Isotopologue extrapolation"
+            },
+            {
+                "Quantum label": "Auxiliary:Ecal",
+                "Format quantum label": "None",
+                "Description quantum label": "Calculated energy in cm-1"
             }
         ]
     },
@@ -4267,9 +4501,1373 @@
         ]
     },
     {
+        "mol": "CO2",
+        "iso_slug": "12C-17O2",
+        "doi": "",
+        "linelist": "Dozen",
+        "ds_name": "12C-17O2__Dozen",
+        "labels": [
+            {
+                "Quantum label": "ID",
+                "Format quantum label": "I12 %12d",
+                "Description quantum label": "Unique integer identifier for the energy level"
+            },
+            {
+                "Quantum label": "E",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "State energy in cm-1"
+            },
+            {
+                "Quantum label": "gtot",
+                "Format quantum label": "I6 %6d",
+                "Description quantum label": "Total energy level degeneracy"
+            },
+            {
+                "Quantum label": "J",
+                "Format quantum label": "F7.1 %7.1f",
+                "Description quantum label": "Total rotational quantum number, excluding nuclear spin"
+            },
+            {
+                "Quantum label": "unc",
+                "Format quantum label": "ES12.4 %12.4e",
+                "Description quantum label": "Energy uncertainty in cm-1"
+            },
+            {
+                "Quantum label": "tau",
+                "Format quantum label": "A3 %3s",
+                "Description quantum label": "Lifetime in s"
+            },
+            {
+                "Quantum label": "Gtot",
+                "Format quantum label": "A1 %1s",
+                "Description quantum label": "Total symmetry"
+            },
+            {
+                "Quantum label": "e/f",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "e/f parity"
+            },
+            {
+                "Quantum label": "v1",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "Normal mode (Hertzberg) vibrational QN"
+            },
+            {
+                "Quantum label": "v2",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "Normal mode (Hertzberg) vibrational QN"
+            },
+            {
+                "Quantum label": "l2",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "Vibrational bending QN (Similar but not identical to standard l2)"
+            },
+            {
+                "Quantum label": "v3",
+                "Format quantum label": "F5.2  %5.2f",
+                "Description quantum label": "Normal mode (Hertzberg) vibrational QN"
+            },
+            {
+                "Quantum label": "|Coef|2",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "Coefficient with the largest contribution"
+            },
+            {
+                "Quantum label": "m1",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "Symmetric vibrational Fermi-resonance group QN (-1=not available)"
+            },
+            {
+                "Quantum label": "m2",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "Vibrational bending QN (Similar but not identical to standard n2lin)"
+            },
+            {
+                "Quantum label": "l2",
+                "Format quantum label": "I3 %3d",
+                "Description quantum label": "Vibrational bending QN (Similar but not identical to standard l2)"
+            },
+            {
+                "Quantum label": "m3",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "Asymmetric vibrational stretching QN (equivalent to n3)"
+            },
+            {
+                "Quantum label": "r",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "Fermi-resonance group ranking QN"
+            },
+            {
+                "Quantum label": "n1",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "TROVE local-mode QN1"
+            },
+            {
+                "Quantum label": "n2",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "TROVE local-mode QN2"
+            },
+            {
+                "Quantum label": "n3",
+                "Format quantum label": "A2 %2s",
+                "Description quantum label": "TROVE local-mode QN3"
+            },
+            {
+                "Quantum label": "Auxiliary:SourceType",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Ma=MARVEL,Ca=Calculated,EH=Effective Hamiltonian,IE=Isotopologue extrapolation"
+            },
+            {
+                "Quantum label": "Auxiliary:Ecal",
+                "Format quantum label": "None",
+                "Description quantum label": "Calculated energy in cm-1"
+            }
+        ]
+    },
+    {
+        "mol": "CO2",
+        "iso_slug": "12C-18O2",
+        "doi": "",
+        "linelist": "Dozen",
+        "ds_name": "12C-18O2__Dozen",
+        "labels": [
+            {
+                "Quantum label": "ID",
+                "Format quantum label": "I12 %12d",
+                "Description quantum label": "Unique integer identifier for the energy level"
+            },
+            {
+                "Quantum label": "E",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "State energy in cm-1"
+            },
+            {
+                "Quantum label": "gtot",
+                "Format quantum label": "I6 %6d",
+                "Description quantum label": "Total energy level degeneracy"
+            },
+            {
+                "Quantum label": "J",
+                "Format quantum label": "F7.1 %7.1f",
+                "Description quantum label": "Total rotational quantum number, excluding nuclear spin"
+            },
+            {
+                "Quantum label": "unc",
+                "Format quantum label": "ES12.4 %12.4e",
+                "Description quantum label": "Energy uncertainty in cm-1"
+            },
+            {
+                "Quantum label": "tau",
+                "Format quantum label": "A3 %3s",
+                "Description quantum label": "Lifetime in s"
+            },
+            {
+                "Quantum label": "Gtot",
+                "Format quantum label": "A1 %1s",
+                "Description quantum label": "Total symmetry"
+            },
+            {
+                "Quantum label": "e/f",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "e/f parity"
+            },
+            {
+                "Quantum label": "v1",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "Normal mode (Hertzberg) vibrational QN"
+            },
+            {
+                "Quantum label": "v2",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "Normal mode (Hertzberg) vibrational QN"
+            },
+            {
+                "Quantum label": "l2",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "Vibrational bending QN (Similar but not identical to standard l2)"
+            },
+            {
+                "Quantum label": "v3",
+                "Format quantum label": "F5.2  %5.2f",
+                "Description quantum label": "Normal mode (Hertzberg) vibrational QN"
+            },
+            {
+                "Quantum label": "|Coef|2",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "Coefficient with the largest contribution"
+            },
+            {
+                "Quantum label": "m1",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "Symmetric vibrational Fermi-resonance group QN (-1=not available)"
+            },
+            {
+                "Quantum label": "m2",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "Vibrational bending QN (Similar but not identical to standard n2lin)"
+            },
+            {
+                "Quantum label": "l2",
+                "Format quantum label": "I3 %3d",
+                "Description quantum label": "Vibrational bending QN (Similar but not identical to standard l2)"
+            },
+            {
+                "Quantum label": "m3",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "Asymmetric vibrational stretching QN (equivalent to n3)"
+            },
+            {
+                "Quantum label": "r",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "Fermi-resonance group ranking QN"
+            },
+            {
+                "Quantum label": "n1",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "TROVE local-mode QN1"
+            },
+            {
+                "Quantum label": "n2",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "TROVE local-mode QN2"
+            },
+            {
+                "Quantum label": "n3",
+                "Format quantum label": "A2 %2s",
+                "Description quantum label": "TROVE local-mode QN3"
+            },
+            {
+                "Quantum label": "Auxiliary:SourceType",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Ma=MARVEL,Ca=Calculated,EH=Effective Hamiltonian,IE=Isotopologue extrapolation"
+            },
+            {
+                "Quantum label": "Auxiliary:Ecal",
+                "Format quantum label": "None",
+                "Description quantum label": "Calculated energy in cm-1"
+            }
+        ]
+    },
+    {
+        "mol": "CO2",
+        "iso_slug": "13C-16O2",
+        "doi": "",
+        "linelist": "Dozen",
+        "ds_name": "13C-16O2__Dozen",
+        "labels": [
+            {
+                "Quantum label": "ID",
+                "Format quantum label": "I12 %12d",
+                "Description quantum label": "Unique integer identifier for the energy level"
+            },
+            {
+                "Quantum label": "E",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "State energy in cm-1"
+            },
+            {
+                "Quantum label": "gtot",
+                "Format quantum label": "I6 %6d",
+                "Description quantum label": "Total energy level degeneracy"
+            },
+            {
+                "Quantum label": "J",
+                "Format quantum label": "F7.1 %7.1f",
+                "Description quantum label": "Total rotational quantum number, excluding nuclear spin"
+            },
+            {
+                "Quantum label": "unc",
+                "Format quantum label": "ES12.4 %12.4e",
+                "Description quantum label": "Energy uncertainty in cm-1"
+            },
+            {
+                "Quantum label": "tau",
+                "Format quantum label": "A3 %3s",
+                "Description quantum label": "Lifetime in s"
+            },
+            {
+                "Quantum label": "Gtot",
+                "Format quantum label": "A1 %1s",
+                "Description quantum label": "Total symmetry"
+            },
+            {
+                "Quantum label": "e/f",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "e/f parity"
+            },
+            {
+                "Quantum label": "v1",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "Normal mode (Hertzberg) vibrational QN"
+            },
+            {
+                "Quantum label": "v2",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "Normal mode (Hertzberg) vibrational QN"
+            },
+            {
+                "Quantum label": "l2",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "Vibrational bending QN (Similar but not identical to standard l2)"
+            },
+            {
+                "Quantum label": "v3",
+                "Format quantum label": "F5.2  %5.2f",
+                "Description quantum label": "Normal mode (Hertzberg) vibrational QN"
+            },
+            {
+                "Quantum label": "|Coef|2",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "Coefficient with the largest contribution"
+            },
+            {
+                "Quantum label": "m1",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "Symmetric vibrational Fermi-resonance group QN (-1=not available)"
+            },
+            {
+                "Quantum label": "m2",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "Vibrational bending QN (Similar but not identical to standard n2lin)"
+            },
+            {
+                "Quantum label": "l2",
+                "Format quantum label": "I3 %3d",
+                "Description quantum label": "Vibrational bending QN (Similar but not identical to standard l2)"
+            },
+            {
+                "Quantum label": "m3",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "Asymmetric vibrational stretching QN (equivalent to n3)"
+            },
+            {
+                "Quantum label": "r",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "Fermi-resonance group ranking QN"
+            },
+            {
+                "Quantum label": "n1",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "TROVE local-mode QN1"
+            },
+            {
+                "Quantum label": "n2",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "TROVE local-mode QN2"
+            },
+            {
+                "Quantum label": "n3",
+                "Format quantum label": "A2 %2s",
+                "Description quantum label": "TROVE local-mode QN3"
+            },
+            {
+                "Quantum label": "Auxiliary:SourceType",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Ma=MARVEL,Ca=Calculated,EH=Effective Hamiltonian,IE=Isotopologue extrapolation"
+            },
+            {
+                "Quantum label": "Auxiliary:Ecal",
+                "Format quantum label": "None",
+                "Description quantum label": "Calculated energy in cm-1"
+            }
+        ]
+    },
+    {
+        "mol": "CO2",
+        "iso_slug": "13C-17O2",
+        "doi": "",
+        "linelist": "Dozen",
+        "ds_name": "13C-17O2__Dozen",
+        "labels": [
+            {
+                "Quantum label": "ID",
+                "Format quantum label": "I12 %12d",
+                "Description quantum label": "Unique integer identifier for the energy level"
+            },
+            {
+                "Quantum label": "E",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "State energy in cm-1"
+            },
+            {
+                "Quantum label": "gtot",
+                "Format quantum label": "I6 %6d",
+                "Description quantum label": "Total energy level degeneracy"
+            },
+            {
+                "Quantum label": "J",
+                "Format quantum label": "F7.1 %7.1f",
+                "Description quantum label": "Total rotational quantum number, excluding nuclear spin"
+            },
+            {
+                "Quantum label": "unc",
+                "Format quantum label": "ES12.4 %12.4e",
+                "Description quantum label": "Energy uncertainty in cm-1"
+            },
+            {
+                "Quantum label": "tau",
+                "Format quantum label": "A3 %3s",
+                "Description quantum label": "Lifetime in s"
+            },
+            {
+                "Quantum label": "Gtot",
+                "Format quantum label": "A1 %1s",
+                "Description quantum label": "Total symmetry"
+            },
+            {
+                "Quantum label": "e/f",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "e/f parity"
+            },
+            {
+                "Quantum label": "v1",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "Normal mode (Hertzberg) vibrational QN"
+            },
+            {
+                "Quantum label": "v2",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "Normal mode (Hertzberg) vibrational QN"
+            },
+            {
+                "Quantum label": "l2",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "Vibrational bending QN (Similar but not identical to standard l2)"
+            },
+            {
+                "Quantum label": "v3",
+                "Format quantum label": "F5.2  %5.2f",
+                "Description quantum label": "Normal mode (Hertzberg) vibrational QN"
+            },
+            {
+                "Quantum label": "|Coef|2",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "Coefficient with the largest contribution"
+            },
+            {
+                "Quantum label": "m1",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "Symmetric vibrational Fermi-resonance group QN (-1=not available)"
+            },
+            {
+                "Quantum label": "m2",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "Vibrational bending QN (Similar but not identical to standard n2lin)"
+            },
+            {
+                "Quantum label": "l2",
+                "Format quantum label": "I3 %3d",
+                "Description quantum label": "Vibrational bending QN (Similar but not identical to standard l2)"
+            },
+            {
+                "Quantum label": "m3",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "Asymmetric vibrational stretching QN (equivalent to n3)"
+            },
+            {
+                "Quantum label": "r",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "Fermi-resonance group ranking QN"
+            },
+            {
+                "Quantum label": "n1",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "TROVE local-mode QN1"
+            },
+            {
+                "Quantum label": "n2",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "TROVE local-mode QN2"
+            },
+            {
+                "Quantum label": "n3",
+                "Format quantum label": "A2 %2s",
+                "Description quantum label": "TROVE local-mode QN3"
+            },
+            {
+                "Quantum label": "Auxiliary:SourceType",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Ma=MARVEL,Ca=Calculated,EH=Effective Hamiltonian,IE=Isotopologue extrapolation"
+            },
+            {
+                "Quantum label": "Auxiliary:Ecal",
+                "Format quantum label": "None",
+                "Description quantum label": "Calculated energy in cm-1"
+            }
+        ]
+    },
+    {
+        "mol": "CO2",
+        "iso_slug": "13C-18O2",
+        "doi": "",
+        "linelist": "Dozen",
+        "ds_name": "13C-18O2__Dozen",
+        "labels": [
+            {
+                "Quantum label": "ID",
+                "Format quantum label": "I12 %12d",
+                "Description quantum label": "Unique integer identifier for the energy level"
+            },
+            {
+                "Quantum label": "E",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "State energy in cm-1"
+            },
+            {
+                "Quantum label": "gtot",
+                "Format quantum label": "I6 %6d",
+                "Description quantum label": "Total energy level degeneracy"
+            },
+            {
+                "Quantum label": "J",
+                "Format quantum label": "F7.1 %7.1f",
+                "Description quantum label": "Total rotational quantum number, excluding nuclear spin"
+            },
+            {
+                "Quantum label": "unc",
+                "Format quantum label": "ES12.4 %12.4e",
+                "Description quantum label": "Energy uncertainty in cm-1"
+            },
+            {
+                "Quantum label": "tau",
+                "Format quantum label": "A3 %3s",
+                "Description quantum label": "Lifetime in s"
+            },
+            {
+                "Quantum label": "Gtot",
+                "Format quantum label": "A1 %1s",
+                "Description quantum label": "Total symmetry"
+            },
+            {
+                "Quantum label": "e/f",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "e/f parity"
+            },
+            {
+                "Quantum label": "v1",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "Normal mode (Hertzberg) vibrational QN"
+            },
+            {
+                "Quantum label": "v2",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "Normal mode (Hertzberg) vibrational QN"
+            },
+            {
+                "Quantum label": "l2",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "Vibrational bending QN (Similar but not identical to standard l2)"
+            },
+            {
+                "Quantum label": "v3",
+                "Format quantum label": "F5.2  %5.2f",
+                "Description quantum label": "Normal mode (Hertzberg) vibrational QN"
+            },
+            {
+                "Quantum label": "|Coef|2",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "Coefficient with the largest contribution"
+            },
+            {
+                "Quantum label": "m1",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "Symmetric vibrational Fermi-resonance group QN (-1=not available)"
+            },
+            {
+                "Quantum label": "m2",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "Vibrational bending QN (Similar but not identical to standard n2lin)"
+            },
+            {
+                "Quantum label": "l2",
+                "Format quantum label": "I3 %3d",
+                "Description quantum label": "Vibrational bending QN (Similar but not identical to standard l2)"
+            },
+            {
+                "Quantum label": "m3",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "Asymmetric vibrational stretching QN (equivalent to n3)"
+            },
+            {
+                "Quantum label": "r",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "Fermi-resonance group ranking QN"
+            },
+            {
+                "Quantum label": "n1",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "TROVE local-mode QN1"
+            },
+            {
+                "Quantum label": "n2",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "TROVE local-mode QN2"
+            },
+            {
+                "Quantum label": "n3",
+                "Format quantum label": "A2 %2s",
+                "Description quantum label": "TROVE local-mode QN3"
+            },
+            {
+                "Quantum label": "Auxiliary:SourceType",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Ma=MARVEL,Ca=Calculated,EH=Effective Hamiltonian,IE=Isotopologue extrapolation"
+            },
+            {
+                "Quantum label": "Auxiliary:Ecal",
+                "Format quantum label": "None",
+                "Description quantum label": "Calculated energy in cm-1"
+            }
+        ]
+    },
+    {
+        "mol": "CO2",
+        "iso_slug": "16O-12C-17O",
+        "doi": "",
+        "linelist": "Dozen",
+        "ds_name": "16O-12C-17O__Dozen",
+        "labels": [
+            {
+                "Quantum label": "ID",
+                "Format quantum label": "I12 %12d",
+                "Description quantum label": "Unique integer identifier for the energy level"
+            },
+            {
+                "Quantum label": "E",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "State energy in cm-1"
+            },
+            {
+                "Quantum label": "gtot",
+                "Format quantum label": "I6 %6d",
+                "Description quantum label": "Total energy level degeneracy"
+            },
+            {
+                "Quantum label": "J",
+                "Format quantum label": "F7.1 %7.1f",
+                "Description quantum label": "Total rotational quantum number, excluding nuclear spin"
+            },
+            {
+                "Quantum label": "unc",
+                "Format quantum label": "ES12.4 %12.4e",
+                "Description quantum label": "Energy uncertainty in cm-1"
+            },
+            {
+                "Quantum label": "tau",
+                "Format quantum label": "A3 %3s",
+                "Description quantum label": "Lifetime in s"
+            },
+            {
+                "Quantum label": "Gtot",
+                "Format quantum label": "A1 %1s",
+                "Description quantum label": "Total symmetry"
+            },
+            {
+                "Quantum label": "e/f",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "e/f parity"
+            },
+            {
+                "Quantum label": "v1",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "Normal mode (Hertzberg) vibrational QN"
+            },
+            {
+                "Quantum label": "v2",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "Normal mode (Hertzberg) vibrational QN"
+            },
+            {
+                "Quantum label": "l2",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "Vibrational bending QN (Similar but not identical to standard l2)"
+            },
+            {
+                "Quantum label": "v3",
+                "Format quantum label": "F5.2  %5.2f",
+                "Description quantum label": "Normal mode (Hertzberg) vibrational QN"
+            },
+            {
+                "Quantum label": "|Coef|2",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "Coefficient with the largest contribution"
+            },
+            {
+                "Quantum label": "m1",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "Symmetric vibrational Fermi-resonance group QN (-1=not available)"
+            },
+            {
+                "Quantum label": "m2",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "Vibrational bending QN (Similar but not identical to standard n2lin)"
+            },
+            {
+                "Quantum label": "l2",
+                "Format quantum label": "I3 %3d",
+                "Description quantum label": "Vibrational bending QN (Similar but not identical to standard l2)"
+            },
+            {
+                "Quantum label": "m3",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "Asymmetric vibrational stretching QN (equivalent to n3)"
+            },
+            {
+                "Quantum label": "r",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "Fermi-resonance group ranking QN"
+            },
+            {
+                "Quantum label": "n1",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "TROVE local-mode QN1"
+            },
+            {
+                "Quantum label": "n2",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "TROVE local-mode QN2"
+            },
+            {
+                "Quantum label": "n3",
+                "Format quantum label": "A2 %2s",
+                "Description quantum label": "TROVE local-mode QN3"
+            },
+            {
+                "Quantum label": "Auxiliary:SourceType",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Ma=MARVEL,Ca=Calculated,EH=Effective Hamiltonian,IE=Isotopologue extrapolation"
+            },
+            {
+                "Quantum label": "Auxiliary:Ecal",
+                "Format quantum label": "None",
+                "Description quantum label": "Calculated energy in cm-1"
+            }
+        ]
+    },
+    {
+        "mol": "CO2",
+        "iso_slug": "16O-12C-18O",
+        "doi": "",
+        "linelist": "Dozen",
+        "ds_name": "16O-12C-18O__Dozen",
+        "labels": [
+            {
+                "Quantum label": "ID",
+                "Format quantum label": "I12 %12d",
+                "Description quantum label": "Unique integer identifier for the energy level"
+            },
+            {
+                "Quantum label": "E",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "State energy in cm-1"
+            },
+            {
+                "Quantum label": "gtot",
+                "Format quantum label": "I6 %6d",
+                "Description quantum label": "Total energy level degeneracy"
+            },
+            {
+                "Quantum label": "J",
+                "Format quantum label": "F7.1 %7.1f",
+                "Description quantum label": "Total rotational quantum number, excluding nuclear spin"
+            },
+            {
+                "Quantum label": "unc",
+                "Format quantum label": "ES12.4 %12.4e",
+                "Description quantum label": "Energy uncertainty in cm-1"
+            },
+            {
+                "Quantum label": "tau",
+                "Format quantum label": "A3 %3s",
+                "Description quantum label": "Lifetime in s"
+            },
+            {
+                "Quantum label": "Gtot",
+                "Format quantum label": "A1 %1s",
+                "Description quantum label": "Total symmetry"
+            },
+            {
+                "Quantum label": "e/f",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "e/f parity"
+            },
+            {
+                "Quantum label": "v1",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "Normal mode (Hertzberg) vibrational QN"
+            },
+            {
+                "Quantum label": "v2",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "Normal mode (Hertzberg) vibrational QN"
+            },
+            {
+                "Quantum label": "l2",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "Vibrational bending QN (Similar but not identical to standard l2)"
+            },
+            {
+                "Quantum label": "v3",
+                "Format quantum label": "F5.2  %5.2f",
+                "Description quantum label": "Normal mode (Hertzberg) vibrational QN"
+            },
+            {
+                "Quantum label": "|Coef|2",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "Coefficient with the largest contribution"
+            },
+            {
+                "Quantum label": "m1",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "Symmetric vibrational Fermi-resonance group QN (-1=not available)"
+            },
+            {
+                "Quantum label": "m2",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "Vibrational bending QN (Similar but not identical to standard n2lin)"
+            },
+            {
+                "Quantum label": "l2",
+                "Format quantum label": "I3 %3d",
+                "Description quantum label": "Vibrational bending QN (Similar but not identical to standard l2)"
+            },
+            {
+                "Quantum label": "m3",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "Asymmetric vibrational stretching QN (equivalent to n3)"
+            },
+            {
+                "Quantum label": "r",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "Fermi-resonance group ranking QN"
+            },
+            {
+                "Quantum label": "n1",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "TROVE local-mode QN1"
+            },
+            {
+                "Quantum label": "n2",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "TROVE local-mode QN2"
+            },
+            {
+                "Quantum label": "n3",
+                "Format quantum label": "A2 %2s",
+                "Description quantum label": "TROVE local-mode QN3"
+            },
+            {
+                "Quantum label": "Auxiliary:SourceType",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Ma=MARVEL,Ca=Calculated,EH=Effective Hamiltonian,IE=Isotopologue extrapolation"
+            },
+            {
+                "Quantum label": "Auxiliary:Ecal",
+                "Format quantum label": "None",
+                "Description quantum label": "Calculated energy in cm-1"
+            }
+        ]
+    },
+    {
+        "mol": "CO2",
+        "iso_slug": "16O-13C-17O",
+        "doi": "",
+        "linelist": "Dozen",
+        "ds_name": "16O-13C-17O__Dozen",
+        "labels": [
+            {
+                "Quantum label": "ID",
+                "Format quantum label": "I12 %12d",
+                "Description quantum label": "Unique integer identifier for the energy level"
+            },
+            {
+                "Quantum label": "E",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "State energy in cm-1"
+            },
+            {
+                "Quantum label": "gtot",
+                "Format quantum label": "I6 %6d",
+                "Description quantum label": "Total energy level degeneracy"
+            },
+            {
+                "Quantum label": "J",
+                "Format quantum label": "F7.1 %7.1f",
+                "Description quantum label": "Total rotational quantum number, excluding nuclear spin"
+            },
+            {
+                "Quantum label": "unc",
+                "Format quantum label": "ES12.4 %12.4e",
+                "Description quantum label": "Energy uncertainty in cm-1"
+            },
+            {
+                "Quantum label": "tau",
+                "Format quantum label": "A3 %3s",
+                "Description quantum label": "Lifetime in s"
+            },
+            {
+                "Quantum label": "Gtot",
+                "Format quantum label": "A1 %1s",
+                "Description quantum label": "Total symmetry"
+            },
+            {
+                "Quantum label": "e/f",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "e/f parity"
+            },
+            {
+                "Quantum label": "v1",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "Normal mode (Hertzberg) vibrational QN"
+            },
+            {
+                "Quantum label": "v2",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "Normal mode (Hertzberg) vibrational QN"
+            },
+            {
+                "Quantum label": "l2",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "Vibrational bending QN (Similar but not identical to standard l2)"
+            },
+            {
+                "Quantum label": "v3",
+                "Format quantum label": "F5.2  %5.2f",
+                "Description quantum label": "Normal mode (Hertzberg) vibrational QN"
+            },
+            {
+                "Quantum label": "|Coef|2",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "Coefficient with the largest contribution"
+            },
+            {
+                "Quantum label": "m1",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "Symmetric vibrational Fermi-resonance group QN (-1=not available)"
+            },
+            {
+                "Quantum label": "m2",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "Vibrational bending QN (Similar but not identical to standard n2lin)"
+            },
+            {
+                "Quantum label": "l2",
+                "Format quantum label": "I3 %3d",
+                "Description quantum label": "Vibrational bending QN (Similar but not identical to standard l2)"
+            },
+            {
+                "Quantum label": "m3",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "Asymmetric vibrational stretching QN (equivalent to n3)"
+            },
+            {
+                "Quantum label": "r",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "Fermi-resonance group ranking QN"
+            },
+            {
+                "Quantum label": "n1",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "TROVE local-mode QN1"
+            },
+            {
+                "Quantum label": "n2",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "TROVE local-mode QN2"
+            },
+            {
+                "Quantum label": "n3",
+                "Format quantum label": "A2 %2s",
+                "Description quantum label": "TROVE local-mode QN3"
+            },
+            {
+                "Quantum label": "Auxiliary:SourceType",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Ma=MARVEL,Ca=Calculated,EH=Effective Hamiltonian,IE=Isotopologue extrapolation"
+            },
+            {
+                "Quantum label": "Auxiliary:Ecal",
+                "Format quantum label": "None",
+                "Description quantum label": "Calculated energy in cm-1"
+            }
+        ]
+    },
+    {
+        "mol": "CO2",
+        "iso_slug": "16O-13C-18O",
+        "doi": "",
+        "linelist": "Dozen",
+        "ds_name": "16O-13C-18O__Dozen",
+        "labels": [
+            {
+                "Quantum label": "ID",
+                "Format quantum label": "I12 %12d",
+                "Description quantum label": "Unique integer identifier for the energy level"
+            },
+            {
+                "Quantum label": "E",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "State energy in cm-1"
+            },
+            {
+                "Quantum label": "gtot",
+                "Format quantum label": "I6 %6d",
+                "Description quantum label": "Total energy level degeneracy"
+            },
+            {
+                "Quantum label": "J",
+                "Format quantum label": "F7.1 %7.1f",
+                "Description quantum label": "Total rotational quantum number, excluding nuclear spin"
+            },
+            {
+                "Quantum label": "unc",
+                "Format quantum label": "ES12.4 %12.4e",
+                "Description quantum label": "Energy uncertainty in cm-1"
+            },
+            {
+                "Quantum label": "tau",
+                "Format quantum label": "A3 %3s",
+                "Description quantum label": "Lifetime in s"
+            },
+            {
+                "Quantum label": "Gtot",
+                "Format quantum label": "A1 %1s",
+                "Description quantum label": "Total symmetry"
+            },
+            {
+                "Quantum label": "e/f",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "e/f parity"
+            },
+            {
+                "Quantum label": "v1",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "Normal mode (Hertzberg) vibrational QN"
+            },
+            {
+                "Quantum label": "v2",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "Normal mode (Hertzberg) vibrational QN"
+            },
+            {
+                "Quantum label": "l2",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "Vibrational bending QN (Similar but not identical to standard l2)"
+            },
+            {
+                "Quantum label": "v3",
+                "Format quantum label": "F5.2  %5.2f",
+                "Description quantum label": "Normal mode (Hertzberg) vibrational QN"
+            },
+            {
+                "Quantum label": "|Coef|2",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "Coefficient with the largest contribution"
+            },
+            {
+                "Quantum label": "m1",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "Symmetric vibrational Fermi-resonance group QN (-1=not available)"
+            },
+            {
+                "Quantum label": "m2",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "Vibrational bending QN (Similar but not identical to standard n2lin)"
+            },
+            {
+                "Quantum label": "l2",
+                "Format quantum label": "I3 %3d",
+                "Description quantum label": "Vibrational bending QN (Similar but not identical to standard l2)"
+            },
+            {
+                "Quantum label": "m3",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "Asymmetric vibrational stretching QN (equivalent to n3)"
+            },
+            {
+                "Quantum label": "r",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "Fermi-resonance group ranking QN"
+            },
+            {
+                "Quantum label": "n1",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "TROVE local-mode QN1"
+            },
+            {
+                "Quantum label": "n2",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "TROVE local-mode QN2"
+            },
+            {
+                "Quantum label": "n3",
+                "Format quantum label": "A2 %2s",
+                "Description quantum label": "TROVE local-mode QN3"
+            },
+            {
+                "Quantum label": "Auxiliary:SourceType",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Ma=MARVEL,Ca=Calculated,EH=Effective Hamiltonian,IE=Isotopologue extrapolation"
+            },
+            {
+                "Quantum label": "Auxiliary:Ecal",
+                "Format quantum label": "None",
+                "Description quantum label": "Calculated energy in cm-1"
+            }
+        ]
+    },
+    {
+        "mol": "CO2",
+        "iso_slug": "17O-12C-18O",
+        "doi": "",
+        "linelist": "Dozen",
+        "ds_name": "17O-12C-18O__Dozen",
+        "labels": [
+            {
+                "Quantum label": "ID",
+                "Format quantum label": "I12 %12d",
+                "Description quantum label": "Unique integer identifier for the energy level"
+            },
+            {
+                "Quantum label": "E",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "State energy in cm-1"
+            },
+            {
+                "Quantum label": "gtot",
+                "Format quantum label": "I6 %6d",
+                "Description quantum label": "Total energy level degeneracy"
+            },
+            {
+                "Quantum label": "J",
+                "Format quantum label": "F7.1 %7.1f",
+                "Description quantum label": "Total rotational quantum number, excluding nuclear spin"
+            },
+            {
+                "Quantum label": "unc",
+                "Format quantum label": "ES12.4 %12.4e",
+                "Description quantum label": "Energy uncertainty in cm-1"
+            },
+            {
+                "Quantum label": "tau",
+                "Format quantum label": "A3 %3s",
+                "Description quantum label": "Lifetime in s"
+            },
+            {
+                "Quantum label": "Gtot",
+                "Format quantum label": "A1 %1s",
+                "Description quantum label": "Total symmetry"
+            },
+            {
+                "Quantum label": "e/f",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "e/f parity"
+            },
+            {
+                "Quantum label": "v1",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "Normal mode (Hertzberg) vibrational QN"
+            },
+            {
+                "Quantum label": "v2",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "Normal mode (Hertzberg) vibrational QN"
+            },
+            {
+                "Quantum label": "l2",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "Vibrational bending QN (Similar but not identical to standard l2)"
+            },
+            {
+                "Quantum label": "v3",
+                "Format quantum label": "F5.2  %5.2f",
+                "Description quantum label": "Normal mode (Hertzberg) vibrational QN"
+            },
+            {
+                "Quantum label": "|Coef|2",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "Coefficient with the largest contribution"
+            },
+            {
+                "Quantum label": "m1",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "Symmetric vibrational Fermi-resonance group QN (-1=not available)"
+            },
+            {
+                "Quantum label": "m2",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "Vibrational bending QN (Similar but not identical to standard n2lin)"
+            },
+            {
+                "Quantum label": "l2",
+                "Format quantum label": "I3 %3d",
+                "Description quantum label": "Vibrational bending QN (Similar but not identical to standard l2)"
+            },
+            {
+                "Quantum label": "m3",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "Asymmetric vibrational stretching QN (equivalent to n3)"
+            },
+            {
+                "Quantum label": "r",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "Fermi-resonance group ranking QN"
+            },
+            {
+                "Quantum label": "n1",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "TROVE local-mode QN1"
+            },
+            {
+                "Quantum label": "n2",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "TROVE local-mode QN2"
+            },
+            {
+                "Quantum label": "n3",
+                "Format quantum label": "A2 %2s",
+                "Description quantum label": "TROVE local-mode QN3"
+            },
+            {
+                "Quantum label": "Auxiliary:SourceType",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Ma=MARVEL,Ca=Calculated,EH=Effective Hamiltonian,IE=Isotopologue extrapolation"
+            },
+            {
+                "Quantum label": "Auxiliary:Ecal",
+                "Format quantum label": "None",
+                "Description quantum label": "Calculated energy in cm-1"
+            }
+        ]
+    },
+    {
+        "mol": "CO2",
+        "iso_slug": "17O-13C-18O",
+        "doi": "",
+        "linelist": "Dozen",
+        "ds_name": "17O-13C-18O__Dozen",
+        "labels": [
+            {
+                "Quantum label": "ID",
+                "Format quantum label": "I12 %12d",
+                "Description quantum label": "Unique integer identifier for the energy level"
+            },
+            {
+                "Quantum label": "E",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "State energy in cm-1"
+            },
+            {
+                "Quantum label": "gtot",
+                "Format quantum label": "I6 %6d",
+                "Description quantum label": "Total energy level degeneracy"
+            },
+            {
+                "Quantum label": "J",
+                "Format quantum label": "F7.1 %7.1f",
+                "Description quantum label": "Total rotational quantum number, excluding nuclear spin"
+            },
+            {
+                "Quantum label": "unc",
+                "Format quantum label": "ES12.4 %12.4e",
+                "Description quantum label": "Energy uncertainty in cm-1"
+            },
+            {
+                "Quantum label": "tau",
+                "Format quantum label": "A3 %3s",
+                "Description quantum label": "Lifetime in s"
+            },
+            {
+                "Quantum label": "Gtot",
+                "Format quantum label": "A1 %1s",
+                "Description quantum label": "Total symmetry"
+            },
+            {
+                "Quantum label": "e/f",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "e/f parity"
+            },
+            {
+                "Quantum label": "v1",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "Normal mode (Hertzberg) vibrational QN"
+            },
+            {
+                "Quantum label": "v2",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "Normal mode (Hertzberg) vibrational QN"
+            },
+            {
+                "Quantum label": "l2",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "Vibrational bending QN (Similar but not identical to standard l2)"
+            },
+            {
+                "Quantum label": "v3",
+                "Format quantum label": "F5.2  %5.2f",
+                "Description quantum label": "Normal mode (Hertzberg) vibrational QN"
+            },
+            {
+                "Quantum label": "|Coef|2",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "Coefficient with the largest contribution"
+            },
+            {
+                "Quantum label": "m1",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "Symmetric vibrational Fermi-resonance group QN (-1=not available)"
+            },
+            {
+                "Quantum label": "m2",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "Vibrational bending QN (Similar but not identical to standard n2lin)"
+            },
+            {
+                "Quantum label": "l2",
+                "Format quantum label": "I3 %3d",
+                "Description quantum label": "Vibrational bending QN (Similar but not identical to standard l2)"
+            },
+            {
+                "Quantum label": "m3",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "Asymmetric vibrational stretching QN (equivalent to n3)"
+            },
+            {
+                "Quantum label": "r",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "Fermi-resonance group ranking QN"
+            },
+            {
+                "Quantum label": "n1",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "TROVE local-mode QN1"
+            },
+            {
+                "Quantum label": "n2",
+                "Format quantum label": "I2  %2d",
+                "Description quantum label": "TROVE local-mode QN2"
+            },
+            {
+                "Quantum label": "n3",
+                "Format quantum label": "A2 %2s",
+                "Description quantum label": "TROVE local-mode QN3"
+            },
+            {
+                "Quantum label": "Auxiliary:SourceType",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Ma=MARVEL,Ca=Calculated,EH=Effective Hamiltonian,IE=Isotopologue extrapolation"
+            },
+            {
+                "Quantum label": "Auxiliary:Ecal",
+                "Format quantum label": "None",
+                "Description quantum label": "Calculated energy in cm-1"
+            }
+        ]
+    },
+    {
         "mol": "CO_p",
         "iso_slug": "12C-16O_p",
-        "doi": "",
+        "doi": NaN,
         "linelist": "AWXLZY",
         "ds_name": "12C-16O_p__AWXLZY",
         "labels": [
@@ -4292,6 +5890,11 @@
                 "Quantum label": "J",
                 "Format quantum label": "F7.1 %7.1f",
                 "Description quantum label": "Total rotational quantum number, excluding nuclear spin"
+            },
+            {
+                "Quantum label": "unc",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Energy uncertainty in cm-1"
             },
             {
                 "Quantum label": "gfactor",
@@ -4338,7 +5941,7 @@
     {
         "mol": "CO_p",
         "iso_slug": "12C-16O_p",
-        "doi": "",
+        "doi": NaN,
         "linelist": "new",
         "ds_name": "12C-16O_p__new",
         "labels": [
@@ -4361,6 +5964,11 @@
                 "Quantum label": "J",
                 "Format quantum label": "F7.1 %7.1f",
                 "Description quantum label": "Total rotational quantum number, excluding nuclear spin"
+            },
+            {
+                "Quantum label": "unc",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Energy uncertainty in cm-1"
             },
             {
                 "Quantum label": "gfactor",
@@ -4432,6 +6040,11 @@
                 "Description quantum label": "Total rotational quantum number, excluding nuclear spin"
             },
             {
+                "Quantum label": "unc",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Energy uncertainty in cm-1"
+            },
+            {
                 "Quantum label": "ElecState",
                 "Format quantum label": "A12 %12s",
                 "Description quantum label": "electronic state"
@@ -4442,9 +6055,9 @@
                 "Description quantum label": "State vibrational quantum number"
             },
             {
-                "Quantum label": "F",
-                "Format quantum label": "I4 %4d",
-                "Description quantum label": "F level"
+                "Quantum label": "F_i",
+                "Format quantum label": "A4 %4s",
+                "Description quantum label": "Spin component"
             },
             {
                 "Quantum label": "e/f",
@@ -4479,6 +6092,11 @@
                 "Quantum label": "J",
                 "Format quantum label": "F7.1 %7.1f",
                 "Description quantum label": "Total rotational quantum number, excluding nuclear spin"
+            },
+            {
+                "Quantum label": "unc",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Energy uncertainty in cm-1"
             },
             {
                 "Quantum label": "v",
@@ -4882,6 +6500,11 @@
                 "Description quantum label": "Total rotational quantum number, excluding nuclear spin"
             },
             {
+                "Quantum label": "unc",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Energy uncertainty in cm-1"
+            },
+            {
                 "Quantum label": "v",
                 "Format quantum label": "I4 %4d",
                 "Description quantum label": "State vibrational quantum number"
@@ -4931,6 +6554,11 @@
                 "Description quantum label": "Total rotational quantum number, excluding nuclear spin"
             },
             {
+                "Quantum label": "unc",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Energy uncertainty in cm-1"
+            },
+            {
                 "Quantum label": "tau",
                 "Format quantum label": "ES12.4 %12.4e",
                 "Description quantum label": "Lifetime in s"
@@ -4975,6 +6603,11 @@
                 "Description quantum label": "Total rotational quantum number, excluding nuclear spin"
             },
             {
+                "Quantum label": "unc",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Energy uncertainty in cm-1"
+            },
+            {
                 "Quantum label": "ElecState",
                 "Format quantum label": "A12 %12s",
                 "Description quantum label": "Electronic state"
@@ -4989,7 +6622,7 @@
     {
         "mol": "H2",
         "iso_slug": "1H2",
-        "doi": "10.1051/0004-6361/201936249",
+        "doi": "10.1139/p94-112",
         "linelist": "RACPPK",
         "ds_name": "1H2__RACPPK",
         "labels": [
@@ -5012,6 +6645,11 @@
                 "Quantum label": "J",
                 "Format quantum label": "F7.1 %7.1f",
                 "Description quantum label": "Total rotational quantum number, excluding nuclear spin"
+            },
+            {
+                "Quantum label": "unc",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Energy uncertainty in cm-1"
             },
             {
                 "Quantum label": "v",
@@ -5331,6 +6969,11 @@
                 "Description quantum label": "Total rotational quantum number, excluding nuclear spin"
             },
             {
+                "Quantum label": "unc",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Energy uncertainty in cm-1"
+            },
+            {
                 "Quantum label": "+/-",
                 "Format quantum label": "A1 %1s",
                 "Description quantum label": "Parity"
@@ -5380,7 +7023,7 @@
     {
         "mol": "H2O",
         "iso_slug": "1H2-15O",
-        "doi": "",
+        "doi": "10.1016/j.saa.2024.124007",
         "linelist": "VoTe-15",
         "ds_name": "1H2-15O__VoTe-15",
         "labels": [
@@ -5405,9 +7048,9 @@
                 "Description quantum label": "Total rotational quantum number"
             },
             {
-                "Quantum label": "unc",
-                "Format quantum label": "F12.6 %12.6f",
-                "Description quantum label": "Energy uncertainty in cm-1"
+                "Quantum label": "tau",
+                "Format quantum label": "ES12.4 %12.4e",
+                "Description quantum label": "Lifetime in s"
             },
             {
                 "Quantum label": "v1",
@@ -5563,6 +7206,11 @@
                 "Description quantum label": "Total rotational quantum number, excluding nuclear spin"
             },
             {
+                "Quantum label": "unc",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Energy uncertainty in cm-1"
+            },
+            {
                 "Quantum label": "tau",
                 "Format quantum label": "ES12.4 %12.4e",
                 "Description quantum label": "Lifetime in s"
@@ -5630,6 +7278,11 @@
                 "Quantum label": "J",
                 "Format quantum label": "F7.1 %7.1f",
                 "Description quantum label": "Total rotational quantum number, excluding nuclear spin"
+            },
+            {
+                "Quantum label": "unc",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Energy uncertainty in cm-1"
             },
             {
                 "Quantum label": "tau",
@@ -5889,7 +7542,7 @@
     {
         "mol": "H2_p",
         "iso_slug": "1H-2H_p",
-        "doi": "",
+        "doi": "10.3847/1538-4357/ab1f65",
         "linelist": "ADJSAAM",
         "ds_name": "1H-2H_p__ADJSAAM",
         "labels": [
@@ -5933,7 +7586,7 @@
     {
         "mol": "H3O_p",
         "iso_slug": "1H3-16O_p",
-        "doi": "",
+        "doi": "10.1093/mnras/staa2034",
         "linelist": "eXeL",
         "ds_name": "1H3-16O_p__eXeL",
         "labels": [
@@ -6062,7 +7715,7 @@
     {
         "mol": "H3_p",
         "iso_slug": "1H2-2H_p",
-        "doi": "",
+        "doi": "10.1093/mnras/stx502",
         "linelist": "ST",
         "ds_name": "1H2-2H_p__ST",
         "labels": [
@@ -6156,7 +7809,7 @@
     {
         "mol": "H3_p",
         "iso_slug": "1H3_p",
-        "doi": "",
+        "doi": "10.1093/mnras/stx502",
         "linelist": "MiZATeP",
         "ds_name": "1H3_p__MiZATeP",
         "labels": [
@@ -6255,7 +7908,7 @@
     {
         "mol": "H3_p",
         "iso_slug": "2H2-1H_p",
-        "doi": "",
+        "doi": "10.1093/mnras/stx502",
         "linelist": "MiZo",
         "ds_name": "2H2-1H_p__MiZo",
         "labels": [
@@ -6349,7 +8002,7 @@
     {
         "mol": "H3_p",
         "iso_slug": "2H3_p",
-        "doi": "",
+        "doi": "10.1093/mnras/stx502",
         "linelist": "MiZo",
         "ds_name": "2H3_p__MiZo",
         "labels": [
@@ -6690,6 +8343,11 @@
                 "Description quantum label": "Total rotational quantum number, excluding nuclear spin"
             },
             {
+                "Quantum label": "unc",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Energy uncertainty in cm-1"
+            },
+            {
                 "Quantum label": "v",
                 "Format quantum label": "I4 %4d",
                 "Description quantum label": "State vibrational quantum number"
@@ -6722,6 +8380,11 @@
                 "Quantum label": "J",
                 "Format quantum label": "F7.1 %7.1f",
                 "Description quantum label": "Total rotational quantum number, excluding nuclear spin"
+            },
+            {
+                "Quantum label": "unc",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Energy uncertainty in cm-1"
             },
             {
                 "Quantum label": "v",
@@ -6758,6 +8421,11 @@
                 "Description quantum label": "Total rotational quantum number, excluding nuclear spin"
             },
             {
+                "Quantum label": "unc",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Energy uncertainty in cm-1"
+            },
+            {
                 "Quantum label": "v",
                 "Format quantum label": "I4 %4d",
                 "Description quantum label": "State vibrational quantum number"
@@ -6792,6 +8460,11 @@
                 "Description quantum label": "Total rotational quantum number, excluding nuclear spin"
             },
             {
+                "Quantum label": "unc",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Energy uncertainty in cm-1"
+            },
+            {
                 "Quantum label": "v",
                 "Format quantum label": "I4 %4d",
                 "Description quantum label": "State vibrational quantum number"
@@ -6824,6 +8497,11 @@
                 "Quantum label": "J",
                 "Format quantum label": "F7.1 %7.1f",
                 "Description quantum label": "Total rotational quantum number, excluding nuclear spin"
+            },
+            {
+                "Quantum label": "unc",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Energy uncertainty in cm-1"
             },
             {
                 "Quantum label": "tau",
@@ -6870,7 +8548,7 @@
     {
         "mol": "HeH_p",
         "iso_slug": "3He-1H_p",
-        "doi": "",
+        "doi": "10.3847/1538-4357/ab1f65",
         "linelist": "ADJSAAM",
         "ds_name": "3He-1H_p__ADJSAAM",
         "labels": [
@@ -6895,6 +8573,11 @@
                 "Description quantum label": "Total rotational quantum number, excluding nuclear spin"
             },
             {
+                "Quantum label": "unc",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Energy uncertainty in cm-1"
+            },
+            {
                 "Quantum label": "tau",
                 "Format quantum label": "ES12.4 %12.4e",
                 "Description quantum label": "Lifetime in s"
@@ -6914,7 +8597,7 @@
     {
         "mol": "HeH_p",
         "iso_slug": "3He-2H_p",
-        "doi": "",
+        "doi": "10.3847/1538-4357/ab1f65",
         "linelist": "ADJSAAM",
         "ds_name": "3He-2H_p__ADJSAAM",
         "labels": [
@@ -6939,6 +8622,11 @@
                 "Description quantum label": "Total rotational quantum number, excluding nuclear spin"
             },
             {
+                "Quantum label": "unc",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Energy uncertainty in cm-1"
+            },
+            {
                 "Quantum label": "tau",
                 "Format quantum label": "ES12.4 %12.4e",
                 "Description quantum label": "Lifetime in s"
@@ -6958,7 +8646,7 @@
     {
         "mol": "HeH_p",
         "iso_slug": "4He-1H_p",
-        "doi": "",
+        "doi": "10.3847/1538-4357/ab1f65",
         "linelist": "ADJSAAM",
         "ds_name": "4He-1H_p__ADJSAAM",
         "labels": [
@@ -6983,6 +8671,11 @@
                 "Description quantum label": "Total rotational quantum number, excluding nuclear spin"
             },
             {
+                "Quantum label": "unc",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Energy uncertainty in cm-1"
+            },
+            {
                 "Quantum label": "tau",
                 "Format quantum label": "ES12.4 %12.4e",
                 "Description quantum label": "Lifetime in s"
@@ -7002,7 +8695,7 @@
     {
         "mol": "HeH_p",
         "iso_slug": "4He-2H_p",
-        "doi": "",
+        "doi": "10.3847/1538-4357/ab1f65",
         "linelist": "ADJSAAM",
         "ds_name": "4He-2H_p__ADJSAAM",
         "labels": [
@@ -7025,6 +8718,11 @@
                 "Quantum label": "J",
                 "Format quantum label": "F7.1 %7.1f",
                 "Description quantum label": "Total rotational quantum number, excluding nuclear spin"
+            },
+            {
+                "Quantum label": "unc",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Energy uncertainty in cm-1"
             },
             {
                 "Quantum label": "tau",
@@ -7071,6 +8769,11 @@
                 "Description quantum label": "Total rotational quantum number, excluding nuclear spin"
             },
             {
+                "Quantum label": "unc",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Energy uncertainty in cm-1"
+            },
+            {
                 "Quantum label": "v",
                 "Format quantum label": "I4 %4d",
                 "Description quantum label": "State vibrational quantum number"
@@ -7103,6 +8806,11 @@
                 "Quantum label": "J",
                 "Format quantum label": "F7.1 %7.1f",
                 "Description quantum label": "Total rotational quantum number, excluding nuclear spin"
+            },
+            {
+                "Quantum label": "unc",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Energy uncertainty in cm-1"
             },
             {
                 "Quantum label": "tau",
@@ -7365,6 +9073,11 @@
                 "Description quantum label": "Total rotational quantum number, excluding nuclear spin"
             },
             {
+                "Quantum label": "unc",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Energy uncertainty in cm-1"
+            },
+            {
                 "Quantum label": "tau",
                 "Format quantum label": "ES12.4 %12.4e",
                 "Description quantum label": "Lifetime in s"
@@ -7404,6 +9117,11 @@
                 "Description quantum label": "Total rotational quantum number, excluding nuclear spin"
             },
             {
+                "Quantum label": "unc",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Energy uncertainty in cm-1"
+            },
+            {
                 "Quantum label": "tau",
                 "Format quantum label": "ES12.4 %12.4e",
                 "Description quantum label": "Lifetime in s"
@@ -7441,11 +9159,6 @@
                 "Quantum label": "J",
                 "Format quantum label": "F7.1 %7.1f",
                 "Description quantum label": "Total rotational quantum number, excluding nuclear spin"
-            },
-            {
-                "Quantum label": "unc",
-                "Format quantum label": "F12.6 %12.6f",
-                "Description quantum label": "Energy uncertainty in cm-1"
             },
             {
                 "Quantum label": "tau",
@@ -7522,9 +9235,14 @@
                 "Description quantum label": "Total energy level degeneracy"
             },
             {
-                "Quantum label": "F",
+                "Quantum label": "J",
                 "Format quantum label": "F7.1 %7.1f",
-                "Description quantum label": "Final angular momentum quantum number"
+                "Description quantum label": "Total rotational quantum number"
+            },
+            {
+                "Quantum label": "unc",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Energy uncertainty in cm-1"
             },
             {
                 "Quantum label": "J",
@@ -7586,6 +9304,11 @@
                 "Description quantum label": "Total rotational quantum number, excluding nuclear spin"
             },
             {
+                "Quantum label": "unc",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Energy uncertainty in cm-1"
+            },
+            {
                 "Quantum label": "tau",
                 "Format quantum label": "ES12.4 %12.4e",
                 "Description quantum label": "Lifetime in s"
@@ -7623,6 +9346,11 @@
                 "Quantum label": "J",
                 "Format quantum label": "F7.1 %7.1f",
                 "Description quantum label": "Total rotational quantum number, excluding nuclear spin"
+            },
+            {
+                "Quantum label": "unc",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Energy uncertainty in cm-1"
             },
             {
                 "Quantum label": "tau",
@@ -7664,6 +9392,11 @@
                 "Description quantum label": "Total rotational quantum number, excluding nuclear spin"
             },
             {
+                "Quantum label": "unc",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Energy uncertainty in cm-1"
+            },
+            {
                 "Quantum label": "tau",
                 "Format quantum label": "ES12.4 %12.4e",
                 "Description quantum label": "Lifetime in s"
@@ -7701,6 +9434,11 @@
                 "Quantum label": "J",
                 "Format quantum label": "F7.1 %7.1f",
                 "Description quantum label": "Total rotational quantum number, excluding nuclear spin"
+            },
+            {
+                "Quantum label": "unc",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Energy uncertainty in cm-1"
             },
             {
                 "Quantum label": "tau",
@@ -7742,6 +9480,11 @@
                 "Description quantum label": "Total rotational quantum number, excluding nuclear spin"
             },
             {
+                "Quantum label": "unc",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Energy uncertainty in cm-1"
+            },
+            {
                 "Quantum label": "tau",
                 "Format quantum label": "ES12.4 %12.4e",
                 "Description quantum label": "Lifetime in s"
@@ -7779,6 +9522,11 @@
                 "Quantum label": "J",
                 "Format quantum label": "F7.1 %7.1f",
                 "Description quantum label": "Total rotational quantum number, excluding nuclear spin"
+            },
+            {
+                "Quantum label": "unc",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Energy uncertainty in cm-1"
             },
             {
                 "Quantum label": "tau",
@@ -7820,6 +9568,11 @@
                 "Description quantum label": "Total rotational quantum number, excluding nuclear spin"
             },
             {
+                "Quantum label": "unc",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Energy uncertainty in cm-1"
+            },
+            {
                 "Quantum label": "v",
                 "Format quantum label": "I2 %2d",
                 "Description quantum label": "State vibrational quantum number"
@@ -7829,7 +9582,7 @@
     {
         "mol": "LiH_p",
         "iso_slug": "7Li-1H_p",
-        "doi": "",
+        "doi": "10.1111/j.1365-2966.2011.18723.x",
         "linelist": "CLT",
         "ds_name": "7Li-1H_p__CLT",
         "labels": [
@@ -7852,6 +9605,11 @@
                 "Quantum label": "J",
                 "Format quantum label": "F7.1 %7.1f",
                 "Description quantum label": "Total rotational quantum number, excluding nuclear spin"
+            },
+            {
+                "Quantum label": "unc",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Energy uncertainty in cm-1"
             },
             {
                 "Quantum label": "v",
@@ -8036,6 +9794,11 @@
                 "Description quantum label": "Total rotational quantum number, excluding nuclear spin"
             },
             {
+                "Quantum label": "unc",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Energy uncertainty in cm-1"
+            },
+            {
                 "Quantum label": "tau",
                 "Format quantum label": "ES12.4 %12.4e",
                 "Description quantum label": "Lifetime in s"
@@ -8075,6 +9838,11 @@
                 "Description quantum label": "Total rotational quantum number, excluding nuclear spin"
             },
             {
+                "Quantum label": "unc",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Energy uncertainty in cm-1"
+            },
+            {
                 "Quantum label": "tau",
                 "Format quantum label": "ES12.4 %12.4e",
                 "Description quantum label": "Lifetime in s"
@@ -8112,6 +9880,11 @@
                 "Quantum label": "J",
                 "Format quantum label": "F7.1 %7.1f",
                 "Description quantum label": "Total rotational quantum number, excluding nuclear spin"
+            },
+            {
+                "Quantum label": "unc",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Energy uncertainty in cm-1"
             },
             {
                 "Quantum label": "tau",
@@ -8895,9 +10668,9 @@
                 "Description quantum label": "State vibrational quantum number"
             },
             {
-                "Quantum label": "F",
-                "Format quantum label": "A2 %2s",
-                "Description quantum label": "F1/2/3 quantum number"
+                "Quantum label": "F_i",
+                "Format quantum label": "A4 %4s",
+                "Description quantum label": "Spin component"
             },
             {
                 "Quantum label": "N",
@@ -8909,7 +10682,7 @@
     {
         "mol": "N2O",
         "iso_slug": "14N-15N-16O",
-        "doi": "None",
+        "doi": NaN,
         "linelist": "TYM",
         "ds_name": "14N-15N-16O__TYM",
         "labels": [
@@ -8932,11 +10705,6 @@
                 "Quantum label": "J",
                 "Format quantum label": "F7.1 %7.1f",
                 "Description quantum label": "Total rotational quantum number, excluding nuclear spin"
-            },
-            {
-                "Quantum label": "unc",
-                "Format quantum label": "F12.6 %12.6f",
-                "Description quantum label": "Energy uncertainty in cm-1"
             },
             {
                 "Quantum label": "tau",
@@ -9092,7 +10860,7 @@
     {
         "mol": "N2O",
         "iso_slug": "14N2-17O",
-        "doi": "None",
+        "doi": NaN,
         "linelist": "TYM",
         "ds_name": "14N2-17O__TYM",
         "labels": [
@@ -9171,7 +10939,7 @@
     {
         "mol": "N2O",
         "iso_slug": "14N2-18O",
-        "doi": "None",
+        "doi": NaN,
         "linelist": "TYM",
         "ds_name": "14N2-18O__TYM",
         "labels": [
@@ -9250,7 +11018,7 @@
     {
         "mol": "N2O",
         "iso_slug": "15N-14N-16O",
-        "doi": "None",
+        "doi": NaN,
         "linelist": "TYM",
         "ds_name": "15N-14N-16O__TYM",
         "labels": [
@@ -9440,6 +11208,11 @@
                 "Quantum label": "J",
                 "Format quantum label": "F7.1 %7.1f",
                 "Description quantum label": "Total rotational quantum number, excluding nuclear spin"
+            },
+            {
+                "Quantum label": "unc",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Energy uncertainty in cm-1"
             },
             {
                 "Quantum label": "tau",
@@ -9787,9 +11560,9 @@
                 "Description quantum label": "Rotational angular momentum"
             },
             {
-                "Quantum label": "Fnum",
-                "Format quantum label": "I2 %2d",
-                "Description quantum label": "Fine structure counting number"
+                "Quantum label": "F_i",
+                "Format quantum label": "A4 %4s",
+                "Description quantum label": "Spin component"
             },
             {
                 "Quantum label": "Auxiliary:SourceType",
@@ -9876,9 +11649,9 @@
                 "Description quantum label": "Rotational angular momentum"
             },
             {
-                "Quantum label": "Fnum",
-                "Format quantum label": "I2 %2d",
-                "Description quantum label": "Fine structure counting number"
+                "Quantum label": "F_i",
+                "Format quantum label": "A4 %4s",
+                "Description quantum label": "Spin component"
             },
             {
                 "Quantum label": "Auxiliary:SourceType",
@@ -9965,9 +11738,9 @@
                 "Description quantum label": "Rotational angular momentum"
             },
             {
-                "Quantum label": "Fnum",
-                "Format quantum label": "I2 %2d",
-                "Description quantum label": "Fine structure counting number"
+                "Quantum label": "F_i",
+                "Format quantum label": "A4 %4s",
+                "Description quantum label": "Spin component"
             },
             {
                 "Quantum label": "Auxiliary:SourceType",
@@ -10054,9 +11827,9 @@
                 "Description quantum label": "Rotational angular momentum"
             },
             {
-                "Quantum label": "Fnum",
-                "Format quantum label": "I2 %2d",
-                "Description quantum label": "Fine structure counting number"
+                "Quantum label": "F_i",
+                "Format quantum label": "A4 %4s",
+                "Description quantum label": "Spin component"
             },
             {
                 "Quantum label": "Auxiliary:SourceType",
@@ -10361,7 +12134,7 @@
     {
         "mol": "NiH",
         "iso_slug": "58Ni-1H",
-        "doi": "",
+        "doi": "10.1093/mnras/stae2710",
         "linelist": "BYOT",
         "ds_name": "58Ni-1H__BYOT",
         "labels": [
@@ -10381,9 +12154,9 @@
                 "Description quantum label": "Total energy level degeneracy"
             },
             {
-                "Quantum label": "F",
+                "Quantum label": "J",
                 "Format quantum label": "F7.1 %7.1f",
-                "Description quantum label": "Final angular momentum quantum number"
+                "Description quantum label": "Total rotational quantum number, excluding nuclear spin"
             },
             {
                 "Quantum label": "unc",
@@ -10445,7 +12218,7 @@
     {
         "mol": "NiH",
         "iso_slug": "58Ni-2H",
-        "doi": "",
+        "doi": "10.1093/mnras/stae2710",
         "linelist": "BYOT",
         "ds_name": "58Ni-2H__BYOT",
         "labels": [
@@ -10465,9 +12238,9 @@
                 "Description quantum label": "Total energy level degeneracy"
             },
             {
-                "Quantum label": "F",
+                "Quantum label": "J",
                 "Format quantum label": "F7.1 %7.1f",
-                "Description quantum label": "Final angular momentum quantum number"
+                "Description quantum label": "Total rotational quantum number, excluding nuclear spin"
             },
             {
                 "Quantum label": "unc",
@@ -10529,7 +12302,7 @@
     {
         "mol": "NiH",
         "iso_slug": "60Ni-1H",
-        "doi": "",
+        "doi": "10.1093/mnras/stae2710",
         "linelist": "BYOT",
         "ds_name": "60Ni-1H__BYOT",
         "labels": [
@@ -10549,9 +12322,9 @@
                 "Description quantum label": "Total energy level degeneracy"
             },
             {
-                "Quantum label": "F",
+                "Quantum label": "J",
                 "Format quantum label": "F7.1 %7.1f",
-                "Description quantum label": "Final angular momentum quantum number"
+                "Description quantum label": "Total rotational quantum number, excluding nuclear spin"
             },
             {
                 "Quantum label": "unc",
@@ -10613,7 +12386,7 @@
     {
         "mol": "NiH",
         "iso_slug": "62Ni-1H",
-        "doi": "",
+        "doi": "10.1093/mnras/stae2710",
         "linelist": "BYOT",
         "ds_name": "62Ni-1H__BYOT",
         "labels": [
@@ -10633,9 +12406,9 @@
                 "Description quantum label": "Total energy level degeneracy"
             },
             {
-                "Quantum label": "F",
+                "Quantum label": "J",
                 "Format quantum label": "F7.1 %7.1f",
-                "Description quantum label": "Final angular momentum quantum number"
+                "Description quantum label": "Total rotational quantum number, excluding nuclear spin"
             },
             {
                 "Quantum label": "unc",
@@ -11379,7 +13152,7 @@
     {
         "mol": "OH_p",
         "iso_slug": "16O-1H_p",
-        "doi": "",
+        "doi": "10.3847/1538-4357/aa6bf5",
         "linelist": "MoLLIST",
         "ds_name": "16O-1H_p__MoLLIST",
         "labels": [
@@ -11404,6 +13177,11 @@
                 "Description quantum label": "Total rotational quantum number, excluding nuclear spin"
             },
             {
+                "Quantum label": "unc",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Energy uncertainty in cm-1"
+            },
+            {
                 "Quantum label": "ElecState",
                 "Format quantum label": "A12 %12s",
                 "Description quantum label": "Electronic state"
@@ -11414,9 +13192,9 @@
                 "Description quantum label": "State vibrational quantum number"
             },
             {
-                "Quantum label": "F",
-                "Format quantum label": "I3 %3d",
-                "Description quantum label": "F1/F2/F3 spin component"
+                "Quantum label": "F_i",
+                "Format quantum label": "A4 %4s",
+                "Description quantum label": "Spin component"
             },
             {
                 "Quantum label": "e/f",
@@ -11451,6 +13229,11 @@
                 "Quantum label": "J",
                 "Format quantum label": "F7.1 %7.1f",
                 "Description quantum label": "Total rotational quantum number"
+            },
+            {
+                "Quantum label": "unc",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Energy uncertainty in cm-1"
             },
             {
                 "Quantum label": "tau",
@@ -11552,6 +13335,11 @@
                 "Description quantum label": "Total rotational quantum number, excluding nuclear spin"
             },
             {
+                "Quantum label": "unc",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Energy uncertainty in cm-1"
+            },
+            {
                 "Quantum label": "tau",
                 "Format quantum label": "ES12.4 %12.4e",
                 "Description quantum label": "Lifetime in s"
@@ -11614,6 +13402,11 @@
                 "Quantum label": "J",
                 "Format quantum label": "F7.1 %7.1f",
                 "Description quantum label": "Total rotational quantum number, excluding nuclear spin"
+            },
+            {
+                "Quantum label": "unc",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Energy uncertainty in cm-1"
             },
             {
                 "Quantum label": "tau",
@@ -12145,9 +13938,9 @@
                 "Description quantum label": "Total energy level degeneracy"
             },
             {
-                "Quantum label": "F",
+                "Quantum label": "J",
                 "Format quantum label": "F7.1 %7.1f",
-                "Description quantum label": "Final angular momentum quantum number"
+                "Description quantum label": "Total rotational quantum number"
             },
             {
                 "Quantum label": "unc",
@@ -12930,6 +14723,11 @@
                 "Description quantum label": "Total rotational quantum number, excluding nuclear spin"
             },
             {
+                "Quantum label": "unc",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Energy uncertainty in cm-1"
+            },
+            {
                 "Quantum label": "tau",
                 "Format quantum label": "ES12.4 %12.4e",
                 "Description quantum label": "Lifetime in s"
@@ -13022,6 +14820,11 @@
                 "Quantum label": "J",
                 "Format quantum label": "F7.1 %7.1f",
                 "Description quantum label": "Total rotational quantum number"
+            },
+            {
+                "Quantum label": "unc",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Energy uncertainty in cm-1"
             },
             {
                 "Quantum label": "tau",
@@ -13707,6 +15510,11 @@
                 "Description quantum label": "Total rotational quantum number, excluding nuclear spin"
             },
             {
+                "Quantum label": "unc",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Energy uncertainty in cm-1"
+            },
+            {
                 "Quantum label": "tau",
                 "Format quantum label": "ES12.4 %12.4e",
                 "Description quantum label": "Lifetime in s"
@@ -13744,6 +15552,11 @@
                 "Quantum label": "J",
                 "Format quantum label": "F7.1 %7.1f",
                 "Description quantum label": "Total rotational quantum number, excluding nuclear spin"
+            },
+            {
+                "Quantum label": "unc",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Energy uncertainty in cm-1"
             },
             {
                 "Quantum label": "tau",
@@ -13785,6 +15598,11 @@
                 "Description quantum label": "Total rotational quantum number, excluding nuclear spin"
             },
             {
+                "Quantum label": "unc",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Energy uncertainty in cm-1"
+            },
+            {
                 "Quantum label": "tau",
                 "Format quantum label": "ES12.4 %12.4e",
                 "Description quantum label": "Lifetime in s"
@@ -13822,6 +15640,11 @@
                 "Quantum label": "J",
                 "Format quantum label": "F7.1 %7.1f",
                 "Description quantum label": "Total rotational quantum number, excluding nuclear spin"
+            },
+            {
+                "Quantum label": "unc",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Energy uncertainty in cm-1"
             },
             {
                 "Quantum label": "tau",
@@ -13863,6 +15686,11 @@
                 "Description quantum label": "Total rotational quantum number, excluding nuclear spin"
             },
             {
+                "Quantum label": "unc",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Energy uncertainty in cm-1"
+            },
+            {
                 "Quantum label": "tau",
                 "Format quantum label": "ES12.4 %12.4e",
                 "Description quantum label": "Lifetime in s"
@@ -13900,6 +15728,11 @@
                 "Quantum label": "J",
                 "Format quantum label": "F7.1 %7.1f",
                 "Description quantum label": "Total rotational quantum number, excluding nuclear spin"
+            },
+            {
+                "Quantum label": "unc",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Energy uncertainty in cm-1"
             },
             {
                 "Quantum label": "tau",
@@ -13941,6 +15774,11 @@
                 "Description quantum label": "Total rotational quantum number, excluding nuclear spin"
             },
             {
+                "Quantum label": "unc",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Energy uncertainty in cm-1"
+            },
+            {
                 "Quantum label": "tau",
                 "Format quantum label": "ES12.4 %12.4e",
                 "Description quantum label": "Lifetime in s"
@@ -13978,6 +15816,11 @@
                 "Quantum label": "J",
                 "Format quantum label": "F7.1 %7.1f",
                 "Description quantum label": "Total rotational quantum number, excluding nuclear spin"
+            },
+            {
+                "Quantum label": "unc",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Energy uncertainty in cm-1"
             },
             {
                 "Quantum label": "tau",
@@ -14019,6 +15862,11 @@
                 "Description quantum label": "Total rotational quantum number, excluding nuclear spin"
             },
             {
+                "Quantum label": "unc",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Energy uncertainty in cm-1"
+            },
+            {
                 "Quantum label": "tau",
                 "Format quantum label": "ES12.4 %12.4e",
                 "Description quantum label": "Lifetime in s"
@@ -14056,6 +15904,11 @@
                 "Quantum label": "J",
                 "Format quantum label": "F7.1 %7.1f",
                 "Description quantum label": "Total rotational quantum number, excluding nuclear spin"
+            },
+            {
+                "Quantum label": "unc",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Energy uncertainty in cm-1"
             },
             {
                 "Quantum label": "tau",
@@ -14097,6 +15950,11 @@
                 "Description quantum label": "Total rotational quantum number, excluding nuclear spin"
             },
             {
+                "Quantum label": "unc",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Energy uncertainty in cm-1"
+            },
+            {
                 "Quantum label": "tau",
                 "Format quantum label": "ES12.4 %12.4e",
                 "Description quantum label": "Lifetime in s"
@@ -14134,6 +15992,11 @@
                 "Quantum label": "J",
                 "Format quantum label": "F7.1 %7.1f",
                 "Description quantum label": "Total rotational quantum number, excluding nuclear spin"
+            },
+            {
+                "Quantum label": "unc",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Energy uncertainty in cm-1"
             },
             {
                 "Quantum label": "tau",
@@ -14333,6 +16196,11 @@
                 "Description quantum label": "Total rotational quantum number, excluding nuclear spin"
             },
             {
+                "Quantum label": "unc",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Energy uncertainty in cm-1"
+            },
+            {
                 "Quantum label": "tau",
                 "Format quantum label": "ES12.4 %12.4e",
                 "Description quantum label": "Lifetime in s"
@@ -14445,6 +16313,11 @@
                 "Quantum label": "J",
                 "Format quantum label": "F7.1 %7.1f",
                 "Description quantum label": "Total rotational quantum number, excluding nuclear spin"
+            },
+            {
+                "Quantum label": "unc",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Energy uncertainty in cm-1"
             },
             {
                 "Quantum label": "v",
@@ -14946,6 +16819,11 @@
                 "Description quantum label": "Total rotational quantum number"
             },
             {
+                "Quantum label": "unc",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Energy uncertainty in cm-1"
+            },
+            {
                 "Quantum label": "tau",
                 "Format quantum label": "ES12.4 %12.4e",
                 "Description quantum label": "Lifetime in s"
@@ -15075,6 +16953,11 @@
                 "Description quantum label": "Total rotational quantum number"
             },
             {
+                "Quantum label": "unc",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Energy uncertainty in cm-1"
+            },
+            {
                 "Quantum label": "tau",
                 "Format quantum label": "ES12.4 %12.4e",
                 "Description quantum label": "Lifetime in s"
@@ -15199,9 +17082,9 @@
                 "Description quantum label": "Total energy level degeneracy"
             },
             {
-                "Quantum label": "F",
+                "Quantum label": "J",
                 "Format quantum label": "F7.1 %7.1f",
-                "Description quantum label": "Final angular momentum quantum number"
+                "Description quantum label": "Total rotational quantum number"
             },
             {
                 "Quantum label": "unc",
@@ -15535,7 +17418,7 @@
     {
         "mol": "ZrO",
         "iso_slug": "90Zr-16O",
-        "doi": "https://doi.org/10.1093/mnras/stad2103",
+        "doi": "10.1093/mnras/stad2103",
         "linelist": "ZorrO",
         "ds_name": "90Zr-16O__ZorrO",
         "labels": [
@@ -15624,7 +17507,7 @@
     {
         "mol": "ZrO",
         "iso_slug": "91Zr-16O",
-        "doi": "https://doi.org/10.1093/mnras/stad2103",
+        "doi": "10.1093/mnras/stad2103",
         "linelist": "ZorrO",
         "ds_name": "91Zr-16O__ZorrO",
         "labels": [
@@ -15713,7 +17596,7 @@
     {
         "mol": "ZrO",
         "iso_slug": "92Zr-16O",
-        "doi": "https://doi.org/10.1093/mnras/stad2103",
+        "doi": "10.1093/mnras/stad2103",
         "linelist": "ZorrO",
         "ds_name": "92Zr-16O__ZorrO",
         "labels": [
@@ -15802,7 +17685,7 @@
     {
         "mol": "ZrO",
         "iso_slug": "93Zr-16O",
-        "doi": "https://doi.org/10.1093/mnras/stad2103",
+        "doi": "10.1093/mnras/stad2103",
         "linelist": "ZorrO",
         "ds_name": "93Zr-16O__ZorrO",
         "labels": [
@@ -15891,7 +17774,7 @@
     {
         "mol": "ZrO",
         "iso_slug": "94Zr-16O",
-        "doi": "https://doi.org/10.1093/mnras/stad2103",
+        "doi": "10.1093/mnras/stad2103",
         "linelist": "ZorrO",
         "ds_name": "94Zr-16O__ZorrO",
         "labels": [
@@ -15980,7 +17863,7 @@
     {
         "mol": "ZrO",
         "iso_slug": "96Zr-16O",
-        "doi": "https://doi.org/10.1093/mnras/stad2103",
+        "doi": "10.1093/mnras/stad2103",
         "linelist": "ZorrO",
         "ds_name": "96Zr-16O__ZorrO",
         "labels": [

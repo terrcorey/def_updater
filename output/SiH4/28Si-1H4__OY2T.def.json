@@ -4,6 +4,7 @@
         "iso_slug": "28Si-1H4",
         "inchi": "InChI=1S/H4Si/h1H4",
         "inchikey": "BLRPTPMANUNPDV-UHFFFAOYSA-N",
+        "cas_registry_number": "7803-62-5",
         "mass_in_Da": 32.00822666,
         "point_group": "Td"
     },
@@ -23,24 +24,19 @@
     },
     "dataset": {
         "name": "OY2T",
-        "version": 20251028,
+        "version": 20170131,
         "doi": "10.5281/zenodo.5716886",
         "max_temperature": 1200.0,
-        "n_L_default": 0.4,
         "num_pressure_broadeners": 0,
-        "nxsec_files": 0,
-        "nkcoeff_files": 0,
-        "dipole_available": false,
         "cooling_function_available": false,
         "specific_heat_available": true,
-        "continuum": null,
-        "predis": null,
+        "continuum": false,
         "states": {
             "number_of_states": 7086727,
             "max_energy": 6000.0,
             "hyperfine_resolved_dataset": false,
             "uncertainty_description": null,
-            "uncertainties_available": false,
+            "uncertainties_available": true,
             "lifetime_available": true,
             "lande_g_available": false,
             "num_quanta": 26,
@@ -68,6 +64,12 @@
                     "desc": "Total rotational quantum number, excluding nuclear spin",
                     "ffmt": "I7",
                     "cfmt": "%7d"
+                },
+                {
+                    "name": "unc",
+                    "desc": "Energy uncertainty in cm-1",
+                    "ffmt": "F12.6",
+                    "cfmt": "%12.6f"
                 },
                 {
                     "name": "tau",

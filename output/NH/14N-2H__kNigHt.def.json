@@ -2,9 +2,10 @@
     "isotopologue": {
         "iso_formula": "(14N)(2H)",
         "iso_slug": "14N-2H",
-        "inchi": "InChI=XXXXX",
-        "inchikey": "XXXXXXXXXXXXXX-YYYYYYYYYY-A",
-        "mass_in_Da": 16.017176,
+        "inchi": "InChI=1S/HN/h1H/i1+0D",
+        "inchikey": "PDCKRJPYJMCOFO-TVNFCSRNSA-N",
+        "cas_registry_number": "None",
+        "mass_in_Da": 16.01717578,
         "point_group": "C"
     },
     "atoms": {
@@ -23,15 +24,10 @@
         "version": 20240301,
         "doi": "10.1093/mnras/stae1340",
         "max_temperature": 10000.0,
-        "n_L_default": 0.5,
         "num_pressure_broadeners": 0,
-        "nxsec_files": 0,
-        "nkcoeff_files": 0,
-        "dipole_available": false,
         "cooling_function_available": false,
         "specific_heat_available": false,
-        "continuum": null,
-        "predis": null,
+        "continuum": false,
         "states": {
             "number_of_states": 7406,
             "max_energy": 46308.679951,
@@ -121,10 +117,10 @@
                     "desc": "Rotational angular momentum"
                 },
                 {
-                    "name": "dcs:Fnum",
-                    "ffmt": "I2",
-                    "cfmt": "%2d",
-                    "desc": "Fine structure counting number"
+                    "name": "dcs:F_i",
+                    "ffmt": "A4",
+                    "cfmt": "%4s",
+                    "desc": "Spin component"
                 },
                 {
                     "name": "Auxiliary:SourceType",
