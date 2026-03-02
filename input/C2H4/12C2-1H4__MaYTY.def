@@ -40,66 +40,66 @@ B3u                                                                             
 0                                                                               # Uncertainty availability (1=yes, 0=no)
 1                                                                               # Lifetime availability (1=yes, 0=no)
 0                                                                               # Lande g-factor availability (1=yes, 0=no)
-1                                                                               # No. of quanta cases
-local                                                                           # Quantum case label
+asymcs                                                                          # Quantum case label
+2                                                                               # No. of quantum number types
 19                                                                              # No. of quanta defined
 Gtot                                                                            # Quantum label 1
 A3 %3s                                                                          # Format quantum label 1
 Total symmetry                                                                  # Description quantum label 1
-n1                                                                              # Quantum label 2
+TROVE:n1                                                                        # Quantum label 2
 I6 %6d                                                                          # Format quantum label 2
 [0/3] TROVE quantum number C-C local model stretch                              # Description quantum label 2
-n2                                                                              # Quantum label 3
+TROVE:n2                                                                        # Quantum label 3
 I4 %4d                                                                          # Format quantum label 3
 [0/3] TROVE quantum number C-H local mode stretch                               # Description quantum label 3
-n3                                                                              # Quantum label 4
+TROVE:n3                                                                        # Quantum label 4
 I4 %4d                                                                          # Format quantum label 4
 [0/3] TROVE quantum number C-H local mode stretch                               # Description quantum label 4
-n4                                                                              # Quantum label 5
+TROVE:n4                                                                        # Quantum label 5
 I4 %4d                                                                          # Format quantum label 5
 [0/3] TROVE quantum number C-H local mode stretch                               # Description quantum label 5
-n5                                                                              # Quantum label 6
+TROVE:n5                                                                        # Quantum label 6
 I4 %4d                                                                          # Format quantum label 6
 [0/3] TROVE quantum number C-H local mode stretch                               # Description quantum label 6
-n6                                                                              # Quantum label 7
+TROVE:n6                                                                        # Quantum label 7
 I4 %4d                                                                          # Format quantum label 7
 [0/3] TROVE quantum number CCH local mode bend                                  # Description quantum label 7
-n7                                                                              # Quantum label 8
+TROVE:n7                                                                        # Quantum label 8
 I4 %4d                                                                          # Format quantum label 8
 [0/3] TROVE quantum number CCH local mode bend                                  # Description quantum label 8
-n8                                                                              # Quantum label 9
+TROVE:n8                                                                        # Quantum label 9
 I4 %4d                                                                          # Format quantum label 9
 [0/3] TROVE quantum number CCH local mode bend                                  # Description quantum label 9
-n9                                                                              # Quantum label 10
+TROVE:n9                                                                        # Quantum label 10
 I4 %4d                                                                          # Format quantum label 10
 [0/3] TROVE quantum number CCH local mode bend                                  # Description quantum label 10
-n10                                                                             # Quantum label 11
+TROVE:n10                                                                       # Quantum label 11
 I4 %4d                                                                          # Format quantum label 11
 [0/6] TROVE quantum number Beta1 local mode bend                                # Description quantum label 11
-n11                                                                             # Quantum label 12
+TROVE:n11                                                                       # Quantum label 12
 I4 %4d                                                                          # Format quantum label 12
 [0/6] TROVE quantum number Beta2 local mode bend                                # Description quantum label 12
-n12                                                                             # Quantum label 13
+TROVE:n12                                                                       # Quantum label 13
 I4 %4d                                                                          # Format quantum label 13
 [0/6] TROVE quantum number tau local mode torsion                               # Description quantum label 13
-Gvib                                                                            # Quantum label 14
+TROVE:Gvib                                                                      # Quantum label 14
 A3 %3s                                                                          # Format quantum label 14
 Vibrational symmetry                                                            # Description quantum label 14
 J                                                                               # Quantum label 15
 I7 %7d                                                                          # Format quantum label 15
 Total rotational quantum number                                                 # Description quantum label 15
-K                                                                               # Quantum label 16
-I4 %4d                                                                          # Format quantum label 16
-[0/78] Projection of J on axis of molec. symmetry                               # Description quantum label 16
-rotpar                                                                          # Quantum label 17
-I1 %1d                                                                          # Format quantum label 17
+Herzberg:K                                                                      # Quantum label 16
+I3 %3d                                                                          # Format quantum label 16
+Projection of J onto axis of molecular symmetry                                 # Description quantum label 16
+TROVE:rotpar                                                                    # Quantum label 17
+A3 %3s                                                                          # Format quantum label 17
 Rotational parity                                                               # Description quantum label 17
-Grot                                                                            # Quantum label 18
+TROVE:Grot                                                                      # Quantum label 18
 A3 %3s                                                                          # Format quantum label 18
 Rotational symmetry                                                             # Description quantum label 18
-|Coef|2                                                                         # Quantum label 19
+TROVE:Coef                                                                      # Quantum label 19
 F5.2 %5.2f                                                                      # Format quantum label 19
-Square modulus of the coefficient with the largest contribution                 # Description quantum label 19
+Coefficient with the largest contribution                                       # Description quantum label 19
 49841085051                                                                     # Total number of transitions
 71                                                                              # No. of transition files
 7100.00                                                                         # Maximum wavenumber (in cm-1)
@@ -108,4 +108,5 @@ Square modulus of the coefficient with the largest contribution                 
 1.00                                                                            # Step size of temperature
 0.110                                                                           # Default value of Lorentzian half-width for all lines (in cm-1/bar)
 0.6                                                                             # Default value of temperature exponent for all lines
+1                                                                               # No. of quanta cases
 H2                                                                              # Label for a particular broadener

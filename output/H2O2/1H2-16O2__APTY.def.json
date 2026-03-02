@@ -42,7 +42,9 @@
             "uncertainties_available": false,
             "lifetime_available": true,
             "lande_g_available": false,
+            "quantum_case_label": "asymcs",
             "num_quanta": 20,
+            "num_quantum_types": 2,
             "states_file_fields": [
                 {
                     "name": "ID",
@@ -75,43 +77,43 @@
                     "cfmt": "%12.4e"
                 },
                 {
-                    "name": "TROVE:Gtot",
+                    "name": "Gtot",
                     "ffmt": "A3",
                     "cfmt": "%3s",
                     "desc": "Total symmetry"
                 },
                 {
-                    "name": "TROVE:v1",
+                    "name": "Herzberg:v1",
                     "ffmt": "I3",
                     "cfmt": "%3d",
                     "desc": "[0/16] normal mode vibrational quantum number"
                 },
                 {
-                    "name": "TROVE:v2",
+                    "name": "Herzberg:v2",
                     "ffmt": "I3",
                     "cfmt": "%3d",
                     "desc": "[0/8]  normal mode vibrational quantum number"
                 },
                 {
-                    "name": "TROVE:v3",
+                    "name": "Herzberg:v3",
                     "ffmt": "I3",
                     "cfmt": "%3d",
                     "desc": "[0/8] normal mode vibrational quantum number"
                 },
                 {
-                    "name": "TROVE:v4",
+                    "name": "Herzberg:v4",
                     "ffmt": "I3",
                     "cfmt": "%3d",
                     "desc": "[0/14] normal mode torsional excitation quantum number"
                 },
                 {
-                    "name": "TROVE:v5",
+                    "name": "Herzberg:v5",
                     "ffmt": "I3",
                     "cfmt": "%3d",
                     "desc": "[0/14] normal mode vibrational quantum number"
                 },
                 {
-                    "name": "TROVE:v6",
+                    "name": "Herzberg:v6",
                     "ffmt": "I3",
                     "cfmt": "%3d",
                     "desc": "[0/16] normal mode vibrational quantum number"
@@ -129,15 +131,15 @@
                     "desc": "Vibrational symmetry"
                 },
                 {
-                    "name": "TROVE:K",
+                    "name": "Herzberg:K",
                     "ffmt": "I3",
                     "cfmt": "%3d",
-                    "desc": "[0/85] Projection of J on axis of molec. symmetry"
+                    "desc": "Projection of J onto axis of molecular symmetry"
                 },
                 {
-                    "name": "TROVE:rotpar",
-                    "ffmt": "I1",
-                    "cfmt": "%1d",
+                    "name": "Herzberg:rotpar",
+                    "ffmt": "A3",
+                    "cfmt": "%3s",
                     "desc": "Rotational parity"
                 },
                 {
@@ -148,15 +150,15 @@
                 },
                 {
                     "name": "TROVE:nblock",
-                    "ffmt": "I2",
-                    "cfmt": "%2d",
+                    "ffmt": "I5",
+                    "cfmt": "%5d",
                     "desc": "Counting number in symmetry block"
                 },
                 {
-                    "name": "TROVE:|Coef|2",
+                    "name": "TROVE:Coef",
                     "ffmt": "F5.2",
                     "cfmt": "%5.2f",
-                    "desc": "Square modulus of the coefficient with the largest contribution"
+                    "desc": "Coefficient with the largest contribution"
                 },
                 {
                     "name": "TROVE:n1",

@@ -36,7 +36,9 @@
             "uncertainties_available": true,
             "lifetime_available": true,
             "lande_g_available": false,
+            "quantum_case_label": "nltcs",
             "num_quanta": 11,
+            "num_quantum_types": 3,
             "states_file_fields": [
                 {
                     "name": "ID",
@@ -75,67 +77,67 @@
                     "cfmt": "%12.4e"
                 },
                 {
-                    "name": "nltcs:Gtot",
+                    "name": "Gtot",
                     "ffmt": "A3",
                     "cfmt": "%3s",
-                    "desc": "Total symmetry index in Cs(M)"
+                    "desc": "Total symmetry"
                 },
                 {
-                    "name": "nltcs:n1",
+                    "name": "Herzberg:n1",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "Normal mode stretching N-N quantum number"
                 },
                 {
-                    "name": "nltcs:n2lin",
+                    "name": "Herzberg:n2lin",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "Normal mode bending quantum number"
                 },
                 {
-                    "name": "nltcs:l2",
+                    "name": "Herzberg:l2",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "Normal mode vibrational angular momentum quantum number"
                 },
                 {
-                    "name": "nltcs:n3",
+                    "name": "Herzberg:n3",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "Normal mode stretching N-O quantum number"
                 },
                 {
-                    "name": "nltcs:P",
+                    "name": "Polyad:P",
                     "ffmt": "I2",
                     "cfmt": "%2d",
-                    "desc": "Polyad number P = 2n1 + nlin + 4n3"
+                    "desc": "Polyad number"
                 },
                 {
-                    "name": "nltcs:Pnum",
+                    "name": "Polyad:Pnum",
                     "ffmt": "I3",
                     "cfmt": "%3d",
                     "desc": "Polyad counting number"
                 },
                 {
-                    "name": "nltcs:v1",
+                    "name": "TROVE:v1",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "TROVE stretching vibrational quantum number"
                 },
                 {
-                    "name": "nltcs:v2",
+                    "name": "TROVE:v2",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "TROVE stretching vibrational quantum number"
                 },
                 {
-                    "name": "nltcs:v3",
+                    "name": "TROVE:v3",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "TROVE bending vibrational quantum number"
                 },
                 {
-                    "name": "nltcs:EnergyID",
+                    "name": "EnergyID",
                     "ffmt": "I5",
                     "cfmt": "%5d",
                     "desc": "Counting number according to state energy"

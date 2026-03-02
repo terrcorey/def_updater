@@ -208,6 +208,7 @@ def def_to_json(def_file_path, json_file_path):
             #         })
             if '# Quantum case label' in line:
                 quantum_case_label = line.split('#')[0].strip()
+                json_dict["dataset"]["states"]["quantum_case_label"] = quantum_case_label
                 # print("Quantum case label:", quantum_case_label)
             elif '# Quantum label' in line:
                 quantum_label = line.split('#')[0].strip()
@@ -236,13 +237,8 @@ def def_to_json(def_file_path, json_file_path):
                 if description_quantum_label is not None:
                     description_quantum_label = description_quantum_label.split('#')[0].strip()
                 # Safely concatenate quantum_case_label and quantum_label
-                name_field = (
-                    (quantum_case_label if quantum_case_label is not None else "") +
-                    (":" if quantum_case_label is not None and quantum_label is not None else "") +
-                    (quantum_label if quantum_label is not None else "")
-                )
                 json_dict["dataset"]["states"]["states_file_fields"].append({
-                    "name": name_field,
+                    "name": quantum_label,
                     "ffmt": ffmt,
                     "cfmt": cfmt,
                     "desc": description_quantum_label
@@ -293,6 +289,8 @@ def def_to_json(def_file_path, json_file_path):
 
             elif '# No. of quanta defined' in line:
                 json_dict["dataset"]["states"]["num_quanta"] = int(line.split('#')[0].strip())
+            elif '# No. of quantum number types' in line:
+                json_dict["dataset"]["states"]["num_quantum_types"] = int(line.split('#')[0].strip())
             elif '# Filename of particular broadener' in line:
                 if broadener_label is not None:
                     json_dict["broad"][broadener_label]["filename"] = line.split('#')[0].strip()
@@ -374,7 +372,9 @@ def def_to_json(def_file_path, json_file_path):
             "uncertainties_available",
             "lifetime_available",
             "lande_g_available",
+            "quantum_case_label",
             "num_quanta",
+            "num_quantum_types",
             "states_file_fields"
         ]
         json_dict["dataset"]["states"] = {k: json_dict["dataset"]["states"].get(k) for k in states_keys_order}

@@ -4,7 +4,7 @@
         "iso_slug": "trans-31P2-1H-2H",
         "inchi": "InChI=1S/H2P2/c1-2/h1-2H/i1+0,2+0D",
         "inchikey": "SWJAOBXRZSMKNS-ZWYMUBPDSA-N",
-        "cas_registry_number": "None",
+        "cas_registry_number": null,
         "mass_in_Da": 64.96945007,
         "point_group": "C2h"
     },
@@ -38,7 +38,9 @@
             "uncertainties_available": false,
             "lifetime_available": true,
             "lande_g_available": false,
+            "quantum_case_label": "asymcs",
             "num_quanta": 19,
+            "num_quantum_types": 2,
             "states_file_fields": [
                 {
                     "name": "ID",
@@ -71,115 +73,115 @@
                     "cfmt": "%12.4e"
                 },
                 {
-                    "name": "stcs:Gtot",
+                    "name": "Gtot",
                     "ffmt": "A3",
                     "cfmt": "%3s",
                     "desc": "Total symmetry"
                 },
                 {
-                    "name": "stcs:v1",
+                    "name": "Herzberg:v1",
                     "ffmt": "I3",
                     "cfmt": "%3d",
                     "desc": "v1 Symmetric PH stretching"
                 },
                 {
-                    "name": "stcs:v2",
+                    "name": "Herzberg:v2",
                     "ffmt": "I3",
                     "cfmt": "%3d",
                     "desc": "v2 Symmetric bending"
                 },
                 {
-                    "name": "stcs:v3",
+                    "name": "Herzberg:v3",
                     "ffmt": "I3",
                     "cfmt": "%3d",
                     "desc": "v3 PP stretching"
                 },
                 {
-                    "name": "stcs:v4",
+                    "name": "Herzberg:v4",
                     "ffmt": "I3",
                     "cfmt": "%3d",
                     "desc": "v4 Torsional motion"
                 },
                 {
-                    "name": "stcs:v5",
+                    "name": "Herzberg:v5",
                     "ffmt": "I3",
                     "cfmt": "%3d",
                     "desc": "v5 Asymmetric PH stretching"
                 },
                 {
-                    "name": "stcs:v6",
+                    "name": "Herzberg:v6",
                     "ffmt": "I3",
                     "cfmt": "%3d",
                     "desc": "v6 Asymmetric bending"
                 },
                 {
-                    "name": "stcs:Grot",
+                    "name": "TROVE:Grot",
                     "ffmt": "A3",
                     "cfmt": "%3s",
                     "desc": "Rotational symmetry"
                 },
                 {
-                    "name": "stcs:J",
+                    "name": "J",
                     "ffmt": "I7",
                     "cfmt": "%7d",
                     "desc": "Total rotational quantum number"
                 },
                 {
-                    "name": "stcs:K",
+                    "name": "Herzberg:K",
                     "ffmt": "I3",
                     "cfmt": "%3d",
-                    "desc": "Projection of J onto the P-P principal axis"
+                    "desc": "Projection of J onto axis of molecular symmetry"
                 },
                 {
-                    "name": "stcs:rotpar",
-                    "ffmt": "I1",
-                    "cfmt": "%1d",
+                    "name": "Herzberg:rotpar",
+                    "ffmt": "A3",
+                    "cfmt": "%3s",
                     "desc": "Rotational parity"
                 },
                 {
-                    "name": "stcs:Gvib",
+                    "name": "TROVE:Gvib",
                     "ffmt": "A3",
                     "cfmt": "%3s",
                     "desc": "Vibrational symmetry"
                 },
                 {
-                    "name": "stcs:|Coef|2",
+                    "name": "TROVE:Coef",
                     "ffmt": "F5.2",
                     "cfmt": "%5.2f",
-                    "desc": "Square modulus of the coefficient with the largest contribution"
+                    "desc": "Coefficient with the largest contribution"
                 },
                 {
-                    "name": "stcs:n1",
+                    "name": "TROVE:n1",
                     "ffmt": "F3.1",
                     "cfmt": "%3.1f",
                     "desc": "TROVE quantum number 1"
                 },
                 {
-                    "name": "stcs:n2",
+                    "name": "TROVE:n2",
                     "ffmt": "I6",
                     "cfmt": "%6d",
                     "desc": "TROVE quantum number 2"
                 },
                 {
-                    "name": "stcs:n3",
+                    "name": "TROVE:n3",
                     "ffmt": "I3",
                     "cfmt": "%3d",
                     "desc": "TROVE quantum number 3"
                 },
                 {
-                    "name": "stcs:n4",
+                    "name": "TROVE:n4",
                     "ffmt": "I3",
                     "cfmt": "%3d",
                     "desc": "TROVE quantum number 4"
                 },
                 {
-                    "name": "stcs:n5",
+                    "name": "TROVE:n5",
                     "ffmt": "I3",
                     "cfmt": "%3d",
                     "desc": "TROVE quantum number 5"
                 },
                 {
-                    "name": "stcs:n6",
+                    "name": "TROVE:n6",
                     "ffmt": "I3",
                     "cfmt": "%3d",
                     "desc": "TROVE quantum number 6"

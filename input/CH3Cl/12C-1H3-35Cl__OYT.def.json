@@ -38,7 +38,9 @@
             "uncertainties_available": false,
             "lifetime_available": true,
             "lande_g_available": false,
+            "quantum_case_label": "stcs",
             "num_quanta": 16,
+            "num_quantum_types": 2,
             "states_file_fields": [
                 {
                     "name": "ID",
@@ -71,100 +73,100 @@
                     "cfmt": "%12.4e"
                 },
                 {
-                    "name": "stcs:Gtot",
+                    "name": "Gtot",
                     "ffmt": "A3",
                     "cfmt": "%3s",
                     "desc": "Total symmetry"
                 },
                 {
-                    "name": "stcs:v1",
+                    "name": "TROVE:v1",
                     "ffmt": "I3",
                     "cfmt": "%3d",
                     "desc": "v1 C--Cl stretch quantum number(3)"
                 },
                 {
-                    "name": "stcs:v2",
+                    "name": "TROVE:v2",
                     "ffmt": "I3",
                     "cfmt": "%3d",
                     "desc": "v2 C--H stretch quantum number(3)"
                 },
                 {
-                    "name": "stcs:v3",
+                    "name": "TROVE:v3",
                     "ffmt": "I3",
                     "cfmt": "%3d",
                     "desc": "v3 C--H stretch quantum number(3)"
                 },
                 {
-                    "name": "stcs:v4",
+                    "name": "TROVE:v4",
                     "ffmt": "I3",
                     "cfmt": "%3d",
                     "desc": "v4 C--H stretch quantum number(3)"
                 },
                 {
-                    "name": "stcs:v5",
+                    "name": "TROVE:v5",
                     "ffmt": "I3",
                     "cfmt": "%3d",
                     "desc": "v5 bend quantum number"
                 },
                 {
-                    "name": "stcs:v6",
+                    "name": "TROVE:v6",
                     "ffmt": "I3",
                     "cfmt": "%3d",
                     "desc": "v6 bend quantum number"
                 },
                 {
-                    "name": "stcs:v7",
+                    "name": "TROVE:v7",
                     "ffmt": "I3",
                     "cfmt": "%3d",
                     "desc": "v7 bend quantum number"
                 },
                 {
-                    "name": "stcs:v8",
+                    "name": "TROVE:v8",
                     "ffmt": "I3",
                     "cfmt": "%3d",
                     "desc": "v8 bend quantum number"
                 },
                 {
-                    "name": "stcs:v9",
+                    "name": "TROVE:v9",
                     "ffmt": "I3",
                     "cfmt": "%3d",
                     "desc": "v9 bend quantum number"
                 },
                 {
-                    "name": "stcs:Gvib",
+                    "name": "TROVE:Gvib",
                     "ffmt": "A3",
                     "cfmt": "%3s",
                     "desc": "Vibrational symmetry"
                 },
                 {
-                    "name": "stcs:J",
+                    "name": "J",
                     "ffmt": "I7",
                     "cfmt": "%7d",
                     "desc": "Total rotational quantum number"
                 },
                 {
-                    "name": "stcs:K",
+                    "name": "Herzberg:K",
                     "ffmt": "I3",
                     "cfmt": "%3d",
-                    "desc": "rot QN"
+                    "desc": "Projection of J onto axis of molecular symmetry"
                 },
                 {
-                    "name": "stcs:rotpar",
-                    "ffmt": "I1",
-                    "cfmt": "%1d",
+                    "name": "TROVE:rotpar",
+                    "ffmt": "A3",
+                    "cfmt": "%3s",
                     "desc": "Rotational parity"
                 },
                 {
-                    "name": "stcs:Grot",
+                    "name": "TROVE:Grot",
                     "ffmt": "A3",
                     "cfmt": "%3s",
                     "desc": "Rotational symmetry"
                 },
                 {
-                    "name": "stcs:|Coef|2",
+                    "name": "TROVE:Coef",
                     "ffmt": "F5.2",
                     "cfmt": "%5.2f",
-                    "desc": "Square modulus of the coefficient with the largest contribution"
+                    "desc": "Coefficient with the largest contribution"
                 }
             ]
         },

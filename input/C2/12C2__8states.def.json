@@ -37,7 +37,9 @@
             "uncertainties_available": true,
             "lifetime_available": true,
             "lande_g_available": true,
+            "quantum_case_label": "dos",
             "num_quanta": 9,
+            "num_quantum_types": 1,
             "states_file_fields": [
                 {
                     "name": "ID",
@@ -82,55 +84,55 @@
                     "cfmt": "%10.6f"
                 },
                 {
-                    "name": "hunda:+/-",
+                    "name": "+/-",
                     "ffmt": "A1",
                     "cfmt": "%1s",
-                    "desc": "Parity"
+                    "desc": "Total parity: '+' or '-'"
                 },
                 {
-                    "name": "hunda:e/f",
+                    "name": "e/f",
                     "ffmt": "A1",
                     "cfmt": "%1s",
                     "desc": "Rotationless-parity"
                 },
                 {
-                    "name": "hunda:ElecState",
+                    "name": "ElecState",
                     "ffmt": "A12",
                     "cfmt": "%12s",
-                    "desc": "Notation of the electronic state"
+                    "desc": "Electronic state"
                 },
                 {
-                    "name": "hunda:v",
+                    "name": "v",
                     "ffmt": "I3",
                     "cfmt": "%3d",
                     "desc": "State vibrational quantum number"
                 },
                 {
-                    "name": "hunda:Lambda",
-                    "ffmt": "I3",
-                    "cfmt": "%3d",
-                    "desc": "Projection of the electronic angular momentum"
+                    "name": "hundb:Lambda",
+                    "ffmt": "I5",
+                    "cfmt": "%5d",
+                    "desc": "Projection of electronic angular momentum"
                 },
                 {
-                    "name": "hunda:Sigma",
+                    "name": "hundb:Sigma",
                     "ffmt": "I5",
                     "cfmt": "%5d",
                     "desc": "Projection of the electronic spin"
                 },
                 {
-                    "name": "hunda:Omega",
+                    "name": "hundb:Omega",
                     "ffmt": "I5",
                     "cfmt": "%5d",
-                    "desc": "Omega = Lambda + Sigma, projection of the total angular momentum"
+                    "desc": "Omega = Lambda + Sigma, projection of total angular momentum"
                 },
                 {
-                    "name": "hunda:F",
-                    "ffmt": "I3",
-                    "cfmt": "%3d",
-                    "desc": "Final angular momentum"
+                    "name": "hundb:F_i",
+                    "ffmt": "A4",
+                    "cfmt": "%4s",
+                    "desc": "Spin component"
                 },
                 {
-                    "name": "hunda:N",
+                    "name": "hundb:N",
                     "ffmt": "I5",
                     "cfmt": "%5d",
                     "desc": "Rotational angular momentum"

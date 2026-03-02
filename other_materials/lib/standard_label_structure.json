@@ -25,11 +25,6 @@
         "Description quantum label": "Rotationless-parity"
     },
     {
-        "Quantum label": "J_par",
-        "Format quantum label": "A1 %1s",
-        "Description quantum label": "Parity excluding hyperfine effects: e or f"
-    },
-    {
         "Quantum label": "ElecState",
         "Format quantum label": "A12 %12s",
         "Description quantum label": "Electronic state"
@@ -41,7 +36,7 @@
     },
     {
         "Quantum label": "Lambda",
-        "Format quantum label": "I3 %3d",
+        "Format quantum label": "I5 %5d",
         "Description quantum label": "Projection of electronic angular momentum"
     },
     {
@@ -75,11 +70,6 @@
         "Description quantum label": "Coefficient with the largest contribution"
     },
     {
-        "Quantum label": "|Coef|2",
-        "Format quantum label": "F5.2 %5.2f",
-        "Description quantum label": "Square modulus of the coefficient with the largest contribution"
-    },
-    {
         "Quantum label": "K",
         "Format quantum label": "I3 %3d",
         "Description quantum label": "Projection of J onto axis of molecular symmetry"
@@ -96,7 +86,7 @@
     },
     {
         "Quantum label": "rotpar",
-        "Format quantum label": "I1 %1d",
+        "Format quantum label": "A3 %3s",
         "Description quantum label": "Rotational parity"
     },
     {
@@ -126,12 +116,12 @@
     },
     {
         "Quantum label": "F",
-        "Format quantum label": "I3 %3d",
+        "Format quantum label": "I7 %7d",
         "Description quantum label": "Final angular momentum"
     },
     {
         "Quantum label": "b/qb",
-        "Format quantum label": "A3 %3s",
+        "Format quantum label": "A2 %2s",
         "Description quantum label": "Bound/Quasi-bound"
     },
     {
@@ -141,7 +131,7 @@
     },
     {
         "Quantum label": "nblock",
-        "Format quantum label": "I2 %2d",
+        "Format quantum label": "I5 %5d",
         "Description quantum label": "Counting number in symmetry block"
     },
     {
@@ -151,7 +141,7 @@
     },
     {
         "Quantum label": "invpar",
-        "Format quantum label": "I1 %1d",
+        "Format quantum label": "A1 %1s",
         "Description quantum label": "Inversional parity"
     },
     {

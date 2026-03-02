@@ -36,7 +36,9 @@
             "uncertainties_available": true,
             "lifetime_available": true,
             "lande_g_available": false,
+            "quantum_case_label": "dcs",
             "num_quanta": 2,
+            "num_quantum_types": 0,
             "states_file_fields": [
                 {
                     "name": "ID",
@@ -75,15 +77,15 @@
                     "cfmt": "%12.4e"
                 },
                 {
-                    "name": "dcs:ElecState",
+                    "name": "ElecState",
                     "ffmt": "A12",
                     "cfmt": "%12s",
-                    "desc": "Electronic State"
+                    "desc": "Electronic state"
                 },
                 {
-                    "name": "dcs:v",
-                    "ffmt": "I4",
-                    "cfmt": "%4d",
+                    "name": "v",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
                     "desc": "State vibrational quantum number"
                 }
             ]

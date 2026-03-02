@@ -37,7 +37,9 @@
             "uncertainties_available": true,
             "lifetime_available": true,
             "lande_g_available": false,
+            "quantum_case_label": "ltcs",
             "num_quanta": 7,
+            "num_quantum_types": 1,
             "states_file_fields": [
                 {
                     "name": "ID",
@@ -76,43 +78,43 @@
                     "cfmt": "%12.4e"
                 },
                 {
-                    "name": "hunda:+/-",
+                    "name": "+/-",
                     "ffmt": "A1",
                     "cfmt": "%1s",
-                    "desc": "Total parity"
+                    "desc": "Total parity: '+' or '-'"
                 },
                 {
-                    "name": "hunda:e/f",
+                    "name": "e/f",
                     "ffmt": "A1",
                     "cfmt": "%1s",
                     "desc": "Rotationless-parity"
                 },
                 {
-                    "name": "hunda:ElecState",
+                    "name": "ElecState",
                     "ffmt": "A12",
                     "cfmt": "%12s",
                     "desc": "Electronic state"
                 },
                 {
-                    "name": "hunda:v1",
+                    "name": "Herzberg:v1",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "Symmetric stretching v1 mode vibrational quantum number"
                 },
                 {
-                    "name": "hunda:v2",
+                    "name": "Herzberg:v2",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "Bending v2 mode vibrational quantum number"
                 },
                 {
-                    "name": "hunda:l2",
+                    "name": "Herzberg:l2",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "Vibrational angular momentum quantum number associated with v2 mode"
                 },
                 {
-                    "name": "hunda:v3",
+                    "name": "Herzberg:v3",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "Antisymmetric stretching v3 mode vibrational quantum number"

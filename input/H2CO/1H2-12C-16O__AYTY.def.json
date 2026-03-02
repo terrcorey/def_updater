@@ -39,7 +39,9 @@
             "uncertainties_available": true,
             "lifetime_available": true,
             "lande_g_available": false,
+            "quantum_case_label": "asymcs",
             "num_quanta": 18,
+            "num_quantum_types": 2,
             "states_file_fields": [
                 {
                     "name": "ID",
@@ -78,43 +80,43 @@
                     "cfmt": "%12.4e"
                 },
                 {
-                    "name": "TROVE:Gtot",
+                    "name": "Gtot",
                     "ffmt": "A3",
                     "cfmt": "%3s",
-                    "desc": "[1/4] Total symmetry in C_2v_(M), Gamma = A_1_,A_2_,B_1_,B_2_"
+                    "desc": "Total symmetry"
                 },
                 {
-                    "name": "TROVE:v1",
+                    "name": "Herzberg:v1",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "v1 symmetric C-H normal mode QN"
                 },
                 {
-                    "name": "TROVE:v2",
+                    "name": "Herzberg:v2",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "v2 symmetric bend OCH normal mode QN"
                 },
                 {
-                    "name": "TROVE:v3",
+                    "name": "Herzberg:v3",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "v3 stretch  O-C normal mode QN"
                 },
                 {
-                    "name": "TROVE:v4",
+                    "name": "Herzberg:v4",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "v4 out-of-plane bend normal mode QN"
                 },
                 {
-                    "name": "TROVE:v5",
+                    "name": "Herzberg:v5",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "v5 asymmetric C-H normal mode QN"
                 },
                 {
-                    "name": "TROVE:v6",
+                    "name": "Herzberg:v6",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "v6 asymmetric bend OCH normal mode QN"
@@ -123,16 +125,16 @@
                     "name": "TROVE:Gvib",
                     "ffmt": "A3",
                     "cfmt": "%3s",
-                    "desc": "C_2v_(M) vi. symmetry Gamma(v) (local mode)"
+                    "desc": "Vibrational symmetry"
                 },
                 {
-                    "name": "TROVE:Ka",
+                    "name": "Herzberg:Ka",
                     "ffmt": "I2",
                     "cfmt": "%2d",
-                    "desc": "Rotational Ka quantum number"
+                    "desc": "Ka rotational quantum number"
                 },
                 {
-                    "name": "TROVE:Kb",
+                    "name": "Herzberg:Kb",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "Rotational Kb quantum number"
@@ -141,13 +143,13 @@
                     "name": "TROVE:Grot",
                     "ffmt": "A3",
                     "cfmt": "%3s",
-                    "desc": "C_2v_(M) rot. symmetry Gamma(v) (local mode)"
+                    "desc": "Rotational symmetry"
                 },
                 {
-                    "name": "TROVE:|Coef|2",
+                    "name": "TROVE:Coef",
                     "ffmt": "F5.2",
                     "cfmt": "%5.2f",
-                    "desc": "Square modulus of the coefficient with the largest contribution"
+                    "desc": "Coefficient with the largest contribution"
                 },
                 {
                     "name": "TROVE:n1",

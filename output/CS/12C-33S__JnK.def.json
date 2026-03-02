@@ -4,7 +4,7 @@
         "iso_slug": "12C-33S",
         "inchi": "InChI=1S/CS/c1-2/i1+0,2+1",
         "inchikey": "DXHPZXWIPWDXHJ-DZEMCFCNSA-N",
-        "cas_registry_number": "None",
+        "cas_registry_number": null,
         "mass_in_Da": 44.97145876,
         "point_group": "C"
     },
@@ -36,7 +36,9 @@
             "uncertainties_available": true,
             "lifetime_available": true,
             "lande_g_available": false,
+            "quantum_case_label": "dcs",
             "num_quanta": 1,
+            "num_quantum_types": 0,
             "states_file_fields": [
                 {
                     "name": "ID",
@@ -75,9 +77,9 @@
                     "cfmt": "%12.4e"
                 },
                 {
-                    "name": "dcs:v",
-                    "ffmt": "I4",
-                    "cfmt": "%4d",
+                    "name": "v",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
                     "desc": "State vibrational quantum number"
                 }
             ]

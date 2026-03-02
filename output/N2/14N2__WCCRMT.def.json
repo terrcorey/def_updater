@@ -4,7 +4,7 @@
         "iso_slug": "14N2",
         "inchi": "InChI=1S/N2/c1-2",
         "inchikey": "IJGRMHOSHXDMSA-UHFFFAOYSA-N",
-        "cas_registry_number": "None",
+        "cas_registry_number": null,
         "mass_in_Da": 28.006148,
         "point_group": "D_infh(EM)"
     },
@@ -36,7 +36,9 @@
             "uncertainties_available": true,
             "lifetime_available": false,
             "lande_g_available": false,
+            "quantum_case_label": "dcs",
             "num_quanta": 7,
+            "num_quantum_types": 1,
             "states_file_fields": [
                 {
                     "name": "ID",
@@ -69,43 +71,43 @@
                     "cfmt": "%12.6f"
                 },
                 {
-                    "name": "hunda:+/-",
+                    "name": "+/-",
                     "ffmt": "A1",
                     "cfmt": "%1s",
-                    "desc": "Parity of states"
+                    "desc": "Total parity: '+' or '-'"
                 },
                 {
-                    "name": "hunda:e/f",
+                    "name": "e/f",
                     "ffmt": "A1",
                     "cfmt": "%1s",
-                    "desc": "Rotationless parity"
+                    "desc": "Rotationless-parity"
                 },
                 {
-                    "name": "hunda:g/u",
+                    "name": "hundb:g/u",
                     "ffmt": "A1",
                     "cfmt": "%1s",
                     "desc": "Gerade/ungerade"
                 },
                 {
-                    "name": "hunda:ElecState",
+                    "name": "ElecState",
                     "ffmt": "A12",
-                    "cfmt": " %12s",
+                    "cfmt": "%12s",
                     "desc": "Electronic state"
                 },
                 {
-                    "name": "hunda:v",
+                    "name": "v",
                     "ffmt": "I3",
                     "cfmt": "%3d",
                     "desc": "State vibrational quantum number"
                 },
                 {
-                    "name": "hunda:F_i",
+                    "name": "hundb:F_i",
                     "ffmt": "A4",
                     "cfmt": "%4s",
                     "desc": "Spin component"
                 },
                 {
-                    "name": "hunda:N",
+                    "name": "hundb:N",
                     "ffmt": "I5",
                     "cfmt": "%5d",
                     "desc": "Total angular momentum exclusive of electron spin"

@@ -34,10 +34,12 @@
             "max_energy": 3500.0,
             "hyperfine_resolved_dataset": false,
             "uncertainty_description": null,
-            "uncertainties_available": true,
+            "uncertainties_available": false,
             "lifetime_available": true,
             "lande_g_available": false,
+            "quantum_case_label": "stcs",
             "num_quanta": 13,
+            "num_quantum_types": 2,
             "states_file_fields": [
                 {
                     "name": "ID",
@@ -64,19 +66,13 @@
                     "cfmt": "%7d"
                 },
                 {
-                    "name": "unc",
-                    "desc": "Energy uncertainty in cm-1",
-                    "ffmt": "F12.6",
-                    "cfmt": "%12.6f"
-                },
-                {
                     "name": "tau",
                     "desc": "Lifetime in s",
                     "ffmt": "ES12.4",
                     "cfmt": "%12.4e"
                 },
                 {
-                    "name": "TROVE:Gtot",
+                    "name": "Gtot",
                     "ffmt": "A3",
                     "cfmt": "%3s",
                     "desc": "Total symmetry"
@@ -119,39 +115,39 @@
                 },
                 {
                     "name": "TROVE:Gvib",
-                    "ffmt": "I4",
-                    "cfmt": "%4d",
-                    "desc": "Vibrational symmtery index in C3v(M)"
+                    "ffmt": "A3",
+                    "cfmt": "%3s",
+                    "desc": "Vibrational symmetry"
                 },
                 {
-                    "name": "TROVE:J",
+                    "name": "J",
                     "ffmt": "I7",
                     "cfmt": "%7d",
                     "desc": "Total rotational quantum number"
                 },
                 {
-                    "name": "TROVE:K",
+                    "name": "Herzberg:K",
                     "ffmt": "I3",
-                    "cfmt": "%d3",
+                    "cfmt": "%3d",
                     "desc": "Projection of J onto axis of molecular symmetry"
                 },
                 {
-                    "name": "TROVE:rotpar",
-                    "ffmt": "I1",
-                    "cfmt": "%1d",
+                    "name": "Herzberg:rotpar",
+                    "ffmt": "A3",
+                    "cfmt": "%3s",
                     "desc": "Rotational parity"
                 },
                 {
                     "name": "TROVE:Grot",
-                    "ffmt": "I3",
-                    "cfmt": "%d3",
-                    "desc": "Rotational symmetry index in C3v(M)"
+                    "ffmt": "A3",
+                    "cfmt": "%3s",
+                    "desc": "Rotational symmetry"
                 },
                 {
-                    "name": "TROVE:|Coef|2",
+                    "name": "TROVE:Coef",
                     "ffmt": "F5.2",
                     "cfmt": "%5.2f",
-                    "desc": "Square modulus of the coefficient with the largest contribution"
+                    "desc": "Coefficient with the largest contribution"
                 }
             ]
         },

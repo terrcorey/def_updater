@@ -39,7 +39,9 @@
             "uncertainties_available": true,
             "lifetime_available": true,
             "lande_g_available": false,
+            "quantum_case_label": "sphcs",
             "num_quanta": 26,
+            "num_quantum_types": 3,
             "states_file_fields": [
                 {
                     "name": "ID",
@@ -78,73 +80,73 @@
                     "cfmt": "%12.4e"
                 },
                 {
-                    "name": "TROVE:Gtot",
+                    "name": "Gtot",
                     "ffmt": "A3",
                     "cfmt": "%3s",
                     "desc": "Total symmetry"
                 },
                 {
-                    "name": "TROVE:P",
+                    "name": "Polyad:P",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "Polyad number"
                 },
                 {
-                    "name": "TROVE:Pnum",
+                    "name": "Polyad:Pnum",
                     "ffmt": "I3",
                     "cfmt": "%3d",
                     "desc": "Polyad counting number"
                 },
                 {
-                    "name": "TROVE:n1",
+                    "name": "Herzberg:n1",
                     "ffmt": "I6",
                     "cfmt": "%6d",
                     "desc": "[0/10] A_1_-symmetry normal mode quantum number"
                 },
                 {
-                    "name": "TROVE:n2",
+                    "name": "Herzberg:n2",
                     "ffmt": "I4",
                     "cfmt": "%4d",
                     "desc": "[0/20] E-symmetry normal mode quantum number"
                 },
                 {
-                    "name": "TROVE:L2",
+                    "name": "Herzberg:L2",
                     "ffmt": "I4",
                     "cfmt": "%4d",
                     "desc": "[0/20] L_2_ vib. angular momentum quantum number"
                 },
                 {
-                    "name": "TROVE:n3",
+                    "name": "Herzberg:n3",
                     "ffmt": "I4",
                     "cfmt": "%4d",
                     "desc": "[0/10] F_1_-symmetry normal mode quantum number"
                 },
                 {
-                    "name": "TROVE:L3",
+                    "name": "Herzberg:L3",
                     "ffmt": "I4",
                     "cfmt": "%4d",
                     "desc": "[0/10] L_3_ vib. angular momentum quantum number"
                 },
                 {
-                    "name": "TROVE:M3",
+                    "name": "Herzberg:M3",
                     "ffmt": "I4",
                     "cfmt": "%4d",
                     "desc": "[0/10] M_3_ Multiplicity index quantum number"
                 },
                 {
-                    "name": "TROVE:n4",
+                    "name": "Herzberg:n4",
                     "ffmt": "I4",
                     "cfmt": "%4d",
                     "desc": "[0/20] F_2_-symmetry normal mode quantum number"
                 },
                 {
-                    "name": "TROVE:L4",
+                    "name": "Herzberg:L4",
                     "ffmt": "I4",
                     "cfmt": "%4d",
                     "desc": "[0/20] L_4_ vib. angular momentum quantum number"
                 },
                 {
-                    "name": "TROVE:M4",
+                    "name": "Herzberg:M4",
                     "ffmt": "I4",
                     "cfmt": "%4d",
                     "desc": "[0/20] M_4_ Multiplicity index quantum number"

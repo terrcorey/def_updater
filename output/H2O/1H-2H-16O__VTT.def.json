@@ -4,7 +4,7 @@
         "iso_slug": "1H-2H-16O",
         "inchi": "InChI=1S/H2O/h1H2/i/hD",
         "inchikey": "XLYOFNOQVPJJNP-DYCDLGHISA-N",
-        "cas_registry_number": "None",
+        "cas_registry_number": null,
         "mass_in_Da": 19.01684143,
         "point_group": "Cs"
     },
@@ -33,10 +33,12 @@
             "max_energy": null,
             "hyperfine_resolved_dataset": false,
             "uncertainty_description": null,
-            "uncertainties_available": true,
+            "uncertainties_available": false,
             "lifetime_available": false,
             "lande_g_available": false,
+            "quantum_case_label": "nltcs",
             "num_quanta": 9,
+            "num_quantum_types": 2,
             "states_file_fields": [
                 {
                     "name": "ID",
@@ -63,61 +65,55 @@
                     "cfmt": "%7d"
                 },
                 {
-                    "name": "unc",
-                    "desc": "Energy uncertainty in cm-1",
-                    "ffmt": "F12.6",
-                    "cfmt": "%12.6f"
-                },
-                {
-                    "name": "nltcs:+/-",
+                    "name": "+/-",
                     "ffmt": "A1",
                     "cfmt": "%1s",
-                    "desc": "Parity"
+                    "desc": "Total parity: '+' or '-'"
                 },
                 {
-                    "name": "nltcs:G",
+                    "name": "Herzberg:G",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "Symmetry block number (1)"
                 },
                 {
-                    "name": "nltcs:nblock",
-                    "ffmt": "I2",
-                    "cfmt": "%2d",
+                    "name": "nblock",
+                    "ffmt": "I5",
+                    "cfmt": "%5d",
                     "desc": "Counting number in symmetry block"
                 },
                 {
-                    "name": "nltcs:Grve",
+                    "name": "DVR3D:Grve",
                     "ffmt": "A3",
                     "cfmt": "%3s",
                     "desc": "Rovibrational symmetry"
                 },
                 {
-                    "name": "nltcs:v1",
+                    "name": "Herzberg:v1",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "v1 symmetric stretch quantum number(3)"
                 },
                 {
-                    "name": "nltcs:v2",
+                    "name": "Herzberg:v2",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "v2 bend quantum number"
                 },
                 {
-                    "name": "nltcs:v3",
+                    "name": "Herzberg:v3",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "v2 asymmetrics stretch quantum number"
                 },
                 {
-                    "name": "nltcs:Ka",
+                    "name": "Herzberg:Ka",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "Ka rotational quantum number"
                 },
                 {
-                    "name": "nltcs:Kc",
+                    "name": "Herzberg:Kc",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "Kc rotational quantum number"

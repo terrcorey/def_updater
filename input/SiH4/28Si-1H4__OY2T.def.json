@@ -39,7 +39,9 @@
             "uncertainties_available": false,
             "lifetime_available": true,
             "lande_g_available": false,
+            "quantum_case_label": "sphcs",
             "num_quanta": 26,
+            "num_quantum_types": 2,
             "states_file_fields": [
                 {
                     "name": "ID",
@@ -72,157 +74,157 @@
                     "cfmt": "%12.4e"
                 },
                 {
-                    "name": "sphcs:Gtot",
+                    "name": "Gtot",
                     "ffmt": "A3",
                     "cfmt": "%3s",
                     "desc": "Total symmetry"
                 },
                 {
-                    "name": "sphcs:n1",
+                    "name": "Herzberg:n1",
                     "ffmt": "I6",
                     "cfmt": "%6d",
                     "desc": "[0/10] A_1_-symmetry normal mode quantum number"
                 },
                 {
-                    "name": "sphcs:n2",
+                    "name": "Herzberg:n2",
                     "ffmt": "I4",
                     "cfmt": "%4d",
                     "desc": "[0/20] E-symmetry normal mode quantum number"
                 },
                 {
-                    "name": "sphcs:L2",
+                    "name": "Herzberg:L2",
                     "ffmt": "I4",
                     "cfmt": "%4d",
                     "desc": "[0/20] L_2_ vib. angular momentum quantum number"
                 },
                 {
-                    "name": "sphcs:n3",
+                    "name": "Herzberg:n3",
                     "ffmt": "I4",
                     "cfmt": "%4d",
                     "desc": "[0/10] F_1_-symmetry normal mode quantum number"
                 },
                 {
-                    "name": "sphcs:L3",
+                    "name": "Herzberg:L3",
                     "ffmt": "I4",
                     "cfmt": "%4d",
                     "desc": "[0/10] L_3_ vib. angular momentum quantum number"
                 },
                 {
-                    "name": "sphcs:M3",
+                    "name": "Herzberg:M3",
                     "ffmt": "I4",
                     "cfmt": "%4d",
                     "desc": "[0/10] M_3_ Multiplicity index quantum number"
                 },
                 {
-                    "name": "sphcs:n4",
+                    "name": "Herzberg:n4",
                     "ffmt": "I4",
                     "cfmt": "%4d",
                     "desc": "[0/20] F_2_-symmetry normal mode quantum number"
                 },
                 {
-                    "name": "sphcs:L4",
+                    "name": "Herzberg:L4",
                     "ffmt": "I4",
                     "cfmt": "%4d",
                     "desc": "[0/20] L_4_ vib. angular momentum quantum number"
                 },
                 {
-                    "name": "sphcs:M4",
+                    "name": "Herzberg:M4",
                     "ffmt": "I4",
                     "cfmt": "%4d",
                     "desc": "[0/20] M_4_ Multiplicity index quantum number"
                 },
                 {
-                    "name": "sphcs:Gvib",
+                    "name": "TROVE:Gvib",
                     "ffmt": "A3",
                     "cfmt": "%3s",
                     "desc": "Vibrational symmetry"
                 },
                 {
-                    "name": "sphcs:J",
+                    "name": "J",
                     "ffmt": "I7",
                     "cfmt": "%7d",
                     "desc": "Total rotational quantum number"
                 },
                 {
-                    "name": "sphcs:K",
-                    "ffmt": "I4",
-                    "cfmt": "%4d",
-                    "desc": "[0/39] Projection of J on axis of molec. symmetry"
+                    "name": "Herzberg:K",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "Projection of J onto axis of molecular symmetry"
                 },
                 {
-                    "name": "sphcs:rotpar",
-                    "ffmt": "I1",
-                    "cfmt": "%1d",
+                    "name": "Herzberg:rotpar",
+                    "ffmt": "A3",
+                    "cfmt": "%3s",
                     "desc": "Rotational parity"
                 },
                 {
-                    "name": "sphcs:Grot",
+                    "name": "TROVE:Grot",
                     "ffmt": "A3",
                     "cfmt": "%3s",
                     "desc": "Rotational symmetry"
                 },
                 {
-                    "name": "sphcs:nblock",
-                    "ffmt": "I2",
-                    "cfmt": "%2d",
+                    "name": "nblock",
+                    "ffmt": "I5",
+                    "cfmt": "%5d",
                     "desc": "Counting number in symmetry block"
                 },
                 {
-                    "name": "sphcs:|Coef|2",
+                    "name": "TROVE:Coef",
                     "ffmt": "F5.2",
                     "cfmt": "%5.2f",
-                    "desc": "Square modulus of the coefficient with the largest contribution"
+                    "desc": "Coefficient with the largest contribution"
                 },
                 {
-                    "name": "sphcs:v1",
+                    "name": "TROVE:v1",
                     "ffmt": "I4",
                     "cfmt": "%4d",
                     "desc": "v1 symmetric stretch quantum number(3)"
                 },
                 {
-                    "name": "sphcs:v2",
+                    "name": "TROVE:v2",
                     "ffmt": "I4",
                     "cfmt": "%4d",
                     "desc": "v2 bend quantum number"
                 },
                 {
-                    "name": "sphcs:v3",
+                    "name": "TROVE:v3",
                     "ffmt": "I4",
                     "cfmt": "%4d",
                     "desc": "v2 asymmetrics stretch quantum number"
                 },
                 {
-                    "name": "sphcs:v4",
+                    "name": "TROVE:v4",
                     "ffmt": "I4",
                     "cfmt": "%4d",
                     "desc": "[0/10] Local mode vibrational quantum number"
                 },
                 {
-                    "name": "sphcs:v5",
+                    "name": "TROVE:v5",
                     "ffmt": "I4",
                     "cfmt": "%4d",
                     "desc": "[0/20] Local mode vibrational quantum number"
                 },
                 {
-                    "name": "sphcs:v6",
+                    "name": "TROVE:v6",
                     "ffmt": "I4",
                     "cfmt": "%4d",
                     "desc": "[0/20] Local mode vibrational quantum number"
                 },
                 {
-                    "name": "sphcs:v7",
+                    "name": "TROVE:v7",
                     "ffmt": "I4",
                     "cfmt": "%4d",
                     "desc": "[0/20] Local mode vibrational quantum number"
                 },
                 {
-                    "name": "sphcs:v8",
+                    "name": "TROVE:v8",
                     "ffmt": "I4",
                     "cfmt": "%4d",
                     "desc": "[0/20] Local mode vibrational quantum number"
                 },
                 {
-                    "name": "sphcs:v9",
+                    "name": "TROVE:v9",
                     "ffmt": "I4",
                     "cfmt": "%4d",
                     "desc": "[0/20] Local mode vibrational quantum number"

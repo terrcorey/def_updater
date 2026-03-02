@@ -33,10 +33,12 @@
             "max_energy": null,
             "hyperfine_resolved_dataset": false,
             "uncertainty_description": null,
-            "uncertainties_available": true,
+            "uncertainties_available": false,
             "lifetime_available": false,
             "lande_g_available": false,
+            "quantum_case_label": "dos",
             "num_quanta": 4,
+            "num_quantum_types": 1,
             "states_file_fields": [
                 {
                     "name": "ID",
@@ -63,21 +65,15 @@
                     "cfmt": "%7.1f"
                 },
                 {
-                    "name": "unc",
-                    "desc": "Energy uncertainty in cm-1",
-                    "ffmt": "F12.6",
-                    "cfmt": "%12.6f"
-                },
-                {
-                    "name": "hundb:ElecState",
+                    "name": "ElecState",
                     "ffmt": "A12",
                     "cfmt": "%12s",
-                    "desc": "electronic state"
+                    "desc": "Electronic state"
                 },
                 {
-                    "name": "hundb:v",
-                    "ffmt": "I4",
-                    "cfmt": "%4d",
+                    "name": "v",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
                     "desc": "State vibrational quantum number"
                 },
                 {
@@ -87,7 +83,7 @@
                     "desc": "Spin component"
                 },
                 {
-                    "name": "hundb:e/f",
+                    "name": "e/f",
                     "ffmt": "A1",
                     "cfmt": "%1s",
                     "desc": "Rotationless-parity"

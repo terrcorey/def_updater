@@ -47,7 +47,7 @@ def write_to_excel(df, desc_df, mol, filename):
         with pd.ExcelWriter(excel_file_path, mode='a' if os.path.exists(excel_file_path) else 'w', engine='openpyxl') as writer:
             df.to_excel(writer, sheet_name=sheet_name, index=False, header=False)
             ws = writer.sheets[sheet_name]
-            ws.insert_rows(1)
+            ws.insert_rows(1, amount=2)
             ws.cell(row=1, column=1, value=f"Molecule: {mol}, File: {filename}")
             # Write desc_df to the sixth row (row 6, columns starting from 1)
             for col_idx, value in enumerate(desc_df.iloc[0, :], start=1):
@@ -83,48 +83,55 @@ def read_def_labels(path):
         }
     ]
     lines_iter = iter(lines)
+    insert_idx = 4
     for l in lines_iter:
         if "# Quantum label" in l:
             quantum_label = l.split("#")[0].strip()
+            try:
+                prefix, label = quantum_label.split(":")
+            except ValueError:
+                label = quantum_label
             fmt_label = next(lines_iter).split("#")[0].strip()
             desc_label = next(lines_iter).split("#")[0].strip()
-            quantum_labels.append({
-                "Quantum label": quantum_label,
-                "Format quantum label": fmt_label,
-                "Description quantum label": desc_label
+            if label in ["Gtot", "+/-", "e/f", "ElecState", "v", "J"]:
+                quantum_labels.append({
+                    "Quantum label": label,
+                    "Format quantum label": fmt_label,
+                    "Description quantum label": desc_label
+                })
+            else:
+                quantum_labels.append({
+                    "Quantum label": quantum_label,
+                    "Format quantum label": fmt_label,
+                    "Description quantum label": desc_label
+                })
+        if "# Uncertainty availability (1=yes, 0=no)" in l and l.split("#")[0].strip() == "1":
+            quantum_labels.insert(insert_idx, {
+                "Quantum label": "unc",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Energy uncertainty in cm-1"
             })
-        if "# Lifetime availability (1=yes, 0=no)" in l:
-            lifetime_avail = l.split("#")[0].strip()
-            gfactor_avail = next(lines_iter).split("#")[0].strip()
-            unc_avail = next(lines_iter).split("#")[0].strip()
-            hyperfine_dataset = next(lines_iter).split("#")[0].strip()
-            insert_idx = 4
-            if unc_avail == "1":
-                quantum_labels.insert(insert_idx, {
-                    "Quantum label": "unc",
-                    "Format quantum label": "F12.6 %12.6f",
-                    "Description quantum label": "Energy uncertainty in cm-1"
-                })
-                insert_idx += 1
-            if lifetime_avail == "1":
-                quantum_labels.insert(insert_idx, {
-                    "Quantum label": "tau",
-                    "Format quantum label": "ES12.4 %12.4e",
-                    "Description quantum label": "Lifetime in s"
-                })
-                insert_idx += 1
-            if gfactor_avail == "1":
-                quantum_labels.insert(insert_idx, {
-                    "Quantum label": "gfactor",
-                    "Format quantum label": "F10.6 %10.6f",
-                    "Description quantum label": "Landé g-factor"
-                })
-            if hyperfine_dataset == "1":
-                quantum_labels[3] = {
-                    "Quantum label": "F",
-                    "Description quantum label": "Final angular momentum quantum number",
-                    "Format quantum label": "I7 %7d"
-                }
+            insert_idx += 1
+        if "# Lifetime availability (1=yes, 0=no)" in l and l.split("#")[0].strip() == "1":
+            quantum_labels.insert(insert_idx, {
+                "Quantum label": "tau",
+                "Format quantum label": "ES12.4 %12.4e",
+                "Description quantum label": "Lifetime in s"
+            })
+            insert_idx += 1
+        if "# Lande g-factor availability (1=yes, 0=no)" in l and l.split("#")[0].strip() == "1":
+            quantum_labels.insert(insert_idx, {
+                "Quantum label": "gfactor",
+                "Format quantum label": "F10.6 %10.6f",
+                "Description quantum label": "Landé g-factor"
+            })
+            insert_idx += 1
+        if "# Hyperfine resolved dataset (1=yes, 0=no)" in l and l.split("#")[0].strip() == "1":
+            quantum_labels[3] = {
+                "Quantum label": "F",
+                "Description quantum label": "Final angular momentum quantum number",
+                "Format quantum label": "F7.1 %7.1f"
+            }
         if "# Auxiliary title" in l:
             auxiliary_title = l.split("#")[0].strip()
             fmt_label = next(lines_iter).split("#")[0].strip()
@@ -169,7 +176,9 @@ def main():
                     #def_labels = read_json_labels(def_file_path.replace(".def", ".def.json"))
                 #else:
                 def_labels = read_def_labels(def_file_path)
-                if not isinstance(states_df.iloc[0, 3], int):
+                try:
+                    int(states_df.iloc[0, 3])
+                except (ValueError, TypeError):
                     def_labels[3]["Format quantum label"] = "F7.1 %7.1f"
 
                 # Stack def_labels and states_df

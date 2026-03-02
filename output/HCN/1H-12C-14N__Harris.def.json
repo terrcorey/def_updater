@@ -34,10 +34,12 @@
             "max_energy": null,
             "hyperfine_resolved_dataset": false,
             "uncertainty_description": null,
-            "uncertainties_available": true,
+            "uncertainties_available": false,
             "lifetime_available": true,
             "lande_g_available": false,
+            "quantum_case_label": "ltcs",
             "num_quanta": 7,
+            "num_quantum_types": 1,
             "states_file_fields": [
                 {
                     "name": "ID",
@@ -64,55 +66,49 @@
                     "cfmt": "%7d"
                 },
                 {
-                    "name": "unc",
-                    "desc": "Energy uncertainty in cm-1",
-                    "ffmt": "F12.6",
-                    "cfmt": "%12.6f"
-                },
-                {
                     "name": "tau",
                     "desc": "Lifetime in s",
                     "ffmt": "ES12.4",
                     "cfmt": "%12.4e"
                 },
                 {
-                    "name": "ltcs:+/-",
+                    "name": "+/-",
                     "ffmt": "A1",
                     "cfmt": "%1s",
-                    "desc": "Parity"
+                    "desc": "Total parity: '+' or '-'"
                 },
                 {
-                    "name": "ltcs:kp",
+                    "name": "e/f",
                     "ffmt": "A1",
                     "cfmt": "%1s",
-                    "desc": "Kronig rotationless parity"
+                    "desc": "Rotationless-parity"
                 },
                 {
-                    "name": "ltcs:iso",
+                    "name": "iso",
                     "ffmt": "I1",
                     "cfmt": "%1d",
                     "desc": "iso=0 for HCN, iso=1 for HNC, where known"
                 },
                 {
-                    "name": "ltcs:v1",
+                    "name": "Herzberg:v1",
                     "ffmt": "I3",
                     "cfmt": "%3d",
                     "desc": "v1 vibrational quantum number"
                 },
                 {
-                    "name": "ltcs:v2",
+                    "name": "Herzberg:v2",
                     "ffmt": "I3",
                     "cfmt": "%3d",
                     "desc": "v2 vibrational quantum number"
                 },
                 {
-                    "name": "ltcs:l2",
+                    "name": "Herzberg:l2",
                     "ffmt": "I3",
                     "cfmt": "%3d",
                     "desc": "l2 vibrational angular momentum quantum number"
                 },
                 {
-                    "name": "ltcs:v3",
+                    "name": "Herzberg:v3",
                     "ffmt": "I3",
                     "cfmt": "%3d",
                     "desc": "v3 vibrational quantum number"

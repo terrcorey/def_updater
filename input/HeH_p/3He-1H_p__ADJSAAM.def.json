@@ -4,7 +4,7 @@
         "iso_slug": "3He-1H_p",
         "inchi": "InChI=1S/HHe/h1H/q+1/i1-1",
         "inchikey": "HSFAAVLNFOAYQX-BJUDXGSMSA-N",
-        "cas_registry_number": "None",
+        "cas_registry_number": null,
         "mass_in_Da": 4.02330577,
         "point_group": "Cs"
     },
@@ -36,7 +36,9 @@
             "uncertainties_available": false,
             "lifetime_available": true,
             "lande_g_available": false,
+            "quantum_case_label": "dcs",
             "num_quanta": 2,
+            "num_quantum_types": 1,
             "states_file_fields": [
                 {
                     "name": "ID",
@@ -69,13 +71,13 @@
                     "cfmt": "%12.4e"
                 },
                 {
-                    "name": "dcs:v",
-                    "ffmt": "I4",
-                    "cfmt": "%4d",
+                    "name": "v",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
                     "desc": "State vibrational quantum number"
                 },
                 {
-                    "name": "dcs:b/qb",
+                    "name": "hunda:b/qb",
                     "ffmt": "A2",
                     "cfmt": "%2s",
                     "desc": "Bound/Quasi-bound"

@@ -38,7 +38,9 @@
             "uncertainties_available": true,
             "lifetime_available": true,
             "lande_g_available": false,
+            "quantum_case_label": "nltcs",
             "num_quanta": 6,
+            "num_quantum_types": 3,
             "states_file_fields": [
                 {
                     "name": "ID",
@@ -77,37 +79,37 @@
                     "cfmt": "%12.4e"
                 },
                 {
-                    "name": "nltcs:Grve",
+                    "name": "DVR3D:Grve",
                     "ffmt": "A3",
                     "cfmt": "%3s",
-                    "desc": "Rovibrational symmetry label"
+                    "desc": "Rovibrational symmetry"
                 },
                 {
-                    "name": "nltcs:Ka",
+                    "name": "HErzberg:Ka",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "Ka rotational quantum number"
                 },
                 {
-                    "name": "nltcs:Kc",
+                    "name": "Herzberg:Kc",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "Kc rotational quantum number"
                 },
                 {
-                    "name": "nltcs:v1",
+                    "name": "Herzberg:v1",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "v1 symmetric stretch quantum number(3)"
                 },
                 {
-                    "name": "nltcs:v2",
+                    "name": "Herzberg:v2",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "v2 bend quantum number"
                 },
                 {
-                    "name": "nltcs:v3",
+                    "name": "Herzberg:v3",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "v3 asymmetrics stretch quantum number"

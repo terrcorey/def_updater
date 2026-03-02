@@ -3,7 +3,7 @@ EXOMOL.def                                                                      
 17O-13C-18O                                                                     # Iso-slug
 Dozen                                                                           # Isotopologue dataset name
 20260115                                                                        # Version number with format YYYYMMDD
-124-38-9                                                                        # CAS Registry Number
+nan                                                                             # CAS Registry Number
 InChI=1S/CO2/c2-1-3/i1+1,2+1,3+2                                                # In-ChI of molecule
 CURLTUGMZLYLDI-UMGOXHPOSA-N                                                     # In-ChI key of molecule
 3                                                                               # Number of atoms
@@ -11,7 +11,7 @@ CURLTUGMZLYLDI-UMGOXHPOSA-N                                                     
 C                                                                               # Element symbol 1
 16                                                                              # Isotope number 2
 O                                                                               # Element symbol 2
-48.001646 7.970861e-26                                                          # Isotopologue mass (Da) and (kg)
+48.00164600 7.97086100e-26                                                      # Isotopologue mass (Da) and (kg)
 C2v                                                                             # Symmetry group
 4                                                                               # Number of irreducible representations
 A1                                                                              # Irreducible representation label 1
@@ -32,55 +32,54 @@ B2                                                                              
 1                                                                               # Uncertainty availability (1=yes, 0=no)
 1                                                                               # Lifetime availability (1=yes, 0=no)
 0                                                                               # Lande g-factor availability (1=yes, 0=no)
-3                                                                               # No. of quanta cases
-nltcs                                                                           # Quantum case label 1
-TROVE                                                                           # Quantum case label 2
+ltcs                                                                            # Quantum case label
+3                                                                               # No. of quantum number types
 15                                                                              # No. of quanta defined
 Gtot                                                                            # Quantum label 1
 A3 %3s                                                                          # Format quantum label 1
 Total symmetry                                                                  # Description quantum label 1
 e/f                                                                             # Quantum label 2
 A1 %1s                                                                          # Format quantum label 2
-e/f parity                                                                      # Description quantum label 2
-v1                                                                              # Quantum label 3
+Rotationless-parity                                                             # Description quantum label 2
+Herzberg:v1                                                                     # Quantum label 3
 I2  %2d                                                                         # Format quantum label 3
-Normal mode (Hertzberg) vibrational QN                                          # Description quantum label 3
-v2                                                                              # Quantum label 4
+Normal mode stretching symmetry QN                                              # Description quantum label 3
+Herzberg:v2                                                                     # Quantum label 4
 I2  %2d                                                                         # Format quantum label 4
-Normal mode (Hertzberg) vibrational QN                                          # Description quantum label 4
-l2                                                                              # Quantum label 5
+Normal mode linear molecule bending QN                                          # Description quantum label 4
+Herzberg:l2                                                                     # Quantum label 5
 I2  %2d                                                                         # Format quantum label 5
-Normal mode (Hertzberg) vibrational QN                                          # Description quantum label 5
-v3                                                                              # Quantum label 6
+Vibrational bending QN (Similar but not identical to standard l2)               # Description quantum label 5
+Herzberg:v3                                                                     # Quantum label 6
 I2  %2d                                                                         # Format quantum label 6
-Normal mode (Hertzberg) vibrational QN                                          # Description quantum label 6
-|Coef|2                                                                         # Quantum label 7
-F5.2  %5.2f                                                                     # Format quantum label 7
+Normal mode stretching asymmetric QN                                            # Description quantum label 6
+TROVE: Coef                                                                     # Quantum label 7
+F5.2 %5.2f                                                                      # Format quantum label 7
 Coefficient with the largest contribution                                       # Description quantum label 7
-m1                                                                              # Quantum label 8
+AFGL:m1                                                                         # Quantum label 8
 I2  %2d                                                                         # Format quantum label 8
-Symmetric vibrational Fermi-resonance group QN (-1=not available)               # Description quantum label 8
-m2                                                                              # Quantum label 9
+Symmetric vibrational Fermi-resonullce group QN (-1=not available)              # Description quantum label 8
+AFGL:m2                                                                         # Quantum label 9
 I2  %2d                                                                         # Format quantum label 9
 Vibrational bending QN (Similar but not identical to standard n2lin)            # Description quantum label 9
-l2                                                                              # Quantum label 10
+AFGL:l2                                                                         # Quantum label 10
 I2  %2d                                                                         # Format quantum label 10
 Vibrational bending QN (Similar but not identical to standard l2)               # Description quantum label 10
-m3                                                                              # Quantum label 11
+AFGL:m3                                                                         # Quantum label 11
 I3 %3d                                                                          # Format quantum label 11
 Asymmetric vibrational stretching QN (equivalent to n3)                         # Description quantum label 11
-r                                                                               # Quantum label 12
+AFGL:r                                                                          # Quantum label 12
 I2  %2d                                                                         # Format quantum label 12
-Fermi-resonance group ranking QN                                                # Description quantum label 12
-n1                                                                              # Quantum label 13
+Fermi-resonullce group ranking QN                                               # Description quantum label 12
+TROVE:n1                                                                        # Quantum label 13
 I2  %2d                                                                         # Format quantum label 13
-TROVE local-mode QN1                                                            # Description quantum label 13
-n2                                                                              # Quantum label 14
+TROVE stretching vibrational QN1                                                # Description quantum label 13
+TROVE:n2                                                                        # Quantum label 14
 I2  %2d                                                                         # Format quantum label 14
-TROVE local-mode QN2                                                            # Description quantum label 14
-n3                                                                              # Quantum label 15
+TROVE stretching vibrational QN2                                                # Description quantum label 14
+TROVE:n3                                                                        # Quantum label 15
 I2  %2d                                                                         # Format quantum label 15
-TROVE local-mode QN3                                                            # Description quantum label 15
+TROVE stretching vibrational QN3                                                # Description quantum label 15
 SourceType                                                                      # Auxiliary title 1
 A2 %2s                                                                          # Format title 1
 Ma=MARVEL,Ca=Calculated,EH=Effective Hamiltonian,IE=Isotopologue extrapolation  # Description title 1
@@ -95,3 +94,4 @@ Calculated energy in cm-1                                                       
 1.00                                                                            # Step size of temperature
 0.1063                                                                          # Default value of Lorentzian half-width for all lines (in cm-1/bar)
 0.695                                                                           # Default value of temperature exponent for all lines
+1                                                                               # No. of quanta cases

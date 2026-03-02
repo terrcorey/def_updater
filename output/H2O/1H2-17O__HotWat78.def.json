@@ -4,7 +4,7 @@
         "iso_slug": "1H2-17O",
         "inchi": "InChI=1S/H2O/h1H2/i1+1",
         "inchikey": "XLYOFNOQVPJJNP-OUBTZVSYSA-N",
-        "cas_registry_number": "None",
+        "cas_registry_number": null,
         "mass_in_Da": 19.01478176,
         "point_group": "C2v"
     },
@@ -35,10 +35,12 @@
             "max_energy": 30000.0,
             "hyperfine_resolved_dataset": false,
             "uncertainty_description": null,
-            "uncertainties_available": true,
+            "uncertainties_available": false,
             "lifetime_available": true,
             "lande_g_available": false,
+            "quantum_case_label": "nltcs",
             "num_quanta": 6,
+            "num_quantum_types": 2,
             "states_file_fields": [
                 {
                     "name": "ID",
@@ -65,49 +67,43 @@
                     "cfmt": "%7d"
                 },
                 {
-                    "name": "unc",
-                    "desc": "Energy uncertainty in cm-1",
-                    "ffmt": "F12.6",
-                    "cfmt": "%12.6f"
-                },
-                {
                     "name": "tau",
                     "desc": "Lifetime in s",
                     "ffmt": "ES12.4",
                     "cfmt": "%12.4e"
                 },
                 {
-                    "name": "nltcs:Ka",
+                    "name": "Herzberg:Ka",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "Ka rotational quantum number"
                 },
                 {
-                    "name": "nltcs:Kc",
+                    "name": "Herzberg:Kc",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "Kc rotational quantum number"
                 },
                 {
-                    "name": "nltcs:v1",
-                    "ffmt": "I2",
-                    "cfmt": "%2d",
+                    "name": "Herzberg:v1",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
                     "desc": "v1 symmetric stretch quantum number(3)"
                 },
                 {
-                    "name": "nltcs:v2",
-                    "ffmt": "I2",
-                    "cfmt": "%2d",
+                    "name": "Herzberg:v2",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
                     "desc": "v2 bend quantum number"
                 },
                 {
-                    "name": "nltcs:v3",
-                    "ffmt": "I2",
-                    "cfmt": "%2d",
+                    "name": "Herzberg:v3",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
                     "desc": "v3 asymmetrics stretch quantum number"
                 },
                 {
-                    "name": "nltcs:Grve",
+                    "name": "DVR3D:Grve",
                     "ffmt": "A3",
                     "cfmt": "%3s",
                     "desc": "Rovibrational symmetry"

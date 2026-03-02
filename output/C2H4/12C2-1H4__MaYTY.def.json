@@ -39,10 +39,12 @@
             "max_energy": 12000.0,
             "hyperfine_resolved_dataset": false,
             "uncertainty_description": null,
-            "uncertainties_available": true,
+            "uncertainties_available": false,
             "lifetime_available": true,
             "lande_g_available": false,
+            "quantum_case_label": "asymcs",
             "num_quanta": 19,
+            "num_quantum_types": 2,
             "states_file_fields": [
                 {
                     "name": "ID",
@@ -69,130 +71,124 @@
                     "cfmt": "%7d"
                 },
                 {
-                    "name": "unc",
-                    "desc": "Energy uncertainty in cm-1",
-                    "ffmt": "F12.6",
-                    "cfmt": "%12.6f"
-                },
-                {
                     "name": "tau",
                     "desc": "Lifetime in s",
                     "ffmt": "ES12.4",
                     "cfmt": "%12.4e"
                 },
                 {
-                    "name": "local:Gtot",
+                    "name": "Gtot",
                     "ffmt": "A3",
                     "cfmt": "%3s",
                     "desc": "Total symmetry"
                 },
                 {
-                    "name": "local:n1",
+                    "name": "TROVE:n1",
                     "ffmt": "I6",
                     "cfmt": "%6d",
                     "desc": "[0/3] TROVE quantum number C-C local model stretch"
                 },
                 {
-                    "name": "local:n2",
+                    "name": "TROVE:n2",
                     "ffmt": "I4",
                     "cfmt": "%4d",
                     "desc": "[0/3] TROVE quantum number C-H local mode stretch"
                 },
                 {
-                    "name": "local:n3",
+                    "name": "TROVE:n3",
                     "ffmt": "I4",
                     "cfmt": "%4d",
                     "desc": "[0/3] TROVE quantum number C-H local mode stretch"
                 },
                 {
-                    "name": "local:n4",
+                    "name": "TROVE:n4",
                     "ffmt": "I4",
                     "cfmt": "%4d",
                     "desc": "[0/3] TROVE quantum number C-H local mode stretch"
                 },
                 {
-                    "name": "local:n5",
+                    "name": "TROVE:n5",
                     "ffmt": "I4",
                     "cfmt": "%4d",
                     "desc": "[0/3] TROVE quantum number C-H local mode stretch"
                 },
                 {
-                    "name": "local:n6",
+                    "name": "TROVE:n6",
                     "ffmt": "I4",
                     "cfmt": "%4d",
                     "desc": "[0/3] TROVE quantum number CCH local mode bend"
                 },
                 {
-                    "name": "local:n7",
+                    "name": "TROVE:n7",
                     "ffmt": "I4",
                     "cfmt": "%4d",
                     "desc": "[0/3] TROVE quantum number CCH local mode bend"
                 },
                 {
-                    "name": "local:n8",
+                    "name": "TROVE:n8",
                     "ffmt": "I4",
                     "cfmt": "%4d",
                     "desc": "[0/3] TROVE quantum number CCH local mode bend"
                 },
                 {
-                    "name": "local:n9",
+                    "name": "TROVE:n9",
                     "ffmt": "I4",
                     "cfmt": "%4d",
                     "desc": "[0/3] TROVE quantum number CCH local mode bend"
                 },
                 {
-                    "name": "local:n10",
+                    "name": "TROVE:n10",
                     "ffmt": "I4",
                     "cfmt": "%4d",
                     "desc": "[0/6] TROVE quantum number Beta1 local mode bend"
                 },
                 {
-                    "name": "local:n11",
+                    "name": "TROVE:n11",
                     "ffmt": "I4",
                     "cfmt": "%4d",
                     "desc": "[0/6] TROVE quantum number Beta2 local mode bend"
                 },
                 {
-                    "name": "local:n12",
+                    "name": "TROVE:n12",
                     "ffmt": "I4",
                     "cfmt": "%4d",
                     "desc": "[0/6] TROVE quantum number tau local mode torsion"
                 },
                 {
-                    "name": "local:Gvib",
+                    "name": "TROVE:Gvib",
                     "ffmt": "A3",
                     "cfmt": "%3s",
                     "desc": "Vibrational symmetry"
                 },
                 {
-                    "name": "local:J",
+                    "name": "J",
                     "ffmt": "I7",
                     "cfmt": "%7d",
                     "desc": "Total rotational quantum number"
                 },
                 {
-                    "name": "local:K",
-                    "ffmt": "I4",
-                    "cfmt": "%4d",
-                    "desc": "[0/78] Projection of J on axis of molec. symmetry"
+                    "name": "Herzberg:K",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "Projection of J onto axis of molecular symmetry"
                 },
                 {
-                    "name": "local:rotpar",
-                    "ffmt": "I1",
-                    "cfmt": "%1d",
+                    "name": "TROVE:rotpar",
+                    "ffmt": "A3",
+                    "cfmt": "%3s",
                     "desc": "Rotational parity"
                 },
                 {
-                    "name": "local:Grot",
+                    "name": "TROVE:Grot",
                     "ffmt": "A3",
                     "cfmt": "%3s",
                     "desc": "Rotational symmetry"
                 },
                 {
-                    "name": "local:|Coef|2",
+                    "name": "TROVE:Coef",
                     "ffmt": "F5.2",
                     "cfmt": "%5.2f",
-                    "desc": "Square modulus of the coefficient with the largest contribution"
+                    "desc": "Coefficient with the largest contribution"
                 }
             ]
         },

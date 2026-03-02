@@ -4,7 +4,7 @@
         "iso_slug": "16O-1H_p",
         "inchi": "InChI=1S/HO/h1H/q+1",
         "inchikey": "MSCUNRCIQGLERU-UHFFFAOYSA-N",
-        "cas_registry_number": "3352-57-6",
+        "cas_registry_number": "nan",
         "mass_in_Da": 17.00219107,
         "point_group": "C"
     },
@@ -33,10 +33,12 @@
             "max_energy": 22861.7141,
             "hyperfine_resolved_dataset": false,
             "uncertainty_description": null,
-            "uncertainties_available": true,
+            "uncertainties_available": false,
             "lifetime_available": false,
             "lande_g_available": false,
-            "num_quanta": 4,
+            "quantum_case_label": "dos",
+            "num_quanta": 5,
+            "num_quantum_types": 1,
             "states_file_fields": [
                 {
                     "name": "ID",
@@ -63,34 +65,34 @@
                     "cfmt": "%7d"
                 },
                 {
-                    "name": "unc",
-                    "desc": "Energy uncertainty in cm-1",
-                    "ffmt": "F12.6",
-                    "cfmt": "%12.6f"
-                },
-                {
-                    "name": "dcs:ElecState",
+                    "name": "ElecState",
                     "ffmt": "A12",
                     "cfmt": "%12s",
                     "desc": "Electronic state"
                 },
                 {
-                    "name": "dcs:v",
-                    "ffmt": "I6",
-                    "cfmt": "%6d",
+                    "name": "v",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
                     "desc": "State vibrational quantum number"
                 },
                 {
-                    "name": "dcs:F_i",
+                    "name": "hundb:N",
+                    "ffmt": "I5",
+                    "cfmt": "%5d",
+                    "desc": "Total rotational quantum number, excluding electron spin"
+                },
+                {
+                    "name": "hundb:F_i",
                     "ffmt": "A4",
                     "cfmt": "%4s",
                     "desc": "Spin component"
                 },
                 {
-                    "name": "dcs:e/f",
-                    "ffmt": "A3",
-                    "cfmt": "%3s",
-                    "desc": "Rotationless parity"
+                    "name": "e/f",
+                    "ffmt": "A1",
+                    "cfmt": "%1s",
+                    "desc": "Rotationless-parity"
                 }
             ]
         },

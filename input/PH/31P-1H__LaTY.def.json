@@ -33,10 +33,12 @@
             "max_energy": 24500.0,
             "hyperfine_resolved_dataset": false,
             "uncertainty_description": null,
-            "uncertainties_available": false,
-            "lifetime_available": true,
+            "uncertainties_available": true,
+            "lifetime_available": false,
             "lande_g_available": true,
+            "quantum_case_label": "dos",
             "num_quanta": 5,
+            "num_quantum_types": 1,
             "states_file_fields": [
                 {
                     "name": "ID",
@@ -63,10 +65,10 @@
                     "cfmt": "%7d"
                 },
                 {
-                    "name": "tau",
-                    "desc": "Lifetime in s",
-                    "ffmt": "ES12.4",
-                    "cfmt": "%12.4e"
+                    "name": "unc",
+                    "desc": "Energy uncertainty in cm-1",
+                    "ffmt": "F12.6",
+                    "cfmt": "%12.6f"
                 },
                 {
                     "name": "gfactor",
@@ -75,25 +77,25 @@
                     "cfmt": "%10.6f"
                 },
                 {
-                    "name": "hundb:+/-",
+                    "name": "+/-",
                     "ffmt": "A1",
                     "cfmt": "%1s",
-                    "desc": "Parity"
+                    "desc": "Total parity: '+' or '-'"
                 },
                 {
-                    "name": "hundb:e/f",
+                    "name": "e/f",
                     "ffmt": "A1",
                     "cfmt": "%1s",
                     "desc": "Rotationless-parity"
                 },
                 {
-                    "name": "hundb:ElecState",
-                    "ffmt": "A3",
-                    "cfmt": "%3s",
-                    "desc": "Notation of the electronic state"
+                    "name": "ElecState",
+                    "ffmt": "A12",
+                    "cfmt": "%12s",
+                    "desc": "Electronic state"
                 },
                 {
-                    "name": "hundb:v",
+                    "name": "v",
                     "ffmt": "I3",
                     "cfmt": "%3d",
                     "desc": "State vibrational quantum number"

@@ -24,7 +24,7 @@
     "dataset": {
         "name": "UCL-4000",
         "version": 20200630,
-        "doi": "10.5281/zenodo.5716786",
+        "doi": "10.1093/mnras/staf2135",
         "max_temperature": 4000.0,
         "num_pressure_broadeners": 0,
         "cooling_function_available": false,
@@ -38,7 +38,9 @@
             "uncertainties_available": true,
             "lifetime_available": true,
             "lande_g_available": false,
+            "quantum_case_label": "ltcs",
             "num_quanta": 15,
+            "num_quantum_types": 3,
             "states_file_fields": [
                 {
                     "name": "ID",
@@ -77,94 +79,94 @@
                     "cfmt": "%12.4e"
                 },
                 {
-                    "name": "TROVE:Gtot",
+                    "name": "Gtot",
                     "ffmt": "A3",
                     "cfmt": "%3s",
                     "desc": "Total symmetry"
                 },
                 {
-                    "name": "TROVE:e/f",
+                    "name": "e/f",
                     "ffmt": "A1",
                     "cfmt": "%1s",
-                    "desc": "e/f parity"
+                    "desc": "Rotationless-parity"
                 },
                 {
-                    "name": "TROVE:n1",
+                    "name": "Herzberg:v1",
                     "ffmt": "I2",
                     "cfmt": " %2d",
                     "desc": "Normal mode stretching symmetry QN"
                 },
                 {
-                    "name": "TROVE:n2lin",
+                    "name": "Herzberg:v2",
                     "ffmt": "I2",
                     "cfmt": " %2d",
                     "desc": "Normal mode linear molecule bending QN"
                 },
                 {
-                    "name": "TROVE:l2",
+                    "name": "Herzberg:l2",
                     "ffmt": "I2",
                     "cfmt": " %2d",
                     "desc": "Vibrational bending QN (Similar but not identical to standard l2)"
                 },
                 {
-                    "name": "TROVE:n3",
+                    "name": "Herzberg:v3",
                     "ffmt": "I2",
                     "cfmt": " %2d",
                     "desc": "Normal mode stretching asymmetric QN"
                 },
                 {
-                    "name": "TROVE:Coef",
+                    "name": "TROVE: Coef",
                     "ffmt": "F5.2",
-                    "cfmt": " %5.2f",
-                    "desc": "Coefficient with the largest contribution to the (J = 0) contracted set"
+                    "cfmt": "%5.2f",
+                    "desc": "Coefficient with the largest contribution"
                 },
                 {
-                    "name": "TROVE:m1",
+                    "name": "AFGL:m1",
                     "ffmt": "I2",
                     "cfmt": " %2d",
-                    "desc": "Symmetric vibrational Fermi-resonance group QN (-1=not available)"
+                    "desc": "Symmetric vibrational Fermi-resonullce group QN (-1=not available)"
                 },
                 {
-                    "name": "TROVE:m2",
+                    "name": "AFGL:m2",
                     "ffmt": "I2",
                     "cfmt": " %2d",
                     "desc": "Vibrational bending QN (Similar but not identical to standard n2lin)"
                 },
                 {
-                    "name": "TROVE:l2",
+                    "name": "AFGL:l2",
                     "ffmt": "I2",
                     "cfmt": " %2d",
                     "desc": "Vibrational bending QN (Similar but not identical to standard l2)"
                 },
                 {
-                    "name": "TROVE:m3",
+                    "name": "AFGL:m3",
                     "ffmt": "I3",
                     "cfmt": "%3d",
                     "desc": "Asymmetric vibrational stretching QN (equivalent to n3)"
                 },
                 {
-                    "name": "TROVE:r",
+                    "name": "AFGL:r",
                     "ffmt": "I2",
                     "cfmt": " %2d",
-                    "desc": "Fermi-resonance group ranking QN"
+                    "desc": "Fermi-resonullce group ranking QN"
                 },
                 {
-                    "name": "TROVE:v1",
+                    "name": "TROVE:n1",
                     "ffmt": "I2",
                     "cfmt": " %2d",
                     "desc": "TROVE stretching vibrational QN1"
                 },
                 {
-                    "name": "TROVE:v2",
+                    "name": "TROVE:n2",
                     "ffmt": "I2",
                     "cfmt": " %2d",
                     "desc": "TROVE stretching vibrational QN2"
                 },
                 {
-                    "name": "TROVE:v3",
+                    "name": "TROVE:n3",
                     "ffmt": "I2",
                     "cfmt": " %2d",
-                    "desc": "TROVE bending vibrational QN"
+                    "desc": "TROVE stretching vibrational QN3"
                 },
                 {
                     "name": "Auxiliary:SourceType",

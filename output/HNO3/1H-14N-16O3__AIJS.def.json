@@ -34,10 +34,12 @@
             "max_energy": 10000.0,
             "hyperfine_resolved_dataset": false,
             "uncertainty_description": null,
-            "uncertainties_available": true,
+            "uncertainties_available": false,
             "lifetime_available": true,
             "lande_g_available": false,
+            "quantum_case_label": "asymcs",
             "num_quanta": 10,
+            "num_quantum_types": 1,
             "states_file_fields": [
                 {
                     "name": "ID",
@@ -64,73 +66,67 @@
                     "cfmt": "%7d"
                 },
                 {
-                    "name": "unc",
-                    "desc": "Energy uncertainty in cm-1",
-                    "ffmt": "F12.6",
-                    "cfmt": "%12.6f"
-                },
-                {
                     "name": "tau",
                     "desc": "Lifetime in s",
                     "ffmt": "ES12.4",
                     "cfmt": "%12.4e"
                 },
                 {
-                    "name": "stcs:Gtot",
+                    "name": "Gtot",
                     "ffmt": "A3",
                     "cfmt": "%3s",
                     "desc": "Total symmetry"
                 },
                 {
-                    "name": "stcs:v1",
+                    "name": "Herzberg:v1",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "Normal mode vibrational quantum number"
                 },
                 {
-                    "name": "stcs:v2",
+                    "name": "Herzberg:v2",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "Normal mode vibrational quantum number"
                 },
                 {
-                    "name": "stcs:v3",
+                    "name": "Herzberg:v3",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "Normal mode vibrational quantum number"
                 },
                 {
-                    "name": "stcs:v4",
+                    "name": "Herzberg:v4",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "Normal mode vibrational quantum number"
                 },
                 {
-                    "name": "stcs:v5",
+                    "name": "Herzberg:v5",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "Normal mode vibrational quantum number"
                 },
                 {
-                    "name": "stcs:v6",
+                    "name": "Herzberg:v6",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "Normal mode vibrational quantum number"
                 },
                 {
-                    "name": "stcs:v7",
+                    "name": "Herzberg:v7",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "Normal mode vibrational quantum number"
                 },
                 {
-                    "name": "stcs:v8",
+                    "name": "Herzberg:v8",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "Normal mode vibrational quantum number"
                 },
                 {
-                    "name": "stcs:v9",
+                    "name": "Herzberg:v9",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "Normal mode vibrational quantum number"

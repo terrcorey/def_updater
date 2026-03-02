@@ -4,7 +4,7 @@
         "iso_slug": "7Li-1H_p",
         "inchi": "InChI=1S/Li.H/q+1;/i1+0;",
         "inchikey": "HSOYNNFNUCWPIZ-XUGDXVOUSA-N",
-        "cas_registry_number": "7580-67-8",
+        "cas_registry_number": "nan",
         "mass_in_Da": 8.023281,
         "point_group": "C"
     },
@@ -33,10 +33,12 @@
             "max_energy": 10000.0,
             "hyperfine_resolved_dataset": false,
             "uncertainty_description": null,
-            "uncertainties_available": true,
+            "uncertainties_available": false,
             "lifetime_available": false,
             "lande_g_available": false,
+            "quantum_case_label": "dos",
             "num_quanta": 1,
+            "num_quantum_types": 0,
             "states_file_fields": [
                 {
                     "name": "ID",
@@ -63,15 +65,9 @@
                     "cfmt": "%7d"
                 },
                 {
-                    "name": "unc",
-                    "desc": "Energy uncertainty in cm-1",
-                    "ffmt": "F12.6",
-                    "cfmt": "%12.6f"
-                },
-                {
-                    "name": "dcs:v",
-                    "ffmt": "I2",
-                    "cfmt": "%2d",
+                    "name": "v",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
                     "desc": "State vibrational quantum number"
                 }
             ]

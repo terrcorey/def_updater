@@ -25,14 +25,14 @@ Sigma-                                                                          
 0                                                                               # Photo-absorption continuum cross-sections availability (1=yes, 0=no)
 839                                                                             # No. of states in .states file
 0                                                                               # Hyperfine resolved dataset (1=yes, 0=no)
-0                                                                               # Uncertainty availability (1=yes, 0=no)
+1                                                                               # Uncertainty availability (1=yes, 0=no)
 1                                                                               # Lifetime availability (1=yes, 0=no)
 0                                                                               # Lande g-factor availability (1=yes, 0=no)
-1                                                                               # No. of quanta cases
 dcs                                                                             # Quantum case label
+0                                                                               # No. of quantum number types
 1                                                                               # No. of quanta defined
 v                                                                               # Quantum label 1
-I6 %6d                                                                          # Format quantum label 1
+I3 %3d                                                                          # Format quantum label 1
 State vibrational quantum number                                                # Description quantum label 1
 7884                                                                            # Total number of transitions
 1                                                                               # No. of transition files
@@ -42,3 +42,4 @@ State vibrational quantum number                                                
 1.00                                                                            # Step size of temperature
 None                                                                            # Default value of Lorentzian half-width for all lines (in cm-1/bar)
 None                                                                            # Default value of temperature exponent for all lines
+1                                                                               # No. of quanta cases

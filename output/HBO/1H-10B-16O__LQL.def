@@ -3,7 +3,6 @@ EXOMOL.def                                                                      
 1H-10B-16O                                                                      # Iso-slug
 LQL                                                                             # Isotopologue dataset name
 20240522                                                                        # Version number with format YYYYMMDD
-None                                                                            # CAS Registry Number
 InChI=1S/BHO/c1-2/h1H/i1-1H,2+0                                                 # In-ChI of molecule
 UXUFOKFTFHRQTE-DGVCANLMSA-N                                                     # In-ChI key of molecule
 3                                                                               # Number of atoms
@@ -30,37 +29,37 @@ A"                                                                              
 1                                                                               # Uncertainty availability (1=yes, 0=no)
 0                                                                               # Lifetime availability (1=yes, 0=no)
 0                                                                               # Lande g-factor availability (1=yes, 0=no)
-1                                                                               # No. of quanta cases
 nltcs                                                                           # Quantum case label
+2                                                                               # No. of quantum number types
 10                                                                              # No. of quanta defined
 Gtot                                                                            # Quantum label 1
 A3 %3s                                                                          # Format quantum label 1
-Overall symmetry in Cs(M) (A' or A")                                            # Description quantum label 1
-v1                                                                              # Quantum label 2
+Total symmetry                                                                  # Description quantum label 1
+Herzberg:v1                                                                     # Quantum label 2
 I2 %2d                                                                          # Format quantum label 2
-Symmetric stretching ν1 mode vibrational quantum number                        # Description quantum label 2
-v2lin                                                                           # Quantum label 3
+Symmetric stretching v1 mode vibrational quantum number                         # Description quantum label 2
+Herzberg:v2lin                                                                  # Quantum label 3
 I2 %2d                                                                          # Format quantum label 3
-Linear molecule bending ν2 mode vibrational quantum number                     # Description quantum label 3
-v3                                                                              # Quantum label 4
+Linear molecule bending v2 mode vibrational quantum number                      # Description quantum label 3
+Herzberg:v3                                                                     # Quantum label 4
 I2 %2d                                                                          # Format quantum label 4
-Antisymmetric stretching ν3 mode vibrational quantum number                    # Description quantum label 4
-L                                                                               # Quantum label 5
+Antisymmetric stretching v3 mode vibrational quantum number                     # Description quantum label 4
+Herzberg:L                                                                      # Quantum label 5
 I3 %3d                                                                          # Format quantum label 5
-Vibrational angular momentum quantum number L = |l| associated with ν2 mode    # Description quantum label 5
-Coef                                                                            # Quantum label 6
+Vibrational angular momentum quantum number L = |l| associated with v2 mode     # Description quantum label 5
+TROVE:Coef                                                                      # Quantum label 6
 F5.2 %5.2f                                                                      # Format quantum label 6
-Largest coefficient used in the TROVE assignment                                # Description quantum label 6
-n1                                                                              # Quantum label 7
+Coefficient with the largest contribution                                       # Description quantum label 6
+TROVE:n1                                                                        # Quantum label 7
 I2 %2d                                                                          # Format quantum label 7
 TROVE vibrational quantum numbers                                               # Description quantum label 7
-n2                                                                              # Quantum label 8
+TROVE:n2                                                                        # Quantum label 8
 I2 %2d                                                                          # Format quantum label 8
 TROVE vibrational quantum numbers                                               # Description quantum label 8
-n3                                                                              # Quantum label 9
+TROVE:n3                                                                        # Quantum label 9
 I2 %2d                                                                          # Format quantum label 9
 TROVE vibrational quantum numbers                                               # Description quantum label 9
-n4                                                                              # Quantum label 10
+TROVE:n4                                                                        # Quantum label 10
 I2 %2d                                                                          # Format quantum label 10
 TROVE vibrational quantum numbers                                               # Description quantum label 10
 SourceType                                                                      # Auxiliary title 1
@@ -77,3 +76,4 @@ Calculated energy in cm-1                                                       
 1.00                                                                            # Step size of temperature
 0.0700                                                                          # Default value of Lorentzian half-width for all lines (in cm-1/bar)
 0.500                                                                           # Default value of temperature exponent for all lines
+1                                                                               # No. of quanta cases

@@ -4,7 +4,7 @@
         "iso_slug": "14N2-18O",
         "inchi": "InChI=1S/N2O/c1-2-3/i3+2",
         "inchikey": "GQPLMRYTRLFLPF-YZRHJBSPSA-N",
-        "cas_registry_number": "10024-97-2",
+        "cas_registry_number": "nan",
         "mass_in_Da": 46.005309,
         "point_group": "CsM"
     },
@@ -36,7 +36,9 @@
             "uncertainties_available": true,
             "lifetime_available": true,
             "lande_g_available": false,
+            "quantum_case_label": "nltcs",
             "num_quanta": 8,
+            "num_quantum_types": 3,
             "states_file_fields": [
                 {
                     "name": "ID",
@@ -75,49 +77,49 @@
                     "cfmt": "%12.4e"
                 },
                 {
-                    "name": "nltcs:Gtot",
+                    "name": "Gtot",
                     "ffmt": "A3",
                     "cfmt": "%3s",
-                    "desc": "Total symmetry index in Cs(M)"
+                    "desc": "Total symmetry"
                 },
                 {
-                    "name": "nltcs:P",
+                    "name": "Polyad:P",
                     "ffmt": "I2",
                     "cfmt": "%2d",
-                    "desc": "Polyad number P = 2n1 + nlin + 4n3"
+                    "desc": "Polyad number"
                 },
                 {
-                    "name": "nltcs:l",
+                    "name": "Herzberg:l",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "Normal mode vibrational angular momentum quantum number"
                 },
                 {
-                    "name": "nltcs:Pnum",
+                    "name": "Polyad:Pnum",
                     "ffmt": "I3",
                     "cfmt": "%3d",
                     "desc": "Polyad counting number"
                 },
                 {
-                    "name": "nltcs:v1",
+                    "name": "TROVE:v1",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "TROVE stretching vibrational quantum number"
                 },
                 {
-                    "name": "nltcs:v2",
+                    "name": "TROVE:v2",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "TROVE stretching vibrational quantum number"
                 },
                 {
-                    "name": "nltcs:v3",
+                    "name": "TROVE:v3",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "TROVE bending vibrational quantum number"
                 },
                 {
-                    "name": "nltcs:EnergyID",
+                    "name": "EnergyID",
                     "ffmt": "I5",
                     "cfmt": "%5d",
                     "desc": "Counting number according to state energy"

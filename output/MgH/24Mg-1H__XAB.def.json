@@ -36,7 +36,9 @@
             "uncertainties_available": true,
             "lifetime_available": true,
             "lande_g_available": true,
+            "quantum_case_label": "dos",
             "num_quanta": 7,
+            "num_quantum_types": 1,
             "states_file_fields": [
                 {
                     "name": "ID",
@@ -81,46 +83,46 @@
                     "cfmt": "%10.6f"
                 },
                 {
-                    "name": "dcs:+/-",
+                    "name": "+/-",
                     "ffmt": "A1",
                     "cfmt": "%1s",
                     "desc": "Total parity: '+' or '-'"
                 },
                 {
-                    "name": "dcs:e/f",
+                    "name": "e/f",
                     "ffmt": "A1",
                     "cfmt": "%1s",
                     "desc": "Rotationless-parity"
                 },
                 {
-                    "name": "dcs:ElecState",
+                    "name": "ElecState",
                     "ffmt": "A12",
                     "cfmt": "%12s",
                     "desc": "Electronic state"
                 },
                 {
-                    "name": "dcs:v",
+                    "name": "v",
                     "ffmt": "I3",
                     "cfmt": "%3d",
                     "desc": "State vibrational quantum number"
                 },
                 {
-                    "name": "dcs:Lambda",
-                    "ffmt": "I3",
-                    "cfmt": "%3d",
-                    "desc": "Projection of the electronic angular momentum"
+                    "name": "hunda:Lambda",
+                    "ffmt": "I5",
+                    "cfmt": "%5d",
+                    "desc": "Projection of electronic angular momentum"
                 },
                 {
-                    "name": "dcs:Sigma",
-                    "ffmt": "F5.1",
-                    "cfmt": "%5.1f",
+                    "name": "hunda:Sigma",
+                    "ffmt": "I5",
+                    "cfmt": "%5d",
                     "desc": "Projection of the electronic spin"
                 },
                 {
-                    "name": "dcs:Omega",
-                    "ffmt": "F5.1",
-                    "cfmt": "%5.1f",
-                    "desc": "Omega = Lambda + Sigma, projection of the total angular momentum"
+                    "name": "hunda:Omega",
+                    "ffmt": "I5",
+                    "cfmt": "%5d",
+                    "desc": "Omega = Lambda + Sigma, projection of total angular momentum"
                 },
                 {
                     "name": "Auxiliary:SourceType",

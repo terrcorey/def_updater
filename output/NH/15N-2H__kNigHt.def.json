@@ -4,7 +4,7 @@
         "iso_slug": "15N-2H",
         "inchi": "InChI=1S/HN/h1H/i1+1D",
         "inchikey": "PDCKRJPYJMCOFO-VVKOMZTBSA-N",
-        "cas_registry_number": "None",
+        "cas_registry_number": null,
         "mass_in_Da": 17.01421068,
         "point_group": "C"
     },
@@ -36,7 +36,9 @@
             "uncertainties_available": true,
             "lifetime_available": true,
             "lande_g_available": true,
+            "quantum_case_label": "dos",
             "num_quanta": 7,
+            "num_quantum_types": 1,
             "states_file_fields": [
                 {
                     "name": "ID",
@@ -81,43 +83,43 @@
                     "cfmt": "%10.6f"
                 },
                 {
-                    "name": "dcs:+/-",
+                    "name": "+/-",
                     "ffmt": "A1",
                     "cfmt": "%1s",
-                    "desc": "Total parity"
+                    "desc": "Total parity: '+' or '-'"
                 },
                 {
-                    "name": "dcs:e/f",
+                    "name": "e/f",
                     "ffmt": "A1",
                     "cfmt": "%1s",
-                    "desc": "Rotationless parity"
+                    "desc": "Rotationless-parity"
                 },
                 {
-                    "name": "dcs:ElecState",
+                    "name": "ElecState",
                     "ffmt": "A12",
                     "cfmt": "%12s",
-                    "desc": "Electronic states"
+                    "desc": "Electronic state"
                 },
                 {
-                    "name": "dcs:v",
+                    "name": "v",
                     "ffmt": "I3",
                     "cfmt": "%3d",
                     "desc": "State vibrational quantum number"
                 },
                 {
-                    "name": "dcs:Lambda",
-                    "ffmt": "I3",
-                    "cfmt": "%3d",
-                    "desc": "Electronic orbital angular momentum projection along internuclear axis"
+                    "name": "hundb:Lambda",
+                    "ffmt": "I5",
+                    "cfmt": "%5d",
+                    "desc": "Projection of electronic angular momentum"
                 },
                 {
-                    "name": "dcs:N",
-                    "ffmt": "I3",
-                    "cfmt": "%3d",
+                    "name": "hundb:N",
+                    "ffmt": "I5",
+                    "cfmt": "%5d",
                     "desc": "Rotational angular momentum"
                 },
                 {
-                    "name": "dcs:F_i",
+                    "name": "hundb:F_i",
                     "ffmt": "A4",
                     "cfmt": "%4s",
                     "desc": "Spin component"

@@ -34,10 +34,12 @@
             "max_energy": null,
             "hyperfine_resolved_dataset": false,
             "uncertainty_description": null,
-            "uncertainties_available": true,
+            "uncertainties_available": false,
             "lifetime_available": true,
             "lande_g_available": false,
+            "quantum_case_label": "stcs",
             "num_quanta": 18,
+            "num_quantum_types": 2,
             "states_file_fields": [
                 {
                     "name": "ID",
@@ -64,121 +66,115 @@
                     "cfmt": "%7d"
                 },
                 {
-                    "name": "unc",
-                    "desc": "Energy uncertainty in cm-1",
-                    "ffmt": "F12.6",
-                    "cfmt": "%12.6f"
-                },
-                {
                     "name": "tau",
                     "desc": "Lifetime in s",
                     "ffmt": "ES12.4",
                     "cfmt": "%12.4e"
                 },
                 {
-                    "name": "stcs:Gtot",
+                    "name": "Gtot",
                     "ffmt": "A3",
                     "cfmt": "%3s",
                     "desc": "Total symmetry"
                 },
                 {
-                    "name": "stcs:K",
+                    "name": "Herzberg:K",
                     "ffmt": "I3",
                     "cfmt": "%3d",
-                    "desc": "Projection of rotational angular momentum"
+                    "desc": "Projection of J onto axis of molecular symmetry"
                 },
                 {
-                    "name": "stcs:Grot",
+                    "name": "TROVE:Grot",
                     "ffmt": "A3",
                     "cfmt": "%3s",
                     "desc": "Rotational symmetry"
                 },
                 {
-                    "name": "stcs:L",
+                    "name": "Herzberg:L",
                     "ffmt": "I3",
                     "cfmt": "%3d",
                     "desc": "Projection of total vibrational angular momentum"
                 },
                 {
-                    "name": "stcs:v1",
+                    "name": "Herzberg:v1",
                     "ffmt": "I3",
                     "cfmt": "%3d",
                     "desc": "Normal mode vibrational QN1"
                 },
                 {
-                    "name": "stcs:v2",
+                    "name": "Herzberg:v2",
                     "ffmt": "I3",
                     "cfmt": "%3d",
                     "desc": "Normal mode vibrational QN2"
                 },
                 {
-                    "name": "stcs:v3",
+                    "name": "Herzberg:v3",
                     "ffmt": "I3",
                     "cfmt": "%3d",
                     "desc": "Normal mode vibrational QN3"
                 },
                 {
-                    "name": "stcs:v4",
+                    "name": "Herzberg:v4",
                     "ffmt": "I3",
                     "cfmt": "%3d",
                     "desc": "Normal mode vibrational QN4"
                 },
                 {
-                    "name": "stcs:l3",
+                    "name": "Herzberg:l3",
                     "ffmt": "I3",
                     "cfmt": "%3d",
                     "desc": "Projection of angular momentum corresponding to v3"
                 },
                 {
-                    "name": "stcs:l4",
+                    "name": "Herzberg:l4",
                     "ffmt": "I3",
                     "cfmt": "%3d",
                     "desc": "Projection of angular momentum corresponding to v4"
                 },
                 {
-                    "name": "stcs:Gvib",
+                    "name": "TROVE:Gvib",
                     "ffmt": "A3",
                     "cfmt": "%3s",
                     "desc": "Vibrational symmetry"
                 },
                 {
-                    "name": "stcs:|Coef|2",
+                    "name": "TROVE:Coef",
                     "ffmt": "F5.2",
                     "cfmt": "%5.2f",
-                    "desc": "Square modulus of the coefficient with the largest contribution"
+                    "desc": "Coefficient with the largest contribution"
                 },
                 {
-                    "name": "stcs:s1",
+                    "name": "TROVE:s1",
                     "ffmt": "I3",
                     "cfmt": "%3d",
                     "desc": "Local mode vibrational QN1"
                 },
                 {
-                    "name": "stcs:s2",
+                    "name": "TROVE:s2",
                     "ffmt": "I3",
                     "cfmt": "%3d",
                     "desc": "Local mode vibrational QN2"
                 },
                 {
-                    "name": "stcs:s3",
+                    "name": "TROVE:s3",
                     "ffmt": "I3",
                     "cfmt": "%3d",
                     "desc": "Local mode vibrational QN3"
                 },
                 {
-                    "name": "stcs:b1",
+                    "name": "TROVE:b1",
                     "ffmt": "I3",
                     "cfmt": "%3d",
                     "desc": "Local mode vibrational QN4"
                 },
                 {
-                    "name": "stcs:b2",
+                    "name": "TROVE:b2",
                     "ffmt": "I3",
                     "cfmt": "%3d",
                     "desc": "Local mode vibrational QN5"
                 },
                 {
-                    "name": "stcs:b3",
+                    "name": "TROVE:b3",
                     "ffmt": "I3",
                     "cfmt": "%3d",
                     "desc": "Local mode vibrational QN6"

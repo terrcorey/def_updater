@@ -4,7 +4,7 @@
         "iso_slug": "139La-16O",
         "inchi": "InChI=1S/La.O/i2*1+0",
         "inchikey": "PLXQGEWNITUHNB-MHGBRSHDSA-N",
-        "cas_registry_number": "None",
+        "cas_registry_number": null,
         "mass_in_Da": 154.9012679,
         "point_group": "C"
     },
@@ -31,12 +31,14 @@
         "states": {
             "number_of_states": 63644,
             "max_energy": null,
-            "hyperfine_resolved_dataset": true,
+            "hyperfine_resolved_dataset": false,
             "uncertainty_description": null,
             "uncertainties_available": false,
             "lifetime_available": false,
             "lande_g_available": false,
+            "quantum_case_label": "dos",
             "num_quanta": 6,
+            "num_quantum_types": 1,
             "states_file_fields": [
                 {
                     "name": "ID",
@@ -57,43 +59,43 @@
                     "cfmt": "%6d"
                 },
                 {
-                    "name": "F",
+                    "name": "J",
                     "desc": "Total rotational quantum number, excluding nuclear spin",
                     "ffmt": "I7",
                     "cfmt": "%7d"
                 },
                 {
-                    "name": "hunda:J",
-                    "ffmt": "I7",
-                    "cfmt": "%7d",
-                    "desc": "Total rotational quantum number"
+                    "name": "v",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "State vibrational quantum number"
                 },
                 {
-                    "name": "hunda:N",
+                    "name": "hundb:N",
                     "ffmt": "I6",
                     "cfmt": "%6d",
                     "desc": "Rotational angular momentum"
                 },
                 {
-                    "name": "hunda:e/f",
-                    "ffmt": "A3",
-                    "cfmt": "%3s",
+                    "name": "e/f",
+                    "ffmt": "A1",
+                    "cfmt": "%1s",
                     "desc": "Rotationless-parity"
                 },
                 {
-                    "name": "hunda:ElecState",
-                    "ffmt": "A11",
-                    "cfmt": "%11s",
-                    "desc": "Notation of the electronic state"
+                    "name": "ElecState",
+                    "ffmt": "A12",
+                    "cfmt": "%12s",
+                    "desc": "Electronic state"
                 },
                 {
-                    "name": "hunda:v",
-                    "ffmt": "I10",
-                    "cfmt": "%10d",
+                    "name": "v",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
                     "desc": "State vibrational quantum number"
                 },
                 {
-                    "name": "hunda:F_i",
+                    "name": "hundb:F_i",
                     "ffmt": "A4",
                     "cfmt": "%4s",
                     "desc": "Spin component"

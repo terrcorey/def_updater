@@ -4,7 +4,7 @@
         "iso_slug": "31P-19F3",
         "inchi": "InChI=1S/F3P/c1-4(2)3",
         "inchikey": "WKFBZNUBXWCCHG-UHFFFAOYSA-N",
-        "cas_registry_number": "None",
+        "cas_registry_number": null,
         "mass_in_Da": 87.96897129,
         "point_group": "C3V"
     },
@@ -37,7 +37,9 @@
             "uncertainties_available": false,
             "lifetime_available": true,
             "lande_g_available": false,
+            "quantum_case_label": "stcs",
             "num_quanta": 13,
+            "num_quantum_types": 2,
             "states_file_fields": [
                 {
                     "name": "ID",
@@ -70,82 +72,82 @@
                     "cfmt": "%12.4e"
                 },
                 {
-                    "name": "local:Gtot",
+                    "name": "Gtot",
                     "ffmt": "A3",
                     "cfmt": "%3s",
                     "desc": "Total symmetry"
                 },
                 {
-                    "name": "local:n1",
+                    "name": "TROVE:n1",
                     "ffmt": "I6",
                     "cfmt": "%6d",
                     "desc": "[0/3] TROVE quantum number P-F local mode stretch"
                 },
                 {
-                    "name": "local:n2",
+                    "name": "TROVE:n2",
                     "ffmt": "I4",
                     "cfmt": "%4d",
                     "desc": "[0/3] TROVE quantum number P-F local mode stretch"
                 },
                 {
-                    "name": "local:n3",
+                    "name": "TROVE:n3",
                     "ffmt": "I4",
                     "cfmt": "%4d",
                     "desc": "[0/3] TROVE quantum number P-F local mode stretch"
                 },
                 {
-                    "name": "local:n4",
+                    "name": "TROVE:n4",
                     "ffmt": "I4",
                     "cfmt": "%4d",
                     "desc": "[0/7] TROVE quantum number PPF local mode bend"
                 },
                 {
-                    "name": "local:n5",
+                    "name": "TROVE:n5",
                     "ffmt": "I4",
                     "cfmt": "%4d",
                     "desc": "[0/7] TROVE quantum number PPF local mode bend"
                 },
                 {
-                    "name": "local:n6",
+                    "name": "TROVE:n6",
                     "ffmt": "I4",
                     "cfmt": "%4d",
                     "desc": "[0/7] TROVE quantum number PPF local mode bend"
                 },
                 {
-                    "name": "local:Gvib",
+                    "name": "TROVE:Gvib",
                     "ffmt": "A3",
                     "cfmt": "%3s",
                     "desc": "Vibrational symmetry"
                 },
                 {
-                    "name": "local:J",
+                    "name": "J",
                     "ffmt": "I7",
                     "cfmt": "%7d",
                     "desc": "Total rotational quantum number"
                 },
                 {
-                    "name": "local:K",
-                    "ffmt": "I4",
-                    "cfmt": "%4d",
-                    "desc": "[0/100] Projection of J on axis of molec. symmetry"
+                    "name": "Herzberg:K",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "Projection of J onto axis of molecular symmetry"
                 },
                 {
-                    "name": "local:rotpar",
-                    "ffmt": "I1",
-                    "cfmt": "%1d",
+                    "name": "Herzberg:rotpar",
+                    "ffmt": "A3",
+                    "cfmt": "%3s",
                     "desc": "Rotational parity"
                 },
                 {
-                    "name": "local:Grot",
+                    "name": "TROVE:Grot",
                     "ffmt": "A3",
                     "cfmt": "%3s",
                     "desc": "Rotational symmetry"
                 },
                 {
-                    "name": "local:|Coef|2",
+                    "name": "TROVE:Coef",
                     "ffmt": "F5.2",
                     "cfmt": "%5.2f",
-                    "desc": "Square modulus of the coefficient with the largest contribution"
+                    "desc": "Coefficient with the largest contribution"
                 }
             ]
         },

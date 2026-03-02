@@ -36,7 +36,9 @@
             "uncertainties_available": false,
             "lifetime_available": false,
             "lande_g_available": false,
+            "quantum_case_label": "dos",
             "num_quanta": 4,
+            "num_quantum_types": 1,
             "states_file_fields": [
                 {
                     "name": "ID",
@@ -63,28 +65,28 @@
                     "cfmt": "%7.1f"
                 },
                 {
-                    "name": "hands:v",
-                    "ffmt": "I4",
-                    "cfmt": "%4d",
+                    "name": "v",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
                     "desc": "State vibrational quantum number"
                 },
                 {
-                    "name": "hands:s",
+                    "name": "hundb:s",
                     "ffmt": "I4",
                     "cfmt": "%4d",
                     "desc": "total angular momentum quantum number excluding spin"
                 },
                 {
-                    "name": "hands:e/f",
+                    "name": "e/f",
                     "ffmt": "A1",
                     "cfmt": "%1s",
                     "desc": "Rotationless-parity"
                 },
                 {
-                    "name": "hands:ElecState",
+                    "name": "ElecState",
                     "ffmt": "A12",
                     "cfmt": "%12s",
-                    "desc": "electronic state"
+                    "desc": "Electronic state"
                 }
             ]
         },

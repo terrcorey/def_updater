@@ -27,40 +27,40 @@ A"                                                                              
 0                                                                               # Photo-absorption continuum cross-sections availability (1=yes, 0=no)
 17494715                                                                        # No. of states in .states file
 0                                                                               # Hyperfine resolved dataset (1=yes, 0=no)
-1                                                                               # Uncertainty availability (1=yes, 0=no)
+0                                                                               # Uncertainty availability (1=yes, 0=no)
 1                                                                               # Lifetime availability (1=yes, 0=no)
 0                                                                               # Lande g-factor availability (1=yes, 0=no)
-1                                                                               # No. of quanta cases
-stcs                                                                            # Quantum case label
+asymcs                                                                          # Quantum case label
+1                                                                               # No. of quantum number types
 10                                                                              # No. of quanta defined
 Gtot                                                                            # Quantum label 1
 A3 %3s                                                                          # Format quantum label 1
 Total symmetry                                                                  # Description quantum label 1
-v1                                                                              # Quantum label 2
+Herzberg:v1                                                                     # Quantum label 2
 I2 %2d                                                                          # Format quantum label 2
 Normal mode vibrational quantum number                                          # Description quantum label 2
-v2                                                                              # Quantum label 3
+Herzberg:v2                                                                     # Quantum label 3
 I2 %2d                                                                          # Format quantum label 3
 Normal mode vibrational quantum number                                          # Description quantum label 3
-v3                                                                              # Quantum label 4
+Herzberg:v3                                                                     # Quantum label 4
 I2 %2d                                                                          # Format quantum label 4
 Normal mode vibrational quantum number                                          # Description quantum label 4
-v4                                                                              # Quantum label 5
+Herzberg:v4                                                                     # Quantum label 5
 I2 %2d                                                                          # Format quantum label 5
 Normal mode vibrational quantum number                                          # Description quantum label 5
-v5                                                                              # Quantum label 6
+Herzberg:v5                                                                     # Quantum label 6
 I2 %2d                                                                          # Format quantum label 6
 Normal mode vibrational quantum number                                          # Description quantum label 6
-v6                                                                              # Quantum label 7
+Herzberg:v6                                                                     # Quantum label 7
 I2 %2d                                                                          # Format quantum label 7
 Normal mode vibrational quantum number                                          # Description quantum label 7
-v7                                                                              # Quantum label 8
+Herzberg:v7                                                                     # Quantum label 8
 I2 %2d                                                                          # Format quantum label 8
 Normal mode vibrational quantum number                                          # Description quantum label 8
-v8                                                                              # Quantum label 9
+Herzberg:v8                                                                     # Quantum label 9
 I2 %2d                                                                          # Format quantum label 9
 Normal mode vibrational quantum number                                          # Description quantum label 9
-v9                                                                              # Quantum label 10
+Herzberg:v9                                                                     # Quantum label 10
 I2 %2d                                                                          # Format quantum label 10
 Normal mode vibrational quantum number                                          # Description quantum label 10
 6410215502                                                                      # Total number of transitions
@@ -71,3 +71,4 @@ Normal mode vibrational quantum number                                          
 1.00                                                                            # Step size of temperature
 0.0700                                                                          # Default value of Lorentzian half-width for all lines (in cm-1/bar)
 0.500                                                                           # Default value of temperature exponent for all lines
+1                                                                               # No. of quanta cases

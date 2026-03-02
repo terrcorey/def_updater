@@ -4,7 +4,7 @@
         "iso_slug": "42Ca-19F",
         "inchi": "InChI=1S/Ca.FH/h;1H/q+1;/p-1/i1+2;1+0",
         "inchikey": "PMJVACMPRFHIPZ-OJTQQMQBSA-M",
-        "cas_registry_number": "None",
+        "cas_registry_number": null,
         "mass_in_Da": 60.95702123,
         "point_group": "C"
     },
@@ -33,10 +33,12 @@
             "max_energy": 10070.4044,
             "hyperfine_resolved_dataset": false,
             "uncertainty_description": null,
-            "uncertainties_available": true,
+            "uncertainties_available": false,
             "lifetime_available": true,
             "lande_g_available": false,
+            "quantum_case_label": "dcs",
             "num_quanta": 1,
+            "num_quantum_types": 0,
             "states_file_fields": [
                 {
                     "name": "ID",
@@ -63,21 +65,15 @@
                     "cfmt": "%7d"
                 },
                 {
-                    "name": "unc",
-                    "desc": "Energy uncertainty in cm-1",
-                    "ffmt": "F12.6",
-                    "cfmt": "%12.6f"
-                },
-                {
                     "name": "tau",
                     "desc": "Lifetime in s",
                     "ffmt": "ES12.4",
                     "cfmt": "%12.4e"
                 },
                 {
-                    "name": "dcs:v",
-                    "ffmt": "I6",
-                    "cfmt": "%6d",
+                    "name": "v",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
                     "desc": "State vibrational quantum number"
                 }
             ]

@@ -4,7 +4,7 @@
         "iso_slug": "45Sc-16O",
         "inchi": "InChI=1S/O.Sc/i2*1+0",
         "inchikey": "AXJFPMGRQPKZLD-MHGBRSHDSA-N",
-        "cas_registry_number": "None",
+        "cas_registry_number": null,
         "mass_in_Da": 60.95082652,
         "point_group": "C"
     },
@@ -36,7 +36,9 @@
             "uncertainties_available": true,
             "lifetime_available": false,
             "lande_g_available": false,
+            "quantum_case_label": "dos",
             "num_quanta": 7,
+            "num_quantum_types": 1,
             "states_file_fields": [
                 {
                     "name": "ID",
@@ -69,43 +71,43 @@
                     "cfmt": "%12.6f"
                 },
                 {
-                    "name": "dcs:e/f",
+                    "name": "e/f",
                     "ffmt": "A1",
                     "cfmt": "%1s",
-                    "desc": "Rotationless parity without nuclear spin"
+                    "desc": "Rotationless-parity"
                 },
                 {
-                    "name": "dcs:ElecState",
+                    "name": "ElecState",
                     "ffmt": "A12",
                     "cfmt": "%12s",
-                    "desc": "Electronic states"
+                    "desc": "Electronic state"
                 },
                 {
-                    "name": "dcs:v",
+                    "name": "v",
                     "ffmt": "I3",
                     "cfmt": "%3d",
                     "desc": "State vibrational quantum number"
                 },
                 {
-                    "name": "dcs:J",
+                    "name": "J",
                     "ffmt": "I7",
                     "cfmt": "%7d",
                     "desc": "Total rotational quantum number"
                 },
                 {
-                    "name": "dcs:N",
+                    "name": "hundb:N",
                     "ffmt": "I5",
                     "cfmt": "%5d",
                     "desc": "Rotational angular momentum"
                 },
                 {
-                    "name": "dcs:F_i",
+                    "name": "hundb:F_i",
                     "ffmt": "A4",
                     "cfmt": "%4s",
                     "desc": "Spin component"
                 },
                 {
-                    "name": "dcs:J_par",
+                    "name": "hundb:J_par",
                     "ffmt": "A1",
                     "cfmt": "%1s",
                     "desc": "Parity excluding hyperfine effects: e or f"

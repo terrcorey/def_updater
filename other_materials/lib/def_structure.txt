@@ -3,7 +3,7 @@
 # Iso-slug
 # Isotopologue dataset name
 # Version number with format YYYYMMDD
-# CAS Registry Number
+! CAS Registry Number
 # In-ChI of molecule
 # In-ChI key of molecule
 # Number of atoms
@@ -19,8 +19,8 @@
 # Photo-absorption continuum cross-sections availability (1=yes, 0=no)
 # No. of states in .states file
 & bools
-# No. of quanta cases
 & Quantum case label
+# No. of quantum number types
 # No. of quanta defined
 & Quantum labels
 & Auxiliary labels

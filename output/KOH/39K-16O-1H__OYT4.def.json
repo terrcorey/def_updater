@@ -4,7 +4,7 @@
         "iso_slug": "39K-16O-1H",
         "inchi": "InChI=1S/K.H2O/h;1H2/q+1;/p-1/i1+0;",
         "inchikey": "KWYUFKZDYYNOTN-XUGDXVOUSA-M",
-        "cas_registry_number": "None",
+        "cas_registry_number": null,
         "mass_in_Da": 55.96644633,
         "point_group": "C"
     },
@@ -34,10 +34,12 @@
             "max_energy": 16000.0,
             "hyperfine_resolved_dataset": false,
             "uncertainty_description": null,
-            "uncertainties_available": false,
+            "uncertainties_available": true,
             "lifetime_available": true,
             "lande_g_available": false,
+            "quantum_case_label": "ltcs",
             "num_quanta": 9,
+            "num_quantum_types": 2,
             "states_file_fields": [
                 {
                     "name": "ID",
@@ -64,37 +66,43 @@
                     "cfmt": "%7d"
                 },
                 {
+                    "name": "unc",
+                    "desc": "Energy uncertainty in cm-1",
+                    "ffmt": "F12.6",
+                    "cfmt": "%12.6f"
+                },
+                {
                     "name": "tau",
                     "desc": "Lifetime in s",
                     "ffmt": "ES12.4",
                     "cfmt": "%12.4e"
                 },
                 {
-                    "name": "TROVE:Gtot",
+                    "name": "Gtot",
                     "ffmt": "A3",
                     "cfmt": "%3s",
-                    "desc": "Symmetry"
+                    "desc": "Total symmetry"
                 },
                 {
-                    "name": "TROVE:v1",
+                    "name": "Herzberg:v1",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "v1 vibrational quantum number"
                 },
                 {
-                    "name": "TROVE:v2lin",
+                    "name": "Herzberg:v2lin",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "v2lin vibrational quantum number"
                 },
                 {
-                    "name": "TROVE:L",
+                    "name": "Herzberg:L",
                     "ffmt": "I3",
                     "cfmt": "%3d",
                     "desc": "L vibrational quantum number"
                 },
                 {
-                    "name": "TROVE:v3",
+                    "name": "Herzberg:v3",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "v3 vibrational quantum number"
@@ -103,7 +111,7 @@
                     "name": "TROVE:Coef",
                     "ffmt": "F5.2",
                     "cfmt": "%5.2f",
-                    "desc": "Conribution coefficient"
+                    "desc": "Coefficient with the largest contribution"
                 },
                 {
                     "name": "TROVE:n1",

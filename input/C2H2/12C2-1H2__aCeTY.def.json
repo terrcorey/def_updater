@@ -38,7 +38,9 @@
             "uncertainties_available": true,
             "lifetime_available": true,
             "lande_g_available": false,
+            "quantum_case_label": "stcs",
             "num_quanta": 13,
+            "num_quantum_types": 2,
             "states_file_fields": [
                 {
                     "name": "ID",
@@ -77,82 +79,82 @@
                     "cfmt": "%12.4e"
                 },
                 {
-                    "name": "stcs:Gtot",
+                    "name": "Gtot",
                     "ffmt": "A3",
                     "cfmt": "%3s",
                     "desc": "Total symmetry"
                 },
                 {
-                    "name": "stcs:n1",
+                    "name": "TROVE:n1",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "n1 Symmetric CC stretching"
                 },
                 {
-                    "name": "stcs:n2",
+                    "name": "TROVE:n2",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "n2 CH stretching"
                 },
                 {
-                    "name": "stcs:n3",
+                    "name": "TROVE:n3",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "n3 CH stretching"
                 },
                 {
-                    "name": "stcs:n4",
+                    "name": "TROVE:n4",
                     "ffmt": "I2",
                     "cfmt": "%2d",
-                    "desc": "n4 CHH bending"
+                    "desc": "x1 bending"
                 },
                 {
-                    "name": "stcs:n5",
+                    "name": "TROVE:n5",
                     "ffmt": "I2",
                     "cfmt": "%2d",
-                    "desc": "n5 CHH bending"
+                    "desc": "y1 bending"
                 },
                 {
-                    "name": "stcs:n6",
+                    "name": "TROVE:n6",
                     "ffmt": "I2",
                     "cfmt": "%2d",
-                    "desc": "n6 CHH bending"
+                    "desc": "x2 bending"
                 },
                 {
-                    "name": "stcs:n7",
+                    "name": "TROVE:n7",
                     "ffmt": "I2",
                     "cfmt": "%2d",
-                    "desc": "n7 CHH bending"
+                    "desc": "y2 bending"
                 },
                 {
-                    "name": "stcs:Gvib",
+                    "name": "TROVE:Gvib",
                     "ffmt": "A3",
                     "cfmt": "%3s",
                     "desc": "Vibrational symmetry"
                 },
                 {
-                    "name": "stcs:K",
-                    "ffmt": "I2",
-                    "cfmt": "%2d",
-                    "desc": "Projection of J on the axis of molecular rotational symmetry"
+                    "name": "Herzberg:K",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "Projection of J onto axis of molecular symmetry"
                 },
                 {
-                    "name": "stcs:e/f",
+                    "name": "e/f",
                     "ffmt": "A1",
                     "cfmt": "%1s",
-                    "desc": "Rotational parity"
+                    "desc": "Rotationless-parity"
                 },
                 {
-                    "name": "stcs:Grot",
+                    "name": "TROVE:Grot",
                     "ffmt": "A3",
                     "cfmt": "%3s",
-                    "desc": "Rotational Symmetry"
+                    "desc": "Rotational symmetry"
                 },
                 {
-                    "name": "stcs:Coef",
+                    "name": "TROVE:Coef",
                     "ffmt": "F5.2",
                     "cfmt": "%5.2f",
-                    "desc": "Coefficient with the largest contribution to the (J = 0) contracted set"
+                    "desc": "Coefficient with the largest contribution"
                 },
                 {
                     "name": "Auxiliary:SourceType",

@@ -35,7 +35,9 @@
             "uncertainties_available": true,
             "lifetime_available": true,
             "lande_g_available": false,
+            "quantum_case_label": "ltcs",
             "num_quanta": 10,
+            "num_quantum_types": 2,
             "states_file_fields": [
                 {
                     "name": "ID",
@@ -74,61 +76,61 @@
                     "cfmt": "%12.4e"
                 },
                 {
-                    "name": "nltcs:Gtot",
+                    "name": "Gtot",
                     "ffmt": "A3",
                     "cfmt": "%3s",
-                    "desc": "Overall symmetry in Cs(M) (A' or A\")"
+                    "desc": "Total symmetry"
                 },
                 {
-                    "name": "nltcs:v1",
+                    "name": "Herzberg:v1",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "Symmetric stretching v1 mode vibrational quantum number"
                 },
                 {
-                    "name": "nltcs:v2",
+                    "name": "Herzberg:v2",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "Bending v2 mode vibrational quantum number"
                 },
                 {
-                    "name": "nltcs:l2",
+                    "name": "Herzberg:l2",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "Vibrational angular momentum quantum number L2 = |l2| associated with v2 mode"
                 },
                 {
-                    "name": "nltcs:v3",
+                    "name": "Herzberg:v3",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "Antisymmetric stretching v3 mode vibrational quantum number"
                 },
                 {
-                    "name": "nltcs:Gvib",
+                    "name": "TROVE:Gvib",
                     "ffmt": "A3",
                     "cfmt": "%3s",
-                    "desc": "Symmetry of vibrational contribution in Cs(M) (A' or A\")"
+                    "desc": "Vibrational symmetry"
                 },
                 {
-                    "name": "nltcs:Coef",
+                    "name": "TROVE:Coef",
                     "ffmt": "F5.2",
                     "cfmt": "%5.2f",
-                    "desc": "Largest coefficient used in the TROVE vibrational assignment"
+                    "desc": "Coefficient with the largest contribution"
                 },
                 {
-                    "name": "nltcs:n1",
+                    "name": "TROVE:n1",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "TROVE vibrational quantum numbers"
                 },
                 {
-                    "name": "nltcs:n2",
+                    "name": "TROVE:n2",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "TROVE vibrational quantum numbers"
                 },
                 {
-                    "name": "nltcs:n3",
+                    "name": "TROVE:n3",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "TROVE vibrational quantum numbers"

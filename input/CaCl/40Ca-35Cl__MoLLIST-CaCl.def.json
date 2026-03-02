@@ -36,7 +36,9 @@
             "uncertainties_available": true,
             "lifetime_available": false,
             "lande_g_available": false,
+            "quantum_case_label": "dos",
             "num_quanta": 7,
+            "num_quantum_types": 1,
             "states_file_fields": [
                 {
                     "name": "ID",
@@ -69,43 +71,43 @@
                     "cfmt": "%12.6f"
                 },
                 {
-                    "name": "dcs:+/-",
+                    "name": "+/-",
                     "ffmt": "A1",
                     "cfmt": "%1s",
-                    "desc": "Total parity"
+                    "desc": "Total parity: '+' or '-'"
                 },
                 {
-                    "name": "dcs:e/f",
+                    "name": "e/f",
                     "ffmt": "A1",
                     "cfmt": "%1s",
-                    "desc": "Rotationless parity"
+                    "desc": "Rotationless-parity"
                 },
                 {
-                    "name": "dcs:ElecState",
+                    "name": "ElecState",
                     "ffmt": "A12",
                     "cfmt": "%12s",
-                    "desc": "Electronic states"
+                    "desc": "Electronic state"
                 },
                 {
-                    "name": "dcs:v",
+                    "name": "v",
                     "ffmt": "I3",
                     "cfmt": "%3d",
                     "desc": "State vibrational quantum number"
                 },
                 {
-                    "name": "dcs:Omega",
-                    "ffmt": "F5.1",
-                    "cfmt": "%5.1f",
-                    "desc": "Projection of the total angular momentum Omega"
+                    "name": "hundb:Omega",
+                    "ffmt": "I5",
+                    "cfmt": "%5d",
+                    "desc": "Omega = Lambda + Sigma, projection of total angular momentum"
                 },
                 {
-                    "name": "dcs:F_i",
+                    "name": "hundb:F_i",
                     "ffmt": "A4",
                     "cfmt": "%4s",
                     "desc": "Spin component"
                 },
                 {
-                    "name": "dcs:N",
+                    "name": "hundb:N",
                     "ffmt": "I5",
                     "cfmt": "%5d",
                     "desc": "Rotational angular momentum quantum number N"

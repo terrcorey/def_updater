@@ -40,7 +40,9 @@
             "uncertainties_available": true,
             "lifetime_available": true,
             "lande_g_available": false,
+            "quantum_case_label": "stcs",
             "num_quanta": 19,
+            "num_quantum_types": 2,
             "states_file_fields": [
                 {
                     "name": "ID",
@@ -79,43 +81,43 @@
                     "cfmt": "%12.4e"
                 },
                 {
-                    "name": "TROVE:Gtot",
+                    "name": "Gtot",
                     "ffmt": "A3",
                     "cfmt": "%3s",
-                    "desc": "Total symmetry index in D3h(M)"
+                    "desc": "Total symmetry"
                 },
                 {
-                    "name": "TROVE:n1",
+                    "name": "Herzberg:n1",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "Symmetric stretch quantum number (normal mode)"
                 },
                 {
-                    "name": "TROVE:n2",
+                    "name": "Herzberg:n2",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "Symmetric bend quantum number (normal mode)"
                 },
                 {
-                    "name": "TROVE:n3",
+                    "name": "Herzberg:n3",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "Asymmetric stretch quantum number (normal mode)"
                 },
                 {
-                    "name": "TROVE:l3",
-                    "ffmt": "I2",
-                    "cfmt": "%2d",
-                    "desc": "Asymmetric stretch angular momentum quantum no. (normal mode)"
-                },
-                {
-                    "name": "TROVE:n4",
+                    "name": "Herzberg:n4",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "Asymmetric bend quantum number (normal mode)"
                 },
                 {
-                    "name": "TROVE:l4",
+                    "name": "Herzberg:l3",
+                    "ffmt": "I2",
+                    "cfmt": "%2d",
+                    "desc": "Asymmetric stretch angular momentum quantum no. (normal mode)"
+                },
+                {
+                    "name": "Herzberg:l4",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "Asymmetric bend angular momentum quantum no. (normal mode)"
@@ -124,37 +126,37 @@
                     "name": "TROVE:Gvib",
                     "ffmt": "A3",
                     "cfmt": "%3s",
-                    "desc": "D3h(M) vibrational symmetry (local mode)"
+                    "desc": "Vibrational symmetry"
                 },
                 {
-                    "name": "TROVE:K",
-                    "ffmt": "I2",
-                    "cfmt": "%2d",
-                    "desc": "Projection of J on axis of molecular symmetry"
+                    "name": "Herzberg:K",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "Projection of J onto axis of molecular symmetry"
                 },
                 {
                     "name": "TROVE:Grot",
                     "ffmt": "A3",
                     "cfmt": "%3s",
-                    "desc": "D3h(M) rotational symmetry"
+                    "desc": "Rotational symmetry"
                 },
                 {
-                    "name": "TROVE:ivib",
-                    "ffmt": "I2",
-                    "cfmt": "%2d",
-                    "desc": "Index in vibrational symmetry block"
+                    "name": "nblock",
+                    "ffmt": "I5",
+                    "cfmt": "%5d",
+                    "desc": "Counting number in symmetry block"
                 },
                 {
-                    "name": "TROVE:s/a",
-                    "ffmt": "A1",
-                    "cfmt": "%1s",
-                    "desc": "Inversion symmetry"
+                    "name": "Herzberg:s/a",
+                    "ffmt": "I1",
+                    "cfmt": "%1d",
+                    "desc": "Inversional parity"
                 },
                 {
-                    "name": "TROVE:|Coef|2",
+                    "name": "TROVE:Coef",
                     "ffmt": "F5.2",
                     "cfmt": "%5.2f",
-                    "desc": "Square modulus of the coefficient with the largest contribution"
+                    "desc": "Coefficient with the largest contribution"
                 },
                 {
                     "name": "TROVE:v1",

@@ -4,7 +4,7 @@
         "iso_slug": "27Al-2H",
         "inchi": "InChI=1S/Al.H/i1+0;1+1",
         "inchikey": "SPRIOUNJHPCKPV-LFSUVYIMSA-N",
-        "cas_registry_number": "None",
+        "cas_registry_number": null,
         "mass_in_Da": 28.99564041,
         "point_group": "C"
     },
@@ -33,10 +33,12 @@
             "max_energy": 29382.888321,
             "hyperfine_resolved_dataset": false,
             "uncertainty_description": null,
-            "uncertainties_available": true,
+            "uncertainties_available": false,
             "lifetime_available": true,
-            "lande_g_available": false,
+            "lande_g_available": true,
+            "quantum_case_label": "dos",
             "num_quanta": 7,
+            "num_quantum_types": 1,
             "states_file_fields": [
                 {
                     "name": "ID",
@@ -63,46 +65,46 @@
                     "cfmt": "%7d"
                 },
                 {
-                    "name": "unc",
-                    "desc": "Energy uncertainty in cm-1",
-                    "ffmt": "F12.6",
-                    "cfmt": "%12.6f"
-                },
-                {
                     "name": "tau",
                     "desc": "Lifetime in s",
                     "ffmt": "ES12.4",
                     "cfmt": "%12.4e"
                 },
                 {
-                    "name": "hunda:+/-",
-                    "ffmt": "A1",
-                    "cfmt": "%1s",
-                    "desc": "Parity"
+                    "name": "gfactor",
+                    "desc": "Lande g-factor",
+                    "ffmt": "F10.6",
+                    "cfmt": "%10.6f"
                 },
                 {
-                    "name": "hunda:e/f",
+                    "name": "+/-",
+                    "ffmt": "A1",
+                    "cfmt": "%1s",
+                    "desc": "Total parity: '+' or '-'"
+                },
+                {
+                    "name": "e/f",
                     "ffmt": "A1",
                     "cfmt": "%1s",
                     "desc": "Rotationless-parity"
                 },
                 {
-                    "name": "hunda:ElecState",
+                    "name": "ElecState",
                     "ffmt": "A12",
                     "cfmt": "%12s",
-                    "desc": "Notation of the electronic state"
+                    "desc": "Electronic state"
                 },
                 {
-                    "name": "hunda:v",
+                    "name": "v",
                     "ffmt": "I3",
                     "cfmt": "%3d",
                     "desc": "State vibrational quantum number"
                 },
                 {
                     "name": "hunda:Lambda",
-                    "ffmt": "I3",
-                    "cfmt": "%3d",
-                    "desc": "Projection of the electronic angular momentum"
+                    "ffmt": "I5",
+                    "cfmt": "%5d",
+                    "desc": "Projection of electronic angular momentum"
                 },
                 {
                     "name": "hunda:Sigma",
@@ -114,7 +116,7 @@
                     "name": "hunda:Omega",
                     "ffmt": "I5",
                     "cfmt": "%5d",
-                    "desc": "Omega = Lambda + Sigma, projection of the total angular momentum"
+                    "desc": "Omega = Lambda + Sigma, projection of total angular momentum"
                 }
             ]
         },

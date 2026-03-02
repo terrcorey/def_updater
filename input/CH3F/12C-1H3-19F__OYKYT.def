@@ -32,60 +32,60 @@ E                                                                               
 0                                                                               # Uncertainty availability (1=yes, 0=no)
 1                                                                               # Lifetime availability (1=yes, 0=no)
 0                                                                               # Lande g-factor availability (1=yes, 0=no)
-1                                                                               # No. of quanta cases
 stcs                                                                            # Quantum case label
+2                                                                               # No. of quantum number types
 17                                                                              # No. of quanta defined
 Gtot                                                                            # Quantum label 1
 A3 %3s                                                                          # Format quantum label 1
 Total symmetry                                                                  # Description quantum label 1
-v1                                                                              # Quantum label 2
+TROVE:v1                                                                        # Quantum label 2
 I3 %3d                                                                          # Format quantum label 2
 v1 C--F stretch quantum number(3)                                               # Description quantum label 2
-v2                                                                              # Quantum label 3
+TROVE:v2                                                                        # Quantum label 3
 I3 %3d                                                                          # Format quantum label 3
 v2 C--H stretch quantum number(3)                                               # Description quantum label 3
-v3                                                                              # Quantum label 4
+TROVE:v3                                                                        # Quantum label 4
 I3 %3d                                                                          # Format quantum label 4
 v3 C--H stretch quantum number(3)                                               # Description quantum label 4
-v4                                                                              # Quantum label 5
+TROVE:v4                                                                        # Quantum label 5
 I3 %3d                                                                          # Format quantum label 5
 v4 C--H stretch quantum number(3)                                               # Description quantum label 5
-v5                                                                              # Quantum label 6
+TROVE:v5                                                                        # Quantum label 6
 I3 %3d                                                                          # Format quantum label 6
 v5 bend quantum number                                                          # Description quantum label 6
-v6                                                                              # Quantum label 7
+TROVE:v6                                                                        # Quantum label 7
 I3 %3d                                                                          # Format quantum label 7
 v6 bend quantum number                                                          # Description quantum label 7
-v7                                                                              # Quantum label 8
+TROVE:v7                                                                        # Quantum label 8
 I3 %3d                                                                          # Format quantum label 8
 v7 bend quantum number                                                          # Description quantum label 8
-v8                                                                              # Quantum label 9
+TROVE:v8                                                                        # Quantum label 9
 I3 %3d                                                                          # Format quantum label 9
 v8 bend quantum number                                                          # Description quantum label 9
-v9                                                                              # Quantum label 10
+TROVE:v9                                                                        # Quantum label 10
 I3 %3d                                                                          # Format quantum label 10
 v9 bend quantum number                                                          # Description quantum label 10
-Gvib                                                                            # Quantum label 11
+TROVE:Gvib                                                                      # Quantum label 11
 A3 %3s                                                                          # Format quantum label 11
 Vibrational symmetry                                                            # Description quantum label 11
 J                                                                               # Quantum label 12
 I7 %7d                                                                          # Format quantum label 12
 Total rotational quantum number                                                 # Description quantum label 12
-K                                                                               # Quantum label 13
+Herzberg:K                                                                      # Quantum label 13
 I3 %3d                                                                          # Format quantum label 13
-rot QN                                                                          # Description quantum label 13
-rotpar                                                                          # Quantum label 14
-I1 %1d                                                                          # Format quantum label 14
+Projection of J onto axis of molecular symmetry                                 # Description quantum label 13
+Herzberg:rotpar                                                                 # Quantum label 14
+A3 %3s                                                                          # Format quantum label 14
 Rotational parity                                                               # Description quantum label 14
-Grot                                                                            # Quantum label 15
+TROVE:Grot                                                                      # Quantum label 15
 A3 %3s                                                                          # Format quantum label 15
 Rotational symmetry                                                             # Description quantum label 15
 nblock                                                                          # Quantum label 16
-I2 %2d                                                                          # Format quantum label 16
+I5 %5d                                                                          # Format quantum label 16
 Counting number in symmetry block                                               # Description quantum label 16
-|Coef|2                                                                         # Quantum label 17
+TROVE:Coef                                                                      # Quantum label 17
 F5.2 %5.2f                                                                      # Format quantum label 17
-Square modulus of the coefficient with the largest contribution                 # Description quantum label 17
+Coefficient with the largest contribution                                       # Description quantum label 17
 1391882159                                                                      # Total number of transitions
 47                                                                              # No. of transition files
 4700.0                                                                          # Maximum wavenumber (in cm-1)
@@ -94,3 +94,4 @@ NaN                                                                             
 1.00                                                                            # Step size of temperature
 0.0750                                                                          # Default value of Lorentzian half-width for all lines (in cm-1/bar)
 0.530                                                                           # Default value of temperature exponent for all lines
+1                                                                               # No. of quanta cases

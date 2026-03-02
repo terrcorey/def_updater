@@ -3,7 +3,6 @@ EXOMOL.def                                                                      
 31P-19F3                                                                        # Iso-slug
 MCYTY                                                                           # Isotopologue dataset name
 20250807                                                                        # Version number with format YYYYMMDD
-None                                                                            # CAS Registry Number
 InChI=1S/F3P/c1-4(2)3                                                           # In-ChI of molecule
 WKFBZNUBXWCCHG-UHFFFAOYSA-N                                                     # In-ChI key of molecule
 4                                                                               # Number of atoms
@@ -27,51 +26,51 @@ E                                                                               
 0                                                                               # Photo-absorption continuum cross-sections availability (1=yes, 0=no)
 3311926                                                                         # No. of states in .states file
 0                                                                               # Hyperfine resolved dataset (1=yes, 0=no)
-1                                                                               # Uncertainty availability (1=yes, 0=no)
+0                                                                               # Uncertainty availability (1=yes, 0=no)
 1                                                                               # Lifetime availability (1=yes, 0=no)
 0                                                                               # Lande g-factor availability (1=yes, 0=no)
-1                                                                               # No. of quanta cases
-local                                                                           # Quantum case label
+stcs                                                                            # Quantum case label
+2                                                                               # No. of quantum number types
 13                                                                              # No. of quanta defined
 Gtot                                                                            # Quantum label 1
 A3 %3s                                                                          # Format quantum label 1
 Total symmetry                                                                  # Description quantum label 1
-n1                                                                              # Quantum label 2
+TROVE:n1                                                                        # Quantum label 2
 I6 %6d                                                                          # Format quantum label 2
 [0/3] TROVE quantum number P-F local mode stretch                               # Description quantum label 2
-n2                                                                              # Quantum label 3
+TROVE:n2                                                                        # Quantum label 3
 I4 %4d                                                                          # Format quantum label 3
 [0/3] TROVE quantum number P-F local mode stretch                               # Description quantum label 3
-n3                                                                              # Quantum label 4
+TROVE:n3                                                                        # Quantum label 4
 I4 %4d                                                                          # Format quantum label 4
 [0/3] TROVE quantum number P-F local mode stretch                               # Description quantum label 4
-n4                                                                              # Quantum label 5
+TROVE:n4                                                                        # Quantum label 5
 I4 %4d                                                                          # Format quantum label 5
 [0/7] TROVE quantum number PPF local mode bend                                  # Description quantum label 5
-n5                                                                              # Quantum label 6
+TROVE:n5                                                                        # Quantum label 6
 I4 %4d                                                                          # Format quantum label 6
 [0/7] TROVE quantum number PPF local mode bend                                  # Description quantum label 6
-n6                                                                              # Quantum label 7
+TROVE:n6                                                                        # Quantum label 7
 I4 %4d                                                                          # Format quantum label 7
 [0/7] TROVE quantum number PPF local mode bend                                  # Description quantum label 7
-Gvib                                                                            # Quantum label 8
+TROVE:Gvib                                                                      # Quantum label 8
 A3 %3s                                                                          # Format quantum label 8
 Vibrational symmetry                                                            # Description quantum label 8
 J                                                                               # Quantum label 9
 I7 %7d                                                                          # Format quantum label 9
 Total rotational quantum number                                                 # Description quantum label 9
-K                                                                               # Quantum label 10
-I4 %4d                                                                          # Format quantum label 10
-[0/100] Projection of J on axis of molec. symmetry                              # Description quantum label 10
-rotpar                                                                          # Quantum label 11
-I1 %1d                                                                          # Format quantum label 11
+Herzberg:K                                                                      # Quantum label 10
+I3 %3d                                                                          # Format quantum label 10
+Projection of J onto axis of molecular symmetry                                 # Description quantum label 10
+Herzberg:rotpar                                                                 # Quantum label 11
+A3 %3s                                                                          # Format quantum label 11
 Rotational parity                                                               # Description quantum label 11
-Grot                                                                            # Quantum label 12
+TROVE:Grot                                                                      # Quantum label 12
 A3 %3s                                                                          # Format quantum label 12
 Rotational symmetry                                                             # Description quantum label 12
-|Coef|2                                                                         # Quantum label 13
+TROVE:Coef                                                                      # Quantum label 13
 F5.2 %5.2f                                                                      # Format quantum label 13
-Square modulus of the coefficient with the largest contribution                 # Description quantum label 13
+Coefficient with the largest contribution                                       # Description quantum label 13
 68000000000                                                                     # Total number of transitions
 36                                                                              # No. of transition files
 3600.00                                                                         # Maximum wavenumber (in cm-1)
@@ -80,4 +79,5 @@ Square modulus of the coefficient with the largest contribution                 
 1.00                                                                            # Step size of temperature
 0.110                                                                           # Default value of Lorentzian half-width for all lines (in cm-1/bar)
 0.6                                                                             # Default value of temperature exponent for all lines
+1                                                                               # No. of quanta cases
 H2                                                                              # Label for a particular broadener

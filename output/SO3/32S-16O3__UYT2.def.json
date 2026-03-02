@@ -34,10 +34,12 @@
             "max_energy": 4000.0,
             "hyperfine_resolved_dataset": false,
             "uncertainty_description": null,
-            "uncertainties_available": true,
+            "uncertainties_available": false,
             "lifetime_available": true,
             "lande_g_available": false,
+            "quantum_case_label": "stcs",
             "num_quanta": 16,
+            "num_quantum_types": 2,
             "states_file_fields": [
                 {
                     "name": "ID",
@@ -64,109 +66,103 @@
                     "cfmt": "%7d"
                 },
                 {
-                    "name": "unc",
-                    "desc": "Energy uncertainty in cm-1",
-                    "ffmt": "F12.6",
-                    "cfmt": "%12.6f"
-                },
-                {
                     "name": "tau",
                     "desc": "Lifetime in s",
                     "ffmt": "ES12.4",
                     "cfmt": "%12.4e"
                 },
                 {
-                    "name": "stcs:Gtot",
+                    "name": "Gtot",
                     "ffmt": "A3",
                     "cfmt": "%3s",
                     "desc": "Total symmetry"
                 },
                 {
-                    "name": "stcs:K",
+                    "name": "TROVE:K",
                     "ffmt": "I3",
                     "cfmt": "%3d",
-                    "desc": "Projection of J on to the z-axis"
+                    "desc": "Projection of J onto axis of molecular symmetry"
                 },
                 {
-                    "name": "stcs:Grot",
+                    "name": "TROVE:Grot",
                     "ffmt": "A3",
                     "cfmt": "%3s",
                     "desc": "Rotational symmetry"
                 },
                 {
-                    "name": "stcs:v1",
+                    "name": "TROVE:v1",
                     "ffmt": "I3",
                     "cfmt": "%3d",
                     "desc": "Local mode vibrational quantum numbers"
                 },
                 {
-                    "name": "stcs:v2",
+                    "name": "TROVE:v2",
                     "ffmt": "I3",
                     "cfmt": "%3d",
                     "desc": "Local mode vibrational quantum numbers"
                 },
                 {
-                    "name": "stcs:v3",
+                    "name": "TROVE:v3",
                     "ffmt": "I3",
                     "cfmt": "%3d",
                     "desc": "Local mode vibrational quantum numbers"
                 },
                 {
-                    "name": "stcs:v4",
+                    "name": "TROVE:v4",
                     "ffmt": "I3",
                     "cfmt": "%3d",
                     "desc": "Local mode vibrational quantum numbers"
                 },
                 {
-                    "name": "stcs:v5",
+                    "name": "TROVE:v5",
                     "ffmt": "I3",
                     "cfmt": "%3d",
                     "desc": "Local mode vibrational quantum numbers"
                 },
                 {
-                    "name": "stcs:v6",
+                    "name": "TROVE:v6",
                     "ffmt": "I3",
                     "cfmt": "%3d",
                     "desc": "Local mode vibrational quantum numbers"
                 },
                 {
-                    "name": "stcs:n1",
+                    "name": "Herzberg:n1",
                     "ffmt": "I3",
                     "cfmt": "%3d",
                     "desc": "Normal mode vibrational quantum numbers"
                 },
                 {
-                    "name": "stcs:n2",
+                    "name": "Herzberg:n2",
                     "ffmt": "I3",
                     "cfmt": "%3d",
                     "desc": "Normal mode vibrational quantum numbers"
                 },
                 {
-                    "name": "stcs:n3",
+                    "name": "Herzberg:n3",
                     "ffmt": "I3",
                     "cfmt": "%3d",
                     "desc": "Normal mode vibrational quantum numbers"
                 },
                 {
-                    "name": "stcs:n4",
+                    "name": "Herzberg:n4",
                     "ffmt": "I3",
                     "cfmt": "%3d",
                     "desc": "Normal mode vibrational quantum numbers"
                 },
                 {
-                    "name": "stcs:L3",
+                    "name": "Herzberg:L3",
                     "ffmt": "I3",
                     "cfmt": "%3d",
                     "desc": "L projections of the vibrational angular momenta"
                 },
                 {
-                    "name": "stcs:L4",
+                    "name": "Herzberg:L4",
                     "ffmt": "I3",
                     "cfmt": "%3d",
                     "desc": "L projections of the vibrational angular momenta"
                 },
                 {
-                    "name": "stcs:Gvib",
+                    "name": "TROVE:Gvib",
                     "ffmt": "A3",
                     "cfmt": "%3s",
                     "desc": "Vibrational symmetry"

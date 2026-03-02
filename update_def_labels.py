@@ -376,11 +376,8 @@ def line_formatter(value, desc):
     value = str(value).strip()
     desc = str(desc).strip()
     if value == None:
-        if desc == "Quantum case label":
-            return ""
-        else:
-            error_log(f"Dataset: {filename} || Value for '{desc}' is None.", "Warn")
-            return ""
+        error_log(f"Dataset: {filename} || Value for '{desc}' is None.", "Warn")
+        return ""
     l = "EXOMOL.def                                                                      # ID"
     try:
         tot_chars = int(len(l.split("#")[0]))
@@ -451,6 +448,14 @@ def def_dict_update(mol, def_dict, labels_info):
             labels_list.append(dict)
         else:
             labels_list.append(dict["Quantum label"])
+    qn_types = []
+    for label in labels_list:
+        if ":" in label and "Auxiliary" not in label:
+            qn_types.append(label.split(":", 1)[0].strip())
+    
+    qn_types = np.unique(np.array(qn_types)).tolist()
+    def_dict["No. of quantum number types"] = len(qn_types)
+
     backend_master = load_backend_master_file()
     inchi_input = pd.read_csv("other_materials/lib/inchikey_input.csv", header=None)
     cas_input = pd.read_csv("other_materials/lib/CAS_numbers.csv", header=0)
@@ -459,10 +464,9 @@ def def_dict_update(mol, def_dict, labels_info):
     cas_number = ""
     for _, row in cas_input.iterrows():
         if str(row.iloc[0]) == str(iso_slug):
-            cas_number = str(row.iloc[2])
+            cas_number = str(row.iloc[1])
             break
     if not cas_number:
-        error_log(f"Dataset: {filename} || No matching CAS number found for iso-slug '{iso_slug}' in CAS_numbers.csv", "Warn")
         cas_number = None
 
     def_dict["CAS Registry Number"] = cas_number
@@ -495,7 +499,7 @@ def def_dict_update(mol, def_dict, labels_info):
         if "In-ChI key of molecule" in key:
             iso_formula = def_dict["IsoFormula"]
             formula_list = inchi_input.iloc[:, 0].tolist()
-            match_indices = [i for i, formula in enumerate(formula_list) if str(formula) == str(iso_formula)]
+            match_indices = [i for i, formula in enumerate(formula_list) if str(formula).strip() == str(iso_formula).strip()]
             if match_indices:
                 matching_row = inchi_input.iloc[match_indices[0]]
                 inchi = matching_row.iloc[2]
@@ -509,7 +513,7 @@ def def_dict_update(mol, def_dict, labels_info):
         if "Isotopologue mass" in key:
             iso_formula = def_dict["IsoFormula"]
             formula_list = inchi_input.iloc[:, 0].tolist()
-            match_indices = [i for i, formula in enumerate(formula_list) if str(formula) == str(iso_formula)]
+            match_indices = [i for i, formula in enumerate(formula_list) if str(formula).strip() == str(iso_formula).strip()]
             if match_indices:
                 matching_row = inchi_input.iloc[match_indices[0]]
                 mass = matching_row.iloc[4]
@@ -558,14 +562,7 @@ def def_dict_update(mol, def_dict, labels_info):
                     "Description title": "Calculated energy in cm-1"
                 }
                 def_dict["Auxiliary labels"].append(dict)
-    new_labels = []
-    prefixes = []
-    for label in labels:
-        if label not in aux_labels and ":" in label:
-            prefixes.append(label.split(":")[0])
-            new_labels.append(label.split(":")[1])
-        elif label not in aux_labels:
-            new_labels.append(label)
+    new_labels = [label for label in labels if label not in aux_labels]
 
     old_labels = def_dict.get("Quantum labels", None)
     if not old_labels:
@@ -578,39 +575,46 @@ def def_dict_update(mol, def_dict, labels_info):
     old_label_map = {d["Quantum label"]: d for d in old_labels}
     standard_label_map = {d["Quantum label"]: d for d in standard_labels}
 
-    for i, label in enumerate(new_labels):
+    for i, full_label in enumerate(new_labels):
         correction_dict = load_correction_dict()
+        label = full_label.split(":", 1)[1].strip() if ":" in full_label else full_label.strip()
         if label in list(correction_dict.keys()):
             label = correction_dict[label]
         if label == "J":
             J_cfmt, J_ffmt = check_J_format(states_file_path)
             fmt = " ".join([J_ffmt, J_cfmt])
             new_labels[i] = {
-                "Quantum label": label,
+                "Quantum label": full_label,
                 "Format quantum label": fmt,
                 "Description quantum label": "Total rotational quantum number"
             }
             continue
 
-        # Try old labels, then standard labels, else fallback
-        if label in old_label_map:
-            new_labels[i] = old_label_map[label]
-        elif label in standard_label_map:
+        # Try old labels, then standard labels, else fallback]
+        if label in standard_label_map:
             new_labels[i] = standard_label_map[label]
+            new_labels[i]["Quantum label"] = full_label
         elif isinstance(new_labels[i], str):
             new_labels[i] = {
-                "Quantum label": label,
+                "Quantum label": full_label,
                 "Format quantum label": detect_format(states_file_path, i),
                 "Description quantum label": ""
             }
             for dict in labels_info:
                 if not isinstance(dict, str):
-                    if dict["Quantum label"] == label:
+                    if dict["Quantum label"] == label or dict["Quantum label"] == full_label:
+                        new_labels[i]["Format quantum label"] = dict["Format quantum label"]
                         new_labels[i]["Description quantum label"] = dict["Description quantum label"]
                         break
-
-            error_log(f"Dataset: {filename} || Quantum label '{label}' not found in old labels. Please input the description manually.")
-
+        elif full_label in old_label_map:
+            new_labels[i] = old_label_map[full_label]
+            new_labels[i]["Quantum label"] = full_label
+        elif label in old_label_map:
+            new_labels[i] = old_label_map[label]
+            new_labels[i]["Quantum label"] = full_label
+        else:
+            print(error_log(f"Dataset: {filename} || Quantum label '{full_label}' not found in old labels. Please input the description manually."))
+        
 
     def_dict["Quantum labels"] = new_labels
     def_dict["No. of quanta defined"] = len(new_labels)
@@ -658,7 +662,10 @@ def update_def(def_file_path, structure_path, def_dict):
                     if isinstance(case_labels, list):
                         for i, case in enumerate(case_labels):
                             output_file.write(line_formatter(case, f"Quantum case label {i+1}"))
+                        error_log(f"Dataset: {filename} || More than one quantum case label found", "Error")
                     else:
+                        if case_labels in ["hunda", "hundb"]:
+                            case_labels = "dos"
                         output_file.write(line_formatter(case_labels, f"Quantum case label"))
                     def_dict.pop("Quantum case label", None)
                 elif isinstance(def_dict.get(desc), list):
@@ -667,6 +674,14 @@ def update_def(def_file_path, structure_path, def_dict):
                 else:
                     value = def_dict.get(desc)
                     output_file.write(line_formatter(value, desc))
+                    def_dict.pop(desc, None)
+            elif "!" in entry:
+                desc = entry.split("!", 1)[1].strip()
+                if def_dict.get(desc) is not None:
+                    value = def_dict.get(desc)
+                    output_file.write(line_formatter(value, desc))
+                    def_dict.pop(desc, None)
+                else:
                     def_dict.pop(desc, None)
             else:
                 error_log(f"Dataset: {filename} || Malformed line in structure file: {entry}", "Warn")
@@ -678,57 +693,6 @@ def update_def(def_file_path, structure_path, def_dict):
                     output_file.write(line_formatter(v, desc))
             else:
                 output_file.write(line_formatter(value, desc))
-            
-
-"""            for l in lines:
-                if "#" not in l:
-                    continue
-                parts = [entry.strip() for entry in l.split("#", 1)]
-                if len(parts) != 2:
-                    continue
-                value, desc = parts
-                if "In-ChI" in desc:
-                    continue
-                if desc in keys and not isinstance(def_dict.get(desc), list):
-                    value = def_dict.get(desc)
-                    output_file.write(line_formatter(value, desc))
-                    def_dict.pop(desc, None)
-                elif desc in keys and isinstance(def_dict.get(desc), list):
-                    for value in def_dict[desc]:
-                        output_file.write(line_formatter(value, desc))
-                    def_dict.pop(desc, None)         
-                if desc == "No. of quanta defined":
-                    output_file.write(label_formatter(def_dict.get("Quantum labels", [])))
-                    output_file.write(label_formatter(def_dict.get("Auxiliary labels", [])))
-                    def_dict.pop("Quantum labels", None)
-                    def_dict.pop("Auxiliary labels", None)
-                elif desc == "Number of irreducible representations":
-                    output_file.write(label_formatter(def_dict.get("irreps", [])))
-                    def_dict.pop("irreps", None)
-                elif desc == "Default value of temperature exponent for all lines":
-                    output_file.write(broadener_formatter(def_dict.get("Broadening parameters", [])))
-                    def_dict.pop("Broadening parameters", None)
-                elif desc == "Number of atoms":
-                    output_file.write(label_formatter(def_dict.get("Isotope information", [])))
-                    def_dict.pop("Isotope information", None)
-                elif desc == "No. of quanta cases":
-                    case_labels = def_dict.get("Quantum case label", [])
-                    if isinstance(case_labels, list):
-                        for i, case in enumerate(case_labels):
-                            output_file.write(line_formatter(case, f"Quantum case label {i+1}"))
-                    else:
-                        output_file.write(line_formatter(case_labels, f"Quantum case label"))
-                    def_dict.pop("Quantum case label", None)
-                elif desc == "Quantum case label":
-                    continue
-                elif desc == "No. of k-coefficient files available":
-                    output_file.write(bool_formmatter(def_dict.get("bools", {})))
-                    def_dict.pop("bools", None)
-                elif desc == "Version number with format YYYYMMDD":
-                    output_file.write(line_formatter(def_dict.get("In-ChI of molecule"), "In-ChI of molecule"))
-                    output_file.write(line_formatter(def_dict.get("In-ChI key of molecule"), "In-ChI key of molecule"))
-                    def_dict.pop("In-ChI of molecule", None)
-                    def_dict.pop("In-ChI key of molecule", None)"""
 
 def slug_to_formula(slug):
     """
@@ -799,10 +763,10 @@ def make_label_json():
 
         # Read rows 2-3 as a DataFrame (headers and types)
         try:
-            data_rows = [list(row) for row in ws.iter_rows(min_row=2, max_row=3, values_only=True)]
-            state_rows = [list(row) for row in ws.iter_rows(min_row=4, max_row=4, values_only=True)][0]
+            data_rows = [list(row) for row in ws.iter_rows(min_row=3, max_row=4, values_only=True)]
+            state_rows = [list(row) for row in ws.iter_rows(min_row=5, max_row=5, values_only=True)][0]
             headers = data_rows[0]
-            if headers[-1] is None:
+            """if headers[-1] is None:
                 if "tau" in headers and "unc" not in headers:
                     data_rows[0].insert(4, "unc")
                     data_rows[1].insert(4, "F12.6 %12.6f")
@@ -813,7 +777,7 @@ def make_label_json():
                     data_rows[0].insert(4, "tau")
                     data_rows[1].insert(4, "ES12.4 %12.4e")
                 data_rows[0].remove(None)
-                data_rows[1].remove(None)
+                data_rows[1].remove(None)"""
             data_array = np.array(data_rows, dtype=object).T
 
         except Exception as e:
@@ -824,7 +788,7 @@ def make_label_json():
         try:
             desc_rows = [list(row) for row in ws.iter_rows(min_row=7, values_only=True)]
             desc_dict = {
-                str(row[0]).strip(): str(row[1]).strip() if row[1] is not None else ""
+                str(row[0]).split(":")[1].strip() if ":" in str(row[0]) else str(row[0]).strip(): str(row[1]).strip() if row[1] is not None else ""
                 for row in desc_rows if row[0] is not None
             }
         except Exception as e:
@@ -839,15 +803,21 @@ def make_label_json():
             "ds_name": f"{iso_slug}__{dsname}",
             "labels": []
         }
+
         for i in range(data_array.shape[0]):
-            label_name = str(data_array[i, 0]).strip()
+            full_label_name = str(data_array[i, 0]).strip()
+            pref, label_name = full_label_name.split(":") if ":" in full_label_name else ("", full_label_name)
+            label_name = label_name.strip()
+            label_desc = desc_dict.get(label_name, "")
+            if label_desc == "":
+                l = label_name.split(":")[1].strip() if ":" in label_name else label_name
+                label_desc = desc_dict.get(l, "")
             label = {
-                "Quantum label": label_name,
+                "Quantum label": full_label_name,
                 "Format quantum label": str(data_array[i, 1]).strip(),
-                "Description quantum label": desc_dict.get(label_name, "")
+                "Description quantum label": label_desc
             }
             if label["Description quantum label"] == "":
-                error_log(f"Missing description for label '{label_name}' in sheet {ws.title}. Trying standard labels...", "Log")
                 standard_labels = load_standard_labels()
                 for std_label in standard_labels:
                     if std_label["Quantum label"] == label_name:
@@ -857,6 +827,7 @@ def make_label_json():
                 if label["Description quantum label"] == "":
                     error_log(f"Description for label '{label_name}' not found in sheet {ws.title}.", "Error")
             label_dict["labels"].append(label)
+
         all_label_dicts.append(label_dict)
 
     # Save to JSON
@@ -885,7 +856,7 @@ def main():
                 def_paths.append(os.path.abspath(os.path.join(root, file)))
 
     if not labels_data:
-        print(f"No updated labels file found in the folder. Please ensure 'states_labels.json' is correctly named and present.")
+        print(f"No labels data found. Please ensure you have generated the Excel file and populated it appropriately.")
         exit_script()
 
     if not def_paths:
