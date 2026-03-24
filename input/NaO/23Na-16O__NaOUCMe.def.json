@@ -4,7 +4,6 @@
         "iso_slug": "23Na-16O",
         "inchi": "InChI=1S/Na.O/i2*1+0",
         "inchikey": "IVAOQJNBYYIDSI-MHGBRSHDSA-N",
-        "cas_registry_number": null,
         "mass_in_Da": 38.9846839,
         "point_group": "Cs"
     },

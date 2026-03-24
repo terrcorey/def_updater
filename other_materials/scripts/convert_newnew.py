@@ -362,7 +362,17 @@ def def_to_json(def_file_path, json_file_path):
             "point_group"
         ]
 
-        json_dict["isotopologue"] = {k: json_dict["isotopologue"].get(k) for k in iso_keys_order}
+        reordered_isotopologue = {}
+        for k in iso_keys_order:
+            v = json_dict["isotopologue"].get(k)
+
+            # CAS is optional: omit when null-like
+            if k == "cas_registry_number" and (v is None or str(v).strip() in {"", "None", "null", "NaN"}):
+                continue
+
+            reordered_isotopologue[k] = v
+
+        json_dict["isotopologue"] = reordered_isotopologue
 
         states_keys_order = [
             "number_of_states",

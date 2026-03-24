@@ -4,7 +4,6 @@
         "iso_slug": "1H2-18O",
         "inchi": "InChI=1S/H2O/h1H2/i1+2",
         "inchikey": "XLYOFNOQVPJJNP-NJFSPNSNSA-N",
-        "cas_registry_number": null,
         "mass_in_Da": 20.01481106,
         "point_group": "C2v"
     },

@@ -59,4 +59,3 @@ Omega = Lambda + Sigma, projection of total angular momentum                    
 1.00                                                                            # Step size of temperature
 None                                                                            # Default value of Lorentzian half-width for all lines (in cm-1/bar)
 None                                                                            # Default value of temperature exponent for all lines
-1                                                                               # No. of quanta cases

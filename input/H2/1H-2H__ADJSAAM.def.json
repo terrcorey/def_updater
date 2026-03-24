@@ -4,7 +4,6 @@
         "iso_slug": "1H-2H",
         "inchi": "InChI=1S/H2/h1H/i1+1H",
         "inchikey": "UFHFLCQGNIYNRP-YPBGMLPISA-N",
-        "cas_registry_number": null,
         "mass_in_Da": 3.02192681,
         "point_group": "C"
     },
@@ -32,7 +31,7 @@
             "max_energy": null,
             "hyperfine_resolved_dataset": false,
             "uncertainty_description": null,
-            "uncertainties_available": false,
+            "uncertainties_available": true,
             "lifetime_available": true,
             "lande_g_available": false,
             "quantum_case_label": "dcs",
@@ -62,6 +61,12 @@
                     "desc": "Total rotational quantum number, excluding nuclear spin",
                     "ffmt": "I7",
                     "cfmt": "%7d"
+                },
+                {
+                    "name": "unc",
+                    "desc": "Energy uncertainty in cm-1",
+                    "ffmt": "F12.6",
+                    "cfmt": "%12.6f"
                 },
                 {
                     "name": "tau",

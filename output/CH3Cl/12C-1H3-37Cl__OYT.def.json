@@ -4,7 +4,6 @@
         "iso_slug": "12C-1H3-37Cl",
         "inchi": "InChI=1S/CH3Cl/c1-2/h1H3/i2+2",
         "inchikey": "NEHMKBQYUWJMIP-HQMMCQRPSA-N",
-        "cas_registry_number": null,
         "mass_in_Da": 51.98937769,
         "point_group": "C3v"
     },

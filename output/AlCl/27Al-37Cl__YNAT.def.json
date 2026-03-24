@@ -4,7 +4,6 @@
         "iso_slug": "27Al-37Cl",
         "inchi": "InChI=1S/Al.ClH/h;1H/q+1;/p-1/i1+0;1+2",
         "inchikey": "IZMHKHHRLNWLMK-WMSMEIEASA-M",
-        "cas_registry_number": null,
         "mass_in_Da": 63.94744122,
         "point_group": "C"
     },

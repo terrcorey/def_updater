@@ -3,7 +3,7 @@ EXOMOL.def                                                                      
 1H3_p                                                                           # Iso-slug
 MiZATeP                                                                         # Isotopologue dataset name
 20230123                                                                        # Version number with format YYYYMMDD
-12184-91-7                                                                      # CAS Registry Number
+28132-48-1                                                                      # CAS Registry Number
 InChI=1S/H3/c1-2-3-1/q+1                                                        # In-ChI of molecule
 RQZCXKHVAUFVMF-UHFFFAOYSA-N                                                     # In-ChI key of molecule
 3                                                                               # Number of atoms
@@ -81,4 +81,3 @@ None                                                                            
 1.00                                                                            # Step size of temperature
 0.07                                                                            # Default value of Lorentzian half-width for all lines (in cm-1/bar)
 0.500                                                                           # Default value of temperature exponent for all lines
-1                                                                               # No. of quanta cases

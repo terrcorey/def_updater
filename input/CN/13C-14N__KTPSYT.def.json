@@ -4,7 +4,6 @@
         "iso_slug": "13C-14N",
         "inchi": "InChI=1S/CN/c1-2/i1+1,2+0",
         "inchikey": "JEVCWSUVFOYBFI-CRWWGTSDSA-N",
-        "cas_registry_number": null,
         "mass_in_Da": 27.00642884,
         "point_group": "C"
     },

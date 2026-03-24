@@ -33,12 +33,12 @@ B2                                                                              
 1                                                                               # Lifetime availability (1=yes, 0=no)
 0                                                                               # Lande g-factor availability (1=yes, 0=no)
 nltcs                                                                           # Quantum case label
-3                                                                               # No. of quantum number types
+2                                                                               # No. of quantum number types
 6                                                                               # No. of quanta defined
 Herzberg:Ka                                                                     # Quantum label 1
 I2 %2d                                                                          # Format quantum label 1
 Ka rotational quantum number                                                    # Description quantum label 1
-HErzberg:Kc                                                                     # Quantum label 2
+Herzberg:Kc                                                                     # Quantum label 2
 I2 %2d                                                                          # Format quantum label 2
 Kc rotational quantum number                                                    # Description quantum label 2
 Herzberg:v1                                                                     # Quantum label 3
@@ -119,4 +119,3 @@ J'                                                                              
 a0                                                                              # A code that defines this set of quantum numbers
 51                                                                              # No. of lines in the broad that contain this code
 0                                                                               # No. of quantum numbers defined
-1                                                                               # No. of quanta cases

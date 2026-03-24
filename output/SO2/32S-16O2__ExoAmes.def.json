@@ -40,7 +40,7 @@
             "lande_g_available": false,
             "quantum_case_label": "nltcs",
             "num_quanta": 6,
-            "num_quantum_types": 2,
+            "num_quantum_types": 1,
             "states_file_fields": [
                 {
                     "name": "ID",
@@ -109,7 +109,7 @@
                     "desc": "Ka rotational quantum number"
                 },
                 {
-                    "name": "HErzberg:Kc",
+                    "name": "Herzberg:Kc",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "Kc rotational quantum number"

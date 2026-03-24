@@ -4,7 +4,6 @@
         "iso_slug": "27Al-2H",
         "inchi": "InChI=1S/Al.H/i1+0;1+1",
         "inchikey": "SPRIOUNJHPCKPV-LFSUVYIMSA-N",
-        "cas_registry_number": null,
         "mass_in_Da": 28.99564041,
         "point_group": "C"
     },
@@ -33,7 +32,7 @@
             "max_energy": 29382.888321,
             "hyperfine_resolved_dataset": false,
             "uncertainty_description": null,
-            "uncertainties_available": false,
+            "uncertainties_available": true,
             "lifetime_available": true,
             "lande_g_available": true,
             "quantum_case_label": "dos",
@@ -63,6 +62,12 @@
                     "desc": "Total rotational quantum number, excluding nuclear spin",
                     "ffmt": "I7",
                     "cfmt": "%7d"
+                },
+                {
+                    "name": "unc",
+                    "desc": "Energy uncertainty in cm-1",
+                    "ffmt": "F12.6",
+                    "cfmt": "%12.6f"
                 },
                 {
                     "name": "tau",

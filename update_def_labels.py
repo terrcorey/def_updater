@@ -484,6 +484,8 @@ def def_dict_update(mol, def_dict, labels_info):
             def_dict.pop(key, None)
         if "Dipole availability" in key:
             def_dict.pop(key, None)
+        if "No. of quanta cases" in key:
+            def_dict.pop(key, None)
         if "No. of k-coefficient files available" in key:
             def_dict.pop(key, None)
         if "No. of cross section files available" in key:

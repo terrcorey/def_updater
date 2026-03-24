@@ -4,7 +4,6 @@
         "iso_slug": "29Si-14N",
         "inchi": "InChI=1S/NSi/c1-2/i1+0,2+1",
         "inchikey": "NCLWWTWAYQTPBU-DZEMCFCNSA-N",
-        "cas_registry_number": null,
         "mass_in_Da": 42.9795687,
         "point_group": "C"
     },

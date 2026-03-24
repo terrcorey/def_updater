@@ -40,7 +40,7 @@
             "lande_g_available": false,
             "quantum_case_label": "nltcs",
             "num_quanta": 6,
-            "num_quantum_types": 3,
+            "num_quantum_types": 2,
             "states_file_fields": [
                 {
                     "name": "ID",
@@ -85,7 +85,7 @@
                     "desc": "Rovibrational symmetry"
                 },
                 {
-                    "name": "HErzberg:Ka",
+                    "name": "Herzberg:Ka",
                     "ffmt": "I2",
                     "cfmt": "%2d",
                     "desc": "Ka rotational quantum number"

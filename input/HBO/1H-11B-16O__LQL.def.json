@@ -4,7 +4,6 @@
         "iso_slug": "1H-11B-16O",
         "inchi": "InChI=1S/BHO/c1-2/h1H/i1+0H,2+0",
         "inchikey": "UXUFOKFTFHRQTE-VWHNNAKVSA-N",
-        "cas_registry_number": null,
         "mass_in_Da": 28.01204505,
         "point_group": "CsM"
     },
