@@ -99,9 +99,12 @@ Local mode inversion quantum number                                             
 TROVE:Gvib                                                                      # Quantum label 20
 A3 %3s                                                                          # Format quantum label 20
 Vibrational symmetry                                                            # Description quantum label 20
-Ecal                                                                            # Auxiliary title 1
-F12.6 %12.6f                                                                    # Format title 1
-Calculated energy in cm-1                                                       # Description title 1
+SourceType                                                                      # Auxiliary title 1
+A2 %2s                                                                          # Format title 1
+Ma=MARVEL,Ca=Calculated,EH=Effective Hamiltonian,IE=Isotopologue extrapolation  # Description title 1
+Ecal                                                                            # Auxiliary title 2
+F12.6 %12.6f                                                                    # Format title 2
+Calculated energy in cm-1                                                       # Description title 2
 16941637250                                                                     # Total number of transitions
 200                                                                             # No. of transition files
 20000.00                                                                        # Maximum wavenumber (in cm-1)

@@ -29,7 +29,7 @@ A"                                                                              
 0                                                                               # Uncertainty availability (1=yes, 0=no)
 0                                                                               # Lifetime availability (1=yes, 0=no)
 0                                                                               # Lande g-factor availability (1=yes, 0=no)
-nltcs                                                                           # Quantum case label
+asymcs                                                                          # Quantum case label
 2                                                                               # No. of quantum number types
 9                                                                               # No. of quanta defined
 +/-                                                                             # Quantum label 1

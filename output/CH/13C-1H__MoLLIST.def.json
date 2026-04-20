@@ -35,7 +35,7 @@
             "uncertainties_available": true,
             "lifetime_available": false,
             "lande_g_available": false,
-            "quantum_case_label": "hund",
+            "quantum_case_label": "hundb",
             "num_quanta": 4,
             "num_quantum_types": 1,
             "states_file_fields": [

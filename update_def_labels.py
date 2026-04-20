@@ -496,6 +496,15 @@ def def_dict_update(mol, def_dict, labels_info):
             def_dict.pop(key, None)
         if "Uncertainty availability" in key:
             def_dict.pop(key, None)
+        if "Uncertainties availability" in key:
+            def_dict.pop(key, None)
+        if "Quantum case label" in key:
+            df = pd.read_csv("other_materials/lib/def_summary.csv")
+            case_label = df[df["iso_slug"] == iso_slug]["quantum_case_label"].values
+            if len(case_label) > 0 and case_label[0] != "None":
+                def_dict["Quantum case label"] = case_label[0]
+            else:
+                error_log(f"Dataset: {filename} || No quantum case label found for iso-slug '{iso_slug}' in def_summary.csv", "Warn")
         if "Hyperfine resolved dataset" in key:
             def_dict.pop(key, None)
         if "In-ChI key of molecule" in key:
@@ -710,6 +719,7 @@ def slug_to_formula(slug):
         chars = list(part)
         chars.insert(0, '(')  # Insert '(' at the beginning
         chars.reverse()
+        first_alpha = 0
         for i, c in enumerate(chars):
             if c.isalpha():
                 first_alpha = i
@@ -886,8 +896,6 @@ def main():
         else:
             skipped_files.append(filename)
             continue
-
-
     if skipped_files:
         print(f"Skipped {len(skipped_files)} files due to missing or incomplete labels:")
         for filename in skipped_files:

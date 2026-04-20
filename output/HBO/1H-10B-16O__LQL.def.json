@@ -36,7 +36,7 @@
             "uncertainties_available": true,
             "lifetime_available": false,
             "lande_g_available": false,
-            "quantum_case_label": "nltcs",
+            "quantum_case_label": "lpcs",
             "num_quanta": 10,
             "num_quantum_types": 2,
             "states_file_fields": [

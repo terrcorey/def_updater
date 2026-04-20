@@ -11416,6 +11416,90 @@
         "mol": "NH",
         "iso_slug": "14N-1H",
         "doi": "10.1093/mnras/stae1340",
+        "linelist": "2kNigHt",
+        "ds_name": "14N-1H__2kNigHt",
+        "labels": [
+            {
+                "Quantum label": "ID",
+                "Format quantum label": "I12 %12d",
+                "Description quantum label": "Unique integer identifier for the energy level"
+            },
+            {
+                "Quantum label": "E",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "State energy in cm-1"
+            },
+            {
+                "Quantum label": "gtot",
+                "Format quantum label": "I6 %6d",
+                "Description quantum label": "Total energy level degeneracy"
+            },
+            {
+                "Quantum label": "J",
+                "Format quantum label": "I7 %7d",
+                "Description quantum label": "Total rotational quantum number, excluding nuclear spin"
+            },
+            {
+                "Quantum label": "unc",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Energy uncertainty in cm-1"
+            },
+            {
+                "Quantum label": "tau",
+                "Format quantum label": "ES12.4 %12.4e",
+                "Description quantum label": "Lifetime in s"
+            },
+            {
+                "Quantum label": "+/-",
+                "Format quantum label": "A1 %1s",
+                "Description quantum label": "Total parity: '+' or '-'"
+            },
+            {
+                "Quantum label": "e/f",
+                "Format quantum label": "A1 %1s",
+                "Description quantum label": "Rotationless-parity"
+            },
+            {
+                "Quantum label": "ElecState",
+                "Format quantum label": "A12 %12s",
+                "Description quantum label": "Electronic state"
+            },
+            {
+                "Quantum label": "v",
+                "Format quantum label": "I3 %3d",
+                "Description quantum label": "State vibrational quantum number"
+            },
+            {
+                "Quantum label": "hundb:Lambda",
+                "Format quantum label": "I5 %5d",
+                "Description quantum label": "Projection of electronic angular momentum"
+            },
+            {
+                "Quantum label": "hundb:N",
+                "Format quantum label": "I5 %5d",
+                "Description quantum label": "Rotational angular momentum"
+            },
+            {
+                "Quantum label": "hundb:F_i",
+                "Format quantum label": "A4 %4s",
+                "Description quantum label": "Spin component"
+            },
+            {
+                "Quantum label": "Auxiliary:SourceType",
+                "Format quantum label": "A2 %2s",
+                "Description quantum label": "Ma=MARVEL,Ca=Calculated,EH=Effective Hamiltonian,IE=Isotopologue extrapolation"
+            },
+            {
+                "Quantum label": "Auxiliary:Ecal",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Calculated energy in cm-1"
+            }
+        ]
+    },
+    {
+        "mol": "NH",
+        "iso_slug": "14N-1H",
+        "doi": "10.1093/mnras/stae1340",
         "linelist": "kNigHt",
         "ds_name": "14N-1H__kNigHt",
         "labels": [
@@ -11453,6 +11537,90 @@
                 "Quantum label": "gfactor",
                 "Format quantum label": "F10.6 %10.6f",
                 "Description quantum label": "Landé g-factor"
+            },
+            {
+                "Quantum label": "+/-",
+                "Format quantum label": "A1 %1s",
+                "Description quantum label": "Total parity: '+' or '-'"
+            },
+            {
+                "Quantum label": "e/f",
+                "Format quantum label": "A1 %1s",
+                "Description quantum label": "Rotationless-parity"
+            },
+            {
+                "Quantum label": "ElecState",
+                "Format quantum label": "A12 %12s",
+                "Description quantum label": "Electronic state"
+            },
+            {
+                "Quantum label": "v",
+                "Format quantum label": "I3 %3d",
+                "Description quantum label": "State vibrational quantum number"
+            },
+            {
+                "Quantum label": "hundb:Lambda",
+                "Format quantum label": "I5 %5d",
+                "Description quantum label": "Projection of electronic angular momentum"
+            },
+            {
+                "Quantum label": "hundb:N",
+                "Format quantum label": "I5 %5d",
+                "Description quantum label": "Rotational angular momentum"
+            },
+            {
+                "Quantum label": "hundb:F_i",
+                "Format quantum label": "A4 %4s",
+                "Description quantum label": "Spin component"
+            },
+            {
+                "Quantum label": "Auxiliary:SourceType",
+                "Format quantum label": "A2 %2s",
+                "Description quantum label": "Ma=MARVEL,Ca=Calculated,EH=Effective Hamiltonian,IE=Isotopologue extrapolation"
+            },
+            {
+                "Quantum label": "Auxiliary:Ecal",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Calculated energy in cm-1"
+            }
+        ]
+    },
+    {
+        "mol": "NH",
+        "iso_slug": "14N-2H",
+        "doi": "10.1093/mnras/stae1340",
+        "linelist": "2kNigHt",
+        "ds_name": "14N-2H__2kNigHt",
+        "labels": [
+            {
+                "Quantum label": "ID",
+                "Format quantum label": "I12 %12d",
+                "Description quantum label": "Unique integer identifier for the energy level"
+            },
+            {
+                "Quantum label": "E",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "State energy in cm-1"
+            },
+            {
+                "Quantum label": "gtot",
+                "Format quantum label": "I6 %6d",
+                "Description quantum label": "Total energy level degeneracy"
+            },
+            {
+                "Quantum label": "J",
+                "Format quantum label": "I7 %7d",
+                "Description quantum label": "Total rotational quantum number, excluding nuclear spin"
+            },
+            {
+                "Quantum label": "unc",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Energy uncertainty in cm-1"
+            },
+            {
+                "Quantum label": "tau",
+                "Format quantum label": "ES12.4 %12.4e",
+                "Description quantum label": "Lifetime in s"
             },
             {
                 "Quantum label": "+/-",
@@ -11594,6 +11762,90 @@
         "mol": "NH",
         "iso_slug": "15N-1H",
         "doi": "10.1093/mnras/stae1340",
+        "linelist": "2kNigHt",
+        "ds_name": "15N-1H__2kNigHt",
+        "labels": [
+            {
+                "Quantum label": "ID",
+                "Format quantum label": "I12 %12d",
+                "Description quantum label": "Unique integer identifier for the energy level"
+            },
+            {
+                "Quantum label": "E",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "State energy in cm-1"
+            },
+            {
+                "Quantum label": "gtot",
+                "Format quantum label": "I6 %6d",
+                "Description quantum label": "Total energy level degeneracy"
+            },
+            {
+                "Quantum label": "J",
+                "Format quantum label": "I7 %7d",
+                "Description quantum label": "Total rotational quantum number, excluding nuclear spin"
+            },
+            {
+                "Quantum label": "unc",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Energy uncertainty in cm-1"
+            },
+            {
+                "Quantum label": "tau",
+                "Format quantum label": "ES12.4 %12.4e",
+                "Description quantum label": "Lifetime in s"
+            },
+            {
+                "Quantum label": "+/-",
+                "Format quantum label": "A1 %1s",
+                "Description quantum label": "Total parity: '+' or '-'"
+            },
+            {
+                "Quantum label": "e/f",
+                "Format quantum label": "A1 %1s",
+                "Description quantum label": "Rotationless-parity"
+            },
+            {
+                "Quantum label": "ElecState",
+                "Format quantum label": "A12 %12s",
+                "Description quantum label": "Electronic state"
+            },
+            {
+                "Quantum label": "v",
+                "Format quantum label": "I3 %3d",
+                "Description quantum label": "State vibrational quantum number"
+            },
+            {
+                "Quantum label": "hundb:Lambda",
+                "Format quantum label": "I5 %5d",
+                "Description quantum label": "Projection of electronic angular momentum"
+            },
+            {
+                "Quantum label": "hundb:N",
+                "Format quantum label": "I5 %5d",
+                "Description quantum label": "Rotational angular momentum"
+            },
+            {
+                "Quantum label": "hundb:F_i",
+                "Format quantum label": "A4 %4s",
+                "Description quantum label": "Spin component"
+            },
+            {
+                "Quantum label": "Auxiliary:SourceType",
+                "Format quantum label": "A2 %2s",
+                "Description quantum label": "Ma=MARVEL,Ca=Calculated,EH=Effective Hamiltonian,IE=Isotopologue extrapolation"
+            },
+            {
+                "Quantum label": "Auxiliary:Ecal",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Calculated energy in cm-1"
+            }
+        ]
+    },
+    {
+        "mol": "NH",
+        "iso_slug": "15N-1H",
+        "doi": "10.1093/mnras/stae1340",
         "linelist": "kNigHt",
         "ds_name": "15N-1H__kNigHt",
         "labels": [
@@ -11631,6 +11883,90 @@
                 "Quantum label": "gfactor",
                 "Format quantum label": "F10.6 %10.6f",
                 "Description quantum label": "Landé g-factor"
+            },
+            {
+                "Quantum label": "+/-",
+                "Format quantum label": "A1 %1s",
+                "Description quantum label": "Total parity: '+' or '-'"
+            },
+            {
+                "Quantum label": "e/f",
+                "Format quantum label": "A1 %1s",
+                "Description quantum label": "Rotationless-parity"
+            },
+            {
+                "Quantum label": "ElecState",
+                "Format quantum label": "A12 %12s",
+                "Description quantum label": "Electronic state"
+            },
+            {
+                "Quantum label": "v",
+                "Format quantum label": "I3 %3d",
+                "Description quantum label": "State vibrational quantum number"
+            },
+            {
+                "Quantum label": "hundb:Lambda",
+                "Format quantum label": "I5 %5d",
+                "Description quantum label": "Projection of electronic angular momentum"
+            },
+            {
+                "Quantum label": "hundb:N",
+                "Format quantum label": "I5 %5d",
+                "Description quantum label": "Rotational angular momentum"
+            },
+            {
+                "Quantum label": "hundb:F_i",
+                "Format quantum label": "A4 %4s",
+                "Description quantum label": "Spin component"
+            },
+            {
+                "Quantum label": "Auxiliary:SourceType",
+                "Format quantum label": "A2 %2s",
+                "Description quantum label": "Ma=MARVEL,Ca=Calculated,EH=Effective Hamiltonian,IE=Isotopologue extrapolation"
+            },
+            {
+                "Quantum label": "Auxiliary:Ecal",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Calculated energy in cm-1"
+            }
+        ]
+    },
+    {
+        "mol": "NH",
+        "iso_slug": "15N-2H",
+        "doi": "10.1093/mnras/stae1340",
+        "linelist": "2kNigHt",
+        "ds_name": "15N-2H__2kNigHt",
+        "labels": [
+            {
+                "Quantum label": "ID",
+                "Format quantum label": "I12 %12d",
+                "Description quantum label": "Unique integer identifier for the energy level"
+            },
+            {
+                "Quantum label": "E",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "State energy in cm-1"
+            },
+            {
+                "Quantum label": "gtot",
+                "Format quantum label": "I6 %6d",
+                "Description quantum label": "Total energy level degeneracy"
+            },
+            {
+                "Quantum label": "J",
+                "Format quantum label": "I7 %7d",
+                "Description quantum label": "Total rotational quantum number, excluding nuclear spin"
+            },
+            {
+                "Quantum label": "unc",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Energy uncertainty in cm-1"
+            },
+            {
+                "Quantum label": "tau",
+                "Format quantum label": "ES12.4 %12.4e",
+                "Description quantum label": "Lifetime in s"
             },
             {
                 "Quantum label": "+/-",
@@ -11755,6 +12091,150 @@
                 "Quantum label": "hundb:F_i",
                 "Format quantum label": "A4 %4s",
                 "Description quantum label": "Spin component"
+            },
+            {
+                "Quantum label": "Auxiliary:SourceType",
+                "Format quantum label": "A2 %2s",
+                "Description quantum label": "Ma=MARVEL,Ca=Calculated,EH=Effective Hamiltonian,IE=Isotopologue extrapolation"
+            },
+            {
+                "Quantum label": "Auxiliary:Ecal",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Calculated energy in cm-1"
+            }
+        ]
+    },
+    {
+        "mol": "NH3",
+        "iso_slug": "14N-1H2-2H",
+        "doi": "",
+        "linelist": "CoYuTe",
+        "ds_name": "14N-1H2-2H__CoYuTe",
+        "labels": [
+            {
+                "Quantum label": "ID",
+                "Format quantum label": "I12 %12d",
+                "Description quantum label": "Unique integer identifier for the energy level"
+            },
+            {
+                "Quantum label": "E",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "State energy in cm-1"
+            },
+            {
+                "Quantum label": "gtot",
+                "Format quantum label": "I6 %6d",
+                "Description quantum label": "Total energy level degeneracy"
+            },
+            {
+                "Quantum label": "J",
+                "Format quantum label": "I7 %7d",
+                "Description quantum label": "Total rotational quantum number, excluding nuclear spin"
+            },
+            {
+                "Quantum label": "tau",
+                "Format quantum label": "ES12.4 %12.4e",
+                "Description quantum label": "Lifetime in s"
+            },
+            {
+                "Quantum label": "unc",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Energy uncertainty in cm-1"
+            },
+            {
+                "Quantum label": "Gtot",
+                "Format quantum label": "A6 %6s",
+                "Description quantum label": "Total symmetry in C2v(M)"
+            },
+            {
+                "Quantum label": "Herzberg:v1",
+                "Format quantum label": "I3 %3d",
+                "Description quantum label": "Normal mode symmetric stretch quantum number"
+            },
+            {
+                "Quantum label": "Herzberg:v2",
+                "Format quantum label": "I3 %3d",
+                "Description quantum label": "Normal mode symmetric inversion quantum number"
+            },
+            {
+                "Quantum label": "Herzberg:v3a",
+                "Format quantum label": "I3 %3d",
+                "Description quantum label": "Normal mode asymmetric stretch quantum number"
+            },
+            {
+                "Quantum label": "Herzberg:v3b",
+                "Format quantum label": "I3 %3d",
+                "Description quantum label": "Normal mode asymmetric stretch quantum number"
+            },
+            {
+                "Quantum label": "Herzberg:v4a",
+                "Format quantum label": "I3 %3d",
+                "Description quantum label": "Normal mode asymmetric bend quantum number"
+            },
+            {
+                "Quantum label": "Herzberg:v4b",
+                "Format quantum label": "I3 %3d",
+                "Description quantum label": "Normal mode asymmetric bend quantum number"
+            },
+            {
+                "Quantum label": "invpar",
+                "Format quantum label": "A3 %3s",
+                "Description quantum label": "Inversion parity (s or a)"
+            },
+            {
+                "Quantum label": "TROVE:Gvib",
+                "Format quantum label": "A3 %3s",
+                "Description quantum label": "Vibrational symmetry"
+            },
+            {
+                "Quantum label": "Herzberg:Ka",
+                "Format quantum label": "I3 %3d",
+                "Description quantum label": "Rotational quantum number Ka"
+            },
+            {
+                "Quantum label": "Herzberg:Kc",
+                "Format quantum label": "I3 %3d",
+                "Description quantum label": "Rotational quantum number Kc"
+            },
+            {
+                "Quantum label": "TROVE:Grot",
+                "Format quantum label": "A3 %3s",
+                "Description quantum label": "Rotational symmetry"
+            },
+            {
+                "Quantum label": "TROVE:Coef",
+                "Format quantum label": "F5.2 %5.2f",
+                "Description quantum label": "Coefficient with largest contribution"
+            },
+            {
+                "Quantum label": "TROVE:n1",
+                "Format quantum label": "I3 %3d",
+                "Description quantum label": "TROVE vibrational quantum number n1"
+            },
+            {
+                "Quantum label": "TROVE:n2",
+                "Format quantum label": "I3 %3d",
+                "Description quantum label": "TROVE vibrational quantum number n2"
+            },
+            {
+                "Quantum label": "TROVE:n3",
+                "Format quantum label": "I3 %3d",
+                "Description quantum label": "TROVE vibrational quantum number n3"
+            },
+            {
+                "Quantum label": "TROVE:n4",
+                "Format quantum label": "I3 %3d",
+                "Description quantum label": "TROVE vibrational quantum number n4"
+            },
+            {
+                "Quantum label": "TROVE:n5",
+                "Format quantum label": "I3 %3d",
+                "Description quantum label": "TROVE vibrational quantum number n5"
+            },
+            {
+                "Quantum label": "TROVE:n6",
+                "Format quantum label": "I3 %3d",
+                "Description quantum label": "TROVE vibrational quantum number n6"
             },
             {
                 "Quantum label": "Auxiliary:SourceType",
@@ -11904,6 +12384,155 @@
                 "Quantum label": "TROVE:Gvib",
                 "Format quantum label": "A3 %3s",
                 "Description quantum label": "Vibrational symmetry"
+            },
+            {
+                "Quantum label": "Auxiliary:SourceType",
+                "Format quantum label": "A2 %2s",
+                "Description quantum label": "Ma=MARVEL,Ca=Calculated,EH=Effective Hamiltonian,IE=Isotopologue extrapolation"
+            },
+            {
+                "Quantum label": "Auxiliary:Ecal",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Calculated energy in cm-1"
+            }
+        ]
+    },
+    {
+        "mol": "NH3",
+        "iso_slug": "14N-2H2-1H",
+        "doi": "",
+        "linelist": "CoYuTe",
+        "ds_name": "14N-2H2-1H__CoYuTe",
+        "labels": [
+            {
+                "Quantum label": "ID",
+                "Format quantum label": "I12 %12d",
+                "Description quantum label": "Unique integer identifier for the energy level"
+            },
+            {
+                "Quantum label": "E",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "State energy in cm-1"
+            },
+            {
+                "Quantum label": "gtot",
+                "Format quantum label": "I6 %6d",
+                "Description quantum label": "Total energy level degeneracy"
+            },
+            {
+                "Quantum label": "J",
+                "Format quantum label": "I7 %7d",
+                "Description quantum label": "Total rotational quantum number, excluding nuclear spin"
+            },
+            {
+                "Quantum label": "tau",
+                "Format quantum label": "ES12.4 %12.4e",
+                "Description quantum label": "Lifetime in s"
+            },
+            {
+                "Quantum label": "unc",
+                "Format quantum label": "F12.6 %12.6f",
+                "Description quantum label": "Energy uncertainty in cm-1"
+            },
+            {
+                "Quantum label": "Gtot",
+                "Format quantum label": "A6 %6s",
+                "Description quantum label": "Total symmetry in C2v(M)"
+            },
+            {
+                "Quantum label": "Herzberg:v1",
+                "Format quantum label": "I3 %3d",
+                "Description quantum label": "Normal mode symmetric stretch quantum number"
+            },
+            {
+                "Quantum label": "Herzberg:v2",
+                "Format quantum label": "I3 %3d",
+                "Description quantum label": "Normal mode symmetric inversion quantum number"
+            },
+            {
+                "Quantum label": "Herzberg:v3a",
+                "Format quantum label": "I3 %3d",
+                "Description quantum label": "Normal mode asymmetric stretch (Cartesian) quantum number"
+            },
+            {
+                "Quantum label": "Herzberg:v3b",
+                "Format quantum label": "I3 %3d",
+                "Description quantum label": "Normal mode asymmetric stretch (Cartesian) quantum number"
+            },
+            {
+                "Quantum label": "Herzberg:v4a",
+                "Format quantum label": "I3 %3d",
+                "Description quantum label": "Normal mode asymmetric bend (Cartesian) quantum number"
+            },
+            {
+                "Quantum label": "Herzberg:v4b",
+                "Format quantum label": "I3 %3d",
+                "Description quantum label": "Normal mode asymmetric bend (Cartesian) quantum number"
+            },
+            {
+                "Quantum label": "invpar",
+                "Format quantum label": "A3 %3s",
+                "Description quantum label": "Inversion parity (s or a)"
+            },
+            {
+                "Quantum label": "TROVE:Gvib",
+                "Format quantum label": "A3 %3s",
+                "Description quantum label": "Vibrational symmetry"
+            },
+            {
+                "Quantum label": "Herzberg:Ka",
+                "Format quantum label": "I3 %3d",
+                "Description quantum label": "Rotational quantum number Ka"
+            },
+            {
+                "Quantum label": "Herzberg:Kc",
+                "Format quantum label": "I3 %3d",
+                "Description quantum label": "Rotational quantum number Kc"
+            },
+            {
+                "Quantum label": "TROVE:Grot",
+                "Format quantum label": "A3 %3s",
+                "Description quantum label": "Rotational symmetry"
+            },
+            {
+                "Quantum label": "TROVE:Coef",
+                "Format quantum label": "F5.2 %5.2f",
+                "Description quantum label": "Coefficient with largest contribution"
+            },
+            {
+                "Quantum label": "TROVE:n1",
+                "Format quantum label": "I3 %3d",
+                "Description quantum label": "TROVE vibrational quantum number n1"
+            },
+            {
+                "Quantum label": "TROVE:n2",
+                "Format quantum label": "I3 %3d",
+                "Description quantum label": "TROVE vibrational quantum number n2"
+            },
+            {
+                "Quantum label": "TROVE:n3",
+                "Format quantum label": "I3 %3d",
+                "Description quantum label": "TROVE vibrational quantum number n3"
+            },
+            {
+                "Quantum label": "TROVE:n4",
+                "Format quantum label": "I3 %3d",
+                "Description quantum label": "TROVE vibrational quantum number n4"
+            },
+            {
+                "Quantum label": "TROVE:n5",
+                "Format quantum label": "I3 %3d",
+                "Description quantum label": "TROVE vibrational quantum number n5"
+            },
+            {
+                "Quantum label": "TROVE:n6",
+                "Format quantum label": "I3 %3d",
+                "Description quantum label": "TROVE vibrational quantum number n6"
+            },
+            {
+                "Quantum label": "Auxiliary:SourceType",
+                "Format quantum label": "A2 %2s",
+                "Description quantum label": "Ma=MARVEL,Ca=Calculated,EH=Effective Hamiltonian,IE=Isotopologue extrapolation"
             },
             {
                 "Quantum label": "Auxiliary:Ecal",

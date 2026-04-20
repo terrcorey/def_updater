@@ -32,7 +32,7 @@ A2u                                                                             
 1                                                                               # Uncertainty availability (1=yes, 0=no)
 1                                                                               # Lifetime availability (1=yes, 0=no)
 0                                                                               # Lande g-factor availability (1=yes, 0=no)
-stcs                                                                            # Quantum case label
+lpcs                                                                            # Quantum case label
 2                                                                               # No. of quantum number types
 13                                                                              # No. of quanta defined
 Gtot                                                                            # Quantum label 1

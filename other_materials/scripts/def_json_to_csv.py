@@ -37,9 +37,6 @@ def extract_wanted_info(data):
         "doi",
         "max_temperature",
         "num_pressure_broadeners",
-        "nxsec_files",
-        "nkcoeff_files",
-        "dipole_available",
         "cooling_function_available",
         "specific_heat_available",
         "continuum"
@@ -47,10 +44,13 @@ def extract_wanted_info(data):
     dataset_dict = extract_keys(dataset_info, keys_to_extract)
 
     hyperfine_info = {
-        "hyperfine_resolved_dataset":dataset_info.get("states", {}).get("hyperfine_resolved_dataset", {})
+        "hyperfine_resolved_dataset":dataset_info.get("states", {}).get("hyperfine_resolved_dataset", {}),
+        "lifetime_available":dataset_info.get("states", {}).get("lifetime_available", {}),
+        "uncertainties_available":dataset_info.get("states", {}).get("uncertainties_available", {}),
+        "quantum_case_label":dataset_info.get("states", {}).get("quantum_case_label", {}),
         }
     
-    combined_dict = {**iso_dict, **dataset_dict, **hyperfine_info}
+    combined_dict = {**iso_dict, **hyperfine_info, **dataset_dict}
     return combined_dict 
 
 if __name__ == "__main__":

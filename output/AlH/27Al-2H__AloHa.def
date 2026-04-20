@@ -27,7 +27,7 @@ Sigma-                                                                          
 1                                                                               # Uncertainty availability (1=yes, 0=no)
 1                                                                               # Lifetime availability (1=yes, 0=no)
 1                                                                               # Lande g-factor availability (1=yes, 0=no)
-dos                                                                             # Quantum case label
+dcs                                                                             # Quantum case label
 1                                                                               # No. of quantum number types
 7                                                                               # No. of quanta defined
 +/-                                                                             # Quantum label 1

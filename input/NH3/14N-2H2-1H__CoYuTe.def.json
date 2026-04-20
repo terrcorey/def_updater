@@ -1,0 +1,223 @@
+{
+    "isotopologue": {
+        "iso_formula": "(14N)(2H)2(1H)",
+        "iso_slug": "14N-2H2-1H",
+        "inchi": "InChI=1S/H3N/h1H3/i/hD2",
+        "inchikey": "QGZKDVFQNNGYKY-ZSJDYOACSA-N",
+        "cas_registry_number": "13780-28-4",
+        "mass_in_Da": 19.03910259,
+        "point_group": "C2v"
+    },
+    "atoms": {
+        "number_of_atoms": 4,
+        "element": {
+            "N": 14,
+            "H": 2
+        }
+    },
+    "irreducible_representations": {
+        "A1": 24,
+        "A2": 24,
+        "B1": 12,
+        "B2": 12
+    },
+    "dataset": {
+        "name": "CoYuTe",
+        "version": 20260410,
+        "doi": "",
+        "max_temperature": 1000.0,
+        "num_pressure_broadeners": 0,
+        "cooling_function_available": false,
+        "specific_heat_available": false,
+        "continuum": false,
+        "states": {
+            "number_of_states": 6829277,
+            "max_energy": 17999.999955,
+            "hyperfine_resolved_dataset": false,
+            "uncertainty_description": null,
+            "uncertainties_available": true,
+            "lifetime_available": true,
+            "lande_g_available": false,
+            "quantum_case_label": "asymcs",
+            "num_quanta": 19,
+            "num_quantum_types": 2,
+            "states_file_fields": [
+                {
+                    "name": "ID",
+                    "desc": "Unique integer identifier for the energy level",
+                    "ffmt": "I12",
+                    "cfmt": "%12d"
+                },
+                {
+                    "name": "E",
+                    "desc": "State energy in cm-1",
+                    "ffmt": "F12.6",
+                    "cfmt": "%12.6f"
+                },
+                {
+                    "name": "gtot",
+                    "desc": "Total energy level degeneracy",
+                    "ffmt": "I6",
+                    "cfmt": "%6d"
+                },
+                {
+                    "name": "J",
+                    "desc": "Total rotational quantum number, excluding nuclear spin",
+                    "ffmt": "I7",
+                    "cfmt": "%7d"
+                },
+                {
+                    "name": "unc",
+                    "desc": "Energy uncertainty in cm-1",
+                    "ffmt": "F12.6",
+                    "cfmt": "%12.6f"
+                },
+                {
+                    "name": "tau",
+                    "desc": "Lifetime in s",
+                    "ffmt": "ES12.4",
+                    "cfmt": "%12.4e"
+                },
+                {
+                    "name": "Gtot",
+                    "ffmt": "A3",
+                    "cfmt": "%3s",
+                    "desc": "Total symmetry"
+                },
+                {
+                    "name": "Herzberg:v1",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "Normal mode symmetric stretch quantum number"
+                },
+                {
+                    "name": "Herzberg:v2",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "Normal mode symmetric inversion quantum number"
+                },
+                {
+                    "name": "Herzberg:v3a",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "Normal mode asymmetric stretch (Cartesian) quantum number"
+                },
+                {
+                    "name": "Herzberg:v3b",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "Normal mode asymmetric stretch (Cartesian) quantum number"
+                },
+                {
+                    "name": "Herzberg:v4a",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "Normal mode asymmetric bend (Cartesian) quantum number"
+                },
+                {
+                    "name": "Herzberg:v4b",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "Normal mode asymmetric bend (Cartesian) quantum number"
+                },
+                {
+                    "name": "invpar",
+                    "ffmt": "A1",
+                    "cfmt": "%1s",
+                    "desc": "Inversional parity"
+                },
+                {
+                    "name": "TROVE:Gvib",
+                    "ffmt": "A3",
+                    "cfmt": "%3s",
+                    "desc": "Vibrational symmetry"
+                },
+                {
+                    "name": "Herzberg:Ka",
+                    "ffmt": "I2",
+                    "cfmt": "%2d",
+                    "desc": "Ka rotational quantum number"
+                },
+                {
+                    "name": "Herzberg:Kc",
+                    "ffmt": "I2",
+                    "cfmt": "%2d",
+                    "desc": "Kc rotational quantum number"
+                },
+                {
+                    "name": "TROVE:Grot",
+                    "ffmt": "A3",
+                    "cfmt": "%3s",
+                    "desc": "Rotational symmetry"
+                },
+                {
+                    "name": "TROVE:Coef",
+                    "ffmt": "F5.2",
+                    "cfmt": "%5.2f",
+                    "desc": "Coefficient with the largest contribution"
+                },
+                {
+                    "name": "TROVE:n1",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "TROVE vibrational quantum number n1"
+                },
+                {
+                    "name": "TROVE:n2",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "TROVE vibrational quantum number n2"
+                },
+                {
+                    "name": "TROVE:n3",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "TROVE vibrational quantum number n3"
+                },
+                {
+                    "name": "TROVE:n4",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "TROVE vibrational quantum number n4"
+                },
+                {
+                    "name": "TROVE:n5",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "TROVE vibrational quantum number n5"
+                },
+                {
+                    "name": "TROVE:n6",
+                    "ffmt": "I3",
+                    "cfmt": "%3d",
+                    "desc": "TROVE vibrational quantum number n6"
+                },
+                {
+                    "name": "Auxiliary:SourceType",
+                    "ffmt": "A2",
+                    "cfmt": "%2s",
+                    "desc": "Ma=MARVEL,Ca=Calculated,EH=Effective Hamiltonian,IE=Isotopologue extrapolation"
+                },
+                {
+                    "name": "Auxiliary:Ecal",
+                    "ffmt": "F12.6",
+                    "cfmt": "%12.6f",
+                    "desc": "Calculated energy in cm-1"
+                }
+            ]
+        },
+        "transitions": {
+            "number_of_transitions": 4791272445,
+            "number_of_transition_files": 10,
+            "max_wavenumber": 10000.0
+        }
+    },
+    "partition_function": {
+        "max_partition_function_temperature": 2000.0,
+        "partition_function_step_size": 1.0
+    },
+    "broad": {
+        "default_Lorentzian_half-width": null,
+        "default_temperature_exponent": null
+    }
+}
